@@ -19,7 +19,7 @@ relationships to what you created in the prior practice. If you haven’t
 completed that practice you should pause this practice and complete that first.
 
 The following is the data model you are building. At this point all the entities
-are created and you are ready to create the relationships. **Please refer to the file labeled Image[MB-200]_M02L02_Creating_Entities_Fields.png in the Lab Resources to view the entity relationship diagram.**
+are created and you are ready to create the relationships. Please refer to the file labeled **LAB[PL-200]_Data_Model** in the Lab Resources to view the entity relationship diagram.
 
 The following relationships need to be created.
 
