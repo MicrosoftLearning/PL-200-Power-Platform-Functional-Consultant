@@ -1,0 +1,86 @@
+---
+lab:
+    title: 'Lab: Bulk delete'
+    module: 'Module 6: Analyze data with Power BI'
+---
+
+Module 6: Analyze data with Power BI
+=======================
+
+## Lab 6: Practice Lab – Bulk delete
+
+Scenario
+--------
+
+You are a functional consultant working on the Fabrikam project. Your client
+wants you implement some automatic data cleanup of stale data. You have been
+asked to delete any Knowledge Assessment that is over 6 months past its end
+date. You will be using the Bulk Delete feature of the Common Data Service.
+
+Exercise 1 – Bulk Delete
+------------------------
+
+In this exercise, you will create a bulk deletion operation that will delete all
+Knowledge Assessment records with an End Date older than 6 months, this
+operation will run every 7 days.
+
+### Task 1 – Create Bulk Delete Operation
+
+In this task, you will create a bulk deletion operation.
+
+1.  Navigate to <https://admin.powerplatform.microsoft.com>.
+
+2.  Select your **Practice** environment.
+
+3.  Click **Settings**.
+
+4.  Go to the **Data Management** section and click **Bulk Deletion**.
+
+5.  Click **New**.
+
+6.  Click **Next**.
+
+7.  Select **Knowledge Assessments** from the **Look for** dropdown.
+
+8.  Click **Select** and choose the **End date** field.
+
+9.  Select **Older than X Months**.
+
+10. Enter **6** and click **Next**.
+
+11. Change the **Name** to **Delete Old Assessments**.
+
+12. Select to run **At Scheduled Time.**
+
+13. Select today’s date for **Date** and select **10 Minutes** in to the future
+    for **Time**.
+
+14. Check the **Run this Job After Every** checkbox.
+
+15. Select **7 Days**.
+
+16. Check the **Send an Email…** checkbox and click **Next**.
+
+17. Click **Submit**.
+
+18. Wait for the job to be created. This can take few minutes. Refresh the view as needed.
+
+### Task 2 – Test Bulk Deletion
+
+In this task, you will test the bulk delete operation you created.
+
+1.  Navigate to <https://make.powerapps.com/> and make sure you are in your **Practice** environment.
+
+2.  Select **Apps**.
+
+3.  Locate and click to open the **Knowledge Admin** application.
+
+4.  Select **Knowledge Assessments.**
+
+5.  Click to open one of the **Knowledge Assessment** records.
+
+6.  Change the **End Date** to **Seven Months** in the past.
+
+7.  Click **Save**.
+
+8. Wait for the bulk delete job to complete at the designated time. The record will be deleted.
