@@ -1,13 +1,13 @@
 ---
 lab:
     title: 'Lab: Export data'
-    module: 'Module 13: Managing Data'
+    module: 'Module 6: Analyze data with Power BI'
 ---
 
-Module 13: Managing Data
+Module 6: Analyze data with Power BI
 =======================
 
-## Lesson 7: Practice Lab – Export data
+## Lab 5: Practice Lab – Export data
 
 Scenario
 --------
