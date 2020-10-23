@@ -1,10 +1,10 @@
 ---
 lab:
     title: 'Lab: Creating an app'
-    module: 'Module 1: Introduction to the Power Platform'
+    module: 'Module 2: Work with the Common Data Service'
 ---
 
-Module 1: Introduction to the Power Platform
+Module 2: Work with the Common Data Service
 =================================
 
 ## Lab 1: Practice Lab – Creating an app
