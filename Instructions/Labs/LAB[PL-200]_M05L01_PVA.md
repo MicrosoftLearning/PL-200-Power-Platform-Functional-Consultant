@@ -24,26 +24,20 @@ In this exercise, you will acquire a PVA trial and create a bot.
 
 ### Task 1 – Sign up for a PVA trial
 
-1.  Navigate to [Power Virtual Agents](https://powerva.microsoft.com/) select
-    your country/region and click **Start Trial**. If your working in an
-    environment with Power Virtual Agents already in action, you might see a
-    screen like the second image.
+1.  Navigate to https://powerva.microsoft.com/. Select
+    your country/region and click **Start free trial**. 
 
 2.  Enter **Customer service bot** for **Name**, select your **Language**,
-    select your environment, and click **Create**. Make sure you do not have the
-    default environment selected.
+    select your **Practice** environment, and click **Create**. 
 
 3.  Wait for the bot to be created. It might take a few minutes to complete.
 
-4.  Click **Explore Bot**, If prompted.
+4.  Click **Explore Bot**, if prompted.
 
 Exercise 2 – Create custom entities to capture information
 --------------------------
 
 ### Task 1: Create support categories entity
-
-In this task, you will create a new entity named support categories that has
-three items, order question, delivery and setup, and weather related.
 
 1.  Select **Entities**.
 
@@ -57,8 +51,8 @@ three items, order question, delivery and setup, and weather related.
 
 6.  Enter **Weather related** as an item and click **Add**.
 
-7.  Support category custom entity should now have three items. Make sure
-    **Start matching** is turned on and click **Save**.
+7.  The **Support categories** custom entity should now have three items. Make sure
+    **Smart matching** is turned on via the toggle and click **Save**.
 
 8.  Click **Close**.
 
@@ -73,8 +67,8 @@ three items, order question, delivery and setup, and weather related.
 
 4.  Enter **Cancel order** as an item and click **Add**.
 
-5.  The order custom entity should now have two items. Make sure **Smart
-    matching** is turned on and click **Save**.
+5.  The **Order** custom entity should now have two items. Make sure **Smart
+    matching** is turned on via the toggle and click **Save**.
 
 6.  Click **Close**.
 
@@ -83,6 +77,7 @@ Exercise 3 – Design a Conversation path with Topics
 --------------------------
 
 ### Task 1: Create a Cancel Order Topic
+
 1.  Select **Topics** and click **+ New topic**.
 
 2.  Enter **Cancel order** for Name, enter **Cancel order** as a trigger phrase
@@ -93,16 +88,15 @@ Exercise 3 – Design a Conversation path with Topics
 4.  The **Cancel order** topic should now have two trigger phrases. Click **Go
     to authoring canvas**.
 
-5.  Enter **Orders must be canceled at least 48 hours before you scheduled
-    event. Your deposit will not be refunded** for **Message** and click **Add
-    node**. Note: when you copy and paste from the lab, you may see some styling
+5.  Enter **Orders must be canceled at least 48 hours before your scheduled
+    event. Your deposit will not be refunded.** for **Message** and click the **plus (add node)** button. Note: when you copy and paste from the lab, you may see some styling
     in the canvas. Feel free to keep the styling or change it to your
     preferences.
 
 6.  Select **Show a message**.
 
-7.  Enter **Only live agents can process a cancelation request** for **Message**
-    and click **Add node.**
+7.  Enter **Only live agents can process a cancellation request.** for **Message**
+    and click the **plus (add node)** sign again.
 
 8.  Select **Ask a question**.
 
@@ -111,12 +105,12 @@ Exercise 3 – Design a Conversation path with Topics
 
 10. Enter **No** as the second option. You should now have two conditions.
 
-11. Go to the **Yes** branch and click **Add node**.
+11. Go to the **Yes** branch and click the **add node** button.
 
 12. Hover over the **End the conversation** option and select **Transfer to
     agent**.
 
-13. Enter **Customer would like to cancel order** for **Private message to
+13. Enter **Customer would like to cancel order.** for **Private message to
     agent**.
 
 14. Go to the **No** branch and click **Add node**.
@@ -125,9 +119,10 @@ Exercise 3 – Design a Conversation path with Topics
 
 16. Enter **Can I help you with anything else?** for **Message**.
 
-17. The two branches should now look like the image below. Click **Save**.
+17. Click **Save**.
 
-### Task 2: Create a new order topic
+### Task 2: Create a New order topic
+
 1.  Select **Topics** and click **+ New topic**.
 
 2.  Enter **New order** for **Name**, enter **New order** as a trigger phrase
@@ -140,24 +135,25 @@ Exercise 3 – Design a Conversation path with Topics
 5.  The New order topic should now have three trigger phrases. Click **Go to
     authoring canvas**.
 
-6.  Enter **Be advised that all new orders required a non-refundable \$100.00
-    deposit that will be applied to your total order cost** for **Message** and
-    click **Add node**.
+6.  Enter **Be advised that all new orders require a non-refundable $100.00
+    deposit that will be applied to your total order cost.** for **Message** and
+    click **add node**.
 
 7.  Select **Show a message**.
 
-8.  Enter **Let me transfer you to an agent to process your request** for
-    Message and click Add node.
+8.  Enter **Let me transfer you to an agent to process your request.** for
+    Message and click **add node.**
 
 9.  Hover over the **End the conversation** option and select **Transfer to
     agent**.
 
-10. Enter **Customer would like to place an order** for **Private message to
+10. Enter **Customer would like to place an order.** for **Private message to
     agent**.
 
 11. The New order topic should now have three nodes. Click **Save**.
 
 ### Task 3: Create a check weather topic
+
 1.  Select **Topics** and click **+ New topic**.
 
 2.  Enter **Check weather** for **Name**, enter **Weather** as a trigger phrase
@@ -174,15 +170,15 @@ Exercise 3 – Design a Conversation path with Topics
 7.  The Check weather topic should now have five trigger phrases. Click **Go to
     authoring canvas**.
 
-8.  Enter **I can help you with that, I just need some additional information**
-    for **Message** and click **Add node**.
+8.  Enter **I can help you with that. I just need some additional information.**
+    for **Message** and click **add node**.
 
 9.  Select **Ask a question**.
 
-10. Enter **What City do you live in?** click **Identify** and select **User’s
+10. Enter **What city do you live in?** click **Identify** and select **User’s
     entire response**.
 
-11. Click **Edit** variable.
+11. Click the pencil under **Save response as** to edit the variable.
 
 12. Enter **City** for **Name** and close the **Variable properties** pane.
 
@@ -190,26 +186,26 @@ Exercise 3 – Design a Conversation path with Topics
 
 14. Select **Ask a question**.
 
-15. Enter **What is your postal code?** click **Identify** and select **User’s
+15. Enter **What is your postal code?** Click **Identify** and select **User’s
     entire response**.
 
-16. Click **Edit variable**.
+16. Click the **pencil** icon again to edit the variable.
 
 17. Enter **ZipCode** for **Name** and close the **Variable properties** pane.
 
-18. Click **Add note**.
+18. Click **add node**.
 
 19. Select **Call an action** and select **Create a flow**.
 
-20. Power automate should open on a new browser window or tab.
+20. Power Automate should open on a new browser window or tab.
 
 21. Select your **country/region** and click **Get started**, if prompted.
 
-22. Click **+ Add an input**.
+22. Click **+ Add an input** and select **Text.**
 
-23. Select Text.
+23. Select the first box and enter **City.**
 
-24. Enter **City**, enter Provide city, and click **+ Add an input** again.
+24. In the second box, enter **Provide city** and click **+ Add an input** again.
 
 25. Select **Text** again.
 
@@ -223,7 +219,7 @@ Exercise 3 – Design a Conversation path with Topics
 
 29. Search for msn and select **Get forecast for today**.
 
-30. Click on the Location field, go to the Dynamic content pane and select City,
+30. Click on the Location field, go to the Dynamic content pane, and select **City**.
 
 31. Add comma after the city and then select **Zip code** form the Dynamic
     content pane.
@@ -243,21 +239,21 @@ Exercise 3 – Design a Conversation path with Topics
 
 38. Select **Text**.
 
-39. Enter **Location** for **Name**, click on the **Location** field and select
+39. Enter **Location** for **Name**. In the second text box, select
     **Location** from the Dynamic content pane.
 
 40. Click **Add an output** again.
 
 41. Select **Text**.
 
-42. Enter **Chance_of_rain** for **Name**, click on the **Chance of rain** field
+42. Enter **Chance_of_rain** for **Name**, click on the second text box,
     and select **Rain chance** from the Dynamic content pane.
 
-43. Rename the flow to **Check weather** and click **Save**.
+43. Rename the flow to **Check weather** by selecting the current name in the upper left corner of the editor. Click **Save**.
 
 44. Wait for the flow to be saved.
 
-45. Go back to **Power Virtual Agents**.
+45. Go back to your **Power Virtual Agents** tab.
 
 46. Click **Add node**.
 
@@ -272,15 +268,13 @@ Exercise 3 – Design a Conversation path with Topics
 
 51. Select **Show a message**.
 
-52. Click **Insert a variable**.
+52. Click the **{x}** button to insert a variable.
 
 53. Select **Day_Summary**.
 
-54. Type **with a chance of** and insert **Chance_of_Rain** variable.
+54. Type **with a* and insert **Chance_of_Rain** variable.
 
-55. Type **percent of rain in** and insert **Location** variable.
-
-56. The **Message** should now look like the image below.
+55. Type **percent chacne of rain in** and insert **Location** variable. Add a period after the location variable to end your sentence.
 
 57. Click **Save** to save the topic.
 
