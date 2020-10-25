@@ -88,7 +88,7 @@ Exercise 3 – Design a Conversation path with Topics
 4.  The **Cancel order** topic should now have two trigger phrases. Click **Go
     to authoring canvas**.
 
-5.  Enter **Orders must be canceled at least 48 hours before your scheduled
+5.  Enter **Orders must be cancelled at least 48 hours before your scheduled
     event. Your deposit will not be refunded.** for **Message** and click the **plus (add node)** button. Note: when you copy and paste from the lab, you may see some styling
     in the canvas. Feel free to keep the styling or change it to your
     preferences.
@@ -197,7 +197,7 @@ Exercise 3 – Design a Conversation path with Topics
 
 19. Select **Call an action** and select **Create a flow**.
 
-20. Power Automate should open on a new browser window or tab.
+20. Power Automate should open in a new browser window or tab.
 
 21. Select your **country/region** and click **Get started**, if prompted.
 
@@ -207,9 +207,7 @@ Exercise 3 – Design a Conversation path with Topics
 
 24. In the second box, enter **Provide city** and click **+ Add an input** again.
 
-25. Select **Text** again.
-
-26. Enter **Zip code** and enter **Provide zip code**.
+26. Enter **Zip code** in the first text box and enter **Provide zip code** in the second text box.
 
 27. Hover over between the flow trigger and the step, and then click on the
     **+** button. You are adding a step between the trigger and the return
@@ -226,28 +224,28 @@ Exercise 3 – Design a Conversation path with Topics
 
 32. Select your preferred units. For this lab, we are selecting **Imperial**.
 
-33. Click to expand the **Return value(s) to Power Virtual** Agents step.
+33. Click to expand the **Return value(s) to Power Virtual Agents** step.
 
 34. Click **+ Add an output**.
 
 35. Select **Text**.
 
-36. Enter **Day_Summary** for name, click on the **Day_summary** field and
+36. Enter **Day_Summary** in the first box. In the second box,
     select **Day Summary** from the Dynamic content pane.
 
 37. Click **Add an output**.
 
 38. Select **Text**.
 
-39. Enter **Location** for **Name**. In the second text box, select
+39. Enter **Location** in the first box. In the second text box, select
     **Location** from the Dynamic content pane.
 
 40. Click **Add an output** again.
 
 41. Select **Text**.
 
-42. Enter **Chance_of_rain** for **Name**, click on the second text box,
-    and select **Rain chance** from the Dynamic content pane.
+42. Enter **Chance_of_rain** in the first box. Click on the second text box
+    and select **Rain Chance** from the Dynamic content pane.
 
 43. Rename the flow to **Check weather** by selecting the current name in the upper left corner of the editor. Click **Save**.
 
@@ -272,13 +270,14 @@ Exercise 3 – Design a Conversation path with Topics
 
 53. Select **Day_Summary**.
 
-54. Type **with a* and insert **Chance_of_Rain** variable.
+54. Type a space. Then type **There is a**, another space, and then insert the **Chance_of_Rain** variable.
 
-55. Type **percent chacne of rain in** and insert **Location** variable. Add a period after the location variable to end your sentence.
+55. Type another space, type **percent chance of rain in**, enter another space, and then insert the **Location** variable. Add a period after the location variable to end your sentence.
 
 57. Click **Save** to save the topic.
 
 ### Task 4: Create a delivery and set-up topic
+
 1.  Select **Topics** and click **+ New topic**.
 
 2.  Enter **Delivery and setup** for **Name**.
@@ -288,7 +287,7 @@ Exercise 3 – Design a Conversation path with Topics
 4.  Enter **When will my order be delivered** as a trigger phrase and click
     **Add**.
 
-5.  Enter **Who will setup the items** as a trigger phrase and click **Add**.
+5.  Enter **Who will set up the items** as a trigger phrase and click **Add**.
 
 6.  Enter **Who will remove the items** as a trigger phrase and click **Add**.
 
@@ -301,21 +300,22 @@ Exercise 3 – Design a Conversation path with Topics
 10. The Delivery and setup topic should now have seven trigger phrases. Click
     **Go to authoring canvas**.
 
-11. Enter **Items are delivered 1 hour before your scheduled event** for
+11. Enter **Items are delivered one hour before your scheduled event.** for
     **Message** and click **Add node**.
 
 12. Select **Show a message**.
 
-13. Enter **Two delivery people will come and setup your items** for **Message**
+13. Enter **2 delivery people will come and set up your items** for **Message**
     and click **Add node.**
 
 14. Select **Show a message**.
 
-15. Entre **What else can I assist with?** for **Message**.
+15. Enter **What else can I assist with?** for **Message**.
 
 16. Click **Save** to save the topic.
 
 ### Task 5: Add an order topic
+
 1.  Select **Topics** and click **+ New topic**.
 
 2.  Enter **Order** for **Name**.
@@ -324,11 +324,11 @@ Exercise 3 – Design a Conversation path with Topics
 
 4.  Click **Go to authoring canvas**.
 
-5.  Enter **I can help you with that** for Message and click Add node.
+5.  Enter **I can help you with that.** for Message and click **add node.**
 
 6.  Select **Ask a question**.
 
-7.  Enter **What do you want to do?** enter **Place an order** for the first
+7.  Enter **What do you want to do?** in the question box. Enter **Place an order** for the first
     option and click **+ New option.**
 
 8.  Enter **Cancel order** for the second option.
@@ -346,22 +346,20 @@ Exercise 3 – Design a Conversation path with Topics
 
 14. Select the **Cancel order** topic you created.
 
-15. Your condition branches should now look like the image below. Click **Save**
-    to save the topic.
-
-16. Wait for the topic to be saved.
+15. Click **Save** to save the topic.
 
 ### Task 6: Modify greeting system topic
+
 1.  Select **Topics**.
 
 2.  Search for **greeting**, hover over the **Greeting** topic and click **Go to
     authoring canvas**.
 
 3.  Replace the first message with **Hi! I am a virtual agent here to help with
-    questions ranging from ordering questions, to weather related questions**.
+    questions ranging from ordering questions to weather-related questions.**
 
 4.  Replace the second message with **If you would like to speak to a human at
-    any time, just let me know**.
+    any time, just let me know.**
 
 5.  Click on the **… Options** button of the last message and click **Delete**.
 
@@ -375,7 +373,7 @@ Exercise 3 – Design a Conversation path with Topics
 
 10. Enter **Delivery and setup** and click **+ New option** again.
 
-11. Enter **Weather related** for the third option.
+11. Enter **Weather-related** for the third option.
 
 12. You should have three condition branches. Go to the **Order questions**
     branch and click **Add node**.
@@ -384,19 +382,19 @@ Exercise 3 – Design a Conversation path with Topics
 
 14. Select the **Order** topic you created.
 
-15. Go to the **Deliver and setup** branch and click **Add node**.
+15. Go to the **Delivery and setup** branch and click **Add node**.
 
 16. Select **Go to another topic**.
 
 17. Select the **Delivery and setup** topic you created.
 
-18. Go to the **Weather related** branch and click **Add node**.
+18. Go to the **Weather-related** branch and click **Add node**.
 
 19. Select **Go to another topic**.
 
-20. Select the **Check Weather** topic you created.
+20. Select the **Check weather** topic you created.
 
-21. The three branches should now look like the image below. Click **Save** to
+21. Click **Save** to
     save the topic.
 
 Exercise 4 – Test and publish your bot
@@ -404,7 +402,7 @@ Exercise 4 – Test and publish your bot
 
 ### Task 1: Test your bot
 
-1.  Click on the **Test your bot** button located on the bottom-left of the
+1.  Click on the **Test your bot** button located in the bottom-left corner of the
     screen.
 
 2.  Turn on **Track between topics**.
@@ -417,7 +415,7 @@ Exercise 4 – Test and publish your bot
 5.  Select **Delivery and setup** from the options.
 
 6.  The topic should change to the **Delivery and setup** topic and the bot
-    should replay with the delivery and setup messages.
+    should reply with the delivery and setup messages.
 
 7.  Enter **Order question** and **Send**.
 
@@ -441,18 +439,17 @@ Exercise 4 – Test and publish your bot
 
 15. Type **Goodbye** and **Send**.
 
-16. The bot should conclude the chat.
-
 17. Click **Hide bot**.
 
 ### Task 2: Publish your bot
+
 1.  Select **Publish** and click Publish.
 
 2.  Click **Publish** again to confirm and wait for the publishing to complete.
 
-3.  Click on the **Demo website link**.
+3.  Click on the **demo website link**.
 
-4.  Try to interact with bot on the demo website and see how it performs.
+4.  Interact with bot on the demo website and see how it performs.
 
 5.  You may share the demo website with others.
 
