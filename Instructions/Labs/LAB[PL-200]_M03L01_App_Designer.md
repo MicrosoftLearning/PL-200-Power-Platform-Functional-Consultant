@@ -34,10 +34,10 @@ to the app navigation.
 
 4.  Open **Common Data Services Default Solution**.
 
-5.  Select the **Knowledge Admin** model-driven application and click **Edit.**
+5.  Select the **Knowledge Admin** model-driven application. Click the **edit** (the pencil) next to **Site map.**
 
-7.  Drag **Area** from the **Components** tab and place it to the right of the
-    **Administration** area.
+7.  Drag **Area** from the **Components** tab and place it directly to the right of the
+    **Administration** area, in the gray top bar.
 
 8.  Select the new area, click the **Edit** button, and enter **Assessments** for **Title**.
 
