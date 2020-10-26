@@ -119,8 +119,11 @@ fields. Knowledge Assessment will be a new custom entity you create.
 
 9.  Click **Add Action**.
 
-10. Enter *DIFFINDAYS(NOW(), crXXX_enddate)*. Note
-    that crXXX is environment dependent and the name of your environment will be different. To find your environment-specific designation, type **cr** and wait
+10. Enter the following formula:
+
+        DIFFINDAYS(NOW(), crXXX_enddate)
+ 
+    **Note:** That crXXX is environment-dependent and the name of your environment will be different. To find your environment-specific designation, type **cr** and wait
     for the field to auto filter to your environment.
 
 11. Click the check mark. (Depending on your window size, you may need to click out of the text box to see the check mark.)
