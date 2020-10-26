@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab: Additional entity options'
+    title: 'Lab 2.4: Additional entity options'
     module: 'Module 2: Work with the Common Data Service'
 ---
 
 Module 2: Work with the Common Data Service
 ====================
 
-## Lab 4: Additional entity options
+## Lab 2.4: Additional entity options
 
 Scenario
 --------
