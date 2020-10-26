@@ -53,7 +53,7 @@ In this exercise, you will be create your **Practice** environment that you will
     
     - Leave all other selections as default and click **Next.**
     
-    - On the next tab, leave all selections to default and click **Save**.
+    - On the next tab, change the toggle for **Deploy sample apps and data?** to **Yes.** Click **Save**.
 
 3. Your **Practice** environment should now show in the list of Environments. 
 
