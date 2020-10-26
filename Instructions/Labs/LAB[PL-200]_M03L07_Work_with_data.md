@@ -27,7 +27,7 @@ Exercise 1 – Filtering Data
 In this task, you will filter the Knowledge Assessment to show only Active
 records that have Start Date in the past and End Date is in the future.
 
-1.  Navigate to <https://make.powerapps.com>
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in your **Practice** environment.
 
