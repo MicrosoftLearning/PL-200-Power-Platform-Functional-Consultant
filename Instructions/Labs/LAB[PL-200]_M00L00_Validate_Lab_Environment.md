@@ -47,7 +47,7 @@ In this exercise, you will be create your **Practice** environment that you will
 
     - For **Name**, enter **[my initials] Practice.** (Example: AJ Practice.)
     
-    - For **Type**, select **Trial.**
+    - For **Type**, select **Trial.** You may see an option for **Trial (subscription-based)** - select the option that only says **Trial.**
     
     - Change the **Create a database for this environment?** toggle to **Yes.**
     
