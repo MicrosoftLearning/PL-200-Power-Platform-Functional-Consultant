@@ -117,11 +117,9 @@ parental. You will be performing this change in the classic Solution Explorer.
 
 5.  Select **1:N Relationships**.
 
-6.  Double click to open the relationship with the **Knowledge Question**
-    Related Entity.
+6.  Double click to open the relationship where **Knowledge Question** is listed as the Related Entity.
 
-7.  Scroll down to the **Relationship Behavior** section and locate the **Type
-    of Behavior** field.
+7.  Scroll down to the **Relationship Behavior** section and locate the **Type of Behavior** field.
 
 8.  Select **Parental** for **Type of Behavior**.
 
@@ -134,5 +132,3 @@ parental. You will be performing this change in the classic Solution Explorer.
 12. Click **Save and Close**.
 
 13. Click **Publish All Customizations**.
-
-14. Close the solution explorer.
