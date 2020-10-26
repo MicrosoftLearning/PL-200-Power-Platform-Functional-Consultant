@@ -111,7 +111,7 @@ started will be easy.
 
 4.  Enter **Knowledge Admin** for Name and click **Done**.
 
-5.  Click the edit icon next to **Site Map**. *Note:* When you start a new app, you must edit the
+5.  Click the edit icon (it looks like a pencil) next to **Site Map**. *Note:* When you start a new app, you must edit the
     site map before you can run it - otherwise you will get an error. You need to
     add at least one item to the navigation.
 
