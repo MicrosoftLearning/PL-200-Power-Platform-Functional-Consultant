@@ -135,9 +135,11 @@ do this for the other components as well.
 
 13. Click **Save and Close**.
 
+14. Click **Done.**
+
 ### Task 3 – Run the Application
 
-1.  Make sure you still have the **Knowledge Admin** model-driven app.
+1.  Make sure you still have the **Knowledge Admin** model-driven app
     selected.
 
 2.  Click **Play**.
@@ -157,13 +159,13 @@ do this for the other components as well.
 
 9.  Enter **Test Assessment Two** for **Title** and click **Save and Close.**
 
-10. Select on the **Assessments** in the top menu.
+10. Select on **Knowledge Assessments** in the left bar.
 
 11. The two records you created will be visible in the view.
 
 12. Select the **Knowledge Test Results**.
 
-13. The view will load but you don’t have any records.
+13. The view will load but you won’t have any records.
 
 14. Click on the **Assessments** area and switch to the **Administration** area.
 
