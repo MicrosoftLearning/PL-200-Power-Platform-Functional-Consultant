@@ -1,10 +1,10 @@
 ---
 lab:
     title: 'Lab: Validate lab environment'
-    module: 'Module 0: Course introduction'
+    module: 'Module 1: Introduction to the Power Platform'
 ---
 
-Module 0: Course introduction
+Module 1: Introduction to the Power Platform 
 =================================
 
 ## Practice Lab – Validate lab environment
