@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab: Create relationships'
+    title: 'Lab 2.3: Create relationships'
     module: 'Module 2: Work with the Common Data Service'
 ---
 
 Module 2: Work with the Common Data Service
 ====================
 
-## Lab 3: Practice Lab – Create relationships
+## Lab 2.3: Practice Lab – Create relationships
 
 Scenario
 --------
