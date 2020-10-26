@@ -115,15 +115,15 @@ fields. Knowledge Assessment will be a new custom entity you create.
 
 5.  Click **+Add** next to **Calculated or Rollup**. Click **+Calculation.**
 
-6.  Click **Save**. A pop-up window should appear allowing you to configure the calculation.
+6.  Click **Save**. A pop-up window should appear allowing you to configure the calculation. (You may need to disable a pop-up blocker.)
 
 9.  Click **Add Action**.
 
-10. Enter *DIFFINDAYS(NOW(), crXXX_enddate)* and click on the checkmark. Note
+10. Enter *DIFFINDAYS(NOW(), crXXX_enddate)*. Note
     that crXXX is environment dependent and the name of your environment will be different. To find your environment-specific designation, type **cr** and wait
     for the field to auto filter to your environment.
 
-11. Click the check box.
+11. Click the check mark. (Depending on your window size, you may need to click out of the text box to see the check mark.)
 
 12. Click **Save and Close**.
 
@@ -148,7 +148,7 @@ fields.
 
 5.  Enter **Knowledge Question** for Display Name.
 
-6.  Navigate to the **Primary Field** section.
+6.  Navigate to the **Primary Name Field** section.
 
 7.  Change the **Display Name** to **Question**. The **Name** field should also automatically update to **Question.** Click **Done**.
 
