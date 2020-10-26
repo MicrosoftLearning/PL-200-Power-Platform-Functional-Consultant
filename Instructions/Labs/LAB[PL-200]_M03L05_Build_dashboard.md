@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab: Build dashboards'
+    title: 'Lab 3.5: Build dashboards'
     module: 'Module 3: Build Power Apps'
 ---
 
 Module 3: Build Power Apps
 ============================================
 
-Lab 5: Practice Lab – Build dashboards
+Lab 3.5: Practice Lab – Build dashboards
 
 Scenario
 --------
