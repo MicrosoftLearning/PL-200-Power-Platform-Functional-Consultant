@@ -1,6 +1,6 @@
 ---
 lab:
-    title 3.4: 'Lab: Build charts'
+    title: 'Lab 3.4: Build charts'
     module: 'Module 3: Build Power Apps'
 ---
 
