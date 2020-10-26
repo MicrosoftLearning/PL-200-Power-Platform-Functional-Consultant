@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab: Work with data and services'
+    title: 'Lab 3.7: Work with data and services'
     module: 'Module 3: Build Power Apps'
 ---
 
 Module 3: Build Power Apps
 ======================================
 
-Lab 7: Practice Lab – Work with data and services
+Lab 3.7: Practice Lab – Work with data and services
 
 Scenario
 --------
@@ -49,7 +49,7 @@ records that have Start Date in the past and End Date is in the future.
     type this instead of pasting it, you will see how the editor helps you build
     expressions.
 
-    Filter('Knowledge Assessments', (Status = 'Status (Knowledge Assessments)'.Active && 'Start Date' <= Today() && 'End Date' >= Today()))
+            Filter('Knowledge Assessments', (Status = 'Status (Knowledge Assessments)'.Active && 'Start Date' <= Today() && 'End Date' >= Today()))
 
 10.  Click **File** and **Save** your changes.
 
@@ -70,20 +70,19 @@ filtered list of test results submitted by this user.
     will create a global variable **UserPrimaryEmail** that will hold the
     current user’s email.
 
-    Set(UserPrimaryEmail, User().Email)
+            Set(UserPrimaryEmail, User().Email)
 
 3.  Add the snippet below to the **OnStart** property. This snippet will first
     terminate the first function with semicolon, get the current User and save
     it in a global variable name **CurrentUser**.
 
-    ;Set(CurrentUser, LookUp(Users, 'Primary Email' = UserPrimaryEmail))
+            ;Set(CurrentUser, LookUp(Users, 'Primary Email' = UserPrimaryEmail))
 
 4.  Add the following function to work around an existing bug that does not
     properly load the metadata for related properties. In the future this
     workaround will not be required.
 
-    ;Set(FirstKABugWorkaround,First('Knowledge Test Results').'Knowledge
-    Assessment')
+            ;Set(FirstKABugWorkaround,First('Knowledge Test Results').'Knowledge Assessment')
 
 7.  Click **File** and **Save**.
 
@@ -107,10 +106,10 @@ collection based on the answers the user provided.
     property to snippet below. This snippet will create a new Knowledge Test
     Result record.
     
-    Patch('Knowledge Test Results', Defaults('Knowledge Test Results'), {'Knowledge
-    Assessments': knowledgeAssessmentList.Selected, 'Name':
-    knowledgeAssessmentList.Selected.Title, 'Total Points':Sum(UserAnswers.Points,
-    Points)} )
+            Patch('Knowledge Test Results', Defaults('Knowledge Test Results'), {'Knowledge
+            Assessments': knowledgeAssessmentList.Selected, 'Name':
+            knowledgeAssessmentList.Selected.Title, 'Total Points':Sum(UserAnswers.Points,
+            Points)} )
 
 ### Task 4 – Add Feedback Screen 
 
@@ -149,14 +148,13 @@ create a new record.
 13. Select the **Default** property and set it to the **Title** of the selected
     **Knowledge assessment**.
 
-    knowledgeAssessmentList.Selected.Title
+            knowledgeAssessmentList.Selected.Title
 
 14.  With the **Title** data card still selected, select the **DisplayMode** property and set it to **View**.
 
-    DisplayMode.View
+            DisplayMode.View
 
-16.  Rename
-    **Comments_DataCard3** to **userComments**. (You will need to click **Unlock** first.)
+16.  Rename **Comments_DataCard3** to **userComments**. (You will need to click **Unlock** first.)
 
 17.  Expand the **userComments** data card and rename the **DataCardValue3** to
     **userCommentsText**.
@@ -167,7 +165,7 @@ create a new record.
     will submit the form, reset the form, and navigate back to the previous
     page.
 
-    SubmitForm(feedbackForm);ResetForm(feedbackForm);Back(ScreenTransition.None)
+            SubmitForm(feedbackForm);ResetForm(feedbackForm);Back(ScreenTransition.None)
 
 20.  With the **submitFeedbackButton** still selected, select the **DisplayMode**
     property.
@@ -176,7 +174,7 @@ create a new record.
     will enable the button if the comments filed has value and disable it if the
     comments field is blank.
 
-    If(IsBlank(userCommentsText), DisplayMode.Disabled, DisplayMode.Edit)
+            If(IsBlank(userCommentsText), DisplayMode.Disabled, DisplayMode.Edit)
 
 22.  Select the **takeAssessmentScreen**.
 
@@ -189,7 +187,7 @@ create a new record.
 26.  Set the **OnSelect** property of the icon to the snippet below. This snippet
     will navigate back to the previous page.
     
-    Back(ScreenTransition.None)
+            Back(ScreenTransition.None)
 
 27.  Select the **takeAssessmentScreen**.
 
@@ -203,6 +201,6 @@ create a new record.
 31.  Set the **OnSelect** property of the **Information** icon to the snippet
     below.
 
-    NewForm(feedbackForm);Navigate(addFeedbackScreen, ScreenTransition.None)
+            NewForm(feedbackForm);Navigate(addFeedbackScreen, ScreenTransition.None)
     
  32. Click **File** and **Save** to save your application.
