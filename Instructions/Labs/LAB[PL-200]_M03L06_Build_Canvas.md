@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab: Build a canvas app'
+    title: 'Lab 3.6: Build a canvas app'
     module: 'Module 3: Build Power Apps'
 ---
 
 Module 3: Build Power Apps
 ======================================
 
-Lab 6: Practice Lab – Build a canvas app
+Lab 3.6: Practice Lab – Build a canvas app
 
 Scenario
 --------
@@ -46,7 +46,7 @@ application.
 
 11. Click **+Add data.** You will be presented with a list of entities. Expand to see all entites by selecting **See all entities.** Select the **Feedback**,
     **Knowledge Assessments**, **Knowledge Questions**, **Knowledge Test
-    Results**, and **Users**, entities. You can use the Search feature to make
+    Results**, and **Users** entities. You can use the Search feature to make
     it quicker to find the entities.
 
 13. The data from the entities you selected will now be available for your
@@ -87,7 +87,7 @@ take the assessment.
 7.  In the Properties tab, navigate to **Fields** and click **Edit**. Change the Subtitle to **Days Remaining** by selecting the field from the dropdown.
 
 9.  In the left-hand control tree, locate the gallery, right click and select
-    rename. Rename the Gallery **knowledgeAssessmentList**
+    rename. Rename the Gallery **knowledgeAssessmentList**.
 
 10. Resize the **Gallery** so it takes all the space below the header by
     clicking on the gallery and dragging the image area to fit the space.
@@ -102,7 +102,7 @@ take the assessment.
     end of the number. If you have issues with the formula, try typing it out
     manually instead of copying and pasting.
 
-    ThisItem.'Days Remaining' & " Days remaining"
+        ThisItem.'Days Remaining' & " Days remaining"
 
 1.  Depending on your test data you may have some items that currently just say
     Days remaining and some that have a number (e.g., "6 Days remaining").
@@ -120,7 +120,7 @@ take the assessment.
     screen when they click on the icon. If you have issues with the formula, try
     typing it out manually instead of copying and pasting.
 
-    Navigate(takeAssessmentScreen, ScreenTransition.None)
+        Navigate(takeAssessmentScreen, ScreenTransition.None)
 
 **Note:** If the designer shows a red line under your function it could be due to
 the name of the screen being different. If that happens adjust the name used to
@@ -147,8 +147,7 @@ practices you will be scoring and storing the results.
     you have issues with the formula, try typing it out manually instead of
     copying and pasting.
 
-    Filter('Knowledge Questions', 'Knowledge Assessment'.'Knowledge Assessment' =
-    knowledgeAssessmentList.Selected.'Knowledge Assessment' )
+        Filter('Knowledge Questions', 'Knowledge Assessment'.'Knowledge Assessment' = knowledgeAssessmentList.Selected.'Knowledge Assessment' )
 
 7. Resize the **assessmentQuestionList** until takes all the space below the
     header.
@@ -163,7 +162,7 @@ practices you will be scoring and storing the results.
 11. Select the label you just added and set the **Text** property to
     **Question**.
 
-    ThisItem.Question
+        ThisItem.Question
 
 12.  If you don’t see any questions display in your app preview, click on
     mainScreen and, while holding the alt key, use the mouse to click on the next
@@ -185,7 +184,7 @@ practices you will be scoring and storing the results.
 
 19. Select the **Text** property of the new checkbox and from the **fx** equation bar at the top, set it to **Answer 1**.
 
-    ThisItem.'Answer 1'
+        ThisItem.'Answer 1'
 
 20. By using the ThisItem. syntax you are referencing a data field from the
     current record.
@@ -198,22 +197,20 @@ practices you will be scoring and storing the results.
     the snippet below. This snippet will add the points of the check answer to a
     Collection name UserAnswers.
 
-    Collect(UserAnswers, {Question:GUID(ThisItem.'Knowledge Question'),
-    Points:ThisItem.'Answer 1 Points'})
+        Collect(UserAnswers, {Question:GUID(ThisItem.'Knowledge Question'), Points:ThisItem.'Answer 1 Points'})
 
 23. Set the **OnUnCheck** property to the snippet below. This snippet will
     remove the points of the uncheck answer form the Collection when the user
     unchecks the answer.
 
-    Remove(UserAnswers, LookUp(UserAnswers, Question = GUID(ThisItem.'Knowledge
-    Question')))
+        Remove(UserAnswers, LookUp(UserAnswers, Question = GUID(ThisItem.'Knowledge Question')))
 
 24. Select **takeAssessmentScreen**.
 
 25. Select the **OnVisible** property and paste the snippet below. This will
     clear the prior answers each time they select another question.
 
-    Clear(UserAnswers)
+        Clear(UserAnswers)
 
 26. In the left control tree, select the checkBox and rename the checkbox
     **answer1Selected**.
@@ -224,21 +221,19 @@ practices you will be scoring and storing the results.
 
 29. Select the **Text** property of the new checkbox and set it to **Answer 2**.
 
-    ThisItem.'Answer 2'
+        ThisItem.'Answer 2'
 
 30. Set the **Width** property to **300**.
 
 31. Set the **OnCheck** property to the snippet below. This snippet will add the
     points of the check answer to the Collection.
     
-    Collect(UserAnswers, {Question:GUID(ThisItem.'Knowledge Question'),
-    Points:ThisItem.'Answer 2 Points'})
+        Collect(UserAnswers, {Question:GUID(ThisItem.'Knowledge Question'), Points:ThisItem.'Answer 2 Points'})
 
 32. Set the **OnUnCheck** property to the snippet below. This snippet will
     remove the points of the uncheck answer form the Collection.
 
-    Remove(UserAnswers, LookUp(UserAnswers, Question = GUID(ThisItem.'Knowledge
-    Question')))
+        Remove(UserAnswers, LookUp(UserAnswers, Question = GUID(ThisItem.'Knowledge Question')))
 
 33.  Rename the checkbox **answer2Selected**.
 
@@ -248,21 +243,19 @@ practices you will be scoring and storing the results.
 
 36. Select the **Text** property of the new checkbox and set it to **Answer 3**.
 
-    ThisItem.'Answer 3'
+        ThisItem.'Answer 3'
 
 37.  Set the **Width** property to **300**.
 
 38.  Set the **OnCheck** property to the snippet below. This snippet will add the
     points of the check answer to the Collection.
 
-    Collect(UserAnswers, {Question:GUID(ThisItem.'Knowledge Question'),
-    Points:ThisItem.'Answer 3 Points'})
+        Collect(UserAnswers, {Question:GUID(ThisItem.'Knowledge Question'), Points:ThisItem.'Answer 3 Points'})
     
 39.  Set the **OnUnCheck** property to the snippet below. This snippet will
     remove the points of the uncheck answer form the Collection.
 
-    Remove(UserAnswers, LookUp(UserAnswers, Question = GUID(ThisItem.'Knowledge
-    Question')))
+        Remove(UserAnswers, LookUp(UserAnswers, Question = GUID(ThisItem.'Knowledge Question')))
 
 40.  Rename the checkbox **answer3Selected**.
 
@@ -272,21 +265,19 @@ practices you will be scoring and storing the results.
 
 43.  Select the **Text** property of the new checkbox and set it to **Answer 4**.
 
-    ThisItem.'Answer 4'
+        ThisItem.'Answer 4'
 
 44.  Set the **Width** property to **300**.
 
 45.  Set the **OnCheck** property to the snippet below. This snippet will add the
     points of the check answer to the Collection.
     
-    Collect(UserAnswers, {Question:GUID(ThisItem.'Knowledge Question'),
-    Points:ThisItem.'Answer 4 Points'})
+        Collect(UserAnswers, {Question:GUID(ThisItem.'Knowledge Question'), Points:ThisItem.'Answer 4 Points'})
 
 46.  Set the **OnUnCheck** property to the snippet below. This snippet will
     remove the points of the uncheck answer form the Collection.
 
-    Remove(UserAnswers, LookUp(UserAnswers, Question = GUID(ThisItem.'Knowledge
-    Question')))
+        Remove(UserAnswers, LookUp(UserAnswers, Question = GUID(ThisItem.'Knowledge Question')))
     
 47.  Rename the checkbox **answer4Selected**.
 
