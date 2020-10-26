@@ -255,7 +255,7 @@ practices you will be scoring and storing the results.
 39.  Set the **OnUnCheck** property to the snippet below. This snippet will
     remove the points of the uncheck answer form the Collection.
     
-        Remove(UserAnswers, LookUp(UserAnswers, Question = GUID(ThisItem.'Knowledge Question')))
+            Remove(UserAnswers, LookUp(UserAnswers, Question = GUID(ThisItem.'Knowledge Question')))
 
 40.  Rename the checkbox **answer3Selected**.
 
