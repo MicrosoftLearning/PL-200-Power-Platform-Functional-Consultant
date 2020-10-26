@@ -63,7 +63,7 @@ In this task, you will perform the following changes to the form:
 
 To customize your form:
 
-1.  Navigate to <https://make.powerapps.com>
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in the **Practice** environment you created.
 
