@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab: Creating an app'
+    title: 'Lab 2.1: Creating an app'
     module: 'Module 2: Work with the Common Data Service'
 ---
 
