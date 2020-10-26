@@ -223,7 +223,9 @@ of the current user to the header.
 4.  Make sure text **Text** property is selected and the function value (in the top menu, where you see fx) is now
     **“Text”.**
 
-5.  Replace **“Text”** with *User().FullName*.
+5.  Replace **“Text”** with the following:
+
+            User().FullName
 
 6.  The user’s Full Name will now be displayed on the label. Select the **Home**
     tab.
