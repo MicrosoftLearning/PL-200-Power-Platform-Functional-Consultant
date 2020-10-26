@@ -180,9 +180,9 @@ the upcoming canvas app module.
 Part of making a good app is giving it a personality. We are going to keep
 things simple here and just add a basic header to the app.
 
-1.  Select the **Insert** tab.
+1.  Select the **Insert** tab at the top of the screen.
 
-2.  Click **Label**.
+2.  Click **Text Label**.
 
 3.  A label will be added to the screen. Select the label.
 
