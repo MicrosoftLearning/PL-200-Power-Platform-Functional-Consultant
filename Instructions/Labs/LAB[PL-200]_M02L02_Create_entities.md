@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab: Creating entities and fields'
+    title: 'Lab 2.2: Creating entities and fields'
     module: 'Module 2: Work with the Common Data Service'
 ---
 
 Module 2: Work with the Common Data Service
 ====================
 
-## Lab 2: Practice Lab – Creating entities and fields
+## Lab 2.2: Practice Lab – Creating entities and fields
 
 Scenario
 --------
