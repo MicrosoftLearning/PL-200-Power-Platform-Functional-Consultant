@@ -85,7 +85,7 @@ fields. Knowledge Assessment will be a new custom entity you create.
 
 16. Click **Done.**
 
-17. You will now add an **Option Set** type filed. Click **Add Field**.
+17. You will now add an **Option Set** type field. Click **Add Field**.
 
 18. Enter **Difficulty** for **Display Name** and select **Option Set** for
     **Data Type**.
