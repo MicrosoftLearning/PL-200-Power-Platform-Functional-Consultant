@@ -7,7 +7,7 @@ lab:
 Module 2: Work with the Common Data Service
 =================================
 
-## Lab 1: Practice Lab – Creating an app
+## Lab 2.1: Practice Lab – Creating an app
 
 Scenario
 --------
