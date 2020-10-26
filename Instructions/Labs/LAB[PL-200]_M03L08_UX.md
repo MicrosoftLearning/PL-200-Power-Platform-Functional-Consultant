@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab: User experience'
+    title: 'Lab 3.8: User experience'
     module: 'Module 3: Build Power Apps'
 ---
 
 Module 4: Build Power Apps
 ======================================
 
-Lab 8: Practice Lab – User experience
+Lab 3.8: Practice Lab – User experience
 
 Scenario
 --------
@@ -51,21 +51,21 @@ ShowResults is true.
     function and add a new function that will initialize a variable
     **ShowResults** and set it to **false**.
 
-    Clear(UserAnswers);UpdateContext({ShowResults:false})
+            Clear(UserAnswers);UpdateContext({ShowResults:false})
 
 1.  Select the **OnSelect** property of the **scoreButton**.
 
 2.  Add the snippet below to the content you currently have. This snippet will
     add a function that will set the **ShowResults** value to **true**.
 
-    ;UpdateContext({ShowResults:true})
+            ;UpdateContext({ShowResults:true})
 
 1.  Select **Answer4Selected** checkbox of the **assessmentQuestionList**.
 
 2.  Select the **Fill** property of **Answer4Selected** and set it to the
     snippet below. This snippet will:
 
-        - Set the Fill Color to White if ShowResults is false.
+    - Set the Fill Color to White if ShowResults is false.
 
     - Set the Fill Color to Red id ShowResults is true, the checkbox is check, and
     the Points value is less than 0.
@@ -73,26 +73,26 @@ ShowResults is true.
     - Set the Fill Color to Green id ShowResults is true, the checkbox is check,
     and the Points value is more than 0.
 
-    If(ShowResults, If(answer4Selected.Value = true && ThisItem.'Answer 4 Points' \>
-    0, Green, If(answer4Selected.Value = false, White, Red)), White)
+            If(ShowResults, If(answer4Selected.Value = true && ThisItem.'Answer 4 Points' >
+            0, Green, If(answer4Selected.Value = false, White, Red)), White)
 
 1.  Select the **Fill** property of **Answer3Selected** checkbox and set to the
     snippet below.
 
-    If(ShowResults, If(answer3Selected.Value = true && ThisItem.'Answer 3 Points' \>
-    0, Green, If(answer3Selected.Value = false, White, Red)), White)
+        If(ShowResults, If(answer3Selected.Value = true && ThisItem.'Answer 3 Points' >
+        0, Green, If(answer3Selected.Value = false, White, Red)), White)
 
 1.  Select the **Fill** property of **Answer2Selected** checkbox and set to the
     snippet below.
 
-    If(ShowResults, If(answer2Selected.Value = true && ThisItem.'Answer 2 Points' \>
-    0, Green, If(answer2Selected.Value = false, White, Red)), White)
+        If(ShowResults, If(answer2Selected.Value = true && ThisItem.'Answer 2 Points' >
+        0, Green, If(answer2Selected.Value = false, White, Red)), White)
 
 1.  Select the **Fill** property of **Answer1Selected** checkbox and set to the
     snippet below.
 
-    If(ShowResults, If(answer1Selected.Value = true && ThisItem.'Answer 1 Points' \>
-    0, Green, If(answer1Selected.Value = false, White, Red)), White)
+        If(ShowResults, If(answer1Selected.Value = true && ThisItem.'Answer 1 Points' >
+        0, Green, If(answer1Selected.Value = false, White, Red)), White)
 
 ### Task 2 – Disable/Enable Button 
 
@@ -105,7 +105,7 @@ and enable it when there is at least one answer selected.
     snippet below. This snippet will disable the button if there are no answers
     selected and enable it if there is at least one answer selected.
 
->   If(CountRows(UserAnswers) \> 0, DisplayMode.Edit, DisplayMode.Disabled)
+        If(CountRows(UserAnswers) > 0, DisplayMode.Edit, DisplayMode.Disabled)
 
 ### Task 3 - Create the Results Screen
 
@@ -132,21 +132,21 @@ In this task, you will copy the Main Screen and rename it Results Screen.
 
 10. Select the **Items** property and set it to the snippet below.
 
-    Filter('Knowledge Test Results',  Owner = CurrentUser)
+            Filter('Knowledge Test Results',  Owner = CurrentUser)
     
 11. Return to the **Properties** tab and select **Edit** in the Fields section. Set the Title.Text element of UserResultList to this snippet.
 
-    ThisItem.createdon
+            ThisItem.createdon
     
 12. Set the Subtitle.Text element of UserResultList to this snippet. (crxxx refers to your unique prefix.)
 
-    ThisItem.crxxx_totalpoints
+            ThisItem.crxxx_totalpoints
     
 13. Add the **Left** icon to the upper left corner. Change the fill to **white.**
 
 14. Set the Left icon OnSelect to this snippet.
 
-    Back(ScreenTransition.None)
+            Back(ScreenTransition.None)
 
 ### Task 4 – Add Button for Results Screen 
 
@@ -167,7 +167,7 @@ navigate to the Results page.
     This function will run when the icon is clicked and navigate to the Results
     Screen.
 
-    Refresh(Users);Navigate(resultsScreen, ScreenTransition.None)
+            Refresh(Users);Navigate(resultsScreen, ScreenTransition.None)
 
 ### Task 5 – Test Your Work 
 
@@ -195,7 +195,7 @@ In this task, you will run and test the applications.
     *Note:* If you do not see any data, you need to use
     the model-driven app to create some assessment questions with answers. Make
     sure to give some questions points with positive values (correct answers)
-    and some with negative values (wrong answers)
+    and some with negative values (wrong answers).
 
 9.  Select some answers.
 
