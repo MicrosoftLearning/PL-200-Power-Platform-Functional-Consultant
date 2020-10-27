@@ -71,14 +71,14 @@ To customize your form:
 
 4.  Open the **Common Data Service Default Solution**.
 
-5.  Select the **Knowledge Assessment** model-driven app.
+5.  Select the **Knowledge Admin** model-driven app.
 
 6.  Click **Edit**.
 
 7.  Locate the **Knowledge Assessment** entity and select **Forms**.
 
-8.  Go to the **Components** tab, hover over the **Main Information** form, and
-    click **Edit**.
+8.  Go to the **Components** tab, hover over the **Information** form in the **Main Forms** section, and
+    click **edit** (the pencil icon).
 
 9.  Double click on the **Header** section of the form.
 
@@ -93,27 +93,21 @@ To customize your form:
 
 14. Select **Two Columns** for **Layout.**. Click **Save**.
 
-15. Select **Switch to classic.**
-
 16. Select the **Days Remaining** field and drag it to the left column of the **Header.** 
 
 17. Select the new section of the **General** tab.
 
-18. Select the **Insert** tab and then select **Control.**
+18. Select the **+ Component** tab.
 
-19. Click **Timeline**. Timeline is located below the IFRAME.
+19. Click **Timeline** from the **Related data** section in the Components pane and drag it to the New Section. After the timeline is filled into the New Section, select **New Section**. Change the **Label** to **Timeline** and change the **Name** to **Timeline.**
 
-20. Select the **Owner** field located in the General section.
+20. Select the **Owner** field from the **General** section. 
 
-21. Select the **Home** tab.
-
-22. Click **Edit** and **Remove**. We are removing this field because we added a duplicate
+22. Click the **trash** button from the top menu. We are removing this field because we added a duplicate
     field to the header.
 
 23. Add the **Start Date** field to the **General** section and place it below
-    the **Title** field. You can add fields to the form by selecting the section
-    you want to add the field to and double clicking on the field you want to
-    add, or you can drag the field from the field explorer and drop it in the
+    the **Title** field. You can add fields to the form by dragging the field from the field explorer and dropping it in the
     section you want to add the field to.
 
 24. Add the **End Date** to the **General** section and place it below the
@@ -122,33 +116,31 @@ To customize your form:
 25. Add the **Difficulty** field to the **General** section and place it below
     the **End Date** field.
 
-26. Select the **Insert** tab.
+26. Select the **+ Component** tab.
 
-27. Click **1 Tab** and then click **1 column.** A new tab will be added to the form.
+27. Click **1 column tab**. A new tab will be added to the form.
 
-28. Double click on the new tab.
+28. Click on the new tab.
 
-29. Change the **Label** to **Questions** and click **OK.**
+29. Change the **Label** to **Questions**.
 
 30. Select the **Questions** tab.
 
-31. Select the **Insert** tab and then select **Control.**
+31. Return to the **+ Components** tab.
 
-32. Click **Sub-Grid**.
+32. Click **Subgrid** from the **Related data** section. Select **Knowledge Questions** for Entity and click **Done.**
 
-33. Enter **KnowledgeQuestions** for **Name** and **Knowledge Questions** for label.
+33. In the right properties tab, enter **KnowledgeQuestions** for **Name** and **Knowledge Questions** for label.
 
-34. Select **Only Related Records** for **Records**.
+34. Select **Show related records.**
 
-35. Select **Knowledge Questions (Knowledge Assessment)** for **Entity**.
+35. Make sure **Knowledge Questions (Knowledge Assessment)** is selected for **Entity.**
 
-36. Click **OK**.
-
-37. Select the **Home** tab and click **Save**.
+37. Select the **New Section** and enter **KNowledge Questions** for Label and **KnowledgeQuestions** for name. Click **Save**.
 
 38. Click **Publish** and wait for the publish to complete.
 
-39. Close the form by clicking **Save and Close**.
+39. Close the form designer tab. You should return to the model-driven app designer.
 
 40. **DON’T** close the app designer.
 
@@ -168,7 +160,7 @@ In this exercise, you will edit the form for the Knowledge Question entity.
 4.  After the **Knowledge Question** entity is added to the application, select
     **Forms**.
 
-5.  Hover over the **Main Form** and click **Edit**.
+5.  Hover over the **Main Form** and click **edit** (the pencil icon).
 
 6.  Select the **Header** by double clicking on it.
 
@@ -195,7 +187,7 @@ In this exercise, you will edit the form for the Knowledge Question entity.
 
 19. Click **Publish** and wait for the publish to complete.
 
-20. Close the form editor.
+20. Close the form editor. You should return to the model-driven app designer.
 
 21. Click **Save** to save the changes to the application.
 
@@ -210,16 +202,13 @@ In this exercise, you will edit the form for the Knowledge Question entity.
 
 1.  Click **Play**.
 
-2.  Click on the **Administration** area located in bottom left of the page and
-    select the **Assessments** area.
-
 3.  Select the **Knowledge Assessment** entity and click **+ New**.
 
 4.  The form should have two tabs: **General** and **Questions**.
 
 5.  The General tab should have two sections: **General** and **Timeline**.
 
-6.  Enter **Assessment Three** for **Title**.
+6.  Enter **Test Assessment Three** for **Title**.
 
 7.  Select today’s date for **Start Date** and select ten days into the future
     for **End Date**.
@@ -230,9 +219,9 @@ In this exercise, you will edit the form for the Knowledge Question entity.
 
 10. Make sure the **Days Remaining** value was calculated correctly.
 
-11. Select the **Questions** tab
+11. Select the **Questions** tab.
 
-12. Click **+New Knowledge Question**.
+12. Click **+ New Knowledge Question**.
 
 13. Close the application without creating **Knowledge Question** record.
 
