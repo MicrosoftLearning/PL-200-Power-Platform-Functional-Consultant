@@ -48,9 +48,9 @@ application.
     
     - Click **New Knowledge Question.** 
     
-    - Enter a question for **Question.** (Examples: What is your favorite color? What is your favorite animal? What is your job role? What technology do you work on? Use your imagination!)
+    - Enter a question for **Question.** (Examples: What is the best color? What is the best animal? What is your job role? What technology do you work on? Use your imagination!)
     
-    - Enter answers and answer points for four possible answers to your question.
+    - Enter answers and answer points for four possible answers to your question. Enter some answers with negative points (wrong answers) and some with positive points (correct answers).
     
     - Click **Save.**
     
