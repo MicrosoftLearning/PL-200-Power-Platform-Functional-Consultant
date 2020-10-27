@@ -130,13 +130,9 @@ In this task, you will copy the Main Screen and rename it Results Screen.
 
             Filter('Knowledge Test Results',  Owner = CurrentUser)
     
-11. From the control tree, select the Title element of UserResultList and set it to this snippet.
-
-            ThisItem.createdon
+11. Return to the **Property** tab. Click **Edit** on the Fields property. For Title, using the dropdown, select the **createdon** value.
     
-12. Set the Subtitle element of UserResultList to this snippet. (crxxx refers to your unique prefix.)
-
-            ThisItem.crxxx_totalpoints
+12. For the Subtitle element, using the dropdown, select crxxx_totalpoints. (crxxx refers to your unique prefix.)
     
 13. Select the **resultsScreen** and navigate to the **Insert** tab. Add the **Left** icon to the upper left corner. Change the color to **white.**
 
