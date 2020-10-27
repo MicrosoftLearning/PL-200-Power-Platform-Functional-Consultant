@@ -106,10 +106,15 @@ collection based on the answers the user provided.
     property to snippet below. This snippet will create a new Knowledge Test
     Result record.
     
-            Patch('Knowledge Test Results', Defaults('Knowledge Test Results'), {'Knowledge
-            Assessments': knowledgeAssessmentList.Selected, 'Name':
-            knowledgeAssessmentList.Selected.Title, 'Total Points':Sum(UserAnswers.Points,
-            Points)} )
+            Patch(
+                'Knowledge Test Results',
+                Defaults('Knowledge Test Results'),
+                    {
+                        'Knowledge Assessment': knowledgeAssessmentList.Selected,
+                        'Knowledge Test Result (cr2aa_knowledgetestresult)': knowledgeAssessmentList.Selected.Title,
+                        'Total Points': Sum(UserAnswers.Points, Points)
+                    }
+                ); UpdateContext({ShowResults:true})
 
 ### Task 4 – Add Feedback Screen 
 
@@ -133,7 +138,7 @@ create a new record.
 
 6.  Select the **addFeedbackScreen**.
 
-7.  From the **Insert** tab, click **Edit form.**
+7.  From the **Insert** tab, click **Forms** and then click **Edit.**
 
 8.  In the property panel on the right, select **Feedback** for **Data Source**.
 
@@ -143,20 +148,20 @@ create a new record.
 
 11. From the tree view, expand the **feedbackForm**.
 
-12. Select the **Title** field. In the **Advanced** pane, select **unlock.**
+12. Select the **Title** field. In the **Advanced** pane, select **unlock.** Expand **More options.**
 
 13. Select the **Default** property and set it to the **Title** of the selected
     **Knowledge assessment**.
 
             knowledgeAssessmentList.Selected.Title
 
-14.  With the **Title** data card still selected, select the **DisplayMode** property and set it to **View**.
+14.  With the **Title** data card still selected, select the **Properties** tab. Locate the **DisplayMode** property and set it to **View**.
 
             DisplayMode.View
 
-16.  Rename **Comments_DataCard3** to **userComments**. (You will need to click **Unlock** first.)
+16.  Rename the **Comments_DataCard** to **userComments**. (You will need to click **Unlock** first.)
 
-17.  Expand the **userComments** data card and rename the **DataCardValue3** to
+17.  Expand the **userComments** data card and rename the **DataCardValue** to
     **userCommentsText**.
 
 18.  Select the **submitFeedbackButton**.
@@ -167,7 +172,7 @@ create a new record.
 
             SubmitForm(feedbackForm);ResetForm(feedbackForm);Back(ScreenTransition.None)
 
-20.  With the **submitFeedbackButton** still selected, select the **DisplayMode**
+20.  With the **submitFeedbackButton** still selected, return to the **Properties** tab and select the **DisplayMode**
     property.
 
 21.  Replace the **DisplayMode** property value with snippet below. This snippet
