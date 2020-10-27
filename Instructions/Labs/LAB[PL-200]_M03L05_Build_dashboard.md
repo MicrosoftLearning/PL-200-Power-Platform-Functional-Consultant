@@ -130,9 +130,6 @@ module and added to the definition
 
 2.  Select **Apps**.
 
-3.  Select the **Knowledge Admin Model-Driven application** and click **Play**.
-
-5.  The Dashboard will load and **Results Overview** will be selected by
 3.  Select the **Knowledge Admin Model-Driven application** and click **Play**. (If your dashboard does not load immediately, click the **Home** button in the left menu to refresh the app.) 
 
 5.  The Dashboard will load and **Results Overview** will be selected by
