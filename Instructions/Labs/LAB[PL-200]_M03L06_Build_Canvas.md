@@ -185,7 +185,7 @@ practices you will be scoring and storing the results.
 7. Resize the **assessmentQuestionList** until takes all the space below the
     header.
 
-8.  Select the **assessmentQuestionList.**
+8.  Select the **assessmentQuestionList** gallery in the canvas.
 
 10.  From the **Insert** tab, click **Label**.
 
