@@ -79,10 +79,10 @@ input some data to test your chart.
 
 7.  Select the **General** tab of the form.
 
-8.  Go to the **Field Explorer** and double click on the **Knowledge
+8.  Go to the **Field Explorer** and click on the **Knowledge
     Assessment** field. The Knowledge Assessment field will be added to the form.
 
-9.  From the **Field Explorer**, double click on the **Total Points** field.
+9.  From the **Field Explorer**, click on the **Total Points** field. The Total Points field will be added to the form. 
 
 10. Click **Save**.
 
