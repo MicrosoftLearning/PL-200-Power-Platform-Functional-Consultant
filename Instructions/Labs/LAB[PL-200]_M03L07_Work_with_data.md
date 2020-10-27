@@ -140,7 +140,7 @@ create a new record.
 
 11. From the tree view, expand the **feedbackForm**.
 
-12. Select the **Title** field. In the **Advanced** pane, select **unlock.** Expand **More options.**
+12. Select the **Title** field. In the **Advanced** pane, select **unlock.** Expand **More options** in the **Data** section.
 
 13. Select the **Default** property and set it to the **Title** of the selected
     **Knowledge assessment**.
