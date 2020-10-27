@@ -112,7 +112,7 @@ take the assessment.
 
 4.  Select the **mainScreen**.
 
-5.  Select the **Insert** tab. Click **Gallery** and select
+5.  Select the **Insert** tab from the top command bar. Click **Gallery** and select
     **Horizontal**.
 
 6.  A **Data Source** pop-out will appear next to the Gallery pane to select the data source. Select **Knowledge Assessments**.
