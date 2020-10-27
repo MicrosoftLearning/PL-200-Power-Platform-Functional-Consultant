@@ -190,7 +190,7 @@ practices you will be scoring and storing the results.
 10.  From the **Insert** tab, click **Label**.
 
 11. Select the label you just added and set the **Text** property to
-    **Question**.
+    **Question** using the formula bar. (It is possible this will be set automatically for you. Make sure to verify.)
 
         ThisItem.Question
 
