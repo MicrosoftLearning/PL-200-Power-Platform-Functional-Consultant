@@ -245,7 +245,7 @@ practices you will be scoring and storing the results.
 26. In the left control tree, select the checkBox and rename the checkbox
     **answer1Selected**.
 
-27. With **answer1Selected** still selected, go to the **Insert** tab and select **Check box** again. We are going to add the additional answer checkboxes and do a similar setup for each.
+27. With **answer1Selected** still selected, go to the **Insert** tab, select **Input**, and select **Check box** again. We are going to add the additional answer checkboxes and do a similar setup for each.
 
 28. Move the new checkbox below the **answer1Selected** checkbox.
 
@@ -267,7 +267,7 @@ practices you will be scoring and storing the results.
 
 33.  Rename the checkbox **answer2Selected**.
 
-34. With **answer2Selected** still selected, go to the **Insert** tab and select **Check box**.
+34. With **answer2Selected** still selected, go to the **Insert** tab, select **Input**, and select **Check box**.
 
 35. Move the new checkbox below the **answer2Selected** checkbox.
 
@@ -289,7 +289,7 @@ practices you will be scoring and storing the results.
 
 40.  Rename the checkbox **answer3Selected**.
 
-41.  With **answer3Selected** still selected, go to the **Insert** tab and select **Check box**.
+41.  With **answer3Selected** still selected, go to the **Insert** tab, select **Input**, and select **Check box**.
 
 42.  Move the new check box below the **answer3Selected** checkbox.
 
