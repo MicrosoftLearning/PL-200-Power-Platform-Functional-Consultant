@@ -22,8 +22,8 @@ Exercise 1 – Edit the Knowledge Assessment Form
 ------------------------------------------------
 
 In this exercise, you will edit the form for the Knowledge Assessment entity.
-There are two places you can edit this from, either from the Solutions > Entity > Forms list, or via the App Designer. If you are already in App
-Designer start, there.
+There are two places you can edit this form, either from the Solutions > Entity > Forms list, or via the App Designer. If you are already in App
+Designer, start there.
 
 ### Task 1 – Enable Notes on the Knowledge Assessment entity
 
