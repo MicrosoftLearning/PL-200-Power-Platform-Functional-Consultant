@@ -133,7 +133,7 @@ To customize your form:
 
 35. Make sure **Knowledge Questions (Knowledge Assessment)** is selected for **Entity.**
 
-37. Select the **New Section** and enter **KNowledge Questions** for Label and **KnowledgeQuestions** for name. Click **Save**.
+37. Select the **New Section** that the subgrid was added to. In the Properties tab, enter **Knowledge Questions** for Label and **KnowledgeQuestions** for name. Click **Save**.
 
 38. Click **Publish** and wait for the publish to complete.
 
