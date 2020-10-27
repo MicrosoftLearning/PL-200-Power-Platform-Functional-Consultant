@@ -167,4 +167,6 @@ do this for the other components as well.
 
 13. The view will load but you won’t have any records.
 
+14. Click on the **Assessments** area at the bottom of the screen and click **Administration** to return to the Administration area.
+
 16. You can close the model-driven app. 
