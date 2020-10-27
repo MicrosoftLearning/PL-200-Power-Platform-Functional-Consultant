@@ -82,7 +82,7 @@ To customize your form:
 
 10. In the **Field Explorer** (the left bar showing the fields), uncheck the **Show only unused fields** checkbox.
 
-11. Drag the **Owner** field for the **Field Explorer** and place it in the **header** on the right side of the form. You should now have two **Owner** fields on the form: one in the **General** section, and one in the **header.*
+11. Drag the **Owner** field for the **Field Explorer** and place it in the **header** on the right side of the form. You should now have two **Owner** fields on the form: one in the **General** section, and one in the **header.**
 
 12. Select the **General** tab by clicking on it. Enter **General** in the **Name** field in the Properties pane.
 
@@ -90,13 +90,13 @@ To customize your form:
 
 14. Select **Two Columns** for **Layout.**. Click **Save**.
 
-16. Select the **Days Remaining** field and drag it to the left column of the **Header.** 
+16. Select the **Days Remaining** field and drag it to the header next to **Owner.**
 
 17. Select the new section of the **General** tab.
 
 18. Select the **+ Component** tab.
 
-19. Click **Timeline** from the **Related data** section in the Components pane and drag it to the New Section. After the timeline is filled into the New Section, select **New Section**. Change the **Label** to **Timeline** and change the **Name** to **Timeline.**
+19. Click **Timeline** from the **Related data** section in the Components pane and drag it to the New Section. After the timeline is filled into the New Section, select the **New Section** that the timeline was just added to. Change the **Label** to **Timeline** and change the **Name** to **Timeline.**
 
 20. Select the **Owner** field from the **General** section. 
 
