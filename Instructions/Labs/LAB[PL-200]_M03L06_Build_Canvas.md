@@ -273,7 +273,7 @@ practices you will be scoring and storing the results.
 
 36. Select the **Text** property of the new checkbox and set it to **Answer 3**.
 
-            ThisItem.'Answer 3'
+        ThisItem.'Answer 3'
 
 37.  Set the **Width** property to **300**.
 
