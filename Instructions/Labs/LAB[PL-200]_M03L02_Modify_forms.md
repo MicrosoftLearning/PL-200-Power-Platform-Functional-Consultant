@@ -33,7 +33,7 @@ the form editor, because this is the easiest way to perform these configuration 
 example, if you need to add any fields: you should always try to add the fields
 before jumping into the editor.
 
-1.  Navigate to <https://make.powerapps.com>
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in the **Practice** environment you created.
 
