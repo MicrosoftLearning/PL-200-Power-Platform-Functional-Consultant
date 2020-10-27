@@ -106,14 +106,7 @@ collection based on the answers the user provided.
     property to snippet below. This snippet will create a new Knowledge Test
     Result record. **Note:** The following formula contain your environment prefix, denoted in the field below as **crXXX.** You will need to edit this formula to include your own organizational prefix. To find your prefix, you can access the 
     
-            Patch(
-                'Knowledge Test Results',
-                Defaults('Knowledge Test Results'),
-                    {
-                        'Knowledge Assessment': knowledgeAssessmentList.Selected,
-                        'Knowledge Test Result (crXXX_knowledgetestresult)': knowledgeAssessmentList.Selected.Title,
-                        'Total Points': Sum(UserAnswers.Points, Points)
-                    }
+            Patch('Knowledge Test Results',Defaults('Knowledge Test Results'),{'Knowledge Assessment':knowledgeAssessmentList.Selected,Name:knowledgeAssessmentList.Selected.Title, 'Total Points': Sum(UserAnswers.Points,Points)});
 
 ### Task 4 – Add Feedback Screen 
 
