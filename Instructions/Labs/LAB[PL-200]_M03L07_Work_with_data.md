@@ -132,7 +132,7 @@ create a new record.
 
 7.  From the **Insert** tab, click **Forms** and then click **Edit.**
 
-8.  In the property panel on the right, select **Feedback** for **Data Source**.
+8.  In the Property panel on the right, select **Feedback** for **Data Source**. (If you are already on the Advanced tab, you will need to switch to the Properties tab.) 
 
 9.  Go to the tree view and rename the form **feedbackForm**.
 
