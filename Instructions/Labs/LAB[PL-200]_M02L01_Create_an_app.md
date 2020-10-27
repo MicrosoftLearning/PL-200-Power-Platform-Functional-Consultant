@@ -216,7 +216,7 @@ of the current user to the header.
 
 1.  Select the **MainScreen** in the left control tree.
 
-2.  Select the **Insert** tab and click **Text label**.
+2.  Select the **Insert** tab from the top menu and click **Label.**
 
 3.  Rename the label **userLabel**.
 
@@ -228,7 +228,7 @@ of the current user to the header.
             User().FullName
 
 6.  The user’s Full Name will now be displayed on the label. Select the **Home**
-    tab.
+    tab and make sure the text box is selected.
 
 7.  Change the **Font Size** to **14**.
 
@@ -236,9 +236,9 @@ of the current user to the header.
 
 9.  Click **Align** and select **Right** from the top menu.
 
-10.  Click **Text align** from the Properties tab on the right and select **Align Right**.
+10.  Click **Text align** from the Properties tab on the right and select **align right.**
 
-11.  Go to **Properties** and set **Position Y** to **0**.
+11.  Set **Position Y** to **0**.
 
 12.  Locate **Size** and set the Height to **60**.
 
