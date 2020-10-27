@@ -202,7 +202,7 @@ In this exercise, you will edit the form for the Knowledge Question entity.
 
 1.  Click **Play**.
 
-3.  Select the **Knowledge Assessment** entity and click **+ New**.
+3.  Switch from the **Administration** section to the **Assessments** section. Select the **Knowledge Assessment** entity and click **+ New**.
 
 4.  The form should have two tabs: **General** and **Questions**.
 
