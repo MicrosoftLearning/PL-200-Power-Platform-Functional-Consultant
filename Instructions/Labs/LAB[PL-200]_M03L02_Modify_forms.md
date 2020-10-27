@@ -80,14 +80,13 @@ To customize your form:
 8.  Go to the **Components** tab, hover over the **Information** form in the **Main Forms** section, and
     click **edit** (the pencil icon).
 
-9.  Double click on the **Header** section of the form.
+9.  Click on the **Header** section of the form. (This is the top section of the form that says **New Knowledge Assessment.**)
 
-10. In the **Field Explorer**, uncheck the **Only Show Unused Fields** checkbox.
+10. In the **Field Explorer** (the left bar showing the fields), uncheck the **Show only unused fields** checkbox.
 
-11. Drag the **Owner** field for the **Field Explorer** and place it in the
-    right column of the **Header**.
+11. Drag the **Owner** field for the **Field Explorer** and place it in the **header** on the right side of the form. You should now have two **Owner** fields on the form: one in the **General** section, and one in the **header.*
 
-12. Select the **General** tab by double clicking on it. Enter **General** in the **Name** field in the Properties pane.
+12. Select the **General** tab by clicking on it. Enter **General** in the **Name** field in the Properties pane.
 
 13. Expand the **Formatting** section.
 
