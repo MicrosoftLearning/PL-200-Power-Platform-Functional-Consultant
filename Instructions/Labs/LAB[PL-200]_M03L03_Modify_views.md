@@ -136,7 +136,7 @@ view needs.
     editable or meant to be inactive. Inactive is used in the Common Data Service to mark records as
     soft deleted as an alternate to physically deleting the records.
 
-5.  You will add the Created On feild back to the View. Click on the **+ Add Column**
+5.  You will add the Created On field back to the view. Click on the **+ Add Column**
     button located on the top right of the view.
 
 6.  Select All and then select **Created On**.
