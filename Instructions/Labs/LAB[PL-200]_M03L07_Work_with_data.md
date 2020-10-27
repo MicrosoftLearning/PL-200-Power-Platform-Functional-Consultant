@@ -190,8 +190,7 @@ create a new record.
 
 28.  Click **Insert**, navigate to **Icons** in the top menu, and select the **Emoji - Smile** icon.
 
-29.  Place the icon in the right side of the header and to the right of the User
-    Name.
+29.  Place the icon in the right side of the header and next to **username.**
     
 30.  Set the **Color** property of the icon to **White**.
 
