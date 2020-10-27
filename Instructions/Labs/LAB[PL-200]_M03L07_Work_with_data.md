@@ -104,7 +104,7 @@ collection based on the answers the user provided.
 
 3.  While you still have the **scoreButton** selected, select the **Advanced** tab of the Properties pane. Set the **OnSelect**
     property to snippet below. This snippet will create a new Knowledge Test
-    Result record. **Note:** The following formula contain your environment prefix, denoted in the field below as **crXXX.** You will need to edit this formula to include your own organizational prefix. To find your prefix, you can access the 
+    Result record.
     
             Patch('Knowledge Test Results',Defaults('Knowledge Test Results'),{'Knowledge Assessment':knowledgeAssessmentList.Selected,Name:knowledgeAssessmentList.Selected.Title, 'Total Points': Sum(UserAnswers.Points,Points)});
 
