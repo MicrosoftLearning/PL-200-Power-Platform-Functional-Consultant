@@ -30,7 +30,7 @@ will be updated upon the user clicking the score button. Each item will then use
 an expression to highlight if the answer is right or wrong, only when
 ShowResults is true.
 
-1.  Navigate to <https://make.powerapps.com>
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in your **Practice** environment.
 
@@ -73,26 +73,22 @@ ShowResults is true.
     - Set the Fill Color to Green id ShowResults is true, the checkbox is check,
     and the Points value is more than 0.
 
-            If(ShowResults, If(answer4Selected.Value = true && ThisItem.'Answer 4 Points' >
-            0, Green, If(answer4Selected.Value = false, White, Red)), White)
+            If(ShowResults, If(answer4Selected.Value = true && ThisItem.'Answer 4 Points' > 0, Green, If(answer4Selected.Value = false, White, Red)), White)
 
 1.  Select the **Fill** property of **Answer3Selected** checkbox and set to the
     snippet below.
 
-        If(ShowResults, If(answer3Selected.Value = true && ThisItem.'Answer 3 Points' >
-        0, Green, If(answer3Selected.Value = false, White, Red)), White)
+        If(ShowResults, If(answer3Selected.Value = true && ThisItem.'Answer 3 Points' > 0, Green, If(answer3Selected.Value = false, White, Red)), White)
 
 1.  Select the **Fill** property of **Answer2Selected** checkbox and set to the
     snippet below.
 
-        If(ShowResults, If(answer2Selected.Value = true && ThisItem.'Answer 2 Points' >
-        0, Green, If(answer2Selected.Value = false, White, Red)), White)
+        If(ShowResults, If(answer2Selected.Value = true && ThisItem.'Answer 2 Points' > 0, Green, If(answer2Selected.Value = false, White, Red)), White)
 
 1.  Select the **Fill** property of **Answer1Selected** checkbox and set to the
     snippet below.
 
-        If(ShowResults, If(answer1Selected.Value = true && ThisItem.'Answer 1 Points' >
-        0, Green, If(answer1Selected.Value = false, White, Red)), White)
+        If(ShowResults, If(answer1Selected.Value = true && ThisItem.'Answer 1 Points' >  0, Green, If(answer1Selected.Value = false, White, Red)), White)
 
 ### Task 2 – Disable/Enable Button 
 
@@ -117,12 +113,12 @@ In this task, you will copy the Main Screen and rename it Results Screen.
 
 3.  Rename the new screen **resultsScreen**.
 
-4.  Select the **knowledgeAssessmentList_1**, click on the ellipses button and click **Delete**.
+4.  Select the **knowledgeAssessmentList** under the **resultsScreen**. Click on the ellipses button and click **Delete**.
 
 5.  Make sure the **Insert** tab is selected. Click **Gallery** and select **Horizontal**.
 
 6.  The **Data source** pop-out will come to view.  
-    Select **Knowledge Test Result** for data source.
+    Select **Knowledge Test Results** for data source.
     
 7.  Rename the gallery to **UserResultList**.
 
@@ -130,11 +126,11 @@ In this task, you will copy the Main Screen and rename it Results Screen.
 
 9.  Select the **UserResultsList** gallery.
 
-10. Select the **Items** property and set it to the snippet below.
+10. In the **Advanced** tab, select the **Items** property and set it to the snippet below.
 
             Filter('Knowledge Test Results',  Owner = CurrentUser)
     
-11. Return to the **Properties** tab and select **Edit** in the Fields section. Set the Title.Text element of UserResultList to this snippet.
+11. Return to the **Properties** tab and select **Edit** in the Fields section. Set the Title element of UserResultList to this snippet.
 
             ThisItem.createdon
     
