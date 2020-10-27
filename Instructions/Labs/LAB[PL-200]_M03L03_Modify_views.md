@@ -168,6 +168,6 @@ view needs.
 4.  The **Active Knowledge Assessments** view will be loaded. Make sure the
     columns you selected are there in the order you selected. (You may need to use the view drop-down to re-select the view and cause it to refresh.) 
 
-5.  Click the **Select a view** dropdown next to the view title and choose the **Created This Month** view.
+5.  Click the **Select a view** dropdown next to the **Active Knowledge Assessments** view title and choose the **Created This Month** view.
 
 6.  Make sure the columns are showing in the order you selected.
