@@ -157,7 +157,7 @@ In this exercise, you will edit the form for the Knowledge Question entity.
 4.  After the **Knowledge Question** entity is added to the application, select
     **Forms**.
 
-5.  Hover over the **Main Form** and click **edit** (the pencil icon).
+5.  Hover over the **Information** form in the **Main Form** section and click **edit** (the pencil icon).
 
 6.  Select the **Header** by double clicking on it.
 
