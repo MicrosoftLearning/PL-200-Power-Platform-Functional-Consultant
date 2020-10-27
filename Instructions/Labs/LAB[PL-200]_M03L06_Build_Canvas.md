@@ -43,7 +43,7 @@ application.
 
 8.  Click on the **Data Sources** button.
 
-11. Click **+Add data.** You will be presented with a list of entities. Expand to see all entites by selecting **See all entities.** Select the **Feedback**,
+11. You will be presented with a list of entities. Expand to see all entites by selecting **See all entities.** Select the **Feedback**,
     **Knowledge Assessments**, **Knowledge Questions**, **Knowledge Test
     Results**, and **Users** entities. You can use the Search feature to make
     it quicker to find the entities.
@@ -68,7 +68,7 @@ take the assessment.
 
 ### Task 1 – Setup Knowledge Assessment screen 
 
-1.  Click on the ellipses of **mainScreen** and select **Duplicate Screen**.
+1.  In the **tree view**, click on the ellipses of **mainScreen** and select **Duplicate Screen**.
 
 2.  Click on the ellipses button of the new screen and click **Rename**.
 
@@ -78,10 +78,10 @@ take the assessment.
 
 4.  Select the **mainScreen**.
 
-5.  Make sure the **Insert** tab is selected. Click **Gallery** and select
+5.  Select the **Insert** tab. Click **Gallery** and select
     **Horizontal**.
 
-6.  A **Data Source** pop-out will appear next to the Gallery pane. Select **Knowledge Assessments** for **Data Source**.
+6.  A **Data Source** pop-out will appear next to the Gallery pane to select the data source. Select **Knowledge Assessments**.
 
 7.  In the Properties tab, navigate to **Fields** and click **Edit**. Change the Subtitle to **Days Remaining** by selecting the field from the dropdown.
 
@@ -94,24 +94,24 @@ take the assessment.
 11. Select the first item of the **KnowledgeAssessmentList** gallery. Make sure
     you are selecting the item in the designer.
 
-12. Click on the **subtitle** control by clicking **Subtitle1** from the control tree on the left.
+12. Click on the knowledgeAssessmentList **subtitle** control from the control tree on the left.
 
 13. Select the **Text** property in the designer function list (fx) and paste
     the snippet below. This snippet will add the text “ Days remaining” to the
     end of the number. If you have issues with the formula, try typing it out
     manually instead of copying and pasting.
 
-        ThisItem.'Days Remaining' & " Days remaining"
+        ThisItem.'Days Remaining' & " days remaining"
 
 1.  Depending on your test data you may have some items that currently just say
-    Days remaining and some that have a number (e.g., "6 Days remaining").
+    "days remaining" and some that have a number (e.g., "10 days remaining").
 
-2.  With **Subtitle** on the **knowledgeAssessmentList** still selected, go to
+2.  With the **subtitle** on the **knowledgeAssessmentList** still selected, go to
     the **Insert** tab and click **Icons**.
 
-3.  Select the **+** icon.
+3.  Select the **+ Add** icon.
 
-4.  Move the icon to below the **Days Remaining** subtitle by dragging it with
+4.  Move the icon to below the **days remaining** subtitle by dragging it with
     your mouse.
 
 5.  Select the icon. Navigate to the **Advanced** tab of the Properties pane. Select the **OnSelect** property and set it the snippet
