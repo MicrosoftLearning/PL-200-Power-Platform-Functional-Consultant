@@ -43,7 +43,7 @@ date.
 
 ### Task 2 – Add and Remove Columns from View
 
-1.  The **Active Knowledge Assessment** view currently has two columns. In the **Fields** menu on the right, expand the dropdown menu and change to **All.**
+1.  The **Active Knowledge Assessment** view currently has two columns. In the **Fields** menu on the left, expand the dropdown menu and change to **All.**
 
 2.  Click on the **Status Reason** field.
 
