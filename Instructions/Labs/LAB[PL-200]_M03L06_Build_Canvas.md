@@ -273,19 +273,19 @@ practices you will be scoring and storing the results.
 
 36. Select the **Text** property of the new checkbox and set it to **Answer 3**.
 
-        ThisItem.'Answer 3'
+            ThisItem.'Answer 3'
 
 37.  Set the **Width** property to **300**.
 
 38.  Set the **OnCheck** property to the snippet below. This snippet will add the
     points of the check answer to the Collection.
     
-        Collect(UserAnswers, {Question:GUID(ThisItem.'Knowledge Question'), Points:ThisItem.'Answer 3 Points'})
+            Collect(UserAnswers, {Question:GUID(ThisItem.'Knowledge Question'), Points:ThisItem.'Answer 3 Points'})
     
 39.  Set the **OnUnCheck** property to the snippet below. This snippet will
     remove the points of the uncheck answer form the Collection.
     
-        Remove(UserAnswers, LookUp(UserAnswers, Question = GUID(ThisItem.'Knowledge Question')))
+            Remove(UserAnswers, LookUp(UserAnswers, Question = GUID(ThisItem.'Knowledge Question')))
 
 40.  Rename the checkbox **answer3Selected**.
 
