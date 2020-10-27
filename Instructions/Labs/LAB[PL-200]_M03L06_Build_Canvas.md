@@ -104,7 +104,7 @@ take the assessment.
 
 1.  In the **tree view**, click on the ellipses of **mainScreen** and select **Duplicate Screen**.
 
-2.  Click on the ellipses button of the new screen and click **Rename**.
+2.  Click on the ellipses button of the new screen and click **Rename**. 
 
 3.  Rename the Screen **takeAssessmentScreen.** *Note:* It is always good to give
     components a good name so when you reference them later there will not be any
