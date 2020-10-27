@@ -163,7 +163,7 @@ view needs.
 
 1.  While still on <https://make.powerapps.com>, select **Apps**.
 
-2.  Click on the **Knowledge Admin** model-driven application and select **Play.**
+2.  Click on the **Knowledge Admin** model-driven application and select **Play.** Switch from **Administration** to **Assessments.**
 
 4.  The **Active Knowledge Assessments** view will be loaded. Make sure the
     columns you selected are there in the order you selected. (You may need to use the view drop-down to re-select the view and cause it to refresh.) 
