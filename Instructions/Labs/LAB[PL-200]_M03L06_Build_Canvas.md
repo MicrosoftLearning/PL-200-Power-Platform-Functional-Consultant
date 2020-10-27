@@ -26,10 +26,9 @@ application.
 
 ### Task 1 – Setup data sources 
 
-1.  Navigate to <https://make.powerapps.com>
+1.  Navigate to <https://make.powerapps.com>.
 
-2.  Make sure you are in your **Practice** environment. You can find
-    the environment selector in the upper right corner.
+2.  Make sure you are in your **Practice** environment.
 
 3.  Select **Solutions**.
 
