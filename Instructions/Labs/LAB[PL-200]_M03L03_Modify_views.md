@@ -68,7 +68,7 @@ date.
     **Fields** side bar, select the **Related** tab.
 
 11. All the entities that the **Knowledge Assessment** entity has a **N:1** relationship with
-    will be listed here. Expand **Owning User (systemuser).**
+    will be listed here. Expand **Owning User (User).**
 
 12. Enter **Email** on the search box and enter.
 
@@ -141,11 +141,11 @@ view needs.
 
 6.  Select All and then select **Created On**.
 
-7.  Click on the **dropdown** button of the **Created On** column header.
+7.  In the **Properties** pane, select **Edit filters.**
 
-8.  Locate the **Filter by** section and click **Edit filters.** In the pop-up, click **+Add** and select **+Add row.**
+8.  In the pop-up, click **+Add** and select **+Add row.**
 
-9.  In the first dropdown, select **Created on**. In the second dropdown, select **This Month**. Make sure the box for this row is checked.
+9.  In the first dropdown, select **Created on**. In the second dropdown, select **This Month**. Make sure the box for both rows are checked.
 
 10. Click **OK**.
 
@@ -165,13 +165,9 @@ view needs.
 
 2.  Click on the **Knowledge Admin** model-driven application and select **Play.**
 
-3.  Click on the **Administration** area and select **Assessments**.
-
 4.  The **Active Knowledge Assessments** view will be loaded. Make sure the
-    columns you selected are there in the order you selected.
+    columns you selected are there in the order you selected. (You may need to use the view drop-down to re-select the view and cause it to refresh.) 
 
 5.  Click the **Select a view** dropdown next to the view title and choose the **Created This Month** view.
 
-6.  Make sure the column you select are showing in the order you selected.
-
-7.  This view should show only the records that were created in this month.
+6.  Make sure the columns are showing in the order you selected.
