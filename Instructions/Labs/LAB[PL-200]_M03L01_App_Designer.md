@@ -145,7 +145,7 @@ do this for the other components as well.
 2.  Click **Play**.
 
 3.  The application will load. The current area is shown on the bottom-left of
-    the page (**Administration**).
+    the page (**Administration**). The **Enabled users** view will load and you will see a list of enabled users.
 
 4.  Click on the **Administration** area and switch to the **Assessments** area.
 
@@ -167,6 +167,4 @@ do this for the other components as well.
 
 13. The view will load but you won’t have any records.
 
-14. Click on the **Assessments** area and switch to the **Administration** area.
-
-15. The **Enabled Users** view will load.
+16. You can close the model-driven app. 
