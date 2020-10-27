@@ -39,7 +39,7 @@ In this exercise, you will create a dashboard using existing charts and views.
 
 6.  Enter **Results Overview** for Name.
 
-7.  Click the **Insert Chart** icon in the left top section.
+7.  Click the **Insert Chart** icon (the chart with a plus sign) in the left top section.
 
 8.  Select **Knowledge Test Result** for **Record Type**.
 
@@ -49,7 +49,7 @@ In this exercise, you will create a dashboard using existing charts and views.
 
 11. Click **Add**.
 
-12. Click the **Insert List** icon for the right top section.
+12. Click the **Insert List** icon (the bulleted list) for the right top section.
 
 13. Select **Knowledge Assessments** for **Record Type**.
 
@@ -73,7 +73,7 @@ module and added to the definition
 
 2.  Open **Common Data Services Default Solution**.
 
-3.  Click on the **Knowledge Admin Model-Driven application**. The app designer
+3.  Click on the **Knowledge Admin** model-driven application. The app designer
     should open.
 
 4.  Select **Dashboards**.
@@ -89,11 +89,11 @@ module and added to the definition
 
 9.  Click **Save**.
 
-10.  Click the **edit** icon next to Site Map.
+10.  Click the **edit** (the pencil) icon next to Site Map.
 
 11.  Select the **Assessments** area.
 
-12.  Select **Configuration**.
+12.  Select the **Configuration** group.
 
 13.  Click **+ Add** and select **Subarea**.
 
@@ -119,7 +119,7 @@ module and added to the definition
 
 23. Click **Save and Close** to close the close the app designer.
 
-24. Click **Done**.
+24. Click **Done**. Deselect the Knowledge Admin model-driven app.
 
 25. Click **Publish All Customizations**.
 
@@ -133,7 +133,7 @@ module and added to the definition
 3.  Select the **Knowledge Admin Model-Driven application** and click **Play**.
 
 5.  The Dashboard will load and **Results Overview** will be selected by
-3.  Select the **Knowledge Admin Model-Driven application** and click **Play**.
+3.  Select the **Knowledge Admin Model-Driven application** and click **Play**. (If your dashboard does not load immediately, click the **Home** button in the left menu to refresh the app.) 
 
 5.  The Dashboard will load and **Results Overview** will be selected by
     default.
