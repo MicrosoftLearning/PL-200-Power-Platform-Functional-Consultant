@@ -104,7 +104,7 @@ collection based on the answers the user provided.
 
 3.  While you still have the **scoreButton** selected, select the **Advanced** tab of the Properties pane. Set the **OnSelect**
     property to snippet below. This snippet will create a new Knowledge Test
-    Result record.
+    Result record. **Note:** For long formulas, you can expand the **fx** bar to format your formula in a larger view.
     
             Patch('Knowledge Test Results',Defaults('Knowledge Test Results'),{'Knowledge Assessment':knowledgeAssessmentList.Selected,Name:knowledgeAssessmentList.Selected.Title, 'Total Points': Sum(UserAnswers.Points,Points)});
 
