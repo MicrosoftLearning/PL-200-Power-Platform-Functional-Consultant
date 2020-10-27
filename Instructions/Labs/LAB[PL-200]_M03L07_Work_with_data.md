@@ -114,7 +114,6 @@ collection based on the answers the user provided.
                         'Knowledge Test Result (crXXX_knowledgetestresult)': knowledgeAssessmentList.Selected.Title,
                         'Total Points': Sum(UserAnswers.Points, Points)
                     }
-                ); UpdateContext({ShowResults:true})
 
 ### Task 4 – Add Feedback Screen 
 
