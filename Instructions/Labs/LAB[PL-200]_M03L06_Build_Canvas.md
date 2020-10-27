@@ -24,7 +24,41 @@ Exercise 1 – Setup the Data Sources from the Common Data Service
 In this exercise, you will be associating the data sources needed with the
 application.
 
-### Task 1 – Setup data sources 
+### Task 1 - Enter data into Knowledge Admin application
+
+1. Navigate to <https://make.powerapps.com>.
+    
+2.  Make sure you are in your **Practice** environment.
+
+3.  Select **Solutions**.
+
+4.  Select **Common Data Services Default Solution.**    
+
+5. Select the **Knowledge Admin** model-driven app and select **Play.**
+
+6. Navigate to **Knowledge Assessments.** You should have three **Test Assessments** listed in your view. 
+
+7. Open **Test Assessment One.** 
+
+    - Enter a **Start date** and an **End date.**
+    
+    - Enter a **Difficulty.**
+    
+    - Navigate to the **Questions** tab.
+    
+    - Click **New Knowledge Question.** 
+    
+    - Enter a question for **Question.** (Examples: What is your favorite color? What is your favorite animal? What is your job role? What technology do you work on? Use your imagination!)
+    
+    - Enter answers and answer points for four possible answers to your question.
+    
+    - Click **Save.**
+    
+    - Repeat Step 7 for Test Assessments Two and Three. You can create multiple questions for each Test Assessment if you have time. 
+ 
+ 8. When all Test Assessments have data in the **General tab** and all have at least one associated **Question**, close the model-driven app.
+
+### Task 2 – Set up data sources 
 
 1.  Navigate to <https://make.powerapps.com>.
 
@@ -127,7 +161,7 @@ be the same as your second screen.
 
 ### Task 2 – Setup Taking Assessment screen 
 
-In this task we will be setting up the display of the questions, in subsequent
+In this task we will be setting up the display of the questions. In subsequent
 practices you will be scoring and storing the results.
 
 1.  Select the **takeAssessmentScreen**.
@@ -135,9 +169,9 @@ practices you will be scoring and storing the results.
 2.  With the **takeAssessmentScreen** still selected, go to the **Insert** tab,
     click **Gallery,** and select **Blank Horizontal**.
 
-3.  The **Data Source** pop-out will come to view. Close it.
+3.  The **data source** pop-out will come into view. Close it.
 
-4.  Rename the Gallery **assessmentQuestionList**.
+4.  Rename the gallery **assessmentQuestionList**.
 
 5.  Select the **assessmentQuestionList** gallery.
 
