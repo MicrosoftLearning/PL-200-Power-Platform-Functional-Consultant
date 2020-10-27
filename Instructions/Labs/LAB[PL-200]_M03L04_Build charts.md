@@ -26,7 +26,7 @@ In this exercise, you will create a chart using the Knowledge Test Result data.
 
 ### Task 1 – Edit the Knowledge Assessment active item view
 
-1.  Navigate to <https://make.powerapps.com>
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in your **Practice** environment.
 
