@@ -311,9 +311,9 @@ practices you will be scoring and storing the results.
         
 47.  Rename the checkbox **answer4Selected**.
 
-48.  Select **testAssessmentScreen**.
+48.  Select **takeAssessmentScreen**.
 
-49.  Go to the **Insert** tab and click **Button**.
+49.  Go to the **Insert** tab, select **Input,** and click **Button**.
 
 50.  Drag and place the button below the **assessmentQuestionList**.
 
