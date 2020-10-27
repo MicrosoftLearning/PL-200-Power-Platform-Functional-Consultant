@@ -39,7 +39,7 @@ In this exercise, you will create a dashboard using existing charts and views.
 
 6.  Enter **Results Overview** for Name.
 
-7.  Click the **Insert Chart** icon (the chart with a plus sign) in the left top section.
+7.  Locate the top left quadrant of the dashboard. You will see icons in the middle of the quadrant, which are buttons allowing you to add components. In the top left quadrant, click the **Insert chart** icon, which looks like a bar graph with a plus sign. 
 
 8.  Select **Knowledge Test Result** for **Record Type**.
 
@@ -49,7 +49,7 @@ In this exercise, you will create a dashboard using existing charts and views.
 
 11. Click **Add**.
 
-12. Click the **Insert List** icon (the bulleted list) for the right top section.
+12. Locate the top right quadrant of the dashboard. Click the **Insert list** icon, which looks like a bulleted list. 
 
 13. Select **Knowledge Assessments** for **Record Type**.
 
