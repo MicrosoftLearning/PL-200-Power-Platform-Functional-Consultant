@@ -122,7 +122,7 @@ In this task, you will copy the Main Screen and rename it Results Screen.
     
 7.  Rename the gallery to **UserResultList**.
 
-8.  Delete the image in **UserResultList**.
+8.  Delete the image in **UserResultList**. You will recieve an error with a red X - delete the formula in the **fx** bar to remove the error.
 
 9.  Select the **UserResultsList** gallery.
 
