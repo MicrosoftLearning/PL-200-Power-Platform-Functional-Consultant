@@ -187,10 +187,7 @@ practices you will be scoring and storing the results.
 
 8.  Select the **assessmentQuestionList.**
 
-9.  Click **Add an item from the insert pane** of the **assessmentQuestionList**
-    gallery.
-
-10.  From the **Insert** tab, click **Text label**.
+10.  From the **Insert** tab, click **Label**.
 
 11. Select the label you just added and set the **Text** property to
     **Question**.
@@ -283,7 +280,7 @@ practices you will be scoring and storing the results.
 38.  Set the **OnCheck** property to the snippet below. This snippet will add the
     points of the check answer to the Collection.
     
-        Collect(UserAnswers, {Question:GUID(ThisItem.'Knowledge Question'), Points:ThisItem.'Answer 3 Points'})
+            Collect(UserAnswers, {Question:GUID(ThisItem.'Knowledge Question'), Points:ThisItem.'Answer 3 Points'})
     
 39.  Set the **OnUnCheck** property to the snippet below. This snippet will
     remove the points of the uncheck answer form the Collection.
