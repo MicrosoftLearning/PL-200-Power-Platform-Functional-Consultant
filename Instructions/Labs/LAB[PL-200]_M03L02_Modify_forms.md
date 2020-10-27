@@ -127,7 +127,7 @@ To customize your form:
 
 31. Return to the **+ Components** tab.
 
-32. Click **Subgrid** from the **Related data** section. Select **Knowledge Questions** for Entity and click **Done.**
+32. Click **Subgrid** from the **Related data** section. Check the **Show related records** check box and select **Knowledge Questions** for Entity. Then click **Done.**
 
 33. In the right properties tab, enter **KnowledgeQuestions** for **Name** and **Knowledge Questions** for label.
 
