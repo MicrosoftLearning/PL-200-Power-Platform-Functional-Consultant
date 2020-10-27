@@ -161,8 +161,7 @@ In this exercise, you will edit the form for the Knowledge Question entity.
 
 6.  Select the **Header** by double clicking on it.
 
-7.  Add the **Knowledge Assessment** field to **Header** and place it on the
-    left column.
+7.  Add the **Knowledge Assessment** field to **Header** (the top part of the form) and place it on the right side of the header.
 
 8.  Select the **General** tab by double clicking. In the right **Properties** tab, enter **General** for Name.
 
