@@ -138,7 +138,7 @@ In this task, you will copy the Main Screen and rename it Results Screen.
 
             ThisItem.crxxx_totalpoints
     
-13. Add the **Left** icon to the upper left corner. Change the fill to **white.**
+13. Select the **resultsScreen** and navigate to the **Insert** tab. Add the **Left** icon to the upper left corner. Change the color to **white.**
 
 14. Set the Left icon OnSelect to this snippet.
 
@@ -157,7 +157,7 @@ navigate to the Results page.
 
 4.  Place the icon in the left side of the header.
 
-5.  Change the **Color** of the icon to **White**.
+5.  Change the **color** of the icon to **White**.
 
 6.  Select the **OnSelect** property of the icon and provide the function below.
     This function will run when the icon is clicked and navigate to the Results
@@ -186,12 +186,10 @@ In this task, you will run and test the applications.
 
 8.  The questions should load, and the **Score Assessment** button should be
     **Disabled**. This is because you must select at least one answer before you
-    can submit your answers. N
+    can submit your answers. 
     
     *Note:* If you do not see any data, you need to use
-    the model-driven app to create some assessment questions with answers. Make
-    sure to give some questions points with positive values (correct answers)
-    and some with negative values (wrong answers).
+    the model-driven app to create some assessment questions with answers. 
 
 9.  Select some answers.
 
@@ -199,7 +197,7 @@ In this task, you will run and test the applications.
 
 11. Click on the **Score Assessment** button.
 
-12. The answers that have more 0 points will become **Green** and the answers
+12. The answers that have more than 0 points will become **Green** and the answers
     that have 0 zero points will become **Red**.
 
 13. Click on the **Information** button.
