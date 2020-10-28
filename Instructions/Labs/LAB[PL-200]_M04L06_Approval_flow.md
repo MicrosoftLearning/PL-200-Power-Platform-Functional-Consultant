@@ -253,7 +253,7 @@ Exercise 2 – Create flow
 3.  Select **Knowledge Assessments**
     for **Entity Name** and click on the **Record Identifier** field.
 
-4.  Select **Knowledge Assessment** from the **Dynamic Content** pane.
+4.  From the **Dynamic Content** pane, select **Knowledge Assessment** from either section.
 
 5.  Click **Show Advanced Options**.
 
