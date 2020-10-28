@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab: Build approval flow'
+    title: 'Lab 4.6: Build approval flow'
     module: 'Module 4: Build Power Automate flows'
 ---
 
 Module 4: Build Power Automate flows
 ========================
 
-## Lab 6: Practice Lab – Build approval flow
+## Lab 4.6: Practice Lab – Build approval flow
 
 Scenario
 --------
