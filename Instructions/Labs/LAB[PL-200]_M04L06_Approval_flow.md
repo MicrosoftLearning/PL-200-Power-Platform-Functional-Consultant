@@ -26,7 +26,7 @@ Exercise 1 – Prepare the solution
 
 1.  Navigate to https://make.powerapps.com.
 
-2.  Ensure you are in the **Practice** environment you created by clicking the drop-down menu and choosing **[your initials] Practice.**
+2.  Ensure you are in the **Practice** environment you created.
 
 3.  Click **Solutions**.
 
@@ -90,7 +90,7 @@ Exercise 2 – Create flow
 
 6.  Click  **Common Data Service** and select **When a record is updated.**
 
-7.  Start typing your unique alias in **Environment** to select your Practice environment. Select **Knowledge Assessments**
+7.  Select **Update or delete** for **Trigger condition.** Select **Knowledge Assessments**
     for **Entity Name**, and select **Business Unit** for **Scope**.
 
 8.  Click **Show Advanced Options**.
