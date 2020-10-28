@@ -71,8 +71,8 @@ deactivate them.
 
 22. Search for **Common Data Service** and select **Update a Record**.
 
-23. Select **Knowledge Assessments**
-    for **Entity Name**, and select the **Item ID** field.
+23. If required, select your environment. Then select **Knowledge Assessments**
+    for **Entity Name**. Depending on your UI, you will then either see **Item ID** or **Record Identifier.** Select this field.
 
 24. Select **Knowledge Assessment** from the **Dynamic Content** pane.
 
