@@ -124,7 +124,7 @@ deactivate them.
 
 17. Go back to flow and click **Edit**.
 
-18. Click on the Recurrence step.
+18. Click on the Recurrence trigger.
 
 19. Change the **Recurrence** from **Minute** to **Week**.
 
