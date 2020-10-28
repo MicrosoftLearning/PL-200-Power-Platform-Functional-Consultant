@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab: Export data'
+    title: 'Lab 6.6: Export data'
     module: 'Module 6: Analyze data with Power BI'
 ---
 
 Module 6: Analyze data with Power BI
 =======================
 
-## Lab 5: Practice Lab – Export data
+## Lab 6.6: Practice Lab – Export data
 
 Scenario
 --------
