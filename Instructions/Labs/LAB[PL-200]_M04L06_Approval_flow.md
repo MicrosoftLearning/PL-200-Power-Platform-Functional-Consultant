@@ -88,7 +88,7 @@ Exercise 2 – Create flow
 
 4.  Select **Flows** and click **+New.** Select **+Automated - from blank.** In the pop-up, select **Skip.** 
 
-6.  Type into the search box  **Common Data Service** and select **When record is updated.**
+6.  Type into the search box  **Common Data Service**. You will see two options for a Common Data Service connector: Common Data Service and Common Data Service (current environment). Select only Common Data Service and then select **When record is updated.**
 
 7.  Select your environment. Select **Knowledge Assessments**
     for **Entity Name**, and select **Business Unit** for **Scope**.
@@ -122,10 +122,10 @@ Exercise 2 – Create flow
 
 1.  Click **Add an Action** in the **If Yes** branch.
 
-2.  Click **Common Data Service** and select **Update a record**.
+2.  Click **Common Data Service** (not Common Data Service (current environment)) and select **Update a record**.
 
-3.  Select your Practice environment (if prompted), select **Knowledge Assessments**
-    for **Entity Name**, and click on the **Record Identifier** or **Item ID** field.
+3.  Select your Practice environment, select **Knowledge Assessments**
+    for **Entity Name**, and click on the **Record Identifier** field.
 
 4.  Select **Knowledge Assessment** from the **Dynamic Content** pane.
 
@@ -141,9 +141,9 @@ Exercise 2 – Create flow
 
 1.  Click **Add an Action** of the **If Yes** branch.
 
-2.  Select **Common Data Service** and select **Get a Record**.
+2.  Select **Common Data Service** (not Common Data Service (current environment)) and select **Get a Record**.
 
-3.  Select your environment (if prompted), select **Users** for **Entity
+3.  Select your environment, select **Users** for **Entity
     Name**, and click on the **Item ID** or **Record identifier** field.
 
 4.  Select **Created By (Value)** from the **Dynamic Content** pane.
