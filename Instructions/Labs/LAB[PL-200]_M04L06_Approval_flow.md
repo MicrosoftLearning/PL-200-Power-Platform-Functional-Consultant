@@ -202,7 +202,7 @@ Exercise 2 – Create flow
 
 19. Select **Apps** and click to open the **Knowledge Admin** application.
 
-20. Select **Assessment** and click to open an assessment.
+20. Open any assessment. 
 
 21. Find the **Pop Out** button located in bottom left of the form and click on
     it. (It will be in the bar at the very bottom of the page, and will be next to the status of the record.)
