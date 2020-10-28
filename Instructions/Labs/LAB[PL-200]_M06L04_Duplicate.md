@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab: Duplicate detection'
+    title: 'Lab 6.4: Duplicate detection'
     module: 'Module 6: Analyze data with Power BI'
 ---
 
 Module 6: Analyze data with Power BI
 =======================
 
-## Lab 3: Practice Lab – Duplicate detection
+## Lab 6.4: Practice Lab – Duplicate detection
 
 Scenario
 --------
