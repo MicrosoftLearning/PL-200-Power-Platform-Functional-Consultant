@@ -41,7 +41,11 @@ Exercise 1 – Update Process
 
 5.  Click on the **…** button located on the command bar and select **Switch to Classic**.
 
-6.  Select **Processes** and open the **Assessment Process** you created.
+6.  Select **Processes** and click **Add Existing.** Select **Assessment Process** and click OK.
+
+6. Select OK again to add components.
+
+6. Select the **Assessment Process** BPF.
 
 7.  Select the **Components** tab, drag **Condition** and drop it in between the
     two existing stages.
