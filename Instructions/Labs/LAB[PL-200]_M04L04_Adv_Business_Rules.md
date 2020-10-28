@@ -95,7 +95,7 @@ Exercise 1 – Prepare the Solution
 6.  Click **+ Add Aggregation**.
 
 7.  Select **SUM** for **Aggregation Function**, select **Question Points** for
-    **Aggregated Related Entity Filed**, and click the checkmark.
+    **Aggregated Related Entity Field**, and click the checkmark.
 
 8.  Click **Save and Close**.
 
