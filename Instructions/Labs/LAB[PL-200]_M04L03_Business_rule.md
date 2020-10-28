@@ -22,7 +22,7 @@ Exercise 1 - Prepare the solution
 
 ### Task 1 – Add Fields to Knowledge Question
 
-1.  Navigate to <https://make.powerapps.com>
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in the **Practice** environment you created.
 
@@ -68,7 +68,7 @@ Exercise 1 - Prepare the solution
 
 5.  Double click on **Scenario Description** field.
 
-6.  Check **Hide field.**
+6.  Check **Hide.**
 
 7.  Uncheck **Show only unused fileds** and drag the **Knowledge Assessment** field from the fields explorer and drop it
     below the **Owner** field on the form.
@@ -79,7 +79,7 @@ Exercise 1 - Prepare the solution
 
 10. Close the tab.
 
-11. Click **Done**.
+11. Click **Back.**
 
 12. Click on the solution name **Common Data Services Default Solution** located in the
     navigation breadcrumbs. Click **Publish all customizations.**
