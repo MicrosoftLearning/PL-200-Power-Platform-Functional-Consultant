@@ -125,7 +125,7 @@ Exercise 2 – Create flow
 2.  Click **Common Data Service** and select **Update a record**.
 
 3.  Select your Practice environment (if prompted), select **Knowledge Assessments**
-    for **Entity Name**, and click on the **Record Identifier** field.
+    for **Entity Name**, and click on the **Record Identifier** or **Item ID** field.
 
 4.  Select **Knowledge Assessment** from the **Dynamic Content** pane.
 
@@ -143,8 +143,8 @@ Exercise 2 – Create flow
 
 2.  Select **Common Data Service** and select **Get a Record**.
 
-3.  Select **Users** for **Entity
-    Name**, and click on the **Item Identifier** field.
+3.  Select your environment (if prompted), select **Users** for **Entity
+    Name**, and click on the **Item ID** or **Record identifier** field.
 
 4.  Select **Created By (Value)** from the **Dynamic Content** pane.
 
@@ -155,7 +155,7 @@ Exercise 2 – Create flow
 
 ### Task 6 – Start Approval
 
-1.  Click **Add an Action** of the **If Yes** branch.
+1.  Click **Add an Action** to the **If Yes** branch.
 
 2.  Search for **Approvals** and select **Start and wait for an approval**.
 
@@ -180,7 +180,7 @@ Exercise 2 – Create flow
     section.
 
 10. Add a comma after the **Full Name** and type **created an assessment that
-    requires manager’s approval**.
+    requires manager’s approval.**
 
 11. Press the enter key to start a new line.
 
