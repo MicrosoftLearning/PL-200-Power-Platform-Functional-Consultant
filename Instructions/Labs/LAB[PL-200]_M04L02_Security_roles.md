@@ -48,7 +48,7 @@ In this task, you will evaluate the Common Data Service User security role.
 
 4.  Locate the **Users + Permissions** section and click **Security Roles.**
 
-5.  Click to open the **Common Data Service User** security role.
+5.  Click to select the **Common Data Service User** security role and click **Edit.**
 
 6.  Select the **Core Records** tab.
 
