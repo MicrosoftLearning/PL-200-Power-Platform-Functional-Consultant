@@ -145,7 +145,7 @@ Exercise 2 – Create Business Rule
     select **Is Less Than or Equals to** for **Operator**, select **Value** for
     **Type**, enter **0** for **Value**, and click **Apply**.
 
-7.  Click **+ New** rule.
+7.  Above the rule you just created, there is a **+ New** button to add a new rule. Click **+ New** to add a new rule in addition to the first rule.
 
 8.  Go to the **Rule 2**, select **Answer 2 Points** for **Field**, select **Is
     Less Than or Equals to** for **Operator**, select **Value** for **Type**,
