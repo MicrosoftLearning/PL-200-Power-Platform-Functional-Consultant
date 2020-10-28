@@ -253,3 +253,5 @@ Exercise 2 – Create Business Rule
 26. Click **Recalculate**.
 
 27. The field should now show the total points of all the questions.
+
+28. You can close your model-driven app.
