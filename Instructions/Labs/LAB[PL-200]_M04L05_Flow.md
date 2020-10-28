@@ -53,8 +53,11 @@ deactivate them.
 
 14. Click on **Show advanced options.**
 
-16. Select the **Filter Query** field and type **crXXX_enddate lt ** and replace
-    crXXX_ with your unique prefix.
+16. Select the **Filter Query** field and type the following:
+
+        crXXX_enddate lt 
+        
+     Replace crXXX_ with your unique prefix and type a **space** at the end of the expression.
 
 17. Select the **Expression** of the **Dynamics Content** pane.
 
