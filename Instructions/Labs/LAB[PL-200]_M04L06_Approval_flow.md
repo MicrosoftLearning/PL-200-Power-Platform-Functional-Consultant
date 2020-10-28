@@ -267,7 +267,7 @@ Exercise 2 – Create flow
 
 2.  Search for **Common Data Service** and select **Update a Record**.
 
-3.  Select your **Practice** environment for **Environment**, select **Knowledge Assessments**
+3.  Select **Knowledge Assessments**
     for **Entity Name** and click on the **Record Identifier** field.
 
 4.  Select **Knowledge Assessment** from the **Dynamic Content** pane.
@@ -287,7 +287,7 @@ Exercise 2 – Create flow
 
 2.  Select **Common Data Service** and select **Update a Record**.
 
-3.  Select your **Practice** environment for Environment, select **Knowledge Assessments** for
+3.  Select **Knowledge Assessments** for
     **Entity Name** and click on the **Record Identifier** field.
 
 4.  Select **Knowledge Assessment** from the **Dynamic Content** pane.
