@@ -196,19 +196,18 @@ Exercise 2 – Create flow
 16. Go to the **Dynamic Content** pane, search for **Full Name**, and select
     **Full Name** from the **Get Created User** section.
 
-17. It is good practice to include a link to the record that needs the approval.
-    Start a new browser window and navigate to make.powerapps.com.
+17. It is good practice to include a link to the record that needs the approval. Start a new browser window and navigate to <make.powerapps.com>.
 
-18. Make sure you are in your **Practice** environment.
+18. In your new window, make sure you are in your **Practice** environment.
 
 19. Select **Apps** and click to open the **Knowledge Admin** application.
 
-20. Select **Assessment** and click to open the **Test Assessment**.
+20. Select **Assessment** and click to open an assessment.
 
 21. Find the **Pop Out** button located in bottom left of the form and click on
     it.
 
-22. A new window will open, copy the **URL** of the window.
+22. A new window will open. Copy the **URL** of the window.
 
 23. Open a notepad and paste the URL.
 
