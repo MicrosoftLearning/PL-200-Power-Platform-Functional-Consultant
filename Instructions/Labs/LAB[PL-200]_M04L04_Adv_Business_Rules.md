@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab: Advanced business rules'
+    title: 'Lab 4.4: Advanced business rules'
     module: 'Module 4: Build Power Automate flows'
 ---
 
 Module 4: Build Power Automate flows
 ========================
 
-## Lab 4: Practice Lab – Advanced business rules
+## Lab 4.4: Practice Lab – Advanced business rules
 
 Scenario
 --------
