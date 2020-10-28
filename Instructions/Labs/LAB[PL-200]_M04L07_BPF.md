@@ -119,8 +119,6 @@ Exercise 2 – Create Business Process Flow
 19. Select **Create Questions** for **Data Field**, check the **Required**
     checkbox, and click **Apply**.
 
-20. Click **+ Add** and select **Add Stage**.
-
 21. Add the new stage to the right of the **Knowledge Assessment** stage by dragging from the components tab.
 
 22. Select the new stage, go to the **Properties** tab, enter **Activate** for
