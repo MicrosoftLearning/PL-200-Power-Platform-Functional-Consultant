@@ -69,7 +69,7 @@ Data Service User security role.
 
 2.  Enter **Knowledge Assessment User** for **Name** and click **OK**.
 
-3.  The new security role will open. (You may need to allow pop-ups depending on your browser.) Select the **Custom Entities** tab.
+3.  The new security role will open. (You may need to allow pop-ups depending on your browser. If it does not open in a new window, you can return to your list of Security Roles, refresh, and find Knowledge Assessment User. Select the role, select edit, and your new security role will open.) Select the **Custom Entities** tab.
 
 4.  Locate the **Knowledge Assessment** entity and click on the Read access
     circle. The security role will get **User** access to the **Knowledge
@@ -113,7 +113,7 @@ Data Service User security role.
 
 14. Click **Save and Close**.
 
-15. Close the Common Data Service User security role. Do not close the security
+15. Close the security role. Do not close the security
     roles window.
 
 ### Task 3 – Create Security Role
