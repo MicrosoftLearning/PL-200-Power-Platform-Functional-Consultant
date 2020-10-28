@@ -95,7 +95,7 @@ Exercise 1 – Update Process
     the **True** side of the condition (the checkmark side).
 
 14. Select the **Lock/Unlock** action, go to the **Properties** tab, enter
-    **Lock Status** for **Display Name**, select **Assessment Status** for
+    **Lock Status** for **Display Name**, select **Status** for
     **Field**, select **Lock** for **Status**, and click **Apply**.
 
 15. Select the **Components** tab, drag **Lock/Unlock** action and drop it on
