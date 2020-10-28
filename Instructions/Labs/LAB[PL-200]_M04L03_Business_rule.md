@@ -60,15 +60,12 @@ Exercise 1 - Prepare the solution
 
 2.  Select the **Forms** tab and click to open the **Main** form.
 
+4.  Drag the **Question Type** field from the fields explorer and drop it above the **Question** field on the form.
+    
 3.  Drag the **Scenario Description** field from the fields explorer and drop it
-    above the **Question** field on the form.
+    below the **Question Type** field. 
 
-4.  Drag the **Question Type** field from the fields explorer and drop it above
-    the **Scenario Description** field on the form.
-
-5.  Double click on **Scenario Description** field.
-
-6.  Check **Hide.**
+6.  With **Scenario Description** selected, check **Hide.**
 
 7.  Uncheck **Show only unused fileds** and drag the **Knowledge Assessment** field from the fields explorer and drop it
     below the **Owner** field on the form.
