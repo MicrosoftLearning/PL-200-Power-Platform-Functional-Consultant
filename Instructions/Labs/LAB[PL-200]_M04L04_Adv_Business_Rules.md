@@ -86,7 +86,7 @@ Exercise 1 – Prepare the Solution
     **Fields**, and click **New**.
 
 3.  Enter **Total Points** for **Display Name**, select **Whole Number** for
-    **Data Type**, select **Rollup** for **Field Type**, and click **Edit**.
+    **Data Type**, select **Rollup** for **Field Type**, and click **Edit**. (Your rollup editor will open in a new window. You may need to allow pop-ups.)
 
 4.  Click **+ Add Related Entity**.
 
