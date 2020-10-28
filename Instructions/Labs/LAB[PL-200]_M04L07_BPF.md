@@ -198,7 +198,7 @@ Exercise 2 – Create Business Process Flow
 
 25. Select **Yes** for **Notify Manager**.
 
-26. Select **Completed** for **Create Questions** and click the red arrow at the end of the BPF to move to the next stage.
+26. Select **Completed** for **Create Questions**. Then click **Next stage.**
 
 27. The process should move to the **Activate** stage.
 
