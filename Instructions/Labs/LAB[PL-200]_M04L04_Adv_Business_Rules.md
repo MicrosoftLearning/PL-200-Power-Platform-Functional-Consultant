@@ -156,12 +156,12 @@ Exercise 2 – Create Business Rule
 10. Go to the **Rule 3**, select **Answer 3 Points** for **Field**, select **Is
     Less Than or Equals to** for **Operator**, select **Value** for **Type**,
     enter **0** for **Value**. And click **Apply**.
+    
+12. Click **+ New** rule.
 
 11. Go to the **Rule 4**, select **Answer 4 Points** for **Field**, select **Is
     Less Than or Equals to** for **Operator**, select **Value** for **Type**,
     enter **0** for **Value**, and click **Apply**.
-
-12. Click **+ New** rule.
 
 13. Select the **Components** tab.
 
