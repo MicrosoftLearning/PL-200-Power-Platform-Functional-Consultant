@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab: Build a business process flow'
+    title: 'Lab 4.7: Build a business process flow'
     module: 'Module 4: Build a Power Automate flow'
 ---
 
 Module 4: Build a Power Automate flow'
 ================================
 
-## Lab 7: Practice Lab – Build a business process flow
+## Lab 4.7: Practice Lab – Build a business process flow
 
 Scenario
 --------
