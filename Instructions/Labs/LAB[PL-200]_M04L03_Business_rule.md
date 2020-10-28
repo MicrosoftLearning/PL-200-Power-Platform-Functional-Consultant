@@ -77,8 +77,6 @@ Exercise 1 - Prepare the solution
 
 9.  Click **Publish**.
 
-10. Close the tab.
-
 11. Click **Back.**
 
 12. Click on the solution name **Common Data Services Default Solution** located in the
