@@ -196,7 +196,7 @@ Exercise 2 – Create flow
 16. Go to the **Dynamic Content** pane, search for **Full Name**, and select
     **Full Name** from the **Get Created User** section.
 
-17. It is good practice to include a link to the record that needs the approval. Start a new browser window and navigate to <make.powerapps.com>.
+17. It is good practice to include a link to the record that needs the approval. Start a new browser window and navigate to make.powerapps.com.
 
 18. In your new window, make sure you are in your **Practice** environment.
 
