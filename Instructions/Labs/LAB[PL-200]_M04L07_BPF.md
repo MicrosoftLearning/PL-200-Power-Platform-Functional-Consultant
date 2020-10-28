@@ -73,7 +73,7 @@ Exercise 1 – Prepare the Solution
 8.  Click on the solution name **Common Data Services Default Solution** located in the
     navigation breadcrumbs.
 
-9.  Click **Publish All Customizations**. Do not navigate away from this page.
+9.  Click **Publish All Customizations**. 
 
 Exercise 2 – Create Business Process Flow 
 ------------------------------------------
