@@ -113,7 +113,7 @@ Data Service User security role.
 
 14. Click **Save and Close**.
 
-15. Close the security role. Do not close the security
+15. Close the Common Data Service User security role. Do not close the security
     roles window.
 
 ### Task 3 – Create Security Role
