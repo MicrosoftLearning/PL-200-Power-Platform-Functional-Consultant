@@ -335,6 +335,6 @@ Exercise 2 – Create flow
 
 24. Go back to the **Knowledge Admin** app.
 
-25. Refresh the Test Assessment.
+25. Refresh the test assessment.
 
 26. The **Approval Status** field should be set to **Approved**.
