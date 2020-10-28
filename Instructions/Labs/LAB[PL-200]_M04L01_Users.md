@@ -70,8 +70,8 @@ In this task, you create users and assign licenses to them.
 
 17. Click **Close.**
 
-18. Repeat steps 4-17 for a **User Two.**
+18. Repeat steps 4-16 for a **User Two.**
 
-19. Repeat steps 4-17 for a **Manager User.**
+19. Repeat steps 4-16 for a **Manager User.**
 
 39. Your new users should now be on the list of active users in Office.
