@@ -193,8 +193,7 @@ Exercise 1 – Update Process
 
 34. Click on the **Activate** stage of the Business Process Flow.
 
-35. The Approval Flow should complete the approval and set the **Approval
-    Status** to **Approved**.
+35. The Approval Flow should complete the approval and set the **Status** to **Approved**.
 
 36. The Business Rule should **Unlock** the **Status** field.
 
