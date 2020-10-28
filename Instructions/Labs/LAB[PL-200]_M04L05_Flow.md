@@ -68,7 +68,7 @@ deactivate them.
 
 22. Search for **Common Data Service** and select **Update a Record**.
 
-23. Select your **Practice** environment for **Environment**, select **Knowledge Assessments**
+23. Select **Knowledge Assessments**
     for **Entity Name**, and select the **Record Identifier** field.
 
 24. Select **Knowledge Assessment** from the **Dynamic Content** pane.
