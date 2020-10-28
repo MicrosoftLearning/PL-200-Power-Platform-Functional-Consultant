@@ -187,10 +187,10 @@ Exercise 2 – Create Business Rule
 1.  Navigate to https://make.powerapps.com/ and ensure that you are in your **Practice**
     environment.
 
-2.  Select **Apps** and click on the **Knowledge Admin** Model-Driven
+2.  Select **Apps** and click on the **Knowledge Admin** model-driven
     application.
 
-3.  Select **Assessments** and click to open the **Test Assessment 4**.
+3.  Select **Assessments** and click to open the **Test Assessment Four**.
 
 4.  Select the **Questions** tab.
 
