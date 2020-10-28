@@ -183,10 +183,10 @@ Exercise 2 – Create Business Process Flow
 
 19. Click on the browser back button.
 
-20. Click on the **Knowledge Assessment** stage of then Business Process Flow. The steps
-    for this stage will come to view.
+20. Click on the **Knowledge Assessment** stage of the Business Process Flow. The steps
+    for this stage will come into view in a pop-up from the Business Process Flow bar.
 
-21. Enter **80** for **Passing Score**.
+21. In the window for the Knowledge Assessment stage, enter **80** for **Passing Score**.
 
 22. Click on the **Total Points** calculator icon.
 
