@@ -147,17 +147,17 @@ Exercise 2 – Create Business Rule
 
 7.  Click **+ New** rule.
 
-8.  Go to the **Rule 2**, select **Answer 2 Points** for **Filed**, select **Is
+8.  Go to the **Rule 2**, select **Answer 2 Points** for **Field**, select **Is
     Less Than or Equals to** for **Operator**, select **Value** for **Type**,
     enter **0** for **Value**, and click **Apply**.
 
 9.  Click **+ New** rule.
 
-10. Go to the **Rule 3**, select **Answer 3 Points** for **Filed**, select **Is
+10. Go to the **Rule 3**, select **Answer 3 Points** for **Field**, select **Is
     Less Than or Equals to** for **Operator**, select **Value** for **Type**,
     enter **0** for **Value**. And click **Apply**.
 
-11. Go to the **Rule 4**, select **Answer 4 Points** for **Filed**, select **Is
+11. Go to the **Rule 4**, select **Answer 4 Points** for **Field**, select **Is
     Less Than or Equals to** for **Operator**, select **Value** for **Type**,
     enter **0** for **Value**, and click **Apply**.
 
