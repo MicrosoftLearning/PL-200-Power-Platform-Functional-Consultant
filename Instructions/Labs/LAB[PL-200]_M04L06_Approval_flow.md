@@ -88,7 +88,7 @@ Exercise 2 – Create flow
 
 4.  Select **Flows** and click **+New.** Select **+Automated - from blank.** In the pop-up, select **Skip.** 
 
-6.  Type into the search box  **Common Data Service** and select **When a record is updated.**
+6.  Type into the search box  **Common Data Service** and select **When record is updated.**
 
 7.  Select your environment. Select **Knowledge Assessments**
     for **Entity Name**, and select **Business Unit** for **Scope**.
@@ -110,7 +110,7 @@ Exercise 2 – Create flow
 3.  Click on the **Choose a Value** field and select **Notify Manager** from the
     **Dynamic Content** pane.
 
-4.  Select **is Equals to** for operator.
+4.  Select **is equal to** for operator.
 
 5.  Select the last field and type **true**.
 
@@ -124,7 +124,7 @@ Exercise 2 – Create flow
 
 2.  Click **Common Data Service** and select **Update a record**.
 
-3.  Select your Praactice environment, select **Knowledge Assessments**
+3.  Select your Practice environment (if prompted), select **Knowledge Assessments**
     for **Entity Name**, and click on the **Record Identifier** field.
 
 4.  Select **Knowledge Assessment** from the **Dynamic Content** pane.
@@ -141,14 +141,14 @@ Exercise 2 – Create flow
 
 1.  Click **Add an Action** of the **If Yes** branch.
 
-2.  Select **Common Data Service** and select **Get Record**.
+2.  Select **Common Data Service** and select **Get a Record**.
 
 3.  Select **Users** for **Entity
     Name**, and click on the **Item Identifier** field.
 
 4.  Select **Created By (Value)** from the **Dynamic Content** pane.
 
-5.  Click on the **… Menu** button of the **Get Record** step and select
+5.  Click on the **… Menu** button of the **Get a Record** step and select
     **Rename**.
 
 6.  Rename the step **Get Created User**.
