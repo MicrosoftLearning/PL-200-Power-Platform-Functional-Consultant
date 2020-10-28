@@ -58,49 +58,20 @@ In this task, you create users and assign licenses to them.
 
 10. Enter **practice@1** for **Password**.
 
-11. **Uncheck** the **Make this User Change Their Password…** checkbox.
+11. **Uncheck** the **Require this User Change Their Password…** checkbox.
 
-14. Click **Add**.
+14. Click **Next**.
 
 15. Uncheck the **Send Password in Email** checkbox.
 
-16. Click **Add Another User**.
+16. Select **Next.** Assign the **Microsoft Power Apps Plan 2 Trial** license. 
 
-17. Enter **User** for **First Name** and **Two** for **Last Name.**
+16. Click **Next.** On the next page, click **Next** again. Finally, click **Finish adding.** 
 
-18. Enter **UserTwo** for **User Name**.
+17. Click **Close.**
 
-19. Click **Password**.
+18. Repeat steps 4-18 for a **User Two.**
 
-20. Select **Let me Create the Password**.
-
-21. Enter **practice@1** for **Password** again.
-
-22. Uncheck the **Make this User Change Their Password…** checkbox
-
-25. Click **Add**.
-
-26. Uncheck the **Send Password in Email** checkbox.
-
-27. Click **Add Another User**.
-
-28. Enter **Manager** for **First Name** and **User** for **Last Name**.
-
-29. Enter **ManagerUser** for **User Name**.
-
-30. Click **Password**.
-
-31. Select **Let me Create the Password**, if not already selected.
-
-32. Enter **practice@1** for **Password**.
-
-33. Uncheck the **Make this User Change their Password ….** checkbox, if not
-    already unchecked.
-
-36. Click **Add**.
-
-37. Uncheck the **Send Password in Email** checkbox, if not already unchecked.
-
-38. Click **Close**.
+19. Repeat steps 4-18 for a **Manager User.**
 
 39. Your new users should now be on the list of active users in Office.
