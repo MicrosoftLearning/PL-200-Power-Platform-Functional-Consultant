@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab: Bulk delete'
+    title: 'Lab 6.1: Bulk delete'
     module: 'Module 6: Analyze data with Power BI'
 ---
 
 Module 6: Analyze data with Power BI
 =======================
 
-## Lab 6: Practice Lab – Bulk delete
+## Lab 6.1: Practice Lab – Bulk delete
 
 Scenario
 --------
