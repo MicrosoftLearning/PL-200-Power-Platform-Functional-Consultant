@@ -199,9 +199,9 @@ Exercise 2 – Create Business Rule
 6.  The error message for the points requirement will be displayed on the
     Question field.
 
-7.  Select **Simple** for **Question Type**.
-
 8.  Type **Test Two Question** for **Question**.
+
+7.  Select **Simple** for **Question Type**.
 
 9.  Click **Save**. You will not be able to save because of the points
     requirement.
