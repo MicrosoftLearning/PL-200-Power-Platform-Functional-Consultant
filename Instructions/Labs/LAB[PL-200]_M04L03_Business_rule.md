@@ -181,6 +181,8 @@ Exercise 2 – Create Business Rule
 
 6.  Click **+ New Knowledge Question**.
 
+12. Type **Test Question** for **Question**.
+
 7.  Select **Scenario** for **Question Type**. The **Scenario** field will come
     to view, and it will be required.
 
@@ -194,8 +196,6 @@ Exercise 2 – Create Business Rule
     longer be there.
 
 11. Type **This is a test Scenario** for **Scenario Description**.
-
-12. Type **Test Question** for **Question**.
 
 13. Scroll down to the **Answers** section, enter **Test Answer One** for
     **Answer 1**, enter **20** for **Answer 1 Points.**
