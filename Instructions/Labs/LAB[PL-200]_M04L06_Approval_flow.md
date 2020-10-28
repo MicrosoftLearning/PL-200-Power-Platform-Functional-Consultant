@@ -88,9 +88,9 @@ Exercise 2 – Create flow
 
 4.  Select **Flows** and click **+New.** Select **+Automated - from blank.** In the pop-up, select **Skip.** 
 
-6.  Click  **Common Data Service** and select **When a record is updated.**
+6.  Type into the search box  **Common Data Service** and select **When a record is updated.**
 
-7.  Select **Update or delete** for **Trigger condition.** Select **Knowledge Assessments**
+7.  Select your environment. Select **Knowledge Assessments**
     for **Entity Name**, and select **Business Unit** for **Scope**.
 
 8.  Click **Show Advanced Options**.
