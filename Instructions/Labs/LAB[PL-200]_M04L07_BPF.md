@@ -4,7 +4,7 @@ lab:
     module: 'Module 4: Build a Power Automate flow'
 ---
 
-Module 4: Build a Power Automate flow'
+Module 4: Build a Power Automate flow
 ================================
 
 ## Lab 4.7: Practice Lab – Build a business process flow
