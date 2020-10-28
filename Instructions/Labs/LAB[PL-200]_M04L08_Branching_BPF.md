@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab: Build a branching business process flow'
+    title: 'Lab 4.8: Build a branching business process flow'
     module: 'Module 4: Build a Power Automate flow'
 ---
 
 Module 4: Build a Power Automate flow
 ================================
 
-## Lab 8: Practice Lab – Build a branching business process flow
+## Lab 4.8: Practice Lab – Build a branching business process flow
 
 Scenario
 --------
