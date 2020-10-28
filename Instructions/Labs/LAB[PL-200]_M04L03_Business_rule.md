@@ -200,4 +200,4 @@ Exercise 2 – Create Business Rule
 13. Scroll down to the **Answers** section, enter **Test Answer One** for
     **Answer 1**, enter **20** for **Answer 1 Points.**
 
-14. Click **Save**.
+14. Click **Save**. You can close the model-driven app.
