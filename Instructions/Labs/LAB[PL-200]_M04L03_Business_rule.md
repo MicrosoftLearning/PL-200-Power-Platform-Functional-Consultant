@@ -179,7 +179,7 @@ Exercise 2 – Create Business Rule
 
 3.  Select **Knowledge Assessments** and click **+ New**.
 
-4.  Enter **Test Assessment 4** for **Title**, select today’s date for **Start
+4.  Enter **Test Assessment Four** for **Title**, select today’s date for **Start
     Date**, a month from today for **End Date**, and click **Save**.
 
 5.  Select the **Questions** tab.
