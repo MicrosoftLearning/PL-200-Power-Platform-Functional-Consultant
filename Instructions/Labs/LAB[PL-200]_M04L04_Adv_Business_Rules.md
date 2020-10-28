@@ -37,7 +37,7 @@ Exercise 1 – Prepare the Solution
 7.  Enter **Question Points** for **Display Name** and select **Whole Number**
     for **Data Type**.
 
-8.  Click **+ Add Calculation or Rollup** and select **+ Calculation**.
+8.  Click **+ Add** next to **Calculation or Rollup** and select **+ Calculation**.
 
 9.  Click **Save**.
 
