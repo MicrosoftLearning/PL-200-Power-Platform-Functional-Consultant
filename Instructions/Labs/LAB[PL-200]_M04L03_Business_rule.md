@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab: Configure a new business rule'
+    title: 'Lab 4.3: Configure a new business rule'
     module: 'Module 4: Build Power Automate flows'
 ---
 
 Module 4: Build Power Automate flows
 ========================
 
-## Lab 2: Practice Lab – Configure a new business rule
+## Lab 4.3: Practice Lab – Configure a new business rule
 
 Scenario
 --------
