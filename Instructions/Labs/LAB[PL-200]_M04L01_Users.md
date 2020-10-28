@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab: Create users'
+    title: 'Lab 4.1: Create users'
     module: 'Module 4: Build Power Automate flows'
 ---
 
 Module 4: Build Power Automate flows
 ==================
 
-## Lab 1: Practice Lab – Create users
+## Lab 4.1: Practice Lab – Create users
 
 Scenario
 --------
