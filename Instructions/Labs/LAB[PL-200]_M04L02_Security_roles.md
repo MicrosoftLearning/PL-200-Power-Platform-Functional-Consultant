@@ -120,7 +120,7 @@ Data Service User security role.
 
 In this task, you will create a new security role for the application manager.
 
-1.  Make sure you are still on the **Roles** window and click **New**.
+1.  Make sure you are still on the **Roles** window and click **New role**.
 
 2.  Enter **Knowledge Application Manager** for **Role Name**.
 
