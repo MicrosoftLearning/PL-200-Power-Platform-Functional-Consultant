@@ -72,13 +72,13 @@ deactivate them.
 22. Search for **Common Data Service** and select **Update a Record**.
 
 23. Select **Knowledge Assessments**
-    for **Entity Name**, and select the **Record Identifier** field.
+    for **Entity Name**, and select the **Item ID** field.
 
 24. Select **Knowledge Assessment** from the **Dynamic Content** pane.
 
-25. **Apply to Each** step will be added and **Value** will be selected for Output. Click on **Update a record** and then click **Show Advanced Options**.
+25. **Apply to Each** step will be added and **Value** will be selected for Output. Click on **Update a record** and then click **Show Advanced Options** if it is not already expanded.
 
-26. Locate the **Status Value** option set and select **Inactive**.
+26. Locate the **Status** option set and select **Inactive**.
 
 27. Click on the **… Menu** button of the step and select **Rename**.
 
