@@ -205,7 +205,7 @@ Exercise 2 – Create flow
 20. Select **Assessment** and click to open an assessment.
 
 21. Find the **Pop Out** button located in bottom left of the form and click on
-    it.
+    it. (It will be in the bar at the very bottom of the page, and will be next to the status of the record.)
 
 22. A new window will open. Copy the **URL** of the window.
 
@@ -224,7 +224,7 @@ Exercise 2 – Create flow
 27.  Paste the **URL** you copied.
 
 28.  Go to the **Dynamic Content** pane, search for **Knowledge Assessment** and
-    select **Knowledge Assessment**.
+    select **Knowledge Assessment** from either section. 
 
 ### Task 7 – Add Condition
 
