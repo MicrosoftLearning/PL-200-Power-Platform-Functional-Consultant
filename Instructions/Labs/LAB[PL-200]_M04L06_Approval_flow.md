@@ -153,22 +153,6 @@ Exercise 2 – Create flow
 
 6.  Rename the step **Get Created User**.
 
-### Task 5 – Get Manager
-
-1.  Click **Add an Action** of the **If Yes** branch again.
-
-2.  Select **Common Data Service** and select **Get Record**.
-
-3.  Select your Practice environment for **Environment**, select **Users** for **Entity
-    Name**, click on the **Item Identifier** field.
-
-4.  Go to the **Dynamic Content** pane, search for **Manager** and select
-    **Manager** from the **Get Created User** section.
-
-5.  Click on the **… Menu** button and select **Rename**.
-
-6.  Rename the step **Get Manager**.
-
 ### Task 6 – Start Approval
 
 1.  Click **Add an Action** of the **If Yes** branch.
