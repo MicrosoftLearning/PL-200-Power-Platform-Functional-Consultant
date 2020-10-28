@@ -143,10 +143,10 @@ Exercise 2 – Create flow
 
 2.  Select **Common Data Service** and select **Get Record**.
 
-3.  Select your practice environment for **Environment**, select **Users** for **Entity
+3.  Select **Users** for **Entity
     Name**, and click on the **Item Identifier** field.
 
-4.  Select **Created By** from the **Dynamic Content** pane.
+4.  Select **Created By (Value)** from the **Dynamic Content** pane.
 
 5.  Click on the **… Menu** button of the **Get Record** step and select
     **Rename**.
