@@ -196,7 +196,7 @@ In this task, you will run and test the applications.
 12. The answers that have more than 0 points will become **Green** and the answers
     that have 0 zero points will become **Red**.
 
-13. Click on the **Information** button.
+13. Click on the **Emoji** button.
 
 14. You will be taken to the **Feedback Screen**.
 
