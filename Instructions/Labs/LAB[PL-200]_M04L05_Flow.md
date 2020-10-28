@@ -107,7 +107,7 @@ deactivate them.
 
 9.  Select **Using Data from Previous Runs.**
 
-10. Select the latest run and click **Save & Test**.
+10. Select the latest run and click **Test**.
 
 11. The flow should run and succeed.
 
