@@ -118,7 +118,7 @@ change the year from 2019 to 2020, and then merge back together.
 
 25. Click **Next.**
 
-26. Click **Create** and click **Refresh manually.**
+26. click **Refresh manually** and then click **Create**.
 
 ### Task 4 – Test Your Work
 
