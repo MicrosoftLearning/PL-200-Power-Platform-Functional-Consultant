@@ -37,7 +37,7 @@ was the one you chose.
 2.  Click on the **Waffle** button in the upper left corner to change
     applications and select **OneDrive**. (It may take a moment for your OneDrive to be set up. Click **Your OneDrive is ready** when you see it on the screen.)
 
-3.  Click **Upload** from the top menu and select **Files**.
+3.  Click **Upload** from the top menu and select **Files**. (Depending on how your Excel file saved, you may need to change your browse function to search for all file types.)
 
 4.  Select the **Knowledge Assessment Import File** file located in the resources folder
     and click **Open**.
