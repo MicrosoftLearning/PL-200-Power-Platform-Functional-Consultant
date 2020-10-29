@@ -38,7 +38,7 @@ rule by adding criteria to match of last name.
 
 2.  Select **Environments**.
 
-3.  Select your **[my prefix] Practice** environment.
+3.  Select your **Practice** environment.
 
 4.  Navigate to **Settings > Data Management.**
 
@@ -61,7 +61,7 @@ rule by adding criteria to match of last name.
     name**.
 
 13. Change the Description to **Detects contact records that have the same value
-    in the Business Phone field and the last name feild**.
+    in the Business Phone field and the last name field**.
 
 14. Click **Save**.
 
