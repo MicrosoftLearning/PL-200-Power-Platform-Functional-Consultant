@@ -13,14 +13,12 @@ Scenario
 --------
 
 You are a functional consultant working on the Fabrikam project. Your client
-wants to export some data form the CDS environment. In this practice, you will
-see two ways to accomplish the task.
+wants to export some data form the CDS environment.
 
 Exercise 1 – Export Data
 ------------------------
 
-In this exercise, you will export data from the maker portal and from the model-driven
-application.
+In this exercise, you will export data from the maker portal.
 
 ### Task 1 – Portal Export
 
