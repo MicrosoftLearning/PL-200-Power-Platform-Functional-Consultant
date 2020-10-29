@@ -113,7 +113,7 @@ In this exercise, you will upload the template you created and test it.
 
 In this task, you will upload the template you created
 
-1.  Go to your **[my prefix] Knowledge Admin** Model-Driven application.
+1.  Go to your **Knowledge Admin** Model-Driven application.
 
 2.  Select **Knowledge Test Results**.
 
