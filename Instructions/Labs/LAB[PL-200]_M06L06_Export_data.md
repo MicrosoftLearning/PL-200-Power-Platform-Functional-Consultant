@@ -19,7 +19,7 @@ see two ways to accomplish the task.
 Exercise 1 – Export Data
 ------------------------
 
-In this exercise, you will export data from the maker port and from the model-driven
+In this exercise, you will export data from the maker portal and from the model-driven
 application.
 
 ### Task 1 – Portal Export
