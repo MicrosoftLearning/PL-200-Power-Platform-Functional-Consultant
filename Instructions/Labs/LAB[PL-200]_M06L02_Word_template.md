@@ -91,9 +91,9 @@ In this task, you will build a basic certificate and insert data from CDS.
 
 2.  Click **Margins** and select **Normal 1” 1” 1” 1”.**
 
-3.  Select the **Insert** tab, click **Text Box** and select **Simple Text Box**
+3.  Select the **Insert** tab, click **Text Box** and select **Simple Text Box**.
 
-4.  Select the **Shape Format** tab, click **Shape Fill** and select **No Fill**.
+4.  Select the **Format** tab, click **Shape Fill** and select **No Fill**.
 
 5.  Click **Shape Outline** and select **No Outline**.
 
