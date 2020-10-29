@@ -134,7 +134,7 @@ change the year from 2019 to 2020, and then merge back together.
 
 9.  Select **Knowledge Assessments**.
 
-10. The imported **Knowledge Assessments** should be on this view. (Select **Refresh data** if needed.)
+10. The imported **Knowledge Assessments** should be on this view. (Refresh if needed.)
 
 11. Click to open one of the **Knowledge Assessments** you imported.
 
