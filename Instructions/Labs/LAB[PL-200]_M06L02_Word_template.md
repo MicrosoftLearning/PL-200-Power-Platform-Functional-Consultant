@@ -60,7 +60,9 @@ Microsoft Word.
 
 3.  Go to the N:1 Relationship dropdown and click on chevron button.
 
-4.  Select **Knowledge Assessment** and **User (user_crxxx_knowledgetestresult)** where xxx will be your unique prefix.
+4.  You will now select 2 entities:
+    - **Knowledge Assessment**
+    - **User (user_crxxx_knowledgetestresult)** (where xxx will be your unique prefix)
 
 5.  Click **Download**.
 
