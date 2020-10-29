@@ -18,6 +18,8 @@ managers can easily generate a certificate of completion to give users after
 achieving a passing score. In this lab, you will create a certificate of
 completion through a Word template and update that Word template to the app.
 
+**Note:** This lab assumes you are using the latest version of Microsoft Word. If you are working with an older version, your user experience may not exactly match the instructions as written.
+
 Exercise 1 – Word Template
 --------------------------
 
