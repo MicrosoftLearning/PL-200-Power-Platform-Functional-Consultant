@@ -443,7 +443,7 @@ Exercise 4 – Test and publish your bot
 
 ### Task 2: Publish your bot
 
-1.  Select **Publish** and click Publish.
+1.  Select **Publish** from the left menu and click Publish.
 
 2.  Click **Publish** again to confirm and wait for the publishing to complete.
 
