@@ -66,7 +66,7 @@ Knowledge Test Results.
 
 1.  Navigate to make.powerapps.com and ensure you are in your **Practice** environment. Select **Apps**.
 
-2.  Locate and click on the **[my prefix] Knowledge Admin** model-driven application.
+2.  Locate and click on the **Knowledge Admin** model-driven application.
 
 3.  Select **Knowledge Test Results**.
 
