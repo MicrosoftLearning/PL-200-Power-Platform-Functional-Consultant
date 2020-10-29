@@ -205,7 +205,7 @@ Exercise 3 – Design a Conversation path with Topics
 
 23. Select the first box and enter **City.**
 
-24. In the second box, enter **Provide city** and click **+ Add an input** again.
+24. In the second box, enter **Provide city** and click **+ Add an input** again. Select **Text.**
 
 26. Enter **Zip code** in the first text box and enter **Provide zip code** in the second text box.
 
