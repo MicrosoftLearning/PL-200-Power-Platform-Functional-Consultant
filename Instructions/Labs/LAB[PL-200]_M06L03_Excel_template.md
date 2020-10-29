@@ -63,7 +63,7 @@ In this task, you will create a new view for the Knowledge Test Result entity.
 In this task, you will be creating an Excel worksheet with a Pivot Chart on
 Knowledge Test Results.
 
-1.  Select **Apps**.
+1.  Navigate to make.powerapps.com and ensure you are in your **Practice** environment. Select **Apps**.
 
 2.  Locate and click on the **[my prefix] Knowledge Admin** model-driven application.
 
