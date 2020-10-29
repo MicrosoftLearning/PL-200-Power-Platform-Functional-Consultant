@@ -403,7 +403,7 @@ Exercise 4 – Test and publish your bot
 ### Task 1: Test your bot
 
 1.  Click on the **Test your bot** button located in the bottom-left corner of the
-    screen.
+    screen if it is not already expanded. 
 
 2.  Turn on **Track between topics**.
 
