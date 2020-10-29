@@ -157,7 +157,7 @@ In this task, you will build a basic certificate and insert data from CDS.
 
 32. Place your cursor in front of the **Title** control and type **with** .
 
-33. Go to the **XML Mapping** pane and go to the **Knowledge Test Result**
+33. Make sure your text box is selected. Go to the **XML Mapping** pane and go to the **Knowledge Test Result**
     entity.
 
 34. Right click on the **Total Points** field, click **Insert Content Control**,
@@ -178,7 +178,7 @@ In this task, you will build a basic certificate and insert data from CDS.
 
 40. Select the **Insert** tab and click **Icons.** Search **Badge** in the search bar and select your favorite badge image. 
 
-42. Place the image below the **Created-On** control and center it.
+42. Place the image below the **CreatedOn** control and center it.
 
 43. Click **File** and click **Save**.
 
