@@ -205,7 +205,7 @@ In this task, you will upload the template you created.
 4.  Click on the **Word Template** button located on the command bar and select
     **Upload Template**.
 
-5.  Click **Browse**.
+5.  Click **Choose File.**
 
 6.  Select the template you created and click **Open**.
 
@@ -213,7 +213,7 @@ In this task, you will upload the template you created.
 
 ### Task 2 – Use Word Template
 
-In this task, you will test the template you created
+In this task, you will test the template you created.
 
 1.  Click on the **Word Template** button located on the command bar and select
     the **Assessment Certificate** template you uploaded.
