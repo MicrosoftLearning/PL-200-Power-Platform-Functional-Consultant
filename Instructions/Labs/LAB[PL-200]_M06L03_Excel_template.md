@@ -57,7 +57,6 @@ In this task, you will create a new view for the Knowledge Test Result entity.
 
 12. Close the view editor window. 
 
-13. Click **Done**.
 
 ### Task 2 – Create the Excel Template
 
