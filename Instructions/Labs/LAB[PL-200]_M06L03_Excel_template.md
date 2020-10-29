@@ -122,7 +122,7 @@ In this task, you will upload the template you created
 
 4.  Click **Choose File**.
 
-5.  Select the template you created and click **Open**.
+5.  Select the template you created and click **Open**. (**Note:** Depending on the way your file was saved, you may need to expand the browse function to **all file types** to see your template.)
 
 6.  Click **Upload**.
 
@@ -140,7 +140,7 @@ template you created.
 3.  Click on the **Excel Template** button located on the command bar and select
     the **Knowledge Test Result Template** you uploaded.
 
-4.  Click **Download a Copy**.
+4.  Click **Download Knowledge Test Result Template.**
 
 5.  Wait for the download to complete and click **Open**.
 
