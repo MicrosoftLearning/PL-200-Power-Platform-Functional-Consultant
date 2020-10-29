@@ -107,16 +107,16 @@ change the year from 2019 to 2020, and then merge back together.
 
 19. Click **Next**.
 
-20. Select **Load to Existing Entity**.
+20. Select **Load to Existing Table.**
 
 21. Select **crXXX_Knowledge Assessment**, where crXXX is your unique prefix.
 
-22. Map **Difficulty** to **cr123_Difficulty**.
+22. Map **Difficulty** to **crXXX_Difficulty**.
 
 23. Map **End Date**, **Start Date**, and **Title** to their corresponding
     fields.
 
-25. Click **Create**.
+25. Click **Next.**
 
 ### Task 4 – Test Your Work
 
