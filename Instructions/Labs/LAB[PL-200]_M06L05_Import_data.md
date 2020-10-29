@@ -64,7 +64,7 @@ table
 
 8.  Click **Next**.
 
-10. Check the box next to **Table1.** Click **Transform data**.
+10. Check the box next to **Table1.** Click **Transform data**. Do not navigate away from this page.
 
 ### Task 3 – Manage and Transform Columns
 
