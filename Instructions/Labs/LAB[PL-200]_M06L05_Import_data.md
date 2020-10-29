@@ -66,7 +66,7 @@ table
 
 9.  Select the **Knowledge Assessment Import File** table and click **Next**.
 
-10. Check the box next to **Sheet1.** Click **Transform data** and select **Use First Row as Headers**.
+10. Check the box next to **Table1.** Click **Transform data** and select **Use First Row as Headers**.
 
 ### Task 3 – Manage and Transform Columns
 
