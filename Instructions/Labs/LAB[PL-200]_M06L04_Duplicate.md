@@ -44,9 +44,9 @@ rule by adding criteria to match of last name.
 
 5.  Click **Duplicate Detection Rules**.
 
-6.  Locate and click to open the **Contacts with the Same Business Phone Number**.
+6.  Locate and click to open the **Contacts with the Same Business Phone Number**. It will open in a new window.
 
-7.  Click **Unpublish**.
+7.  In the new window, click **Unpublish**.
 
 8.  Click **OK**.
 
