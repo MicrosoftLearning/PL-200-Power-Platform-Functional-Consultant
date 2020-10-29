@@ -20,7 +20,7 @@ application can generate an Excel report of test scores. In this lab, you will
 create an Excel template from a view, upload the template and use it against
 data about knowledge test results.
 
-**Note:** This lab assumes you are using the latest version of Microsoft Word. If you are working with an older version, your user experience may not exactly match the instructions as written.
+**Note:** This lab assumes you are using the latest version of Microsoft Excel. If you are working with an older version, your user experience may not exactly match the instructions as written.
 
 Exercise 1 – Build an Excel template
 ------------------------------------
