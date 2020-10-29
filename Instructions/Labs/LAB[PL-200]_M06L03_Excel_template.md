@@ -119,7 +119,7 @@ In this task, you will upload the template you created
 3.  Click on the **Excel Template** button located on the command bar and select
     **Upload Template**.
 
-4.  Click **Browse**.
+4.  Click **Choose File**.
 
 5.  Select the template you created and click **Open**.
 
