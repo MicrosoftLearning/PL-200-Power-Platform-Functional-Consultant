@@ -111,8 +111,7 @@ change the year from 2019 to 2020, and then merge back together.
 
 20. Select **Load to Existing Entity**.
 
-21. Select **crXXX_Knowledge Assessment**. The prefix will be different your
-    entity.
+21. Select **crXXX_Knowledge Assessment**, where crXXX is your unique prefix.
 
 22. Map **Difficulty** to **cr123_Difficulty**.
 
