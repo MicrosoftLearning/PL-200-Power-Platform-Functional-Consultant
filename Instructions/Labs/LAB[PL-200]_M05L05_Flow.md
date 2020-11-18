@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 4.5: Create a flow'
-    module: 'Module 4: Build Power Automate flows'
+    title: 'Lab 5.5: Create a flow'
+    module: 'Module 5: Build Power Automate flows'
 ---
 
-Module 4: Build Power Automate flows
+Module 5: Build Power Automate flows
 ========================
 
-## Lab 4.5: Practice Lab – Create a flow
+## Lab 5.5: Practice Lab – Create a flow
 
 Scenario
 --------
