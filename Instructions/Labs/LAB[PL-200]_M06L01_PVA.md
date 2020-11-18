@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 5.1: Build a chatbot'
-    module: 'Module 5: Work with Power Virtual Agents'
+    title: 'Lab 6.1: Build a chatbot'
+    module: 'Module 6: Work with Power Virtual Agents'
 ---
 
-Module 5: Work with Power Virtual Agents
+Module 6: Work with Power Virtual Agents
 =================================
 
-## Lab 5.1: Practice Lab – Build a chatbot
+## Lab 6.1: Practice Lab – Build a chatbot
 
 Scenario
 --------
