@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 3.1: App designer'
-    module: 'Module 3: Build Power Apps'
+    title: 'Lab 4.1: App designer'
+    module: 'Module 4: Build Power Apps'
 ---
 
-Module 3: Build Power Apps
+Module 4: Build Power Apps
 ============================================
 
-## Lab 3.1: Practice Lab – App designer
+## Lab 4.1: Practice Lab – App designer
 
 Scenario
 --------
