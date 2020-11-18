@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 2.1: Creating an app'
-    module: 'Module 2: Work with the Common Data Service'
+    title: 'Lab 3.1: Creating an app'
+    module: 'Module 3: Work with Dataverse'
 ---
 
-Module 2: Work with the Common Data Service
+Module 3: Work with Dataverse
 =================================
 
-## Lab 2.1: Practice Lab – Creating an app
+## Lab 3.1: Practice Lab – Creating an app
 
 Scenario
 --------
