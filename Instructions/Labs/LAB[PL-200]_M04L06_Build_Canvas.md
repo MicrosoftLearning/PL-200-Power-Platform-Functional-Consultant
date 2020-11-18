@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 3.6: Build a canvas app'
-    module: 'Module 3: Build Power Apps'
+    title: 'Lab 4.6: Build a canvas app'
+    module: 'Module 4: Build Power Apps'
 ---
 
-Module 3: Build Power Apps
+Module 4: Build Power Apps
 ======================================
 
-Lab 3.6: Practice Lab – Build a canvas app
+Lab 4.6: Practice Lab – Build a canvas app
 
 Scenario
 --------
