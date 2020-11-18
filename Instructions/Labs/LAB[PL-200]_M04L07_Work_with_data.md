@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 3.7: Work with data and services'
-    module: 'Module 3: Build Power Apps'
+    title: 'Lab 4.7: Work with data and services'
+    module: 'Module 4: Build Power Apps'
 ---
 
-Module 3: Build Power Apps
+Module 4: Build Power Apps
 ======================================
 
-Lab 3.7: Practice Lab – Work with data and services
+Lab 4.7: Practice Lab – Work with data and services
 
 Scenario
 --------
