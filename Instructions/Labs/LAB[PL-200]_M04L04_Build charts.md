@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 3.4: Build charts'
-    module: 'Module 3: Build Power Apps'
+    title: 'Lab 4.4: Build charts'
+    module: 'Module 4: Build Power Apps'
 ---
 
-Module 3: Build Power Apps
+Module 4: Build Power Apps
 ============================================
 
-## Lab 3.4: Build charts
+## Lab 4.4: Build charts
 
 Scenario
 --------
