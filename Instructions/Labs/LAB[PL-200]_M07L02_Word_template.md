@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 7.1: Build a Word template'
+    title: 'Lab 7.2: Build a Word template'
     module: 'Module 7: Analyze data with Power BI'
 ---
 
 Module 7: Analyze data with Power BI
 =================================
 
-## Lab 7.1: Practice Lab – Build a Word template
+## Lab 7.2: Practice Lab – Build a Word template
 
 Scenario
 --------
