@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 3.3: Modify views'
-    module: 'Module 3: Build Power Apps'
+    title: 'Lab 4.3: Modify views'
+    module: 'Module 4: Build Power Apps'
 ---
 
-Module 3: Build Power Apps
+Module 4: Build Power Apps
 ============================================
 
-## Lab 3.3: Practice Lab – Modify views
+## Lab 4.3: Practice Lab – Modify views
 
 Scenario
 --------
