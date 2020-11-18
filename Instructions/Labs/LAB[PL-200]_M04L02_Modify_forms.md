@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 3.2: Modify forms'
-    module: 'Module 3: Build Power Apps'
+    title: 'Lab 4.2: Modify forms'
+    module: 'Module 4: Build Power Apps'
 ---
 
-Module 3: Build Power Apps
+Module 4: Build Power Apps
 ============================================
 
-## Lab 3.2: Practice Lab – Modifying forms
+## Lab 4.2: Practice Lab – Modifying forms
 
 Scenario
 --------
