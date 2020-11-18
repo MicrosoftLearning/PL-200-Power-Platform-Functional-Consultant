@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 2.4: Additional entity options'
-    module: 'Module 2: Work with the Common Data Service'
+    title: 'Lab 3.4: Additional entity options'
+    module: 'Module 3: Work with Dataverse'
 ---
 
-Module 2: Work with the Common Data Service
+Module 3: Work with Dataverse
 ====================
 
-## Lab 2.4: Additional entity options
+## Lab 3.4: Additional table options
 
 Scenario
 --------
