@@ -1,14 +1,14 @@
 ---
 lab:
-    title: 'Lab 6.3: Build an Excel template'
-    module: 'Module 6: Analyze data with Power BI'
+    title: 'Lab 7.3: Build an Excel template'
+    module: 'Module 7: Analyze data with Power BI'
 ---
 
 
-Module 6: Analyze data with Power BI
+Module 7: Analyze data with Power BI
 =================================
 
-### Lab 6.3: Practice Lab – Build an Excel template
+### Lab 7.3: Practice Lab – Build an Excel template
 
 Scenario
 --------
