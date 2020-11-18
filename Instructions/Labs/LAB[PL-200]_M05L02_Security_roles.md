@@ -1,12 +1,12 @@
 ---
 lab:
-    title: 'Lab 4.2: Create security role'
-    module: 'Module 4: Build Power Automate flows'
+    title: 'Lab 5.2: Create security role'
+    module: 'Module 5: Build Power Automate flows'
 ---
 
-Module 4: Build Power Automate flows
+Module 5: Build Power Automate flows
 ==================
-## Lab 4.2: Practice Lab - Create security role
+## Lab 5.2: Practice Lab - Create security role
 
 Scenario
 --------
