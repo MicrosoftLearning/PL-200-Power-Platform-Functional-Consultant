@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 3.8: User experience'
-    module: 'Module 3: Build Power Apps'
+    title: 'Lab 4.8: User experience'
+    module: 'Module 4: Build Power Apps'
 ---
 
 Module 4: Build Power Apps
 ======================================
 
-Lab 3.8: Practice Lab – User experience
+Lab 4.8: Practice Lab – User experience
 
 Scenario
 --------
