@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 7.4: Duplicate detection'
-    module: 'Module 6: Analyze data with Power BI'
+    module: 'Module 7: Analyze data with Power BI'
 ---
 
 Module 7: Analyze data with Power BI
