@@ -191,12 +191,11 @@ things simple here and just add a basic header to the app.
 
 1.  Select the **Insert** tab at the top of the screen.
 
-2.  Click **Text Label**.
+2.  Click **Text, Label**.
 
 3.  A label will be added to the screen. Select the label.
 
-4.  Rename the label **headerLabel** by clicking the edit button in the control
-    tree on the left side of the screen in Tree View.
+4.  Rename the label **headerLabel** by right-clicking the label from Tree view on the left, and select **Rename**. Enter **headerLabel** and hit **Enter**.
 
 6.  Change the **Font Size** to **28.**
 
@@ -204,7 +203,7 @@ things simple here and just add a basic header to the app.
 
 8.  Click **Text Alignment** and select **Center**.
 
-9.  Click **Fill** from the top menu and change the **Fill Color** to **Blue**.
+9.  Click **Home, Fill** from the top menu and change the **Fill Color** to **Blue**.
 
 10. Locate the **Position** section on the Properties window.
 
