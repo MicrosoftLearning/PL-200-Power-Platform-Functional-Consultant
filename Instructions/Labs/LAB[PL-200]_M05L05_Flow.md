@@ -56,7 +56,7 @@ deactivate them.
 
 11. Select **List records** from the **Actions** box. 
 
-13. Select **Knowledge Assessments** for Entity.
+13. Select **Knowledge Assessments** for Table.
 
 14. Click on **Show advanced options.**
 
