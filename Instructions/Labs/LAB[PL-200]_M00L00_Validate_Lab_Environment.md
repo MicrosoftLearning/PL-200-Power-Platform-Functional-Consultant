@@ -39,7 +39,11 @@ Exercise 1 – Acquire your Power Platform trial tenant
 
 	**Note:** Depending on your internet browser, you may be prompted to sign in again. Select **Sign in**, click the email account you just signed in with, and continue.
 
-6. Select **Yes** to stay signed in.
+7. Select **Yes** to stay signed in.
+
+8. Select the check box.
+
+9. Click **Start**.
 
 
 Exercise 2 - Create your environment 
