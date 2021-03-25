@@ -84,6 +84,8 @@ application.
 
 8.  Click on the **Data Sources** button.
 
+9.  Click the **+ Add data button**.
+
 11. You will be presented with a list of entities. Expand to see all entites by selecting **See all entities.** Select the **Feedback**,
     **Knowledge Assessments**, **Knowledge Questions**, **Knowledge Test
     Results**, and **Users** entities. You can use the Search feature to make
