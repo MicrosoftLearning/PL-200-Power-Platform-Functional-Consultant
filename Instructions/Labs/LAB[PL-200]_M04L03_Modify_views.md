@@ -42,7 +42,7 @@ date.
 
 4.  Open the **Common Data Services Default Solution**.
 
-5.  Open the **Knowledge Assessment** entity.
+5.  Open the **Knowledge Assessment** table.
 
 6.  Select the **Views** tab.
 
@@ -60,7 +60,7 @@ date.
 4.  The **Owner** field will be added to the view. Click on the **Modified By**
     field.
 
-5.  Click on the **Modified By** column header, select **Insert Column**, and expand the dropdown to **All** again.
+5.  Click on the **Modified By** column header, select **+Insert view Column**, and expand the dropdown to **All** again.
 
 6.  Select **Modified On**. The view should now have six columns.
 
@@ -72,7 +72,7 @@ date.
 9.  The **Created On** column will be removed from the view.
 
 10. You will now add a field from a related entity to the view. From the
-    **Fields** side bar, select the **Related** tab.
+    **Table columns** side bar, select the **Related** tab.
 
 11. All the entities that the **Knowledge Assessment** entity has a **N:1** relationship with
     will be listed here. Expand **Owning User (User).**
