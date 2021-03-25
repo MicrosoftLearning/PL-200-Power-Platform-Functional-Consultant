@@ -51,7 +51,7 @@ ShowResults is true.
 
 7.  Wait for the app designer to load.
 
-8.  Select the **takeAssessmentScreen.**
+8.  Select the **takeAssessmentScreen.** Click on the **Advanced** tab on the right-hand side.
 
 9.  Select the **OnVisible** property of the **takeAssessmentScreen** and
     replace the value with the snippet below. This snippet will re-add the Clear
