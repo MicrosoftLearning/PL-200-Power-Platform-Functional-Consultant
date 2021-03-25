@@ -41,16 +41,16 @@ Exercise 1 – Prepare the solution
 
 5.  Click to open the **Knowledge Assessment** entity.
 
-6.  Click select the **Fields** tab and click **+ Add Field**.
+6.  Click select the **Columns** tab and click **+ Add columns**.
 
 7.  Create the field to the following specification:
     - Enter **Notify Manager** for **Display Name**.
     - Choose **Two Options** for **Data Type**.
     - Click **Done**.
 
-8.  Click **Save Entity**.
+8.  Click **Save Table**.
 
-9.  Click **+ Add Field**.
+9.  Click **+ Add Column**.
 
 10. Create the field to the following specification:
     - Enter **Approval Status** for **Display Name**.
@@ -61,11 +61,11 @@ Exercise 1 – Prepare the solution
     - Enter **Rejected** for the third item and click **Save**.
     - Click **Done**.
 
-16. Click **Save Entity**.
+16. Click **Save Table**.
 
 ### Task 2 – Add Field to Knowledge Assessment Form
 
-1.  Make sure you still have the **Knowledge Assessment** entity selected.
+1.  Make sure you still have the **Knowledge Assessment** table selected.
 
 2.  Select the **Forms** tab and click on the Main form.
 
