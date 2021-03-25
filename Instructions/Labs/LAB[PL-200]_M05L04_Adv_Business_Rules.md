@@ -37,9 +37,9 @@ Exercise 1 – Prepare the Solution
 
 4.  Click to open the **Common Data Services Default Solution**.
 
-5.  Click to open the **Knowledge Question** entity.
+5.  Click to open the **Knowledge Question** table.
 
-6.  Select the **Fields** tab and click **+ Add Field**.
+6.  Select the **Columns** tab and click **+ Add column**.
 
 7.  Enter **Question Points** for **Display Name** and select **Whole Number**
     for **Data Type**.
@@ -89,13 +89,13 @@ Exercise 1 – Prepare the Solution
 
 1.  Click on the **…** button located in the command bar and click **Switch to Classic**.
 
-2.  Expand **Entities**, expand the **Knowledge Assessment** entity, select
+2.  Expand **Table**, expand the **Knowledge Assessment** table, select
     **Fields**, and click **New**.
 
 3.  Enter **Total Points** for **Display Name**, select **Whole Number** for
     **Data Type**, select **Rollup** for **Field Type**, and click **Edit**. (Your rollup editor will open in a new window. You may need to allow pop-ups.)
 
-4.  Click **+ Add Related Entity**.
+4.  Click **+ Add Related Table**.
 
 5.  Select **Knowledge Questions** for **Related** and click the checkmark.
 
