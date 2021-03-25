@@ -48,16 +48,16 @@ before jumping into the editor.
 
 4.  Open the **Common Data Service Default Solution**.
 
-5.  Click on the **Knowledge Assessment** entity.
+5.  Click on the **Knowledge Assessment** table.
 
 6.  Click **Settings** in the command bar.
 
 7.  Check the **Enable Attachments** checkbox. This enables notes and files for
-    the entity.
+    the table.
 
 8.  Click **Done**. Confirm the changes by clicking **Okay.**
 
-9.  Click **Save Entity**.
+9.  Click **Save Table**.
 
 ### Task 2 – Edit the Knowledge Assessment form
 
@@ -81,7 +81,7 @@ To customize your form:
 
 6.  Click **Edit**.
 
-7.  Locate the **Knowledge Assessment** entity and select **Forms**.
+7.  Locate the **Knowledge Assessment** table and select **Forms**.
 
 8.  Go to the **Components** tab, hover over the **Information** form in the **Main Forms** section, and
     click **edit** (the pencil icon).
@@ -133,13 +133,13 @@ To customize your form:
 
 31. Return to the **+ Components** tab.
 
-32. Click **Subgrid** from the **Related data** section. Check the **Show related records** check box and select **Knowledge Questions** for Entity. Then click **Done.**
+32. Click **Subgrid** from the **Related data** section. Check the **Show related records** check box and select **Knowledge Questions** for Table. Then click **Done.**
 
 33. In the right properties tab, enter **KnowledgeQuestions** for **Name** and **Knowledge Questions** for label.
 
 34. Select **Show related records.**
 
-35. Make sure **Knowledge Questions (Knowledge Assessment)** is selected for **Entity.**
+35. Make sure **Knowledge Questions (Knowledge Assessment)** is selected for **Table.**
 
 37. Select the **New Section** that the subgrid was added to. In the Properties tab, enter **Knowledge Questions** for Label and **KnowledgeQuestions** for name. Click **Save**.
 
@@ -160,9 +160,9 @@ In this exercise, you will edit the form for the Knowledge Question entity.
 
 2.  Click **+ Add** and select **Entities**.
 
-3.  Locate the **Knowledge Question** entity and select it.
+3.  Locate the **Knowledge Question** table and select it.
 
-4.  After the **Knowledge Question** entity is added to the application, select
+4.  After the **Knowledge Question** table is added to the application, select
     **Forms**.
 
 5.  Hover over the **Information** form in the **Main Form** section and click **edit** (the pencil icon).
