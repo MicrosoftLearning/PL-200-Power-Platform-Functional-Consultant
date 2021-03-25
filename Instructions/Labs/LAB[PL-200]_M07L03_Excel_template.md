@@ -37,7 +37,7 @@ entity.
 
 ### Task 1 – Create View
 
-In this task, you will create a new view for the Knowledge Test Result entity.
+In this task, you will create a new view for the Knowledge Test Result table.
 
 1.  Navigate to https://make.powerapps.com. Ensure you are in your Practice environment. 
 
@@ -45,7 +45,7 @@ In this task, you will create a new view for the Knowledge Test Result entity.
 
 4.  Click to open the **Common Data Services Default Solution.**
 
-5.  Locate and click to open the **Knowledge Test Result** entity.
+5.  Locate and click to open the **Knowledge Test Result** table.
 
 6.  Select the **Views** tab and click **Add View**.
 
