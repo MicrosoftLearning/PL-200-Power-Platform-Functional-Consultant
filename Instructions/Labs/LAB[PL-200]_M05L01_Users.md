@@ -63,7 +63,7 @@ In this task, you create users and assign licenses to them.
 
 9.  Select the **Let me Create the Password** radio button.
 
-10. Enter **practice@1** for **Password**.
+10. Clear the checkbox for **Automatically create a password.** Enter **practice@1** for **Password**.
 
 11. **Uncheck** the **Require this User Change Their Password…** checkbox.
 
