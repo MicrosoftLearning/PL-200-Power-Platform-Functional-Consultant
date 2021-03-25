@@ -55,16 +55,16 @@ In this task, you will evaluate the Common Data Service User security role.
 
 4.  Locate the **Users + Permissions** section and click **Security Roles.**
 
-5.  Click to select the **Common Data Service User** security role and click **Edit.**
+5.  Click to select the **Basic User** security role and click **Edit.**
 
 6.  Select the **Core Records** tab.
 
-7.  Scroll down and see the privileges the **Common Data Service User** security
+7.  Scroll down and see the privileges the **Basic User** security
     role has to the **Core Records**.
 
 8.  Select the **Custom Entities** tab.
 
-9.  You will find that the **Common Data Service User** security role doesn’t
+9.  You will find that the **Basic User** security role doesn’t
     have access to any of the custom entities you created.
 
 ### Task 2 – Copy from Existing Security Role
@@ -72,9 +72,9 @@ In this task, you will evaluate the Common Data Service User security role.
 In this task, you will create a new security role by copying from the Common
 Data Service User security role.
 
-1.  Click on the **Actions** button and select **Copy Role…**
+1.  Select **Basic User** and click **Copy** in the top bar.
 
-2.  Enter **Knowledge Assessment User** for **Name** and click **OK**.
+2.  Enter **Knowledge Assessment User** for **Name** and click **Copy**.
 
 3.  The new security role will open. (You may need to allow pop-ups depending on your browser. If it does not open in a new window, you can return to your list of Security Roles, refresh, and find Knowledge Assessment User. Select the role, select edit, and your new security role will open.) Select the **Custom Entities** tab.
 
@@ -120,7 +120,7 @@ Data Service User security role.
 
 14. Click **Save and Close**.
 
-15. Close the Common Data Service User security role. Do not close the security
+15. Close out of the security role. Do not close the security
     roles window.
 
 ### Task 3 – Create Security Role
