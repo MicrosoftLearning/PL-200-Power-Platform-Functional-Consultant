@@ -33,9 +33,9 @@ In this task, you will export data from the maker portal.
 
 1.  Navigate to <https://make.powerapps.com/> and make sure you are in the **Practice** environment you created.
 
-2.  Expand **Data** and select **Entities**.
+2.  Expand **Data** and select **Tables**.
 
-3.  Locate and click to open the **Knowledge Assessment** entity.
+3.  Locate and click to open the **Knowledge Assessment** table.
 
 4.  Click **Export Data**.
 
