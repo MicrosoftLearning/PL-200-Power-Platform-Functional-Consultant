@@ -39,16 +39,16 @@ Exercise 1 – Prepare the Solution
 
 4.  Click to open the **Common Data Services Default Solution**.
 
-5.  Click to open the **Knowledge Assessment** entity.
+5.  Click to open the **Knowledge Assessment** table.
 
-6.  Click select the **Fields** tab and **+ Add Field**.
+6.  Click select the **Column** tab and **+ Add column**.
 
 7.  Enter **Passing Score (%)** for **Display Name**, select **Whole Number**
     for **Data Type** and click **Done**.
 
-8.  Click **Save Entity**.
+8.  Click **Save Table**.
 
-9.  Click **+ Add Field**.
+9.  Click **+ Add Column**.
 
 10. Enter **Create Questions** for **Display Name** and select **Two Options**
     for **Data Type**.
@@ -59,9 +59,9 @@ Exercise 1 – Prepare the Solution
 12. Click on the **No** option under **Items** and replace **No** with **Mark
     Complete**.
 
-13. Click **Done**.
+13. Click **Create**.
 
-14. Click **Save Entity**.
+14. Click **Save Table**.
 
 ### Task 2 – Add Field to Knowledge Assessment Form
 
