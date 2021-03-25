@@ -35,7 +35,7 @@ deactivate them.
 
 ### Task 1 – Create a flow
 
-2.  Make sure you have your **Practice** environment selected.
+1.  Make sure you have your **Practice** environment selected.
 
 3.  Select **Solutions** and click to open the **Common Data Services Default Solution.**
 
