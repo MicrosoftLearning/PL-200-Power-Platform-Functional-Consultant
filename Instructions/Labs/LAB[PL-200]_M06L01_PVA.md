@@ -41,14 +41,14 @@ In this exercise, you will acquire a PVA trial and create a bot.
 
 4.  Click **Explore Bot**, if prompted.
 
-Exercise 2 – Create custom entities to capture information
+Exercise 2 – Create custom tables to capture information
 --------------------------
 
-### Task 1: Create support categories entity
+### Task 1: Create support categories tables
 
-1.  Select **Entities**.
+1.  Select **Tables**.
 
-2.  Click **+ New custom entity.**
+2.  Click **+ New custom table.**
 
 3.  Enter **Support categories** for **Name**.
 
@@ -63,10 +63,10 @@ Exercise 2 – Create custom entities to capture information
 
 8.  Click **Close**.
 
-### Task 2: Create order entity
+### Task 2: Create order table
 
-1.  Make sure you still have **Entities** selected and click **+ New custom
-    entity**.
+1.  Make sure you still have **Tables** selected and click **+ New custom
+    table**.
 
 2.  Enter **Order** for **Name**.
 
