@@ -194,7 +194,7 @@ practices you will be scoring and storing the results.
 
 8.  Select the **assessmentQuestionList** gallery in the canvas.
 
-10.  From the **Insert** tab, click **Label**.
+10.  Select the **Add an item from the insert pane** option within the outlined area. Select **Text label** from the **Insert** section.
 
 11. Select the label you just added and set the **Text** property to
     **Question** using the formula bar. (It is possible this will be set automatically for you. Make sure to verify.)
