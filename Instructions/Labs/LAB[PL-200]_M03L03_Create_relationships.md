@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 3.3: Create relationships'
-    module: 'Module 3: Work with the Common Data Service'
+    module: 'Module 3: Work with Dataverse'
 ---
 
 Module 3: Work with the Common Data Service
