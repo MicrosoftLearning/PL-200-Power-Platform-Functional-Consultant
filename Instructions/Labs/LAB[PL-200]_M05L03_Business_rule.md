@@ -37,14 +37,14 @@ Exercise 1 - Prepare the solution
 
 4.  Click to open the **Common Data Services Default Solution.** 
 
-5.  Click to open the **Knowledge Question** entity.
+5.  Click to open the **Knowledge Question** table.
 
-6.  Select the **Fields** tab and click **+ Add Field**.
+6.  Select the **Columns** tab and click **+Add Column**.
 
-7.  Enter **Question Type** for **Display Name** and select **Option Set** for
+7.  Enter **Question Type** for **Display Name** and select **Choice** for
     **Data Type**.
 
-8.  Click on the **Option Set** dropdown and click **+ New Option Set**.
+8.  Click on the **Option Set** dropdown and click **+New Choice**.
 
 9.  Enter **Simple** and click **Add New Item**.
 
@@ -52,14 +52,14 @@ Exercise 1 - Prepare the solution
 
 11. From the **Required** dropdown, select **Required.**
 
-12. Click **Done.** Then click **Save entity.**
+12. Click **Done.** Then click **Save table.**
 
-13. Click **+ Add Field**.
+13. Click **+Add Column**.
 
 14. Enter **Scenario Description** for **Display Name**, select **Text Area**
     for **Data Type**, and click **Done**.
 
-15. Click **Save Entity**.
+15. Click **Save Table**.
 
 ### Task 2 – Add Fields to Knowledge Question Form
 
@@ -99,7 +99,7 @@ Exercise 2 – Create Business Rule
 
 4.  Click to open the **Common Data Services Default Solution.**
 
-5.  Click to open the **Knowledge Question** entity.
+5.  Click to open the **Knowledge Question** table.
 
 6.  Select the **Business Rules** tab and click **Add Business Rule**.
 
