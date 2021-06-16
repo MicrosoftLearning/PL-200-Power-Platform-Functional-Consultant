@@ -79,7 +79,7 @@ Exercise 1 – Update Process
 
 3.  Select **Solutions** and open the **Common Data Services Default Solution.**
 
-4.  Click to open the **Knowledge Assessment** entity.
+4.  Click to open the **Knowledge Assessment** table.
 
 5.  Select the **Business Rules** tab and click **Add Business Rule**.
 
