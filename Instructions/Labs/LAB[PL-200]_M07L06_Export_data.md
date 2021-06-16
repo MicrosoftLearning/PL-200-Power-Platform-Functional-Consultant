@@ -35,7 +35,7 @@ In this task, you will export data from the maker portal.
 
 2.  Expand **Data** and select **Entities**.
 
-3.  Locate and click to open the **Knowledge Assessment** entity.
+3.  Locate and click to open the **Knowledge Assessment** table.
 
 4.  Click **Export Data**.
 
