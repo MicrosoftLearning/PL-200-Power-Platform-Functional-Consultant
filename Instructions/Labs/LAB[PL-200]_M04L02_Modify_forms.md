@@ -48,16 +48,16 @@ before jumping into the editor.
 
 4.  Open the **Common Data Service Default Solution**.
 
-5.  Click on the **Knowledge Assessment** entity.
+5.  Click on the **Knowledge Assessment** table.
 
 6.  Click **Settings** in the command bar.
 
 7.  Check the **Enable Attachments** checkbox. This enables notes and files for
-    the entity.
+    the table.
 
 8.  Click **Done**. Confirm the changes by clicking **Okay.**
 
-9.  Click **Save Entity**.
+9.  Click **Save table**.
 
 ### Task 2 – Edit the Knowledge Assessment form
 
@@ -121,7 +121,7 @@ To customize your form:
 25. Add the **Difficulty** field to the **General** section and place it below
     the **End Date** field.
 
-26. Select the **+ Component** tab.
+26. Select the **+Component** tab.
 
 27. Click **1 column tab**. A new tab will be added to the form.
 
@@ -131,15 +131,15 @@ To customize your form:
 
 30. Select the **Questions** tab.
 
-31. Return to the **+ Components** tab.
+31. Return to the **+Components** tab.
 
-32. Click **Subgrid** from the **Related data** section. Check the **Show related records** check box and select **Knowledge Questions** for Entity. Then click **Done.**
+32. Click **Subgrid** from the **Related data** section. Check the **Show related records** check box and select **Knowledge Questions** for Table. Then click **Done.**
 
 33. In the right properties tab, enter **KnowledgeQuestions** for **Name** and **Knowledge Questions** for label.
 
 34. Select **Show related records.**
 
-35. Make sure **Knowledge Questions (Knowledge Assessment)** is selected for **Entity.**
+35. Make sure **Knowledge Questions (Knowledge Assessment)** is selected for **Table.**
 
 37. Select the **New Section** that the subgrid was added to. In the Properties tab, enter **Knowledge Questions** for Label and **KnowledgeQuestions** for name. Click **Save**.
 
@@ -158,9 +158,9 @@ In this exercise, you will edit the form for the Knowledge Question entity.
 
 1.  Make sure you are in the app designer.
 
-2.  Click **+ Add** and select **Entities**.
+2.  Click **+Add** and select **Tables**.
 
-3.  Locate the **Knowledge Question** entity and select it.
+3.  Locate the **Knowledge Question** table and select it.
 
 4.  After the **Knowledge Question** entity is added to the application, select
     **Forms**.
@@ -206,7 +206,7 @@ In this exercise, you will edit the form for the Knowledge Question entity.
 
 1.  Click **Play**.
 
-3.  Switch from the **Administration** section to the **Assessments** section. Select the **Knowledge Assessment** entity and click **+ New**.
+3.  Switch from the **Administration** section to the **Assessments** section. Select the **Knowledge Assessment** entity and click **+New**.
 
 4.  The form should have two tabs: **General** and **Questions**.
 
@@ -225,7 +225,7 @@ In this exercise, you will edit the form for the Knowledge Question entity.
 
 11. Select the **Questions** tab.
 
-12. Click **+ New Knowledge Question**.
+12. Click **+New Knowledge Question**.
 
 13. Close the application without creating **Knowledge Question** record.
 
