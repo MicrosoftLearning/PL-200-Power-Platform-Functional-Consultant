@@ -100,7 +100,7 @@ application.
 
 16. Do not close the App designer.
 
-Exercise 3 – Setup screens for Knowledge Assessment and Taking Assessment
+Exercise 2 – Setup screens for Knowledge Assessment and Taking Assessment
 -------------------------------------------------------------------------
 
 In this exercise, you will be adding a list of Knowledge Assessments to
