@@ -69,4 +69,4 @@ In this exercise, you will be create your **Practice** environment that you will
 
 3.  Explore the different areas in **Settings** that you are interested in but do not make any changes yet. 
 
-**NOTE** Depending on the browser that you are using, it is suggested that you diable any pop-up blockers that maybe enabled. This will prevent popup screens from not appearing as they should.
+**NOTE** Depending on the browser that you are using, it is suggested that you disable any pop-up blockers that maybe enabled. This will prevent popup screens from not appearing as they should.
