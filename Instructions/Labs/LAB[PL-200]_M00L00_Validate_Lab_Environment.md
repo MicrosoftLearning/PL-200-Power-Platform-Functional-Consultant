@@ -68,3 +68,5 @@ In this exercise, you will be create your **Practice** environment that you will
 4. Your environment may take a few minutes to provision. Refresh the page if needed. When your environment is prepared, select your **Practice** environment by clicking on the ellipses next to its name to expand the drop down menu and select **Settings.** 
 
 3.  Explore the different areas in **Settings** that you are interested in but do not make any changes yet. 
+
+**NOTE** Depending on the browser that you are using, it is suggested that you diable any pop-up blockers that maybe enabled. This will prevent popup screens from not appearing as they should.
