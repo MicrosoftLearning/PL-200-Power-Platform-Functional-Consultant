@@ -72,15 +72,15 @@ Assessment and Knowledge Question entities.
 
 2.  Select **Solutions** and open the **Common Data Service Default Solution.**
 
-3.  Click to open the **Knowledge Assessment** entity.
+3.  Click to open the **Knowledge Assessment** table.
 
 4.  Select the **Relationships** tab.
 
 5.  Click **+Add Relationship** and select **One-to-Many**.
 
-6.  Select **Knowledge Question** for **Related Entity** and click **Done**.
+6.  Select **Knowledge Question** for **Related Table** and click **Done**.
 
-7.  Click **Save Entity**. It is a good idea to save your changes as you make
+7.  Click **Save Table**. It is a good idea to save your changes as you make
     them.
 
 ### Task 2 – Knowledge Assessment to Knowledge Test Result Relationship
@@ -99,7 +99,7 @@ Assessment and Knowledge Test Result entities.
 
 5.  Click **Done**.
 
-6.  Click **Save Entity**.
+6.  Click **Save Table**.
 
 7.  From the navigation menu, click **Common Data Services Default Solution**.
 
@@ -120,7 +120,7 @@ parental. You will be performing this change in the classic Solution Explorer.
 
 3.  Expand **Entities**.
 
-4.  Expand the **Knowledge Assessment** entity.
+4.  Expand the **Knowledge Assessment** table.
 
 5.  Select **1:N Relationships**.
 
