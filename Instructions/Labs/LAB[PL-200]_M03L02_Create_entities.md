@@ -67,13 +67,13 @@ fields. Knowledge Assessment will be a new custom entity you create.
 
 4.  Click to open the **Common Data Services Default Solution**.
 
-5.  Click **New** and select **Entity**.
+5.  Click **+New** and select **Table**.
 
 6.  Enter **Knowledge Assessment** for **Display Name**. Enter **Title** for **Display Name** in the Primary Field section. 
 
-8.  Click **Done**. It may take a few minutes for your entity to be created.
+8.  Click **Create**. It may take a few minutes for your table to be created.
 
-9. With the **Fields** tab selected, click **Add Field**.
+9. With the **Columns** tab selected, click **+Add column**.
 
 10. Enter **Start Date** for **Display Name** and select **Date Only** for
     **Data Type**.
@@ -83,7 +83,7 @@ fields. Knowledge Assessment will be a new custom entity you create.
 
 12. Click **Done**.
 
-13. Click **Add Field** again.
+13. Click **+Add column** again.
 
 14. Enter **End Date** for **Display Name** and select **Date Only** for **Data Type**.
 
@@ -92,12 +92,12 @@ fields. Knowledge Assessment will be a new custom entity you create.
 
 16. Click **Done.**
 
-17. You will now add an **Choice** type field. Click **Add Field**.
+17. You will now add an **Choice** type field. Click **+Add column**.
 
 18. Enter **Difficulty** for **Display Name** and select **Choice** for
     **Data Type**.
 
-19. Click on the **Choice** dropdown and select **+New Option Set**.
+19. Click on the **Choice** dropdown and select **+New choice**.
 
 20. Enter **Beginner** for **Item 1** and click **Add New Item**.
 
@@ -107,11 +107,11 @@ fields. Knowledge Assessment will be a new custom entity you create.
 
 23. Select **Beginner** for the **Default Value** and click **Done**.
 
-25. Click **Save Entity** at the bottom of the screen.
+25. Click **Save Table** at the bottom of the screen.
 
 ### Task 2 – Create a calculated field
 
-1.  Click **Add Field**.
+1.  Click **+Add column**.
 
 2.  Enter **Days Remaining** for **Display Name** and select **Whole Number**
     for **Data Type**.
