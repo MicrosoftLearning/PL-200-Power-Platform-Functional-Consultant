@@ -37,14 +37,14 @@ Exercise 1 – Prepare the Solution
 
 4.  Click to open the **Common Data Services Default Solution**.
 
-5.  Click to open the **Knowledge Question** entity.
+5.  Click to open the **Knowledge Question** table.
 
-6.  Select the **Fields** tab and click **+ Add Field**.
+6.  Select the **Columns** tab and click **+Add Column**.
 
 7.  Enter **Question Points** for **Display Name** and select **Whole Number**
     for **Data Type**.
 
-8.  Click **+ Add** next to **Calculation or Rollup** and select **+ Calculation**.
+8.  Click **+Add** next to **Calculation or Rollup** and select **+Calculation**.
 
 9.  Click **Save**.
 
@@ -114,7 +114,7 @@ Exercise 1 – Prepare the Solution
 
 ### Task 4 – Add Field to Knowledge Assessment Form
 
-1.  Select the **Knowledge Assessment** entity.
+1.  Select the **Knowledge Assessment** table.
 
 2.  Select the **Forms** tab and click on the Main form.
 

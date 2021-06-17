@@ -37,9 +37,9 @@ Exercise 1 – Acquire your Power Platform trial tenant
 
 6. At the **Almost there** prompt, click **Start.**
 
-	**Note:** Depending on your internet browser, you may be prompted to sign in again. Select **Sign in**, click the email account you just signed in with, and continue.
+	**Note:** Depending on your internet browser, you may be prompted to sign in again. Select **Sign in**, click the email account you just signed in with, and continue. You may also be prompted to provide more information. Enter 1234567890 in the Phone number field, and click **Get started**.
 
-6. Select **Yes** to stay signed in.
+7. Select **Yes** to stay signed in. On teh page that shows **You're all set**, click **Get started**.
 
 
 Exercise 2 - Create your environment 
@@ -68,3 +68,5 @@ In this exercise, you will be create your **Practice** environment that you will
 4. Your environment may take a few minutes to provision. Refresh the page if needed. When your environment is prepared, select your **Practice** environment by clicking on the ellipses next to its name to expand the drop down menu and select **Settings.** 
 
 3.  Explore the different areas in **Settings** that you are interested in but do not make any changes yet. 
+
+**NOTE** Depending on the browser that you are using, it is suggested that you disable any pop-up blockers that maybe enabled. This will prevent popup screens from not appearing as they should.

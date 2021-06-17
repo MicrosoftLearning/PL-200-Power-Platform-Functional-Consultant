@@ -40,7 +40,7 @@ In this exercise, you will create a dashboard using existing charts and views.
 
 4.  Open the **Common Data Services Default Solution**.
 
-5.  Click **+ New** and select **Dashboard** and **2-Column Overview**. *Note:* Always
+5.  Click **+New** and select **Dashboard** and **2-Column Overview**. *Note:* Always
     pick the template that best fits what you plan to build. You can always
     remove some of the cells you are not using or adjust their sizes.
 
@@ -54,7 +54,7 @@ In this exercise, you will create a dashboard using existing charts and views.
 
 10. Select **Leader Board** for **Chart**.
 
-11. Click **Add**.
+11. Click **+Add**.
 
 12. Locate the top right quadrant of the dashboard. Click the **Insert list** icon, which looks like a bulleted list. 
 
@@ -62,7 +62,7 @@ In this exercise, you will create a dashboard using existing charts and views.
 
 14. Select **Active Knowledge Assessments** for **View**.
 
-15. Click **Add**.
+15. Click **+Add**.
 
 16. Click **Save** to save the dashboard.
 
@@ -102,7 +102,7 @@ module and added to the definition
 
 12.  Select the **Configuration** group.
 
-13.  Click **+ Add** and select **Subarea**.
+13.  Click **+Add** and select **Subarea**.
 
 14.  Select **Dashboard** for **Type**.
 

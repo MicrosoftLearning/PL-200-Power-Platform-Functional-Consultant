@@ -42,7 +42,7 @@ date.
 
 4.  Open the **Common Data Services Default Solution**.
 
-5.  Open the **Knowledge Assessment** entity.
+5.  Open the **Knowledge Assessment** table.
 
 6.  Select the **Views** tab.
 
@@ -50,7 +50,7 @@ date.
 
 ### Task 2 – Add and Remove Columns from View
 
-1.  The **Active Knowledge Assessment** view currently has two columns. In the **Fields** menu on the left, expand the dropdown menu and change to **All.**
+1.  The **Active Knowledge Assessment** view currently has two columns. In the **Columns** menu on the left, expand the dropdown menu and change to **All.**
 
 2.  Click on the **Status Reason** field.
 
@@ -60,7 +60,7 @@ date.
 4.  The **Owner** field will be added to the view. Click on the **Modified By**
     field.
 
-5.  Click on the **Modified By** column header, select **Insert Column**, and expand the dropdown to **All** again.
+5.  Click on the **Modified By** column header, select **+Insert view column**, and expand the dropdown to **All** again.
 
 6.  Select **Modified On**. The view should now have six columns.
 
@@ -72,7 +72,7 @@ date.
 9.  The **Created On** column will be removed from the view.
 
 10. You will now add a field from a related entity to the view. From the
-    **Fields** side bar, select the **Related** tab.
+    **Table columns** side bar, select the **Related** tab.
 
 11. All the entities that the **Knowledge Assessment** entity has a **N:1** relationship with
     will be listed here. Expand **Owning User (User).**

@@ -48,7 +48,7 @@ Exercise 2 – Create custom entities to capture information
 
 1.  Select **Entities**.
 
-2.  Click **+ New custom entity.**
+2.  Click **+New custom table.**
 
 3.  Enter **Support categories** for **Name**.
 
@@ -85,12 +85,12 @@ Exercise 3 – Design a Conversation path with Topics
 
 ### Task 1: Create a Cancel Order Topic
 
-1.  Select **Topics** and click **+ New topic**.
+1.  Select **Topics** and click **+New topic**.
 
 2.  Enter **Cancel order** for Name, enter **Cancel order** as a trigger phrase
-    and click **Add**.
+    and click **+Add**.
 
-3.  Enter **Cancel** as a trigger phrase and click **Add**.
+3.  Enter **Cancel** as a trigger phrase and click **+Add**.
 
 4.  The **Cancel order** topic should now have two trigger phrases. Click **Go
     to authoring canvas**.
@@ -130,7 +130,7 @@ Exercise 3 – Design a Conversation path with Topics
 
 ### Task 2: Create a New order topic
 
-1.  Select **Topics** and click **+ New topic**.
+1.  Select **Topics** and click **+New topic**.
 
 2.  Enter **New order** for **Name**, enter **New order** as a trigger phrase
     and click **Add**.
@@ -161,7 +161,7 @@ Exercise 3 – Design a Conversation path with Topics
 
 ### Task 3: Create a check weather topic
 
-1.  Select **Topics** and click **+ New topic**.
+1.  Select **Topics** and click **+New topic**.
 
 2.  Enter **Check weather** for **Name**, enter **Weather** as a trigger phrase
     and click **Add**.

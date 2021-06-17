@@ -67,13 +67,13 @@ fields. Knowledge Assessment will be a new custom entity you create.
 
 4.  Click to open the **Common Data Services Default Solution**.
 
-5.  Click **New** and select **Entity**.
+5.  Click **+New** and select **Table**.
 
 6.  Enter **Knowledge Assessment** for **Display Name**. Enter **Title** for **Display Name** in the Primary Field section. 
 
-8.  Click **Done**. It may take a few minutes for your entity to be created.
+8.  Click **Create**. It may take a few minutes for your table to be created.
 
-9. With the **Fields** tab selected, click **Add Field**.
+9. With the **Columns** tab selected, click **+Add column**.
 
 10. Enter **Start Date** for **Display Name** and select **Date Only** for
     **Data Type**.
@@ -83,7 +83,7 @@ fields. Knowledge Assessment will be a new custom entity you create.
 
 12. Click **Done**.
 
-13. Click **Add Field** again.
+13. Click **+Add column** again.
 
 14. Enter **End Date** for **Display Name** and select **Date Only** for **Data Type**.
 
@@ -92,12 +92,12 @@ fields. Knowledge Assessment will be a new custom entity you create.
 
 16. Click **Done.**
 
-17. You will now add an **Choice** type field. Click **Add Field**.
+17. You will now add an **Choice** type field. Click **+Add column**.
 
 18. Enter **Difficulty** for **Display Name** and select **Choice** for
     **Data Type**.
 
-19. Click on the **Choice** dropdown and select **+New Option Set**.
+19. Click on the **Choice** dropdown and select **+New choice**.
 
 20. Enter **Beginner** for **Item 1** and click **Add New Item**.
 
@@ -107,11 +107,11 @@ fields. Knowledge Assessment will be a new custom entity you create.
 
 23. Select **Beginner** for the **Default Value** and click **Done**.
 
-25. Click **Save Entity** at the bottom of the screen.
+25. Click **Save Table** at the bottom of the screen.
 
 ### Task 2 – Create a calculated field
 
-1.  Click **Add Field**.
+1.  Click **+Add column**.
 
 2.  Enter **Days Remaining** for **Display Name** and select **Whole Number**
     for **Data Type**.
@@ -154,15 +154,15 @@ fields.
 
 3.  Open the **Common Data Services Default Solution**.
 
-4.  Click **+New** and select **Entity**.
+4.  Click **+New** and select **Table**.
 
 5.  Enter **Knowledge Question** for Display Name.
 
-6.  Navigate to the **Primary Name Field** section.
+6.  Navigate to the **Primary Name Column** section.
 
-7.  Change the **Display Name** to **Question**. The **Name** field should also automatically update to **Question.** Click **Done**.
+7.  Change the **Display Name** to **Question**. The **Name** field should also automatically update to **Question.** Click **Create**.
 
-8.  Make sure the **Fields** tab is selected and click **Add Field**.
+8.  Make sure the **Columns** tab is selected and click **+Add column**.
 
 9.  Enter **Answer 1** for **Display Name**, select **Text** for **Data Type**
     and click **Done**.
@@ -175,7 +175,7 @@ fields.
 
     - Name: **Answer 4**, Data Type: **Text**.
 
-14. Click **Add Field**.
+14. Click **+Add column**.
 
 15. Enter **Answer 1 Points** for **Display Name**, select **Whole Number** for
     **Data Type** and click **Done**.
@@ -189,7 +189,7 @@ fields.
 
     - Name **Answer 4 Points** Data Type **Whole Number**.
 
-    - Click **Save Entity**.
+    - Click **Save Table**.
 
 **Note:** There are many ways you could model the answers depending on the complexity of your requirements. The approach shown here is simplified for practice purposes to focus on demonstrating how to work with the entity creation process.
 
@@ -203,20 +203,20 @@ fields.
 
 1.  On the navigation menu, click **Common Data Services Default Solution** to return to the solution.
 
-2.  Click **+New** and select **Entity**.
+2.  Click **+New** and select **Table**.
 
-3.  Enter **Knowledge Test Result** for **Display Name** and click **Done**.
+3.  Enter **Knowledge Test Result** for **Display Name** and click **Create**.
 
-4.  Click **Add Field**.
+4.  Click **+Add column**.
 
 5.  Enter **Total Points** for **Display Name** and select **Whole Number** for
     **Data Type**.
 
 6.  Click **Done**.
 
-7.  Click **Save Entity**.
+7.  Click **Save Table**.
 
-Exercise 5 – Add existing entities to the solution
+Exercise 4 – Add existing entities to the solution
 --------------------------------------------------
 
 In this exercise, you will be adding the existing entities Feedback and User.
@@ -227,13 +227,13 @@ will be tracked as part of the solution.
 
 1.  From the navigation menu, click **Common Data Services Default Solution** to return to the solution.
 
-2.  Click **Add Existing** and select **Entity**.
+2.  Click **Add Existing** and select **Table**.
 
 3.  Select the **Feedback** and **User** entities and click **Next**.
 
-4.  Leave the **Include All Components** and **Include Entity Metadata**
-    unchecked and click **Add**.
+4.  Leave the **Include All Components** and **Include Table Metadata**
+    unchecked and click **+Add**.
 
-5.  Your solution will now have **5 Entities** and **1 Option Set** in addition to your apps.
+5.  Your solution will now have **5 tables** and **1 Choice** in addition to your apps.
 
 6.  Click **Publish All Customizations**.

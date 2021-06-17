@@ -35,7 +35,7 @@ deactivate them.
 
 ### Task 1 – Create a flow
 
-2.  Make sure you have your **Practice** environment selected.
+1.  Make sure you have your **Practice** environment selected.
 
 3.  Select **Solutions** and click to open the **Common Data Services Default Solution.**
 
@@ -44,13 +44,13 @@ deactivate them.
 
 5.  From the lefthand menu, select **Flows.** (If you get a pop-up here, just choose your country/region and select **Get started.**)
 
-6.  Click **+ New** and select **+ Automated - From Blank**.
+6.  Click **+New** and select **+Automated - From Blank**.
 
 7.  The pop-up will show common triggers that you can easily select to jumpstart your flow configuration. Scroll through the options, but do not select anything. When you are ready, press **Skip.**
 
 8. In the box that says **Search connectors and triggers**, type **Recurrence.** Select the **Recurrence** option from the **Triggers** tab.
 
-9. Select **+ New step.**
+9. Select **+New step.**
 
 10. Type **Common Data Service** into the search box.
 
@@ -74,7 +74,7 @@ deactivate them.
 
 20. Rename the step **Get Assessments**.
 
-21. Click **+ New Step**.
+21. Click **+New Step**.
 
 22. Search for **Common Data Service** and select **Update a Record**.
 

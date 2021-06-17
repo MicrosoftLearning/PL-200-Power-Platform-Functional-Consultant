@@ -76,11 +76,11 @@ goal is to have a list of data from an entity.
 
 3.  Click **Create** in the dialog. (You may be required to sign in again; enter your tenant credentials if necessary.)
 
-9.  Your app should open in the designer. (You may get a few pop-ups first; close them.) In the white space, click the **connect to data** link.
+9.  Your app should open in the designer. (You may get a few pop-ups first; close them.)
 
-10. Select **Data** from the left bar. From the list of entities, select **Accounts.** 
+10. Select **Data** from the left bar and click **Add data**. From the list of entities, select **Accounts.** 
 
-10. Add a header to your app by selecting the **+** button (the Insert button) on the left tab and selecting **Text label.** Use the pane on the right side of the screen to enter **Fabrikam Accounts** in the **Text** field. You can edit the size, font, and other attributes to customize the look and feel of the application.
+10. Add a header to your app by selecting the **+** button (the Insert button) on the left tab and selecting **Text label.** Use the pane on the right side of the screen to enter **Fabrikam Accounts** in the **Text** field, then hit **Enter**. You can edit the size, font, and other attributes to customize the look and feel of the application.
 
 10. Add a list of accounts to your app by selecting the **+** button on the left tab and selecting **Vertical Gallery** from the **Layout** section.
 
@@ -88,7 +88,7 @@ goal is to have a list of data from an entity.
 
 10.  The application will load list of the accounts (it may be blank for now). Drag the gallery to fit the app or resize to your liking.
 
-10. To preview your app, click **Play** (it will look like a Play button) in the upper right corner. 
+10. To preview your app, click **Play** (it will look like a Play button) in the upper right corner. Click the **X** in the top right corner to close the preview screen.
 
 16.  Click **File** and select **Save**.
 
@@ -189,7 +189,7 @@ things simple here and just add a basic header to the app.
 
 1.  Select the **Insert** tab at the top of the screen.
 
-2.  Click **Text Label**.
+2.  Click **Text, Label**.
 
 3.  A label will be added to the screen. Select the label.
 
@@ -202,7 +202,7 @@ things simple here and just add a basic header to the app.
 
 8.  Click **Text Alignment** and select **Center**.
 
-9.  Click **Fill** from the top menu and change the **Fill Color** to **Blue**.
+9.  Click **Home, Fill** from the top menu and change the **Fill Color** to **Blue**.
 
 10. Locate the **Position** section on the Properties window.
 
