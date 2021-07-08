@@ -45,7 +45,7 @@ Exercise 1 – Evaluate and Create Security Roles
 
 ### Task 1 – Evaluate Security Role
 
-In this task, you will evaluate the Common Data Service User security role.
+In this task, you will evaluate the Basic User security role.
 
 1.  Navigate to https://admin.powerplatform.microsoft.com/.
 
@@ -59,7 +59,7 @@ In this task, you will evaluate the Common Data Service User security role.
 
 6.  Select the **Core Records** tab.
 
-7.  Scroll down and see the privileges the **Common Data Service User** security
+7.  Scroll down and see the privileges the **Basic User** security
     role has to the **Core Records**.
 
 8.  Select the **Custom Entities** tab.
