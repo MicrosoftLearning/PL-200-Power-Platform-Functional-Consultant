@@ -158,7 +158,7 @@ In this exercise, you will edit the form for the Knowledge Question entity.
 
 1.  Make sure you are in the app designer.
 
-2.  Click **+Add** and select **Tables**.
+2.  Click **+Add** and select **Entities**.
 
 3.  Locate the **Knowledge Question** table and select it.
 
