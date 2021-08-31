@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab 3.4: Additional entity options'
+    title: 'Lab 3.4: Additional table options'
     module: 'Module 3: Work with Dataverse'
 ---
 
@@ -21,34 +21,25 @@ Scenario
 
 You are a functional consultant for your organization Contoso. You are assigned
 to work on a project for your client Fabrikam. You are working on the data model
-you started in the prior practice. In this practice you are enabling some entity
-options that can only be done using the classic solution explorer.
+you started in the prior practice. In this practice you are enabling some table
+options.
 
-To view the data model you are building, **view  Image[MB-200]_M02L02_Creating_Entities_Fields.png in the Lab Resources**.
+To view the data model you are building, **view
+Image[MB-200]_M02L02_Creating_Entities_Fields.png in the Lab Resources**.
 
 In this practice, you will be performing the following tasks.
 
-1.  Enabling the Feedback option on Knowledge Assessment. This will cause the
-    system to create the relationship between Knowledge Assessment and the CDM
-    Feedback entity.
+1.  You will enable auditing on the Knowledge Assessment table.
 
-2.  You will enable auditing on the Knowledge Assessment entity.
+## Exercise 1 – Enable Table Options
 
-3.  You will be updating the icon on the Knowledge Assessment entity, so it is
-    not using the default icon.
+In this exercise, you will enable auditing and update the icon of the Knowledge
+Assessment table.
 
+### Task 1 – Enable Auditing Option for Knowledge Assessment
 
-Exercise 1 – Enable Entity Options
-----------------------------------
-
-In this exercise, you will enable the Feedback option on Knowledge Assessment as
-well as enable auditing. You will then update the icon on the Knowledge
-Assessment entity.
-
-### Task 1 – Enable Feedback and Auditing Options for Knowledge Assessment
-
-1.  Navigate to <https://make.powerapps.com/> and make sure you are in your
-    **Practice** environment.
+1.  Navigate to [Power Apps maker portal](https://make.powerapps.com/) and make
+    sure you are in your **Practice** environment.
 
 2.  Select **Solutions**.
 
@@ -58,20 +49,14 @@ Assessment entity.
 
 5.  Expand **Entities**.
 
-6.  Select the **Knowledge Assessment** entity.
+6.  Select the **Knowledge Assessment** table.
 
 7.  Scroll down to the to the **Communication and Collaboration** section.
 
-8.  Select the **Feedback** checkbox. *Note:* Enabling any option with a + cannot be undone, so always confirm
-    before you enable any of those features that you are on the right entity and
-    need the feature.
+8.  Check the **Auditing** checkbox. *Note:* Remember auditing must be turned on
+    at the environment settings, table and column to produce any audit data. By
+    default, columns are enabled for auditing.
 
-9.  Scroll down to the **Data Services** section.
+9.  Click **Save**.
 
-10. Check the **Auditing** checkbox. *Note:* Remember auditing must be turned on at the environment settings,
-    entity and field to produce any audit data. By default, fields are enabled
-    for auditing.
-
-11. Click **Save**.
-
-12. Click **Publish.**
+10. Click **Publish.**
