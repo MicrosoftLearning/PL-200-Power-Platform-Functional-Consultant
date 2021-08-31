@@ -54,7 +54,7 @@ Assessment table.
 7.  Scroll down to the to the **Communication and Collaboration** section.
 
 8.  Check the **Auditing** checkbox. *Note:* Remember auditing must be turned on
-    at the environment settings, table and column to produce any audit data. By
+    at the environment, table, and column settings to produce any audit data. By
     default, columns are enabled for auditing.
 
 9.  Click **Save**.
