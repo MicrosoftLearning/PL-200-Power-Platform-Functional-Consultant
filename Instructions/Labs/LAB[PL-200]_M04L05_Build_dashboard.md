@@ -24,15 +24,13 @@ to work on a project for your client Fabrikam. You will be continuing your work
 on the model-driven Knowledge Admin app. In this practice, you will be creating
 a dashboard and modifying the app to include it.
 
-    
-Exercise 1 – Create a dashboard 
---------------------------------
+## Exercise 1 – Create a dashboard
 
 In this exercise, you will create a dashboard using existing charts and views.
 
 ### Task 1 – Create the dashboard
 
-1.  Navigate to <https://make.powerapps.com>.
+1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
 
 2.  Make sure you are in your **Practice** environment.
 
@@ -40,13 +38,16 @@ In this exercise, you will create a dashboard using existing charts and views.
 
 4.  Open the **Common Data Services Default Solution**.
 
-5.  Click **+New** and select **Dashboard** and **2-Column Overview**. *Note:* Always
-    pick the template that best fits what you plan to build. You can always
-    remove some of the cells you are not using or adjust their sizes.
+5.  Click **+ New** and select **Dashboard** and **2-Column Overview**. *Note:*
+    Always pick the template that best fits what you plan to build. You can
+    always remove some of the cells you are not using or adjust their sizes.
 
 6.  Enter **Results Overview** for Name.
 
-7.  Locate the top left quadrant of the dashboard. You will see icons in the middle of the quadrant, which are buttons allowing you to add components. In the top left quadrant, click the **Insert chart** icon, which looks like a bar graph with a plus sign. 
+7.  Locate the top left quadrant of the dashboard. You will see icons in the
+    middle of the quadrant, which are buttons allowing you to add components. In
+    the top left quadrant, click the **Insert chart** icon, which looks like a
+    bar graph with a plus sign.
 
 8.  Select **Knowledge Test Result** for **Record Type**.
 
@@ -54,15 +55,16 @@ In this exercise, you will create a dashboard using existing charts and views.
 
 10. Select **Leader Board** for **Chart**.
 
-11. Click **+Add**.
+11. Click **Add**.
 
-12. Locate the top right quadrant of the dashboard. Click the **Insert list** icon, which looks like a bulleted list. 
+12. Locate the top right quadrant of the dashboard. Click the **Insert list**
+    icon, which looks like a bulleted list.
 
 13. Select **Knowledge Assessments** for **Record Type**.
 
 14. Select **Active Knowledge Assessments** for **View**.
 
-15. Click **+Add**.
+15. Click **Add**.
 
 16. Click **Save** to save the dashboard.
 
@@ -75,8 +77,9 @@ In this exercise, you will create a dashboard using existing charts and views.
 For your dashboard to show up in the model-driven app you must edit the app
 module and added to the definition
 
-1.  Make sure you are still in <https://make.powerapps.com> and you have your
-    **Practice** environment selected.
+1.  Make sure you are still in [Power Apps maker
+    portal](https://make.powerapps.com) and you have your **Practice**
+    environment selected.
 
 2.  Open **Common Data Services Default Solution**.
 
@@ -96,17 +99,17 @@ module and added to the definition
 
 9.  Click **Save**.
 
-10.  Click the **edit** (the pencil) icon next to Site Map.
+10. Click the **edit** (the pencil) icon next to Site Map.
 
-11.  Select the **Assessments** area.
+11. Select the **Assessments** area.
 
-12.  Select the **Configuration** group.
+12. Select the **Configuration** group.
 
-13.  Click **+Add** and select **Subarea**.
+13. Click **+ Add** and select **Subarea**.
 
-14.  Select **Dashboard** for **Type**.
+14. Select **Dashboard** for **Type**.
 
-15.  Select **Results Overview** for **Default Dashboard**.
+15. Select **Results Overview** for **Default Dashboard**.
 
 16. Drag the **Dashboards** subarea you just added and drop it above the
     **Knowledge Assessments** subarea.
@@ -132,12 +135,15 @@ module and added to the definition
 
 ### Task 3 – Test Your Changes
 
-1.  Make sure you are still in <https://make.powerapps.com> and you have the
-    **Practice** environment selected.
+1.  Make sure you are still in [Power Apps maker
+    portal](https://make.powerapps.com) and you have the **Practice**
+    environment selected.
 
 2.  Select **Apps**.
 
-3.  Select the **Knowledge Admin Model-Driven application** and click **Play**. (If your dashboard does not load immediately, click the **Home** button in the left menu to refresh the app.) 
+3.  Select the **Knowledge Admin Model-Driven application** and click **Play**.
+    (If your dashboard does not load immediately, click the **Home** button in
+    the left menu to refresh the app.)
 
-5.  The Dashboard will load and **Results Overview** will be selected by
+4.  The Dashboard will load and **Results Overview** will be selected by
     default.
