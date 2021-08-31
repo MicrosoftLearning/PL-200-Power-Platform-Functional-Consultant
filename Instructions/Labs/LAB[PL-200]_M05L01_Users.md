@@ -33,21 +33,21 @@ and licenses for the Power Platform applications you will be using in this
 course. You will only be provided with one tenant for the practice labs in this
 course. The settings and actions you take within this tenant do not roll-back or
 reset, whereas the virtual machine you are provided with does reset each time
-you close the lab session. Please be aware that Office 365 is evolving all the time. The
-instructions in this document may be different from what you experience in your
-actual Office 365 tenant. It is also possible to experience a delay of several
-minutes before the virtual machine has network connectivity to begin the labs.
+you close the lab session. Please be aware that Office 365 is evolving all the
+time. The instructions in this document may be different from what you
+experience in your actual Office 365 tenant. It is also possible to experience a
+delay of several minutes before the virtual machine has network connectivity to
+begin the labs.
 
-Exercise 1 – Add users and assign license to user
--------------------------------------------------
+## Exercise 1 – Add users and assign license to user
 
 ### Task 1 – Create Users
 
 In this task, you create users and assign licenses to them.
 
-1.  Navigate to https://admin.microsoft.com.
+1.  Navigate to [Microsoft 365 admin center](https://admin.microsoft.com).
 
-2.  Login with your admin users, if prompted.
+2.  Login with your admin user, if prompted.
 
 3.  Expand **Users** and select **Active Users**.
 
@@ -59,26 +59,25 @@ In this task, you create users and assign licenses to them.
 
 7.  Enter **UserOne** for **User Name**.
 
-8.  Click on the **Password**. This action will expand the password section.
+8.  **Uncheck** the **Automatically create password** checkbox.
 
-9.  Select the **Let me Create the Password** radio button.
+9.  Enter **practice\@1** for **Password**.
 
-10. Enter **practice@1** for **Password**.
+10. **Uncheck** the **Require this user change their password…** checkbox.
 
-11. **Uncheck** the **Require this User Change Their Password…** checkbox.
+11. Click **Next**.
 
-14. Click **Next**.
+12. Uncheck the **Send password in email** checkbox.
 
-15. Uncheck the **Send Password in Email** checkbox.
+13. Select **Next.** Assign the **Power Apps Per User** license.
 
-16. Select **Next.** Assign the **Microsoft Power Apps Plan 2 Trial** license. 
+14. Click **Next.** On the next page, click **Next** again. Finally, click
+    **Finish adding.**
 
-16. Click **Next.** On the next page, click **Next** again. Finally, click **Finish adding.** 
+15. Click **Close.**
 
-17. Click **Close.**
+16. Repeat steps 4-16 for **User Two.**
 
-18. Repeat steps 4-16 for a **User Two.**
+17. Repeat steps 4-16 for **Manager User.**
 
-19. Repeat steps 4-16 for a **Manager User.**
-
-39. Your new users should now be on the list of active users in Office.
+18. Your new users should now be on the list of active users in Office.
