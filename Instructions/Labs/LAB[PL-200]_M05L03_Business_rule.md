@@ -21,30 +21,29 @@ Scenario
 
 You are a functional consultant for your organization Contoso. You are assigned
 to work on a model-driven Knowledge Admin app for your client Fabrikam. In this
-lab, you will create fields and use business rules to control visibility of the
-fields without needing custom code.
+lab, you will create columns and use business rules to control visibility of the
+columns without needing custom code.
 
-Exercise 1 - Prepare the solution
-----------------------------------
+## Exercise 1 - Prepare the solution
 
-### Task 1 – Add Fields to Knowledge Question
+### Task 1 – Add Columns to Knowledge Question
 
-1.  Navigate to <https://make.powerapps.com>.
+1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
 
 2.  Make sure you are in the **Practice** environment you created.
 
 3.  Select **Solutions**.
 
-4.  Click to open the **Common Data Services Default Solution.** 
+4.  Click to open the **Common Data Services Default Solution.**
 
 5.  Click to open the **Knowledge Question** table.
 
-6.  Select the **Columns** tab and click **+Add Column**.
+6.  Select the **Columns** tab and click **+ Add Column**.
 
 7.  Enter **Question Type** for **Display Name** and select **Choice** for
     **Data Type**.
 
-8.  Click on the **Option Set** dropdown and click **+New Choice**.
+8.  Click on the **Choice** dropdown and click **+ New Choice**.
 
 9.  Enter **Simple** and click **Add New Item**.
 
@@ -52,46 +51,48 @@ Exercise 1 - Prepare the solution
 
 11. From the **Required** dropdown, select **Required.**
 
-12. Click **Done.** Then click **Save table.**
+12. Click **Done.**
 
-13. Click **+Add Column**.
+13. Click **+ Add Column**.
 
 14. Enter **Scenario Description** for **Display Name**, select **Text Area**
     for **Data Type**, and click **Done**.
 
 15. Click **Save Table**.
 
-### Task 2 – Add Fields to Knowledge Question Form
+### Task 2 – Add Columns to Knowledge Question Form
 
-1.  Make sure you still have the **Knowledge Question** entity selected.
+1.  Make sure you still have the **Knowledge Question** table selected.
 
 2.  Select the **Forms** tab and click to open the **Main** form.
 
-4.  Drag the **Question Type** field from the fields explorer and drop it above the **Question** field on the form.
-    
-3.  Drag the **Scenario Description** field from the fields explorer and drop it
-    below the **Question Type** field. 
+3.  Drag the **Question Type** column from the **Table columns** and drop it
+    above the **Question** column on the form.
 
-6.  With **Scenario Description** selected, check **Hide.**
+4.  Drag the **Scenario Description** column and drop it below the **Question
+    Type** column.
 
-7.  Uncheck **Show only unused fileds** and drag the **Knowledge Assessment** field from the fields explorer and drop it
-    below the **Owner** field on the form.
+5.  With **Scenario Description** selected, check **Hide.**
 
-8.  Click **Save**.
+6.  Uncheck **Show only unused table columns** and drag the **Knowledge
+    Assessment** column and drop it below the **Owner** column on the form.
 
-9.  Click **Publish**.
+7.  Click **Save**.
 
-11. Click **Back.**
+8.  Click **Publish**.
 
-12. Click on the solution name **Common Data Services Default Solution** located in the
-    navigation breadcrumbs. Click **Publish all customizations.**
+9.  Click **Back.**
 
-Exercise 2 – Create Business Rule
----------------------------------
+10. Click on the solution name **Common Data Services Default Solution** located
+    in the navigation breadcrumbs.
+
+11. Click **Publish all customizations.**
+
+## Exercise 2 – Create Business Rule
 
 ### Task 1 – Create Question Type Business Rule
 
-1.  Navigate to <https://make.powerapps.com>
+1.  Navigate to [Power Apps maker](https://make.powerapps.com)
 
 2.  Make sure you are in the **Practice** environment you created.
 
@@ -101,9 +102,10 @@ Exercise 2 – Create Business Rule
 
 5.  Click to open the **Knowledge Question** table.
 
-6.  Select the **Business Rules** tab and click **Add Business Rule**.
+6.  Select the **Business Rules** tab and click **Add business rule**.
 
-7.  Next to **New business rule** at the top of the screen, select the dropdown carrot. 
+7.  Next to **New business rule** name at the top of the screen, select the
+    dropdown carrot.
 
 8.  Enter **Question Type Rule** for **Business Rule Name**.
 
@@ -174,35 +176,36 @@ Exercise 2 – Create Business Rule
 
 ### Task 2 – Test Business Rule
 
-1.  Navigate to <https://make.powerapps.com/> and make sure you are in your **Practice** environment.
+1.  Navigate to [Power Apps maker portal](https://make.powerapps.com/) and make
+    sure you are in your **Practice** environment.
 
 2.  Select **Apps** and click on the **Knowledge Admin** Model-Driven
     application.
 
 3.  Select **Knowledge Assessments** and click **+ New**.
 
-4.  Enter **Test Assessment Four** for **Title**, select today’s date for **Start
-    Date**, a month from today for **End Date**, and click **Save**.
+4.  Enter **Test Assessment Four** for **Title**, select today’s date for
+    **Start Date**, a month from today for **End Date**, and click **Save**.
 
 5.  Select the **Questions** tab.
 
 6.  Click **+ New Knowledge Question**.
 
-12. Type **Test Question** for **Question**.
+7.  Type **Test Question** for **Question**.
 
-7.  Select **Scenario** for **Question Type**. The **Scenario** field will come
+8.  Select **Scenario** for **Question Type**. The **Scenario** column will come
     to view, and it will be required.
 
-8.  Type **This is a test Scenario** in the **Scenario Description**.
+9.  Type **This is a test Scenario** in the **Scenario Description**.
 
-9.  Change the **Question Type** to **Simple**. The Scenario field will
+10. Change the **Question Type** to **Simple**. The Scenario column will
     disappear.
 
-10. Change the **Question Type** back to **Scenario**. The **Scenario
+11. Change the **Question Type** back to **Scenario**. The **Scenario
     Description** will come to view again and the text you entered will no
     longer be there.
 
-11. Type **This is a test Scenario** for **Scenario Description**.
+12. Type **This is a test Scenario** for **Scenario Description**.
 
 13. Scroll down to the **Answers** section, enter **Test Answer One** for
     **Answer 1**, enter **20** for **Answer 1 Points.**
