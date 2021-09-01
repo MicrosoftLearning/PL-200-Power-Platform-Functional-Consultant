@@ -24,8 +24,7 @@ wants to make users aware of potential duplicates when creating contacts and you
 have been tasked with implementing duplicate detection. In this practice, you
 will create and modify duplicate detection rules.
 
-Exercise 1 – Edit Existing Duplicate Detection Rules
-----------------------------------------------------
+## Exercise 1 – Edit Existing Duplicate Detection Rules
 
 In this exercise, you will customize an existing rule named Contacts with the
 same business phone number to refine its criteria. You will also deactivate the
@@ -41,17 +40,19 @@ tags these Contacts as duplicates.
 In this task, you will enhance the Contact with the same business phone number
 rule by adding criteria to match of last name.
 
-1.  Navigate to https://admin.powerplatform.microsoft.com.
+1.  Navigate to [Power Platform admin
+    center](https://admin.powerplatform.microsoft.com).
 
 2.  Select **Environments**.
 
 3.  Select your **Practice** environment.
 
-4.  Navigate to **Settings > Data Management.**
+4.  Navigate to **Settings \> Data Management.**
 
 5.  Click **Duplicate Detection Rules**.
 
-6.  Locate and click to open the **Contacts with the Same Business Phone Number**. It will open in a new window.
+6.  Locate and click to open the **Contacts with the Same Business Phone
+    Number**. It will open in a new window.
 
 7.  In the new window, click **Unpublish**.
 
@@ -68,7 +69,7 @@ rule by adding criteria to match of last name.
     name**.
 
 13. Change the Description to **Detects contact records that have the same value
-    in the Business Phone field and the last name field**.
+    in the Business Phone column and the last name column**.
 
 14. Click **Save**.
 
@@ -81,8 +82,8 @@ rule by adding criteria to match of last name.
 ### Task 2 – Unpublish Duplicate Detection Rule
 
 It is very common for different locations of the same account to have the same
-website. Therefore, the Accounts with the same website rule is not useful because it will
-detect these accounts as duplicates.
+website. Therefore, the Accounts with the same website rule is not useful
+because it will detect these accounts as duplicates.
 
 In this task, you unpublish the Accounts with the same website rule.
 
@@ -94,8 +95,7 @@ In this task, you unpublish the Accounts with the same website rule.
 
 4.  Click **Save and Close**. DO NOT navigate away from this page.
 
-Exercise 3 – Create New Duplicate Detection Rules
--------------------------------------------------
+## Exercise 3 – Create New Duplicate Detection Rules
 
 In this exercise, you will create a new duplicate detection rule that will mark
 a Contact as duplicate if it has the same last name, the same first 3 letters of
