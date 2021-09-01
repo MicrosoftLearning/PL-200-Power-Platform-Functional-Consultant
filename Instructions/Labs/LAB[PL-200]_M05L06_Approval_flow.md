@@ -20,18 +20,19 @@ Scenario
 --------
 
 Your client Fabrikam needs an approval process added to their model-driven
-Knowledge Admin app. The approval process will notify
-the user's manager to obtain an approval or rejection and handle the knowledge assessment appropriately. 
+Knowledge Admin app. The approval process will notify the user's manager to
+obtain an approval or rejection and handle the knowledge assessment
+appropriately.
 
-In this lab, you will create a **Microsoft Power Automate** flow to
-retrieve the appropriate manager, seek their approval, and edit the record based on the manager's decision. 
+In this lab, you will create a **Microsoft Power Automate** cloud flow to
+retrieve the appropriate manager, seek their approval, and edit the row based on
+the manager's decision.
 
-Exercise 1 – Prepare the solution 
-----------------------------------
+## Exercise 1 – Prepare the solution
 
 ### Task 1 – Add field to the Knowledge Assessment
 
-1.  Navigate to https://make.powerapps.com.
+1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
 
 2.  Ensure you are in the **Practice** environment you created.
 
@@ -39,39 +40,47 @@ Exercise 1 – Prepare the solution
 
 4.  Click to open the **Common Data Services Default Solution.**
 
-5.  Click to open the **Knowledge Assessment** entity.
+5.  Click to open the **Knowledge Assessment** table.
 
-6.  Click select the **Fields** tab and click **+Add Field**.
+6.  Click select the **Columns** tab and click **+ Add column**.
 
-7.  Create the field to the following specification:
-    - Enter **Notify Manager** for **Display Name**.
-    - Choose **Two Options** for **Data Type**.
-    - Click **Done**.
+7.  Create the column to the following specification:
 
-8.  Click **Save Table**.
+    -   Enter **Notify Manager** for **Display Name**.
 
-9.  Click **+Add Column**.
+    -   Choose **Yes/No** for **Data Type**.
 
-10. Create the field to the following specification:
-    - Enter **Approval Status** for **Display Name**.
-    - Choose **Option Set** for **Data Type**.
-    - Click on the **Option Set** dropdown and choose **New Option Set**.
-    - Enter **Waiting** for the first item and click **Add New Item**.
-    - Enter **Approved** for the second item and click **Add New Item**.
-    - Enter **Rejected** for the third item and click **Save**.
-    - Click **Done**.
+    -   Click **Done**.
 
-16. Click **Save Table**.
+8.  Click **+ Add Column**.
 
-### Task 2 – Add Field to Knowledge Assessment Form
+9.  Create the field to the following specification:
 
-1.  Make sure you still have the **Knowledge Assessment** entity selected.
+    -   Enter **Approval Status** for **Display Name**.
 
-2.  Select the **Forms** tab and click on the Main form.
+    -   Choose **Choice** for **Data Type**.
 
-3.  Add the **Notify Manager** field to the form.
+    -   Click on the **Choice** dropdown and choose **New choice**.
 
-4.  Add the **Approval Status** field to the form.
+    -   Enter **Waiting** for the first item and click **Add New Item**.
+
+    -   Enter **Approved** for the second item and click **Add New Item**.
+
+    -   Enter **Rejected** for the third item and click **Save**.
+
+    -   Click **Done**.
+
+10. Click **Save Table**.
+
+### Task 2 – Add Column to Knowledge Assessment Form
+
+1.  Make sure you still have the **Knowledge Assessment** table selected.
+
+2.  Select the **Forms** tab and click on the **Main** form.
+
+3.  Add the **Notify Manager** column to the form.
+
+4.  Add the **Approval Status** column to the form.
 
 5.  Click **Save**.
 
@@ -79,38 +88,39 @@ Exercise 1 – Prepare the solution
 
 7.  Click the back button.
 
-9.  Click on the solution name located in the
-    navigation breadcrumbs.
+8.  Click on the solution name located in the navigation breadcrumbs.
 
-10. Click **Publish All Customizations**.
+9.  Click **Publish All Customizations**.
 
-Exercise 2 – Create flow 
--------------------------
+## Exercise 2 – Create cloud flow
 
-### Task 1 – Create flow
+### Task 1 – Create cloud flow
 
-1.  Navigate to https://make.powerapps.com.
+1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
 
 2.  Make sure you are in the **Practice** environment you created.
 
-4.  Select **Flows** and click **+New.** Select **+Automated - from blank.** In the pop-up, select **Skip.** 
+3.  Select **Flows** and click **+ New.** Select **+ Automated cloud flow** In
+    the pop-up, select **Skip.**
 
-6.  Type into the search box  **Common Data Service**. You will see two options for a Common Data Service connector: Common Data Service and Common Data Service (current environment). Select only Common Data Service and then select **When record is updated.**
+4.  Type into the search box **Microsoft Dataverse** and select **When a row is
+    added, modified, or deleted.**
 
-7.  Select your environment. Select **Knowledge Assessments**
-    for **Entity Name**, and select **Business Unit** for **Scope**.
+5.  Select **Update** for **Change type**, **Knowledge Assessments** for **Table
+    Name**, and select **Business Unit** for **Scope**.
 
-8.  Click **Show Advanced Options**.
+6.  Click **Show Advanced Options**.
 
-9.  Select **NotifyManager** for Attribute Filter. It will show up with your environment prefix.
+7.  Select **crXXX_notifymanager** for **Column filter**. Replace crxxx with
+    your environment prefix.
 
-10. Click on the **… Menu** button and select **Rename**.
+8.  Click on the **… Menu** button and select **Rename**.
 
-11. Rename the step **When Assessment is Updated**.
+9.  Rename the step **When Assessment is Updated**.
 
 ### Task 2 – Add Condition
 
-1.  Click **+New Step**.
+1.  Click **+ New Step**.
 
 2.  Search for **Condition** and select **Condition** control.
 
@@ -129,10 +139,10 @@ Exercise 2 – Create flow
 
 1.  Click **Add an Action** in the **If Yes** branch.
 
-2.  Click **Common Data Service** (not Common Data Service (current environment)) and select **Update a record**.
+2.  Click **Microsoft Dataverse** and select **Update a row**.
 
-3.  Select your Practice environment, select **Knowledge Assessments**
-    for **Entity Name**, and click on the **Record Identifier** field.
+3.  Select **Knowledge Assessments** for **Table Name**, and click on the **Row
+    ID** field.
 
 4.  Select **Knowledge Assessment** from the **Dynamic Content** pane.
 
@@ -148,10 +158,10 @@ Exercise 2 – Create flow
 
 1.  Click **Add an Action** of the **If Yes** branch.
 
-2.  Select **Common Data Service** (not Common Data Service (current environment)) and select **Get a Record**.
+2.  Select **Microsoft Dataverse** and select **Get a row by ID**.
 
-3.  Select your environment, select **Users** for **Entity
-    Name**, and click on the **Item ID** or **Record identifier** field.
+3.  Select **Users** for **Table name**, and click on the **Row ID** or **Row
+    ID** field.
 
 4.  Select **Created By (Value)** from the **Dynamic Content** pane.
 
@@ -174,15 +184,16 @@ Exercise 2 – Create flow
     makers, but in this lab, you will select the user you are logged in as.
     Select the **Assigned To** field.
 
-6.  Go to the **Dynamic Content** pane and scroll to the **Get Created User** section.
+6.  Go to the **Dynamic Content** pane and scroll to the **Get Created User**
+    section.
 
 7.  Select **Primary Email** from the **Get Created User** section.
 
-8.  From the Advanced Options, select the **Requestor** field. Go to the **Dynamic Content** pane, search
-    for **Primary Email**, and select **Primary Email** from the **Get Created
-    User** section.
+8.  From the Advanced Options, select the **Requestor** field. Go to the
+    **Dynamic Content** pane, search for **Primary Email**, and select **Primary
+    Email** from the **Get Created User** section.
 
-9.  Select the Details field, go to the **Dynamic Content** pane, search for
+9.  Select the **Details** field, go to the **Dynamic Content** pane, search for
     **Full Name**, and select **Full Name** from the **Get Created User**
     section.
 
@@ -203,16 +214,18 @@ Exercise 2 – Create flow
 16. Go to the **Dynamic Content** pane, search for **Full Name**, and select
     **Full Name** from the **Get Created User** section.
 
-17. It is good practice to include a link to the record that needs the approval. Start a new browser window and navigate to make.powerapps.com.
+17. It is good practice to include a link to the record that needs the approval.
+    Start a new browser window and navigate to make.powerapps.com.
 
 18. In your new window, make sure you are in your **Practice** environment.
 
 19. Select **Apps** and click to open the **Knowledge Admin** application.
 
-20. Open any assessment. 
+20. Open any assessment.
 
 21. Find the **Pop Out** button located in bottom left of the form and click on
-    it. (It will be in the bar at the very bottom of the page, and will be next to the status of the record.)
+    it. (It will be in the bar at the very bottom of the page, and will be next
+    to the status of the record.)
 
 22. A new window will open. Copy the **URL** of the window.
 
@@ -222,16 +235,16 @@ Exercise 2 – Create flow
 
     https://practice.crm.dynamics.com/main.aspx?appid=97595509-8a00-458d-856d-1569b42d6282&pagetype=entityrecord&etn=cre7f_knowledgeassessment&id=540a380a-74f9-e811-a950-000d3a1bc3f6
 
-25.	Copy everything before the last GUID.
+25. Copy everything before the last GUID.
 
     https://practice.crm.dynamics.com/main.aspx?appid=97595509-8a00-458d-856d-1569b42d6282&pagetype=entityrecord&etn=cre7f_knowledgeassessment&id=
 
-26.  Go back to the flow and select the Item Link field.
+26. Go back to the flow and select the Item Link field.
 
-27.  Paste the **URL** you copied.
+27. Paste the **URL** you copied.
 
-28.  Go to the **Dynamic Content** pane, search for **Knowledge Assessment** and
-    select **Knowledge Assessment** from either section. 
+28. Go to the **Dynamic Content** pane, search for **Knowledge Assessment** and
+    select **Knowledge Assessment** from either section.
 
 ### Task 7 – Add Condition
 
@@ -239,8 +252,8 @@ Exercise 2 – Create flow
 
 2.  Search for **Condition** and select **Condition** control.
 
-3.  Click on the first Choose a Value field and select **Outcome** from the Dynamic
-    Content pane.
+3.  Click on the first Choose a Value field and select **Outcome** from the
+    Dynamic Content pane.
 
 4.  Leave **Is Equals to** as the operator.
 
@@ -255,12 +268,12 @@ Exercise 2 – Create flow
 1.  Click **Add an Action** of the **If Yes** branch of the **Check Response**
     condition.
 
-2.  Search for **Common Data Service** and select **Update a Record**.
+2.  Search for **Microsoft Dataverse** and select **Update a row**.
 
-3.  Select **Knowledge Assessments**
-    for **Entity Name** and click on the **Record Identifier** field.
+3.  Select **Knowledge Assessments** for **Table name** and click on the **Row
+    ID** field.
 
-4.  From the **Dynamic Content** pane, select **Knowledge Assessment** from either section.
+4.  From the **Dynamic Content** pane, select **Knowledge Assessment**n.
 
 5.  Click **Show Advanced Options**.
 
@@ -275,10 +288,10 @@ Exercise 2 – Create flow
 1.  Click **Add an Action** of the **If No** branch of the **Check Response**
     condition.
 
-2.  Select **Common Data Service** and select **Update a Record**.
+2.  Select **Microsoft Dataverse** and select **Update a row**.
 
-3.  Select **Knowledge Assessments** for
-    **Entity Name** and click on the **Record Identifier** field.
+3.  Select **Knowledge Assessments** for **Table name** and click on the **Row
+    ID** field.
 
 4.  Select **Knowledge Assessment** from the **Dynamic Content** pane.
 
@@ -294,54 +307,54 @@ Exercise 2 – Create flow
 
 ### Task 10 – Test flow
 
-1.  Navigate to <https://make.powerapps.com>
+1.  Navigate to [Power Apps maker portal](https://make.powerapps.com)
 
 2.  Make sure you are in your **Practice** environment.
 
 3.  Select **Apps** and click to open the **Knowledge Admin** application.
 
-4.  Select **Assessment** and click to open the **Test Assessment**.
+4.  Select **Knowledge Assessment** and click to open the **Test Assessment**.
 
 5.  Locate the **Approval Status** and make sure no value is selected.
 
-6.  Locate the **Notify Manager** field and set it to **Yes**. Set **Approval Status** to **Waiting.**
+6.  Locate the **Notify Manager** field and set it to **Yes**.
 
 7.  Click **Save**.
 
-8.  Click **Refresh**.
+8.  Click **Refresh** The **Approval Status** should change to **Waiting.**
 
-10. Navigate to <https://flow.microsoft.com>
+9.  Navigate to [Power Automate](https://flow.microsoft.com)
 
-11. Login if prompted.
+10. Login if prompted.
 
-12. Make sure you are in your **Practice** environment.
+11. Make sure you are in your **Practice** environment.
 
-13. Expand **Action items** and select **Approvals**.
+12. Expand **Action items** and select **Approvals**.
 
-14. You should see an approval with the title **Manager Notification Approval**.
+13. You should see an approval with the title **Manager Notification Approval**.
     Click on the approval tile.
 
-15. The approval pane will open. Make sure the information in the details is
+14. The approval pane will open. Make sure the information in the details is
     what you expected.
 
-16. Click on the **Link**.
+15. Click on the **Link**.
 
-17. The Knowledge Assessment record should open.
+16. The Knowledge Assessment row should open.
 
-18. Close the Knowledge Assessment.
+17. Close the Knowledge Assessment.
 
-19. Click **Approve**.
+18. Select **Approve**.
 
-20. Add **Comment** and click **Confirm**.
+19. Add **Comment** and click **Confirm**.
 
-21. Close the approval pane.
+20. Click **Done**Close the approval pane.
 
-22. Select the **History** tab.
+21. Select the **History** tab.
 
-23. The approval should show up in this list as **Approved**.
+22. The approval should show up in this list as **Approved**.
 
-24. Go back to the **Knowledge Admin** app.
+23. Go back to the **Knowledge Admin** app.
 
-25. Refresh the test assessment.
+24. Refresh the test assessment.
 
-26. The **Approval Status** field should be set to **Approved**.
+25. The **Approval Status** field should be set to **Approved**.
