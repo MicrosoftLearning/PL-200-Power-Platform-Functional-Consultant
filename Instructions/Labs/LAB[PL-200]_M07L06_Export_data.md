@@ -20,28 +20,28 @@ Scenario
 --------
 
 You are a functional consultant working on the Fabrikam project. Your client
-wants to export some data form the CDS environment.
+wants to export some data from the Microsoft Dataverse environment.
 
-Exercise 1 – Export Data
-------------------------
+## Exercise 1 – Export Data
 
-In this exercise, you will export data from the maker portal.
+In this exercise, you will export data using the maker portal.
 
 ### Task 1 – Portal Export
 
 In this task, you will export data from the maker portal.
 
-1.  Navigate to <https://make.powerapps.com/> and make sure you are in the **Practice** environment you created.
+1.  Navigate to [Power Apps maker portal](https://make.powerapps.com/) and make
+    sure you are in the **Practice** environment you created.
 
-2.  Expand **Data** and select **Entities**.
+2.  Expand **Data** and select **Tables**.
 
 3.  Locate and click to open the **Knowledge Assessment** table.
 
-4.  Click **Export Data**.
+4.  Click **Data** and select **Export Data**.
 
 5.  Wait for the data to be exported.
 
-6.  Click **Download Exported Data.**
+6.  Click **Download exported data.**
 
 7.  Save the exported data on your local machine.
 
@@ -51,7 +51,7 @@ In this task, you will export data from the maker portal.
 
 10. Open the exported **CSV** file.
 
-11. You should see all the exported **Knowledge Assessment** records.
+11. You should see all the exported **Knowledge Assessment** rows.
 
 12. Close the **CSV** file.
 
