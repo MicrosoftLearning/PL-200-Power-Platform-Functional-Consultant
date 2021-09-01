@@ -27,51 +27,58 @@ application can generate an Excel report of test scores. In this lab, you will
 create an Excel template from a view, upload the template and use it against
 data about knowledge test results.
 
-**Note:** This lab assumes you are using the latest version of Microsoft Excel. If you are working with an older version, your user experience may not exactly match the instructions as written.
+**Note:** This lab assumes you are using the latest version of Microsoft Excel.
+If you are working with an older version, your user experience may not exactly
+match the instructions as written.
 
-Exercise 1 – Build an Excel template
-------------------------------------
+## Exercise 1 – Build an Excel template
 
 In this exercise, you will build an Excel template for the Knowledge Test Result
-entity.
+table.
 
 ### Task 1 – Create View
 
-In this task, you will create a new view for the Knowledge Test Result entity.
+In this task, you will create a new view for the Knowledge Test Result table.
 
-1.  Navigate to https://make.powerapps.com. Ensure you are in your Practice environment. 
+1.  Navigate to [Power Apps maker portal](https://make.powerapps.com). Ensure
+    you are in your Practice environment.
 
-3.  Expand **Solutions** on the left navigation.
+2.  Expand **Solutions** on the left navigation.
 
-4.  Click to open the **Common Data Services Default Solution.**
+3.  Click to open the **Common Data Services Default Solution.**
 
-5.  Locate and click to open the **Knowledge Test Result** table.
+4.  Locate and click to open the **Knowledge Test Result** table.
 
-6.  Select the **Views** tab and click **Add View**.
+5.  Select the **Views** tab and click **Add View**.
 
-7.  Enter **Excel Template View** for Name and click **Create**.
+6.  Enter **Excel Template View** for Name and click **Create**.
 
-8.  Change the **Fields** pane to show **All** fields using the dropdown next to the Search box. 
+7.  Change the **Table columns** pane to show **All** columns using the dropdown
+    next to the Search box.
 
-9.  Select the fields listed below:
-	- Knowledge Assessment
-	- Total Points
-	- Created On
-	- Owner
+8.  Select the columns listed below:
 
-10. Click **Save**.
+    -   Knowledge Assessment
 
-11. Click **Publish**.
+    -   Total Points
 
-12. Close the view editor window. 
+    -   Created On
 
+    -   Owner
+
+9.  Click **Save**.
+
+10. Click **Publish**.
+
+11. Close the view editor window.
 
 ### Task 2 – Create the Excel Template
 
 In this task, you will be creating an Excel worksheet with a Pivot Chart on
 Knowledge Test Results.
 
-1.  Navigate to make.powerapps.com and ensure you are in your **Practice** environment. Select **Apps**.
+1.  Navigate to [Power Apps maker portal](https://make.powerapps.com/) and
+    ensure you are in your **Practice** environment. Select **Apps**.
 
 2.  Locate and click on the **Knowledge Admin** model-driven application.
 
@@ -97,7 +104,8 @@ Knowledge Test Results.
 
 12. Select **Column** and click **OK**.
 
-13. Go to the **PivotChart Fields** pane and select **Total Points** and **Owner**.
+13. Go to the **PivotChart Fields** pane and select **Total Points** and
+    **Owner**.
 
 14. Right click on the Pivot table and select **Pivot Table Options**.
 
@@ -107,12 +115,12 @@ Knowledge Test Results.
 
 17. Click **File** and click **Save As**.
 
-18. Save the file on your machine and name it **Knowledge Test Result Template**.
+18. Save the file on your machine and name it **Knowledge Test Result
+    Template**.
 
 19. Close the Excel file.
 
-Exercise 2 – Upload and Use Excel Template
-------------------------------------------
+## Exercise 2 – Upload and Use Excel Template
 
 In this exercise, you will upload the template you created and test it.
 
@@ -129,20 +137,22 @@ In this task, you will upload the template you created
 
 4.  Click **Choose File**.
 
-5.  Select the template you created and click **Open**. (**Note:** Depending on the way your file was saved, you may need to expand the browse function to **all file types** to see your template.)
+5.  Select the template you created and click **Open**. (**Note:** Depending on
+    the way your file was saved, you may need to expand the browse function to
+    **all file types** to see your template.)
 
 6.  Click **Upload**.
 
 ### Task 2 – Use Excel Template
 
-In this task, you will create a new Knowledge Test Result record and test the
+In this task, you will create a new Knowledge Test Result row and test the
 template you created.
 
 1.  Click **+ New**.
 
 2.  Enter **New Test Result** for **Name**, select one of the available
-    Knowledge Assessments **Knowledge Assessment**, enter **980** for
-    **Total Points** and click **Save and Close**.
+    Knowledge Assessments **Knowledge Assessment**, enter **980** for **Total
+    Points** and click **Save and Close**.
 
 3.  Click on the **Excel Template** button located on the command bar and select
     the **Knowledge Test Result Template** you uploaded.
