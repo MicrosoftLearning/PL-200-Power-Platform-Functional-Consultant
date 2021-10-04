@@ -36,7 +36,7 @@ will be updated upon the user clicking the score button. Each item will then use
 an expression to highlight if the answer is right or wrong, only when
 ShowResults is true.
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in your **Practice** environment.
 
