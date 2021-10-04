@@ -32,7 +32,7 @@ the app navigation.
 
 ### Task 1 – Edit the site map
 
-1.  Navigate to [Power apps maker portal](https://make.powerapps.com)
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in the **Practice** environment you created.
 
