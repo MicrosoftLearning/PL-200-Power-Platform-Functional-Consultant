@@ -145,30 +145,31 @@ To customize your form:
 
 28. Select the **Questions** tab.
 
-29. Return to the **Components** tab.
+29. Click the **Components** tab.
 
 30. Click **Subgrid** from the **Related data** section. Check the **Show
     related records** check box and select **Knowledge Questions** for Table.
     Then click **Done.**
 
-31. In the right properties tab, enter **KnowledgeQuestions** for **Name** and
-    **Knowledge Questions** for label.
-
-32. Select **Show related records.**
+31. In the right properties tab, enter **Knowledge Questions** for **Label** and **KnowledgeQuestions** for **Name**.
+    .
+32. Make sure that **Show related records** is checked.
 
 33. Make sure **Knowledge Questions (Knowledge Assessment)** is selected for
     **Table.**
 
 34. Select the **New Section** that the subgrid was added to. In the Properties
-    tab, enter **Knowledge Questions** for Label and **KnowledgeQuestions** for
-    name. Click **Save**.
+    tab, enter **Knowledge Questions** for **Label** and **KnowledgeQuestions** for
+    **Name**. 
+    
+35. Click **Save**.
 
-35. Click **Publish** and wait for the publishing to complete.
+36. Click **Publish** and wait for the publishing to complete.
 
-36. Close the form designer tab. You should return to the model-driven app
+37. Close the form designer tab. You should return to the model-driven app
     designer.
 
-37. **DON’T** close the app designer.
+38. **DON’T** close the app designer.
 
 ## Exercise 2 – Edit the Knowledge Question Form
 
@@ -183,7 +184,7 @@ In this exercise, you will edit the form for the Knowledge Question table.
 3.  Locate the **Knowledge Question** table and select it.
 
 4.  After the **Knowledge Question** table is added to the application, select
-    **Forms**.
+    **Forms** for the **Knowledge Question** table.
 
 5.  Hover over the **Information** form in the **Main Form** section and click
     **edit** (the pencil icon).
@@ -203,7 +204,7 @@ In this exercise, you will edit the form for the Knowledge Question table.
 11. Double click on the new section.
 
 12. Enter **Answers** for Label. Select the **Table columns** tab on the left
-    menu (it will look like a box with ABC in it).
+    menu.
 
 13. Add **Answer 1** column to the **Answers** section.
 
@@ -230,12 +231,12 @@ In this exercise, you will edit the form for the Knowledge Question table.
 
 1.  Click **Play**.
 
-2.  Switch from the **Administration** section to the **Assessments** section.
+2.  Switch from the **Administration** area to the **Assessments** area in the bottom left.
     Select the **Knowledge Assessment** table and click **+ New**.
 
 3.  The form should have two tabs: **General** and **Questions**.
 
-4.  The General tab should have two sections: **General** and **Timeline**.
+4.  The General tab should have two sections: one with General information (Title, Start Date, End Date, and Difficulty) and one with the **Timeline**.
 
 5.  Enter **Test Assessment Three** for **Title**.
 
