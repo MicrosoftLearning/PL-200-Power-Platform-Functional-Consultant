@@ -32,7 +32,7 @@ the manager's decision.
 
 ### Task 1 – Add field to the Knowledge Assessment
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Ensure you are in the **Practice** environment you created.
 
@@ -96,7 +96,7 @@ the manager's decision.
 
 ### Task 1 – Create cloud flow
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in the **Practice** environment you created.
 
@@ -307,7 +307,7 @@ the manager's decision.
 
 ### Task 10 – Test flow
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com)
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in your **Practice** environment.
 
