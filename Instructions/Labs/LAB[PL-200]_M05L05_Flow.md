@@ -34,7 +34,7 @@ older and deactivate them.
 
 ### Task 1 – Create a flow
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com/)
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you have your **Practice** environment selected.
 
@@ -112,8 +112,7 @@ crXXX_enddate lt
 
 ### Task 2 – Test your flow
 
-1.  Start a new browser window and navigate to [Power Apps maker
-    portal](https://make.powerapps.com).
+1.  Start a new browser window and navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in your **Practice** environment.
 
