@@ -62,18 +62,15 @@ your own.
 4.  Review the different apps that are available to use as both samples and
     starting templates.
 
-5.  If you have time, choose any of these and select **Make it.** When you are
-    done proceed to Task 2.
-
 ### Task 2 – Create an app over data for Account
 
 Starting a canvas app from data is a quick way to start a canvas app when the
 goal is to have a list of data from a table.
 
-1.  Select **+ Create** again.
+1.  Click **Canvas app from blank**. 
 
-2.  Click **Canvas app from blank**. In the dialog box, name your app **Fabrikam
-    Accounts** and select **Phone** layout.
+2.  In the dialog box, name your app **Fabrikam
+    Accounts** and select **Phone** format.
 
 3.  Click **Create** in the dialog. (You may be required to sign in again; enter
     your tenant credentials if necessary.)
@@ -82,7 +79,7 @@ goal is to have a list of data from a table.
     close them.)
 
 5.  Select **Data** from the left bar and click **Add data**. From the list of
-    entities, select **Accounts.**
+    tables, select **Accounts.**
 
 6.  Add a header to your app by selecting the **+** button (the Insert button)
     on the left tab and selecting **Text label.** Use the pane on the right side
@@ -104,7 +101,7 @@ goal is to have a list of data from a table.
     upper right corner. Click the **X** in the top right corner to close the
     preview screen.
 
-11. Click **File** and select **Save**.
+11. Click **File**.
 
 12. Select the **Cloud** and enter **Fabrikam Accounts** in the **Name** box.
 
