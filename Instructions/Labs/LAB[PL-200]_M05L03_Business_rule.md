@@ -28,7 +28,7 @@ columns without needing custom code.
 
 ### Task 1 – Add Columns to Knowledge Question
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in the **Practice** environment you created.
 
@@ -92,7 +92,7 @@ columns without needing custom code.
 
 ### Task 1 – Create Question Type Business Rule
 
-1.  Navigate to [Power Apps maker](https://make.powerapps.com)
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in the **Practice** environment you created.
 
@@ -176,7 +176,7 @@ columns without needing custom code.
 
 ### Task 2 – Test Business Rule
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com/) and make
+1.  Navigate to <https://make.powerapps.com> and make
     sure you are in your **Practice** environment.
 
 2.  Select **Apps** and click on the **Knowledge Admin** Model-Driven
