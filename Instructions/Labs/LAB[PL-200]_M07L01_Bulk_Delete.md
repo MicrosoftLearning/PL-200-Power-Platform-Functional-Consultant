@@ -34,8 +34,7 @@ will run every 7 days.
 
 In this task, you will create a bulk deletion operation.
 
-1.  Navigate to [Power Platform admin
-    center](https://admin.powerplatform.microsoft.com).
+1.  Navigate to <https://admin.powerplatform.microsoft.com>.
 
 2.  Select your **Practice** environment.
 
@@ -77,7 +76,7 @@ In this task, you will create a bulk deletion operation.
 
 In this task, you will test the bulk delete operation you created.
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com/) and make
+1.  Navigate to <https://make.powerapps.com> and make
     sure you are in your **Practice** environment.
 
 2.  Select **Apps**.
