@@ -168,7 +168,7 @@ columns.
 
 ### Task 1 – Create a table
 
-1.  Navigate to <https://make.powerapps.com>) and make
+1.  Navigate to <https://make.powerapps.com> and make
     sure you are in your **Practice** environment.
 
 2.  Select **Solutions**.
