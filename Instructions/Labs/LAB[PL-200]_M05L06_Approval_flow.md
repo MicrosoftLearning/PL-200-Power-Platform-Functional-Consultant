@@ -323,9 +323,9 @@ the manager's decision.
 
 8.  Click **Refresh** The **Approval Status** should change to **Waiting.**
 
-9.  Navigate to [Power Automate](https://flow.microsoft.com)
+9.  Navigate to <https://flow.microsoft.com>.
 
-10. Login if prompted.
+10. Click **Sign in** if not already directed to homepage.
 
 11. Make sure you are in your **Practice** environment.
 
