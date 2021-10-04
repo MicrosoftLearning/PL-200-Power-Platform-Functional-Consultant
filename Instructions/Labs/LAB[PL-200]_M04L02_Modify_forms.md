@@ -112,7 +112,9 @@ To customize your form:
 17. Select the **Component** tab.
 
 18. Click **Timeline** from the **Related data** section in the Components pane
-    and drag it to the New Section. After the timeline is filled into the New
+    and drag it to the New Section. 
+    
+19. After the timeline is filled into the New
     Section, select the **New Section** that the timeline was just added to.
     Change the **Label** to **Timeline** and change the **Name** to
     **Timeline.**
