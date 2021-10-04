@@ -69,7 +69,7 @@ the relationship between Knowledge Assessment and the CDM Feedback table.
 
 ### Task 1 – Create a table
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in the **Practice** environment you created.
 
@@ -168,7 +168,7 @@ columns.
 
 ### Task 1 – Create a table
 
-1.  Go back to [Power Apps maker portal](https://make.powerapps.com) and make
+1.  Navigate to <https://make.powerapps.com>) and make
     sure you are in your **Practice** environment.
 
 2.  Select **Solutions**.
