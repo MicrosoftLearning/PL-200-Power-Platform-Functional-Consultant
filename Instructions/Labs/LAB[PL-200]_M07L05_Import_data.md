@@ -39,7 +39,7 @@ In this task, you will Load then Knowledge Assessments Excel file to your
 OneDrive. You can choose many data sources to use with Power Query, but Excel
 was the one you chose.
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com/) and make
+1.  Navigate to <https://make.powerapps.com> and make
     sure you are in your **Practice** environment.
 
 2.  Click on the **Waffle** button in the upper left corner to change
@@ -59,7 +59,7 @@ was the one you chose.
 In this task, you will create a new data integration project and transform the
 table
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com/) and make
+1.  Navigate to <https://make.powerapps.com> and make
     sure you are in your **Practice** environment.
 
 2.  Expand **Data** and select **Tables.**
