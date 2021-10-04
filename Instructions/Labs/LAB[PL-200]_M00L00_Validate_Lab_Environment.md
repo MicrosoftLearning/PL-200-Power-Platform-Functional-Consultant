@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab: Validate lab environment'
-    module: 'Module 0: Course introduction'
+    module: 'Module 1: Introduction to Microsoft Power Platform'
 ---
 
 Module 1: Introduction to Microsoft Power Platform 
