@@ -280,4 +280,4 @@ of the current user to the header.
 
 19. Close the Canvas App Designer.
 
-20. Click **Done**.
+20. Click **Leave**.
