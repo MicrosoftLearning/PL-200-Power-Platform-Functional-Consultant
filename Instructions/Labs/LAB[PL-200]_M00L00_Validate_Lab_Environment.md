@@ -27,7 +27,7 @@ individual environment for configuration during the course.
 
 1.  Copy your **Microsoft 365 credentials** from the Authorized Lab Hoster.
 
-2.  Navigate to [Power Apps maker portal](https://powerapps.microsoft.com/).
+2.  Navigate to <https://powerapps.microsoft.com/>. Click **Start free.**
 
 3.  Click **Start free.**
 
@@ -57,8 +57,7 @@ do the majority of your lab work in.
 
 ### Task 1 – Create environment
 
-1.  Navigate to [Microsoft Power Platform admin center](https://admin.powerplatform.com)
-    and log in with your Microsoft 365 credentials if prompted again.
+1.  Access <https://admin.Powerplatform.com> and log in with your Microsoft 365 credentials if prompted again.
 
 2.  If you are not automatically directed there, select **Environments** and
     click **+New.**
