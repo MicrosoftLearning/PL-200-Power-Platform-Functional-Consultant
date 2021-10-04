@@ -31,7 +31,7 @@ In this exercise, you will create a chart using the Knowledge Test Result data.
 
 ### Task 1 – Edit the Knowledge Assessment active item view
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in your **Practice** environment.
 
@@ -98,9 +98,8 @@ input some data to test your chart.
 
 ### Task 3 – Create Rows and Test the Chart
 
-1.  Make sure you are still on [Power Apps maker
-    portal](https:/make.powerapps.com) and you are in the **Practice**
-    environment.
+1.  Make sure you are still on <https://make.powerapps.com> and you are in your
+    **Practice** environment.
 
 2.  Select **Apps**.
 
