@@ -207,8 +207,8 @@ things simple here and just add a basic header to the app.
 
 3.  A label will be added to the screen. Select the label.
 
-4.  Rename the label **Header Label** by clicking the edit button in the control
-    tree on the left side of the screen in Tree View.
+4.  Next to **Label1**, click on the
+    **…** button and click **Rename**. Rename the label **Header Label**. Hit Enter on your keyboard.
 
 5.  Select the **Header** tab and change the **Font Size** to **28.**
 
