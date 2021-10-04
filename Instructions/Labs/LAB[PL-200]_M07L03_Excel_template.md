@@ -40,7 +40,7 @@ table.
 
 In this task, you will create a new view for the Knowledge Test Result table.
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com). Ensure
+1.  Navigate to <https://make.powerapps.com>. Ensure
     you are in your Practice environment.
 
 2.  Expand **Solutions** on the left navigation.
@@ -77,7 +77,7 @@ In this task, you will create a new view for the Knowledge Test Result table.
 In this task, you will be creating an Excel worksheet with a Pivot Chart on
 Knowledge Test Results.
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com/) and
+1.  Navigate to <https://make.powerapps.com> and
     ensure you are in your **Practice** environment. Select **Apps**.
 
 2.  Locate and click on the **Knowledge Admin** model-driven application.
