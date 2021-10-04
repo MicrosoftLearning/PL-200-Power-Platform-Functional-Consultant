@@ -65,7 +65,7 @@ Assessment table.
 In this task, you will create a One-to-Many relationship between the Knowledge
 Assessment and Knowledge Question tables.
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com) and make
+1.  Navigate to <https://make.powerapps.com> and make
     sure you are in your **Practice** environment.
 
 2.  Select **Solutions** and open the **Common Data Service Default Solution.**
