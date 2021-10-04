@@ -40,8 +40,7 @@ tags these Contacts as duplicates.
 In this task, you will enhance the Contact with the same business phone number
 rule by adding criteria to match of last name.
 
-1.  Navigate to [Power Platform admin
-    center](https://admin.powerplatform.microsoft.com).
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Select **Environments**.
 
