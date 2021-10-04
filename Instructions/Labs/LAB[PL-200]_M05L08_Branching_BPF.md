@@ -38,7 +38,7 @@ begin the labs.
 
 ### Task 1 – Update Business Process Flow
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in your **Practice** environment.
 
@@ -73,7 +73,7 @@ begin the labs.
 
 ### Task 2 – Add Business Lock Unlock Rule
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in your **Practice** environment.
 
@@ -133,7 +133,7 @@ begin the labs.
 
 ### Task 3 – Test the Updated Business process Flow
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in the **Practice** environment.
 
@@ -187,8 +187,7 @@ begin the labs.
 26. The Business Rule should run and **Lock** the **Assessment Status**. Do not
     close this page.
 
-27. Start a new browser window and navigate to [Power
-    Automate](https://flow.microsoft.com/).
+27. Start a new browser window and navigate to <https://flow.microsoft.com/>.
 
 28. Select **Action items** and then select **Approvals**.
 
