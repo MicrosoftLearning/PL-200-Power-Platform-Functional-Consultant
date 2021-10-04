@@ -57,7 +57,7 @@ do the majority of your lab work in.
 
 ### Task 1 – Create environment
 
-1.  Access <https://admin.Powerplatform.com> and log in with your Microsoft 365 credentials if prompted again.
+1.  Access <https://admin.powerplatform.com> and log in with your Microsoft 365 credentials if prompted again.
 
 2.  If you are not automatically directed there, select **Environments** and
     click **+New.**
