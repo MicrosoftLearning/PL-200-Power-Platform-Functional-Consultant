@@ -57,6 +57,6 @@ Assessment table.
     at the environment, table, and column settings to produce any audit data. By
     default, columns are enabled for auditing.
 
-9.  Click **Save**.
+9.  Click the **Save** icon.
 
 10. Click **Publish.**
