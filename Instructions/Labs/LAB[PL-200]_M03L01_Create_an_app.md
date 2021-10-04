@@ -183,14 +183,16 @@ will build out the detailed user experience in the upcoming canvas app module.
 
 3.  Click **New, App, Canvas App,**.
 
-4.  Enter **Fabrikam Assessment** for **Name** and **Tablet Form Factor** for **Format**. Click **Skip** if you see a prompt before the designer loads.
+4.  Enter **Fabrikam Assessment** for **Name** and **Tablet Form Factor** for **Format**. 
 
-5.  The Canvas App Designer will load. Hover over **Screen1** and click on the
+5.  Click **Create**. Click **Skip** if you see a prompt before the designer loads.
+
+6.  The Canvas App Designer will load. Hover over **Screen1** and click on the
     **…** button.
 
-6.  Select **Rename**.
+7.  Select **Rename**.
 
-7.  Enter **Main Screen** and press the enter key. *Note:* It is always a good
+8.  Enter **Main Screen** and press the enter key. *Note:* It is always a good
     idea to give components meaningful names. It makes them easier to use as
     your application gets more complex.
 
