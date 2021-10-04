@@ -30,7 +30,7 @@ business process flows and then build a business process flow.
 
 ### Task 1 – Add Columns to Knowledge Assessment
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in the **Practice** environment you created.
 
@@ -77,7 +77,7 @@ business process flows and then build a business process flow.
 
 ### Task 1 – Create Business Process Flow
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com) and make
+1.  Navigate to <https://make.powerapps.com> and make
     sure you are in your **Practice** environment.
 
 2.  Click **Flows.**
@@ -145,7 +145,7 @@ business process flows and then build a business process flow.
 
 ### Task 2 – Test Business Process Flow
 
-1.  Navigate to [Power Ap;ps maker portal](https://make.powerapps.com).
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in your **Practice** environment.
 
