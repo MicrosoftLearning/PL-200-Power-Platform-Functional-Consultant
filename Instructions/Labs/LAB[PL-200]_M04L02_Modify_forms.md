@@ -49,14 +49,14 @@ always try to add the columns before jumping into the editor.
 
 5.  Click on the **Knowledge Assessment** table.
 
-6.  Click **Settings** in the command bar.
+6.  Click **Settings** in the command bar (you may need to click the **...** to see this option)
 
 7.  Check the **Enable Attachments** checkbox. This enables notes and files for
     the table.
 
-8.  Click **Done**. Confirm the changes by clicking **Okay.**
+8.  Click **Save**.
 
-9.  Click **Save table**.
+9.  Click **Common Data Service Default Solution** and select **Publish all customizations**.
 
 ### Task 2 – Edit the Knowledge Assessment form
 
