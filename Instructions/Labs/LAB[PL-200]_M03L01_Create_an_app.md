@@ -51,8 +51,7 @@ data templates to see how quickly that can get a basic canvas app started.
 If you have time, you can choose any of these and select Make It and explore on
 your own.
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com). You may
-    need to sign in again using your credentials if necessary.
+1.  Navigate to <https://make.powerapps.com>. You may need to sign in again using your credentials if necessary.
 
 2.  Switch to your **Practice** environment by using the Environment Selector in
     the upper right corner of the screen. (It will probably say **Contoso
