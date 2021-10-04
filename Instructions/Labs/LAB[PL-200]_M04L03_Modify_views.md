@@ -127,10 +127,9 @@ views. An easy way to create views is to create the first one with all the
 columns you want, then save as the view and change the filter to what the new
 view needs.
 
-1.  Add **Days Remaining** as the last column in the view. Then click the
-    **dropdown** button next to the **Save** button.
+1.  Add **Days Remaining** as the last column in the view. 
 
-2.  Select **Save As**.
+2.  Then click the **dropdown** button next to the Save button and select **Save As**.
 
 3.  Enter **Created This Month** for Name and click **Save**.
 
@@ -141,8 +140,7 @@ view needs.
     Dataverse to mark records as soft deleted as an alternate to physically
     deleting the records.
 
-5.  You will add the Created On column back to the view. Select All and then
-    select **Created On**.
+5.  You will add the Created On column back to the view. Select **Created On** from the **Table columns**.
 
 6.  In the **Properties** pane, select **Edit filters.**
 
