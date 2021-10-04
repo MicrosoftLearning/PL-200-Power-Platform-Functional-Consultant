@@ -32,7 +32,7 @@ application.
 
 ### Task 1 - Enter data into Knowledge Admin application
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in your **Practice** environment.
 
@@ -73,7 +73,7 @@ application.
 
 ### Task 2 – Set up data sources
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in your **Practice** environment.
 
