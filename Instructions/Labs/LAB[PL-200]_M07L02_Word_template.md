@@ -38,7 +38,7 @@ table. This document will generate a certificate of completion.
 
 In this task, you will create a Knowledge Test Result record.
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in your **Practice** environment.
 
