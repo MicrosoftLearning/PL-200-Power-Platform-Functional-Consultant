@@ -162,7 +162,7 @@ view needs.
 
 14. Click **Publish All Customizations**.
 
-### Task 6 – Test the View
+### Task 6 – Test your Views
 
 1.  While still on <https://make.powerapps.com>, select
     **Apps**.
