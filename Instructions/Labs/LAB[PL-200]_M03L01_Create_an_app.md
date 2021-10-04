@@ -232,7 +232,7 @@ things simple here and just add a basic header to the app.
 
 ### Task 3 – Add User Name to the Header
 
-In this task, you are going to leverage the User() information to add the name
+In this task, you are going to leverage the User information to add the name
 of the current user to the header.
 
 1.  Select the **Main Screen** in the left control tree.
@@ -247,7 +247,7 @@ of the current user to the header.
 5.  Replace **“Text”** with the following:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    User().FullName
+   User().FullName
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 6.  The user’s Full Name will now be displayed on the label. Select the **Home**
@@ -259,7 +259,7 @@ of the current user to the header.
 
 9.  Click **Align** and select **Right** from the top menu.
 
-10.  Click **Text align** from the Properties tab on the right and select **align
+10.  Click **Text align** from the Properties tab on the right and select **Align
     right.**
 
 11.  Set **Position Y** to **0**.
@@ -270,18 +270,14 @@ of the current user to the header.
 
 14.  Click **File** and select **Save**.
 
-15. Select **Cloud** and enter **Fabrikam Assessment** for **Name**.
+15. Click on the **Back** button.
 
-16. Click **Save**.
+16. Click **Play**.
 
-17. Click on the **Back** button.
+17. Your application will load.
 
-18. Click **Play**.
+18. Close the preview.
 
-19. Your application will load.
+19. Close the Canvas App Designer.
 
-20. Close the preview.
-
-21. Close the Canvas App Designer.
-
-22. Click **Done**.
+20. Click **Done**.
