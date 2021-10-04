@@ -33,7 +33,7 @@ date.
 
 ### Task 1 – Edit the Knowledge Assessment active item view
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com)
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in your **Practice** environment.
 
@@ -171,7 +171,7 @@ view needs.
 
 ### Task 6 – Test the View
 
-1.  While still on [Power Apps maker portal](https://make.powerapps.com), select
+1.  While still on <https://make.powerapps.com>, select
     **Apps**.
 
 2.  Click on the **Knowledge Admin** model-driven application and select
