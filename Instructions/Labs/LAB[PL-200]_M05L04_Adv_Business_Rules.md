@@ -28,7 +28,7 @@ calculated column, a rollup column, and a business rule.
 
 ### Task 1 – Add Field to Knowledge Question
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Select the **Practice** environment you created.
 
@@ -196,7 +196,7 @@ cre7f_answer1points + cre7f_answer2points + cre7f_answer3points + cre7f_answer4p
 
 ### Task 2 – Test Business Rule
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com/) and
+1.  Navigate to <https://make.powerapps.com> and
     ensure that you are in your **Practice** environment.
 
 2.  Select **Apps** and click on the **Knowledge Admin** model-driven
