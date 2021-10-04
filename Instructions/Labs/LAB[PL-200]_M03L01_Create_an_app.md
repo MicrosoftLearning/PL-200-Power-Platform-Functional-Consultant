@@ -123,7 +123,7 @@ started will be easy.
 
 ### Task 1 – Create a model-driven app
 
-1.  Go back to [Power Apps maker portal](https://make.powerapps.com) and make
+1.  Go back to <https://make.powerapps.com> and make
     sure you are in your **Practice** environment.
 
 2.  Click on **+ Create** and select **Model-driven app from blank.** Select
@@ -179,7 +179,7 @@ will build out the detailed user experience in the upcoming canvas app module.
 
 ### Task 1 – Create a canvas app
 
-1.  Go back to [Power Apps maker portal](https://make.powerapps.com) and make
+1.  Go back to <https://make.powerapps.com> and make
     sure you are in your **Practice** environment.
 
 2.  Select **Solutions** and open **Common Data Services Default Solution**.
