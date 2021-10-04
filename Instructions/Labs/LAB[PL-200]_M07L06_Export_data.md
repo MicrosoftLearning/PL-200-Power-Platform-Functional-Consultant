@@ -30,7 +30,7 @@ In this exercise, you will export data using the maker portal.
 
 In this task, you will export data from the maker portal.
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com/) and make
+1.  Navigate to <https://make.powerapps.com> and make
     sure you are in the **Practice** environment you created.
 
 2.  Expand **Data** and select **Tables**.
