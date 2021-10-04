@@ -49,41 +49,36 @@ date.
 
 ### Task 2 – Add and Remove Columns from View
 
-1.  The **Active Knowledge Assessment** view currently has two columns. In the
-    **Table columns** menu on the left, expand the dropdown menu and change to
-    **All.**
+1.  The **Active Knowledge Assessment** view currently has two columns.
 
-2.  Click on the **Status Reason** column.
+2.  Click on the **Status Reason** column to add it to the View.
 
-3.  The **Status Reason** column will be added to view. Click on the **Owner**
-    column.
+3.  Click on the **Owner** column to add it to the View.
 
-4.  The **Owner** column will be added to the view. Click on the **Modified By**
-    column.
+4.  Click on the **Modified By** column to add it to the View.
 
-5.  Click on the **Modified By** column header, select **+ Insert view column**,
-    and expand the dropdown to **All** again.
+5.  Click on the **Modified By** column header, select **+ Insert view column**.
 
-6.  Select **Modified On**. The view should now have six columns.
+6.  Select **Modified On** to add this column before the Modified By column. The view should now have six columns.
 
 7.  You will now remove the **Created On** column. Click on the header of the
     **Created On** column.
 
-8.  Click **Remove**.
+8.  Click **Remove**. The **Created On** column will be removed from the view.
 
-9.  The **Created On** column will be removed from the view.
-
-10. You will now add a column from a related table to the view. From the **Table
+9. You will now add a column from a related table to the view. From the **Table
     columns** side bar, select the **Related** tab.
 
-11. All the tables that the **Knowledge Assessment** table has a **N:1**
+10. All the tables that the **Knowledge Assessment** table has a **N:1**
     relationship with will be listed here. Expand **Owning User (User).**
 
-12. Enter **Email** on the search box and enter.
+11. Enter **Email** on the search box and enter.
 
-13. Select **Primary Email**. The **Primary Email** will be added to the view.
+12. Select **Primary Email**. The **Primary Email** will be added to the view.
 
-14. Click **Save**.
+13. Click **Save**.
+
+14. **Do not** close this window.
 
 ### Task 3 – Reorder View Columns and Change Column Width
 
