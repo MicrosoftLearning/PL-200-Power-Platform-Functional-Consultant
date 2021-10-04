@@ -208,15 +208,15 @@ things simple here and just add a basic header to the app.
 3.  A label will be added to the screen. Select the label.
 
 4.  Next to **Label1**, click on the
-    **…** button and click **Rename**. Rename the label **Header Label**. Hit Enter on your keyboard.
+    **…** button and click **Rename**. Rename the label **Header Label**. Hit **Enter** on your keyboard.
 
 5.  Select the **Header** tab and change the **Font Size** to **28.**
 
 6.  Click **Color** and change color to **White**.
 
-7.  Click **Text Alignment** and select **Center**.
+7.  Change the **Fill Color** to **Blue**. 
 
-8.  Change the **Fill Color** to **Blue**.
+8.  Click **Text Alignment** and select **Center**.
 
 9.  Locate the **Position** section on the Properties window.
 
