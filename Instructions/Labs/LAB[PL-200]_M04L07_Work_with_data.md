@@ -33,7 +33,7 @@ Microsoft Dataverse and add support for submitting feedback using the Edit Form.
 In this task, you will filter the Knowledge Assessment to show only Active rows
 that have Start Date in the past and End Date is in the future.
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in your **Practice** environment.
 
