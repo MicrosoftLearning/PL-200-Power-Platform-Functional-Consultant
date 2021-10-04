@@ -38,7 +38,7 @@ Assessment table.
 
 ### Task 1 – Enable Auditing Option for Knowledge Assessment
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com/) and make
+1.  Navigate to <https://make.powerapps.com> and make
     sure you are in your **Practice** environment.
 
 2.  Select **Solutions**.
