@@ -29,7 +29,7 @@ In this exercise, you will acquire a PVA trial and create a bot.
 
 ### Task 1 – Sign up for a PVA trial
 
-1.  Navigate to [Power Virtual Agents](https://powerva.microsoft.com/). Select
+1.  Navigate to <https://powerva.microsoft.com>. Select
     your country/region and click **Start free trial**.
 
 2.  Enter **Customer service bot** for **Name**, select your **Language**,
