@@ -39,7 +39,7 @@ the form editor, because this is the easiest way to perform these configuration
 steps. The same is true, for example, if you need to add any columns: you should
 always try to add the columns before jumping into the editor.
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in the **Practice** environment you created.
 
@@ -70,7 +70,7 @@ In this task, you will perform the following changes to the form:
 
 To customize your form:
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in the **Practice** environment you created.
 
