@@ -32,13 +32,13 @@ relationship diagram.
 
 The following relationships need to be created.
 
-1.  Knowledge Assessment to Knowledge Question: changing the relationship
+- Knowledge Assessment to Knowledge Question: changing the relationship
     behavior to be parental.
 
-2.  Knowledge Assessment to Knowledge Test Result: changing the relationship
+- Knowledge Assessment to Knowledge Test Result: changing the relationship
     behavior to be parental.
 
-3.  User to Knowledge Test Result: we don’t need to create because we will assign
+- User to Knowledge Test Result: we don’t need to create because we will assign
     the user who took the test as the owner of the record. An alternative design
     could have left owner to track who is working on the record and create
     another relationship to track who took the assessment. For our purposes, we
