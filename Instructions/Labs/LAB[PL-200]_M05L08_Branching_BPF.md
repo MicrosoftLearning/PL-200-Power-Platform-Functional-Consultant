@@ -19,7 +19,7 @@ For more information and for a complete list of affected terms, please visit [Wh
 Scenario
 --------
 
-You have created several automations to support your client’s knowledge
+You have created several automation to support your client’s knowledge
 assessments process and now it is time to bring the final pieces together. In
 this lab, you will update the business process flow and add a business rule.
 
@@ -28,17 +28,17 @@ and licenses for the Power Platform applications you will be using in this
 course. You will only be provided with one tenant for the practice labs in this
 course. The settings and actions you take within this tenant do not roll-back or
 reset, whereas the virtual machine you are provided with does reset each time
-you close the lab session. Please be aware that Office 365 is evolving all the time. The
-instructions in this document may be different from what you experience in your
-actual Office 365 tenant. It is also possible to experience a delay of several
-minutes before the virtual machine has network connectivity to begin the labs.
+you close the lab session. Please be aware that Office 365 is evolving all the
+time. The instructions in this document may be different from what you
+experience in your actual Office 365 tenant. It is also possible to experience a
+delay of several minutes before the virtual machine has network connectivity to
+begin the labs.
 
-Exercise 1 – Update Process 
-----------------------------
+## Exercise 1 – Update Process
 
 ### Task 1 – Update Business Process Flow
 
-1.  Navigate to https://make.powerapps.com.
+1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
 
 2.  Make sure you are in your **Practice** environment.
 
@@ -46,34 +46,34 @@ Exercise 1 – Update Process
 
 4.  Click to open the **Common Data Services Default Solution**.
 
-5.  Click on the **…** button located on the command bar and select **Switch to Classic**.
+5.  Click \*\* Add existing\*\* and select **Process**.
 
-6.  Select **Processes** and click **Add Existing.** Select **Assessment Process** and click OK.
+6.  Select **Assessment Process** and click **Add**.
 
-6. Select OK again to add components.
+7.  Click to open the **Assessment Process** process.
 
-6. Select the **Assessment Process** BPF.
-
-7.  Select the **Components** tab, drag **Condition** and drop it in between the
+8.  Select the **Components** tab, drag **Condition** and drop it in between the
     two existing stages.
 
-8.  Select the **Condition**, select the **Properties** tab, and enter **Check
+9.  Select the **Condition**, select the **Properties** tab, and enter **Check
     Notification** for **Display Name**.
 
-9.  Go to **Rule 1,** select **Notify Manager** for **Field**, select **Value**
+10. Go to **Rule 1,** select **Notify Manager** for **Field**, select **Value**
     for **Type**, select **Yes** for **Value**, and click **Apply**.
 
-10. Select the **Condition**, click **Connector** and select **Disconnect**.
+11. Select the **Condition**, click **Connector** and select **Disconnect**.
 
-11. Click **Update**.
+12. Click **Update**.
 
-12. Close the process editor. Click **Publish all Customizations.**
+13. Close the process editor.
 
-13. Close the solution explorer.
+14. Click **Done**
+
+15. Click **Publish all customizations**
 
 ### Task 2 – Add Business Lock Unlock Rule
 
-1.  Navigate to https://make.powerapps.com.
+1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
 
 2.  Make sure you are in your **Practice** environment.
 
@@ -106,15 +106,15 @@ Exercise 1 – Update Process
     the **True** side of the condition (the checkmark side).
 
 14. Select the **Lock/Unlock** action, go to the **Properties** tab, enter
-    **Lock Status** for **Display Name**, select **Status** for
-    **Field**, select **Lock** for **Status**, and click **Apply**.
+    **Lock Status** for **Display Name**, select **Status** for **Field**,
+    select **Lock** for **Status**, and click **Apply**.
 
 15. Select the **Components** tab, drag **Lock/Unlock** action and drop it on
     the **False** side of the condition (the x side).
 
 16. Select the second **Lock/Unlock** action, got to the **Properties** tab,
-    enter **Unlock Status** for **Display Name**, select **Status**
-    for **Field**, select **Unlock** for **Status**, and click **Apply**.
+    enter **Unlock Status** for **Display Name**, select **Status** for
+    **Field**, select **Unlock** for **Status**, and click **Apply**.
 
 17. Click **Save**.
 
@@ -126,23 +126,26 @@ Exercise 1 – Update Process
 
 21. Click **Done**.
 
-22. Click the **Common Data Services Default Solution** from the navigation breadcrumbs. Click **Publish all Customizations.**
+22. Click the **Common Data Services Default Solution** from the navigation
+    breadcrumbs.
+
+23. Click **Publish all Customizations.**
 
 ### Task 3 – Test the Updated Business process Flow
 
-1.  Navigate to https://make.powerapps.com.
+1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
 
 2.  Make sure you are in the **Practice** environment.
 
 3.  Select **Apps** and click to open the **Knowledge Admin** application.
 
-4.  Select **Assessments**.
+4.  Select **Knowledge Assessments**.
 
 5.  Click **New**.
 
 6.  Enter **BPF Assessment Two** for **Title** and click **Save**.
 
-7.  Select the **Questions** tab and click **New Knowledge Question.**
+7.  Select the **Questions** tab and click **+ New Knowledge Question.**
 
 8.  Select **Simple** for **Question Type**.
 
@@ -162,8 +165,8 @@ Exercise 1 – Update Process
 
 16. Your Business Process Flow should have just one stage.
 
-17. Click on the **Knowledge Assessment** stage of then Business Process Flow. The steps
-    for this stage will come to view.
+17. Click on the **Knowledge Assessment** stage of then Business Process Flow.
+    The steps for this stage will come to view.
 
 18. Enter **80** for **Passing Score**.
 
@@ -177,31 +180,32 @@ Exercise 1 – Update Process
 
 23. The Activate Stage should now be added to the Business Process Flow.
 
-24. Select **Completed** for **Create Questions** and click **Next Stage**.
+24. Select **Yes** for **Create Questions** and click **Next Stage**.
 
 25. The process should move to the **Activate** stage.
 
-27. The Business Rule should run and **Lock** the **Assessment Status**. Do not
+26. The Business Rule should run and **Lock** the **Assessment Status**. Do not
     close this page.
 
-28. Start a new browser window and navigate to
-    [https://flow.microsoft.com](https://flow.microsoft.com/).
+27. Start a new browser window and navigate to [Power
+    Automate](https://flow.microsoft.com/).
 
-29. Select **Action items** and then select **Approvals**.
+28. Select **Action items** and then select **Approvals**.
 
-30. You should have one approval waiting for you. Click on the approval.
+29. You should have one approval waiting for you. Click on the approval.
 
-31. The Approval pane will open. Click **Approve**.
+30. The Approval pane will open. Select **Approve**.
 
-32. Provide **Comments** and click **Confirm**.
+31. Provide **Comments** and click **Confirm**.
 
-33. Go back to **Knowledge Admin** application and click on the **Refresh**
+32. Go back to **Knowledge Admin** application and click on the **Refresh**
     button.
 
-34. Click on the **Activate** stage of the Business Process Flow.
+33. Click on the **Activate** stage of the Business Process Flow.
 
-35. The Approval Flow should complete the approval and set the **Status** to **Approved**.
+34. The Approval Flow should complete the approval and set the **Status** to
+    **Approved**.
 
-36. The Business Rule should **Unlock** the **Status** field.
+35. The Business Rule should **Unlock** the **Status** field.
 
-37. Click **Finish**.
+36. Click **Finish**.

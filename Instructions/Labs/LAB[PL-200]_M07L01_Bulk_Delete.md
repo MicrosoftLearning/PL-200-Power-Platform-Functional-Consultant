@@ -22,20 +22,20 @@ Scenario
 You are a functional consultant working on the Fabrikam project. Your client
 wants you implement some automatic data cleanup of stale data. You have been
 asked to delete any Knowledge Assessment that is over 6 months past its end
-date. You will be using the Bulk Delete feature of the Common Data Service.
+date. You will be using the Bulk Delete feature of Microsoft Dataverse.
 
-Exercise 1 – Bulk Delete
-------------------------
+## Exercise 1 – Bulk Delete
 
 In this exercise, you will create a bulk deletion operation that will delete all
-Knowledge Assessment records with an End Date older than 6 months, this
-operation will run every 7 days.
+Knowledge Assessment rows with an End Date older than 6 months, this operation
+will run every 7 days.
 
 ### Task 1 – Create Bulk Delete Operation
 
 In this task, you will create a bulk deletion operation.
 
-1.  Navigate to <https://admin.powerplatform.microsoft.com>.
+1.  Navigate to [Power Platform admin
+    center](https://admin.powerplatform.microsoft.com).
 
 2.  Select your **Practice** environment.
 
@@ -49,7 +49,7 @@ In this task, you will create a bulk deletion operation.
 
 7.  Select **Knowledge Assessments** from the **Look for** dropdown.
 
-8.  Click **Select** and choose the **End date** field.
+8.  Click **Select** and choose the **End date** column.
 
 9.  Select **Older than X Months**.
 
@@ -70,13 +70,15 @@ In this task, you will create a bulk deletion operation.
 
 17. Click **Submit**.
 
-18. Wait for the job to be created. This can take few minutes. Refresh the view as needed.
+18. Wait for the job to be created. This can take few minutes. Refresh the view
+    as needed.
 
 ### Task 2 – Test Bulk Deletion
 
 In this task, you will test the bulk delete operation you created.
 
-1.  Navigate to <https://make.powerapps.com/> and make sure you are in your **Practice** environment.
+1.  Navigate to [Power Apps maker portal](https://make.powerapps.com/) and make
+    sure you are in your **Practice** environment.
 
 2.  Select **Apps**.
 
@@ -90,4 +92,5 @@ In this task, you will test the bulk delete operation you created.
 
 7.  Click **Save**.
 
-8. Wait for the bulk delete job to complete at the designated time. The record will be deleted.
+8.  Wait for the bulk delete job to complete at the designated time. The row
+    will be deleted.

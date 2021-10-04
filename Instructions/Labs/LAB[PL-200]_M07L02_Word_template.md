@@ -25,21 +25,22 @@ managers can easily generate a certificate of completion to give users after
 achieving a passing score. In this lab, you will create a certificate of
 completion through a Word template and update that Word template to the app.
 
-**Note:** This lab assumes you are using the latest version of Microsoft Word. If you are working with an older version, your user experience may not exactly match the instructions as written.
+**Note:** This lab assumes you are using the latest version of Microsoft Word.
+If you are working with an older version, your user experience may not exactly
+match the instructions as written.
 
-Exercise 1 – Word Template
---------------------------
+## Exercise 1 – Word Template
 
 In this exercise, you create a Microsoft Word template for the Test Result
-entity. This document will generate a certificate of completion.
+table. This document will generate a certificate of completion.
 
 ### Task 1 – Create Knowledge Test Result
 
 In this task, you will create a Knowledge Test Result record.
 
-1.  Navigate to https://make.powerapps.com.
+1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
 
-2. Make sure you are in your **Practice** environment. 
+2.  Make sure you are in your **Practice** environment.
 
 3.  Select **Apps**.
 
@@ -51,7 +52,7 @@ In this task, you will create a Knowledge Test Result record.
 
 7.  Enter **Result for Template** for Primary Name.
 
-8.  Click on the **Knowledge Assessment** lookup field and select any record.
+8.  Click on the **Knowledge Assessment** lookup and select any record.
 
 9.  Enter **960** for **Total Points** and click **Save**. DO NOT navigate away
     from this page.
@@ -59,7 +60,7 @@ In this task, you will create a Knowledge Test Result record.
 ### Task 2 – Create Template
 
 In this task, you will create the template. You will do this by downloading the
-starting template for the entity. You will also enable to Developer menu in
+starting template for the table. You will also enable to Developer menu in
 Microsoft Word.
 
 1.  Click on the **Word Template** button located on the command bar and select
@@ -67,11 +68,14 @@ Microsoft Word.
 
 2.  Make sure **Knowledge Test Result** is selected for Entity.
 
-3.  Go to the N:1 Relationship dropdown and click on chevron button.
+3.  Go to the **N:1 Relationship** dropdown and click on chevron button.
 
-4.  You will now select 2 entities:
-    - **Knowledge Assessment**
-    - **User (user_crxxx_knowledgetestresult)** (where xxx will be your unique prefix)
+4.  You will now select 2 tables:
+
+    -   **Knowledge Assessment**
+
+    -   **User (user_crxxx_knowledgetestresult)** (where xxx will be your unique
+        prefix)
 
 5.  Click **Download**.
 
@@ -96,13 +100,15 @@ Microsoft Word.
 
 ### Task 3 – Build Template
 
-In this task, you will build a basic certificate and insert data from CDS.
+In this task, you will build a basic certificate and insert data from Microsoft
+Dataverse.
 
 1.  Select the **Layout** tab, click **Orientation** and select **Landscape**.
 
 2.  Click **Margins** and select **Normal 1” 1” 1” 1”.**
 
-3.  Select the **Insert** tab, click **Text Box** and select **Simple Text Box**.
+3.  Select the **Insert** tab, click **Text Box** and select **Simple Text
+    Box**.
 
 4.  Select the **Format** tab, click **Shape Fill** and select **No Fill**.
 
@@ -118,8 +124,8 @@ In this task, you will build a basic certificate and insert data from CDS.
 
 10. Resize the **Textbox** to fill the page horizontally.
 
-11. Select the **Shape Format** tab, click **Text Effect**, click **Transform**, and
-    select the first option in **Follow Path** showing an arch. 
+11. Select the **Shape Format** tab, click **Text Effect**, click **Transform**,
+    and select the first option in **Follow Path** showing an arch.
 
 12. Select the **Insert** tab, click **Text Box** and select **Simple Text
     Box**.
@@ -136,9 +142,9 @@ In this task, you will build a basic certificate and insert data from CDS.
 
 18. Place your cursor at the end of the text and press the **enter** key.
 
-19. Go to the **XML Mapping** pane and expand the entity.
+19. Go to the **XML Mapping** pane and expand the table.
 
-20. Expand the **User** entity.
+20. Expand the **User** table.
 
 21. Locate the **fullname** field and right click on it.
 
@@ -159,15 +165,15 @@ In this task, you will build a basic certificate and insert data from CDS.
 29. Replace the text of the new textbox with **For completing the**
 
 30. Go to the **XML Mapping** pane and expand the **Knowledge Assessment**
-    entity.
+    table.
 
 31. Right click on the **Title** field, click **Insert Content Control**, and
     select **Plain Text.**
 
 32. Place your cursor in front of the **Title** control and type **with** .
 
-33. Make sure your text box is selected. Go to the **XML Mapping** pane and go to the **Knowledge Test Result**
-    entity.
+33. Make sure your text box is selected. Go to the **XML Mapping** pane and go
+    to the **Knowledge Test Result** table.
 
 34. Right click on the **Total Points** field, click **Insert Content Control**,
     and select **Plain Text.**
@@ -180,22 +186,22 @@ In this task, you will build a basic certificate and insert data from CDS.
 37. Type **Completion Date:** and press the **enter** key.
 
 38. Go to the **XML Mapping** pane and go to the **Knowledge Test Result**
-    entity.
+    table.
 
 39. Right click on the **Created-On** field, click **Insert Content Control**,
     and select **Plain Text.**
 
-40. Select the **Insert** tab and click **Icons.** Search **Badge** in the search bar and select your favorite badge image. 
+40. Select the **Insert** tab and click **Icons.** Search **Badge** in the
+    search bar and select your favorite badge image.
 
-42. Place the image below the **CreatedOn** control and center it.
+41. Place the image below the **CreatedOn** control and center it.
 
-43. Click **File** and click **Save**.
+42. Click **File** and click **Save as**.
 
-44. Enter **Assessment Certificate** for name and click **Save as**. Remember where
-    you are saving your template.
+43. Enter **Assessment Certificate** for name. Remember where you are saving
+    your template.
 
-Exercise 2 – Uploading and Using Word Template
-----------------------------------------------
+## Exercise 2 – Uploading and Using Word Template
 
 In this exercise, you will upload the template you created and test it.
 
@@ -207,7 +213,7 @@ In this task, you will upload the template you created.
 
 2.  Select **Knowledge Test Results**.
 
-3.  Open the **Knowledge Test Result** record you created.
+3.  Open the **Knowledge Test Result** you created.
 
 4.  Click on the **Word Template** button located on the command bar and select
     **Upload Template**.
@@ -227,4 +233,4 @@ In this task, you will test the template you created.
 
 2.  Click Open.
 
-3.  Your certificate will open. 
+3.  Your certificate will open.

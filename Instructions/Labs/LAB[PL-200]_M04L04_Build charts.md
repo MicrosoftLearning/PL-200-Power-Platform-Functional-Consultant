@@ -25,15 +25,13 @@ continuing your work on the model-driven Knowledge Admin app. In this practice,
 you will be creating a chart to use as a leader board to show the top 5-point
 earners based on the Knowledge Test Result data.
 
-
-Exercise 1 – Create a chart 
-----------------------------
+## Exercise 1 – Create a chart
 
 In this exercise, you will create a chart using the Knowledge Test Result data.
 
 ### Task 1 – Edit the Knowledge Assessment active item view
 
-1.  Navigate to <https://make.powerapps.com>.
+1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
 
 2.  Make sure you are in your **Practice** environment.
 
@@ -49,15 +47,15 @@ In this exercise, you will create a chart using the Knowledge Test Result data.
 
 8.  Enter **Leader Board** for **Name**.
 
-9.  Click **Charts > Bar** to expand the dropdown and select **Bar**.
+9.  Click **Charts \> Bar** to expand the dropdown and select **Bar**.
 
-10. Click on the **Top/Bottom Rules > Top X Rule** and select **Top 5 Items**.
+10. Click on the **Top/Bottom Rules \> Top X Rule** and select **Top 5 Items**.
 
 11. Select **Total Points** for **Legend Entities (Series).**
 
 12. Select **Owner** for **Horizontal (Category) Axis Label**.
 
-13. Click **Save > Save and Close**.
+13. Click **Save \> Save and Close**.
 
 14. Click **Done**.
 
@@ -86,10 +84,11 @@ input some data to test your chart.
 
 7.  Select the **General** tab of the form.
 
-8.  Go to the **Field Explorer** and click on the **Knowledge
-    Assessment** field. The Knowledge Assessment field will be added to the form.
+8.  Go to the **Table columns** and click on the **Knowledge Assessment**
+    column. The Knowledge Assessment column will be added to the form.
 
-9.  From the **Field Explorer**, click on the **Total Points** field. The Total Points field will be added to the form. 
+9.  From the **Table columns**, click on the **Total Points** column. The Total
+    Points column will be added to the form.
 
 10. Click **Save**.
 
@@ -97,10 +96,11 @@ input some data to test your chart.
 
 12. Click **back** to close the form editor.
 
-### Task 3 – Create Records and Test the Chart
+### Task 3 – Create Rows and Test the Chart
 
-1.  Make sure you are still on <https:/make.powerapps.com> and you are in the
-    **Practice** environment.
+1.  Make sure you are still on [Power Apps maker
+    portal](https:/make.powerapps.com) and you are in the **Practice**
+    environment.
 
 2.  Select **Apps**.
 
@@ -110,7 +110,7 @@ input some data to test your chart.
 
 5.  Select **Knowledge Test Results**.
 
-6.  Click **+New**.
+6.  Click **+ New**.
 
 7.  Enter **Result One** for **Name**, **180** for **Total Points**, and click
     **Save**.
