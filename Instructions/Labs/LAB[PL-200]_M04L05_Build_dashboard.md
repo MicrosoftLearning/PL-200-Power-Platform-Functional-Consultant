@@ -30,7 +30,7 @@ In this exercise, you will create a dashboard using existing charts and views.
 
 ### Task 1 – Create the dashboard
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com).
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in your **Practice** environment.
 
@@ -77,8 +77,7 @@ In this exercise, you will create a dashboard using existing charts and views.
 For your dashboard to show up in the model-driven app you must edit the app
 module and added to the definition
 
-1.  Make sure you are still in [Power Apps maker
-    portal](https://make.powerapps.com) and you have your **Practice**
+1.  Make sure you are still in <https://make.powerapps.com> and you have your **Practice**
     environment selected.
 
 2.  Open **Common Data Services Default Solution**.
@@ -135,8 +134,7 @@ module and added to the definition
 
 ### Task 3 – Test Your Changes
 
-1.  Make sure you are still in [Power Apps maker
-    portal](https://make.powerapps.com) and you have the **Practice**
+1.  Make sure you are still in <https://make.powerapps.com> and you have the **Practice**
     environment selected.
 
 2.  Select **Apps**.
