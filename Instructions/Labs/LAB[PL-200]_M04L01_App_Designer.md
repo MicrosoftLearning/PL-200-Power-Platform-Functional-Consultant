@@ -143,6 +143,8 @@ do this for the other components as well.
 
 13. Click **Done.**
 
+14. Click **Publish all customizations**.
+
 ### Task 3 – Run the Application
 
 1.  Make sure you still have the **Knowledge Admin** model-driven app selected.
