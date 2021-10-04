@@ -203,8 +203,7 @@ business process flows and then build a business process flow.
 
 27. The process should move to the **Activate** stage.
 
-28. Start a new browser window and navigate to [Power
-    Automate](https://flow.microsoft.com).
+28. Start a new browser window and navigate to <https://flow.microsoft.com>.
 
 29. Expand **Action Items** and select **Approvals**.
 
