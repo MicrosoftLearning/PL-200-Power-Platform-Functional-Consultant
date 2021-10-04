@@ -105,6 +105,4 @@ Assessment and Knowledge Test Result tables.
 
 7.  Click **Save Table**.
 
-8.  From the navigation menu, click **Common Data Services Default Solution**.
-
-9.  Select **Solutions** and click **Publish All Customizations**.
+8.  Select **Solutions** on the left and click **Publish All Customizations**.
