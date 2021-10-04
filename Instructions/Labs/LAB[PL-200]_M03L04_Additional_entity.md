@@ -29,7 +29,7 @@ Image[MB-200]_M02L02_Creating_Entities_Fields.png in the Lab Resources**.
 
 In this practice, you will be performing the following tasks.
 
-1.  You will enable auditing on the Knowledge Assessment table.
+- You will enable auditing on the Knowledge Assessment table.
 
 ## Exercise 1 – Enable Table Options
 
@@ -51,7 +51,7 @@ Assessment table.
 
 6.  Select the **Knowledge Assessment** table.
 
-7.  Scroll down to the to the **Communication and Collaboration** section.
+7.  Scroll down to the to the **Data Services** section.
 
 8.  Check the **Auditing** checkbox. *Note:* Remember auditing must be turned on
     at the environment, table, and column settings to produce any audit data. By
