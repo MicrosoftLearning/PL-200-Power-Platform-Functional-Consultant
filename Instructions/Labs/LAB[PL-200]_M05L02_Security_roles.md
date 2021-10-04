@@ -47,8 +47,7 @@ begin the labs.
 
 In this task, you will evaluate the Basic User security role.
 
-1.  Navigate to [Power Platform admin
-    center](https://admin.powerplatform.microsoft.com/)
+1.  Navigate to <https://admin.powerplatform.microsoft.com>
 
 2.  Select the **Environments**.
 
