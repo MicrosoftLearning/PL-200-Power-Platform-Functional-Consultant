@@ -80,9 +80,9 @@ the relationship between Knowledge Assessment and the CDM Feedback table.
 5.  Click **+New** and select **Table**.
 
 6.  Enter **Knowledge Assessment** for **Display Name**. Enter **Title** for
-    **Display Name** in the Primary Field section.
+    **Display Name** in the Primary Name Column section.
 
-7.  Click to expand the **Collaboration** section.
+7.  Click to expand **More settings** and then click the **Collaboration** section.
 
 8.  Check the **Allow feedback** checkbox.
 
