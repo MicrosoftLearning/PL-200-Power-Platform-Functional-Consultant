@@ -181,9 +181,9 @@ will build out the detailed user experience in the upcoming canvas app module.
 
 2.  Select **Solutions** and open **Common Data Services Default Solution**.
 
-3.  Click **New, App, Canvas App,** and then **Tablet Form Factor**.
+3.  Click **New, App, Canvas App,**.
 
-4.  Click **Skip** if you see a prompt before the designer loads.
+4.  Enter **Fabrikam Assessment** for **Name** and **Tablet Form Factor** for **Format**. Click **Skip** if you see a prompt before the designer loads.
 
 5.  The Canvas App Designer will load. Hover over **Screen1** and click on the
     **…** button.
