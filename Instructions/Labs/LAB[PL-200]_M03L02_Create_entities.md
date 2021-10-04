@@ -223,7 +223,7 @@ process.
 In this exercise, you will be creating the Knowledge Test Result table and its
 columns.
 
-### Task 1 – Create an table
+### Task 1 – Create a table
 
 1.  On the navigation menu, click **Common Data Services Default Solution** to
     return to the solution.
