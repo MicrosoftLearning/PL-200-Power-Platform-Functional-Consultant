@@ -158,7 +158,7 @@ In this task, you will copy the Main Screen and rename it Results Screen.
     Filter('Knowledge Test Results',  Owner = CurrentUser)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-11.  Return to the **Property** tab. Click **Edit** on the Fields property. For
+11.  Return to the **Properties** tab. Click **Edit** on the Fields property. For
     Title, using the dropdown, select the **createdon** value.
 
 12.  For the Subtitle element, using the dropdown, select crxxx_totalpoints.
