@@ -93,8 +93,8 @@ application.
 9.  Click **Add data**.
 
 10. You will be presented with a list of tables. Expand to see all tables by
-    selecting **See all tables.** Select the **Feedback**, **Knowledge
-    Assessments**, **Knowledge Questions**, **Knowledge Test Results**, and
+    selecting **See all tables.** 
+    -   Add the **Knowledge Assessments**, **Knowledge Questions**, **Knowledge Test Results**, **Feedback**, and
     **Users** tables. You can use the Search feature to make it quicker to find
     the tables.
 
