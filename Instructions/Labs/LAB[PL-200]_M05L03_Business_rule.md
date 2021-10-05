@@ -38,7 +38,7 @@ columns without needing custom code.
 
 5.  Click to open the **Knowledge Question** table.
 
-6.  Select the **Columns** tab and click **+ Add Column**.
+6.  Click **+ Add Column**.
 
 7.  Enter **Question Type** for **Display Name** and select **Choice** for
     **Data Type**.
