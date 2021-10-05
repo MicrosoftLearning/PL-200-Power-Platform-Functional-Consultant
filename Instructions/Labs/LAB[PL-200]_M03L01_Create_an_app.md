@@ -114,7 +114,7 @@ started will be easy.
 1.  Go back to <https://make.powerapps.com> and make sure you are in your
     **Practice** environment.
 
-2. Click on **+ Create** and select **Model-driven app from blank.** Select **Create** in the pop-up window.
+2. Click on **+ Create** and select **Model-driven app from blank.** Select **Classic app designer**, and **Create** in the pop-up window.
 
 4.  Enter **Knowledge Admin** for Name and click **Done**.
 
