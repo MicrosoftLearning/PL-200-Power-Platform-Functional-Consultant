@@ -83,7 +83,7 @@ filtered list of test results submitted by this user.
     Set(UserPrimaryEmail, User().Email)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-3.  Add the snippet below to the **OnStart** property. This snippet will first
+3.  Add the snippet below to the **OnStart** property, after the snippet already there. This snippet will first
     terminate the first function with semicolon, get the current User and save
     it in a global variable name **CurrentUser**.
 
@@ -91,7 +91,7 @@ filtered list of test results submitted by this user.
     ;Set(CurrentUser, LookUp(Users, 'Primary Email' = UserPrimaryEmail))
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-4.  Add the following function to work around an existing bug that does not
+4.  Add the snippet below to the **OnStart** property, after the snippets already there. Add the following function to work around an existing bug that does not
     properly load the metadata for related properties. In the future this
     workaround will not be required.
 
@@ -99,7 +99,7 @@ filtered list of test results submitted by this user.
     ;Set(FirstKABugWorkaround,First('Knowledge Test Results').'Knowledge Assessment')
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-5.  Click **File** and **Save**.
+5.  Your **OnStart** property should now have the above three snippets. Click **File** and **Save**.
 
 6.  Close the tab.
 
