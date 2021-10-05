@@ -121,7 +121,7 @@ Dataverse User security role.
 
 14. Click **Save and Close**.
 
-15. Close the Basic User security role. Do not close the security roles window.
+15. Navigate back to the Power Platform admin center security roles window.
 
 ### Task 3 – Create Security Role
 
