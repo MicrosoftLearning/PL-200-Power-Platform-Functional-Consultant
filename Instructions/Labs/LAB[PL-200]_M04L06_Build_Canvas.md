@@ -380,7 +380,7 @@ Remove(UserAnswers, LookUp(UserAnswers, Question = GUID(ThisItem.'Knowledge Ques
 
 50.  Drag and place the button below the **Assessment Question List**.
 
-51.  Select the button and set the **Text** property to **Score Assessment**.
+51.  Select the button and set the **Text** property to **"Score Assessment"**.
 
 52.  Make the button larger until the text doesn’t wrap.
 
