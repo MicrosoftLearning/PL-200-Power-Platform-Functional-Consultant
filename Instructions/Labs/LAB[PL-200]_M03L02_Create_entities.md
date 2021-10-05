@@ -69,7 +69,7 @@ fields. Knowledge Assessment will be a new custom entity you create.
 
 5.  Click **+New** and select **Table**.
 
-6.  Enter **Knowledge Assessment** for **Display Name**. Enter **Title** for **Display Name** in the Primary Field section. 
+6.  Enter **Knowledge Assessment** for **Display Name**. Enter **Title** for **Display Name** in the Primary Column section. 
 
 8.  Click **Create**. It may take a few minutes for your table to be created.
 
