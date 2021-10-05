@@ -59,11 +59,11 @@ Exercise 1 – Prepare the Solution
 
         cre7f_answer1points + cre7f_answer2points + cre7f_answer3points + cre7f_answer4points
 
-1.  Save the action by clicking on the checkmark button.
+14.  Save the action by clicking on the checkmark button.
 
-2.  Click **Save and Close**.
+15.  Click **Save and Close**.
 
-3.  Click **Done**.
+16.  Click **Done**.
 
 ### Task 2 – Add Field to Knowledge Question Form
 
