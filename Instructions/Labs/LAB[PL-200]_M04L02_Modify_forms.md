@@ -47,7 +47,7 @@ always try to add the columns before jumping into the editor.
 
 4.  Open the **Common Data Service Default Solution**.
 
-5.  Click on the **Knowledge Assessment** table.
+5.  Open the **Knowledge Assessment** table.
 
 6.  Click **Settings** in the command bar (you may need to click the **...** to see this option)
 
