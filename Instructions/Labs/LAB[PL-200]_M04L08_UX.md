@@ -273,19 +273,19 @@ here are some things you can try on your own to make the app better. **The
 following steps are optional and are more advanced to challenge your learning.
 These are not expected or required to all be completed.**
 
-1.  Try different ways of presenting the Test Results – for example you could
+-  Try different ways of presenting the Test Results – for example you could
     try the Data Grid control.
 
-2.  Add an image control to the Main Screen and show the user’s profile image
+-  Add an image control to the Main Screen and show the user’s profile image
     using User().Image. Note: You will need to setup a profile image for the
     user you are using for it to show more than the default image.
 
-3.  You can add an image to the Knowledge Assessment table and then change the
+-  You can add an image to the Knowledge Assessment table and then change the
     Main Screen list of Assessments to show the image. Note: after you add the
     table image in Dataverse, you will need to upload an image via the
     model-driven app. You will also need to go to View-Data Sources and refresh
     the Knowledge Assessment table metadata.
 
-4.  Think about how else you might improve the app using the knowledge you’ve
+-  Think about how else you might improve the app using the knowledge you’ve
     gained during the practices. You can always Save As your app, and try any
     changes you want without impacting your completed work!
