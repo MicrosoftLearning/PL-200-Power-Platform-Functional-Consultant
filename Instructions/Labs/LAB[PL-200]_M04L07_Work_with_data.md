@@ -101,10 +101,8 @@ filtered list of test results submitted by this user.
 
 5.  Your **OnStart** property should now have the above three snippets. Click **File** and **Save**.
 
-6.  Close the tab.
-
-7.  Select **Apps** and select the edit button to open the **Fabrikam
-    Assessment** app in the app designer again.
+6.  Select the **back** button to navigate back to the **Fabrikam
+    Assessment** app designer.
 
 ### Task 3 – Save Total Points
 
