@@ -47,7 +47,7 @@ older and deactivate them.
 5.  From the left hand menu, select **Flows.** (If you get a pop-up here, just
     choose your country/region and select **Get started.**)
 
-6.  Click **+ New** and select **+ Automated cloud flow**.
+6.  Click **+ New Flow** and select **+ Automated cloud flow**.
 
 7.  The pop-up will show common triggers that you can easily select to
     jump-start your flow configuration. Scroll through the options, but do not
