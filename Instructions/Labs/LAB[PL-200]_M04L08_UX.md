@@ -145,11 +145,13 @@ In this task, you will copy the Main Screen and rename it Results Screen.
 7.  Rename the gallery to **User Result List**.
 
 8.  Delete the image in **User Result List**. You will receive an error with a
-    red X - delete the formula in the **fx** bar to remove the error.
+    red X - Hover over the X and select **Edit in the formula bar**. 
+    
+9.  Delete the formula in the **fx** bar to remove the error.
 
-9.  Select the **User Results List** gallery.
+10. Select the **User Results List** gallery.
 
-10. In the **Advanced** tab, select the **Items** property and set it to the
+11. In the **Advanced** tab, select the **Items** property and set it to the
     snippet below.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
