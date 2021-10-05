@@ -75,12 +75,12 @@ crXXX_enddate lt
 >   Replace crXXX\_ with your unique prefix and type a **space** at the end of
 >   the expression.
 
-15.  Select the **Expression** of the **Dynamics Content** pane.
+15.  Select the **Expression** tab of the **Dynamics Content** pane. If you do not see the Dynamic Content pane pop up at this time, you may need to zoom out. 
 
 16.  Type **utcNow()** and click **OK.** (There should be a space before the
-    utcnow() expression.)
+    utcnow() expression in your formula.)
 
-17.  Click on the **… Menu** button of the step and select **Rename**.
+17.  Click on the ellipses (**…**) on the **List Rows** step and select **Rename**.
 
 18.  Rename the step **Get Assessments**.
 
@@ -95,12 +95,12 @@ crXXX_enddate lt
 23.  Select **Knowledge Assessment** from the **Dynamic Content** pane.
 
 24. **Apply to Each** step will be added and **Value** will be selected for
-    Output. Click on **Update a record** and then click **Show Advanced
+    Output. Click on **Update a row** and then click **Show Advanced
     Options**.
 
 25. Locate the **Status** option set and select **Inactive**.
 
-26. Click on the **… Menu** button of the step and select **Rename**.
+26. Click on the ellipses (**…**) for the **Update a row** step and select **Rename**.
 
 27. Rename the step **Deactivate Assessment**.
 
@@ -119,7 +119,7 @@ crXXX_enddate lt
 3.  Select **Apps** and click to open the **Knowledge Admin** model-driven
     application.
 
-4.  Select **Assessments** and click to open the **Test Assessment Four**.
+4.  Navigate to **Knowledge Assessments** and click to open the **Test Assessment Four**.
 
 5.  Locate the **End Date** field and select today’s date.
 
