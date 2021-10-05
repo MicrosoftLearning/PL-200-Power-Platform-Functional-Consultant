@@ -114,7 +114,7 @@ cre7f_answer1points + cre7f_answer2points + cre7f_answer3points + cre7f_answer4p
 
 12. Click on the solution name.
 
-13. Click **Publish All Customizations**.
+13. Click **Publish all customizations**.
 
 ### Task 4 – Add Column to Knowledge Assessment Form
 
@@ -202,7 +202,7 @@ cre7f_answer1points + cre7f_answer2points + cre7f_answer3points + cre7f_answer4p
 2.  Select **Apps** and click on the **Knowledge Admin** model-driven
     application.
 
-3.  Select **Knowledge Assessments** and click to open the **Test Assessment
+3.  Navigate to **Knowledge Assessments** and click to open the **Test Assessment
     Four**.
 
 4.  Select the **Questions** tab.
