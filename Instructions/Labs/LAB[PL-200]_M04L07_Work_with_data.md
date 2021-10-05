@@ -179,7 +179,7 @@ create a new row.
    DisplayMode.View
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-15.  Rename the **Comments_DataCard** to **User Comments**. (You will need to
+15.  Rename the **Comments_DataCard** to **User Comments**. (You may need to
     click **Unlock** first.)
 
 16.  Expand the **User Comments** data card and rename the **DataCardValue** to
@@ -196,7 +196,7 @@ create a new row.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 19.  With the **Submit Feedback Button** still selected, return to the
-    **Properties** tab and select the **DisplayMode** property.
+    **Properties** tab and select the **DisplayMode** property (click on the words **Display mode**).
 
 20.  Replace the **DisplayMode** property value with snippet below. This snippet
     will enable the button if the comments filed has value and disable it if the
@@ -211,7 +211,7 @@ create a new row.
 22.  Go to the **Insert** tab, navigate to **Icons** in the top menu, and select
     **Left.**
 
-23.  Place the icon on the left side of the header.
+23.  Resize and place the icon on the left side of the header.
 
 24.  Set the **Color** property of the icon to **White**.
 
@@ -231,7 +231,7 @@ create a new row.
 
 29.  Set the **Color** property of the icon to **White**.
 
-30.  Set the **OnSelect** property of the **Information** icon to the snippet
+30.  Set the **OnSelect** property of the Emoji icon to the snippet
     below.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
