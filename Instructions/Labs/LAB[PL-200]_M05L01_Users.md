@@ -51,7 +51,7 @@ In this task, you create users and assign licenses to them.
 
 3.  Expand **Users** and select **Active Users**.
 
-4.  Click **+ Add a User**.
+4.  Click **+ Add a user**.
 
 5.  Enter **User** for **First Name** and **One** for **Last Name**.
 
@@ -65,11 +65,7 @@ In this task, you create users and assign licenses to them.
 
 10. **Uncheck** the **Require this user change their password…** checkbox.
 
-11. Click **Next**.
-
-12. Uncheck the **Send password in email** checkbox.
-
-13. Select **Next.** Assign the **Power Apps Per User** license.
+11. Select **Next.** Assign the **Microsoft Power Apps Plan 2 Trial** license.
 
 14. Click **Next.** On the next page, click **Next** again. Finally, click
     **Finish adding.**
