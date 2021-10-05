@@ -51,9 +51,9 @@ In this task, you will evaluate the Basic User security role.
 
 2.  Select the **Environments**.
 
-3.  Select the **Practice** environment and click **Settings**.
+3.  Select your **Practice** environment and click **Settings**.
 
-4.  Locate the **Users + Permissions** section and click **Security Roles.**
+4.  Expand the **Users + Permissions** section and select **Security Roles.**
 
 5.  Click to select the **Basic User** security role and click **Edit.**
 
@@ -65,21 +65,19 @@ In this task, you will evaluate the Basic User security role.
 8.  Select the **Custom Entities** tab.
 
 9.  You will find that the **Basic User** security role doesn’t have access to
-    any of the custom entities you created.
+    any of the custom entities you created. You can close this tab.
 
 ### Task 2 – Copy from Existing Security Role
 
 In this task, you will create a new security role by copying from the Microsoft
 Dataverse User security role.
 
-1.  Click on the **Actions** button and select **Copy Role…**
+1.  Click on the ellipses (**...**) for the **Basic User** security role and select **Copy**
 
-2.  Enter **Knowledge Assessment User** for **Name** and click **OK**.
+2.  Enter **Knowledge Assessment User** for **Name** and click **Copy**.
 
-3.  The new security role will open. (You may need to allow pop-ups depending on
-    your browser. If it does not open in a new window, you can return to your
-    list of Security Roles, refresh, and find Knowledge Assessment User. Select
-    the role, select edit, and your new security role will open.) Select the
+3.  The new security role will be created. Select
+    the role, select edit, and your new security role will open. Select the
     **Custom Entities** tab.
 
 4.  Locate the **Knowledge Assessment** table and click on the Read access
