@@ -107,12 +107,12 @@ columns without needing custom code.
 7.  Next to **New business rule** name at the top of the screen, select the
     dropdown carrot.
 
-8.  Enter **Question Type Rule** for **Business Rule Name**.
+8.  Enter **Question Type Rule** for **Business Rule Name**. You can select the dropdown carrot again to collapse this section.
 
 9.  Select the **Condition** and enter **Check Question Type** for **Display
     Name.**
 
-10. Go to the **Rule** section, select **Question Type** for **Field**, select
+10. Go to the **Rules** section, select **Question Type** for **Field**, select
     **Equals** for **Operator**, select **Value** for **Type**, and select
     **Scenario** for **Value**.
 
@@ -182,7 +182,7 @@ columns without needing custom code.
 2.  Select **Apps** and click on the **Knowledge Admin** Model-Driven
     application.
 
-3.  Select **Knowledge Assessments** and click **+ New**.
+3.  Navigate to **Knowledge Assessments** and click **+ New**.
 
 4.  Enter **Test Assessment Four** for **Title**, select today’s date for
     **Start Date**, a month from today for **End Date**, and click **Save**.
@@ -207,7 +207,7 @@ columns without needing custom code.
 
 12. Type **This is a test Scenario** for **Scenario Description**.
 
-13. Scroll down to the **Answers** section, enter **Test Answer One** for
+13. In the **Answers** section, enter **Test Answer One** for
     **Answer 1**, enter **20** for **Answer 1 Points.**
 
 14. Click **Save**. You can close the model-driven app.
