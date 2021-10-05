@@ -127,7 +127,7 @@ Dataverse User security role.
 
 In this task, you will create a new security role for the application manager.
 
-1.  Make sure you are still on the **Roles** window and click **New role**.
+1.  Make sure you are still on the **Roles** window and click **New role** (you may need to unselect any roles you have selected to see this option).
 
 2.  Enter **Knowledge Application Manager** for **Role Name**.
 
@@ -149,4 +149,4 @@ In this task, you will create a new security role for the application manager.
 
 9.  Click **Save and Close**.
 
-10. Close the Roles window.
+10. Close the window.
