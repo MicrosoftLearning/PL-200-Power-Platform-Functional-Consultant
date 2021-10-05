@@ -99,7 +99,7 @@ application.
     the tables.
 
 11. The data from the tables you selected will now be available for your
-    application. Close the **Data sources** pane.
+    application. Close the **Data** pane.
 
 12. Click on the **File** tab and click **Save**. Saving your work periodically
     is always a good idea.
@@ -116,10 +116,10 @@ screen, and then adding navigation to allow employees to take the assessment.
 
 ### Task 1 – Setup Knowledge Assessment screen
 
-1.  In the **tree view**, click on the ellipses of **Main Screen** and select
+1.  In the **tree view**, click on the ellipses (**...**) next to **Main Screen** and select
     **Duplicate Screen**.
 
-2.  Click on the ellipses button of the new screen and click **Rename**.
+2.  Click on the ellipses (**...**) button of the new screen and click **Rename**.
 
 3.  Rename the Screen **Take Assessment Screen** *Note:* It is always good to
     give components a good name so when you reference them later there will not
@@ -136,19 +136,21 @@ screen, and then adding navigation to allow employees to take the assessment.
 7.  In the Properties tab, locate **Fields** and click **Edit**. Change the
     Subtitle to **Days Remaining** by selecting the column from the dropdown.
 
-8.  In the left-hand tree view, locate the gallery, right click and select
+8.  Close the **Data** pane. 
+
+9.  In the left-hand tree view, locate the gallery, right click and select
     rename. Rename the Gallery **Knowledge Assessment List**.
 
-9.  Resize the **Gallery** so it takes all the space below the header by
+10.  Resize the **Gallery** so it takes all the space below the header by
     clicking on the gallery and dragging the image area to fit the space.
 
-10. Select the first item of the **KnowledgeAssessmentList** gallery. Make sure
+11. Select the first item of the **Knowledge Assessment List** gallery. Make sure
     you are selecting the item in the designer.
 
-11. Click on the knowledgeAssessmentList **subtitle** control from the control
+12. Click on the knowledgeAssessmentList **subtitle** control from the control
     tree on the left.
 
-12. Select the **Text** property in the designer function list (fx) and paste
+13. Select the **Text** property in the designer function list (fx) and paste
     the snippet below. This snippet will add the text “ Days remaining” to the
     end of the number. If you have issues with the formula, try typing it out
     manually instead of copying and pasting.
@@ -160,7 +162,7 @@ ThisItem.'Days Remaining' & " days remaining"
 13.  Depending on your test data you may have some items that currently just say
     "days remaining" and some that have a number (e.g., "10 days remaining").
 
-14.  With the **subtitle** on the **knowledgeAssessmentList** still selected, go
+14.  With the **subtitle** on the **Knowledge Assessment List** still selected, go
     to the **Insert** tab and click **Icons**.
 
 15.  Select the **+ Add** icon.
@@ -207,14 +209,14 @@ practices you will be scoring and storing the results.
 Filter('Knowledge Questions', 'Knowledge Assessment'.'Knowledge Assessment' = 'Knowledge Assessment List'.Selected.'Knowledge Assessment' )
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-7.  Resize the **Assessment QuestionL ist** until takes all the space below the
+7.  Resize the **Assessment Question List** until it takes up all the space below the
     header.
 
 8.  Select the **Assessment Question List** gallery in the canvas.
 
-9.  Click on the **Edit gallery** button.
+9.  Click on the **Edit gallery** button (this looks like a pencil icon).
 
-10.  Click **+ Insert** and select **Text label**.
+10.  Click **+ Insert** and select **Label**.
 
 11.  Select the label you just added and set the **Text** property to
     **Question** using the formula bar. (It is possible this will be set
@@ -255,7 +257,7 @@ ThisItem.'Answer 1'
 21.  Set the **Width** property to **300** or drag it to expand the width of the
     control.
 
-22.  With the check box control selected, navigate to the property panel on the
+22.  With the checkbox control selected, navigate to the property panel on the
     right side of the screen. Select the Advanced tab and set the **OnCheck**
     property to the snippet below. This snippet will add the points of the check
     answer to a Collection name UserAnswers.
@@ -272,7 +274,7 @@ Collect(UserAnswers, {Question:GUID(ThisItem.'Knowledge Question'), Points:ThisI
 Remove(UserAnswers, LookUp(UserAnswers, Question = GUID(ThisItem.'Knowledge Question')))
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-24.  Select **Take Assessment Screen**.
+24.  Select **Take Assessment Screen** in the Tree view.
 
 25.  Select the **OnVisible** property and paste the snippet below. This will
     clear the prior answers each time they select another question.
@@ -281,11 +283,11 @@ Remove(UserAnswers, LookUp(UserAnswers, Question = GUID(ThisItem.'Knowledge Ques
 Clear(UserAnswers)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-26.  In the left control tree, select the checkBox and rename the checkbox
+26.  In the left control tree, select the checkbox and rename the checkbox
     **Answer1 Selected**.
 
 27.  With **Answer1 Selected** still selected, go to the **Insert** tab, select
-    **Input**, and select **Check box** again. We are going to add the
+    **Input**, and select **Checkbox** again. We are going to add the
     additional answer checkboxes and do a similar setup for each.
 
 28.  Move the new checkbox below the **Answer1 Selected** checkbox.
@@ -346,7 +348,7 @@ Remove(UserAnswers, LookUp(UserAnswers, Question = GUID(ThisItem.'Knowledge Ques
 41.  With **Answer3 Selected** still selected, go to the **Insert** tab, select
     **Input**, and select **Check box**.
 
-42.  Move the new check box below the **answer3Selected** checkbox.
+42.  Move the new check box below the **Answer3 Selected** checkbox.
 
 43.  Select the **Text** property of the new checkbox and set it to **Answer 4**.
 
