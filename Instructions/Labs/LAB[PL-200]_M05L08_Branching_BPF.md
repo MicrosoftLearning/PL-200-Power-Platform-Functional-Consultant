@@ -126,10 +126,7 @@ begin the labs.
 
 21. Click **Done**.
 
-22. Click the **Common Data Services Default Solution** from the navigation
-    breadcrumbs.
-
-23. Click **Publish all Customizations.**
+22. Navigate back to the solutions and click **Publish all customizations**
 
 ### Task 3 – Test the Updated Business process Flow
 
@@ -139,7 +136,7 @@ begin the labs.
 
 3.  Select **Apps** and click to open the **Knowledge Admin** application.
 
-4.  Select **Knowledge Assessments**.
+4.  Navigate to **Knowledge Assessments**.
 
 5.  Click **New**.
 
@@ -151,13 +148,13 @@ begin the labs.
 
 9.  Enter **Process Test Question** for **Question**.
 
-10. Enter **Answer One** for **Answer 1**, **100** for **Answer 1 Points**.
+10. Enter **Answer One** for **Answer 1** and **100** for **Answer 1 Points**.
 
-11. Enter **Answer Two** for **Answer 2**, **0** for **Answer 2 Points**.
+11. Enter **Answer Two** for **Answer 2** and **0** for **Answer 2 Points**.
 
-12. Enter **Answer Three** for **Answer 3**, **0** for **Answer 3 Points**.
+12. Enter **Answer Three** for **Answer 3** and **0** for **Answer 3 Points**.
 
-13. Enter **Answer Four** for **Answer 4**, **65** for **Answer 4 Points**.
+13. Enter **Answer Four** for **Answer 4** and **65** for **Answer 4 Points**.
 
 14. Click **Save**.
 
@@ -184,7 +181,7 @@ begin the labs.
 
 25. The process should move to the **Activate** stage.
 
-26. The Business Rule should run and **Lock** the **Assessment Status**. Do not
+26. The Business Rule should run and **Lock** the **Status** of the Assessment. Do not
     close this page.
 
 27. Start a new browser window and navigate to <https://flow.microsoft.com/>.
