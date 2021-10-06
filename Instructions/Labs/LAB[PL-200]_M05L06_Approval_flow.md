@@ -284,7 +284,7 @@ the manager's decision.
 ### Task 9 – Update Rejected Assessment
 
 1.  Click **Add an Action** of the **If No** branch of the **Check Response**
-    condition (there should be two **If No** branches, click within the first one).
+    condition.
 
 2.  Select **Microsoft Dataverse** and select **Update a row**.
 
