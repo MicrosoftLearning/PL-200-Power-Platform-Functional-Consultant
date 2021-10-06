@@ -162,14 +162,12 @@ the manager's decision.
 
 3.  Select **Users** for **Table name**, and click in the **Row ID** field.
 
-4.  Click **See more** in the **Update Waiting Assessment** section.
+4.  Select **Created By (Value)** from the **Dynamic Content** pane in the **Update Waiting Assessment** section (you may have to click **See more**).
 
-5.  Select **Created By (Value)** from the **Dynamic Content** pane.
-
-6.  Click on the ellipses (**…**) of the **Get a row by ID** step and select
+4.  Click on the ellipses (**…**) of the **Get a row by ID** step and select
     **Rename**.
 
-7.  Rename the step **Get Created User**.
+6.  Rename the step **Get Created User**.
 
 ### Task 6 – Start Approval
 
