@@ -86,79 +86,83 @@ In this exercise, you will acquire a PVA trial and create a bot.
 
 1.  Select **Topics** and click **+ New topic**.
 
-2.  Enter **Cancel order** for Name, enter **Cancel order** as a trigger phrase
-    and click **+ Add**.
+2.  Enter **Cancel order** for Name.
 
-3.  Enter **Cancel** as a trigger phrase and click **+ Add**.
+3.  Enter **Cancel order** as a trigger phrase
+    and click **Add**.
 
-4.  The **Cancel order** topic should now have two trigger phrases. Click **Go
+4.  Enter **Cancel** as a trigger phrase and click **Add**.
+
+5.  The **Cancel order** topic should now have two trigger phrases. Click **Go
     to authoring canvas**.
 
-5.  Enter **Orders must be cancelled at least 48 hours before your scheduled
+6.  Enter **Orders must be cancelled at least 48 hours before your scheduled
     event. Your deposit will not be refunded.** for **Message** and click the
     **plus (add node)** button. Note: when you copy and paste from the lab, you
     may see some styling in the canvas. Feel free to keep the styling or change
     it to your preferences.
 
-6.  Select **Show a message**.
+7.  Select **Show a message**.
 
-7.  Enter **Only live agents can process a cancellation request.** for
+8.  Enter **Only live agents can process a cancellation request.** for
     **Message** and click the **plus (add node)** sign again.
 
-8.  Select **Ask a question**.
+9.  Select **Ask a question**.
 
-9.  Enter **Would you like to talk to one now?** for question, enter **Yes** as
+10.  Enter **Would you like to talk to one now?** for question, enter **Yes** as
     an option, and click **+ New option**.
 
-10. Enter **No** as the second option. You should now have two condition
+11. Enter **No** as the second option. You should now have two condition
     branches.
 
-11. Go to the **Yes** branch and click the **add node** button.
+12. Scroll down to the **Yes** branch and click the **+ add node** button.
 
-12. Hover over the **End the conversation** option and select **Transfer to
+13. Hover over the **End the conversation** option and select **Transfer to
     agent**.
 
-13. Enter **Customer would like to cancel order.** for **Private message to
+14. Enter **Customer would like to cancel order.** for **Private message to
     agent**.
 
-14. Go to the **No** branch and click **Add node**.
+15. Go to the **No** branch and click **Add node**.
 
-15. Select **Show a message**.
+16. Select **Show a message**.
 
-16. Enter **Can I help you with anything else?** for **Message**.
+17. Enter **Can I help you with anything else?** for **Message**.
 
-17. Click **Save**.
+18. Click the **Save** icon.
 
 ### Task 2: Create a New order topic
 
 1.  Select **Topics** and click **+ New topic**.
 
-2.  Enter **New order** for **Name**, enter **New order** as a trigger phrase
+2.  Enter **New order** for **Name**.
+
+3.  Enter **New order** as a trigger phrase
     and click **Add**.
 
-3.  Enter **Place an order** as a trigger phrase and click **Add**.
+4.  Enter **Place an order** as a trigger phrase and click **Add**.
 
-4.  Enter **Make a new order** as a trigger phrase and click **Add**.
+5.  Enter **Make a new order** as a trigger phrase and click **Add**.
 
-5.  The New order topic should now have three trigger phrases. Click **Go to
+6.  The New order topic should now have three trigger phrases. Click **Go to
     authoring canvas**.
 
-6.  Enter **Be advised that all new orders require a non-refundable \$100.00
+7.  Enter **Be advised that all new orders require a non-refundable $100.00
     deposit that will be applied to your total order cost.** for **Message** and
-    click **add node**.
+    click **+ add node**.
 
-7.  Select **Show a message**.
+8.  Select **Show a message**.
 
-8.  Enter **Let me transfer you to an agent to process your request.** for
-    Message and click **add node.**
+9.  Enter **Let me transfer you to an agent to process your request.** for
+    Message and click **+ add node.**
 
-9.  Hover over the **End the conversation** option and select **Transfer to
+10.  Hover over the **End the conversation** option and select **Transfer to
     agent**.
 
-10. Enter **Customer would like to place an order.** for **Private message to
+11. Enter **Customer would like to place an order.** for **Private message to
     agent**.
 
-11. The New order topic should now have three nodes. Click **Save**.
+12. The New order topic should now have three nodes. Click the **Save** icon.
 
 ### Task 3: Create a check weather topic
 
@@ -228,7 +232,7 @@ In this exercise, you will acquire a PVA trial and create a bot.
 28. Search for msn and select **Get forecast for today**.
 
 29. Click on the Location field, go to the Dynamic content pane, and select
-    **City**.
+    **City** from the Dynamic content pane.
 
 30. Add comma after the city and then select **Zip code** form the Dynamic
     content pane.
@@ -367,8 +371,8 @@ In this exercise, you will acquire a PVA trial and create a bot.
 
 1.  Select **Topics**.
 
-2.  Search for **greeting**, hover over the **Greeting** topic and click **Go to
-    authoring canvas**.
+2.  Search for **Greeting**, hover over the **Greeting** topic and click the **Go to
+    authoring canvas** icon.
 
 3.  Replace the first message with **Hi! I am a virtual agent here to help with
     questions ranging from ordering questions to weather-related questions.**
@@ -415,8 +419,8 @@ In this exercise, you will acquire a PVA trial and create a bot.
 
 ### Task 1: Test your bot
 
-1.  Click on the **Test bot** button located in the top-right corner of the
-    screen if it is not already expanded.
+1.  Check to see that the **Test bot** pane is visible on your screen. If it is not, click on the **Test bot** button located in the top-right corner of the
+    screen.
 
 2.  Turn on **Track between topics**.
 
@@ -452,7 +456,7 @@ In this exercise, you will acquire a PVA trial and create a bot.
 
 15. Type **Goodbye** and **Send**.
 
-16. Click **Hide bot**.
+16. Close the **Test bot** pane.
 
 ### Task 2: Publish your bot
 
@@ -460,7 +464,7 @@ In this exercise, you will acquire a PVA trial and create a bot.
 
 2.  Click **Publish** again to confirm and wait for the publishing to complete.
 
-3.  Click on the **demo website link**.
+3.  Click on the **demo website** link under **Share your bot**.
 
 4.  Interact with bot on the demo website and see how it performs.
 
