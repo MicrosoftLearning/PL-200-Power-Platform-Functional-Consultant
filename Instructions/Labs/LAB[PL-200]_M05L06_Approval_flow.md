@@ -88,7 +88,7 @@ the manager's decision.
 
 7.  Click the back button.
 
-8.  Click on the solution name located in the navigation breadcrumbs.
+8.  Navigate back to the solution.
 
 9.  Click **Publish All Customizations**.
 
@@ -106,15 +106,15 @@ the manager's decision.
 4.  Type into the search box **Microsoft Dataverse** and select **When a row is
     added, modified, or deleted.**
 
-5.  Select **Update** for **Change type**, **Knowledge Assessments** for **Table
+5.  Select **Modified** for **Change type**, **Knowledge Assessments** for **Table
     Name**, and select **Business Unit** for **Scope**.
 
 6.  Click **Show Advanced Options**.
 
-7.  Select **crXXX_notifymanager** for **Column filter**. Replace crxxx with
+7.  Enter **crXXX_notifymanager** for **Select columns**. Replace crxxx with
     your environment prefix.
 
-8.  Click on the **… Menu** button and select **Rename**.
+8.  Click on the ellipses (**…**) and select **Rename**.
 
 9.  Rename the step **When Assessment is Updated**.
 
@@ -131,7 +131,7 @@ the manager's decision.
 
 5.  Select the last field and type **true**.
 
-6.  Click on the **… Menu** button of the condition and select **Rename**.
+6.  Click on the ellipses (**…**) of the condition and select **Rename**.
 
 7.  Rename the condition **Check Notification.**
 
@@ -148,27 +148,28 @@ the manager's decision.
 
 5.  Click **Show Advanced Options.**
 
-6.  Locate the **Approval Status Value** field and select **Waiting**.
+6.  Locate the **Approval Status** field and select **Waiting**.
 
-7.  Click on the **… Menu** button of the step and select **Rename**.
+7.  Click on the ellipses (**…**) of the step and select **Rename**.
 
 8.  Rename the step **Update Waiting Assessment**
 
 ### Task 4 – Get User
 
-1.  Click **Add an Action** of the **If Yes** branch.
+1.  Click **Add an Action** within the **If Yes** branch.
 
 2.  Select **Microsoft Dataverse** and select **Get a row by ID**.
 
-3.  Select **Users** for **Table name**, and click on the **Row ID** or **Row
-    ID** field.
+3.  Select **Users** for **Table name**, and click in the **Row ID** field.
 
-4.  Select **Created By (Value)** from the **Dynamic Content** pane.
+4.  Click **See more** in the **Update Waiting Assessment** section.
 
-5.  Click on the **… Menu** button of the **Get a Record** step and select
+5.  Select **Created By (Value)** from the **Dynamic Content** pane.
+
+6.  Click on the ellipses (**…**) of the **Get a row by ID** step and select
     **Rename**.
 
-6.  Rename the step **Get Created User**.
+7.  Rename the step **Get Created User**.
 
 ### Task 6 – Start Approval
 
@@ -190,21 +191,20 @@ the manager's decision.
 7.  Select **Primary Email** from the **Get Created User** section.
 
 8.  From the Advanced Options, select the **Requestor** field. Go to the
-    **Dynamic Content** pane, search for **Primary Email**, and select **Primary
+    **Dynamic Content** pane and select **Primary
     Email** from the **Get Created User** section.
 
-9.  Select the **Details** field, go to the **Dynamic Content** pane, search for
-    **Full Name**, and select **Full Name** from the **Get Created User**
+9.  Select the **Details** field, go to the **Dynamic Content** pane and select **Full Name** from the **Get Created User**
     section.
 
-10. Add a comma after the **Full Name** and type **created an assessment that
-    requires manager’s approval.**
+10. Add a space after the **Full Name** and type "**created an assessment that
+    requires manager’s approval.**"
 
 11. Press the enter key to start a new line.
 
 12. Type **Assessment Name:**
 
-13. Go to the **Dynamic Content** pane, search for **Title**, and select
+13. Go to the **Dynamic Content** pane and select
     **Title** from the **When Assessment is Updated** section.
 
 14. Press enter key to start a new line.
@@ -215,13 +215,13 @@ the manager's decision.
     **Full Name** from the **Get Created User** section.
 
 17. It is good practice to include a link to the record that needs the approval.
-    Start a new browser window and navigate to make.powerapps.com.
+    Start a new browser window and navigate to <https://make.powerapps.com>.
 
 18. In your new window, make sure you are in your **Practice** environment.
 
 19. Select **Apps** and click to open the **Knowledge Admin** application.
 
-20. Open any assessment.
+20. Open any Knowledge Assessment.
 
 21. Find the **Pop Out** button located in bottom left of the form and click on
     it. (It will be in the bar at the very bottom of the page, and will be next
@@ -252,14 +252,14 @@ the manager's decision.
 
 2.  Search for **Condition** and select **Condition** control.
 
-3.  Click on the first Choose a Value field and select **Outcome** from the
+3.  Click on the first **Choose a value** field and select **Outcome** from the
     Dynamic Content pane.
 
 4.  Leave **Is Equals to** as the operator.
 
 5.  Click on the **Choose a Value** field and type **Approve**.
 
-6.  Click on the **… Menu** button of the condition and select **Rename**.
+6.  Click on the ellipses (**…**) of the condition and select **Rename**.
 
 7.  Rename the condition **Check Response**.
 
@@ -273,20 +273,20 @@ the manager's decision.
 3.  Select **Knowledge Assessments** for **Table name** and click on the **Row
     ID** field.
 
-4.  From the **Dynamic Content** pane, select **Knowledge Assessment**n.
+4.  From the **Dynamic Content** pane, select **Knowledge Assessment**.
 
-5.  Click **Show Advanced Options**.
+5.  Click **Show advanced options**.
 
-6.  Locate the **Approval Status Value** field and select **Approved**.
+6.  Locate the **Approval Status** field and select **Approved**.
 
-7.  Click on the **… Menu** button of the step and select **Rename**.
+7.  Click on the ellipses (**…**) of the step and select **Rename**.
 
 8.  Rename the step **Update Approved Assessment**.
 
 ### Task 9 – Update Rejected Assessment
 
 1.  Click **Add an Action** of the **If No** branch of the **Check Response**
-    condition.
+    condition (there should be two **If No** branches, click within the first one).
 
 2.  Select **Microsoft Dataverse** and select **Update a row**.
 
@@ -297,9 +297,9 @@ the manager's decision.
 
 5.  Click **Show Advanced Options**.
 
-6.  Locate the **Approval Status Value** field and select **Rejected**.
+6.  Locate the **Approval Status** field and select **Rejected**.
 
-7.  Click on the **… Menu** button of the step and select **Rename**.
+7.  Click on the ellipses (**…**) of the step and select **Rename**.
 
 8.  Rename the step **Update Rejected Assessment**.
 
@@ -313,7 +313,7 @@ the manager's decision.
 
 3.  Select **Apps** and click to open the **Knowledge Admin** application.
 
-4.  Select **Knowledge Assessment** and click to open the **Test Assessment**.
+4.  Open any Knowledge Assessment.
 
 5.  Locate the **Approval Status** and make sure no value is selected.
 
@@ -332,7 +332,7 @@ the manager's decision.
 12. Expand **Action items** and select **Approvals**.
 
 13. You should see an approval with the title **Manager Notification Approval**.
-    Click on the approval tile.
+    Click on the approval tile. This may take up to 15 minutes to show, due to provisioning.
 
 14. The approval pane will open. Make sure the information in the details is
     what you expected.
@@ -343,11 +343,11 @@ the manager's decision.
 
 17. Close the Knowledge Assessment.
 
-18. Select **Approve**.
+18. Select **Approve** in **Choose your response**.
 
-19. Add **Comment** and click **Confirm**.
+19. Add a **Comment** and click **Confirm**.
 
-20. Click **Done**Close the approval pane.
+20. Click **Done** to close the approval pane.
 
 21. Select the **History** tab.
 
