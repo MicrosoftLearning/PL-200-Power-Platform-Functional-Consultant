@@ -77,51 +77,53 @@ Dataverse User security role.
 2.  Enter **Knowledge Assessment User** for **Name** and click **Copy**.
 
 3.  The new security role will be created. Select
-    the role, select edit, and your new security role will open. Select the
+    the role, select edit, and your new security role will open. 
+    
+4.  Select the
     **Custom Entities** tab.
 
-4.  Locate the **Knowledge Assessment** table and click on the Read access
+5.  Locate the **Knowledge Assessment** table and click on the Read access
     circle. The security role will get **User** access to the **Knowledge
     Assessment** table. Users with this security role will have **Read**
     privilege to the rows owned by the user or are shared with the user.
 
-5.  Click on the **Read** access circle again. The security role will now get
+6.  Click on the **Read** access circle again. The security role will now get
     **Business Unit** access. Users with this security role will get **Read**
     access to all rows owned by the business unit the user belongs to.
 
-6.  Click the **Read** access circle again. The security role will now get
+7.  Click the **Read** access circle again. The security role will now get
     **Parent: Child Business Units access**. Users with this security role will
     get **Read** access to all rows owned by the business unit the user belongs
     to and all its child business units.
 
-7.  Click on the **Read** access circle one more time. The security role will
+8.  Click on the **Read** access circle one more time. The security role will
     now get **Organization** access. Users with this security role will get
     **Read** access to all rows owned by the organization.
 
-8.  Locate the **Knowledge Question** table and click on the **Read** access
+9.  Locate the **Knowledge Question** table and click on the **Read** access
     circle four times. This action will give the security role **Organization**
     Read access to the **Knowledge Question** table.
 
-9.  Locate the **Knowledge Test Result** table and click on the **Create**
+10.  Locate the **Knowledge Test Result** table and click on the **Create**
     circle one time.
 
-10. Locate the **Read** circle of the **Knowledge Test Result** table and click
+11. Locate the **Read** circle of the **Knowledge Test Result** table and click
     Four times.
 
-11. Locate the **Write** circle of the **Knowledge Test Result** table and click
+12. Locate the **Write** circle of the **Knowledge Test Result** table and click
     one time.
 
     The security role will get organization-wide level Read privilege and user-
     level Create/Write privileges to the Knowledge Test Result table.
 
-12. Select the **Core Records** tab.
+13. Select the **Core Records** tab.
 
-13. Locate the **Feedback** table and click on the **Create** circle one time
+14. Locate the **Feedback** table and click on the **Create** circle one time
     and click on the **Write** circle one time.
 
-14. Click **Save and Close**.
+15. Click **Save and Close**.
 
-15. Navigate back to the Power Platform admin center security roles window.
+16. Navigate back to the Power Platform admin center security roles window.
 
 ### Task 3 – Create Security Role
 
