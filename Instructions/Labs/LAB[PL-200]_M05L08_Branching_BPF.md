@@ -46,7 +46,7 @@ begin the labs.
 
 4.  Click to open the **Common Data Services Default Solution**.
 
-5.  Click \*\* Add existing\*\* and select **Process**.
+5.  Click **Add existing** and select **Automation** > **Process**.
 
 6.  Select **Assessment Process** and click **Add**.
 
@@ -69,7 +69,7 @@ begin the labs.
 
 14. Click **Done**
 
-15. Click **Publish all customizations**
+15. Navigate back to the solutions and click **Publish all customizations**
 
 ### Task 2 – Add Business Lock Unlock Rule
 
