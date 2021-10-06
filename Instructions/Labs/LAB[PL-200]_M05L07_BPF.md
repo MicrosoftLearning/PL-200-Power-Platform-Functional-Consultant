@@ -40,7 +40,7 @@ business process flows and then build a business process flow.
 
 5.  Click to open the **Knowledge Assessment** table.
 
-6.  Click select the **Columns** tab and **+ Add Column**.
+6.  Click **+ Add Column**.
 
 7.  Enter **Passing Score (%)** for **Display Name**, select **Whole Number**
     for **Data Type** and click **Done**.
@@ -68,10 +68,9 @@ business process flows and then build a business process flow.
 
 6.  Click the back button.
 
-7.  Click on the solution name **Common Data Services Default Solution** located
-    in the navigation breadcrumbs.
+7.  Navigate back to the solution.
 
-8.  Click **Publish All Customizations**.
+8.  Click **Publish all customizations**.
 
 ## Exercise 2 – Create Business Process Flow
 
@@ -91,12 +90,12 @@ business process flows and then build a business process flow.
 
 6.  Click **Create.**
 
-7.  Select the stage, select the **Properties** tab, enter **Knowledge
+7.  Select the stage and on **Properties** tab, enter **Knowledge
     Assessment** for **Display Name** and click **Apply**.
 
-8.  Click the **Details** of the **Knowledge Assessment** stage.
+8.  Click the **Details** on the **Knowledge Assessment** stage.
 
-9.  Select the **Data Step \#1**.
+9.  Select **Data Step \#1**.
 
 10. Select **Passing Score (%)** for **Data Field** and click **Apply**.
 
@@ -118,7 +117,7 @@ business process flows and then build a business process flow.
 17. Select **Create Questions** for **Data Field**, check the **Required**
     checkbox, and click **Apply**.
 
-18. Add the new stage to the right of the **Knowledge Assessment** stage by
+18. Add a new stage to the right of the **Knowledge Assessment** stage by
     dragging from the components tab.
 
 19. Select the new stage, go to the **Properties** tab, enter **Activate** for
@@ -130,8 +129,8 @@ business process flows and then build a business process flow.
 
 22. Select **Status** for **Data Field** and click **Apply**.
 
-23. Select the Components tab, drag Data Step, and place it below the Status
-    step.
+23. Select the **Components** tab, drag **Data Step** from the **Components**
+    tab, and drop it below the **Status** step.
 
 24. Select **Approval Status** for **Data Field** and click **Apply**.
 
@@ -151,10 +150,10 @@ business process flows and then build a business process flow.
 
 3.  Select **Apps** and click to open the **Knowledge Admin** application.
 
-4.  Select **Knowledge Assessment** and click to open **Test Assessment Four**.
+4.  Navigate to **Knowledge Assessments** and open **Test Assessment Four**.
 
 5.  Existing records will not pick up the Business Process Flow you created.
-    Click **Process** and select **Switch Process**.
+    Click **Process** on the command bar and select **Switch Process** (you may have to click the ellipses (**...**) to see this option).
 
 6.  Select the **Assessment Process** you created and click **OK**.
 
@@ -172,13 +171,13 @@ business process flows and then build a business process flow.
 
 13. Enter **Process Test Question One** for **Question**.
 
-14. Enter **Answer One** for **Answer 1**, **50** for **Answer 1 Points**.
+14. Enter **Answer One** for **Answer 1** and **50** for **Answer 1 Points**.
 
-15. Enter **Answer Two** for **Answer 2**, **80** for **Answer 2 Points**.
+15. Enter **Answer Two** for **Answer 2** and **80** for **Answer 2 Points**.
 
-16. Enter **Answer Three** for **Answer 3**, **0** for **Answer 3 Points**.
+16. Enter **Answer Three** for **Answer 3** and **0** for **Answer 3 Points**.
 
-17. Enter **Answer Four** for **Answer 4**, **0** for **Answer 4 Points**.
+17. Enter **Answer Four** for **Answer 4** and **0** for **Answer 4 Points**.
 
 18. Click **Save**.
 
@@ -207,9 +206,9 @@ business process flows and then build a business process flow.
 
 29. Expand **Action Items** and select **Approvals**.
 
-30. You should have one approval waiting for you. Click on the approval.
+30. You should have one new approval waiting for you. Click on the approval.
 
-31. The Approval pane will open. Select **Approve**.
+31. The Approval pane will open. Select **Approve** in **Choose your response**.
 
 32. Provide **Comments** and click **Confirm**.
 
