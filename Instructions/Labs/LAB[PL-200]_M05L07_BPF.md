@@ -54,6 +54,10 @@ business process flows and then build a business process flow.
 
 11. Click **Save Table**.
 
+12. Navigate back to the solution.
+
+13. Click **Publish all customizations**.
+
 ### Task 2 – Add Column to Knowledge Assessment Form
 
 1.  Make sure you still have the **Knowledge Assessment** table selected.
