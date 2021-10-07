@@ -61,15 +61,13 @@ begin the labs.
 10. Go to **Rule 1,** select **Notify Manager** for **Field**, select **Value**
     for **Type**, select **Yes** for **Value**, and click **Apply**.
 
-11. Select the **Condition**, click **Connector** and select **Disconnect**.
+11. Click **Update**.
 
-12. Click **Update**.
+12. Close the process editor.
 
-13. Close the process editor.
+13. Click **Done**
 
-14. Click **Done**
-
-15. Navigate back to the solutions and click **Publish all customizations**
+14. Navigate back to the solutions and click **Publish all customizations**
 
 ### Task 2 – Add Business Lock Unlock Rule
 
