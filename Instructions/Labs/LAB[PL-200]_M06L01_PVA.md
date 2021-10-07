@@ -286,10 +286,10 @@ In this exercise, you will acquire a PVA trial and create a bot.
 
 52. Select **Day_Summary**.
 
-53. Type a space. Then type **There is a**, another space, and then insert the
+53. Type a space. Then type "**There is a**", another space, and then insert the
     **Chance_of_Rain** variable.
 
-54. Type another space, type **percent chance of rain in**, enter another space,
+54. Type another space, type "**percent chance of rain in**", enter another space,
     and then insert the **Location** variable. Add a period after the location
     variable to end your sentence.
 
