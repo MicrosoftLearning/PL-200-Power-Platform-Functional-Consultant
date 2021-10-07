@@ -237,9 +237,9 @@ the manager's decision.
 
     https://practice.crm.dynamics.com/main.aspx?appid=97595509-8a00-458d-856d-1569b42d6282&pagetype=entityrecord&etn=cre7f_knowledgeassessment&id=
 
-26. Go back to the flow and select the Item Link field.
+26. Go back to the flow and select the **Item Link** field.
 
-27. Paste the **URL** you copied.
+27. Paste the **URL** you copied into the **Item Link** field.
 
 28. Go to the **Dynamic Content** pane, search for **Knowledge Assessment** and
     select **Knowledge Assessment** from either section.
