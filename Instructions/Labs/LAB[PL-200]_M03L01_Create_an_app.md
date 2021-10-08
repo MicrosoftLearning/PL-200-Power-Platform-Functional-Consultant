@@ -172,6 +172,8 @@ the upcoming canvas app module.
 
 3.  Click **New, App, Canvas App,** and then **Tablet Form Factor**.
 
+4.  In the App name field, enter **Fabrikam Knowledge**. Click **Create**.
+
 4.  Click **Skip** if you see a prompt before the designer loads.
 
 5.  The Canvas App Designer will load. Hover over **Screen1** and click on the
