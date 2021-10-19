@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 6.1: Build a chatbot'
-    module: 'Module 6: Work with Power Virtual Agents'
+    title: 'Lab 10.1: Build a chatbot'
+    module: 'Module 10: Work with Power Virtual Agents'
 ---
 
-Module 6: Work with Power Virtual Agents
+Module 10: Work with Power Virtual Agents
 =================================
 
-## Lab 6.1: Practice Lab – Build a chatbot
+## Lab 10.1: Practice Lab – Build a chatbot
 
 ### Important Notice (Effective November 2020):
 Common Data Service has been renamed to Microsoft Dataverse. Some terminology in Microsoft Dataverse has been updated. For example, entity is now table and field is now column. 
