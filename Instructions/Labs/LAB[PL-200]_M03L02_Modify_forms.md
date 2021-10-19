@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 4.2: Modify forms'
-    module: 'Module 4: Build Power Apps'
+    title: 'Lab 3.2: Modify forms'
+    module: 'Module 3: Make model-driven apps with Power Apps'
 ---
 
-Module 4: Build Power Apps
+Module 3: Make model-driven apps with Power Apps
 ============================================
 
-## Lab 4.2: Practice Lab – Modifying forms
+## Lab 3.2: Practice Lab – Modify forms
 
 ### Important Notice (Effective November 2020):
 Common Data Service has been renamed to Microsoft Dataverse. Some terminology in Microsoft Dataverse has been updated. For example, entity is now table and field is now column. 
