@@ -1,14 +1,14 @@
 ---
 lab:
-    title: 'Lab 7.3: Build an Excel template'
-    module: 'Module 7: Analyze data with Power BI'
+    title: 'Lab 12.5: Build an Excel template'
+    module: 'Module 12: Putting it all together'
 ---
 
 
-Module 7: Analyze data with Power BI
+Module 12: Putting it all together
 =================================
 
-### Lab 7.3: Practice Lab – Build an Excel template
+### Lab 12.5: Practice Lab – Build an Excel template
 
 ### Important Notice (Effective November 2020):
 Common Data Service has been renamed to Microsoft Dataverse. Some terminology in Microsoft Dataverse has been updated. For example, entity is now table and field is now column. 
