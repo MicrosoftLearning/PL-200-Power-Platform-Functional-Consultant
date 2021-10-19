@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 4.7: Work with data and services'
-    module: 'Module 4: Build Power Apps'
+    title: 'Lab 4.2: Work with data and services'
+    module: 'Module 4: Make canvas apps with Power Apps'
 ---
 
-Module 4: Build Power Apps
+Module 4: Make canvas apps with Power Apps
 ======================================
 
-Lab 4.7: Practice Lab – Work with data and services
+Lab 4.2: Practice Lab – Work with data and services
 
 ### Important Notice (Effective November 2020):
 Common Data Service has been renamed to Microsoft Dataverse. Some terminology in Microsoft Dataverse has been updated. For example, entity is now table and field is now column. 
