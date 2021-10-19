@@ -4,7 +4,7 @@ lab:
     module: 'Module 3: Make model-driven apps with Power Apps'
 ---
 
-Module 3: Make model-driven apps with Power App
+Module 3: Make model-driven apps with Power Apps
 ============================================
 
 ## Lab 3.1: Practice Lab – Use app designer
