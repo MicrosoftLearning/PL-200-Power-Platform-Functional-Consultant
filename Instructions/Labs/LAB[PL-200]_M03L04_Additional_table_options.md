@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 3.4: Additional table options'
-    module: 'Module 3: Work with Dataverse'
+    title: 'Lab 2.4: Additional table options'
+    module: 'Module 2: Work with Dataverse'
 ---
 
-Module 3: Work with Dataverse
+Module 2: Work with Dataverse
 ====================
 
-## Lab 3.4: Additional table options
+## Lab 2.4: Additional table options
 
 ### Important Notice (Effective November 2020):
 Common Data Service has been renamed to Microsoft Dataverse. Some terminology in Microsoft Dataverse has been updated. For example, entity is now table and field is now column. 
