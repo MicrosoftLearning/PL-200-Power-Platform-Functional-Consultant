@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 4.8: User experience'
-    module: 'Module 4: Build Power Apps'
+    title: 'Lab 4.3: User experience'
+    module: 'Module 4: Make canvas apps with Power Apps'
 ---
 
-Module 4: Build Power Apps
+Module 4: Make canvas apps with Power Apps
 ======================================
 
-Lab 4.8: Practice Lab – User experience
+Lab 4.3: Practice Lab – User experience
 
 ### Important Notice (Effective November 2020):
 Common Data Service has been renamed to Microsoft Dataverse. Some terminology in Microsoft Dataverse has been updated. For example, entity is now table and field is now column. 
