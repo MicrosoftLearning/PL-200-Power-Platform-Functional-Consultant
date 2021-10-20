@@ -124,7 +124,7 @@ be based on the Modified On column first.
 
 In this task, you will use the Save As feature to create a template for new
 views. An easy way to create views is to create the first one with all the
-columns you want, then save as the view and change the filter to what the new
+columns you want, then **Save As** the view and change the filter to what the new
 view needs.
 
 1.  Add **Days Remaining** as the last column in the view. 
