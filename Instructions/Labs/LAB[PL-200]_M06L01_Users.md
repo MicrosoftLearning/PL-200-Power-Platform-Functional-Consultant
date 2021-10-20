@@ -67,13 +67,13 @@ In this task, you create users and assign licenses to them.
 
 11. Select **Next.** Assign the **Microsoft Power Apps Plan 2 Trial** license.
 
-14. Click **Next.** On the next page, click **Next** again. Finally, click
+12. Click **Next.** On the next page, click **Next** again. Finally, click
     **Finish adding.**
 
-15. Click **Close.**
+13. Click **Close.**
 
-16. Repeat steps 4-16 for **User Two.**
+14. Repeat steps 4-16 for **User Two.**
 
-17. Repeat steps 4-16 for **Manager User.**
+15. Repeat steps 4-16 for **Manager User.**
 
-18. Your new users should now be on the list of active users in Office.
+16. Your new users should now be on the list of active users in Office.

@@ -61,7 +61,7 @@ ShowResults is true.
     Clear(UserAnswers);UpdateContext({ShowResults:false})
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-10.  Select the **OnSelect** property of the **score Button**.
+10.  Select the **OnSelect** property of the **Score Button**.
 
 11.  Add the snippet below to the content you currently have. This snippet will
     add a function that will set the **ShowResults** value to **true**.
@@ -115,7 +115,7 @@ and enable it when there is at least one answer selected.
 
 1.  Select the **Score Button**.
 
-2.  With the **ScoreButton** selected, set the **DisplayMode** property to the
+2.  With the **Score Button** selected, set the **DisplayMode** property to the
     snippet below. This snippet will disable the button if there are no answers
     selected and enable it if there is at least one answer selected.
 
