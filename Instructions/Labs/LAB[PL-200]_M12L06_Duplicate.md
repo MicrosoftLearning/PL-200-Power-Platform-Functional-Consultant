@@ -38,7 +38,7 @@ number, but the Contact with same business phone number duplicate detection rule
 tags these Contacts as duplicates.
 
 In this task, you will enhance the Contact with the same business phone number
-rule by adding criteria to match of last name.
+rule by adding criteria to match on last name.
 
 1.  Navigate to <https://make.powerapps.com>.
 
