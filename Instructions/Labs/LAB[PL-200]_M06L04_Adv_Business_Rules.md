@@ -1,10 +1,10 @@
 ---
 lab:
     title: 'Lab 6.4: Advanced business rules'
-    module: 'Module 6: Automation overview'
+    module: 'Module 6: Introduction to automation'
 ---
 
-Module 6: Automation overview
+Module 6: Introduction to automation
 ========================
 
 ## Lab 6.4: Practice Lab – Advanced business rules
