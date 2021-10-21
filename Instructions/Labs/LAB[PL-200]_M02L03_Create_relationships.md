@@ -7,7 +7,7 @@ lab:
 Module 2: Work with Dataverse
 ====================
 
-## Lab 3.3: Practice Lab – Create relationships
+## Lab 2.3: Practice Lab – Create relationships
 
 ### Important Notice (Effective November 2020):
 Common Data Service has been renamed to Microsoft Dataverse. Some terminology in Microsoft Dataverse has been updated. For example, entity is now table and field is now column. 
