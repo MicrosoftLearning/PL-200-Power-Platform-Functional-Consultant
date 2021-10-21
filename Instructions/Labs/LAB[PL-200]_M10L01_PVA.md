@@ -1,10 +1,10 @@
 ---
 lab:
     title: 'Lab 10.1: Build a chatbot'
-    module: 'Module 10: Work with Power Virtual Agents'
+    module: 'Module 10: Build chatbots with Power Virtual Agents'
 ---
 
-Module 10: Work with Power Virtual Agents
+Module 10: Build chatbots with Power Virtual Agents
 =================================
 
 ## Lab 10.1: Practice Lab – Build a chatbot
