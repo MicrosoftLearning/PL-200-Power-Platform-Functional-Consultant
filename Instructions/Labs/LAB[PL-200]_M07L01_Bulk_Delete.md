@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 12.1: Bulk delete data'
-    module: 'Module 12: Putting it all together'
+    title: 'Lab 7.1: Bulk delete'
+    module: 'Module 7: Analyze data with Power BI'
 ---
 
-Module 12: Putting it all together
+Module 7: Analyze data with Power BI
 =======================
 
-## Lab 12.1: Practice Lab – Bulk delete data
+## Lab 7.1: Practice Lab – Bulk delete
 
 ### Important Notice (Effective November 2020):
 Common Data Service has been renamed to Microsoft Dataverse. Some terminology in Microsoft Dataverse has been updated. For example, entity is now table and field is now column. 
