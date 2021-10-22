@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 12.7: Import data'
-    module: 'Module 12: Putting it all together'
+    title: 'Lab 7.5: Import data'
+    module: 'Module 7: Analyze data using Power BI'
 ---
 
-Module 12: Putting it all together
+Module 7: Analyze data using Power BI
 =======================
 
-## Lab 12.7: Practice Lab – Import data
+## Lab 7.5: Practice Lab – Import data
 
 ### Important Notice (Effective November 2020):
 Common Data Service has been renamed to Microsoft Dataverse. Some terminology in Microsoft Dataverse has been updated. For example, entity is now table and field is now column. 
