@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 9.1: Build a business process flow'
-    module: 'Module 9: Build business process flows'
+    title: 'Lab 5.7: Build a business process flow'
+    module: 'Module 5: Build a Power Automate flow'
 ---
 
-Module 9: Build business process flows
+Module 5: Build a Power Automate flow
 ================================
 
-## Lab 9.1: Practice Lab – Build a business process flow
+## Lab 5.7: Practice Lab – Build a business process flow
 
 ### Important Notice (Effective November 2020):
 Common Data Service has been renamed to Microsoft Dataverse. Some terminology in Microsoft Dataverse has been updated. For example, entity is now table and field is now column. 
