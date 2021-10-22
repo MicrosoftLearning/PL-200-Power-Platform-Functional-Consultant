@@ -1,12 +1,12 @@
 ---
 lab:
-    title: 'Lab 6.2: Create security roles'
-    module: 'Module 6: Automation overview'
+    title: 'Lab 5.2: Create security role'
+    module: 'Module 5: Build Power Automate flows'
 ---
 
-Module 6: Automation overview
+Module 5: Build Power Automate flows
 ==================
-## Lab 6.2: Practice Lab - Create security roles
+## Lab 5.2: Practice Lab - Create security role
 
 ### Important Notice (Effective November 2020):
 Common Data Service has been renamed to Microsoft Dataverse. Some terminology in Microsoft Dataverse has been updated. For example, entity is now table and field is now column. 
