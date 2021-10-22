@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 2.3: Create relationships'
-    module: 'Module 2: Work with Dataverse'
+    title: 'Lab 3.3: Creating relationships'
+    module: 'Module 3: Work with Dataverse'
 ---
 
-Module 2: Work with Dataverse
+Module 3: Work with Dataverse
 ====================
 
-## Lab 3.3: Practice Lab – Create relationships
+## Lab 3.3: Practice Lab – Creating relationships
 
 ### Important Notice (Effective November 2020):
 Common Data Service has been renamed to Microsoft Dataverse. Some terminology in Microsoft Dataverse has been updated. For example, entity is now table and field is now column. 
