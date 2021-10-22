@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 3.1: Use app designer'
-    module: 'Module 3: Make model-driven apps with Power Apps'
+    title: 'Lab 4.1: App designer'
+    module: 'Module 4: Build Power Apps'
 ---
 
-Module 3: Make model-driven apps with Power App
+Module 4: Build Power Apps
 ============================================
 
-## Lab 3.1: Practice Lab – Use app designer
+## Lab 4.1: Practice Lab – App designer
 
 ### Important Notice (Effective November 2020):
 Common Data Service has been renamed to Microsoft Dataverse. Some terminology in Microsoft Dataverse has been updated. For example, entity is now table and field is now column. 
