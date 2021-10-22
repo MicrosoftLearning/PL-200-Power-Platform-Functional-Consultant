@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 2.2: Create tables and columns'
-    module: 'Module 2: Work with Dataverse'
+    title: 'Lab 3.2: Creating tables and columns'
+    module: 'Module 3: Work with Dataverse'
 ---
 
-Module 2: Work with Dataverse
+Module 3: Work with Dataverse
 ====================
 
-## Lab 3.2: Practice Lab – Create tables and columns
+## Lab 3.2: Practice Lab – Creating tables and columns
 
 ### Important Notice (Effective November 2020):
 Common Data Service has been renamed to Microsoft Dataverse. Some terminology in
