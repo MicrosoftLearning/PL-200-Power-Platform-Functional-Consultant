@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 12.1: Build charts'
-    module: 'Module 12: Putting it all together'
+    title: 'Lab 4.4: Build charts'
+    module: 'Module 4: Build Power Apps'
 ---
 
-Module 12: Putting it all together
+Module 4: Build Power Apps
 ============================================
 
-## Lab 12.1: Build charts
+## Lab 4.4: Build charts
 
 ### Important Notice (Effective November 2020):
 Common Data Service has been renamed to Microsoft Dataverse. Some terminology in Microsoft Dataverse has been updated. For example, entity is now table and field is now column. 
