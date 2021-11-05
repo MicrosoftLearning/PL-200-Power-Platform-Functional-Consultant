@@ -32,8 +32,8 @@ In this exercise, you will edit the form for the Knowledge Assessment table.
 
 ### Task 1 – Enable Notes on the Knowledge Assessment table
 
-Initially when the table was created notes were not enabled. Since then the
-client Fabrikam has determined that they like to be able to track notes against
+Initially when the table was created notes were not enabled. Since then, the
+client Fabrikam has determined that they would like to be able to track notes against
 the knowledge assessments. We are going to make this change before getting into
 the form editor, because this is the easiest way to perform these configuration
 steps. The same is true, for example, if you need to add any columns: you should

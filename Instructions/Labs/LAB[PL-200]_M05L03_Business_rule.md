@@ -1,10 +1,13 @@
 ---
 lab:
-    title: 'Lab 5.3: Configure a new business rule'
-    module: 'Module 5: Build Power Automate flows'
+
+=======
+    title: 'Lab 6.3: Configure a new business rule'
+    module: 'Module 6: Introduction to automation'
 ---
 
-Module 5: Build Power Automate flows
+Module 6: Introduction to automation
+>>>>>>> 2021_postbetateach:Instructions/Labs/LAB[PL-200]_M06L03_Business_rule.md
 ========================
 
 ## Lab 5.3: Practice Lab – Configure a new business rule

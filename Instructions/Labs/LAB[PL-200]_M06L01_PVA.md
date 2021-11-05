@@ -1,10 +1,13 @@
 ---
 lab:
-    title: 'Lab 6.1: Build a chatbot'
-    module: 'Module 6: Work with Power Virtual Agents'
+
+=======
+    title: 'Lab 10.1: Build a chatbot'
+    module: 'Module 10: Build chatbots with Power Virtual Agents'
 ---
 
-Module 6: Work with Power Virtual Agents
+Module 10: Build chatbots with Power Virtual Agents
+>>>>>>> 2021_postbetateach:Instructions/Labs/LAB[PL-200]_M10L01_PVA.md
 =================================
 
 ## Lab 6.1: Practice Lab – Build a chatbot
@@ -32,7 +35,7 @@ In this exercise, you will acquire a PVA trial and create a bot.
 1.  Navigate to <https://powerva.microsoft.com>. Select
     your country/region and click **Start free trial**.
 
-2.  Enter **Customer service bot** for **Name**, select your **Language**,
+2.  Enter **Customer service bot** for **Name your bot**, select your **Language**,
     select your **Practice** environment, and click **Create**.
 
 3.  Wait for the bot to be created. It might take a few minutes to complete.
@@ -324,7 +327,7 @@ In this exercise, you will acquire a PVA trial and create a bot.
 
 12. Select **Show a message**.
 
-13. Enter **2 delivery people will come and set up your items** for **Message**
+13. Enter **2 delivery people will come and set up your items.** for **Message**
     and click **Add node.**
 
 14. Select **Show a message**.

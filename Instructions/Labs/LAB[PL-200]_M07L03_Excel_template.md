@@ -21,7 +21,7 @@ Scenario
 --------
 
 You are a functional consultant for Contoso building a knowledge assessment
-application for you client Fabrikam. You need to configure a template so that
+application for your client Fabrikam. You need to configure a template so that
 managers without much experience in Excel or the knowledge assessment
 application can generate an Excel report of test scores. In this lab, you will
 create an Excel template from a view, upload the template and use it against
