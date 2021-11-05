@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 5.5: Create a flow'
-    module: 'Module 5: Build Power Automate flows'
+    title: 'Lab 7.1: Create a flow'
+    module: 'Module 7: Build Power Automate cloud flows'
 ---
 
-Module 5: Build Power Automate flows
+Module 7: Build Power Automate cloud flows
 ========================
 
-## Lab 5.5: Practice Lab – Create a flow
+## Lab 7.1: Practice Lab – Create a flow
 
 ### Important Notice (Effective November 2020):
 Common Data Service has been renamed to Microsoft Dataverse. Some terminology in Microsoft Dataverse has been updated. For example, entity is now table and field is now column. 
