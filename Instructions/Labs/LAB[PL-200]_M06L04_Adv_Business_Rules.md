@@ -1,16 +1,13 @@
 ---
 lab:
-
-=======
     title: 'Lab 6.4: Advanced business rules'
     module: 'Module 6: Introduction to automation'
 ---
 
 Module 6: Introduction to automation
->>>>>>> 2021_postbetateach:Instructions/Labs/LAB[PL-200]_M06L04_Adv_Business_Rules.md
 ========================
 
-## Lab 5.4: Practice Lab – Advanced business rules
+## Lab 6.4: Practice Lab – Advanced business rules
 
 ### Important Notice (Effective November 2020):
 Common Data Service has been renamed to Microsoft Dataverse. Some terminology in Microsoft Dataverse has been updated. For example, entity is now table and field is now column. 
