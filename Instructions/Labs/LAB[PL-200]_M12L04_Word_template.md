@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 7.2: Build a Word template'
-    module: 'Module 7: Analyze data with Power BI'
+    title: 'Lab 12.4: Build a Word template'
+    module: 'Module 12: Putting it all together'
 ---
 
-Module 7: Analyze data with Power BI
+Module 12: Putting it all together
 =================================
 
-## Lab 7.2: Practice Lab – Build a Word template
+## Lab 12.4: Practice Lab – Build a Word template
 
 ### Important Notice (Effective November 2020):
 Common Data Service has been renamed to Microsoft Dataverse. Some terminology in Microsoft Dataverse has been updated. For example, entity is now table and field is now column. 
