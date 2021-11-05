@@ -1,13 +1,10 @@
 ---
 lab:
-
-=======
-    title: 'Lab 6.4: Advanced business rules'
-    module: 'Module 6: Introduction to automation'
+    title: 'Lab 5.4: Advanced business rules'
+    module: 'Module 5: Build Power Automate flows'
 ---
 
-Module 6: Introduction to automation
->>>>>>> 2021_postbetateach:Instructions/Labs/LAB[PL-200]_M06L04_Adv_Business_Rules.md
+Module 5: Build Power Automate flows
 ========================
 
 ## Lab 5.4: Practice Lab – Advanced business rules

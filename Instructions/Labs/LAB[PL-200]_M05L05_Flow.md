@@ -19,7 +19,7 @@ For more information and for a complete list of affected terms, please visit [Wh
 Scenario
 --------
 
-As a functional consultant at Contoso, you are continuing to work on a
+As a functional consultant at Contoso, you are you continuing to work on a
 model-driven Knowledge Admin app for your client Fabrikam. Your client has
 requested an automation that should run weekly without user involvement. You
 can’t schedule a workflow without custom code so you will need to use a

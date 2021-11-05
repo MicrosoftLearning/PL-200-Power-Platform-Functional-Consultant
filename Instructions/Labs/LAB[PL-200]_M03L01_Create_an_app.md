@@ -257,24 +257,27 @@ of the current user to the header.
 
 8.  Change the Font **Color** to **White.**
 
-9.   Click **Text align** from the Properties tab on the right and select **Align right.**
+9.  Click **Align** and select **Right** from the top menu.
 
-10.  Set **Position Y** to **0**.
+10.  Click **Text align** from the Properties tab on the right and select **Align
+    right.**
 
-11.  Locate **Size** and set the Height to **60**.
+11.  Set **Position Y** to **0**.
 
-12.  Locate **Padding** and enter **10** for **Right**.
+12.  Locate **Size** and set the Height to **60**.
 
-13.  Click **File** and select **Save**.
+13.  Locate **Padding** and enter **10** for **Right**.
 
-14. Click on the **Back** button.
+14.  Click **File** and select **Save**.
 
-15. Click **Play**.
+15. Click on the **Back** button.
 
-16. Your application will load.
+16. Click **Play**.
 
-17. Close the preview.
+17. Your application will load.
 
-18. Close the Canvas App Designer.
+18. Close the preview.
 
-19. Click **Leave**.
+19. Close the Canvas App Designer.
+
+20. Click **Leave**.

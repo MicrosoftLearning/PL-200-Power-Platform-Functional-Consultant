@@ -20,7 +20,8 @@ Scenario
 --------
 
 You are a functional consultant for your organization Contoso. You are assigned
-to work on a project for your client Fabrikam. In this practice,
+to work on a project for your client Fabrikam. In this practice you will be
+continuing your work on the model-driven Knowledge Admin app. In this practice,
 you will be creating a chart to use as a leader board to show the top 5-point
 earners based on the Knowledge Test Result data.
 
@@ -44,7 +45,7 @@ In this exercise, you will create a chart using the Knowledge Test Result data.
 
 7.  Click **Add Chart**.
 
-8.  Enter **Leader Board** for name.
+8.  Enter **Leader Board** for **Name**.
 
 9.  Click **Charts \> Bar** to expand the dropdown and select **Bar**.
 

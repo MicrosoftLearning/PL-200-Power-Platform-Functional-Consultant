@@ -20,7 +20,7 @@ Scenario
 --------
 
 You are a functional consultant for Contoso building a knowledge assessment
-application for your client Fabrikam. You need to configure a template so that
+application for you client Fabrikam. You need to configure a template so that
 managers can easily generate a certificate of completion to give users after
 achieving a passing score. In this lab, you will create a certificate of
 completion through a Word template and update that Word template to the app.
@@ -60,7 +60,7 @@ In this task, you will create a Knowledge Test Result record.
 ### Task 2 – Create Template
 
 In this task, you will create the template. You will do this by downloading the
-starting template for the table. You will also enable the Developer menu in
+starting template for the table. You will also enable to Developer menu in
 Microsoft Word.
 
 1.  Click on the **Word Template** button located on the command bar and select
@@ -114,7 +114,7 @@ Dataverse.
 
 5.  Click **Shape Outline** and select **No Outline**.
 
-6.  Select the **Home** tab and select **Center.**
+6.  Select the **Home** tab and select **Align Center.**
 
 7.  Replace the placeholder text with **Certificate of Completion**.
 
@@ -134,7 +134,7 @@ Dataverse.
 
 14. Click **Shape Outline** and select **No Outline**.
 
-15. Select the **Home** tab and select **Center.**
+15. Select the **Home** tab and select **Align Center.**
 
 16. Replace the with **This certificate was presented to:**
 
@@ -170,7 +170,7 @@ Dataverse.
 31. Right click on the **Title** field, click **Insert Content Control**, and
     select **Plain Text.**
 
-32. Place your cursor after the **Title** control and type **with** .
+32. Place your cursor in front of the **Title** control and type **with** .
 
 33. Make sure your text box is selected. Go to the **XML Mapping** pane and go
     to the **Knowledge Test Result** table.

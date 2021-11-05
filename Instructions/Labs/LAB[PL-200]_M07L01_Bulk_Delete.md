@@ -89,7 +89,7 @@ In this task, you will test the bulk delete operation you created.
 
 6.  Change the **End Date** to **Seven Months** in the past.
 
-7.  Click **Save and Close**.
+7.  Click **Save**.
 
 8.  Wait for the bulk delete job to complete at the designated time. The row
     will be deleted.

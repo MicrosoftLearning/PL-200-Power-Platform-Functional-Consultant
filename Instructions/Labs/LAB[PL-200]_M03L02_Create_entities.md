@@ -244,7 +244,7 @@ columns.
 ## Exercise 4 – Add existing tables to the solution
 
 In this exercise, you will be adding the existing tables Feedback and User. This
-ensures when relationships are created later between these tables, they will be
+ensures when relationships are created later between theses tables they will be
 tracked as part of the solution.
 
 ### Task 1 – Add existing tables
