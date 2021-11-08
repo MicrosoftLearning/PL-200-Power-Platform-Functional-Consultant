@@ -7,7 +7,7 @@ lab:
 Module 12: Putting it all together
 =======================
 
-## Lab 12.8: Practice Lab – Export data
+## Lab 12.8: Export data
 
 ### Important Notice (Effective November 2020):
 Common Data Service has been renamed to Microsoft Dataverse. Some terminology in Microsoft Dataverse has been updated. For example, entity is now table and field is now column. 
