@@ -7,7 +7,7 @@ lab:
 Module 4: Make canvas apps with Power Apps
 ======================================
 
-Lab 4.3: Practice Lab – User experience
+## Lab 4.3: Practice Lab – User experience
 
 ### Important Notice (Effective November 2020):
 Common Data Service has been renamed to Microsoft Dataverse. Some terminology in Microsoft Dataverse has been updated. For example, entity is now table and field is now column. 
