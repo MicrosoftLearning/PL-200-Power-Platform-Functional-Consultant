@@ -253,6 +253,8 @@ of the current user to the header.
    User().FullName
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+**Note:** Make sure there should not be any quotation mark when you replace the text property value to **User().FullName** .
+
 6.  The user’s Full Name will now be displayed on the label. Select the **Home**
     tab and make sure the text box is selected.
 
@@ -272,7 +274,7 @@ of the current user to the header.
 
 14. Click on the **Back** button.
 
-15. Click **Play**.
+15. Click **Play**. Click **OK** if you see a prompt before the designer loads.
 
 16. Your application will load.
 
