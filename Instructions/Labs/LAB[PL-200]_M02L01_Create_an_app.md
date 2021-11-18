@@ -120,8 +120,8 @@ started will be easy.
 
 ### Task 1 – Create a model-driven app
 
-1.  Go back to <https://make.powerapps.com> and make
-    sure to select your **Practice** environment from the list(It will probably say **Contoso
+1.  Go back to <https://make.powerapps.com>. Make
+    sure to select your **Practice** environment from the environment selector list(It will probably say **Contoso
     (Default)**.)
 
 2.  Click on **+ Create** and select **Model-driven app from blank.** By default **Classic app designer** option is selected. Select
@@ -182,13 +182,15 @@ will build out the detailed user experience in the upcoming canvas app module.
 
 2.  Select **Solutions** and open **Common Data Services Default Solution**.
 
-3.  Click **New, App, Canvas App,**.
+    If you see a popup message with **Solutions have a new look**, close it.
+    
+3.  Click **+ New >> App >> Canvas App,**.
 
-4.  Enter **Fabrikam Assessment** for **Name** and **Tablet Form Factor** for **Format**. 
+4.  Enter **Fabrikam Assessment** for **App Name** and **Tablet** for **Format**. 
 
 5.  Click **Create**. Click **Skip** if you see a prompt before the designer loads.
 
-6.  The Canvas App Designer will load. Hover over **Screen1** and click on the
+6.  The Canvas App Designer will load. Hover over **Screen1** on the **Tree View** pane on the left navigation pane and click on the
     **…** button.
 
 7.  Select **Rename**.
@@ -213,11 +215,11 @@ things simple here and just add a basic header to the app.
 
 5.  Select the **Header** tab and change the **Font Size** to **28.**
 
-6.  Click **Color** and change color to **White**.
+6.  Click **Text Alignment** and select **Center**.
 
-7.  Change the **Fill Color** to **Blue**. 
+7.  Click **Color** and change color to **White**. 
 
-8.  Click **Text Alignment** and select **Center**.
+8.  Change the **Fill Color** to **Blue**.
 
 9.  Locate the **Position** section on the Properties window.
 
