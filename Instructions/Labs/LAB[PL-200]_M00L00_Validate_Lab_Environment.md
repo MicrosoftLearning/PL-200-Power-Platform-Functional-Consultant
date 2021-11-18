@@ -19,7 +19,7 @@ For more information and for a complete list of affected terms, please visit [Wh
 
 ## Scenario
 
-In this Module 0 lab, you will acquire a Power Platform trial tenant and access
+In this Module 1 lab, you will acquire a Power Platform trial tenant and access
 the Microsoft Power Platform admin center. In the admin center, we will create an
 individual environment for configuration during the course.
 
@@ -47,19 +47,21 @@ individual environment for configuration during the course.
     and continue. You may also be prompted to provide more information. Enter
     1234567890 in the Phone number field, and click **Get started**.
 
-8.  Select **Yes** to stay signed in. On teh page that shows **You're all set**,
+8.  Select **Yes** to stay signed in. On the page that shows **You're all set**,
     click **Get started**.
+    
+    **Note:** If you get a **Sorry, there's been a disconnect** error message then try to refresh the page. 
 
 ## Exercise 2 - Create your environment
 
-In this exercise, you will be create your **Practice** environment that you will
+In this exercise, you will create your **Practice** environment that you will
 do the majority of your lab work in.
 
 ### Task 1 – Create environment
 
-1.  Access <https://admin.powerplatform.com> and log in with your Microsoft 365 credentials if prompted again.
+1.  Navigate to <https://admin.powerplatform.com> and log in with your Microsoft 365 credentials if prompted again.
 
-2.  If you are not automatically directed there, select **Environments** and
+2.  If you are not automatically directed there, select **Environments** from the left navigation pane and
     click **+New.**
 
     -   For **Name**, enter **[my initials] Practice.** (Example: AJ Practice.)
