@@ -121,9 +121,10 @@ started will be easy.
 ### Task 1 – Create a model-driven app
 
 1.  Go back to <https://make.powerapps.com> and make
-    sure you are in your **Practice** environment.
+    sure to select your **Practice** environment from the list(It will probably say **Contoso
+    (Default)**.)
 
-2.  Click on **+ Create** and select **Model-driven app from blank.** Select
+2.  Click on **+ Create** and select **Model-driven app from blank.** By default **Classic app designer** option is selected. Select
     **Create** in the pop-up window.
 
 3.  Enter **Knowledge Admin** for Name and click **Done**.
