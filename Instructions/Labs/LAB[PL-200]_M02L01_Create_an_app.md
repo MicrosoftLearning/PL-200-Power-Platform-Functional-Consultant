@@ -69,7 +69,7 @@ goal is to have a list of data from a table.
 
 1.  Click **Canvas app from blank**. 
 
-2.  In the dialog box, name your app **Fabrikam
+2.  In the **App Name** dialog box, name your app **Fabrikam
     Accounts** and select **Phone** format.
 
 3.  Click **Create** in the dialog. (You may be required to sign in again; enter
