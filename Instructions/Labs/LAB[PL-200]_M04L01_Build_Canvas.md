@@ -376,7 +376,7 @@ Remove(UserAnswers, LookUp(UserAnswers, Question = GUID(ThisItem.'Knowledge Ques
 
 48.  Select **Take Assessment Screen**.
 
-49.  Go to the **Insert** tab and click **Button**.
+49.  Go to the **Insert** tab, click **Input** and then click **Button**.
 
 50.  Drag and place the button below the **Assessment Question List**.
 
