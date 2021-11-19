@@ -88,12 +88,14 @@ To customize your form:
     **Main Forms** section, and click **edit** (the pencil icon).
 
 9.  Click on the **Header** section of the form. (This is the top section of the
-    form that says **New Knowledge Assessment.**)
+    form that says **New Knowledge Assessment.**) 
+    
+    **Note:** If the screen size is too small to view the content, on the bottom of the page, Screen resizing option is available. 
 
-10. Select the **Table columns** tab and uncheck the **Show only unused
+10. Select the **Table columns** from the left control tab and uncheck the **Show only unused
     columns** checkbox.
 
-11. Drag the **Owner** column for the and place it in the **header** on the
+11. Drag the **Owner** column from the list and place it in the **header** on the
     right side of the form. You should now have two **Owner** columns on the
     form: one in the **General** section, and one in the **header.**
 
