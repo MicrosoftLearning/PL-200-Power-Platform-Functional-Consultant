@@ -79,16 +79,16 @@ the relationship between Knowledge Assessment and the CDM Feedback table.
 
 5.  Click **+New** and select **Table**.
 
-6.  Enter **Knowledge Assessment** for **Display Name**. Enter **Title** for
-    **Display Name** in the Primary Name Column section.
+6.  Enter **Knowledge Assessment** for **Display Name** in the **Properties** section. Enter **Title** for
+    **Display Name** in the **Primary Name Column** section.
 
-7.  Click to expand **More settings** and then click the **Collaboration** section.
+7.  Click to expand **Advanced options** under the **Properties** section and scroll to **Rows in this table** section.
 
-8.  Check the **Allow feedback** checkbox.
+8.  Check the **Can be linked to feedback** checkbox.
 
 9.  Click **Create**. It may take a few minutes for your table to be created.
 
-10. With the **Columns** tab selected, click **+Add column**.
+10. Once the table is created it will be listed in the **All** screen , Select the table **Knowledge Assessment** and click **+Add column** from the top menu.
 
 11. Enter **Start Date** for **Display Name** and select **Date Only** for
     **Data Type**.
@@ -141,7 +141,7 @@ the relationship between Knowledge Assessment and the CDM Feedback table.
 6.  Click **Save**. A pop-up window should appear allowing you to configure the
     calculation. (You may need to disable a pop-up blocker.)
 
-7.  Click **Add Action**.
+7.  Click on the newly added column **Days Remaining** from the columns list and click **Open Calculation** under the **Calculated or Rollup**. A new browser opens click **+ Add Action**.
 
 8.  Enter the following formula:
 
@@ -181,15 +181,14 @@ columns.
 
 6.  Go to the **Primary Name Column** section.
 
-7.  Change the **Display Name** to **Question**. The **Name** field should also
-    automatically update to **Question.** Click **Create**.
+7.  Change the **Display Name** to **Question**. Click **Save**.
 
-8.  Make sure the **Columns** tab is selected and click **+ Add column**.
+8.  Click the newly added table **Knowledge Question** from the tables list. Click **+ Add column** from the top menu.
 
 9.  Enter **Answer 1** for **Display Name**, select **Text** for **Data Type**
     and click **Done**.
 
-10. Add **3** more with values below:
+10. Repeat the step 9 and create **3** more columns with the below values:
 
     -   Name: **Answer 2**, Data Type: **Text**.
 
@@ -202,7 +201,7 @@ columns.
 12. Enter **Answer 1 Points** for **Display Name**, select **Whole Number** for
     **Data Type** and click **Done**.
 
-13. Add 3 more filed with values below. These will store the points awarded if
+13. Repeat the step 12 and add 3 more filed with values below. These will store the points awarded if
     someone picks this answer.
 
     -   Name **Answer 2 Points** Data Type **Whole Number**.
@@ -230,9 +229,9 @@ columns.
 
 2.  Click **+New** and select **Table**.
 
-3.  Enter **Knowledge Test Result** for **Display Name** and click **Create**.
+3.  Enter **Knowledge Test Result** for **Display Name** and click **Save**.
 
-4.  Click **+Add column**.
+4.  Select the newly added table **Knowledge Test Result** from the table list and click **+Add column**.
 
 5.  Enter **Total Points** for **Display Name** and select **Whole Number** for
     **Data Type**.
