@@ -48,11 +48,11 @@ calculated column, a rollup column, and a business rule.
 
 9.  Click **Save**.
 
-10. On the **Set Question Points** popup, click **+ Add Action**.
+10. If you receive the **Set Question Points** popup >> click **+ Add Action**, else on the **Currently editing the calculated coulmn** popup message >> click **Done**. Then click the newly added column **Question Points** from the column list and in the property pane click the **Open Calculation** >> click **" Add Action**.
 
-11. Type **answer1points** and select the suggested column.
+11. Type **answer1points** and select the suggested column from the drop-down list.
 
-12. Type **+** , type **answer2points** and select the suggested column.
+12. Type **+** , type **answer2points** and select the suggested column from the drop-down list.
 
 13. Repeat it for **answer3points** and **answer4points**. You action will look
     like the snippet below but with your unique organizational prefix.
@@ -73,7 +73,7 @@ cre7f_answer1points + cre7f_answer2points + cre7f_answer3points + cre7f_answer4p
 
 2.  Select the **Forms** tab and click to open the **Main** form.
 
-3.  Drag the **Question Points** column and drop it below the **Knowledge
+3.  Drag the **Question Points** column from the **Table Column** and drop it below the **Knowledge
     Assessment** column on the form.
 
 4.  Click **Save**.
@@ -88,7 +88,7 @@ cre7f_answer1points + cre7f_answer2points + cre7f_answer3points + cre7f_answer4p
 
 ### Task 3 – Add Column to Knowledge Assessment
 
-1.  Click to open the **Knowledge Assessment** table.
+1.  Select **Solutions** >> click on the **Common Data Services Default Solution** >> Click to open the **Knowledge Assessment** table.
 
 2.  Select the **Columns tab** and click **+ Add column**
 
@@ -99,13 +99,13 @@ cre7f_answer1points + cre7f_answer2points + cre7f_answer3points + cre7f_answer4p
 
 5.  Click **Save**.
 
-6.  Click **+ Add Related Entity**.
+6.  On the **Currently editing the calculated coulmn** popup message >> click **Done**. Then click the newly added column **Total Points** from the column list and in the property pane click the **Open Calculation** >> Click **+ Add Related Entity**.
 
-7.  Select **Knowledge Questions** for **Related** and click the checkmark.
+7.  Select **Knowledge Questions(Knowledge Assessment)** for **Related** and click the checkmark.
 
 8.  Click **+ Add Aggregation**.
 
-9.  Select **SUM** for **Aggregation Function**, select **Question Points** for
+9.  Select **SUM** for **Aggregation Function**, select **(Knowledge Questions)Question Points** for
     **Aggregated Related Entity Field**, and click the checkmark.
 
 10. Click **Save and Close**.
@@ -118,11 +118,11 @@ cre7f_answer1points + cre7f_answer2points + cre7f_answer3points + cre7f_answer4p
 
 ### Task 4 – Add Column to Knowledge Assessment Form
 
-1.  Select the **Knowledge Assessment** table.
+1.  Click on the **Common Data Services Default Solution** and then Select the **Knowledge Assessment** table.
 
 2.  Select the **Forms** tab and click on the Main form.
 
-3.  Drag the **Total Points** column and drop it below the **Difficulty** column
+3.  Drag the **Total Points** column from the **Table Column** list and drop it below the **Difficulty** column
     on the form.
 
 4.  Click **Save**.
@@ -139,7 +139,7 @@ cre7f_answer1points + cre7f_answer2points + cre7f_answer3points + cre7f_answer4p
 
 ### Task 1 – Create Question Points Business Rule
 
-1.  Click to open the **Knowledge Question** table.
+1.  Click on the **Common Data Services Default Solution** and then click to open the **Knowledge Question** table.
 
 2.  Select the **Business Rules** tab and click **Add Business Rule**.
 
@@ -182,15 +182,15 @@ cre7f_answer1points + cre7f_answer2points + cre7f_answer3points + cre7f_answer4p
 
 15. Select the action, enter **Show Points Error Message** for **Display Name**,
     select **Question** for **Field**, enter **At least one answer must have
-    points more than zero**, and click **Apply**.
+    points more than zero** in the Message, and click **Apply**.
 
-16. Click **Save**.
+16. Click **Save the rule**.
 
-17. Click **Activate**.
+17. Click **Activate the rule**.
 
-18. Confirm the activation.
+18. Confirm the activation by clicking the **Activate** button on the message pane.
 
-19. Close the business rule designer.
+19. Close the business rule designer by clicking the **X** button.
 
 20. Click **Done**.
 
@@ -202,7 +202,7 @@ cre7f_answer1points + cre7f_answer2points + cre7f_answer3points + cre7f_answer4p
 2.  Select **Apps** and click on the **Knowledge Admin** model-driven
     application.
 
-3.  Navigate to **Knowledge Assessments** and click to open the **Test Assessment
+3.  Navigate to **Knowledge Assessments** >>  click **Play** >> Change area to  **Assessment** from the bottom left of the page and click to open the **Test Assessment
     Four**.
 
 4.  Select the **Questions** tab.
