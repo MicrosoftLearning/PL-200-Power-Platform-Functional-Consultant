@@ -44,12 +44,13 @@ older and deactivate them.
 4.  Locate the **Name** column and make a note of the name **Prefix**. The
     prefix will look like **crXXX\_**.
 
-5.  From the left hand menu, select **Flows.** (If you get a pop-up here, just
+5.  Click the Hamburger icon on the top left of the screen and then select Flows and click **+ New flow**. (If you get a pop-up here, just
     choose your country/region and select **Get started.**)
 
-6.  Click **+ New Flow** and select **+ Automated cloud flow**.
+6.  Select **Automated Cloud flow** from the drop down list of the **+New flow**.(If you get a pop-up here, just
+    choose your country/region and select **Get started.**)
 
-7.  The pop-up will show common triggers that you can easily select to
+7.  The **Build an automated cloud flow** pop-up will show common triggers that you can easily select to
     jump-start your flow configuration. Scroll through the options, but do not
     select anything. When you are ready, press **Skip.**
 
@@ -58,7 +59,7 @@ older and deactivate them.
 
 9.  Select **+ New step.**
 
-10. Type **Microsoft Dataverse** into the search box.
+10. Type **Microsoft Dataverse** into the Choose an operation search box.
 
 11. Select **List rows** from the **Actions** box.
 
@@ -75,7 +76,7 @@ crXXX_enddate lt
 >   Replace crXXX\_ with your unique prefix and type a **space** at the end of
 >   the expression.
 
-15.  Select the **Expression** tab of the **Dynamics Content** pane. If you do not see the Dynamic Content pane pop up at this time, you may need to zoom out. 
+15.  Select the **Expression** tab of the **Dynamics Content** pane. If you do not see the Dynamic Content pane pop up at this time, you may need to zoom out. (Sometimes changing the resoultion to 1600 * 900 may solve this issue)
 
 16.  Type **utcNow()** and click **OK.** (There should be a space before the
     utcnow() expression in your formula.)
