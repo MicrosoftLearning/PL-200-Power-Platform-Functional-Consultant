@@ -164,9 +164,9 @@ columns without needing custom code.
 26. Change the **Scope** to **All Forms**. You can find the Scope icon in the command
     bar, by default **Entity** make sure you select the **All Forms** from the drop down.
 
-27. Click **Save the Rule**.
+27. Click **Save the rule**.
 
-28. Click **Activate the Rule**.
+28. Click **Activate the rule**.
 
 29. On the Confirm activation message pane click **Activate** button.
 
