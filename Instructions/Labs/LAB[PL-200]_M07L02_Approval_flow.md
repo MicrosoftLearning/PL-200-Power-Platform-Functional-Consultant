@@ -60,7 +60,7 @@ the manager's decision.
 
     -   Choose **Choice** for **Data Type**.
 
-    -   Click on the **Choice** dropdown and choose **New choice**.
+    -   Click on the **Choice** dropdown and choose **+ New choice**.
 
     -   Enter **Waiting** for the first item and click **Add New Item**.
 
@@ -100,7 +100,7 @@ the manager's decision.
 
 2.  Make sure you are in the **Practice** environment you created.
 
-3.  Select **Flows** and click **+ New.** Select **+ Automated cloud flow** In
+3.  Select **Flows** and click **+ New flow** Select **+ Automated cloud flow** from the drop down. In
     the pop-up, select **Skip.**
 
 4.  Type into the search box **Microsoft Dataverse** and select **When a row is
@@ -335,7 +335,7 @@ the manager's decision.
 14. The approval pane will open. Make sure the information in the details is
     what you expected.
 
-15. Click on the **Link**.
+15. Click on the **Link**. (If in case an error is thrown make sure the URL is correct)
 
 16. The Knowledge Assessment row should open.
 
