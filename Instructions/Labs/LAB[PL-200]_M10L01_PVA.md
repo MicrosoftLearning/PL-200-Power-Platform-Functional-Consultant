@@ -355,13 +355,13 @@ In this exercise, you will acquire a PVA trial and create a bot.
 9.  You should now have two condition branches. Go to the **Place an order**
     branch and click **Add node**.
 
-10. Select **Go to another topic**.
+10. Select **Redirect to another topic**.
 
 11. Select the **New order** topic you created.
 
 12. Go to the **Cancel order** branch and click **Add node**.
 
-13. Select **Go to another topic** again.
+13. Select **Redirect to another topic** again.
 
 14. Select the **Cancel order** topic you created.
 
@@ -397,19 +397,19 @@ In this exercise, you will acquire a PVA trial and create a bot.
 12. You should have three condition branches. Go to the **Order questions**
     branch and click **Add node**.
 
-13. Select **Go to another topic**.
+13. Select **Redirect to another topic**.
 
 14. Select the **Order** topic you created.
 
 15. Go to the **Delivery and setup** branch and click **Add node**.
 
-16. Select **Go to another topic**.
+16. Select **Redirect to another topic**.
 
 17. Select the **Delivery and setup** topic you created.
 
 18. Go to the **Weather-related** branch and click **Add node**.
 
-19. Select **Go to another topic**.
+19. Select **Redirect to another topic**.
 
 20. Select the **Check weather** topic you created.
 
