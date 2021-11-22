@@ -46,9 +46,9 @@ begin the labs.
 
 4.  Click to open the **Common Data Services Default Solution**.
 
-5.  Click **Add existing** and select **Process**.
+5.  Click **Add existing** >> **Automated** >> select **Process**.
 
-6.  Select **Assessment Process** and click **Add**.
+6.  Select **Assessment Process** business type and click **Add**.
 
 7.  Click to open the **Assessment Process** process.
 
@@ -63,7 +63,7 @@ begin the labs.
 
 11. Select the **Condition**, click **Connector** and select **Disconnect**.
 
-12. Click **Update**.
+12. Click **Update this process**.
 
 13. Close the process editor.
 
@@ -116,7 +116,7 @@ begin the labs.
     enter **Unlock Status** for **Display Name**, select **Status** for
     **Field**, select **Unlock** for **Status**, and click **Apply**.
 
-17. Click **Save**.
+17. Click **Save the rule**.
 
 18. Click **Activate**.
 
@@ -138,7 +138,7 @@ begin the labs.
 
 4.  Navigate to **Knowledge Assessments**.
 
-5.  Click **New**.
+5.  Click **+ New**.
 
 6.  Enter **BPF Assessment Two** for **Title** and click **Save**.
 
