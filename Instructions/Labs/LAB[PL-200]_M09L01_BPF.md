@@ -138,7 +138,7 @@ business process flows and then build a business process flow.
 
 24. Select **Approval Status** for **Data Field** and click **Apply**.
 
-25. Click **Save** to save the **Business Process Flow**.
+25. Click **Save this process** to save the **Business Process Flow**.
 
 26. Click **Activate**.
 
