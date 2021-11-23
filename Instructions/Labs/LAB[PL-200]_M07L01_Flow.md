@@ -76,7 +76,7 @@ crXXX_enddate lt
 >   Replace crXXX\_ with your unique prefix and type a **space** at the end of
 >   the expression.
 
-15.  Select the **Expression** tab of the **Dynamics Content** pane. If you do not see the Dynamic Content pane pop up at this time, you may need to zoom out. (Sometimes changing the resoultion to 1600 * 900 may solve this issue)
+15.  Select the **Expression** tab of the **Dynamics Content** pane. If you do not see the Dynamic Content pane pop up at this time, you may need to zoom out. (Sometimes changing the display resoultion to higher (Ex: 1600 * 900) may solve this issue)
 
 16.  Type **utcNow()** and click **OK.** (There should be a space before the
     utcnow() expression in your formula.)
