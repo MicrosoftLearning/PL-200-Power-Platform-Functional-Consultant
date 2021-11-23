@@ -50,7 +50,7 @@ In this exercise, you will create a chart using the Knowledge Test Result data.
 
 10. Click on the **Top/Bottom Rules \> Top X Rule** and select **Top 5 Items**.
 
-11. Select **Total Points** for **Legend Entities (Series).**
+11. Select **Total Points** for **Legend Entries (Series).**
 
 12. Select **Owner** for **Horizontal (Category) Axis Label**.
 
