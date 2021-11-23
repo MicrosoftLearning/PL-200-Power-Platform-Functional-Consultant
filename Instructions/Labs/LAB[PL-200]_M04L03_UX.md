@@ -67,7 +67,7 @@ ShowResults is true.
     add a function that will set the **ShowResults** value to **true**.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    ;UpdateContext({ShowResults:true})
+    UpdateContext({ShowResults:true})
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 12.  Select **Answer4 Selected** checkbox of the **assessment Question List**.
