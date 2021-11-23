@@ -62,7 +62,7 @@ table
 1.  Navigate to <https://make.powerapps.com> and make
     sure you are in your **Practice** environment.
 
-2.  Expand **Data** and select **Tables.**
+2.  Expand **Dataverse** and select **Tables.**
 
 3.  Click **Data**
 
