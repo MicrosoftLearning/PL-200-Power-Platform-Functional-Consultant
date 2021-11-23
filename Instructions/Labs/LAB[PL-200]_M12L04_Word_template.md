@@ -44,7 +44,7 @@ In this task, you will create a Knowledge Test Result record.
 
 3.  Select **Apps**.
 
-4.  Locate and click on the **Knowledge Admin** model-driven application.
+4.  Locate and click on the **Knowledge Admin** model-driven application and click **Play**.
 
 5.  Select **Knowledge Test Results**.
 
