@@ -48,7 +48,7 @@ In this task, you will create a Knowledge Test Result record.
 
 5.  Select **Knowledge Test Results**.
 
-6.  Click **New**.
+6.  Click **+ New**.
 
 7.  Enter **Result for Template** for Primary Name.
 
