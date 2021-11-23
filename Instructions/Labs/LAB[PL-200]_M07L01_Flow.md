@@ -44,7 +44,7 @@ older and deactivate them.
 4.  Locate the **Name** column and make a note of the name **Prefix**. The
     prefix will look like **crXXX\_**.
 
-5.  Click the Hamburger icon on the top left of the screen and then select Flows and click **+ New flow**. (If you get a pop-up here, just
+5.  Click the Hamburger icon on the top left of the screen and then select **Flows** icon and click **+ New flow**. (If you get a pop-up here, just
     choose your country/region and select **Get started.**)
 
 6.  Select **Automated Cloud flow** from the drop down list of the **+New flow**.(If you get a pop-up here, just
