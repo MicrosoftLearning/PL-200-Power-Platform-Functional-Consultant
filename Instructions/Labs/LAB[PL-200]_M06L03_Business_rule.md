@@ -162,7 +162,7 @@ columns without needing custom code.
     click **Apply**.
 
 26. Change the **Scope** to **All Forms**. You can find the Scope icon in the command
-    bar, by default **Entity** make sure you select the **All Forms** from the drop down.
+    bar. By default, this is set to **Entity**. Select **All Forms** from the drop-down.
 
 27. Click **Save the Rule**.
 
