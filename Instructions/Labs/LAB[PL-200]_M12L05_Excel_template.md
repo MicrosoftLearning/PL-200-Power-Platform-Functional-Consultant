@@ -49,7 +49,7 @@ In this task, you will create a new view for the Knowledge Test Result table.
 
 4.  Locate and click to open the **Knowledge Test Result** table.
 
-5.  Select the **Views** tab and click **Add View**.
+5.  Select the **Views** tab and click **+ Add View**.
 
 6.  Enter **Excel Template View** for Name and click **Create**.
 
@@ -80,7 +80,7 @@ Knowledge Test Results.
 1.  Navigate to <https://make.powerapps.com> and
     ensure you are in your **Practice** environment. Select **Apps**.
 
-2.  Locate and click on the **Knowledge Admin** model-driven application.
+2.  Locate and click on the **Knowledge Admin** model-driven application and click **Play**.
 
 3.  Select **Knowledge Test Results**.
 
@@ -128,7 +128,7 @@ In this exercise, you will upload the template you created and test it.
 
 In this task, you will upload the template you created
 
-1.  Go to your **Knowledge Admin** Model-Driven application.
+1.  Go to your **Knowledge Admin** Model-Driven application and click **Play**.
 
 2.  Select **Knowledge Test Results**.
 

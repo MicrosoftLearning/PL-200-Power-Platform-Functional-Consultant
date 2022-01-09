@@ -161,16 +161,16 @@ columns without needing custom code.
     **Scenario Description** for **Field**, select **Clear** for **Type** and
     click **Apply**.
 
-26. Change the **Scope** to **All Forms**. You can find the Scope in the command
-    bar.
+26. Change the **Scope** to **All Forms**. You can find the Scope icon in the command
+    bar. By default, this is set to **Entity**. Select **All Forms** from the drop-down.
 
-27. Click **Save**.
+27. Click **Save the Rule**.
 
-28. Click **Activate**.
+28. Click **Activate the Rule**.
 
-29. Confirm activation.
+29. On the Confirm activation message pane click **Activate** button.
 
-30. Close the business rule designer.
+30. Close the business rule designer page by clicking the **X** button on the top right of the browser.
 
 31. Click **Done**.
 
@@ -182,7 +182,7 @@ columns without needing custom code.
 2.  Select **Apps** and click on the **Knowledge Admin** Model-Driven
     application.
 
-3.  Navigate to **Knowledge Assessments** and click **+ New**.
+3.  Navigate to **Knowledge Assessments** >> Click **Play** button. Change the area to **Assessments** from the bottom left of the screen and click **+ New**.
 
 4.  Enter **Test Assessment Four** for **Title**, select today’s date for
     **Start Date**, a month from today for **End Date**, and click **Save**.
