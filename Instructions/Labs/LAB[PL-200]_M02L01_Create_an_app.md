@@ -215,7 +215,7 @@ things simple here and just add a basic header to the app.
 
 5.  Select the **Header** tab and change the **Font Size** to **28.**
 
-6.  Click **Text Alignment** and select **Center**.
+6.  Click **Text Alignment** and select **Align Center**.
 
 7.  Click **Color** and change color to **White**. 
 
