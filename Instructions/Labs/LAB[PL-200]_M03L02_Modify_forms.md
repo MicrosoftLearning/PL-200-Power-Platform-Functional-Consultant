@@ -171,7 +171,7 @@ To customize your form:
 37. Close the form designer tab. You should return to the model-driven app
     designer.
 
-38. **DON’T** close the app designer.
+38. **DON’T** close the model-driven app designer.
 
 ## Exercise 2 – Edit the Knowledge Question Form
 
@@ -179,7 +179,7 @@ In this exercise, you will edit the form for the Knowledge Question table.
 
 ### Task 1 – Edit the main form
 
-1.  Make sure you are in the app designer.
+1.  Make sure you are in the model-driven app designer page of **Knowledge Admin**.
 
 2.  Click **+Add** and select **Entities**.
 
@@ -193,7 +193,7 @@ In this exercise, you will edit the form for the Knowledge Question table.
 
 6.  Select the **Header** by double clicking on it.
 
-7.  Add the **Knowledge Assessment** column to **Header** (the top part of the
+7.  Add the **Knowledge Assessment** from the **Table column** to **Header** (the top part of the
     form) and place it on the right side of the header.
 
 8.  Select the **General** tab by double clicking. In the right **Properties**
@@ -227,7 +227,7 @@ In this exercise, you will edit the form for the Knowledge Question table.
 
 21. Click **Publish** to publish your changes.
 
-22. **DON’T** close the app designer.
+22. **DON’T** close the model-driven app designer.
 
 ### Task 2 – Test Your Work
 
@@ -257,4 +257,4 @@ In this exercise, you will edit the form for the Knowledge Question table.
 
 12. Close the application without creating **Knowledge Question** record.
 
-13. You should return to the app designer. Click **Save and Close** to close it.
+13. You should return to the model-driven **Knowledge Admin** app designer. Click **Save and Close** to close it.
