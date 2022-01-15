@@ -49,7 +49,7 @@ date.
 
 ### Task 2 – Add and Remove Columns from View
 
-1.  The **Active Knowledge Assessment** view currently has two columns.
+1.  The **Active Knowledge Assessment** view currently has two columns **Title** and **Created On**.
 
 2.  Click on the **Status Reason** column to add it to the View.
 
@@ -146,8 +146,8 @@ view needs.
 
 7.  In the pop-up, click **+ Add** and select **+ Add row.**
 
-8.  In the first dropdown, select **Created on**. In the second dropdown, select
-    **This Month**. Make sure the box for both rows are checked.
+8.  In the first dropdown of the newly added row, select **Created on**. In the second dropdown, select
+    **This Month**. Make sure the checkbox for both **Status** and **Created on** are checked.
 
 9.  Click **OK**.
 
