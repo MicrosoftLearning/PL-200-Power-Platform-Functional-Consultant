@@ -52,7 +52,8 @@ was the one you chose.
     for all file types.)
 
 4.  Select the **Knowledge Assessment Import File** file located in the
-    resources folder and click **Open**.
+    resources folder of the Virtual machine and click **Open**.
+    **Hint:** You can find the files under the **Allfiles>Labs>** 
 
 ### Task 2 – Create Data Integration Project
 
@@ -62,9 +63,9 @@ table
 1.  Navigate to <https://make.powerapps.com> and make
     sure you are in your **Practice** environment.
 
-2.  Expand **Dataverse** and select **Tables.**
+2.  Expand **Dataverse** from the left navigation menu and select **Tables.**
 
-3.  Click **Data**
+3.  Click **Data** from the top menu.
 
 4.  Click **Get data.**
 
