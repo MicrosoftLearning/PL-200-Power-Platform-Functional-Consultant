@@ -46,7 +46,7 @@ begin the labs.
 
 4.  Click to open the **Common Data Services Default Solution**.
 
-5.  Click **Add existing** >> **Automated** >> select **Process**.
+5.  Click **Add existing** >> **Automation** >> select **Process**.
 
 6.  Select **Assessment Process** business type and click **Add**.
 
