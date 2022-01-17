@@ -240,7 +240,7 @@ In this task, you will run and test the applications.
 
 16. Provide a **Comment**.
 
-17. The Submit Feedback will become **Enabled**.
+17. The Submit Feedback will become **Enabled**. Select the **Status Reason** which is a required field.
 
 18. Click **Submit Feedback**.
 
