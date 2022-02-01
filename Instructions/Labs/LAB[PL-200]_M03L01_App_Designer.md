@@ -81,11 +81,11 @@ the app navigation.
 
 23. Click **Publish**.
 
-24. Click **Save and Close**.
+24. Click **Save and Close** it will close the sitemap page and redirect to the Model-driven app designer.
 
 25. The tables you added to the sitemap are now referenced in the app designer.
 
-26. **Do not** close the app designer.
+26. **Do not** close the Model-Driven app designer.
 
 ## Exercise 2 – Other app designer changes
 
@@ -143,7 +143,7 @@ do this for the other components as well.
 
 13. Click **Done.**
 
-14. Click **Publish all customizations**.
+14. Click **Publish**.
 
 ### Task 3 – Run the Application
 
@@ -153,7 +153,8 @@ do this for the other components as well.
 
 3.  The application will load. The current area is shown on the bottom-left of
     the page (**Administration**). The **Enabled users** view will load and you
-    will see a list of enabled users.
+    will see a list of enabled users. 
+    **Hint:** If current area is not shown on the bottom-left of the page, click **Home** from the left navigation. 
 
 4.  Click on the **Administration** area and switch to the **Assessments** area.
 
