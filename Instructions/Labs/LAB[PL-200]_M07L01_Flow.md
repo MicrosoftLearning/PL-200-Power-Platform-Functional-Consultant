@@ -45,7 +45,8 @@ older and deactivate them.
     prefix will look like **crXXX\_**.
 
 5.  From the left hand menu, select **Flows.** (If you get a pop-up here, just
-    choose your country/region and select **Get started.**)
+    choose your country/region and select **Get started.**) 
+    **Hint:** Click the **Home** on the left hand navigation menu to view the **Flow**, make sure you have your **Practice** environment is selected.
 
 6.  Click **+ New Flow** and select **+ Automated cloud flow**.
 
