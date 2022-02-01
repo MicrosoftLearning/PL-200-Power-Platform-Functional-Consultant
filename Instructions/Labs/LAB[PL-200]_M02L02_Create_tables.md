@@ -79,14 +79,14 @@ the relationship between Knowledge Assessment and the CDM Feedback table.
 
 5.  Click **+New** and select **Table**.
 
-6.  Enter **Knowledge Assessment** for **Display Name** in the **Properties** section. Enter **Title** for
-    **Display Name** in the **Primary Name Column** section.
+6.  Enter **Knowledge Assessment** for **Display Name** in the **Properties** section. Click on the **Primary Column** tab and enter **Title** for
+    **Display Name**.
 
 7.  Click to expand **Advanced options** under the **Properties** section and scroll to **Rows in this table** section.
 
 8.  Check the **Can be linked to feedback** checkbox.
 
-9.  Click **Create**. It may take a few minutes for your table to be created.
+9.  Click **Save**. It may take a few minutes for your table to be created.
 
 10. Once the table is created it will be listed in the **All** screen , Select the table **Knowledge Assessment** and click **+Add column** from the top menu.
 
@@ -179,7 +179,7 @@ columns.
 
 5.  Enter **Knowledge Question** for Display Name.
 
-6.  Go to the **Primary Name Column** section.
+6.  Go to the **Primary Column** section.
 
 7.  Change the **Display Name** to **Question**. Click **Save**.
 
@@ -256,7 +256,7 @@ tracked as part of the solution.
 3.  Select the **Feedback** and **User** tables and click **Next**.
 
 4.  Leave the **Include All Components** and **Include Table Metadata**
-    unchecked and click **+Add**.
+    unchecked and click **Add**.
 
 5.  Your solution will now have **5 tables** and **1 Choice** in addition to
     your apps.
