@@ -27,13 +27,13 @@ individual environment for configuration during the course.
 
 1.  Copy your **Microsoft 365 credentials** from the Authorized Lab Hoster.
 
-2.  Navigate to <https://powerapps.microsoft.com/>. Click **Start free.**
+2.  Navigate to <https://powerapps.microsoft.com/>.
 
 3.  Click **Start free.**
 
-4.  Under **Get started**, enter the email address from your Microsoft 365
-    credentials in the text box that says **Enter your work email address.**
-    Click **Sign up.**
+4.  Under **Let's get you started** page, enter the email address from your Microsoft 365
+    credentials in the text box that says **Enter your work email address.**. Then 
+    click **Next**. 
 
 5.  You will see a prompt that you have an existing account with Microsoft.
     Select **Sign in.**
