@@ -156,11 +156,11 @@ Dataverse.
 
 25. Insert another **Simple Text Box** and place it below the **Full Name**.
 
-26. Set the **Fill** of the new textbox to **No Fill**.
+26. Set the **Shape Fill** of the new textbox to **No Fill**.
 
-27. Set the **Outline** of the new textbox to **No Outline**.
+27. Set the **Shape Outline** of the new textbox to **No Outline**.
 
-28. Set the alignment of the new textbox **Align Center**.
+28. Set the alignment of the new textbox, click the **Home** tab and select **Center**.
 
 29. Replace the text of the new textbox with **For completing the**
 
@@ -217,6 +217,7 @@ In this task, you will upload the template you created.
 
 4.  Click on the **Word Template** button located on the command bar and select
     **Upload Template**.
+    **Hint:** You can select the **Word Template** by clicking the three vertical dots at the end of the command bar.
 
 5.  Click **Choose File.**
 
