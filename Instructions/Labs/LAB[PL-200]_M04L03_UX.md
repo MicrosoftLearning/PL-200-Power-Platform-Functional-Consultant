@@ -69,7 +69,7 @@ ShowResults is true.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     ;UpdateContext({ShowResults:true})
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+**Hint:** If a syntax error is thrown due to the addition semicolon after including the above command, then make sure to remove the extra semicolon.
 12.  Select **Answer4 Selected** checkbox of the **assessment Question List**.
 
 13.  Select the **Fill** property of **Answer4 Selected** and set it to the
