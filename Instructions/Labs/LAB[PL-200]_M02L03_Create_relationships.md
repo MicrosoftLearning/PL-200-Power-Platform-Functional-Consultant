@@ -98,6 +98,7 @@ Assessment and Knowledge Test Result tables.
 
 4.  The relationship names must be unique. Change the **Relationship Name** to
     **KnowledgeAssessment_KnowledgeResult**.
+    **Hint:** **Relationship name** can be tracked by expanding the **General**.
 
 5.  Click **Advanced options**.
 
