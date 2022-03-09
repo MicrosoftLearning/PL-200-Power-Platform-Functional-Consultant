@@ -206,6 +206,12 @@ create a new row.
    If(IsBlank('User Comments Text'), DisplayMode.Disabled, DisplayMode.Edit)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+**Note:** **Source** and **Rating** datacard can be removed from the **Feedback Form** since we will not be using in this lab, hence perform the below two steps to remove those entries from the **Feedback Form** within the **Add Feedback Screen**. 
+     1. Select the ellipses button of the **Rating_Datacard** inside the
+    **Add Feedback Screen >> Feedback Form** and select **Delete**. 
+     2. Select the ellipses button of the **Source_Datacard** inside the
+    **Add Feedback Screen >> Feedback Form** and select **Delete**. 
+    
 21.  Select the **Take Assessment Screen**.
 
 22.  Go to the **Insert** tab, navigate to **Icons** in the top menu, and select
