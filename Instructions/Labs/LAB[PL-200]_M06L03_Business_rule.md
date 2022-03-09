@@ -136,7 +136,7 @@ columns without needing custom code.
     Name**, select **Scenario Description** for **Field**, select **Business
     Required** for **Status** and click **Apply**.
 
-18. Drag **Set Visibility** action and place it on the **False** side (below) of
+18. Select the **Components** tab. Drag **Set Visibility** action and place it on the **False** side (below) of
     the condition.
 
 19. Enter **Hide Scenario Description** for **Display Name**, select **Scenario
