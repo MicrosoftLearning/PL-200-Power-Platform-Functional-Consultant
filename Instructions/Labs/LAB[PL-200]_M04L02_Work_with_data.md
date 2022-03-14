@@ -206,43 +206,45 @@ create a new row.
    If(IsBlank('User Comments Text'), DisplayMode.Disabled, DisplayMode.Edit)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Note:** **Source** and **Rating** datacard can be removed from the **Feedback Form** since we will not be using in this lab, hence perform the below two steps to remove those entries from the **Feedback Form** within the **Add Feedback Screen**. 
-     1. Select the ellipses button of the **Rating_Datacard** inside the
+**Note:** The **Source** and **Rating** datacards can be removed from the **Feedback Form** since we will not be using them in this lab. The next two steps will remove those from the **Feedback Form**. 
+
+21. Select the ellipses button of the **Rating_Datacard** inside the
     **Add Feedback Screen >> Feedback Form** and select **Delete**. 
-     2. Select the ellipses button of the **Source_Datacard** inside the
+
+22. Select the ellipses button of the **Source_Datacard** inside the
     **Add Feedback Screen >> Feedback Form** and select **Delete**. 
     
-21.  Select the **Take Assessment Screen**.
+23.  Select the **Take Assessment Screen**.
 
-22.  Go to the **Insert** tab, navigate to **Icons** in the top menu, and select
+24.  Go to the **Insert** tab, navigate to **Icons** in the top menu, and select
     **Left.**
 
-23.  Resize and place the icon on the left side of the header.
+25.  Resize and place the icon on the left side of the header.
 
-24.  Set the **Color** property of the icon to **White**.
+26.  Set the **Color** property of the icon to **White**.
 
-25.  Set the **OnSelect** property of the icon to the snippet below. This snippet
+27.  Set the **OnSelect** property of the icon to the snippet below. This snippet
     will navigate back to the previous page.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
    Back()
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-26.  Select the **Take Assessment Screen**.
+28.  Select the **Take Assessment Screen**.
 
-27.  Click **Insert**, navigate to **Icons** in the top menu, and select the
+29.  Click **Insert**, navigate to **Icons** in the top menu, and select the
     **Emoji - Smile** icon.
 
-28.  Place the icon in the right side of the header and next to **username.**
+30.  Place the icon in the right side of the header and next to **username.**
 
-29.  Set the **Color** property of the icon to **White**.
+31.  Set the **Color** property of the icon to **White**.
 
-30.  Set the **OnSelect** property of the Emoji icon to the snippet
+32.  Set the **OnSelect** property of the Emoji icon to the snippet
     below.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
    NewForm('Feedback Form');Navigate('Add Feedback Screen', ScreenTransition.None)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-31.  Click **File** and **Save** to save your application.
+33.  Click **File** and **Save** to save your application.
 
