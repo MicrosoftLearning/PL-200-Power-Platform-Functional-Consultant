@@ -45,7 +45,7 @@ begin the labs.
 
 In this task, you create users and assign licenses to them.
 
-1.  Navigate to <(https://admin.microsoft.com>.
+1.  Navigate to <https://admin.microsoft.com/>.
 
 2.  Login with your admin user, if prompted.
 
