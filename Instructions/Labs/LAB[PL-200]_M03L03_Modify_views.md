@@ -127,7 +127,7 @@ views. An easy way to create views is to create the first one with all the
 columns you want, then **Save As** the view and change the filter to what the new
 view needs.
 
-1.  In the **Active Knowledge Assessment** view, add **Days Remaining** as the last column in the view. 
+1.  In the **Active Knowledge Assessment** view, add **Days Remaining** from the **Knowledge Assessments Table columns** as the last column in the view. 
 
 2.  Then click the **dropdown** button next to the Save button and select **Save As**.
 
