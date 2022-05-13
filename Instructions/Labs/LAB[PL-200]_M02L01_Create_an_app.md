@@ -67,50 +67,52 @@ your own.
 Starting a canvas app from data is a quick way to start a canvas app when the
 goal is to have a list of data from a table.
 
-1.  Click **Canvas app from blank**. 
+1.  Select **Blank app**. 
 
-2.  In the **App Name** dialog box, name your app **Fabrikam
+2.  In the **Create** dialog box, Click **Create** under **Blank canvas app**.
+
+3.  In the **App Name** dialog box, name your app **Fabrikam
     Accounts** and select **Phone** format.
 
-3.  Click **Create** in the dialog. (You may be required to sign in again; enter
+4.  Click **Create** in the dialog. (You may be required to sign in again; enter
     your tenant credentials if necessary.)
 
-4.  Your app should open in the designer. (You may get a few pop-ups first;
+5.  Your app should open in the designer. (You may get a few pop-ups first;
     close them.)
 
-5.  Select **Data** from the left bar and click **Add data**. From the list of
+6.  Select **Data** from the left bar and click **Add data**. From the list of
     tables, select **Accounts.**
 
-6.  Add a header to your app by selecting the **+** button (the Insert button)
+7.  Add a header to your app by selecting the **+** button (the Insert button)
     on the left tab and selecting **Text label.** Use the pane on the right side
     of the screen to enter **Fabrikam Accounts** in the **Text** field, then hit
     **Enter**. You can edit the size, font, and other attributes to customize
     the look and feel of the application.
 
-7.  Add a list of accounts to your app by selecting the **+** button on the left
+8.  Add a list of accounts to your app by selecting the **+** button on the left
     tab and selecting **Vertical Gallery** from the **Layout** section.
 
-8.  A vertical gallery will be inserted into your app, and you will be prompted
+9.  A vertical gallery will be inserted into your app, and you will be prompted
     to select which data source it should pull from. Select **Accounts** from
     the pop-up.
 
-9.  The application will load list of the accounts (it may be blank for now).
+10.  The application will load list of the accounts (it may be blank for now).
     Drag the gallery to fit the app or resize to your liking.
 
-10. To preview your app, click **Play** (it will look like a Play button) in the
+11. To preview your app, click **Play** (it will look like a Play button) in the
     upper right corner. Click the **X** in the top right corner to close the
     preview screen.
 
-11. Click **File**.
+12. Click **File**.
 
-12. Select the **Cloud** and enter **Fabrikam Accounts** in the **Name** box.
+13. Select the **Cloud** and enter **Fabrikam Accounts** in the **Name** box.
 
-13. Click **Save**.
+14. Click **Save**.
 
-14. Explore the app as much as you want and then proceed to the next exercise.
+15. Explore the app as much as you want and then proceed to the next exercise.
     This app will be saved, and you can always revisit it later.
 
-15. Close the **App Designer**.
+16. Close the **App Designer**.
 
 ## Exercise 2 – Create the model-driven app
 
@@ -124,51 +126,53 @@ started will be easy.
     sure to select your **Practice** environment from the environment selector list(It will probably say **Contoso
     (Default)**.)
 
-2.  Click on **+ Create** and select **Model-driven app from blank.** By default **Classic app designer** option is selected. Select
-    **Create** in the pop-up window.
+2.  Click on **+ Create** and select **Blank app.** 
+    
+4.  In the **Create** dialog box, Click **Create** under **Blank app based on Dataverse**.By default **Classic app designer** option is selected. Select
+    **Create**.
 
-3.  Enter **Knowledge Admin** for Name and click **Done**.
+5.  Enter **Knowledge Admin** for Name and click **Done**.
 
-4.  Click the edit icon (it looks like a pencil) next to **Site Map**. *Note:*
+6.  Click the edit icon (it looks like a pencil) next to **Site Map**. *Note:*
     When you start a new app, you must edit the site map before you can run it -
     otherwise you will get an error. You need to add at least one item to the
     navigation.
 
-5.  Click on the **New Area**.
+7.  Click on the **New Area**.
 
-6.  Enter **Administration** for **Title**.
+8.  Enter **Administration** for **Title**.
 
-7.  Select the **New Group**.
+9.  Select the **New Group**.
 
-8.  Enter **User Admin** for **Title**.
+10.  Enter **User Admin** for **Title**.
 
-9.  Select the **New Subarea**.
+11.  Select the **New Subarea**.
 
-10. Select **Entity** for **Type**.
+12. Select **Entity** for **Type**.
 
-11. Select **User** for **Entity**.
+13. Select **User** for **Entity**.
 
-12. Click **Save**.
+14. Click **Save**.
 
-13. Click **Publish**.
+15. Click **Publish**.
 
-14. Close the sitemap editor by clicking **Save and Close**.
+16. Close the sitemap editor by clicking **Save and Close**.
 
-15. Click **Save** and then click **Publish.** After publishing, close the app
+17. Click **Save** and then click **Publish.** After publishing, close the app
     designer by clicking **Save and Close**.
 
-16. Select **Apps**.
+18. Select **Apps**.
 
-17. The **Knowledge Admin** application you created should be listed. Open the
+19. The **Knowledge Admin** application you created should be listed. Open the
     **Knowledge Admin** application by selecting the row and clicking **Play.**
 
-18. The **Model-Driven** application **Knowledge Admin** will load.
+20. The **Model-Driven** application **Knowledge Admin** will load.
 
-19. Open one of the **Users**.
+21. Open one of the **Users**.
 
-20. The User form of the selected record will load.
+22. The User form of the selected record will load.
 
-21. Close the application.
+23. Close the application.
 
 ## Exercise 3 – Create the Knowledge canvas App
 
