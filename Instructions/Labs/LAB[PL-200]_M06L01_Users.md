@@ -55,7 +55,9 @@ In this task, you create users and assign licenses to them.
 
 5.  Enter **User** for **First Name** and **One** for **Last Name**.
 
-6.  The **Display Name** will be populated for you.
+6.  The **Display Name** will be populated for you. 
+
+**Note:** Make sure to click on the **Display Name** text box to enable the **Next** process.
 
 7.  Enter **UserOne** for **User Name**.
 
