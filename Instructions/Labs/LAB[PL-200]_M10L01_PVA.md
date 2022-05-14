@@ -93,8 +93,7 @@ In this exercise, you will acquire a PVA trial and create a bot.
 
 4.  Enter **Cancel** as a trigger phrase and click **Add**.
 
-5.  The **Cancel order** topic should now have two trigger phrases. Click **Go
-    to authoring canvas**.
+5.  The **Cancel order** topic should now have two trigger phrases. 
 
 6.  Enter **Orders must be cancelled at least 48 hours before your scheduled
     event. Your deposit will not be refunded.** for **Message** and click the
