@@ -124,7 +124,7 @@ Dataverse.
 
 10. Resize the **Textbox** to fill the page horizontally.
 
-11. Select the **Shape Format** tab, click **Text Effect**, click **Transform**,
+11. Select the **WordArt Styles** tab, click **Text Effect**, click **Transform**,
     and select the first option in **Follow Path** showing an arch.
 
 12. Select the **Insert** tab, click **Text Box** and select **Simple Text
