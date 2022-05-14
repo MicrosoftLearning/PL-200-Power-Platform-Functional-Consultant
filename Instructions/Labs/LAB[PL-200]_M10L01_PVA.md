@@ -371,8 +371,7 @@ In this exercise, you will acquire a PVA trial and create a bot.
 
 1.  Select **Topics**.
 
-2.  Search for **Greeting**, hover over the **Greeting** topic and click the **Go to
-    authoring canvas** icon.
+2.  Search for **Greeting** in the **search existing topics**, and click on the **Greeting** topic to open.
 
 3.  Replace the first message with **Hi! I am a virtual agent here to help with
     questions ranging from ordering questions to weather-related questions.**
