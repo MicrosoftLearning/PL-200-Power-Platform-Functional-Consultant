@@ -67,7 +67,7 @@ your own.
 Starting a canvas app from data is a quick way to start a canvas app when the
 goal is to have a list of data from a table.
 
-1.  Click **Canvas app from blank**. 
+1.  Select **Blank App** and in the **Create** dialog box, Select **Create** under **Blank canvas app**.
 
 2.  In the **App Name** dialog box, name your app **Fabrikam
     Accounts** and select **Phone** format.
