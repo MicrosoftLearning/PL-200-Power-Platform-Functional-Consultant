@@ -144,8 +144,7 @@ In this exercise, you will acquire a PVA trial and create a bot.
 
 5.  Enter **Make a new order** as a trigger phrase and click **Add**.
 
-6.  The New order topic should now have three trigger phrases. Click **Go to
-    authoring canvas**.
+6.  The New order topic should now have three trigger phrases. 
 
 7.  Enter **Be advised that all new orders require a non-refundable $100.00
     deposit that will be applied to your total order cost.** for **Message** and
