@@ -124,7 +124,7 @@ started will be easy.
     sure to select your **Practice** environment from the environment selector list(It will probably say **Contoso
     (Default)**.)
 
-2.  Click on **+ Create** from the left navigation pane and select **Blank App**. In the **Create** dialog box, Select **Create** under **Blank app based on Dataverse**. By default **Classic app designer** option is selected, select **Create**.
+2.  Click on **+ Create** from the left navigation pane and select **Blank App**. In the **Create** dialog box, Select **Create** under **Blank app based on Dataverse**. By default **Classic app designer** option is selected, click **Create** to create the **Model Driven App**.
 
 3.  Enter **Knowledge Admin** for Name and click **Done**.
 
