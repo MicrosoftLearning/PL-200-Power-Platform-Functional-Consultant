@@ -179,8 +179,7 @@ In this exercise, you will acquire a PVA trial and create a bot.
 
 6.  Enter **Check weather** as a trigger phrase and click **Add**.
 
-7.  The Check weather topic should now have five trigger phrases. Click **Go to
-    authoring canvas**.
+7.  The Check weather topic should now have five trigger phrases. 
 
 8.  Enter **I can help you with that. I just need some additional information.**
     for **Message** and click **add node**.
