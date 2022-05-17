@@ -104,10 +104,10 @@ application.
 12. Click on the **File** tab and click **Save**. Saving your work periodically
     is always a good idea.
 
-13. To go back to the app designer, click on the **Back** button located on the
+13. To go back to the App Studio, click on the **Back** button located on the
     top left of the page.
 
-14. Do not close the App designer.
+14. Do not close the App Studio.
 
 ## Exercise 2 – Setup screens for Knowledge Assessment and Taking Assessment
 
