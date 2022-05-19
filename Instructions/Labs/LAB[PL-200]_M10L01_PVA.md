@@ -313,8 +313,7 @@ In this exercise, you will acquire a PVA trial and create a bot.
 
 9.  Enter **Schedule removal** as a trigger phrase and click **Add**.
 
-10. The Delivery and setup topic should now have seven trigger phrases. Click
-    **Go to authoring canvas**.
+10. The Delivery and setup topic should now have seven trigger phrases.
 
 11. Enter **Items are delivered one hour before your scheduled event.** for
     **Message** and click **Add node**.
