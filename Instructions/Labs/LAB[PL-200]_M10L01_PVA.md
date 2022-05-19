@@ -337,7 +337,7 @@ In this exercise, you will acquire a PVA trial and create a bot.
 
 3.  Enter **Order question** for trigger phrase and click **Add**.
 
-4.  Click **Go to authoring canvas**.
+4.  The **Order** topic should now have only one trigger phrase.
 
 5.  Enter **I can help you with that.** for Message and click **add node.**
 
