@@ -110,7 +110,7 @@ highest value to lowest unless you have other specific needs.
 The View is now sorted by the **Title (A-Z).** You will configure the sorting to
 be based on the Modified On column first.
 
-1.  Locate the **Sort By...** area located in the view properties.
+1.  In the **Active Knowledge Assessment** view, locate the **Sort By...** area in the view properties.
 
 2.  Remove the default value. We want to sort **Modified On**.
 
