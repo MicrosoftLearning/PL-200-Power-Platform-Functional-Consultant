@@ -72,7 +72,7 @@ In this task, you will evaluate the Basic User security role.
 In this task, you will create a new security role by copying from the Microsoft
 Dataverse User security role.
 
-1.  Click on the ellipses (**...**) for the **Basic User** security role and select **Copy**
+1.  On the **Power Platform admin center security roles** window, click on the ellipses (**...**) under the **More actions** for the **Basic User** security role and select **Copy**.
 
 2.  Enter **Knowledge Assessment User** for **Name** and click **Copy**.
 
