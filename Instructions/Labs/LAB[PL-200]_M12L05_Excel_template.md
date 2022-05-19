@@ -88,7 +88,7 @@ Knowledge Test Results.
     **Download Template**.
 
 5.  Make sure **Knowledge Test Result** is selected for **Entity** and select
-    **Excel Template View** for **View**.
+    **Excel Template** for **View**.
 
 6.  Click **Download**.
 
