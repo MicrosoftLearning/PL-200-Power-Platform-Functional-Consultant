@@ -85,7 +85,7 @@ date.
 Generally, you will always want to have the order of the columns in view be the
 highest value to lowest unless you have other specific needs.
 
-1.  You will now reorder the columns. Select the **Owner** column header and
+1.  You will now reorder the columns in the **Active Knowledge Assessment** view. Select the **Owner** column header and
     click **Move Left**.
 
 2.  You can also reorder columns by drag/drop. Drag the **Primary Email** column
