@@ -63,7 +63,7 @@ begin the labs.
 
 11. Select the **Condition**, click **Connector** and select **Disconnect**.
 
-12. Click **Update this process**.
+12. Click **Update**.
 
 13. Close the process editor.
 
