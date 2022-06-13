@@ -217,7 +217,7 @@ things simple here and just add a basic header to the app.
 4.  Next to **Label1**, click on the
     **…** button and click **Rename**. Rename the label **Header Label**. Hit **Enter** on your keyboard.
 
-5.  Select the **Header** tab and change the **Font Size** to **28.**
+5.  Select the **Properties** tab and change the **Font Size** to **28.**
 
 6.  Click **Text Alignment** and select **Align Center**.
 
