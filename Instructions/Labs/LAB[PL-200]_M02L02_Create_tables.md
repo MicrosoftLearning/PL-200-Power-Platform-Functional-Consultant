@@ -115,7 +115,7 @@ the relationship between Knowledge Assessment and the CDM Feedback table.
 
 20. Click on the **Choice** dropdown and select **+New choice**.
 
-21. Enter **Beginner** for **Item 1** and click **Add New Item**.
+21. Enter **Beginner** for **Item 1** and click **+New choice**.
 
 22. Enter **Intermediate** for **Item 2** and click **Add New Item**.
 
