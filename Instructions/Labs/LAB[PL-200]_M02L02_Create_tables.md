@@ -108,7 +108,7 @@ the relationship between Knowledge Assessment and the CDM Feedback table.
 
 17. Click **Done.**
 
-18. You will now add an **Choice** type column. Click **+Add column**.
+18. You will now add an **Choice** type column. Click **+New column**.
 
 19. Enter **Difficulty** for **Display Name** and select **Choice** for **Data
     Type**.
