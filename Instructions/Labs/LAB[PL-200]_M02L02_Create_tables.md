@@ -106,7 +106,7 @@ the relationship between Knowledge Assessment and the CDM Feedback table.
 16. Click **Advanced Options** and make sure **User Local** is selected for
     **Behavior**.
 
-17. Click **Done.**
+17. Click **Save.**
 
 18. You will now add an **Choice** type column. Click **+Add column**.
 
