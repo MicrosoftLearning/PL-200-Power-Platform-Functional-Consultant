@@ -123,7 +123,7 @@ the relationship between Knowledge Assessment and the CDM Feedback table.
 
 24. Select **Beginner** for the **Default Value** and click **Done**.
 
-25. Click **Save Table** at the bottom of the screen.
+25. Click **Save** at the bottom of the screen.
 
 ### Task 2 – Create a calculated column
 
