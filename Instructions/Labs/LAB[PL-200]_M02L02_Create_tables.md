@@ -113,7 +113,7 @@ the relationship between Knowledge Assessment and the CDM Feedback table.
 19. Enter **Difficulty** for **Display Name** and select **Choice** for **Data
     Type**.
 
-20. Click on the **Choice** dropdown and select **+New choice**.
+20. Select **+New choice** and enter Difficulty for Display Name.
 
 21. Enter **Beginner** for **Item 1** and click **Add New Item**.
 
