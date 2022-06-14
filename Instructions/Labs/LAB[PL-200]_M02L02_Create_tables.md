@@ -196,7 +196,7 @@ columns.
 
     -   Name: **Answer 4**, Data Type: **Text**.
 
-11. Click **+Add column**.
+11. Click **+New column**.
 
 12. Enter **Answer 1 Points** for **Display Name**, select **Whole Number** for
     **Data Type** and click **Done**.
