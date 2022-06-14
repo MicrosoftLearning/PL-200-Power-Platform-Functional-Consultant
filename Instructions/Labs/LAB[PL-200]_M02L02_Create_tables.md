@@ -136,7 +136,7 @@ the relationship between Knowledge Assessment and the CDM Feedback table.
 
 4.  Enter **0** for **Minimum Value** and **1000** for **Maximum Value**.
 
-5.  Click **+Add** next to **Calculated or Rollup**. Click **+Calculation.**
+5.  Select **Calculated** from Behavior drop-down.
 
 6.  Click **Save**. A pop-up window should appear allowing you to configure the
     calculation. (You may need to disable a pop-up blocker.)
