@@ -238,8 +238,6 @@ columns.
 
 6.  Click **Done**.
 
-7.  Click **Save Table**.
-
 ## Exercise 4 – Add existing tables to the solution
 
 In this exercise, you will be adding the existing tables Feedback and User. This
