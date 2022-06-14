@@ -74,7 +74,7 @@ Assessment and Knowledge Question tables.
 
 4.  Select the **Relationships** tab.
 
-5.  Click **+Add Relationship** and select **One-to-Many**.
+5.  Click **+New Relationship** and select **One-to-Many**.
 
 6.  Select **Knowledge Question** for **Related (Many) Table** and click
     **Advanced options**.
