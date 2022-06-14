@@ -91,7 +91,7 @@ Assessment and Knowledge Test Result tables.
 
 1.  Make sure you have the **Relationship** tab selected.
 
-2.  Click **+ Add Relationship** and select **One-to-Many**.
+2.  Click **+ New Relationship** and select **One-to-Many**.
 
 3.  Select **Knowledge Test Result** for **Related (Many) Entity** and click
     **General**.
