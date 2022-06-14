@@ -199,7 +199,7 @@ columns.
 11. Click **+Add column**.
 
 12. Enter **Answer 1 Points** for **Display Name**, select **Whole Number** for
-    **Data Type** and click **Done**.
+    **Data Type** and click **Save**.
 
 13. Repeat the step 12 and add 3 more filed with values below. These will store the points awarded if
     someone picks this answer.
