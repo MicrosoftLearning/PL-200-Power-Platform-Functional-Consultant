@@ -141,7 +141,7 @@ the relationship between Knowledge Assessment and the CDM Feedback table.
 6.  Click **Save**. A pop-up window should appear allowing you to configure the
     calculation. (You may need to disable a pop-up blocker.)
 
-7.  Click on the newly added column **Days Remaining** from the columns list and click **Open Calculation** under the **Calculated or Rollup**. A new browser opens click **+ Add Action**.
+7.  A new browser opens click **+ Add Action**.
 
 8.  Enter the following formula:
 
