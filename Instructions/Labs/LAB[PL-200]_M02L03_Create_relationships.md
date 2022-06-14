@@ -103,6 +103,4 @@ Assessment and Knowledge Test Result tables.
 
 6.  Change **Type of behavior** to **Parental** and click **Done**'
 
-7.  Click **Save Table**.
-
-8.  Select **Solutions** on the left and click **Publish All Customizations**.
+7.  Select **Solutions** on the left and click **Publish All Customizations**.
