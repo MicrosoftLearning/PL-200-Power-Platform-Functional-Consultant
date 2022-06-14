@@ -255,7 +255,7 @@ tracked as part of the solution.
 
 3.  Select the **Feedback** and **User** tables and click **Next**.
 
-4.  Leave the **Include All Components** and **Include Table Metadata**
+4.  Leave the **Include All Objects** and **Include Table Metadata**
     unchecked and click **Add**.
 
 5.  Your solution will now have **5 tables** and **1 Choice** in addition to
