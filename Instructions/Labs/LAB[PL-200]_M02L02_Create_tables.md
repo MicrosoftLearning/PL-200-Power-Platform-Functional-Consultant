@@ -236,7 +236,7 @@ columns.
 5.  Enter **Total Points** for **Display Name** and select **Whole Number** for
     **Data Type**.
 
-6.  Click **Done**.
+6.  Click **Save**.
 
 7.  Click **Save Table**.
 
