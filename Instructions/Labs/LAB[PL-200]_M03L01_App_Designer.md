@@ -40,7 +40,7 @@ the app navigation.
 
 4.  Open **Common Data Services Default Solution**.
 
-5.  Select the **Knowledge Admin** model-driven application. Click the **edit**
+5.  Select the **Knowledge Admin** model-driven application. Click **Switch to classic** and then the **edit**
     (the pencil) next to **Site map.**
 
 6.  Drag **Area** from the **Components** tab and place it directly to the right
