@@ -49,7 +49,7 @@ always try to add the columns before jumping into the editor.
 
 5.  Open the **Knowledge Assessment** table.
 
-6.  Click **Settings** in the command bar (you may need to click the **...** to see this option)
+6.  Click **Properties**.
 
 7.  Check the **Enable Attachments** checkbox. This enables notes and files for
     the table.
