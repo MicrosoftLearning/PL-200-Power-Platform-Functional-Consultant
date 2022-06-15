@@ -130,7 +130,7 @@ started will be easy.
     
 4.  In the **Create** dialog box, Click **Create** under **Blank app based on Dataverse**.
 
-5.  Enter **Knowledge Admin** for Name and click **Done**.
+5.  Enter **Knowledge Admin** for Name and click **Create**. Click **Switch to classic**.
 
 6.  Click the edit icon (it looks like a pencil) next to **Site Map**. *Note:*
     When you start a new app, you must edit the site map before you can run it -
