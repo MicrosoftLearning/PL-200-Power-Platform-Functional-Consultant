@@ -104,7 +104,7 @@ the relationship between Knowledge Assessment and the CDM Feedback table.
     Type**.
 
 16. Click **Advanced Options** and make sure **User Local** is selected for
-    **Behavior**.
+    **Time zone adjustment**.
 
 17. Click **Done.**
 
