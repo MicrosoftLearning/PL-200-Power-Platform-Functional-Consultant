@@ -208,8 +208,6 @@ columns.
 
     -   Name **Answer 4 Points** Data Type **Whole Number**.
 
-    -   Click **Save Table**.
-
 **Note:** There are many ways you could model the answers depending on the
 complexity of your requirements. The approach shown here is simplified for
 practice purposes to focus on demonstrating how to work with the table creation
