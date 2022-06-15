@@ -227,7 +227,7 @@ columns.
 
 3.  Enter **Knowledge Test Result** for **Display Name** and click **Save**.
 
-4.  Select the newly added table **Knowledge Test Result** from the table list and click **+Add column**.
+4.  Select the newly added table **Knowledge Test Result** from the table list and click **+New column**.
 
 5.  Enter **Total Points** for **Display Name** and select **Whole Number** for
     **Data Type**.
