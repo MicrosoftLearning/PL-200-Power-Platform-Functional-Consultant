@@ -139,12 +139,6 @@ do this for the other components as well.
 
 11. Click **Publish**.
 
-12. Click **Save and Close**.
-
-13. Click **Done.**
-
-14. Click **Publish**.
-
 ### Task 3 – Run the Application
 
 1.  Make sure you still have the **Knowledge Admin** model-driven app selected.
