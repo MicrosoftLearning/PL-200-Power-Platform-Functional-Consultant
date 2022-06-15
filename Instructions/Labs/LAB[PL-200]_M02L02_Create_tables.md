@@ -96,7 +96,7 @@ the relationship between Knowledge Assessment and the CDM Feedback table.
 12. Click **Advanced Options** and make sure **User Local** is selected for
     **Time zone adjustment**.
 
-13. Click **Done**.
+13. Click **Save**.
 
 14. Click **+Add column** again.
 
