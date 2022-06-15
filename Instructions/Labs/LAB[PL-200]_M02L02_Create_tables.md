@@ -181,7 +181,7 @@ columns.
 
 7.  Change the **Display Name** to **Question**. Click **Save**.
 
-8.  Click the newly added table **Knowledge Question** from the tables list. Click **+ Add column** from the top menu.
+8.  Click the newly added table **Knowledge Question** from the tables list. Click **+ New column** from the top menu.
 
 9.  Enter **Answer 1** for **Display Name**, select **Text** for **Data Type**
     and click **Done**.
