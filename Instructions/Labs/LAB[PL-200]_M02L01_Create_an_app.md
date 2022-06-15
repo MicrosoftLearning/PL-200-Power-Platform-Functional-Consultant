@@ -128,8 +128,7 @@ started will be easy.
 
 2.  Click on **+ Create** and select **Blank app.** 
     
-4.  In the **Create** dialog box, Click **Create** under **Blank app based on Dataverse**.By default **Classic app designer** option is selected. Select
-    **Create**.
+4.  In the **Create** dialog box, Click **Create** under **Blank app based on Dataverse**.
 
 5.  Enter **Knowledge Admin** for Name and click **Done**.
 
