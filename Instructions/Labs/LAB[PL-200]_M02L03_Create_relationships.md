@@ -81,9 +81,6 @@ Assessment and Knowledge Question tables.
 
 7.  Change **Type of behavior** to **Parental** and click **Done**
 
-8.  Click **Save Table** It is a good idea to save your changes as you make
-    them.
-
 ### Task 2 – Knowledge Assessment to Knowledge Test Result Relationship
 
 In this task, you will create a One-to-Many relationship between the Knowledge
