@@ -127,7 +127,7 @@ the relationship between Knowledge Assessment and the CDM Feedback table.
 
 ### Task 2 – Create a calculated column
 
-1.  Click **+Add column**.
+1.  Click **+New column**.
 
 2.  Enter **Days Remaining** for **Display Name** and select **Whole Number**
     for **Data Type**.
