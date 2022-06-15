@@ -159,8 +159,6 @@ DIFFINDAYS(NOW(), crXXX_enddate)
 
 10.  Click **Save and Close**.
 
-11.  Click **Done**.
-
 ## Exercise 2 – Create the Knowledge Question Table
 
 In this exercise, you will be creating the Knowledge Question table and its
