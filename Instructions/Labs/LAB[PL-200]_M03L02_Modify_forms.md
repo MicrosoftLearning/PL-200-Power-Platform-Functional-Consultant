@@ -56,7 +56,7 @@ always try to add the columns before jumping into the editor.
 
 8.  Click **Save**.
 
-9.  Click **Common Data Service Default Solution** and select **Publish all customizations**.
+9.  Click **Overview** for **Common Data Service Default Solution** and select **Publish all customizations**.
 
 ### Task 2 – Edit the Knowledge Assessment form
 
