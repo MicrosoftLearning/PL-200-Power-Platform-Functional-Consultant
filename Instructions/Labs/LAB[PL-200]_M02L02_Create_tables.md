@@ -88,7 +88,7 @@ the relationship between Knowledge Assessment and the CDM Feedback table.
 
 9.  Click **Save**. It may take a few minutes for your table to be created.
 
-10. Once the table is created it will be listed in the **All** screen , Select the table **Knowledge Assessment** and click **+Add column** from the top menu.
+10. Once the table is created it will be listed in the **All** screen , Select the table **Knowledge Assessment** and click **+New column** from the top menu.
 
 11. Enter **Start Date** for **Display Name** and select **Date Only** for
     **Data Type**.
