@@ -80,43 +80,41 @@ To customize your form:
 
 5.  Select the **Knowledge Admin** model-driven app. Click **Switch to classic**.
 
-6.  Click **Edit**.
+6.  Locate the **Knowledge Assessment** table and select **Forms**.
 
-7.  Locate the **Knowledge Assessment** table and select **Forms**.
-
-8.  Go to the **Components** tab, hover over the **Information** form in the
+7.  Go to the **Components** tab, hover over the **Information** form in the
     **Main Forms** section, and click **edit** (the pencil icon).
 
-9.  Click on the **Header** section of the form. (This is the top section of the
+8.  Click on the **Header** section of the form. (This is the top section of the
     form that says **New Knowledge Assessment.**) 
     
     **Note:** If the screen size is too small to view the content, on the bottom of the page, Screen resizing option is available. 
 
-10. Select the **Table columns** from the left control tab and uncheck the **Show only unused
+9. Select the **Table columns** from the left control tab and uncheck the **Show only unused
     columns** checkbox.
 
-11. Drag the **Owner** column from the list and place it in the **header** on the
+10. Drag the **Owner** column from the list and place it in the **header** on the
     right side of the form. You should now have two **Owner** columns on the
     form: one in the **General** section, and one in the **header.**
 
-12. Select the **General** tab by clicking on it. Enter **General** in the
+11. Select the **General** tab by clicking on it. Enter **General** in the
     **Name** field in the Properties pane.
 
-13. Expand the **Formatting** section.
+12. Expand the **Formatting** section.
 
-14. Select **Two Columns** for **Layout.**. Click **Save**.
+13. Select **Two Columns** for **Layout.**. Click **Save**.
 
-15. Select the **Days Remaining** column and drag it to the header next to
+14. Select the **Days Remaining** column and drag it to the header next to
     **Owner.**
 
-16. Select the new section of the **General** tab.
+15. Select the new section of the **General** tab.
 
-17. Select the **Component** tab.
+16. Select the **Component** tab.
 
-18. Click **Timeline** from the **Related data** section in the Components pane
+17. Click **Timeline** from the **Related data** section in the Components pane
     and drag it to the New Section. 
     
-19. After the timeline is filled into the New
+18. After the timeline is filled into the New
     Section, select the **New Section** that the timeline was just added to.
     Change the **Label** to **Timeline** and change the **Name** to
     **Timeline.**
