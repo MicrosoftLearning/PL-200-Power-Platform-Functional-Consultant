@@ -98,7 +98,7 @@ the relationship between Knowledge Assessment and the CDM Feedback table.
 
 13. Click **Save**.
 
-14. Click **+Add column** again.
+14. Click **+New column** again.
 
 15. Enter **End Date** for **Display Name** and select **Date Only** for **Data
     Type**.
