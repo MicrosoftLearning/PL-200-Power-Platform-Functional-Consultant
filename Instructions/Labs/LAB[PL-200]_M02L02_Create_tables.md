@@ -121,7 +121,7 @@ the relationship between Knowledge Assessment and the CDM Feedback table.
 
 23. Enter **Advanced** for **Item 3** and click **Save**.
 
-24. Select **Beginner** for the **Default Value** and click **Done**.
+24. Select **Difficulty** from drop-down for Sync this choice with and then select **Beginner** for the **Default choice**.
 
 25. Click **Save Table** at the bottom of the screen.
 
