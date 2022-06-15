@@ -78,7 +78,7 @@ To customize your form:
 
 4.  Open the **Common Data Service Default Solution**.
 
-5.  Select the **Knowledge Admin** model-driven app.
+5.  Select the **Knowledge Admin** model-driven app. Click **Switch to classic**.
 
 6.  Click **Edit**.
 
