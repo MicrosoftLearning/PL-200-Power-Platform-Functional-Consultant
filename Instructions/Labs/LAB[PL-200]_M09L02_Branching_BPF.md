@@ -202,6 +202,6 @@ begin the labs.
 34. The Approval Flow should complete the approval and set the **Status** to
     **Approved**.
 
-35. The Business Rule should **Unlock** the **Status** field.
+35. The Business Rule should **Lock** the **Status** field.
 
 36. Click **Finish**.
