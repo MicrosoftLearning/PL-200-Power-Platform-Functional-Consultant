@@ -16,6 +16,7 @@ You will be:
 
 - configuring security for dashboards
 - creating an interactive dashboard
+- enabling Power BI quick reports in the app
 
 ## Exercise 1 – Dashboard security
 
@@ -98,3 +99,41 @@ In this exercise, you will create an interactive dashboard for projects.
 1. In the **Objects** pane on the left, select **All**.
 
 1. Click on **Publish all customizations**.
+
+## Exercise 3 – Enable Power BI quick reports (Optional)
+
+In this exercise, you will be enabling the feature that uses Power BI to create a report from a model-driven app view.
+
+> NOTE: This exercise is optional.
+
+### Task 3.1 – Environmental Project Delivery app settings
+
+1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+
+1. Make sure you are in the **Practice** environment.
+
+1. Select **Solutions**.
+
+1. Click to open the **Fabrikam Environmental** solution.
+
+1. In the **Objects** pane on the left, click and expand **Apps**.
+
+1. Select the **Environmental Project Delivery** app, click on the ellipses (...), and select **Edit in new tab**.
+
+1. In the action bar, select **Settings**.
+
+1. Select **Project view**.
+
+1. Select **Features**.
+
+1. Toggle **Enable Power BI quick report visualization on a table** to **Yes**.
+
+1. Click **Save**.
+
+1. Click **Save**.
+
+1. Click **Play**.
+
+1. Close the app designer.
+
+1. Click **Done**.
