@@ -137,3 +137,61 @@ In this exercise, you will be enabling the feature that uses Power BI to create 
 1. Close the app designer.
 
 1. Click **Done**.
+
+## Exercise 4 – Solutions
+
+In this exercise, you will export the solution from the Practice environment and import it into the MOD Administrator's environment.
+
+### Task 4.1 – Export managed solution
+
+1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+
+1. Make sure you are in the **Practice** environment.
+
+1. Select **Solutions**.
+
+1. Select the **Fabrikam Environmental** solution but do not open it.
+
+1. Select **Export**.
+
+1. Click **Next**.
+
+1. The version number should have been incremented to **1.1.11.6**.
+
+1. Select **Managed** for **Export As**.
+
+1. Click **Export**.
+
+1. The export will be prepared in the background, when the solution is ready click the **Download** button.
+
+### Task 4.2 – Export unmanaged solution
+
+1. Select the **Fabrikam Environmental** solution.
+
+1. Select **Export**.
+
+1. Click **Next**.
+
+1. Select **Unmanaged** for **Export As**.
+
+1. Click **Export**.
+
+1. The export will be prepared in the background, when the solution is ready click the **Download** button.
+
+### Task 4.3 – Import managed solution
+
+1. Switch environments by using the Environment Selector in the upper right corner of the Maker portal.
+
+1. Select the **MOD Administrator's Environment** environment from the list.
+
+1. Select **Solutions**.
+
+1. Select **Import solution**.
+
+1. Select **Browse**,  change to the **Downloads** folder and select **FabrikamEnvironmental_1_1_11_6_managed.zip** and select **Open**.
+
+1. Click **Next**.
+
+1. Click **Next**.
+
+1. Click **Import**. The solution will import in the background.

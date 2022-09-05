@@ -12,6 +12,8 @@ You are a Power Platform functional consultant and have been assigned to the Fab
 
 In this practice lab, you will be modifying the properties of existing relationships, and creating new relationships, and creating rollup columns.
 
+You will also export your customizations from the solution and import them into another environment.
+
 ## Exercise 1 – Change relationship behaviors
 
 In this exercise, you will be modifying the cascade relationships for the project table. The region to project relationship will be changed to referential, restricted and the project to milestone relationship will be changed to custom.
@@ -350,7 +352,7 @@ In this exercise, you will enable connections for the resource and milestone tab
 
 1. Click **Done**.
 
-## Exercise 6 – Calculated and rollup colmuns
+## Exercise 6 – Calculated and rollup columns
 
 In this exercise, you will use relationships to create calculated and rollup fields. The calculated column will add the email address for the approver to the outcome table. The rollup column will sum the funding values to project.
 
@@ -457,6 +459,94 @@ In this exercise, you will use relationships to create calculated and rollup fie
 1. In the solution select the **Overview** page.
 
 1. Click on **Publish all customizations**.
+
+## Exercise 7 – Solutions
+
+In this exercise, you will export the solution from the Practice environment and import it into the MOD Administrator's environment.
+
+### Task 7.1 – Solution checker
+
+1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+
+1. Make sure you are in the **Practice** environment.
+
+1. Select **Solutions**.
+
+1. Select the **Fabrikam Environmental** solution but do not open it.
+
+1. Select the caret to the right of **Solution checker** and then select **Run**.
+
+1. Wait a few minutes for the checker to complete.
+
+1. Select the caret to the right of **Solution checker** and then select **View results**.
+
+1. You should see several warnings for the canvas app in the solution.
+
+1. Click the back arrow to return to solutions.
+
+### Task 7.2 – Export managed solution
+
+1. Select the **Fabrikam Environmental** solution.
+
+1. Select **Export**.
+
+1. Click **Next**.
+
+1. The version number should have been incremented to **1.1.11.4**.
+
+1. Select **Managed** for **Export As**.
+
+1. Click **Export**.
+
+1. The export will be prepared in the background, when the solution is ready click the **Download** button.
+
+### Task 7.3 – Export unmanaged solution
+
+1. Select the **Fabrikam Environmental** solution.
+
+1. Select **Export**.
+
+1. Click **Next**.
+
+1. Select **Unmanaged** for **Export As**.
+
+1. Click **Export**.
+
+1. The export will be prepared in the background, when the solution is ready click the **Download** button.
+
+### Task 7.4 – Import managed solution
+
+1. Switch environments by using the Environment Selector in the upper right corner of the Maker portal.
+
+1. Select the **MOD Administrator's Environment** environment from the list.
+
+1. Select **Solutions**.
+
+1. Select **Import solution**.
+
+1. Select **Browse**,  change to the **Downloads** folder and select **FabrikamEnvironmental_1_1_11_4_managed.zip** and select **Open**.
+
+1. Click **Next**.
+
+1. Click **Next**.
+
+1. You need to create connections for the solution.
+
+1. For the Approvals connection click **Select a connection** and then **+ New connection**.
+
+1. A new tab will open in the browser. Click **Create**.
+
+1. Switch back to the tab where you are importing the solution and click **Refresh**.
+
+1. For the Microsoft Dataverse connection click **Select a connection** and then **+ New connection**.
+
+1. A new tab will open in the browser. Click **Create**. If prompted, sign in with your Microsoft 365 credentials.
+
+1. Switch back to the tab where you are importing the solution and click **Refresh**.
+
+1. Both connections should be selected.
+
+1. Click **Import**. The solution will import in the background.
 
 ## Challenge (Optional)
 

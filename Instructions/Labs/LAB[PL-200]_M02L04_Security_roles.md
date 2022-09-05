@@ -129,3 +129,67 @@ You need to add privileges to use the business process flow on Outcome.
 1. Click **Save and Close**.
 
 1. Click **Done**.
+
+## Exercise 2 – Solutions
+
+In this exercise, you will export the solution from the Practice environment and import it into the MOD Administrator's environment.
+
+### Task 2.1 – Export managed solution
+
+1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+
+1. Make sure you are in the **Practice** environment.
+
+1. Select **Solutions**.
+
+1. Select the **Fabrikam Environmental** solution but do not open it.
+
+1. Select **Export**.
+
+1. Click **Next**.
+
+1. The version number should have been incremented to **1.1.11.5**.
+
+1. Select **Managed** for **Export As**.
+
+1. Click **Export**.
+
+1. The export will be prepared in the background, when the solution is ready click the **Download** button.
+
+### Task 2.2 – Export unmanaged solution
+
+1. Select the **Fabrikam Environmental** solution.
+
+1. Select **Export**.
+
+1. Click **Next**.
+
+1. Select **Unmanaged** for **Export As**.
+
+1. Click **Export**.
+
+1. The export will be prepared in the background, when the solution is ready click the **Download** button.
+
+### Task 2.3 – Import managed solution
+
+1. Switch environments by using the Environment Selector in the upper right corner of the Maker portal.
+
+1. Select the **MOD Administrator's Environment** environment from the list.
+
+1. Select **Solutions**.
+
+1. Select **Import solution**.
+
+1. Select **Browse**,  change to the **Downloads** folder and select **FabrikamEnvironmental_1_1_11_5_managed.zip** and select **Open**.
+
+1. Click **Next**.
+
+> NOTE: You should see a notification that the solution package contains an update for a solution that is already installed.
+
+1. Expand **Advanced settings**.
+
+1. Select **Upgrade** for **Solution action**.
+
+1. Click **Next**.
+
+1. Click **Import**. The solution will import in the background.
