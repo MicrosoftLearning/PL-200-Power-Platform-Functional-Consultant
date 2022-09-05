@@ -158,7 +158,7 @@ In this practice lab, you will be creating business rules to show and hide the l
 
 1. In the Scope drop-down in the top-right of the business rules designer select **Entity**.
 
-1. Select the **Condition** tile in the canvas and in the Properties pane enter *Percentage complete** for **Display Name.**.
+1. Select the **Condition** tile in the canvas and in the Properties pane enter **Percentage complete** for **Display Name.**.
 
 1. In the **Rule 1** section, select **Milestone Percentage Complete** for **Field**, select **Equals** for **Operator**, select **Value** for **Type**, and enter **100** for **Value**.
 

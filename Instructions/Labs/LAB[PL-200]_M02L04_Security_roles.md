@@ -120,12 +120,6 @@ You need to add privileges to use the business process flow on Outcome.
 
 1. Click on the **Merge** privilege to change the access level circle to **None**.
 
-### Task 1.5 – Add privileges for business process flow
-
-1. Select the **Business Process Flows** tab.
-
-1. Click on **Outcome Lifecycle** name to change all privilege access levels to **Organization**.
-
 1. Click **Save and Close**.
 
 1. Click **Done**.
