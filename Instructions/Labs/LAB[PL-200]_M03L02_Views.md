@@ -477,7 +477,7 @@ In this exercise, you will enable Dayaverse search for your environment.
 
 The find columns on the quick find views define the searchable fields in the Dataverse search index.
 
-### Task 8.1 – Audit settings
+### Task 8.1 – Search settings
 
 1. Navigate to the Power Platform admin center <https://admin.powerplatform.microsoft.com>.
 
