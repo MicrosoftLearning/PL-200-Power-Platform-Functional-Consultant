@@ -473,7 +473,7 @@ In this task, you will perform the following changes to the app:
 
 ## Exercise 8 – Enable Dataverse Search
 
-In this exercise, you will enable Dayaverse search for your environment.
+In this exercise, you will enable Dataverse search for your environment.
 
 The find columns on the quick find views define the searchable fields in the Dataverse search index.
 
