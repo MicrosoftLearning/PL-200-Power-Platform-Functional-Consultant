@@ -32,7 +32,7 @@ In this exercise, you will learn about the canvas app.
 
 1. Select the **Environmental Environmental Work Delivery** app, click on the ellipses (...), and select **Play**.
 
-1. Sign in with your Office 365 credentials.
+1. Sign in with your Microsoft 365 credentials.
 
 1. The app has 4 screens which are navigated using the left-hand navigation bar:
 

@@ -90,7 +90,7 @@ In this exercise you will run the business process flow to generate an approval.
 
 1. Open a new tab in the browser and navigate to Microsoft Teams <https://teams.microsoft.com>.
 
-1. Sign in with your Microsoft 35 credentials.
+1. Sign in with your Microsoft 365 credentials.
 
 1. Click **Use the web app instead**.
 
