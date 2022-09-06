@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab 1.1: Environment'
+    title: 'Lab 1.1: Environments'
     module: 'Module 1: Work with Microsoft Dataverse'
 ---
 
