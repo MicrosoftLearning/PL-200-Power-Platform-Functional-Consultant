@@ -398,9 +398,7 @@ In this exercise, you will use relationships to create calculated and rollup fie
 
 1. Enter the following formula:
 
-    ```PowerFx
-    contoso_approveruserid.internalemailaddress
-    ```
+    ```contoso_approveruserid.internalemailaddress```
 
     > NOTE: You can use intellisense to type and select the elements in the formula.
 

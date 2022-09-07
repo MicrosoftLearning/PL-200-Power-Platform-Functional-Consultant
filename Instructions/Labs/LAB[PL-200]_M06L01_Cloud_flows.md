@@ -78,9 +78,7 @@ In this task, you will perform the following changes to the flow:
 
 1. The expression should be as follows:
 
-    ```powerappsfl
-    length(outputs('Get_Outcome')?['body/contoso_approveremail'])
-    ```
+    ```length(outputs('Get_Outcome')?['body/contoso_approveremail'])```
 
 1. Change the **Operator** to **is greater than**.
 
@@ -204,15 +202,11 @@ In this task, you will:
 
 1. The URL will look like the link below.
 
-    ```
-    https://practice.crm.dynamics.com/main.aspx?appid=de79a38a-138b-4a89-91fb-b12ca31d227b&pagetype=entityrecord&etn=contoso_outcome&id=717c05a8-2c2c-ed11-9db1-00224820046d
-    ```
+    ```https://practice.crm.dynamics.com/main.aspx?appid=de79a38a-138b-4a89-91fb-b12ca31d227b&pagetype=entityrecord&etn=contoso_outcome&id=717c05a8-2c2c-ed11-9db1-00224820046d```
 
 1. Copy everything before the last GUID.
 
-    ```
-    https://practice.crm.dynamics.com/main.aspx?appid=de79a38a-138b-4a89-91fb-b12ca31d227b&pagetype=entityrecord&etn=contoso_outcome&id=
-    ```
+    ```https://practice.crm.dynamics.com/main.aspx?appid=de79a38a-138b-4a89-91fb-b12ca31d227b&pagetype=entityrecord&etn=contoso_outcome&id=```
 
 ### Task 2.2 – Update environment variable
 
@@ -329,9 +323,7 @@ In this task, you will perform the following:
 
 1. Click into **Filter rows** and enter the following OData filter expression:
 
-    ```odata
-    (contoso_projectstatus eq 330650003 and contoso_actualenddate eq null)
-    ```
+    ```(contoso_projectstatus eq 330650003 and contoso_actualenddate eq null)```
 
 1. Click **Save**.
 

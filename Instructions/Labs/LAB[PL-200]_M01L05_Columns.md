@@ -146,9 +146,7 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
 1. Enter the following formula:
 
-    ```PowerFx
-    DIFFINDAYS(contoso_scheduledstartdate,contoso_estimatedenddate)
-    ```
+    ```DIFFINDAYS(contoso_scheduledstartdate,contoso_estimatedenddate)```
 
     > NOTE: You can use intellisense to type and select the elements in the formula.
 

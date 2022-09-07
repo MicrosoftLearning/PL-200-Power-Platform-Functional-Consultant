@@ -301,9 +301,7 @@ In this task, you will perform the following changes to the button:
 
 1. Enter the following formula:
 
-    ```powerappsfl
-    If(CountRows(OutcomeGallery.AllItems) > 0, DisplayMode.Edit, DisplayMode.Disabled)
-    ```
+    ```If(CountRows(OutcomeGallery.AllItems) > 0, DisplayMode.Edit, DisplayMode.Disabled)```
 
 1. In the menu, select **File** and then **Save**.
 
@@ -372,9 +370,7 @@ In this task, you will perform the following changes to the screen:
 
 1. Enter the following formula:
 
-    ```powerappsfl
-    LookUp(Outcomes, Outcome = OutcomeGallery.Selected.Outcome)
-    ```
+    ```LookUp(Outcomes, Outcome = OutcomeGallery.Selected.Outcome)```
 
 ### Task 3.3 - Milestone form
 
@@ -506,9 +502,7 @@ In this task, you will perform the following changes to the screen:
 
 1. Enter the following formula:
 
-    ```powerappsfl
-    Resetmilestonestatus.Run(MilestoneGallery.Selected.Milestone);Refresh(Milestones);
-    ```
+    ```Resetmilestonestatus.Run(MilestoneGallery.Selected.Milestone);Refresh(Milestones);```
 
 1. Drag **ResetBtn** under the form.
 
