@@ -76,15 +76,13 @@ In this exercise, you will add a Power Apps trial to the tenant and assign licen
 
 1. Click **Start free trial**.
 
-    ![Power Apps sign up.](../media/start-free.png)
-
 1. Click **Try now**.
 
 1. Click **Continue**.
 
 ### Task 2.2 – Assign Power Apps licenses to your user
 
-1. In the left-hand navigation, expand **Users** and select **Active users**. ![Active users.](../media/active-users.png)
+1. In the left-hand navigation, expand **Users** and select **Active users**.
 
 1. Select your user **MOD Administrator** to open the user details panel and select the **Licenses and apps** tab. ![Mod Administrator licenses.](../media/mod-administrator.png)
 
