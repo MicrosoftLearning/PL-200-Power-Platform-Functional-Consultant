@@ -10,11 +10,11 @@ lab:
 
 ## Scenario
 
-In this lab, you will download the files requires for the labs and acquire a Power Platform trial.
+In this lab, you will download the files required for the labs and acquire a Power Platform trial.
 
 ## Exercise 1 - Download lab files
 
-In this exercise, you will download and extract the files requires for the labs.
+In this exercise, you will download and extract the files required for the labs.
 
 ### Task 1.1 - Download lab files from GitHub
 
