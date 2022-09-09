@@ -8,9 +8,9 @@ lab:
 
 ## Scenario
 
-Fabrikam are an environmental consultancy that advises customers on programs and related projects covering water, air, and soil.
+Fabrikam is an environmental consultancy that advises customers on programs and related projects covering water, air, and soil.
 
-Fabrikam work long-term with their customers to improve the sustainability of natural resources. A Power Platform solution has been built by Contoso for Fabrikam to support the delivery of programs and projects.
+Fabrikam works long-term with its customers to improve the sustainability of natural resources. A Power Platform solution has been built by Contoso for Fabrikam to support the delivery of programs and projects.
 
 You are a Power Platform functional consultant and have been assigned to the Fabrikam project for the next stage of the project.
 
@@ -39,25 +39,21 @@ In this exercise, you will import the main solution into the **Practice** enviro
 
 1. Navigate to <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment you created.
-
-    ![Select Practice environment in the Power Apps maker portal.](../media/select-environment.png)
+1. Make sure you are in your **Practice** environment.
 
 1. Select **Solutions**.
 
 1. Click **Import solution**.
 
-    ![Import solution in Maker portal.](../media/import-solution.png)
+1. Click **Browse** and locate the **FabrikamEnvironmental_1_1_11_3.zip** file and click **Open**.
 
-1. Click **Browse** and navigate to the **D:\PL200\Labs** folder and select the **FabrikamEnvironmental_1_1_11_3.zip** file and click on **Open**.
-
+    **Note:** you downloaded your files at the start of these labs. They should be under This PC > AllFiles (F:) > Allfiles > Labs.
+    
     ![Solution to import.](../media/solution-to-import.png)
 
 1. Click **Next**.
 
-1. Click **Next**.
-
-    ![Summary of solution to import.](../media/import-solution-summary.png)
+1. Click **Next** again.
 
 1. You need to create connections for the solution.
 
@@ -71,11 +67,9 @@ In this exercise, you will import the main solution into the **Practice** enviro
 
 1. Switch back to the tab where you are importing the solution and click **Refresh**.
 
-1. For the Microsoft Dataverse connection click **Select a connection** and then **+ New connection**.
+1. For the Microsoft Dataverse connection, click **Select a connection** and then **+ New connection**.
 
 1. A new tab will open in the browser. Click **Create**. If prompted, sign in with your Microsoft 365 credentials.
-
-    ![Create connection for approvals.](../media/create-dataverse-connection.png)
 
 1. Switch back to the tab where you are importing the solution and click **Refresh**.
 
@@ -83,7 +77,9 @@ In this exercise, you will import the main solution into the **Practice** enviro
 
     ![Connections for import of solution.](../media/connections-for-solution-added.png)
 
-1. Click **Import**. The solution will import in the background. Wait until the import has completed.
+1. Click **Import**. 
+    
+    The solution will import in the background. This may take a few minutes. Wait until the import has completed.
 
     ![Solution imported.](../media/solution-imported.png)
 
@@ -91,16 +87,16 @@ In this exercise, you will import the main solution into the **Practice** enviro
 
 1. Navigate to <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment you created.
+1. Make sure you are in your **Practice** environment.
 
 1. Select **Solutions**.
 
 1. Click **Import solution**.
 
-1. Click **Browse** and navigate to the **D:\PL200\Labs** folder and select the **FabrikamChatbot_1_1_1_1.zip** file and click on **Open**.
+1. Click **Browse** and locate the **FabrikamChatbot_1_1_1_1.zip** file and click **Open**.
 
-1. Click **Next**.
-
+    **Note:** you downloaded your files at the start of these labs. They should be under This PC > AllFiles (F:) > Allfiles > Labs.
+    
 1. Click **Next**.
 
 1. Click **Import**. The solution will import in the background.
@@ -111,11 +107,9 @@ In this exercise, you will import data the into the **Practice** environment usi
 
 ### Task 2.1 - Import data
 
-1. From the lab virtual machine, open **File Explorer**.
+1. In your lab virtual machine, open **File Explorer**.
 
-1. Navigate to **D:\PL200\Labs\ConfigurationMigration**.
-
-    ![Configuration Migration Tool folder.](../media/configuration-migration-folder.png)
+1. Navigate to **F:\Allfiles\Labs\ConfigurationMigration**.
 
 1. Double-click on **DataMigrationUtility.exe**
 
@@ -137,15 +131,13 @@ In this exercise, you will import data the into the **Practice** environment usi
 
     ![Configuration Migration Tool select environment.](../media/configuration-migration-step3.png)
 
-1. Select the **Practice** environment.
+1. Select your **Practice** environment.
 
 1. Click **Login**.
 
     ![Configuration Migration Tool select data file.](../media/configuration-migration-step4.png)
 
-1. Click on the ellipses (...) and browse to **D:\PL200\Labs** folder and select **Fabrikam Environment data.zip**
-
-    ![Select a zipped file.](../media/configuration-migration-step5.png)
+1. Click on the ellipses (...) and locate and select **Fabrikam Environment data.zip** file
 
 1. Click **Open**. The data file will be validated.
 
