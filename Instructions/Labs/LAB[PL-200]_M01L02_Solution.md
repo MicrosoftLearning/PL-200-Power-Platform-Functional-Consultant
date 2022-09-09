@@ -8,7 +8,7 @@ lab:
 
 ## Scenario
 
-In this lab, you create a publisher and a solution.
+In this lab, you will create a publisher and a solution.
 
 ## Exercise 1 - Create publisher and solution
 
@@ -20,13 +20,13 @@ In this exercise, you will access the Power Apps maker portal, the **Practice** 
 
 1. Switch environments by using the Environment Selector in the upper right corner of the screen. The Contoso (Default) environment will be selected by default.
 
-1. Select the **Practice** environment from the list.
+1. Select your **Practice** environment from the list.
 
     ![Select Practice environment in the Power Apps maker portal.](../media/select-environment.png)
 
 1. Select **Apps** from the left navigation pane. You should see a single app, Solution Health Hub, listed.
 
-1. Select and expand **Dataverse** from the left navigation pane. Select **Tables**. You should see the standard tables from the Common Data Model.
+1. Select and expand **Dataverse** from the left navigation pane. Select **Tables**. You should see standard tables from the Common Data Model.
 
 ### Task 1.2 – Create a publisher
 
@@ -60,7 +60,7 @@ In this exercise, you will access the Power Apps maker portal, the **Practice** 
 
 1. In the Publisher drop-down, select **Fabrikam**.
 
-1. Click **Save**.
+1. Click **Create**.
 
     ![New solution.](../media/new-solution.png)
 
