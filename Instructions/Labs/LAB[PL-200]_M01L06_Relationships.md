@@ -10,19 +10,19 @@ lab:
 
 You are a Power Platform functional consultant and have been assigned to the Fabrikam project for the next stage of the project.
 
-In this practice lab, you will be modifying the properties of existing relationships, and creating new relationships, and creating rollup columns.
+In this practice lab, you will be modifying the properties of existing relationships, creating new relationships, and creating rollup columns.
 
-You will also export your customizations from the solution and import them into another environment.
+You will then export your customizations from the solution and import them into another environment.
 
 ## Exercise 1 – Change relationship behaviors
 
-In this exercise, you will be modifying the cascade relationships for the project table. The region to project relationship will be changed to referential, restricted and the project to milestone relationship will be changed to custom.
+In this exercise, you will be modifying the cascade relationships for the project table. The Region to Project relationship will be changed to referential, restricted and the Project to Milestone relationship will be changed to custom.
 
 ### Task 1.1 – Region-Project relationship
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in your **Practice** environment.
 
 1. Select **Solutions**.
 
@@ -46,7 +46,7 @@ In this exercise, you will be modifying the cascade relationships for the projec
 
 ### Task 1.2 – Project-Milestone relationship
 
-1. Scroll up and select the **Milestone** relationship.
+1. Select the **Milestone** relationship. Note that this relationship uses Project as the Display name and contoso_project_milestone as the Name. 
 
 1. In the One-to-many pane that appears on the right-hand side of the screen, expand **Advanced options**.
 
@@ -66,13 +66,13 @@ In this exercise, you will be modifying the cascade relationships for the projec
 
 ## Exercise 2 – Add new relationship
 
-In this exercise, you will create a new relationship between the resource and project tables to create a lookup for the lead resource on the project.
+In this exercise, you will create a new relationship between the Resource and Project tables to create a lookup for the Lead Resource on the Project.
 
 ### Task 2.1 – Create new Project Lead relationship
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in your **Practice** environment.
 
 1. Select **Solutions**.
 
@@ -116,13 +116,13 @@ In this exercise, you will create a new relationship between the resource and pr
 
 ## Exercise 3 – Hierarchical relationship
 
-In this exercise, you will create a new hierarchical relationshipon the region table.
+In this exercise, you will create a new hierarchical relationship on the region table.
 
 ### Task 3.1 – Create new hierarchical relationship
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in your **Practice** environment.
 
 1. Select **Solutions**.
 
@@ -156,13 +156,13 @@ In this exercise, you will create a new hierarchical relationshipon the region t
 
 ## Exercise 4 – Project Outcome relationships
 
-In this exercise, you will create two many-to-one relationships for the project outcome table to the project and outcome tables. These relationships will be used to replace the many-to-many relationship between the project and outcome tables.
+In this exercise, you will create two many-to-one relationships for the Project Outcome table to the Project and Outcome tables. These relationships will be used to replace the many-to-many relationship between the Project and Outcome tables.
 
 ### Task 4.1 – Create new relationship to Project
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in your **Practice** environment.
 
 1. Select **Solutions**.
 
@@ -252,7 +252,7 @@ In this exercise, you will enable connections for the resource and milestone tab
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in your **Practice** environment.
 
 1. Select **Solutions**.
 
@@ -274,7 +274,7 @@ In this exercise, you will enable connections for the resource and milestone tab
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in your **Practice** environment.
 
 1. Select **Solutions**.
 
@@ -282,7 +282,7 @@ In this exercise, you will enable connections for the resource and milestone tab
 
 1. In the **Objects** pane on the left, click and expand **Tables**.
 
-1. Select the **Resource** table.
+1. Select the **Milestone** table.
 
 1. Click on **Properties**.
 
@@ -302,7 +302,7 @@ In this exercise, you will enable connections for the resource and milestone tab
 
 ### Task 5.4 – Add connection roles
 
-1. In the solution select the **Objects** page and select **All**.
+1. Within the solution, select the **Objects** page and select **All**.
 
 1. Click **+ New**, and then select **More** and then select **Connection Role**.
 
@@ -354,13 +354,13 @@ In this exercise, you will enable connections for the resource and milestone tab
 
 ## Exercise 6 – Calculated and rollup columns
 
-In this exercise, you will use relationships to create calculated and rollup fields. The calculated column will add the email address for the approver to the outcome table. The rollup column will sum the funding values to project.
+In this exercise, you will use relationships to create calculated and rollup fields. The calculated column will add the email address for the approver to the outcome table. The rollup column will sum the funding values of projects.
 
 ### Task 6.1 – Calculated column for a many-to-one relationship
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in your **Practice** environment.
 
 1. Select **Solutions**.
 
@@ -384,7 +384,7 @@ In this exercise, you will use relationships to create calculated and rollup fie
 
 1. Click on **Save and edit**.
 
-1. When a new browser window opens, click **+ Add condition**.
+1. When the new browser window opens, click **+ Add condition**.
 
 1. Select **Approver** for **Field**.
 
@@ -424,7 +424,7 @@ In this exercise, you will use relationships to create calculated and rollup fie
 
 1. Click on **Save and edit**.
 
-1. When a new browser window opens, click **+ Add related entity**.
+1. When the new browser window opens, click **+ Add related entity**.
 
 1. Select **Project Funding (Project)** for Related.
 
