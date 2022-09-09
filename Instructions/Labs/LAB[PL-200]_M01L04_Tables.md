@@ -12,7 +12,7 @@ You are a Power Platform functional consultant and have been assigned to the Fab
 
 You need to familiarize yourself with the data model and then make changes to tables and their properties for this phase of the project.
 
-The data model is available in the D:\PL-200\Labs folder.
+The data model is available in your F:\Allfiles\Labs folder.
 
 ![Fabrikam Environment Data Model.](../media/Fabrikam_Environmental_ERD.png)
 
@@ -20,23 +20,19 @@ In this practice lab, you will be modifying table properties and creating a new 
 
 ## Exercise 1 – Explore the data model
 
-In this exercise, you will be examining the tables in the Fabrikam Environmental solution.
+In this exercise, you will be examining the tables in the Fabrikam Environmental solution. Take some time to familiarize yourself with your client, Fabrikam's, data model and existing business rules. 
 
 ### Task 1.1 – Examine tables
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
-
-    ![Practice environment in the Power Apps maker portal.](../media/practice-environment.png)
+1. Make sure you are in your **Practice** environment.
 
 1. Select **Solutions**.
 
 1. Click to open the **Fabrikam Environmental** solution.
 
-    ![Fabrikam Environmental solution.](../media/fabrikam_environmental_solution.png)
-
-1. In the **Objects** pane on the left, click and expand **Tables**.
+1. In the **Objects** pane on the left, click to expand **Tables**.
 
 1. Click and expand the **Project** table.
 
@@ -50,7 +46,9 @@ In this exercise, you will be examining the tables in the Fabrikam Environmental
 
 1. Click and expand the **Project Funding** table and examine its columns and relationships.
 
-1. Click on **Business rules** under the **Project Funding** table. There is a rule for the funding percentage.
+1. Click on **Business rules** under the **Project Funding** table. There is a rule for the funding percentage. Open the business rule and examine how it works. 
+
+1. Close the busisiness rule
 
 1. Click and expand the **Project Resource** table and examine its columns and relationships.
 
