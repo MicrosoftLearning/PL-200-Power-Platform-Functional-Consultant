@@ -54,7 +54,7 @@ In this exercise, you will create the **Practice** environment that you will do 
 
 1. Navigate to <https://powerapps.microsoft.com/developerplan>.
 
-1. Click **Existing user? Add a dev environment**. Do not click Get started free.
+1. Click **Existing user? Add a dev environment**.
 
     ![Developer plan.](../media/developer-plan.png)
 
