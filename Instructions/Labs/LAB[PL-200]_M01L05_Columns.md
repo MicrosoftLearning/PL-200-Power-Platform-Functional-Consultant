@@ -20,7 +20,7 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in your **Practice** environment.
 
 1. Select **Solutions**.
 
@@ -84,8 +84,6 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
 1. Click **Save**.
 
-    ![Autonumber column.](../media/autonumber-column.png)
-
 ### Task 1.3 – Add an alternate key
 
 1. In the **Objects** pane on the left, expand **Tables**, and select **Project**.
@@ -99,8 +97,6 @@ In this exercise, you will be changing properties on existing columns on the Pro
 1. Check the **Project Code** box
 
 1. Click **Save**.
-
-    ![Alternate key.](../media/alternate-key.png)
 
 ### Task 1.4 – Add a calculated column
 
@@ -122,7 +118,7 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
     ![Add calculated column.](../media/add-calculated-column.png)
 
-    > NOTE: You may need to disable the pop-up blocker in your browser and edit the Length of Project column again.
+    > NOTE: You may need to disable the pop-up blocker in your browser and edit the Length of Project column.
 
 1. When a new browser window opens, click **+ Add condition**.
 
@@ -190,7 +186,7 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
 1. Click **+ New column**.
 
-1. Enter **Funding amount** for **Display Name**.
+1. Enter **Funding Amount** for **Display Name**.
 
 1. Enter **Value of funding from the funder on the project** for **Description**.
 
@@ -212,7 +208,7 @@ In this exercise, you will be changing properties on a lookup column on the Mile
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in your **Practice** environment.
 
 1. Select **Solutions**.
 
@@ -244,7 +240,7 @@ In this exercise, you will be creating a choice column to replace the use of sta
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in your **Practice** environment.
 
 1. Select **Solutions**.
 
@@ -254,7 +250,7 @@ In this exercise, you will be creating a choice column to replace the use of sta
 
 1. Click **+ New**, select **More**, and then select **Choice**.
 
-1. Enter **Environmental status** for **Display Name**.
+1. Enter **Environmental Status** for **Display Name**.
 
 1. Enter **Planned** for **Label**
 
@@ -288,11 +284,11 @@ In this exercise, you will be creating a choice column to replace the use of sta
 
 1. Click **+ New column**.
 
-1. Enter **Milestone status** for **Display Name**.
+1. Enter **Milestone Status** for **Display Name**.
 
 1. Select **Choice** in the **Data type** drop-down and then select **Choice** again.
 
-1. Select **Environmental status** in the **Sync this choice with** drop-down.
+1. Select **Environmental Status** in the **Sync this choice with** drop-down.
 
 1. Select **Planned** in the **Default choice** drop-down.
 
@@ -310,7 +306,7 @@ In this exercise, you will be creating a choice column to replace the use of sta
 
 1. Click **+ New column**.
 
-1. Enter **Outcome status** for **Display Name**.
+1. Enter **Outcome Status** for **Display Name**.
 
 1. Select **Choice** in the **Data type** drop-down and then select **Choice** again.
 
@@ -328,7 +324,7 @@ In this exercise, you will be creating columns on the Project Outcome custom tab
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in your **Practice** environment.
 
 1. Select **Solutions**.
 
@@ -340,9 +336,9 @@ In this exercise, you will be creating columns on the Project Outcome custom tab
 
 1. Click **+ New**, and then select **Column**.
 
-1. Enter **Stakeholders notified** for **Display Name**.
+1. Enter **Stakeholders Notified** for **Display Name**.
 
-1. Select **Choice** in the **Data type** drop-down and then select **Yes/No**.
+1. Select **Choice** in the **Data type** drop-down and then select **Yes/no**.
 
 1. Click **Save**.
 
