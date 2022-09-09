@@ -34,9 +34,7 @@ In this exercise, you will create the **Practice** environment that you will do 
 
 1. On the **Create a database for this environment?** toggle, change to **Yes**.
 
-1. Note: Leave all other selections as default.
-
-1. Click **Next**.
+1. Leave all other selections as default and select **Next**.
 
     ![New environment.](../media/new-environment-step1.png)
 
