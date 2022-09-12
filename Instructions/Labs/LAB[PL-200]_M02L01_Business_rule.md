@@ -10,7 +10,7 @@ lab:
 
 You are a Power Platform functional consultant and have been assigned to the Fabrikam project for the next stage of the project.
 
-In this practice lab, you will be creating business rules to show and hide the lookup columns in the model-driven app form for the resource table and to set the status of milestone records to completed when the percentage complete is 100%.
+In this practice lab, you will be creating business rules to show and hide the lookup columns in the model-driven app form for the Resource table and to set the status of Milestone rows to completed when the percentage complete is 100%.
 
 ## Exercise 1 – Create Business Rule
 
@@ -18,7 +18,7 @@ In this practice lab, you will be creating business rules to show and hide the l
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in your **Practice** environment.
 
 1. Select **Solutions**.
 
@@ -30,7 +30,7 @@ In this practice lab, you will be creating business rules to show and hide the l
 
 1. Under **Customizations**, click on **Business rules**.
 
-1. Click on the existing business rule, **Set Resource Name**, to open the business rule designer. This business rule controls the visibility and requirement the primary name based on the selection of resource type.
+1. Click on the existing business rule, **Set Resource Name**, to open the business rule designer. Analyze how this business rule works. This business rule controls the visibility and requirement for the resource name based on the selection of resource type.
 
 1. Close the Business rule designer.
 
@@ -64,7 +64,7 @@ In this practice lab, you will be creating business rules to show and hide the l
 
 1. Enter **User Required** for **Display Name**, select **User** for **Field**, select **Business Required** for **Status** and click **Apply**.
 
-1. Click on **+ Add** and select **Add Set Business Required** and then click the plus icon to the right of the Hide Contact tile.
+1. Click on **+ Add** and select **Add Set Business Required** and then click the plus icon to the right of the User Required tile.
 
 1. Enter **Contact Not Required** for **Display Name**, select **Contact** for **Field**, select **Not Business Required** for **Status** and click **Apply**.
 
@@ -128,13 +128,13 @@ In this practice lab, you will be creating business rules to show and hide the l
      Set Contact as Business Required
     ```
 
-1. Click **Save**. You should see the message Validation successful.
+1. Click **Save**. You should see the message that Validation was successful.
 
 1. Click **Activate**.
 
 1. In the Process activation confirmation dialog, click **Activate**.
 
-1. Close the business rule designer page.
+1. Close the business rule designer tab.
 
 1. Click **Done**.
 
