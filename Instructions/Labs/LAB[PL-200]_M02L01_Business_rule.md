@@ -144,21 +144,15 @@ In this practice lab, you will be creating business rules to show and hide the l
 
 1. Under **Customizations**, click on **Business rules**.
 
-1. Click on the existing business rule, **Set Resource Name**, to open the business rule designer. This business rule controls the visibility and requirement the primary name based on the selection of resource type.
-
-1. Close the Business rule designer.
-
-1. Click **Done**.
-
 1. Click **+ New business rule**.
 
 1. Next to **New business rule** name at the top of the screen, click on the drop-down caret.
 
-1. Enter **Milestone completed** for **Business Rule Name**.
+1. Enter **Milestone Completed** for **Business Rule Name**.
 
 1. In the Scope drop-down in the top-right of the business rules designer select **Entity**.
 
-1. Select the **Condition** tile in the canvas and in the Properties pane enter **Percentage complete** for **Display Name.**.
+1. Select the **Condition** tile in the canvas and in the Properties pane enter **Percentage Complete** for **Display Name.**.
 
 1. In the **Rule 1** section, select **Milestone Percentage Complete** for **Field**, select **Equals** for **Operator**, select **Value** for **Type**, and enter **100** for **Value**.
 
@@ -191,16 +185,16 @@ In this practice lab, you will be creating business rules to show and hide the l
      Set Milestone status to "Completed"
     ```
 
-1. Click **Save**. You should see the message Validation successful.
+1. Click **Save**. You should see the message that Validation was successful.
 
 1. Click **Activate**.
 
 1. In the Process activation confirmation dialog, click **Activate**.
 
-1. Close the business rule designer page.
+1. Close the business rule designer tab.
 
 1. Click **Done**.
 
 ## Challenge (Optional)
 
-Edit the Set Resource name business rule to hide both lookup columns if resource type is not selected and to set as not business required.
+Edit the Set Resource Name business rule on the Resource table to hide both lookup columns if resource type is not selected and set as not business required.
