@@ -4,7 +4,7 @@ lab:
     module: 'Module 2: Manage Microsoft Dataverse'
 ---
 
-# Practice Lab 2.6 - Bulk delete data (Optional)
+# Practice Lab 2.6 - Bulk delete data
 
 ## Scenario
 
