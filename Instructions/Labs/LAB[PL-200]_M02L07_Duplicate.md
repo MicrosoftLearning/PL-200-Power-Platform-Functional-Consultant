@@ -4,15 +4,13 @@ lab:
     module: 'Module 2: Manage Microsoft Dataverse'
 ---
 
-# Practice Lab 2.7 - Duplicate detection (Optional)
+# Practice Lab 2.7 - Duplicate detection
 
 ## Scenario
 
 You are a Power Platform functional consultant and have been assigned to the Fabrikam project for the next stage of the project.
 
 In this practice lab, you will implement duplicate detection rules so that duplicate projects cannot be created for the same program.
-
-> NOTE: This practice lab is optional.
 
 ## Exercise 1 – Create new duplicate detection rule
 
