@@ -18,11 +18,11 @@ In this exercise, you will export data using the maker portal.
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in your **Practice** environment.
 
 1. Expand **Dataverse** and select **Tables**.
 
-1. Locate and click to open the **Projects** table.
+1. Locate and click to open the **Project** table.
 
 1. Click **Export** and select **Export data**.
 
@@ -46,7 +46,7 @@ In this exercise, you will export data using the maker portal.
 
 ## Exercise 2 – Export data from a model-driven app
 
-In this exercise, you will export data using the maker portal from a model-drivel app.
+In this exercise, you will export data from a model-drivel app using the maker portal.
 
 ### Task 2.1 – Export to Excel
 
@@ -56,11 +56,11 @@ In this exercise, you will export data using the maker portal from a model-drive
 
 1. Select **Apps**.
 
-1. For the **Environmental Management** app, Click on the ellipses (...) and select **Play** and sign in with your Microsoft 365 credentials if prompted.
+1. For the **Environmental Management** app, Click on the ellipses (...) and select **Play**. Sign in with your Microsoft 365 credentials if prompted.
 
 1. In the left-hand navigation of the app, select **Projects**.
 
-1. In the action bar, select **Export to Excel** and then select **Static Worksheet**.
+1. In the action bar, select the caret next to **Export to Excel** and then select **Static Worksheet**.
 
 1. Open the folder the data was downloaded to.
 
