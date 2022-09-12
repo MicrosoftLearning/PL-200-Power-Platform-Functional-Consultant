@@ -20,7 +20,7 @@ There are three security roles in the solution:
 
 You need to add privileges for the new Project Outcome table.
 
-You need to adjust the Write privileges for the Milestone and Outcome tables on the Environmental user role. Currently users can edit all records on these tables. Users should only be able to edit the records in their business unit.
+You need to adjust the Write privileges for the Milestone and Outcome tables on the Environmental user role. Currently, users can edit all records on these tables. Users should only be able to edit the records in their business unit.
 
 You need to remove privileges for importing and exporting of data, deleting account and contacts, and add privileges for connection roles and audit history.
 
@@ -88,9 +88,9 @@ You need to remove privileges for importing and exporting of data, deleting acco
 
 1. Locate the **Connection** table privileges.
 
-1. Click on the **Append** privilege to change the access level circle to **Organization**.
+1. Verify that the **Append** privilege access level is set to **Organization**.
 
-1. Click on the **Append To** privilege to change the access level circle to **Organization**.
+1. Verify that the **Append To** privilege taccess level is set to **Organization**.
 
 1. Locate the **Account** table privileges.
 
@@ -136,7 +136,9 @@ In this exercise, you will export the solution from the Practice environment and
 
 1. Select the **Fabrikam Environmental** solution but do not open it.
 
-1. Select **Export**.
+1. Select **Export solution**.
+
+1. Click **Publish** to publish all of your recent changes.
 
 1. Click **Next**.
 
@@ -152,9 +154,11 @@ In this exercise, you will export the solution from the Practice environment and
 
 1. Select the **Fabrikam Environmental** solution.
 
-1. Select **Export**.
+1. Select **Export solution**.
 
 1. Click **Next**.
+
+1. The version number should have been incremented to **1.1.11.6**.
 
 1. Select **Unmanaged** for **Export As**.
 
@@ -181,7 +185,5 @@ In this exercise, you will export the solution from the Practice environment and
 1. Expand **Advanced settings**.
 
 1. Select **Upgrade** for **Solution action**.
-
-1. Click **Next**.
 
 1. Click **Import**. The solution will import in the background.
