@@ -12,7 +12,7 @@ You are a Power Platform functional consultant and have been assigned to the Fab
 
 In this practice lab, you will be adding users and assigning security roles.
 
-You will create a Team and add the Team.
+You will create a Team and adding users to the Team.
 
 You will add the users and team to column security profiles.
 
@@ -63,6 +63,8 @@ You will add the users and team to column security profiles.
 1. Select the **Environmental User** and **Environmental Administrator** roles.
 
 1. Click **Save**.
+
+1. Click **Refresh** to view the updated list of users.
 
 ## Exercise 2 – Create a team
 
