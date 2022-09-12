@@ -505,9 +505,9 @@ In this task, you will perform the following changes to the Project Outcome form
 
 1. Click on the **Comments** column to add to the form below **Outcome**.
 
-1. Click on the **Outcome completed date** column to add to the form below **Comments**.
+1. Click on the **Outcome Completed Date** column to add to the form below **Comments**.
 
-1. Click on the **Stakeholders notified** column to add to the form below **Outcome completed date**.
+1. Click on the **Stakeholders Notified** column to add to the form below **Outcome completed date**.
 
 1. Select the **Title** field.
 
@@ -531,7 +531,7 @@ In this task, you will perform the following changes to the Project Outcome form
 
 ## Exercise 9 – Copy Outcome form
 
-In this exercise, you will be copying a form and setting security on the forms.
+In this exercise, you will be copying a form and implementing security on forms.
 
 ### Task 9.1 – Copy Outcome form
 
@@ -540,7 +540,7 @@ In this task, you will perform the following changes to the form:
 - Rename the main form
 - Copy the main form to allow managers to view and edit columns
 - Associate security roles with the forms
-- set the form order
+- Set the form order
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
@@ -566,8 +566,6 @@ In this task, you will perform the following changes to the form:
 
 1. Enter **Manager** for **Display Name** and **Form for managers** for **Description**.
 
-1. Click **Save**.
-
 1. Select **Tree view** on the left-hand side of the form designer.
 
 1. Select the **General** tab.
@@ -582,7 +580,7 @@ In this task, you will perform the following changes to the form:
 
 1. Click **Hide label**.
 
-1. Select **Table components** on the left-hand side of the form designer.
+1. Select **Table columns** on the left-hand side of the form designer.
 
 1. Drag the **Goal** column to the Details section.
 
@@ -608,7 +606,7 @@ In this task, you will perform the following changes to the form:
 
 1. Click **Form Settings**.
 
-1. Select the **Environmental manager** and **Environmental administrator** roles.
+1. Select the **Environmental manager** and **Environmental administrator** roles as the specific security roles that should have access to this form.
 
 1. Select **Form Order**.
 
@@ -642,7 +640,7 @@ In this task, you will perform the following changes to the form:
 
 ## Exercise 10 – Modify model-driven apps
 
-In this exercise, you will be adding the tables and forms to model-driven apps.
+In this exercise, you will be adding the tables and forms to the Fabrikam model-driven apps.
 
 ### Task 10.1 – Environmental Management app
 
@@ -701,7 +699,7 @@ In this task, you will perform the following changes to the app:
 
 1. Click **Play**.
 
-1. Close the app designer.
+1. Click around and interact with your Environmental Management app before closing the app and app designer windows.
 
 1. Click **Done**.
 
@@ -740,6 +738,6 @@ In this task, you will perform the following changes to the app:
 
 1. Click **Play**.
 
-1. Close the app designer.
+1. Click around and interact with your Environmental Project Delivery app before closing the app and app designer windows.
 
 1. Click **Done**.
