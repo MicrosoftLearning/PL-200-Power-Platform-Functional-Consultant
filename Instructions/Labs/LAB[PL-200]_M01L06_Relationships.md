@@ -404,9 +404,9 @@ In this exercise, you will use relationships to create calculated and rollup fie
 
 1. Click the blue check mark.
 
-1. Click **SAVE AND CLOSE**.
-
     ![Add calculated column using a relationship.](../media/calculated-column-using-relationship.png)
+
+1. Click **SAVE AND CLOSE**.
 
 ### Task 6.2 – Rollup column for the project one-to-many relationship
 
