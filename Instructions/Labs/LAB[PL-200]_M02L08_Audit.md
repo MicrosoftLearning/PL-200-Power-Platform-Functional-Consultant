@@ -4,15 +4,13 @@ lab:
     module: 'Module 2: Manage Microsoft Dataverse'
 ---
 
-# Practice Lab 2.8 - Audit (Optional)
+# Practice Lab 2.8 - Audit 
 
 ## Scenario
 
 You are a Power Platform functional consultant and have been assigned to the Fabrikam project for the next stage of the project.
 
 In this practice lab, you will enabling auditing to track data changes in Microsoft Dataverse.
-
-> NOTE: This practice lab is optional.
 
 ## Exercise 1 – Enable auditing
 
@@ -34,7 +32,7 @@ In this exercise, you will enable auditing for your environment. In earlier labs
 
 1. Check the **Start Auditing** box.
 
-1. Select **90 days** in the **Set retention policy for these logs, after which they will deleted** drop-down.
+1. Select **90 days** in the **Retain these logs for** drop-down.
 
 1. Click **Save**.
 
@@ -42,4 +40,4 @@ In this exercise, you will enable auditing for your environment. In earlier labs
 
 1. Expand **Audit and logs**.
 
-1. Select **Audit summary view**.
+1. Select **Audit summary view** to view the audited operations so far.
