@@ -22,7 +22,7 @@ You will be:
 
 - modifying columns on the project form
 - adding the timeline control to the project form
-- replace the project outcomes sub-grid
+- replacing the project outcomes sub-grid
 - adding the columns you created in the earlier lab to the forms
 - editing the project quick view form
 - adding a filter to the contact lookup on Program
@@ -44,7 +44,7 @@ In this task, you will perform the following changes to the form:
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in your **Practice** environment.
 
 1. Select **Solutions**.
 
@@ -54,11 +54,11 @@ In this task, you will perform the following changes to the form:
 
 1. Select the **Project** table.
 
-1. Under **Data experiences**, click on **Forms**.
+1. Under **Data experiences**, click **Forms**.
 
-1. Select the **Main** form, click on the ellipses (...), and select **Edit in new tab**.
+1. Select the **Main** form, click on the ellipses (...), and select **Edit** > **Edit in new tab**.
 
-1. Select the **Program Description** field.
+1. Select the **Project Description** field.
 
 1. In the properties pane on the right-hand side, change **Label** to **Description**.
 
@@ -84,7 +84,7 @@ In this task, you will perform the following changes to the form:
 
 - change tab properties
 - insert the Timeline control
-- restrict the activities available on the timeline
+- restrict the activities available on the Timeline
 
 1. Select **Tree view** on the left-hand side of the form designer.
 
@@ -92,7 +92,7 @@ In this task, you will perform the following changes to the form:
 
 1. In the properties pane on the right-hand side, select **3 columns** in the **Layout** drop down.
 
-1. Select the **Program** section and drag to the right-hand pane of the General tab.
+1. Select the **Program** section and drag to the new right-hand column of the General tab.
 
 1. Select the **New section** in the right-hand pane and click the **Delete** icon.
 
@@ -100,7 +100,7 @@ In this task, you will perform the following changes to the form:
 
 1. Expand **Display**.
 
-1. Drag the **Timeline** control to the middle pane of the General tab.
+1. Drag the **Timeline** control to the middle column of the General tab.
 
 1. Select **Tree view** on the left-hand side of the form designer, expand **General** tab, and select the **New Section**.
 
@@ -108,7 +108,7 @@ In this task, you will perform the following changes to the form:
 
 1. Check the **Hide label** box.
 
-1. Select the **Note Text** control in the Timeline.
+1. In Tree View, select the **Note Text** control for the Timeline.
 
 1. In the properties pane on the right-hand side, click on **Fax**, uncheck the **Enable** box, and click **Done**.
 
@@ -124,13 +124,13 @@ In this task, you will perform the following changes to the form:
 
 In this task, you will perform the following changes to the form:
 
-- replace the sub-grid for the many-to-many relationship between project and outcome with a sub-grid for the Project Outcome table
+- replace the sub-grid for the many-to-many relationship between Project and Outcome with a sub-grid for the Project Outcome table
 
 1. Select the **Outcomes** tab.
 
 1. Select the **Outcomes SubGrid**.
 
-1. In the properties pane on the right-hand side, select **Project Outcomes** in the **Table** drop-down.
+1. In the properties pane on the right-hand side, select **Project Outcomes (Project)** in the **Table** drop-down.
 
 1. Click **Save**.
 
@@ -142,7 +142,7 @@ In this task, you will perform the following changes to the form:
 
 In this task, you will perform the following changes to the form:
 
-- add a sub-grid of outcomes to the quick view form
+- add a sub-grid of Outcomes to the quick view form
 
 1. Select the **Quick View** form, click on the ellipses (...), and select **Edit in new tab**.
 
