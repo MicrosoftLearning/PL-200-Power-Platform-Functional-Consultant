@@ -14,9 +14,7 @@ In this practice lab, you will be creating a recurring bulk deletion rule to aut
 
 ## Exercise 1 – Bulk Delete
 
-In this exercise, you will create a bulk deletion operation that will delete all milestone rows with a completion date older than 12 months, this operation will run every month.
-
-> NOTE: This practice lab is optional.
+In this exercise, you will create a bulk deletion operation that will delete all milestone rows with a completion date older than 12 months. You want this operation to run every month.
 
 ### Task 1.1 – Create Bulk Delete Operation
 
@@ -46,7 +44,7 @@ In this exercise, you will create a bulk deletion operation that will delete all
 
 1. Click **Select** and choose the **Milestone status** column.
 
-1. Select **Older Equals**.
+1. Select **Equals**.
 
 1. Click on the ellipses (...), select **Completed** and **Cancelled**, and click **OK**.
 
@@ -60,7 +58,7 @@ In this exercise, you will create a bulk deletion operation that will delete all
 
 1. Check the **Run this job after every** box.
 
-1. Select **30 Days**.
+1. Select **30 days**.
 
 1. Click **Next**.
 
