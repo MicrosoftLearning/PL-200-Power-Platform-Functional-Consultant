@@ -344,7 +344,7 @@ In this exercise, you will be creating columns on the Project Outcome custom tab
 
 1. Click **+ New**, and then select **Column**.
 
-1. Enter **Outcome completed date** for **Display Name**.
+1. Enter **Outcome Completed Date** for **Display Name**.
 
 1. Select **Date and time** in the **Data type** drop-down and then select **Date only**.
 
