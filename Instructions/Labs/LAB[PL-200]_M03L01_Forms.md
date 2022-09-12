@@ -148,6 +148,8 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Table columns** on the left-hand side of the form designer.
 
+1. Drag the **Region** column below **Owner**.
+
 1. Drag the **Project Type** column below **Region**.
 
 1. Click on the **Project Status** column to add to the form below **Project Type**.
@@ -162,7 +164,7 @@ In this task, you will perform the following changes to the form:
 
 1. In the properties pane on the right-hand side, enter **Outcomes** for **Label** and **Name**.
 
-1. Expand **Grid**.
+1. Expand **Grid** in the Components pane.
 
 1. Click **Subgrid** and check **Show related records**.
 
@@ -190,7 +192,7 @@ In this exercise, you will add filtering on a lookup field on the Program table 
 
 In this task, you will perform the following changes to the form:
 
-- adding a filter to the contact lookup to only show contacts that belong to the selected account
+- add a filter to the Contact lookup to only show Contacts that belong to the selected Account
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
@@ -216,7 +218,7 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Sponsor (Programs)** for **Relationship to current table**.
 
-1. Select **Company name (Contacts)** for **Relationship to this lookup's table.
+1. Select **Company name (Contacts)** for **Relationship to this lookup's table.**
 
 1. Click **Save**.
 
@@ -299,7 +301,7 @@ In this task, you will perform the following changes to the form:
 
 1. In the properties pane on the right-hand side, enter **Sub Regions** for **Label** and **ChildRegions** for **Name**.
 
-1. Expand **Grid**.
+1. Expand **Grid** in the Components pane.
 
 1. Click **Subgrid** and check **Show related records**.
 
@@ -323,7 +325,7 @@ In this exercise, you will create a Quick Create form for the Project Resource t
 
 ### Task 5.1 – Enable Quick Create form
 
-In this task, you will enable the table for quick create.
+In this task, you will enable the Project Resource table for quick create.
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
@@ -347,7 +349,7 @@ In this task, you will enable the table for quick create.
 
 ### Task 5.2 – Create Quick Create form
 
-In this task, you will perform create a quick create form.
+In this task, you will create a quick create form.
 
 1. Under **Data experiences**, click on **Forms**.
 
@@ -400,9 +402,9 @@ In this task, you will perform the following changes to the form:
 
 1. Select the **Main** form, click on the ellipses (...), and select **Edit in new tab**.
 
-1. Drag the **Milestone status** column below the **Status reason** field.
+1. Drag the **Milestone Status** column below the **Status Reason** field.
 
-1. Select the **Status reason** field and click on **Delete**.
+1. Select the **Status Reason** field and click on **Delete**.
 
 1. Click **Save**.
 
@@ -416,7 +418,7 @@ In this exercise, you will add the status choice column to to the Outcome table 
 
 ### Task 7.1 – Add columns to the form
 
-In this task, you will perform the following changes to the form:
+In this task, you will perform the following changes to the Outcome form:
 
 - add Outcome status to the form
 - remove Status reason from the form
@@ -442,7 +444,7 @@ In this task, you will perform the following changes to the form:
 
 1. Select the **Status reason** field and click on **Delete**.
 
-1. Select the **Projects** tab and click on **Delete**.
+1. Select the **Projects** tab and click on the **Delete** icon.
 
 1. Click **Save**.
 
@@ -452,7 +454,7 @@ In this task, you will perform the following changes to the form:
 
 ## Exercise 8 – Edit Project Outcome form
 
-In this exercise, you will configure the default form for the Project  Outcome table form.
+In this exercise, you will configure the default form for the Project Outcome table.
 
 ### Task 8.1 – Configure main form
 
