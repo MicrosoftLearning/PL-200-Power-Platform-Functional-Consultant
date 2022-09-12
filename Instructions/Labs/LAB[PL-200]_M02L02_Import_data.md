@@ -44,11 +44,11 @@ In this exercise, you will import Outcome rows into your Microsoft Dataverse env
 
 1. Check the box next to **Table1**.
 
-Click **Next**. Do not navigate away from this page.
+1. Click **Next**. Do not navigate away from this page.
 
 1. Select the first three **Do Not Modify** columns. You can use Ctrl on your keyboard with the mouse to select multiple columns.
 
-1. In the Home tab of the ribbon, click **Remove columns**.
+1. In the Home tab of the ribbon, click **Remove columns** to delete these three columns.
 
 1. Select the **Estimated Completion Date** column.
 
@@ -56,7 +56,9 @@ Click **Next**. Do not navigate away from this page.
 
 1. Enter **null** for **Value to find**.
 
-1. Enter a date in three month's time for **Replace with**.
+1. Enter a date in three month's time for **Replace with** (you can use format MM/DD/YYYY).  
+
+1. Click **OK**. The Estimated Completion Dates should show the date you chose.
 
 1. Click **Next**.
 
@@ -78,18 +80,18 @@ Click **Next**. Do not navigate away from this page.
 
 1. Locate and click to open the **Outcome** table.
 
-1. You should see all the imported **Outcome** records.
+1. You should see all the imported **Outcome** rows.
 
 1. In the Maker portal, select **Apps**.
 
-1. For the **Environmental Project Delivery** app, Click on the ellipses (...) and select **Play** and sign in with your Microsoft 365 credentials if prompted.
+1. For the **Environmental Project Delivery** model-driven app, Click on the ellipses (...) and select **Play** and sign in with your Microsoft 365 credentials if prompted.
 
 1. In the left-hand navigation of the app, select **Outcomes**.
 
 1. The imported **Outcome** records should be in the view.
 
-1. Click to open one of the **Outcome** records you imported.
+1. Double-click to open one of the **Outcome** records you imported.
 
 1. Verify the **Estimated Completion Date** column is set to a future date.
 
-1. Verify that the business process flow is running at the top of the form.
+1. Verify that the Outcome Lifecycle business process flow is visible at the top of the form.
