@@ -22,7 +22,7 @@ In this exercise, you will learn about the canvas app.
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in your **Practice** environment.
 
 1. Select **Solutions**.
 
@@ -30,18 +30,18 @@ In this exercise, you will learn about the canvas app.
 
 1. In the **Objects** pane on the left, select **Apps**.
 
-1. Select the **Environmental Environmental Work Delivery** app, click on the ellipses (...), and select **Play**.
+1. Select the **Environmental Work Delivery** app, click on the ellipses (...), and select **Play**.
 
-1. Sign in with your Microsoft 365 credentials.
+1. Sign in with your Microsoft 365 credentials if prompted.
 
 1. The app has 4 screens which are navigated using the left-hand navigation bar:
 
-    - Home: Contains three tiles that should the count of projects, milestones, and outcomes.
-    - Projects: Create and edit projects
-    - Milestones: Set percentage complete on milestones
-    - Outcomes: Update the details of outcomes
+    - **Home**: Contains three tiles that show the count of Projects, Milestones, and Outcomes.
+    - **Projects**: Create and edit Projects
+    - **Milestones**: Set Percentage Complete on Milestones
+    - **Outcomes**: Update the details of Outcomes
 
-1. Note that the label for **Outcomes** is incorrect.
+1. Note that the label for **Outcomes** is incorrect. This is an issue your client, Fabrikam, has raised that needs to be fixed. 
 
 1. Select the **Projects** screen (second icon).
 
@@ -49,7 +49,7 @@ In this exercise, you will learn about the canvas app.
 
 1. Note that the colors for the drop down controls are blue.
 
-1. Click the **+** icon. A new row is added.
+1. Click the **+** icon. A new Project row is added.
 
 1. Enter **Lab Project** for **Project Title**.
 
@@ -57,7 +57,7 @@ In this exercise, you will learn about the canvas app.
 
 1. Select **In Progress** in the **Status** drop-down.
 
-1. Select a date in the next month in the **Estimated date** date picker.
+1. Select a date in the next month in the **Estimated date** date picker and click **OK**.
 
 1. Click the **Back arrow** icon in the bottom-left of the screen to return to the **Home** screen. The number in the first tile will have incremented.
 
@@ -79,7 +79,7 @@ In this exercise, you will learn about the canvas app.
 
 ### Task 1.2 - Review the app in Power Apps Studio
 
-1. Select the **Environmental Environmental Work Delivery** app, click on the ellipses (...), and select **Edit**.
+1. Select the **Environmental Work Delivery** app, click on the ellipses (...), and select **Edit**.
 
 1. If a Welcome to Power App dialog appears, check the **Don't show me this again**, and click **Skip**
 
@@ -109,6 +109,8 @@ In this exercise, you will learn about the canvas app.
 
 1. Select and expand **MilestoneForm**.
 
+1. Select and expand **Milestone Percentage Complete**
+
 1. Select **DataCardValue2** and select **OnChange** in the **Property Selector**.
 
 1. Review the formula. Note the use of **SubmitForm**.
@@ -129,9 +131,9 @@ In this exercise, you will learn about the canvas app.
 
 1. Review the formulas.
 
-1. Select the ellipses (...) to the right on App and click **Run OnStart**.
+1. Select the ellipses (...) to the right of App and click **Run OnStart**.
 
-1. In the menu, select the **View** tab.
+1. In the ribbon at the top of the app designer, select the **View** tab.
 
 1. Select **Variables**.
 
@@ -141,13 +143,13 @@ In this exercise, you will learn about the canvas app.
 
 1. Click the back arrow to return to the canvas.
 
-1. In the **Tree view**, select **TitleLabel**.
+1. In the **Tree view**, select **TitleLabel** under **HomeScreen**.
 
 1. Select **X** in the **Property Selector** and note the use of a variable.
 
 1. Select **Y** in the **Property Selector** and note the use of variables in the formula.
 
-1. In the menu, select the **View** tab.
+1. In the ribbon at the top of the app designer, select the **View** tab.
 
 1. Select **Collections**.
 
@@ -177,13 +179,13 @@ In this task, you will perform the following changes to the app:
 
 1. In the **Objects** pane on the left, select **Apps**.
 
-1. Select the **Environmental Environmental Work Delivery** app, click on the ellipses (...), and select **Edit**.
+1. Select the **Environmental Work Delivery** app, click on the ellipses (...), and select **Edit**.
 
 1. In the **Tree view**, select **App**.
 
 1. Select **OnStart** in the **Property Selector**.
 
-1. In the OnStart, change **Set(BarrierSize,20)** to **Set(BarrierSize,10)**.
+1. In the OnStart, change **Set(BarrierSize,20)** to **Set(BarrierSize,10)**. Note that you can click the caret to the right of the formula bar to expand it.
 
 1. Select the ellipses (...) to the right on App and click **Run OnStart**. Note that the layout adjusts and the tiles become bigger.
 
@@ -200,13 +202,13 @@ In this task, you will perform the following changes to the app:
 - change the variables used for colors
 - update the colors used for controls in the gallery
 
-1. Select the **Environmental Environmental Work Delivery** app, click on the ellipses (...), and select **Edit**.
+1. Select the **Environmental Work Delivery** app, click on the ellipses (...), and select **Edit**.
 
 1. In the **Tree view**, select **App**.
 
 1. Select **OnStart** in the **Property Selector**.
 
-1. In the OnStart, change **Set(FabrikamBackColor,RGBA(0,0,0,1))** to **Set(FabrikamBackColor,Color.MediumPurple)**.
+1. In the OnStart, change **Set(FabrikamBackColor,RGBA(0,0,0,1))** to **Set(FabrikamBackColor,Color.Black)**.
 
 1. In the OnStart, change **Set(FabrikamFrontColor,RGBA(255,255,255,1))** to **Set(FabrikamFrontColor,Color.Azure)**.
 
@@ -214,7 +216,7 @@ In this task, you will perform the following changes to the app:
 
 1. In the menu, select **File** and then **Save**.
 
-1. Click the back arrow to return to the canvas.
+1. Click the back arrow to return to the canvas app editor.
 
 1. In the **Tree view**, select and expand **ProjectScreen**.
 
@@ -228,23 +230,17 @@ In this task, you will perform the following changes to the app:
 
 1. Replace the RGBA value in the formula bar with **FabrikamColor**.
 
-1. Select **BorderColor** in the **Property Selector**.
+1. Select **BorderColor** in the **Property Selector** for the **ProjectTypeComboBox**.
 
 1. Replace the RGBA value in the formula bar with **FabrikamColor**.
 
-1. Repeat for **ProjectStatusDropDown**.
+1. Repeat the steps to change the **BorderColor** and **ChevronBackGround** color to FabrikamColor for **ProjectStatusDropDown**.
 
-1. Select **EstimatedCompletionDate** and select **BorderColor** in the **Property Selector**.
-
-1. Replace the RGBA value in the formula bar with **FabrikamColor**.
-
-1. Select **IconBackground** in the **Property Selector**.
-
-1. Replace the RGBA value in the formula bar with **FabrikamColor**.
+1. Repeat the steps to change the **BorderColor** and **IconBackground** color to FabrikamColor for **EstimatedCompletionDate**.
 
 1. In the menu, select **File** and then **Save**.
 
-1. Click the back arrow to return to the canvas.
+1. Click the back arrow to return to the canvas app editor.
 
 ### Task 2.3 - Background
 
@@ -254,9 +250,9 @@ In this task, you will perform the following changes to a screen:
 
 1. In the **Tree view**, select **ProjectScreen**.
 
-1. In the Properties pane on the right-hand side, select **+ Add an image file**.
+1. In the Properties pane on the right-hand side, select **Background image** > **+ Add an image file**.
 
-1. Change to the **D:\PL200\Labs** folder and select the **Texture.jpg** file and click on **Open**.
+1. Locate and select the **Texture.jpg** file and click on **Open**.
 
 1. The image will be added as the background for the screen.
 
@@ -264,7 +260,7 @@ In this task, you will perform the following changes to a screen:
 
 1. In the menu, select **File** and then **Save**.
 
-1. Click the back arrow to return to the canvas.
+1. Click the back arrow to return to the canvas app editor.
 
 ### Task 2.4 - Label
 
