@@ -72,7 +72,7 @@ In this exercise, you will create the **Practice** environment that you will do 
 
 ## Exercise 2 – Sign up for Power Pages
 
-In this exercise, you will provision a Power Pages site. This can take up to an hour, so you will follow these steps to start the provisioning process in the background while you progress through your labs. You will configure the site in a future lab.
+In this exercise, you will provision a Power Pages site. This can take a while, so you will follow these steps to start the provisioning process in the background while you progress through your labs. You will configure the site in a future lab.
 
 ### Task 1.1 - Create a Power Pages site
 
@@ -84,7 +84,7 @@ In this exercise, you will provision a Power Pages site. This can take up to an 
 
 1. If you are asked about your experience creating websites, click **Skip**.
 
-1. Select the default design template, **Blank Design 001** and select **Choose this template**.
+1. Select the default design template, **Blank Design 001**, and select **Choose this template**.
 
 1. Enter **Fabrikam Milestones** for **Give your site a name**.
 
