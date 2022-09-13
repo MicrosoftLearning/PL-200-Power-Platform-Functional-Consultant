@@ -15,14 +15,14 @@ In this practice lab, you will be modifying the views for the Fabrikam Environme
 You will be:
 
 - adding the columns you created in the earlier lab to the view
-- creating a new view for completed projects
-- add the funding amount to views
-- editing the lookup view for outcome
-- adding find columns to the outcome quick find view
-- configure default view for project outcome
-- change milestone sub-grid on project to editable grid
-- restrict views in the app
-- Enable Dataverse search
+- creating a new view for completed Projects
+- adding the funding amount to views
+- editing the lookup view for Outcomes
+- adding find columns to the Outcomes quick find view
+- configuring default view for Project Outcome
+- changing Milestone sub-grid on Project to an editable grid
+- restricting views in the app
+- Enabling Dataverse search
 
 ## Exercise 1 – Project views
 
@@ -36,7 +36,7 @@ In this task, you will perform the following changes to the form:
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in your **Practice** environment.
 
 1. Select **Solutions**.
 
@@ -67,6 +67,8 @@ In this task, you will perform the following changes to the form:
 1. Select the caret next to the **Save** button and select **Save As**.
 
 1. Enter **Completed Projects** for **Display Name**.
+
+1. Click **Save**
 
 1. Select the caret next to the **Project Status** column and select **Filter by**.
 
@@ -124,7 +126,7 @@ In this exercise, you will make changes to the views for the Outcome table.
 
 In this task, you will perform the following changes to the form:
 
-- add the milestone status to public view
+- add the Milestone status to public view
 - remove the status reason column
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
@@ -157,7 +159,7 @@ In this task, you will perform the following changes to the form:
 
 In this task, you will perform the following changes to the form:
 
-- change the columns in the lookup view for outcome
+- change the columns in the lookup view for Outcomes
 
 1. Select the **Outcome Lookup View** view, click on the ellipses (...), and select **Edit in new tab**.
 
@@ -185,7 +187,7 @@ In this task, you will perform the following changes to the form:
 
 1. Click the **Target Aim** column to add to the view.
 
-1. Click the **Outcome status** column to add to the view.
+1. Click the **Outcome Status** column to add to the view.
 
 1. Click the **Estimated Completion Date** column to add to the view.
 
@@ -213,8 +215,8 @@ In this exercise, you will make changes to the views for the Milestone table.
 
 In this task, you will perform the following changes to the form:
 
-- add the milestone status to the public view
-- remove the status reason column
+- add the Milestone Status to the public view
+- remove the Status Reason column
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
@@ -248,13 +250,13 @@ In this task, you will perform the following changes to the form:
 
 In this task, you will perform the following changes to the form:
 
-- add the milestone status to the public view
-- remove the status reason column
+- add the Milestone Status to the public view
+- remove the Status Reason column
 - edit the filter
 
 1. Select the **My Pending Milestones** view, click on the ellipses (...), and select **Edit in new tab**.
 
-1. Drag the **Milestone status** column to the right of the **Status Reason** column in the view.
+1. Drag the **Milestone Status** column to the right of the **Status Reason** column in the view.
 
 1. Select the caret next to the **Status Reason** column and select **Remove**.
 
@@ -280,15 +282,15 @@ In this task, you will perform the following changes to the form:
 
 In this task, you will perform the following changes to the form:
 
-- add the milestone description to the view
-- add the milestone status to the view
-- remove the status reason column
+- add the Milestone Description to the view
+- add the Milestone Status to the view
+- remove the Status Reason column
 
 1. Select the **Milestones SubGrid** view, click on the ellipses (...), and select **Edit in new tab**.
 
 1. Drag the **Milestone Description** column to the right of the **Milestone Title** column in the view.
 
-1. Drag the **Milestone status** column to the right of the **Status Reason** column in the view.
+1. Drag the **Milestone Status** column to the right of the **Status Reason** column in the view.
 
 1. Select the caret next to the **Status Reason** column and select **Remove**.
 
@@ -330,7 +332,7 @@ In this task, you will perform the following changes to the form:
 
 1. Click the **Comments** column to add to the view.
 
-1. Click the **Outcome completed date** column to add to the view.
+1. Click the **Outcome Completed Date** column to add to the view.
 
 1. Select the caret next to the **Title** column and select **Remove**.
 
@@ -358,7 +360,7 @@ In this exercise, you will make changes to a sub-grid in the main form for the P
 
 In this task, you will perform the following changes to the form:
 
-- change the milestone sub-grid to be an editable grid
+- change the Milestone sub-grid to be an editable grid
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
@@ -390,9 +392,9 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Milestones SubGrid** for **View**.
 
-1. Select **Project** for **Table column**.
+1. Select **Project (Lookup)** for **Table column**.
 
-1. Click ***Done**.
+1. Click **Done**.
 
 1. Click **Save**.
 
@@ -404,15 +406,15 @@ In this task, you will perform the following changes to the form:
 
 ## Exercise 7 – Modify model-driven apps
 
-In this exercise, you will be restricting the view in model-driven apps.
+In this exercise, you will be restricting views in model-driven apps.
 
 ### Task 7.1 – Environmental Project Delivery app
 
 In this task, you will perform the following changes to the app:
 
-- restrict project views
-- restrict milestone views
-- restrict outcome views
+- restrict Project views
+- restrict Milestone views
+- restrict Outcome views
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
@@ -432,7 +434,7 @@ In this task, you will perform the following changes to the app:
 
 1. In the pane on the right-hand side, click **+ Add view**.
 
-1. Select the following views:
+1. Add the following views:
 
     - Active Projects
     - Completed Projects
@@ -444,7 +446,7 @@ In this task, you will perform the following changes to the app:
 
 1. In the pane on the right-hand side, click **+ Add view**.
 
-1. Select the following views:
+1. Add the following views:
 
     - Active Milestones
     - Inactive Milestones
@@ -456,7 +458,7 @@ In this task, you will perform the following changes to the app:
 
 1. In the pane on the right-hand side, click **+ Add view**.
 
-1. Select the following views:
+1. Add the following views:
 
     - Active Outcomes
     - Inactive Outcomes
@@ -465,9 +467,9 @@ In this task, you will perform the following changes to the app:
 
 1. Click **Publish**.
 
-1. Click **Play**.
+1. Click **Play**. Explore the Environmental Project Delivery model-driven app. 
 
-1. Close the app designer.
+1. Close the app and the app designer tabs.
 
 1. Click **Done**.
 
@@ -483,7 +485,7 @@ The find columns on the quick find views define the searchable fields in the Dat
 
 1. Select **Environments** from the left navigation pane.
 
-1. Select the **Practice** environment.
+1. Select your **Practice** environment.
 
 1. Select **Settings**.
 
@@ -493,19 +495,17 @@ The find columns on the quick find views define the searchable fields in the Dat
 
 1. Toggle **Dataverse search** to **On**.
 
-1. Click **Save**.
+1. Click **Save** at the bottom.
 
 ### Task 8.2 – Search index
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in your **Practice** environment.
 
 1. Select **Solutions**.
 
 1. Click to open the **Fabrikam Environmental** solution.
-
-1. In the **Objects** pane on the left, click and expand **Apps**.
 
 1. In the solution select the **Overview** page.
 
