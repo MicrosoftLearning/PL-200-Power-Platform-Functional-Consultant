@@ -266,11 +266,13 @@ In this task, you will perform the following changes to a screen:
 
 In this task, you will perform the following changes to a label:
 
-- correct the label on the home screen
+- correct the card label on the home screen
 
 1. In the **Tree view**, select and expand **HomeScreen**.
 
 1. Select and expand **Card3**.
+
+1. Select **Card3LabelValue** and view the **Text** Property. Note that this card is displaying the count of Active Outcomes, but the label incorrectly says Active Milestones.
 
 1. Select **Card3LabelHeader** and select **Text** in the **Property Selector**.
 
@@ -278,7 +280,7 @@ In this task, you will perform the following changes to a label:
 
 1. In the menu, select **File** and then **Save**.
 
-1. Click the back arrow to return to the canvas.
+1. Click the back arrow to return to the canvas app editor.
 
 ### Task 2.5 - Button
 
@@ -305,8 +307,6 @@ In this task, you will perform the following changes to the button:
 
 1. Click **Publish this version**.
 
-1. In the menu, select **File** and then **Close**.
-
 ## Exercise 3 – Logic
 
 In this exercise, you will update formulas and logic in the canvas app.
@@ -315,7 +315,7 @@ In this exercise, you will update formulas and logic in the canvas app.
 
 In this task, you will perform the following changes to the screen:
 
-- remove status reason and replace with new choice column
+- remove Status Reason and replace with new choice column
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
@@ -327,7 +327,7 @@ In this task, you will perform the following changes to the screen:
 
 1. In the **Objects** pane on the left, select **Apps**.
 
-1. Select the **Environmental Environmental Work Delivery** app, click on the ellipses (...), and select **Edit**.
+1. Select the **Environmental Work Delivery** app, click on the ellipses (...), and select **Edit**.
 
 1. In the **Tree view**, select and expand **OutcomeScreen**.
 
@@ -337,7 +337,7 @@ In this task, you will perform the following changes to the screen:
 
 1. Click **+ Add field**.
 
-1. Select **Outcome status**.
+1. Select **Outcome Status**.
 
 1. Click **Add**.
 
@@ -347,7 +347,7 @@ In this task, you will perform the following changes to the screen:
 
 1. Select **Subtitle5_1** and select **Text** in the **Property Selector**.
 
-1. In the formula bar, replace **ThisItem.'Status Reason'** with **ThisItem.'Outcome status'**
+1. In the formula bar, replace **ThisItem.'Status Reason'** with **ThisItem.'Outcome Status'**
 
 ### Task 3.2 - Outcome form
 
@@ -386,7 +386,7 @@ In this task, you will perform the following changes to the screen:
 
 In this task, you will perform the following changes to the screen:
 
-- display the project type for existing records
+- display the Project Type for existing records
 
 1. In the **Tree view**, select and expand **ProjectScreen**.
 
@@ -406,14 +406,14 @@ In this task, you will perform the following changes to the screen:
 
 ## Exercise 4 – Power Automate
 
-In this exercise, you will add a Power Automate flow to the canvas app to reset the status of a milestone.
+In this exercise, you will add a Power Automate flow to the canvas app to reset the status of a Milestone.
 
 ### Task 4.1 - Create flow
 
 In this task, you will perform the following changes to the screen:
 
 - create an instant flow for use in the canvas app
-- perform a flow action to reset the status of a milestone
+- perform a flow action to reset the status of a Milestone
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
@@ -425,15 +425,15 @@ In this task, you will perform the following changes to the screen:
 
 1. In the **Objects** pane on the left, select **Cloud flows**.
 
-1. In the solution, select **+ New**, then select **Automation**, then select **Cloud flow**, and then **Instant**.
+1. In the solution, select **+ New** > **Automation** > **Cloud flow** > **Instant**.
+
+    > NOTE: If a Welcome to Power Automate dialog appears, click **Get Started**.
 
 1. Enter **Reset milestone status** for **Flow name**
 
 1. Select **PowerApps** for **Chose how to trigger this flow**.
 
 1. Click **Create**.
-
-    > NOTE: If a Welcome to Power Automate dialog appears, click **Get Started**.
 
 1. Click on **+ New step**.
 
@@ -453,7 +453,7 @@ In this task, you will perform the following changes to the screen:
 
 1. Select **Planned** for **Milestone status**.
 
-1. Click **Save**
+1. Click **Save** and wait for the flow to save.
 
 1. Click the back arrow icon in the top-left of the flow editor.
 
@@ -466,9 +466,9 @@ In this task, you will perform the following changes to the screen:
 
 1. In the **Objects** pane on the left, select **Apps**.
 
-1. Select the **Environmental Environmental Work Delivery** app, click on the ellipses (...), and select **Edit**.
+1. Select the **Environmental Work Delivery** app, click on the ellipses (...), and select **Edit**.
 
-1. In the menu select **Action** and then select **Power Automate**.
+1. In the left menu, select the **Power Automate** icon.
 
 1. Click **+ Add flow**.
 
@@ -484,7 +484,7 @@ In this task, you will perform the following changes to the screen:
 
 1. In the **Tree view**, select and expand **MilestoneScreen**.
 
-1. Select the ellipses (...) next to the button in the Tree View and select **Paste**.
+1. Right-click in the app area and select **Paste**.
 
 1. Select the ellipses (...) next to **SaveBtn_1** and select **Rename**.
 
@@ -526,7 +526,7 @@ In this task, you will perform the following changes to the screen:
 
 1. Click **Cancel** to close the sharing pane.
 
-1. Click **Close**.
+1. **Close** the tab.
 
 ## Exercise 5 – Solutions
 
@@ -542,23 +542,23 @@ In this exercise, you will export the solution from the Practice environment and
 
 1. Select the **Fabrikam Environmental** solution but do not open it.
 
-1. Select **Export**.
+1. Select **Export solution**.
 
 1. Click **Next**.
 
-1. The version number should have been incremented to **1.1.11.7**.
+1. The version number should have been incremented to **1.1.11.9**.
 
 1. Select **Managed** for **Export As**.
 
 1. Click **Export**.
 
-1. The export will be prepared in the background, when the solution is ready click the **Download** button.
+1. The export will be prepared in the background. When the solution is ready, click the **Download** button.
 
 ### Task 5.2 – Export unmanaged solution
 
 1. Select the **Fabrikam Environmental** solution.
 
-1. Select **Export**.
+1. Select **Export solution**.
 
 1. Click **Next**.
 
@@ -566,7 +566,7 @@ In this exercise, you will export the solution from the Practice environment and
 
 1. Click **Export**.
 
-1. The export will be prepared in the background, when the solution is ready click the **Download** button.
+1. The export will be prepared in the background. When the solution is ready, click the **Download** button.
 
 ### Task 5.3 – Import managed solution
 
@@ -578,9 +578,7 @@ In this exercise, you will export the solution from the Practice environment and
 
 1. Select **Import solution**.
 
-1. Select **Browse**, change to the **Downloads** folder and select **FabrikamEnvironmental_1_1_11_7_managed.zip** and select **Open**.
-
-1. Click **Next**.
+1. Select **Browse**, change to the **Downloads** folder and select **FabrikamEnvironmental_1_1_11_9_managed.zip** and select **Open**.
 
 1. Click **Next**.
 
