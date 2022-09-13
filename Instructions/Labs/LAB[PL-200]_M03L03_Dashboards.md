@@ -10,7 +10,7 @@ lab:
 
 You are a Power Platform functional consultant and have been assigned to the Fabrikam project for the next stage of the project.
 
-In this practice lab, you will be creating an interactive dashboard and adding to a Fabrikam Environment model-driven app.
+In this practice lab, you will be creating an interactive dashboard and adding it to a Fabrikam Environment model-driven app.
 
 You will be:
 
@@ -32,7 +32,7 @@ In this exercise, you will assign security roles to the existing dashboard.
 
 1. In the **Objects** pane on the left, select **Dashboards**. You should see a single dashboard.
 
-1. Select the Environmental Results dashboard and click on **Enable security roles**.
+1. Select the Environmental Results dashboard (do not open it) and click on **Enable security roles**.
 
 1. Select the **Display only to these security roles** radio button.
 
@@ -48,11 +48,9 @@ In this exercise, you will assign security roles to the existing dashboard.
 
 1. Click **Publish**.
 
-## Exercise 2 – Create an interactive dashboard (Optional)
+## Exercise 2 – Create an interactive dashboard
 
-In this exercise, you will create an interactive dashboard for projects.
-
-> NOTE: This exercise is optional.
+In this exercise, you will create an interactive dashboard for Projects.
 
 ### Task 2.1 – Create a dashboard
 
@@ -68,9 +66,9 @@ In this exercise, you will create an interactive dashboard for projects.
 
 1. Under **Data experiences**, click on **Dashboards**.
 
-1. Click **+ New dashboard** and select **2-Column overview
+1. Click **+ New Dashboard** > **2-Column overview**
 
-1. Enter **Project tracking** for **Name**
+1. Enter **Project Tracking** for **Name**
 
 1. Select **Scheduled End** in the **Filter By** drop-down.
 
@@ -80,7 +78,7 @@ In this exercise, you will create an interactive dashboard for projects.
 
 1. Select the **Projects by Status and Type** chart and click **Add**.
 
-1. In the **Streams** pane, click on the stream icon.
+1. In the **Streams** pane, click on the Stream icon.
 
 1. Select the **My Active Projects** view and click **OK**.
 
@@ -88,23 +86,23 @@ In this exercise, you will create an interactive dashboard for projects.
 
 1. Select the **Active Projects** view and click **OK**.
 
-1. In the toolbar click on **Stream**.
+1. In the toolbar at the top, click **Stream**.
 
 1. Select the **Completed Projects** view and click **OK**.
 
-1. CLick **Save**.
+1. Click **Save**.
 
 1. Click **Close**.
+
+1. Click **Done**.
 
 1. In the **Objects** pane on the left, select **All**.
 
 1. Click on **Publish all customizations**.
 
-## Exercise 3 – Enable Power BI quick reports (Optional)
+## Exercise 3 – Enable Power BI quick reports
 
 In this exercise, you will be enabling the feature that uses Power BI to create a report from a model-driven app view.
-
-> NOTE: This exercise is optional.
 
 ### Task 3.1 – Environmental Project Delivery app settings
 
@@ -122,19 +120,17 @@ In this exercise, you will be enabling the feature that uses Power BI to create 
 
 1. In the action bar, select **Settings**.
 
-1. Select **Project view**.
-
 1. Select **Features**.
 
 1. Toggle **Enable Power BI quick report visualization on a table** to **Yes**.
 
 1. Click **Save**.
 
-1. Click **Save**.
+1. Click **Publish**.
 
-1. Click **Play**.
+1. Click **Play**. Explore the Environmental Project Delivery app. 
 
-1. Close the app designer.
+1. Close the app and the app designer tabs.
 
 1. Click **Done**.
 
@@ -152,23 +148,23 @@ In this exercise, you will export the solution from the Practice environment and
 
 1. Select the **Fabrikam Environmental** solution but do not open it.
 
-1. Select **Export**.
+1. Select **Export solution**.
 
 1. Click **Next**.
 
-1. The version number should have been incremented to **1.1.11.6**.
+1. The version number should have been incremented to **1.1.11.7**.
 
 1. Select **Managed** for **Export As**.
 
 1. Click **Export**.
 
-1. The export will be prepared in the background, when the solution is ready click the **Download** button.
+1. The export will be prepared in the background. When the solution is ready, click the **Download** button.
 
 ### Task 4.2 – Export unmanaged solution
 
 1. Select the **Fabrikam Environmental** solution.
 
-1. Select **Export**.
+1. Select **Export solution**.
 
 1. Click **Next**.
 
@@ -176,7 +172,7 @@ In this exercise, you will export the solution from the Practice environment and
 
 1. Click **Export**.
 
-1. The export will be prepared in the background, when the solution is ready click the **Download** button.
+1. The export will be prepared in the background. When the solution is ready, click the **Download** button.
 
 ### Task 4.3 – Import managed solution
 
@@ -188,9 +184,7 @@ In this exercise, you will export the solution from the Practice environment and
 
 1. Select **Import solution**.
 
-1. Select **Browse**,  change to the **Downloads** folder and select **FabrikamEnvironmental_1_1_11_6_managed.zip** and select **Open**.
-
-1. Click **Next**.
+1. Select **Browse**,  change to the **Downloads** folder and select **FabrikamEnvironmental_1_1_11_7_managed.zip** and select **Open**.
 
 1. Click **Next**.
 
