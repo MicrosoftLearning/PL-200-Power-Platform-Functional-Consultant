@@ -78,7 +78,7 @@ Your user has been added to the portal site.
 
 1. Select the **Web Authentication** tab. You are authenticating using **https://sts.windows.net** which is Azure Active Directory.
 
-1. Select the **Related** tab and then select **Web Roles**. You have been added to the **Administrators** web role.
+1. Select the **Related** tab and then select **Web Roles**. Note that you have the **Administrators** web role.
 
 1. In the left-hand navigation, select **Web Roles**. You will see three web roles:
 
