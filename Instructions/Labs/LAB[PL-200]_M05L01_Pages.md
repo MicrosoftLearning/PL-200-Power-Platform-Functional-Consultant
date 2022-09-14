@@ -46,13 +46,13 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. In the permissions requested dialog, click **Accept**.
 
-1. Your user has been added to the portal site.
+Your user has been added to the portal site.
 
 ### Task 1.3 - Review the Portal Management model-driven app
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in your **Practice** environment.
 
 1. Select **Apps**.
 
@@ -64,7 +64,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. Click **Default studio template**. You should see that this page uses the **Default studio template** web template.
 
-1. Click **Default studio template**. You should see the source for the web template** web template.
+1. Click **Default studio template**. You should see the source for the web template.
 
 1. In the left-hand navigation, select **Web Templates**. You should see many web templates.
 
@@ -74,7 +74,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. Select and edit **MOD Administrator**.
 
-1. Click the caret at the top-left of the form and select the **Portal contact** form.
+1. Click the caret at the top-left of the form and select the **Portal Contact** form.
 
 1. Select the **Web Authentication** tab. You are authenticating using **https://sts.windows.net** which is Azure Active Directory.
 
@@ -86,11 +86,11 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
     - Anonymous Users
     - Authenticated Users
 
+### Task 1.4 - Edit the site footer in Portal Management
+
 1. In the left-hand navigation, select **Content Snippets**.
 
 1. Select and edit **Footer**. Do not navigate away from this page.
-
-### Task 1.4 - Edit the site footer in Portal Management
 
 1. Select the **HTML** tab.
 
@@ -131,15 +131,15 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. Click **OK**.
 
-1. In the canvas, click on the heading, **Subpage 2** and enter **Milestones**.
+1. In the canvas, click on the heading, **Subpage 2**, and enter **Milestones**.
 
-1. In the canvas , click the line of text underneath the heading and enter **Status of envirionmental miletones**.
+1. In the canvas, click the line of text underneath the heading and enter **Status of envirionmental miletones**.
 
 1. Click on the background in the canvas above the heading and select the section.
 
-1. Click on **Background** in the section editor.
+1. Click on **Edit background**.
 
-1. Pick the **Yellow** color.
+1. Pick the **Yellow** color under Brand colors.
 
 1. In the **Pages** pane on the left-hand side, select **Subpage 1**.
 
@@ -165,7 +165,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 ## Exercise 2 – Expose Dataverse data
 
-In this exercise, you will add a list of Milestone records to the page, add a form to edit records, and configure security to allow the data to be changed in the portal site.
+In this exercise, you will add a list of Milestone rows to the page, add a form to edit rows, and configure security to allow the data to be changed in the portal site.
 
 > IMPORTANT: At the time of writing, Power Pages is in technical preview and the steps may differ. Refer to <https://docs.microsoft.com/power-pages/getting-started/what-is-dataverse> for the latest documentation.
 
@@ -191,7 +191,7 @@ In this exercise, you will add a list of Milestone records to the page, add a fo
 
 ### Task 2.2 - Security
 
-1. Click on **Permissions** in the list component editor.
+1. Click on **Permissions** in the list component editor (you may need to hover over the list to see this).
 
 1. In the **Table Permissions** pane on the right-hand side, click **+ New permission**
 
@@ -242,13 +242,15 @@ In this exercise, you will add a list of Milestone records to the page, add a fo
 
 1. Click **Save**.
 
-1. Click on **X** in the top-right to close the pane.
+1. Click **Close** to close the Table permissions pane.
 
 1. In the top-right of the Power Pages designer, click on **Sync**.
 
 1. Click on **Preview** and then select **Desktop**.
 
 1. Verify that milestone records are listed in the Power Pages site.
+
+1. Close the Starter Portal tab.
 
 ### Task 2.3 - Form
 
@@ -272,7 +274,7 @@ In this exercise, you will add a list of Milestone records to the page, add a fo
 
 1. Select **Milestone (contoso_milestone)** for **Choose a table**.
 
-1. Select **Information** for **Select a for**.
+1. Select **Information** for **Select a form**.
 
 1. Enter **Milestone** for **Name your copy of the select form**.
 
@@ -310,7 +312,7 @@ In this exercise, you will add a list of Milestone records to the page, add a fo
 
 1. Select **Form** for **Target type**.
 
-1. Select **Milestone** for **Form**.
+1. Select **Milestone** for **Forms**.
 
 1. Toggle **Create a new record** to **On**.
 
@@ -318,9 +320,10 @@ In this exercise, you will add a list of Milestone records to the page, add a fo
 
 1. Select **Milestone** for **Form**.
 
+1. Click **OK**.
+
 1. In the top-right of the Power Pages designer, click on **Sync**.
 
 1. Click on **Preview** and then select **Desktop**.
 
-1. Test viewing and editing records.
- 
+1. Test viewing and editing Milestones.
