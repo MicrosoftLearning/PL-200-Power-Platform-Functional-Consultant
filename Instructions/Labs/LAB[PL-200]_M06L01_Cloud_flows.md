@@ -116,7 +116,7 @@ In this task, you will perform the following changes to the flow:
 
 1. Click **Cancel**.
 
-1. Hover the mouse between the **Start and wait for an approval** and **Check Approval Response** steps and click on **Insert new step** and then select **Add a parallel branch**.
+1. Hover the mouse between the **Start and wait for an approval** and **Check Approval Response** steps and click on **+** (Insert new step) and then select **Add a parallel branch**.
 
 1. Select the **Control** connector and then select **Terminate**.
 
@@ -124,13 +124,13 @@ In this task, you will perform the following changes to the flow:
 
 1. Enter **APPROVAL_EXPIRED** for **Code**.
 
-1. Enter *Approval timed out for ** and in **Dynamic content** select **Outcome Title**.
+1. Enter **Approval timed out for ** and in **Dynamic content**, select **Outcome Title**. 
 
 1. On the **Terminate 2** step, select the ellipses (...) and select **Configure run after**.
 
 1. Uncheck **is successful**.
 
-1. Check the other three boxes/
+1. Check the other three boxes.
 
 1. Click **Done**.
 
@@ -178,7 +178,7 @@ In this exercise, you will find the URL for your environment and update the envi
 
 In this task, you will:
 
-- Discover the URI for the outcome form in the model-driven app
+- Discover the URL for the outcome form in the model-driven app
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
@@ -190,7 +190,7 @@ In this task, you will:
 
 1. In the **Objects** pane on the left, select **Apps**.
 
-1. Select the **Environmental Environmental Project Delivery** app, click on the ellipses (...), and select **Play**.
+1. Select the **Environmental Project Delivery** app, click on the ellipses (...), and select **Play**.
 
 1. In the left-hand navigation, select **Outcomes**.
 
@@ -246,13 +246,13 @@ In this task, you will:
 
 ## Exercise 3 - Create automatic cloud flow for project status
 
-In this exercise, you will create an new cloud flow that is triggered when the project status is updated. The flow will set the actual end date if the project status is completed.
+In this exercise, you will create a new cloud flow that is triggered when the project status is updated. The flow will set the actual end date if the project status is completed.
 
 ### Task 3.1 - Create a new cloud flow
 
 In this task, you will perform the following:
 
-- create a new flow fro change of project status
+- create a new flow that is triggered by project status change
 - add an action to set the actual end date
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
@@ -265,9 +265,9 @@ In this task, you will perform the following:
 
 1. In the **Objects** pane on the left, select **Cloud flows**.
 
-1. Click **+ New**, then select **Automation**, then select **Cloud flow**, and then **Automated**.
+1. Click **+ New** > **Automation** > **Cloud flow** > **Automated**.
 
-1. Enter **Project end date** for **Flow name**
+1. Enter **Set Project End Date** for **Flow name**
 
 1. Search for Dataverse in **Chose how to trigger this flow** and select the **When a row is added, modified, or deleted** action.
 
@@ -281,25 +281,25 @@ In this task, you will perform the following:
 
 1. Select the ellipses (...) and select **Rename**.
 
-1. Enter **Project status changed**.
+1. Enter **Project Status changed**.
 
 1. Expand **Show advanced options**.
 
-1, Click into **Select columns** and enter **contoso_projectstatus**. The flow will only trigger when the project status is changed.
+1. Click into **Select columns** and enter **contoso_projectstatus**. The flow will only trigger when the project status value is changed.
 
 1. Click on **+ New step**.
 
-Select the **Microsoft Dataverse** connector and then select **Update a row**.
+1. Select the **Microsoft Dataverse** connector and then select **Update a row**.
 
 1. On the **Update a row** step, select the ellipses (...) and select **Rename**.
 
-1. Enter **Set actual end date**.
+1. Enter **Set Actual End Date**.
 
 1. Select **Projects** for **Table name**.
 
 1. Click in the **Row ID** field.
 
-In **Dynamic content**, search for project and select **Project**.
+1. In **Dynamic content**, search for project and select **Project**.
 
 1. Expand **Show advanced options**.
 
@@ -315,11 +315,11 @@ In **Dynamic content**, search for project and select **Project**.
 
 In this task, you will perform the following:
 
-- restrict the trigger to only fire when the project status is completed and the actual end date has not been entered
+- restrict the flow trigger to only fire when the project status is completed and the actual end date has not been entered
 
-1. Select the trigger step.
+1. Select the trigger step (Project Status changed).
 
-1. Expand **Show advanced options**.
+1. Expand **Show advanced options** if not already expanded.
 
 1. Click into **Filter rows** and enter the following OData filter expression:
 
