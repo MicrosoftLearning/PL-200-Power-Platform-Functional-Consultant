@@ -254,6 +254,8 @@ In this task, you will perform the following changes to a screen:
 
 1. Locate and select the **Texture.jpg** file and click on **Open**.
 
+    > This file is located in the Documents\PL-200 folder on your machine.
+
 1. The image will be added as the background for the screen.
 
 1. Select **Fit** in the **Image position** drop-down.
