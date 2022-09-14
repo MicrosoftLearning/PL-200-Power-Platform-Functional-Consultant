@@ -31,7 +31,7 @@ The solutions contain:
 
 In this lab, you will import the developed solutions and data.
 
-## Exercise 1 - Import starter solutions
+## Exercise 1 - Import Fabrikam solutions
 
 In this exercise, you will import the main solution into the **Practice** environment.
 
