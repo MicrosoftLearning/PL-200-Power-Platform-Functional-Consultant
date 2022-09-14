@@ -47,9 +47,9 @@ In this exercise, you will import the main solution into the **Practice** enviro
 
 1. Click **Browse** and locate the **FabrikamEnvironmental_1_1_11_3.zip** file and click **Open**.
 
-    **Note:** you downloaded your files at the start of these labs. They should be under This PC > AllFiles (F:) > Allfiles > Labs.
+> This file is located in the Documents\PL-200 folder on your machine.
     
-    ![Solution to import.](../media/solution-to-import.png)
+![Solution to import.](../media/solution-to-import.png)
 
 1. Click **Next**.
 
@@ -95,8 +95,8 @@ In this exercise, you will import the main solution into the **Practice** enviro
 
 1. Click **Browse** and locate the **FabrikamChatbot_1_1_1_1.zip** file and click **Open**.
 
-    **Note:** you downloaded your files at the start of these labs. They should be under This PC > AllFiles (F:) > Allfiles > Labs.
-    
+> This file is located in the Documents\PL-200 folder on your machine.
+
 1. Click **Next**.
 
 1. Click **Import**. The solution will import in the background.
@@ -109,7 +109,7 @@ In this exercise, you will import data the into the **Practice** environment usi
 
 1. In your lab virtual machine, open **File Explorer**.
 
-1. Navigate to **F:\Allfiles\Labs\ConfigurationMigration**.
+1. Navigate to **Documents\PL-200\ConfigurationMigration**.
 
 1. Double-click on **DataMigrationUtility.exe**
 
@@ -139,13 +139,11 @@ In this exercise, you will import data the into the **Practice** environment usi
 
 1. Click on the ellipses (...) and locate and select **Fabrikam Environment data.zip** file
 
+> This file is located in the Documents\PL-200 folder on your machine.
+
 1. Click **Open**. The data file will be validated.
 
-    ![Configuration Migration Tool validate data file.](../media/configuration-migration-step6.png)
-
 1. Click **Import Data**. The import process will take approximately a minute.
-
-    ![Configuration Migration Tool data imported.](../media/configuration-migration-step7.png)
 
 1. Click **Exit**.
 
