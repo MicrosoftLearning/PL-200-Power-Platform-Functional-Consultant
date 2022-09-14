@@ -20,7 +20,7 @@ In this exercise, you will enhance the existing approvals flow.
 
 In this task, you will perform the following changes to the flow:
 
-- Replace the get approver row with the calculated column for approver email address
+- Replace the Get Approver row with the calculated column for Approver Email Address
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
@@ -40,7 +40,7 @@ In this task, you will perform the following changes to the flow:
 
 1. Click in the **Assigned To** field and clear the current contents.
 
-1. In **Dynamic content**, search for **email** and select **Approver Email**.
+1. In **Dynamic content**, search for **email** and select **Approver Email**. You may need to scroll down in the Dynamic Content window to see this.
 
 1. On the **Get Approver** step, select the ellipses (...) and select **Delete**.
 
@@ -50,11 +50,11 @@ In this task, you will perform the following changes to the flow:
 
 - Add check for missing approver
 
-1. Hover the mouse between the **Get Outcome** and **Start and wait for an approval** steps and click on **Insert new step** and then select **Add an action**.
+1. Hover the mouse between the **Get Outcome** and **Start and wait for an approval** steps and click on **+** (Insert new step) > **Add an action**.
 
 1. Select the **Control** connector and then select **Condition**.
 
-1. Click in the left-hand **Choose a value** field.
+1. Click in the first **Choose a value** field.
 
 1. In **Dynamic content**, search for **approver** and select **Approver Email**.
 
@@ -68,13 +68,13 @@ In this task, you will perform the following changes to the flow:
 
 1. In the condition step, click **+ Add** and then select **Add row**.
 
-1. Click in the left-hand **Choose a value** field.
+1. Click in the **Choose a value** field.
 
 1. In **Dynamic content**, select the **Expression** tab.
 
 1. Enter **length()** and position the cursor between the brackets.
 
-1. Select the **Dynamic content** tab, select **See more** for **Get Outcome**, and select the **Approver email** and click **OK**.
+1. Select the **Dynamic content** tab, select **See more** for **Get Outcome**, and select the **Approver Email** and click **OK**.
 
 1. The expression should be as follows:
 
@@ -84,7 +84,7 @@ In this task, you will perform the following changes to the flow:
 
 1. Click in the right-hand **Choose a value** field and enter **0**
 
-1. In the condition step, change the **And** drop-down to **And**.
+1. In the condition step, note the **And** drop-down is set to **And**.
 
     ![Condition.](../media/flow-condition.png)
 
@@ -102,7 +102,7 @@ In this task, you will perform the following changes to the flow:
 
 1. Enter **No approver for outcome** and in **Dynamic content** select **Outcome Title**.
 
-1. Click **Save**
+1. Click **Save**.
 
     ![Flow after changes in this task.](../media/flow-check-approver.png)
 
