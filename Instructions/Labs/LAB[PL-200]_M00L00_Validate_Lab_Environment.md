@@ -8,49 +8,11 @@ lab:
 
 > **IMPORTANT:** This lab provides you with a Microsoft 365 tenant and licenses for the Power Platform applications you will be using in this course. You will only be provided with one tenant for the practice labs in this course. The settings and actions you take within this tenant do not roll-back or reset, whereas the virtual machine you are provided with does reset each time you close the lab session. Please be aware that Microsoft 365 and Power Platform are evolving all the time. The instructions in this document may be different from what you experience in your actual tenant. It is also possible to experience a delay of several minutes before the virtual machine has network connectivity to begin the labs.
 
-## Scenario
-
-In this lab, you will download the files required for the labs and acquire a Power Platform trial.
-
-## Exercise 1 - Download lab files
-
-In this exercise, you will download and extract the files required for the labs.
-
-### Task 1.1 - Download lab files from GitHub
-
-1. From the lab virtual machine, click Start and search for PowerShell then open PowerShell as Administrator.
-
-1. Run the following command to create a folder on the D: drive for the  latest version of the lab files.
-
-    ```powershell
-    New-Item -Path "D:\" -Name "PL200" -ItemType "directory"
-    ```
-
-1. Run the following command to download the latest version of the lab files to the virtual machine.
-
-    ```powershell
-    Start-BitsTransfer -Source "https://github.com/MicrosoftLearning/PL-200-Power-Platform-Functional-Consultant/archive/refs/heads/master.zip" -Destination "D:\PL200"
-    ```
-
-1. Run the following command to extract the files from the zip file.
-
-    ```powershell
-    Expand-Archive -Path 'D:\PL200\master.zip' -DestinationPath 'D:\PL200'
-    ```
-
-1. Run the following command to extract the files from the zip file.
-
-    ```powershell
-    Move-item -Path "D:\PL200\PL-200-Power-Platform-Functional-Consultant-master\Allfiles\*" -Destination "D:\PL200" -confirm:$false
-    ```
-
-> Note: If any of the commands fail simply re-run them and they will successfully complete the second time.
-
-## Exercise 2 – Acquire a Microsoft Power Platform trial
+## Exercise 1 – Acquire a Microsoft Power Platform trial
 
 In this exercise, you will add a Power Apps trial to the tenant and assign licenses to users.
 
-### Task 2.1 – Sign up for a Power Apps per user trial
+### Task 1.1 – Sign up for a Power Apps per user trial
 
 1. Navigate to <https://admin.microsoft.com>.
 
@@ -80,7 +42,7 @@ In this exercise, you will add a Power Apps trial to the tenant and assign licen
 
 1. Click **Continue**.
 
-### Task 2.2 – Assign Power Apps licenses to your user
+### Task 1.2 – Assign Power Apps licenses to your user
 
 1. In the left-hand navigation, expand **Users** and select **Active users**.
 
@@ -92,7 +54,7 @@ In this exercise, you will add a Power Apps trial to the tenant and assign licen
 
 1. Click on **X** in the top right of the pane to close the panel.
 
-### Task 2.3 – Assign Power Apps licenses to other users
+### Task 1.3 – Assign Power Apps licenses to other users
 
 1. In the left-hand navigation, expand **Users** and select **Active users**.
 
