@@ -24,6 +24,8 @@ In this exercise, you will import Outcome rows into your Microsoft Dataverse env
 
 1. Locate and select the **Outcome data.xlsx** file and click **Open**.
 
+> This file is located in the Documents\PL-200 folder on your machine.
+
 ### Task 1.2 – Create a dataflow
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
