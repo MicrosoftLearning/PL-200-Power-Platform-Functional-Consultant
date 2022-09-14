@@ -96,4 +96,4 @@ In this exercise, you will provision a Power Pages site. This can take a while, 
 
 > The portal site will deploy. It can take around an hour for your site to fully deploy. You can continue to the next labs while this completes. 
 
-    ![Power Pages portal deployed.](../media/portal-deployed.png)
+![Power Pages portal deployed.](../media/portal-deployed.png)
