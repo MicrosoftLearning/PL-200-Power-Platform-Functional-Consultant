@@ -12,9 +12,8 @@ You are a Power Platform functional consultant and have been assigned to the Fab
 
 You need to familiarize yourself with the data model and then make changes to tables and their properties for this phase of the project.
 
-The data model is available in your F:\Allfiles\Labs folder.
-
 ![Fabrikam Environment Data Model.](../media/Fabrikam_Environmental_ERD.png)
+> This file (Fabrikam Environmental Data Model.png) is located in the Documents\PL-200 folder on your machine.
 
 In this practice lab, you will be modifying table properties and creating a new custom table.
 
