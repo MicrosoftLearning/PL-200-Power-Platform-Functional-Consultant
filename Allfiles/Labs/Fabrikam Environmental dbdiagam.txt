@@ -1,0 +1,78 @@
+Table account {
+	accountid uniqueidentifier [pk]
+	primarycontactid lookup 
+}
+Ref: account.primarycontactid > contact.contactid
+
+Table contact {
+	contactid uniqueidentifier [pk]
+accountid lookup 
+}
+Ref: contact.accountid > account.accountid
+
+Table contoso_milestone {
+	contoso_milestoneid uniqueidentifier [pk]
+	contoso_projectid lookup 
+}
+Ref: contoso_milestone.contoso_projectid > contoso_project.contoso_projectid
+
+Table contoso_outcome {
+	contoso_outcomeid uniqueidentifier [pk]
+	contoso_approveruserid lookup 
+}
+Ref: contoso_outcome.contoso_approveruserid > systemuser.systemuserid
+
+Table contoso_program {
+	contoso_programid uniqueidentifier [pk]
+	contoso_sponsoraccountid lookup 
+	contoso_sponsorcontactid lookup 
+}
+Ref: contoso_program.contoso_sponsoraccountid > account.accountid
+Ref: contoso_program.contoso_sponsorcontactid > contact.contactid
+
+Table contoso_project {
+	contoso_projectid uniqueidentifier [pk]
+	contoso_programid lookup 
+	contoso_projecttypeid lookup 
+	contoso_regionid lookup 
+}
+Ref: contoso_project.contoso_programid > contoso_program.contoso_programid
+Ref: contoso_project.contoso_projecttypeid > contoso_projecttype.contoso_projecttypeid
+Ref: contoso_project.contoso_regionid > contoso_region.contoso_regionid
+Ref: contoso_project.contoso_projectid <> contoso_outcome.contoso_outcomeid
+
+Table contoso_projectfunding {
+	contoso_projectfundingid uniqueidentifier [pk]
+	contoso_funderaccountid lookup 
+  contoso_projectid lookup 
+}
+Ref: contoso_projectfunding.contoso_funderaccountid > account.accountid
+Ref: contoso_projectfunding.contoso_projectid > contoso_project.contoso_projectid
+
+Table contoso_projectresource {
+	contoso_projectresourceid uniqueidentifier [pk]
+	contoso_resourceid lookup 
+	contoso_projectid lookup 
+}
+Ref: contoso_projectresource.contoso_resourceid > contoso_resource.contoso_resourceid
+Ref: contoso_projectresource.contoso_projectid > contoso_project.contoso_projectid
+
+Table contoso_projecttype {
+	contoso_projecttypeid uniqueidentifier [pk]
+}
+
+Table contoso_region {
+	contoso_regionid uniqueidentifier [pk]
+}
+
+Table contoso_resource {
+	contoso_resourceid uniqueidentifier [pk]
+	contoso_contactid lookup 
+	contoso_systemuserid lookup 
+}
+Ref: contoso_resource.contoso_contactid > contact.contactid
+Ref: contoso_resource.contoso_systemuserid > systemuser.systemuserid
+
+Table systemuser {
+	systemuserid uniqueidentifier [pk]
+}
