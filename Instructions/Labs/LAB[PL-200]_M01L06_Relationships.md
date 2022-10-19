@@ -46,7 +46,7 @@ In this exercise, you will be modifying the cascade relationships for the projec
 
 ### Task 1.2 – Project-Milestone relationship
 
-1. Select the **Milestone** relationship. Note that this relationship uses Project as the Display name and contoso_project_milestone as the Name. 
+1. Select the **Milestone** relationship in the **Project** table. Note that this relationship uses Project as the Display name and contoso_project_milestone as the Name. 
 
 1. In the One-to-many pane that appears on the right-hand side of the screen, expand **Advanced options**.
 
