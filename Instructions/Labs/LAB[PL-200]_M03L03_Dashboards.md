@@ -168,6 +168,8 @@ In this exercise, you will export the solution from the Practice environment and
 
 1. Click **Next**.
 
+1. The version number should have been incremented to **1.1.11.9**.
+
 1. Select **Unmanaged** for **Export As**.
 
 1. Click **Export**.
