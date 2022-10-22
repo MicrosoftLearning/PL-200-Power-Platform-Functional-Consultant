@@ -84,7 +84,7 @@ In this exercise, you will provision a Power Pages site. This can take a while, 
 
 1. If you are asked about your experience creating websites, click **Skip**.
 
-1. Select the default design template, **Blank Design 001**, and select **Choose this template**.
+1. Select the default design template, **Site Design 001**, and select **Choose this template**.
 
 1. Enter **Fabrikam Milestones** for **Give your site a name**.
 
