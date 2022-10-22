@@ -133,7 +133,7 @@ Your user has been added to the portal site.
 
 1. In the canvas, click on the heading, **Subpage 2**, and enter **Milestones**.
 
-1. In the canvas, click the line of text underneath the heading and enter **Status of envirionmental miletones**.
+1. In the canvas, click the line of text underneath the heading and enter **Status of environmental miletones**.
 
 1. Click on the background in the canvas above the heading and select the section.
 
