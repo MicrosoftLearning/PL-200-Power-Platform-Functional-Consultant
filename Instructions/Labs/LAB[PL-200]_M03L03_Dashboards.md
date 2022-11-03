@@ -58,7 +58,7 @@ In this exercise, you will create an interactive dashboard for Projects.
 
 1. Make sure you are in the **Practice** environment.
 
-1. Select **Solutions**.
+1. Select **Solutions**.Click to open the **Fabrikam Environmental** solution
 
 1. In the **Objects** pane on the left, click and expand **Tables**.
 
