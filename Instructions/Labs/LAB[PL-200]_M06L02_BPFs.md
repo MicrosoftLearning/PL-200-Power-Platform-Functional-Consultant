@@ -282,6 +282,4 @@ In this exercise, you will export the solution from the Practice environment and
 
 1. Click **Next**.
 
-1. Click **Next**.
-
 1. Click **Import**. The solution will import in the background.
