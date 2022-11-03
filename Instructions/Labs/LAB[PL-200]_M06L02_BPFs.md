@@ -242,7 +242,7 @@ In this exercise, you will export the solution from the Practice environment and
 
 1. Select the **Fabrikam Environmental** solution but do not open it.
 
-1. Select **Export**.
+1. Select **Export Solution**.
 
 1. Click **Next**.
 
