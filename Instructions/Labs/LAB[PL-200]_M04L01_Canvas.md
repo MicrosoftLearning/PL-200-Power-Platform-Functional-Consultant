@@ -580,7 +580,7 @@ In this exercise, you will export the solution from the Practice environment and
 
 1. Select **Import solution**.
 
-1. Select **Browse**, change to the **Downloads** folder and select **FabrikamEnvironmental_1_1_11_9_managed.zip** and select **Open**.
+1. Select **Browse**, change to the **Downloads** folder and select **FabrikamEnvironmental_1_1_11_10_managed.zip** and select **Open**.
 
 1. Click **Next**.
 
