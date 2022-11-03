@@ -564,7 +564,7 @@ In this task, you will perform the following changes to the form:
 
 1. Click the caret next to the **Save** button and select **Save as**.
 
-1. Enter **Manager** for **Display Name** and **Form for managers** for **Description**.
+1. Enter **Manager** for **Display Name** and **Form for managers** for **Description**. Select **Save**.
 
 1. Select **Tree view** on the left-hand side of the form designer.
 
