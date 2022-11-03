@@ -50,8 +50,6 @@ In this exercise, you will acquire a PVA trial and examine the components in the
 
 1. Type **How can I be a sustainable farmer?** and click **Send**.
 
-1. Select **Soil**. You should see the aut
-
 1. Select **Soil**.
 
 1. Select **Soil management practices**.
