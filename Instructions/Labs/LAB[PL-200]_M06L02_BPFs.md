@@ -28,7 +28,7 @@ In this exercise you will run the business process flow to generate an approval.
 
 1. In the **Objects** pane on the left, select **Apps**.
 
-1. Select the **Environmental Environmental Project Delivery** app, click on the ellipses (...), and select **Play**.
+1. Select the **Environmental Project Delivery** app, click on the ellipses (...), and select **Play**.
 
 1. In the left-hand navigation, select **Outcomes**.
 
