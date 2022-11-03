@@ -224,7 +224,7 @@ In this exercise, you make changes to topics and entities.
 
 1. In the action bar, click **Trigger phrases**.
 
-1. Type  **How can I farm I sustainably?** and click on the **+** icon.
+1. Type  **How can I farm sustainably?** and click on the **+** icon.
 
 1. Click on **X** to to close the Trigger phrases pane.
 
