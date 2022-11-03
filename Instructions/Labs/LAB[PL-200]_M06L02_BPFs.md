@@ -246,7 +246,7 @@ In this exercise, you will export the solution from the Practice environment and
 
 1. Click **Next**.
 
-1. The version number should have been incremented to **1.1.11.8**.
+1. The version number should have been incremented to **1.1.11.12**.
 
 1. Select **Managed** for **Export As**.
 
