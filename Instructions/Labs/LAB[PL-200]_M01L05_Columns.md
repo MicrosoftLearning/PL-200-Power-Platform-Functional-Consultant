@@ -42,11 +42,11 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
 1. Select the **Project Status** column.
 
-1. In the Edit column pane that appears on the right-hand side of the screen, expand **Advanced options**.
+1. In the Edit column pane that appears on the right-hand side of the screen, change the **Required** drop-down to **Business required**.
 
-1. Change the **Required** drop-down to **Business required**.
+1. Expand **Advanced options**.
 
-1. Check the **Appears in dashboard's global filter** box.
+1. Under Dashboard, check the **Appears in dashboard's global filter** box.
 
 1. Click **Save**.
 
@@ -60,13 +60,13 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
 1. Select the **Estimated End** column.
 
-1. In the Edit column pane that appears on the right-hand side of the screen, expand **Advanced options**.
+1. In the Edit column pane that appears on the right-hand side of the screen, verify that the **Format** is **Date only**. 
 
-1. Verify that the **Format** is **Date only**.
+1. Expand **Advanced options**.
 
 1. Verify that the  **Time zone adjustment** is **User local**.
 
-1. Check the **Sortable** box.
+1. Under Dashboard, check the **Sortable** box.
 
 1. Click **Save**.
 
@@ -222,9 +222,9 @@ In this exercise, you will be changing properties on a lookup column on the Mile
 
 1. Select the **Project** column.
 
-1. In the Edit column pane that appears on the right-hand side of the screen, expand **Advanced options** and scroll down.
+1. In the Edit column pane that appears on the right-hand side of the screen, change the **Required** drop-down to **Business required**. 
 
-1. Change the **Required** drop-down to **Business required**.
+1. Expand **Advanced options** and scroll down.
 
 1. Check the **Enable auditing** box.
 
