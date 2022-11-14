@@ -24,7 +24,7 @@ In this exercise, you will access the Power Apps maker portal, the **Practice** 
 
     ![Select Practice environment in the Power Apps maker portal.](../media/select-environment.png)
 
-1. Select **Apps** from the left navigation pane. You should see a single app, Solution Health Hub, listed.
+1. Select **Apps** from the left navigation pane. You should see a single app, Solution Health Hub, listed. You may also see Fabrikam Milestones and Portal Management apps being provisioned.
 
 1. Select and expand **Dataverse** from the left navigation pane. Select **Tables**. You should see standard tables from the Common Data Model.
 
