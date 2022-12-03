@@ -663,7 +663,7 @@ In this task, you will perform the following changes to the app:
 
 1. Click **Add page**.
 
-1. Select **Table based view and form**.
+1. Select the option **Dataverse table** for select a page type. This option gives two pages for each table: **View and Form**.
 
 1. Click **Next**.
 
