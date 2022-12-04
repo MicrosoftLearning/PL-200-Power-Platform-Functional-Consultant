@@ -314,7 +314,7 @@ In this exercise you will publish the chatbot.
 
 ### Task 3.3: Channels
 
-1. In Power Virtual Agents, click and expand **Manage**.
+1. In Power Virtual Agents, on the left-hand pane navigation click and expand **Settings**.
 
 1. Click **Channels**.
 
