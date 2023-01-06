@@ -188,7 +188,7 @@ In this exercise, you will add branching on the approval to the business process
 
 1. Click **Apply**.
 
-1. Expand **Details** on the **Resolve** stage.
+1. Expand **Details** on the **Rejected** stage.
 
 1. Select **Data Step #1** and in the Properties pane select **Outcome status** and check the **Required** box.
 
