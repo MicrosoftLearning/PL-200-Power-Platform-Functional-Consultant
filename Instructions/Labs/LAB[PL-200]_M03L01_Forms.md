@@ -663,7 +663,7 @@ In this task, you will perform the following changes to the app:
 
 1. Click **Add page**.
 
-1. Select **Table based view and form**.
+1. Select **Dataverse table**.
 
 1. Click **Next**.
 
@@ -675,7 +675,7 @@ In this task, you will perform the following changes to the app:
 
 1. Click **Add page**.
 
-1. Select **Table based view and form**.
+1. Select **Dataverse table**.
 
 1. Click **Next**.
 
@@ -714,7 +714,7 @@ In this task, you will perform the following changes to the app:
 
 1. Click **Add page**.
 
-1. Select **Table based view and form**.
+1. Select **Dataverse table**.
 
 1. Click **Next**.
 
