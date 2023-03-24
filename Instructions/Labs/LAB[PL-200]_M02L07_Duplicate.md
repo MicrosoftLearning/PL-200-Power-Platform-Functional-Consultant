@@ -22,7 +22,7 @@ In this exercise, you will create a new duplicate detection rule that will mark 
 
 1. Select **Environments** from the left navigation pane.
 
-1. Select the **Practice** environment.
+1. Select the **Development** environment.
 
 1. Select **Settings**.
 

@@ -30,7 +30,7 @@ You need to remove privileges for importing and exporting of data, deleting acco
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in the **Development** environment.
 
 1. Select **Solutions**.
 
@@ -124,13 +124,13 @@ You need to remove privileges for importing and exporting of data, deleting acco
 
 ## Exercise 2 – Solutions
 
-In this exercise, you will export the solution from the Practice environment and import it into the MOD Administrator's environment.
+In this exercise, you will export the solution from the Development environment and import it into the Live environment.
 
 ### Task 2.1 – Export managed solution
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in the **Development** environment.
 
 1. Select **Solutions**.
 
@@ -170,7 +170,7 @@ In this exercise, you will export the solution from the Practice environment and
 
 1. Switch environments by using the Environment Selector in the upper right corner of the Maker portal.
 
-1. Select the **MOD Administrator's Environment** environment from the list.
+1. Select the **Live** environment from the list.
 
 1. Select **Solutions**.
 

@@ -18,7 +18,7 @@ In this practice lab, you will be creating business rules to show and hide the l
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in your **Practice** environment.
+1. Make sure you are in your **Development** environment.
 
 1. Select **Solutions**.
 

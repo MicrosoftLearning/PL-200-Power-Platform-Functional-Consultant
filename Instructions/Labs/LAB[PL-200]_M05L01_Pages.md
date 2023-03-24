@@ -22,7 +22,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. Navigate to the Power Pages portal <https://make.powerpages.microsoft.com/>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in the **Development** environment.
 
 1. Click on **Preview** and then select **Desktop**.
 
@@ -52,7 +52,7 @@ Your user has been added to the portal site.
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in your **Practice** environment.
+1. Make sure you are in your **Development** environment.
 
 1. Select **Apps**.
 
@@ -109,7 +109,7 @@ Your user has been added to the portal site.
 
 1. Navigate to the Power Pages portal <https://make.powerpages.microsoft.com/>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in the **Development** environment.
 
 1. Edit **Edit**.
 
@@ -173,7 +173,7 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
 1. Navigate to the Power Pages portal <https://make.powerpages.microsoft.com/>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in the **Development** environment.
 
 1. Edit **Edit**.
 

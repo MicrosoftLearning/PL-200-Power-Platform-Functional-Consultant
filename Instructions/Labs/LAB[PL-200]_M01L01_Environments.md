@@ -12,11 +12,11 @@ In this lab, you create environments for use during the remainder of the labs.
 
 ## Exercise 1 - Create environments
 
-In this exercise, you will create the **Practice** environment that you will do the majority of your lab work in and a developer environment to use to deploy solutions.
+In this exercise, you will create a *Development* environment that you will do the majority of your lab work in and a *Live* environment to use to deploy solutions.
 
 **NOTE** Depending on the browser that you are using, it is suggested that you disable any pop-up blockers that maybe enabled. This will prevent popup screens from not appearing as they should.
 
-### Task 1.1 – Create trial environment
+### Task 1.1 – Create development environment
 
 1. Navigate to the Power Platform admin center <https://admin.powerplatform.microsoft.com> and sign in with your Microsoft 365 credentials if prompted again.
 
@@ -28,44 +28,42 @@ In this exercise, you will create the **Practice** environment that you will do 
 
     ![Environment in the Power Platform admin center.](../media/ppac-environments.png)
 
-1. In the **Name** text box, enter **[my initials] Practice**. (Example: PL Practice).
+1. In the **Name** text box, enter **[my initials] Development**. (Example: PL Development).
 
-1. In the **Type** drop down, select **Trial**. You may see an option for **Trial (subscription-based)**, only select the option that says **Trial**.
-
-1. On the **Create a database for this environment?** toggle, change to **Yes**.
+1. In the **Type** drop down, select **Developer**.
 
 1. Leave all other selections as default and select **Next**.
 
-    ![New environment.](../media/new-environment-step1.png)
+    ![New environment.](../media/new-environment.png)
 
 1. On the **Add database** tab, click **Save**.
 
-1. Your **Practice** environment should now show in the list of environments.
+1. Your **Development** environment should now show in the list of environments.
 
-    ![Environment in the Power Platform admin center.](../media/ppac-environments2.png)
+    ![Environment in the Power Platform admin center.](../media/ppac-environments-dev.png)
 
-1. Your Practice environment may take a few minutes to provision. Refresh the page if needed. When your environment shows as Ready, select your **Practice** environment by clicking on the ellipses (...) next to its name to expand the drop down menu and select **Settings**.
+1. Your Development environment may take a few minutes to provision. Refresh the page if needed. When your environment shows as Ready, select your **Development** environment by clicking on the ellipses (...) next to its name to expand the drop down menu and select **Settings**.
 
-    ![Environment in the Power Platform admin center.](../media/ellipses-settings.png)
+    ![Environment in the Power Platform admin center.](../media/ellipses-settings-dev.png)
 
 1. Explore the different areas in **Settings** that you may be interested in but do not make any changes yet.
 
 ### Task 1.2 – Create developer environment
 
-1. Navigate to <https://powerapps.microsoft.com/developerplan>.
+1. Navigate to environments in the Power Platform admin center <https://admin.powerplatform.microsoft.com/environments>.
 
-1. Click **Existing user? Add a dev environment**.
+1. Click **+ New**.
 
-    ![Developer plan.](../media/developer-plan.png)
+1. In the **Name** text box, enter **[my initials] Live**. (Example: PL Live).
 
-1. On the next page, leave the country as United States and click on **Accept**.
+1. In the **Type** drop down, select **Developer**.
 
-1. Your developer environment will be provisioned and the Power Apps maker portal will be opened. If you are prompted to enter a phone number, use 0123456789 and **Submit**.
+1. Leave all other selections as default and select **Next**.
 
-1. Navigate to the Power Platform admin center <https://admin.powerplatform.microsoft.com/environments>.
+1. On the **Add database** tab, click **Save**.
 
-1. You should now see three environments; Contoso (default), Practice, and MOD Administrator's Environment.
+1. You should now see three environments; Contoso (default), Development, and Live.
 
-    ![Environments.](../media/environments.png)
+    ![Environments.](../media/environments-all.png)
 
-1. You will use the Practice environment for all customizations in the labs. The MOD Administrator's Environment will act as your test/production environment.
+1. You will use the *Development* environment for all customizations in the labs. The *Live* environment will act as your test/production environment.

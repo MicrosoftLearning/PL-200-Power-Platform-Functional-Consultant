@@ -33,13 +33,13 @@ In this lab, you will import the developed solutions and data.
 
 ## Exercise 1 - Import Fabrikam solutions
 
-In this exercise, you will import the main solution into the **Practice** environment.
+In this exercise, you will import the main solution into the **Development** environment.
 
 ### Task 1.1 – Main solution
 
 1. Navigate to <https://make.powerapps.com>.
 
-1. Make sure you are in your **Practice** environment.
+1. Make sure you are in your **Development** environment.
 
 1. Select **Solutions**.
 
@@ -79,15 +79,18 @@ In this exercise, you will import the main solution into the **Practice** enviro
 
 1. Click **Import**.
 
-    The solution will import in the background. This may take a few minutes. Wait until the import has completed.
+    The solution will import in the background. This may take a few minutes.
 
     ![Solution imported.](../media/solution-imported.png)
+
+    > [!IMPORTANT]
+    > Wait until the solution has finished importing  before continuing to the next task.
 
 ### Task 1.2 – Power Virtual Agents solution
 
 1. Navigate to <https://make.powerapps.com>.
 
-1. Make sure you are in your **Practice** environment.
+1. Make sure you are in your **Development** environment.
 
 1. Select **Solutions**.
 
@@ -103,7 +106,7 @@ In this exercise, you will import the main solution into the **Practice** enviro
 
 ## Exercise 2 - Import data
 
-In this exercise, you will import data the into the **Practice** environment using the Configuration Migration Tool.
+In this exercise, you will import data the into the **Development** environment using the Configuration Migration Tool.
 
 ### Task 2.1 - Import data
 
@@ -129,9 +132,9 @@ In this exercise, you will import data the into the **Practice** environment usi
 
 1. Click **Login**.
 
-    ![Configuration Migration Tool select environment.](../media/configuration-migration-step3.png)
+    ![Configuration Migration Tool select environment.](../media/configuration-migration-step3a.png)
 
-1. Select your **Practice** environment.
+1. Select your **Development** environment.
 
 1. Click **Login**.
 
@@ -157,13 +160,15 @@ In this exercise, you will provision a Power Pages site. This can take a while, 
 
 1. Navigate to the Power Pages portal <https://make.powerpages.microsoft.com/> and sign in with your Microsoft 365 credentials if prompted.
 
-1. Use the Environment selector to switch to your **Practice** environment.
+1. Use the Environment selector to switch to your **Development** environment.
 
 1. Click **Get started**.
 
 1. If you are asked about your experience creating websites, click **Skip**.
 
-1. Select the default design template, **Site Design 001**, and select **Choose this template**.
+1. Select the default design template, **Starter layout 1**, and select **Choose this template**.
+
+    ![Select Starter layout template..](../media/power-pages-starter.png)
 
 1. Enter **Fabrikam Milestones** for **Give your site a name**.
 
