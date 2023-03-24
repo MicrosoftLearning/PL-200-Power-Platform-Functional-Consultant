@@ -47,9 +47,10 @@ In this exercise, you will import the main solution into the **Development** env
 
 1. Click **Browse** and locate the **FabrikamEnvironmental_1_1_11_3.zip** file and click **Open**.
 
-> This file is located in the Documents\PL-200 folder on your machine.
+    >[!NOTE]
+    > This file is located in the Documents\PL-200 folder on your machine.
 
-![Solution to import.](../media/solution-to-import.png)
+    ![Solution to import.](../media/solution-to-import.png)
 
 1. Click **Next**.
 
@@ -84,7 +85,15 @@ In this exercise, you will import the main solution into the **Development** env
     ![Solution imported.](../media/solution-imported.png)
 
     > [!IMPORTANT]
-    > Wait until the solution has finished importing  before continuing to the next task.
+    > Wait until the solution has finished importing  before continuing to the next step.
+
+1. When the solution has imported successfully, select the **Fabrikam Environmental** solution.
+
+1. In the solution select the **Overview** page.
+
+    ![Overview.](../media/solution-overview.png)
+
+1. Click on **Publish all customizations**.
 
 ### Task 1.2 – Power Virtual Agents solution
 
@@ -98,7 +107,8 @@ In this exercise, you will import the main solution into the **Development** env
 
 1. Click **Browse** and locate the **FabrikamChatbot_1_1_1_1.zip** file and click **Open**.
 
-> This file is located in the Documents\PL-200 folder on your machine.
+    >[!NOTE]
+    > This file is located in the Documents\PL-200 folder on your machine.
 
 1. Click **Next**.
 
@@ -176,6 +186,6 @@ In this exercise, you will provision a Power Pages site. This can take a while, 
 
 1. Click **Done**.
 
-> The portal site will deploy. It can take around an hour for your site to fully deploy. You can continue to the next labs while this completes.
+> The portal site will deploy. It can take around an hour for your site to fully deploy.
 
 ![Power Pages portal deployed.](../media/portal-deployed.png)
