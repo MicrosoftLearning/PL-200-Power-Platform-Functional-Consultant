@@ -25,7 +25,7 @@ In this exercise, you will be examining the tables in the Fabrikam Environmental
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in your **Practice** environment.
+1. Make sure you are in your **Development** environment.
 
 1. Select **Solutions**.
 
@@ -47,7 +47,7 @@ In this exercise, you will be examining the tables in the Fabrikam Environmental
 
 1. Click on **Business rules** under the **Project Funding** table. There is a rule for the funding percentage. Open the business rule and examine how it works. 
 
-1. Close the busisiness rule
+1. Close the business rule
 
 1. Click and expand the **Project Resource** table and examine its columns and relationships.
 
@@ -59,7 +59,7 @@ In this exercise, you will be updating the properties on the Project table to al
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in the **Development** environment.
 
 1. Select **Solutions**.
 

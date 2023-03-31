@@ -12,27 +12,29 @@ In this lab, you will create a publisher and a solution.
 
 ## Exercise 1 - Create publisher and solution
 
-In this exercise, you will access the Power Apps maker portal, the **Practice** environment and create a new solution.
+In this exercise, you will access the Power Apps maker portal, the Development environment and create a new solution.
 
 ### Task 1.1 – Maker portal
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com> and sign in with your Microsoft 365 credentials if prompted again.
 
+1. If you are prompted for a *Phone number* enter **0123456789** and click on **Submit**.
+
 1. Switch environments by using the Environment Selector in the upper right corner of the screen. The Contoso (Default) environment will be selected by default.
 
-1. Select your **Practice** environment from the list.
+1. Select your **Development** environment from the list.
 
-    ![Select Practice environment in the Power Apps maker portal.](../media/select-environment.png)
+    ![Select Development environment in the Power Apps maker portal.](../media/select-dev-environment.png)
 
 1. Select **Apps** from the left navigation pane. You should see a single app, Solution Health Hub, listed. You may also see Fabrikam Milestones and Portal Management apps being provisioned.
 
-1. Select and expand **Dataverse** from the left navigation pane. Select **Tables**. You should see standard tables from the Common Data Model.
+1. Select **Tables** from the left navigation pane. You should see the standard tables from the Common Data Model.
 
 ### Task 1.2 – Create a publisher
 
 1. Select **Solutions** from the left navigation pane. You should see several solutions including the Default solution and the Common Data Services solution.
 
-    ![List of solutions in Maker portal.](../media/solution-list.png)
+    ![List of solutions in Maker portal.](../media/solutions-list.png)
 
 1. Select the **Publishers** tab.
 
@@ -66,13 +68,13 @@ In this exercise, you will access the Power Apps maker portal, the **Practice** 
 
 ## Exercise 2 - Add components to the solution
 
-In this exercise, you will access the Power Apps maker portal and select the **Practice** environment.
+In this exercise, you will access the Power Apps maker portal and select the **Development** environment.
 
 ### Task 2.1 – Add table
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the Practice environment.
+1. Make sure you are in the Development environment.
 
 1. Select **Solutions**.
 
@@ -90,7 +92,7 @@ In this exercise, you will access the Power Apps maker portal and select the **P
 
 1. Click **Next**.
 
-1. Click **Select Objects**.
+1. Click **Select objects**.
 
 1. In the **Columns** tab, select the **Account Number** column.
 

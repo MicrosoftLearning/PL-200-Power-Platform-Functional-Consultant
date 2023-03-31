@@ -26,7 +26,7 @@ In this exercise, you will assign security roles to the existing dashboard.
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in the **Development** environment.
 
 1. Select **Solutions**.Click to open the **Fabrikam Environmental** solution
 
@@ -56,7 +56,7 @@ In this exercise, you will create an interactive dashboard for Projects.
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in the **Development** environment.
 
 1. Select **Solutions**.Click to open the **Fabrikam Environmental** solution
 
@@ -108,7 +108,7 @@ In this exercise, you will be enabling the feature that uses Power BI to create 
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in the **Development** environment.
 
 1. Select **Solutions**.
 
@@ -136,13 +136,13 @@ In this exercise, you will be enabling the feature that uses Power BI to create 
 
 ## Exercise 4 – Solutions
 
-In this exercise, you will export the solution from the Practice environment and import it into the MOD Administrator's environment.
+In this exercise, you will export the solution from the Development environment and import it into the Live environment.
 
 ### Task 4.1 – Export managed solution
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in the **Development** environment.
 
 1. Select **Solutions**.
 
@@ -180,7 +180,7 @@ In this exercise, you will export the solution from the Practice environment and
 
 1. Switch environments by using the Environment Selector in the upper right corner of the Maker portal.
 
-1. Select the **MOD Administrator's Environment** environment from the list.
+1. Select the **Live** environment from the list.
 
 1. Select **Solutions**.
 

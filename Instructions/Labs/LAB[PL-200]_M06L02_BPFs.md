@@ -20,7 +20,7 @@ In this exercise you will run the business process flow to generate an approval.
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in the **Development** environment.
 
 1. Select **Solutions**.
 
@@ -102,7 +102,7 @@ In this exercise you will run the business process flow to generate an approval.
 
 1. Click **Open**. The approvals app will be added to the left-hand rail. Right click on the app and select **Pin**.
 
-1. Select the **Practice** environment.
+1. Select the **Development** environment.
 
 1. Select the approval.
 
@@ -122,7 +122,7 @@ In this exercise you will run the business process flow to generate an approval.
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in the **Development** environment.
 
 1. Select **Solutions**.
 
@@ -158,7 +158,7 @@ In this exercise, you will add branching on the approval to the business process
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in the **Development** environment.
 
 1. Select **Solutions**.
 
@@ -210,7 +210,7 @@ In this exercise, you will enable users to use the business process flow.
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in the **Development** environment.
 
 1. Select **Solutions**.
 
@@ -230,13 +230,13 @@ In this exercise, you will enable users to use the business process flow.
 
 ## Exercise 4 – Solutions
 
-In this exercise, you will export the solution from the Practice environment and import it into the MOD Administrator's environment.
+In this exercise, you will export the solution from the Development environment and import it into the Live environment.
 
 ### Task 4.1 – Export managed solution
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Practice** environment.
+1. Make sure you are in the **Development** environment.
 
 1. Select **Solutions**.
 
@@ -274,7 +274,7 @@ In this exercise, you will export the solution from the Practice environment and
 
 1. Switch environments by using the Environment Selector in the upper right corner of the Maker portal.
 
-1. Select the **MOD Administrator's Environment** environment from the list.
+1. Select the **Live** environment from the list.
 
 1. Select **Solutions**.
 
