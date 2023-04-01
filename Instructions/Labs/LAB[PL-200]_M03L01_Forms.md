@@ -110,11 +110,11 @@ In this task, you will perform the following changes to the form:
 
 1. In Tree View, select the **Note Text** control for the Timeline.
 
-1. In the properties pane on the right-hand side, click on **Fax**, uncheck the **Enable** box, and click **Done**.
+1. In the properties pane on the right-hand side, click on **Fax**, verify the **Enable** box is unchecked, and click **Done**.
 
-1. In the properties pane on the right-hand side, click on **Letter**, uncheck the **Enable** box, and click **Done**.
+1. In the properties pane on the right-hand side, click on **Letter**, verify the **Enable** box is unchecked, and click **Done**.
 
-1. In the properties pane on the right-hand side, click on **Social Activity**, uncheck the **Enable** box, and click **Done**.
+1. In the properties pane on the right-hand side, click on **Social Activity**, verify the **Enable** box is unchecked, and click **Done**.
 
 1. In the properties pane on the right-hand side, select **Date Created** in **Sort activities by** drop-down.
 
@@ -610,7 +610,7 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Form Order**.
 
-1. Drag **Manager** above **Information**.
+1. Drag **Manager** above **User**.
 
 1. Select **Fallback forms**.
 
@@ -689,7 +689,7 @@ In this task, you will perform the following changes to the app:
 
 1. Select **Outcome form**.
 
-1. In the Outcome form pane on the right-hand side, click **+ Add form**.
+1. In the Outcome form pane on the right-hand side, click **+ New form**.
 
 1. Select the **Manager** form.
 
@@ -728,7 +728,7 @@ In this task, you will perform the following changes to the app:
 
 1. Select **Outcome form**.
 
-1. In the Outcome form pane on the right-hand side, click **+ Add form**.
+1. In the Outcome form pane on the right-hand side, click **+ New form**.
 
 1. Select the **User** form.
 

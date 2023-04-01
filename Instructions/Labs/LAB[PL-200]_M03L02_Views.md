@@ -432,7 +432,7 @@ In this task, you will perform the following changes to the app:
 
 1. Select **Project view**.
 
-1. In the pane on the right-hand side, click **+ Add view**.
+1. In the pane on the right-hand side, click **+ New view**.
 
 1. Add the following views:
 
@@ -444,7 +444,7 @@ In this task, you will perform the following changes to the app:
 
 1. Select **Milestone view**.
 
-1. In the pane on the right-hand side, click **+ Add view**.
+1. In the pane on the right-hand side, click **+ New view**.
 
 1. Add the following views:
 
@@ -456,7 +456,7 @@ In this task, you will perform the following changes to the app:
 
 1. Select **Outcome view**.
 
-1. In the pane on the right-hand side, click **+ Add view**.
+1. In the pane on the right-hand side, click **+ New view**.
 
 1. Add the following views:
 

@@ -169,6 +169,7 @@ In **Dynamic content**, search for outcome and select **Outcome** under the **Ge
 1. Click **Save**
 
 1. Click the back arrow icon in the top-left of the flow editor.
+**Note:** If you receive an error message stating **This isn't the latest content**, select **Overwrite other people's changes** then click **Apply** to move forward. 
 
 ## Exercise 2 – Edit environment variable
 
