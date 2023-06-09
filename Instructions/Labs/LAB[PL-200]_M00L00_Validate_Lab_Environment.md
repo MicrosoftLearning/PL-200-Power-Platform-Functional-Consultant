@@ -18,11 +18,11 @@ In this exercise, you will add a Power Apps trial to the tenant and assign licen
 
 1. Enter the email address from your Microsoft 365 credentials in the text box that says **Email, phone, or Skype** .
 
-1. Click **Next**.
+1. Select **Next**.
 
 1. Enter the password from your Microsoft 365 credentials.
 
-1. Click **Sign in**.
+1. Select **Sign in**.
 
 1. Select **Yes** to stay signed in.
 
@@ -30,17 +30,18 @@ In this exercise, you will add a Power Apps trial to the tenant and assign licen
 
     ![Purchase services.](../media/purchase-services.png)
 
-1. In the search all product categories text box, enter **PowerApps** and press **Enter**.
+1. In the search all product categories text box, enter `PowerApps` and press **Enter**.
 
-1. Scroll down and locate the **Power Apps per user plan** and click on **Details**.
+1. Scroll down and locate the **Power Apps per user plan** and select **Details**.
 
     ![Power Apps per user plan.](../media/per-user-plan.png)
 
-1. Click **Start free trial**.
+1. Select **Start free trial**.
 
-1. Click **Try now**.
+1. Select **Try now**.
 
-1. Click **Continue**.
+1. Select **Continue**.
+
 
 ### Task 1.2 – Assign Power Apps licenses to your user
 
@@ -50,9 +51,10 @@ In this exercise, you will add a Power Apps trial to the tenant and assign licen
 
 1. Check the box for **Power Apps per user plan**.
 
-1. Click **Save changes**.
+1. Select **Save changes**.
 
-1. Click on **X** in the top right of the pane to close the panel.
+1. Select the **X** in the top right of the pane to close the panel. 
+
 
 ### Task 1.3 – Assign Power Apps licenses to other users
 
@@ -66,6 +68,7 @@ In this exercise, you will add a Power Apps trial to the tenant and assign licen
 
     ![Add more licenses.](../media/add-licenses.png)
 
-1. Click **Save changes**.
+1. Select **Save changes**.
 
-1. Click **Done**.
+1. Select **Done**.
+
