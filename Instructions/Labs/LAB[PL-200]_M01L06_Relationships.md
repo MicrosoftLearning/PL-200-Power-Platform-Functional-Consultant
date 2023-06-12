@@ -20,35 +20,36 @@ In this exercise, you will be modifying the cascade relationships for the projec
 
 ### Task 1.1 – Region-Project relationship
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in your **Development** environment.
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
-1. In the **Objects** pane on the left, click and expand **Tables**.
+1. In the **Objects** pane on the left, expand **Tables**.
 
 1. Select the **Project** table.
 
-1. Under **Schema**, click on **Relationships**.
+1. Under **Schema**, select **Relationships**.
 
 1. Scroll down and select the **Region** relationship.
 
-1. In the Many-to-one pane that appears on the right-hand side of the screen, expand **Advanced options**.
+1. In the **Many-to-one** pane that appears on the right-hand side of the screen, expand **Advanced options**.
 
 1. Change the **Delete** drop-down to **Restrict**.
 
-1. Click **Done**.
+1. Select **Done**.
 
     ![Referential Restrict relationship.](../media/referential-restrict-relationship.png)
 
+
 ### Task 1.2 – Project-Milestone relationship
 
-1. Select **Milestone** then **Relationship** in then left-hand pane. Select **Project** from the table. Note that this relationship uses Project as the Display name and contoso_project_milestone as the Name. 
+1. Select **Milestone** then **Relationships** in then left-hand pane. Select **Project** from the table. Note that this relationship uses Project as the Display name and contoso_project_milestone as the Name. 
 
-1. In the One-to-many pane that appears on the right-hand side of the screen, expand **Advanced options**.
+1. In the **One-to-many** pane that appears on the right-hand side of the screen, expand **Advanced options**.
 
 1. Change the **Type of behavior** drop-down to **Custom**.
 
