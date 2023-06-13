@@ -129,33 +129,34 @@ In this exercise, you will create a new hierarchical relationship on the region 
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
-1. In the **Objects** pane on the left, click and expand **Tables**.
+1. In the **Objects** pane on the left, expand **Tables**.
 
 1. Select the **Region** table.
 
-1. Click **+ New**, and then select **Relationship** and then select **+ One-to-many**.
+1. Select **+ New**, and then select **Relationship** and then select **+ One-to-many**.
 
-1. In the One-to-many pane that appears on the right-hand side of the screen, select **Region** in the **Related (Many)** drop-down.
+1. In the **One-to-many** pane that appears on the right-hand side of the screen, select **Region** in the **Related (Many)** drop-down.
 
-1. Enter **Parent Region** for **Lookup column display name**.
+1. Enter `Parent Region` for **Lookup column display name**.
 
-1. Enter **parentregionid** for **Lookup column name**.
+1. Enter `parentregionid` for **Lookup column name**.
 
 1. Check the **Hierarchical** box.
 
 1. Expand **General**.
 
-1. Enter **parentregion_region** for **Relationship name**.
+1. Enter `parentregion_region` for **Relationship name**.
 
 1. Expand **Advanced options**.
 
 1. Change the **Delete** drop-down to **Restrict**.
 
-1. Click **Done**.
+1. Select **Done**.
 
     ![Hierarchical relationship.](../media/add-hierarchical-relationship.png)
+
 
 ## Exercise 4 – Project Outcome relationships
 
@@ -163,27 +164,27 @@ In this exercise, you will create two many-to-one relationships for the Project 
 
 ### Task 4.1 – Create new relationship to Project
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in your **Development** environment.
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
-1. In the **Objects** pane on the left, click and expand **Tables**.
+1. In the **Objects** pane on the left, expand **Tables**.
 
 1. Select the **Project Outcome** table.
 
-1. Under **Schema**, click on **Relationships**.
+1. Under **Schema**, select **Relationships**.
 
-1. Click **+ New relationship** and then select **Many-to-one**.
+1. Select **+ New relationship** and then select **Many-to-one**.
 
-1. In the Many-to-one pane that appears on the right-hand side of the screen, select **Project** in the **Related (One)** drop-down.
+1. In the **Many-to-one** pane that appears on the right-hand side of the screen, select **Project** in the **Related (One)** drop-down.
 
-1. Enter **Project** for **Lookup column display name**.
+1. Enter `Project` for **Lookup column display name**.
 
-1. Enter **projectid** for **Lookup column name**.
+1. Enter `projectid` for **Lookup column name**.
 
 1. Expand **General**.
 
@@ -193,17 +194,18 @@ In this exercise, you will create two many-to-one relationships for the Project 
 
 1. Change the **Type of behavior** drop-down to **Parental**.
 
-1. Click **Done**.
+1. Select **Done**.
+
 
 ### Task 4.2 – Create new relationship to Outcome
 
-1. Click **+ New relationship** and then select **Many-to-one**.
+1. Select **+ New relationship** and then select **Many-to-one**.
 
-1. In the Many-to-one pane that appears on the right-hand side of the screen, select **Outcome** in the **Related (One)** drop-down.
+1. In the **Many-to-one** pane that appears on the right-hand side of the screen, select **Outcome** in the **Related (One)** drop-down.
 
-1. Enter **Outcome** for **Lookup column display name**.
+1. Enter `Outcome` for **Lookup column display name**.
 
-1. Enter **outcomeid** for **Lookup column name**.
+1. Enter `outcomeid` for **Lookup column name**.
 
 1. Expand **General**.
 
@@ -213,15 +215,16 @@ In this exercise, you will create two many-to-one relationships for the Project 
 
 1. Change the **Type of behavior** drop-down to **Parental**.
 
-1. Click **Done**.
+1. Select **Done**.
 
-    > NOTE: An error will be shown saying that you cannot create another parental relation with the contoso_outcome table.
+    > **Note:** An error will be shown saying that you cannot create another parental relation with the contoso_outcome table.
 
 1. Change the **Type of behavior** drop-down to **Referential**.
 
 1. Change the **Delete** drop-down to **Restrict**.
 
-1. Click **Done**.
+1. Select **Done**.
+
 
 ### Task 4.3 – Set required and enable auditing on new lookup columns
 
@@ -229,23 +232,24 @@ In this exercise, you will create two many-to-one relationships for the Project 
 
 1. Select the **Project** column.
 
-1. In the Edit column pane that appears on the right-hand side of the screen, expand **Advanced options** and scroll down.
+1. In the **Edit column** pane that appears on the right-hand side of the screen, expand **Advanced options** and scroll down.
 
 1. Change the **Required** drop-down to **Business required**.
 
 1. Check the **Enable auditing** box.
 
-1. Click **Save**.
+1. Select **Save**.
 
 1. Select the **Outcome** column.
 
-1. In the Edit column pane that appears on the right-hand side of the screen, expand **Advanced options** and scroll down.
+1. In the **Edit column** pane that appears on the right-hand side of the screen, expand **Advanced options** and scroll down.
 
 1. Change the **Required** drop-down to **Business required**.
 
 1. Check the **Enable auditing** box.
 
-1. Click **Save**.
+1. Select **Save**.
+
 
 ## Exercise 5 – Connections
 
@@ -253,107 +257,111 @@ In this exercise, you will enable connections for the resource and milestone tab
 
 ### Task 5.1 – Enable connections on Resource
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in your **Development** environment.
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
-1. In the **Objects** pane on the left, click and expand **Tables**.
+1. In the **Objects** pane on the left, expand **Tables**.
 
 1. Select the **Resource** table.
 
-1. Click on **Properties**.
+1. Select **Properties**.
 
-1. In the Edit table pane that appears on the right-hand side of the screen, expand **Advanced options** and scroll down.
+1. In the **Edit table** pane that appears on the right-hand side of the screen, expand **Advanced options** and scroll down.
 
 1. Check the **Can have connections** box.
 
-1. Click **Save**.
+1. Select **Save**.
+
 
 ### Task 5.2 – Enable connections on Milestone
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in your **Development** environment.
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
-1. In the **Objects** pane on the left, click and expand **Tables**.
+1. In the **Objects** pane on the left, expand **Tables**.
 
 1. Select the **Milestone** table.
 
-1. Click on **Properties**.
+1. Select **Properties**.
 
-1. In the Edit table pane that appears on the right-hand side of the screen, expand **Advanced options** and scroll down.
+1. In the **Edit table** pane that appears on the right-hand side of the screen, expand **Advanced options** and scroll down.
 
 1. Check the **Can have connections** box.
 
-1. Click **Save**.
+1. Select **Save**.
+
 
 ### Task 5.3 – Publish changes
 
-1. In the solution select the **Overview** page.
+1. In the solution, select the **Overview** page.
 
     ![Overview.](../media/solution-overview.png)
 
-1. Click on **Publish all customizations**.
+1. Select **Publish all customizations**.
+
 
 ### Task 5.4 – Add connection roles
 
-1. Within the solution, select the **Objects** page and select **All**.
+1. In the **Fabrikam Environmental** solution, select the **Objects** page and select **All**.
 
-1. Click **+ New**, and then select **More** and then select **Connection Role**.
+1. Select **+ New** -> **More** and then select **Connection Role**.
 
-1. Enter **Contributor** for **Name**.
+1. Enter `Contributor` for **Name**.
 
 1. Select the **Only these record types** radio button.
 
 1. Select **Resource**.
 
-1. Click the **Save** icon.
+1. Select the **Save** icon.
 
     ![Add connection role.](../media/add-connection-role.png)
 
-1. Under Matching connection roles, click **New**.
+1. Under Matching connection roles, select **New**.
 
-    > NOTE: You may need to disable the pop-up blocker in your browser.
+    > **Note:** You may need to disable the pop-up blocker in your browser.
 
-1. Enter **Contributed to** for **Name**.
+1. Enter `Contributed to` for **Name**.
 
 1. Select the **Only these record types** radio button.
 
 1. Select **Milestone**.
 
-1. Click the **Save and Close** icon.
+1. Select the **Save and Close** icon.
 
-1. Click the **Save and Close** icon.
+1. Select the **Save and Close** icon.
 
-1. Click **Done**.
+1. Select **Done**.
 
-1. Click **+ New**, and then select **More** and then select **Connection Role**.
+1. Select **+ New** -> **More** and then select **Connection Role**.
 
-1. Enter **Advisor** for **Name**.
+1. Enter `Advisor` for **Name**.
 
 1. Select the **Only these record types** radio button.
 
 1. Select **Resource**.
 
-1. Click the **Save** icon.
+1. Select the **Save** icon.
 
-1. Under Matching connection roles, click **Add Existing**.
+1. Under Matching connection roles, select **Add Existing**.
 
-1. Check **Contributed to** and click **Select**.
+1. Check **Contributed to** and select **Select**.
 
-1. Click **Add**.
+1. Select **Add**.
 
-1. Click the **Save and Close** icon.
+1. Select the **Save and Close** icon.
 
-1. Click **Done**.
+1. Select **Done**.
+
 
 ## Exercise 6 – Calculated and rollup columns
 
