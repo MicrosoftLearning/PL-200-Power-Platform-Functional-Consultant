@@ -47,7 +47,7 @@ In this exercise, you will be modifying the cascade relationships for the projec
 
 ### Task 1.2 – Project-Milestone relationship
 
-1. Select **Milestone** then **Relationships** in then left-hand pane. Select **Project** from the table. Note that this relationship uses Project as the Display name and contoso_project_milestone as the Name. 
+1. In the **Project** table **Relationships**, select **Project** from the table. Note that this relationship uses **Project** as the Display name and **contoso_project_milestone** as the Name. 
 
 1. In the **One-to-many** pane that appears on the right-hand side of the screen, expand **Advanced options**.
 
@@ -61,9 +61,10 @@ In this exercise, you will be modifying the cascade relationships for the projec
 
 1. Change the **Unshare** drop-down to **Cascade User-Owned**.
 
-1. Click **Done**.
+1. Select **Done**.
 
     ![Cascade relationship.](../media/custom-cascade-relationship.png)
+
 
 ## Exercise 2 – Add new relationship
 
@@ -71,27 +72,27 @@ In this exercise, you will create a new relationship between the Resource and Pr
 
 ### Task 2.1 – Create new Project Lead relationship
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in your **Development** environment.
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
-1. In the **Objects** pane on the left, click and expand **Tables**.
+1. In the **Objects** pane on the left, expand **Tables**.
 
-1. Select the **Project** table.
+1. Select the **Project** table. 
 
-1. Under **Schema**, click on **Relationships**.
+1. Under **Schema**, select **Relationships**.
 
-1. Click **+ New relationship** and then select **Many-to-one**.
+1. Select **+ New relationship** and choose **Many-to-one**.
 
-1. In the Many-to-one pane that appears on the right-hand side of the screen, select **Resource** in the **Related (One)** drop-down.
+1. In the **Many-to-one** pane that appears on the right-hand side of the screen, select **Resource** in the **Related (One)** drop-down.
 
-1. Enter **Project Lead** for **Lookup column display name**.
+1. Enter `Project Lead` for **Lookup column display name**.
 
-1. Enter **projectleadresourceid** for **Lookup column name**.
+1. Enter `projectleadresourceid` for **Lookup column name**.
 
 1. Expand **General**.
 
@@ -101,19 +102,20 @@ In this exercise, you will create a new relationship between the Resource and Pr
 
 1. Change the **Delete** drop-down to **Restrict**.
 
-1. Click **Done**.
+1. Select **Done**.
 
     ![Referential Restrict relationship.](../media/add-relationship.png)
 
-1. In the **Objects** pane on the left, click **Columns** for the **Project** table.
+1. In the **Objects** pane on the left, select **Columns** for the **Project** table.
 
 1. Select the **Project Lead** column.
 
-1. In the Edit column pane that appears on the right-hand side of the screen, expand **Advanced options** and scroll down.
+1. In the **Edit column** pane that appears on the right-hand side of the screen, expand **Advanced options** and scroll down.
 
 1. Check the **Enable auditing** box.
 
-1. Click **Save**.
+1. Select **Save**.
+
 
 ## Exercise 3 – Hierarchical relationship
 
