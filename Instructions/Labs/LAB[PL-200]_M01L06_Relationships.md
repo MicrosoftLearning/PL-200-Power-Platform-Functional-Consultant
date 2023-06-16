@@ -314,7 +314,7 @@ In this exercise, you will enable connections for the resource and milestone tab
 
 1. In the **Fabrikam Environmental** solution, select the **Objects** page and select **All**.
 
-1. Select **+ New** -> **More** and then select **Connection Role**.
+1. Select **+ New** > **More** and then select **Connection Role**.
 
 1. Enter `Contributor` for **Name**.
 
@@ -326,7 +326,7 @@ In this exercise, you will enable connections for the resource and milestone tab
 
     ![Add connection role.](../media/add-connection-role.png)
 
-1. Under Matching connection roles, select **New**.
+1. Under **Matching connection roles**, select **New**.
 
     > **Note:** You may need to disable the pop-up blocker in your browser.
 
@@ -342,7 +342,7 @@ In this exercise, you will enable connections for the resource and milestone tab
 
 1. Select **Done**.
 
-1. Select **+ New** -> **More** and then select **Connection Role**.
+1. Select **+ New** > **More** and then select **Connection Role**.
 
 1. Enter `Advisor` for **Name**.
 
@@ -352,9 +352,9 @@ In this exercise, you will enable connections for the resource and milestone tab
 
 1. Select the **Save** icon.
 
-1. Under Matching connection roles, select **Add Existing**.
+1. Under **Matching connection roles**, select **Add Existing**.
 
-1. Check **Contributed to** and select **Select**.
+1. Add **Contributed to** to the **selected records** by selecting the row using the **Select** button.
 
 1. Select **Add**.
 
