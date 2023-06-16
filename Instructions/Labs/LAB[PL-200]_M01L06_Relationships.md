@@ -375,17 +375,17 @@ In this exercise, you will use relationships to create calculated and rollup fie
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
-1. In the **Objects** pane on the left, click and expand **Tables**.
+1. In the **Objects** pane on the left, expand **Tables**.
 
 1. Select the **Outcome** table.
 
-1. Click **+ New**, and then select **Column**.
+1. Select **+ New** > **Column**.
 
-1. Enter **Approver Email** for **Display Name**.
+1. Enter `Approver Email` for **Display Name**.
 
-1. Enter **Email address for approver** for **Description**.
+1. Enter `Email address for approver` for **Description**.
 
 1. Select **Single line of text** in the **Data type** drop-down.
 
@@ -393,19 +393,19 @@ In this exercise, you will use relationships to create calculated and rollup fie
 
 1. Change the **Behavior** drop-down to **Calculated**.
 
-1. Click on **Save and edit**.
+1. Select **Save and edit**.
 
-1. When the new browser window opens, click **+ Add condition**.
+1. When the new browser window opens, select **+ Add condition**.
 
 1. Select **Approver** for **Field**.
 
 1. Select **Contains data** for **Operator**.
 
-1. Click the green check mark.
+1. Select the green check mark.
 
     > NOTE: You may need to resize the window to see the check marks.
 
-1. Click **+ Add Action**.
+1. Select **+ Add Action**.
 
 1. Enter the following formula:
 
@@ -413,19 +413,20 @@ In this exercise, you will use relationships to create calculated and rollup fie
 
     > NOTE: You can use intellisense to type and select the elements in the formula.
 
-1. Click the blue check mark.
+1. Select the blue check mark.
 
     ![Add calculated column using a relationship.](../media/calculated-column-using-relationship.png)
 
-1. Click **SAVE AND CLOSE**.
+1. Select **SAVE AND CLOSE**.
+
 
 ### Task 6.2 – Rollup column for the project one-to-many relationship
 
-1. In the **Objects** pane on the left, click and expand **Tables**.
+1. In the **Objects** pane on the left, expand **Tables**.
 
 1. Select the **Project** table.
 
-1. Click **+ New**, and then select **Column**.
+1. Select **+ New** > **Column**.
 
 1. Enter **Total Project Funding** for **Display Name**.
 
