@@ -428,47 +428,49 @@ In this exercise, you will use relationships to create calculated and rollup fie
 
 1. Select **+ New** > **Column**.
 
-1. Enter **Total Project Funding** for **Display Name**.
+1. Enter `Total Project Funding` for **Display Name**.
 
 1. Select **Currency** in the **Data type** drop-down.
 
 1. Change the **Behavior** drop-down to **Rollup**.
 
-1. Click on **Save and edit**.
+1. Select **Save and edit**.
 
-1. When the new browser window opens, click **+ Add related entity**.
+1. When the new browser window opens, select **+ Add related entity**.
 
-1. Select **Project Funding (Project)** for Related.
+1. Select **Project Funding (Project)** for **Related**.
 
-1. Click the blue check mark.
+1. Select the blue check mark.
 
-1. Click **+ Add condition**.
+1. Select **+ Add condition**.
 
-1. Select **Status** for **Field**.
+1. Choose **Status** for **Field**.
 
-1. Select **Equals** for **Operator**.
+1. Choose **Equals** for **Operator**.
 
 1. Verify **Active** is selected for **Value**.
 
-1. Click the green check mark.
+1. Select the green check mark.
 
-1. Click **+ Add aggregation**.
+1. Select **+ Add aggregation**.
 
 1. Select **SUM** for **Aggregate Function**.
 
 1. Select **(Project Funding) Funding amount** for **Aggregate Related Entity Field**.
 
-1. Click the green check mark.
+1. Select the green check mark.
 
-1. Click **SAVE AND CLOSE**.
+1. Select **SAVE AND CLOSE**.
 
     ![Add rollup column.](../media/add-rollup-column.png)
 
+
 ### Task 6.3 – Publish changes
 
-1. In the solution select the **Overview** page.
+1. In the solution, select the **Overview** page.
 
-1. Click on **Publish all customizations**.
+1. Select **Publish all customizations**.
+
 
 ## Exercise 7 – Solutions
 
@@ -482,49 +484,52 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Select **Solutions**.
 
-1. Select the **Fabrikam Environmental** solution but do not open it.
+1. Select the **Fabrikam Environmental** solution row but do not open it.
 
-1. Select the caret to the right of **Solution checker** and then select **Run**.
+1. Select **Solution checker** > **Run**.
 
-1. Wait a few minutes for the checker to complete.
+1. Wait a few minutes for the solution checker to complete.
 
-1. Select the caret to the right of **Solution checker** and then select **View results**.
+1. Select **Solution checker** > **View results**.
 
 1. You should see several warnings for the canvas app in the solution.
 
-1. Click the back arrow to return to solutions.
+1. Select the **back arrow** to return to solutions.
+
 
 ### Task 7.2 – Export managed solution
 
-1. Select the **Fabrikam Environmental** solution.
+1. Select the **Fabrikam Environmental** solution row but do not open it.
 
-1. Select **Export Solution**.
+1. Select **Export solution**.
 
-1. Click **Next**.
+1. Select **Next**.
 
 1. The version number should have been incremented to **1.1.11.4**.
 
 1. Select **Managed** for **Export As**.
 
-1. Click **Export**.
+1. Select **Export**.
 
-1. The export will be prepared in the background, when the solution is ready click the **Download** button.
+1. The export will be prepared in the background. When the solution is ready, select the **Download** button.
+
 
 ### Task 7.3 – Export unmanaged solution
 
-1. Select the **Fabrikam Environmental** solution.
+1. Select the **Fabrikam Environmental** solution row but do not open it.
 
 1. Select **Export Solution**.
 
-1. Click **Next**.
+1. Select **Next**.
 
 1. The version number should have been incremented to **1.1.11.5**.
 
 1. Select **Unmanaged** for **Export As**.
 
-1. Click **Export**.
+1. Select **Export**.
 
 1. The export will be prepared in the background, when the solution is ready click the **Download** button.
+
 
 ### Task 7.4 – Import managed solution
 
@@ -538,27 +543,28 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Select **Browse**,  change to the **Downloads** folder and select **FabrikamEnvironmental_1_1_11_4_managed.zip** and select **Open**.
 
-1. Click **Next**.
+1. Select **Next**.
 
-1. Click **Next**.
+1. Select **Next**.
 
-1. You need to create connections for the solution.
+You need to create connections for the solution.
 
-1. For the Approvals connection click **Select a connection** and then **+ New connection**.
+1. For the **Approvals** connection, select **Select a connection** > **+ New connection**.
 
-1. A new tab will open in the browser. Click **Create**.
+1. A new tab will open in the browser. Select **Create**.
 
-1. Switch back to the tab where you are importing the solution and click **Refresh**.
+1. Switch back to the tab where you are importing the solution and select **Refresh**.
 
-1. For the Microsoft Dataverse connection click **Select a connection** and then **+ New connection**.
+1. For the **Microsoft Dataverse** connection, select **Select a connection** > **+ New connection**.
 
-1. A new tab will open in the browser. Click **Create**. If prompted, sign in with your Microsoft 365 credentials.
+1. A new tab will open in the browser. Select **Create**. If prompted, sign in with your Microsoft 365 credentials.
 
-1. Switch back to the tab where you are importing the solution and click **Refresh**.
+1. Switch back to the tab where you are importing the solution and select **Refresh**.
 
 1. Both connections should be selected.
 
-1. Click **Import**. The solution will import in the background.
+1. Select **Import**. The solution will import in the background.
+
 
 ## Challenge (Optional)
 
