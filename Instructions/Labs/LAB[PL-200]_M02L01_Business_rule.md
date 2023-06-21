@@ -106,7 +106,7 @@ In this practice lab, you will be creating business rules to show and hide the l
 
 1. In the **Rules** section, uncheck **Internal** and check **External**.
 
-1. Click **Apply**.
+1. Select **Apply**.
 
 1. Select the **Show User** tile.
 
@@ -122,7 +122,7 @@ In this practice lab, you will be creating business rules to show and hide the l
 
 1. Select the **Contact Not Required** tile.
 
-1. Enter **Contact Required** for **Display Name**, select **Business Required** for **Status** and click **Apply**.
+1. Enter **Contact Required** for **Display Name**, select **Business Required** for **Status** and select **Apply**.
 
 1. The **Business Rule (Text View)** should read as follows:
 
