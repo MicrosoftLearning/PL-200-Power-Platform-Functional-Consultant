@@ -23,31 +23,29 @@ In this exercise, you will add a Power Apps trial to the tenant and assign licen
 
 3.  Enter the email address from your Microsoft 365 credentials. 
 
-4.  You see a prompt that you have an existing account with Microsoft. Select **Sign in**. 
+4.  Select **Sign in**. 
 
 5.  Enter the password provided by the Authorized Lab Hoster. 
 
-6.  Select **Yes** to stay signed in. Enter 0123456789 as Business phone number and complete the sign up process by selecting **Get Started**. 
+6.  Select **Yes** to stay signed in. 
 
-7.  To confirm the details, select **Get started** again. 
+7.  The Power Apps maker portal will load in a new tab. 
 
-8.  Power Apps will load in a new tab. On the **Contact information** panel, enter 0123456789 as Phone number and select **Submit**. 
-
-9.  Following the Welcome prompts, select **Next**, **Next** and **Let's go**. 
 
 ### Task 1.2 – Assign Power Apps licenses to your user
 
-1. Navigate to <https://admin.microsoft.com>.
+1. In a new browser tab, navigate to `https://admin.microsoft.com`
 
 2. In the left-hand navigation, expand **Users** and select **Active users**.
 
 1. Select your user **MOD Administrator** to open the user details panel and select the **Licenses and apps** tab. ![Mod Administrator licenses.](../media/mod-administrator.png)
 
-1. Check the box for **Power Apps Plan 2 Trial**.
+1. If it is not already checked, check the box for **Microsoft Power Apps Plan 2 Trial**.
 
 1. Select **Save changes**.
 
 1. Select the **X** in the top right of the pane to close the panel. 
+
 
 ### Task 1.3 – Assign Power Apps licenses to other users
 
@@ -57,7 +55,7 @@ In this exercise, you will add a Power Apps trial to the tenant and assign licen
 
     ![Select other users.](../media/select-users.png)
 
-1. Select **Assign more** and check the box for **Power Apps Plan 2 Trial**.
+1. Select **Assign more** and check the box for **Microsoft Power Apps Plan 2 Trial**.
 
     ![Add more licenses.](../media/add-licenses.png)
 
