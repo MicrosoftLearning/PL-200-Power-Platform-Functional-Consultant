@@ -14,7 +14,7 @@ In this lab, you create environments for use during the remainder of the labs.
 
 In this exercise, you will create a *Development* environment that you will do the majority of your lab work in and a *Live* environment to use to deploy solutions.
 
-    **> Note:** Depending on the browser that you are using, it is suggested that you disable any pop-up blockers that maybe enabled. This will prevent popup screens from not appearing as they should.
+**Note:** Depending on the browser that you are using, it is suggested that you disable any pop-up blockers that maybe enabled. This will prevent pop-up windows from not appearing as they should.
 
 ### Task 1.1 – Create development environment
 
