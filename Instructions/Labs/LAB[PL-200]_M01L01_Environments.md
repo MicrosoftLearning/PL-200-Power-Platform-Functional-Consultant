@@ -12,15 +12,15 @@ In this lab, you create environments for use during the remainder of the labs.
 
 ## Exercise 1 - Create environments
 
-In this exercise, you will create a *Development* environment that you will do the majority of your lab work in and a *Live* environment to use to deploy solutions.
+In this exercise, you will create a *Development* environment that you will do the majority of your lab work in and a *Live* environment to deploy solutions into.
 
-**Note:** Depending on the browser that you are using, it is suggested that you disable any pop-up blockers that maybe enabled. This will prevent pop-up windows from not appearing as they should.
+**Note:** Depending on the browser that you are using, it is suggested that you disable any pop-up blockers that maybe enabled. This will allow pop-up windows to appear as they should.
 
 ### Task 1.1 – Create development environment
 
 1.  Navigate to the Power Platform admin center `https://aka.ms/ppac` and sign in with your Microsoft 365 credentials if prompted again.
 
-1.  Select **Get Started** or close the Welcome popup.
+1.  Select **Get Started** or close the Welcome pop-up.
 
 1.  Select **Environments** from the left navigation pane. There should be a single environment, Contoso (default).
 
