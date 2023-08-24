@@ -17,7 +17,7 @@ In this exercise, you will add a Power Apps trial to the tenant and assign licen
 
 ### Task 1.1 – Acquire your Power Platform trial tenant
 
-1.  Have your **Microsoft 365 credentials** from the Authorized Lab Host available to hand. 
+1.  Verify that you have your **Microsoft 365 credentials** from the Authorized Lab Host available. 
 
 2.  In a new browser tab, navigate to `https://powerapps.microsoft.com` and select **Start free**. 
 
@@ -40,7 +40,7 @@ In this exercise, you will add a Power Apps trial to the tenant and assign licen
 
 1.  Select your user **MOD Administrator** to open the user details panel and select the **Licenses and apps** tab. ![Mod Administrator licenses.](../media/mod-administrator.png)
 
-1.  Verify an appropriate **Power Apps** license is selected. If not, retry Task 1.1
+1.  Verify an appropriate **Power Apps** license is selected. If not, retry Task 1.1.
 
     **Note:** Find out more about Power Apps licensing on [Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/admin/signup-for-powerapps-admin).
 
