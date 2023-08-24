@@ -42,7 +42,7 @@ In this exercise, you will add a Power Apps trial to the tenant and assign licen
 
 1.  Verify an appropriate **Power Apps** license is selected. If not, retry Task 1.1.
 
-    **Note:** Find out more about Power Apps licensing on [Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/admin/signup-for-powerapps-admin).
+    > **Note:** Find out more about Power Apps licensing on [Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/admin/signup-for-powerapps-admin).
 
 1.  Select the **X** in the top right of the pane to close the panel. 
 
@@ -57,7 +57,7 @@ In this exercise, you will add a Power Apps trial to the tenant and assign licen
 
 1.  Select **Assign more** and select an appropriate **Power Apps** license.
 
-    **Note:** Find out more about Power Apps licensing on [Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/admin/signup-for-powerapps-admin).
+    > **Note:** Find out more about Power Apps licensing on [Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/admin/signup-for-powerapps-admin).
 
     ![Add more licenses.](../media/add-licenses.png)
 
