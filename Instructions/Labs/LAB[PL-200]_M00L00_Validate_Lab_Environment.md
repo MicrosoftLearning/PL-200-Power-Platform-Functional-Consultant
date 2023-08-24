@@ -17,49 +17,51 @@ In this exercise, you will add a Power Apps trial to the tenant and assign licen
 
 ### Task 1.1 – Acquire your Power Platform trial tenant
 
-1.  Copy your **Microsoft 365 credentials** from the Authorized Lab Hoster. 
+1.  Have your **Microsoft 365 credentials** from the Authorized Lab Host available to hand. 
 
 2.  In a new browser tab, navigate to `https://powerapps.microsoft.com` and select **Start free**. 
 
-3.  Enter the email address from your Microsoft 365 credentials. 
+3.  Enter the `email address` provided by the Authorized Lab Host. 
 
 4.  Select **Sign in**. 
 
-5.  Enter the password provided by the Authorized Lab Hoster. 
+5.  Enter the `password` provided by the Authorized Lab Host. 
 
 6.  Select **Yes** to stay signed in. 
 
 7.  The Power Apps maker portal will load in a new tab. 
 
 
-### Task 1.2 – Assign Power Apps licenses to your user
+### Task 1.2 – Verify your Power Apps license has been assigned
 
-1. In a new browser tab, navigate to `https://admin.microsoft.com`
+1.  In a new browser tab, navigate to `https://admin.microsoft.com`
 
-2. In the left-hand navigation, expand **Users** and select **Active users**.
+1.  In the left-hand navigation, expand **Users** and select **Active users**.
 
-1. Select your user **MOD Administrator** to open the user details panel and select the **Licenses and apps** tab. ![Mod Administrator licenses.](../media/mod-administrator.png)
+1.  Select your user **MOD Administrator** to open the user details panel and select the **Licenses and apps** tab. ![Mod Administrator licenses.](../media/mod-administrator.png)
 
-1. If it is not already checked, check the box for **Microsoft Power Apps Plan 2 Trial**.
+1.  Verify an appropriate **Power Apps** license is selected. If not, retry Task 1.1
 
-1. Select **Save changes**.
+    **Note:** Find out more about Power Apps licensing on [Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/admin/signup-for-powerapps-admin).
 
-1. Select the **X** in the top right of the pane to close the panel. 
+1.  Select the **X** in the top right of the pane to close the panel. 
 
 
 ### Task 1.3 – Assign Power Apps licenses to other users
 
-1. In the left-hand navigation, expand **Users** and select **Active users**.
+1.  In the left-hand navigation, expand **Users** and select **Active users**.
 
-1. Check the boxes next to the other users, click on the **ellipses (...**) in the action bar, and select **Manage product licenses**.
+1.  Check the boxes next to the other users, select the **ellipses (...**) menu in the action bar, and select **Manage product licenses**.
 
     ![Select other users.](../media/select-users.png)
 
-1. Select **Assign more** and check the box for **Microsoft Power Apps Plan 2 Trial**.
+1.  Select **Assign more** and select an appropriate **Power Apps** license.
+
+    **Note:** Find out more about Power Apps licensing on [Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/admin/signup-for-powerapps-admin).
 
     ![Add more licenses.](../media/add-licenses.png)
 
-1. Select **Save changes**.
+1.  Select **Save changes**.
 
-1. Select **Done**.
+1.  Select **Done**.
 
