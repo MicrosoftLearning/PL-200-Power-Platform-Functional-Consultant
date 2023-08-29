@@ -96,7 +96,7 @@ In this exercise, you will create a new relationship between the Resource and Pr
 
 1. Expand **General**.
 
-1. Enter **resource_project_projectlead** for **Relationship name**.
+1. Enter `resource_project_projectlead` for **Relationship name**.
 
 1. Expand **Advanced options**.
 
@@ -188,7 +188,7 @@ In this exercise, you will create two many-to-one relationships for the Project 
 
 1. Expand **General**.
 
-1. Enter **project_projectoutcome** for **Relationship name**.
+1. Enter `project_projectoutcome` for **Relationship name**.
 
 1. Expand **Advanced options**.
 
@@ -209,7 +209,7 @@ In this exercise, you will create two many-to-one relationships for the Project 
 
 1. Expand **General**.
 
-1. Enter **outcome_projectoutcome** for **Relationship name**.
+1. Enter `outcome_projectoutcome` for **Relationship name**.
 
 1. Expand **Advanced options**.
 
