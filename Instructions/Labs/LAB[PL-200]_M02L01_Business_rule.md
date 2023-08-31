@@ -207,4 +207,4 @@ In this practice lab, you will be creating business rules to show and hide the l
 
 ## Challenge (Optional)
 
-Edit the Set Resource Name business rule on the Resource table to hide both lookup columns if resource type is not selected and set as not business required.
+Edit the **Set Resource Name** business rule on the **Resource** table to hide both lookup columns if resource type is not selected and set as not business required.
