@@ -122,7 +122,7 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
     ![Add calculated column.](../media/add-calculated-column.png)
 
-    > **Note:** You may need to disable the pop-up blocker in your browser and edit the Length of Project column.
+    > **NOTE:** You may need to disable the pop-up blocker in your browser and edit the Length of Project column.
 
 1. When a new browser window opens, select **+ Add condition**.
 
@@ -242,7 +242,7 @@ In this exercise, you will be changing properties on a lookup column on the Mile
 
 In this exercise, you will be creating a choice column to replace the use of status reasons on the Milestone and Outcome tables.
 
-    > **Note:** Status reasons cannot be changed in an editable grid.
+> **NOTE:** Status reasons cannot be changed in an editable grid.
 
 ### Task 4.1 – Create choice
 
