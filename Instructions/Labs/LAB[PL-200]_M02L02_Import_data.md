@@ -16,15 +16,15 @@ In this exercise, you will import Outcome rows into your Microsoft Dataverse env
 
 ### Task 1.1 – Load Excel file to OneDrive
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Click on the **Waffle** button in the upper left corner to change applications and select **OneDrive**. (It may take a moment for your OneDrive to be set up. Click **Your OneDrive is ready** when you see it on the screen.)
+1. Select the **Waffle** button in the upper left corner to change applications and select **OneDrive**. (It may take a moment for your OneDrive to be set up. Click **Your OneDrive is ready** when you see it on the screen.)
 
-1. Click **Upload** from the top menu and select **Files**.
+1. Select **Upload** from the top menu and select **Files**.
 
-1. Locate and select the **Outcome data.xlsx** file and click **Open**.
+1. Locate and select the **Outcome data.xlsx** file and select **Open**.
 
-    > This file is located in the Documents\PL-200 folder on your machine.
+    > This file should be located in the Documents\PL-200 folder on your machine.
 
 ### Task 1.2 – Create a dataflow
 
