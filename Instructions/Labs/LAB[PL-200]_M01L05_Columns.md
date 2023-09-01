@@ -122,7 +122,7 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
     ![Add calculated column.](../media/add-calculated-column.png)
 
-    > **Note:** You may need to disable the pop-up blocker in your browser and edit the Length of Project column.
+    > **NOTE:** You may need to disable the pop-up blocker in your browser and edit the Length of Project column.
 
 1. When a new browser window opens, select **+ Add condition**.
 

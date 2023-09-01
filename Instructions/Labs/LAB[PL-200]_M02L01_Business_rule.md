@@ -12,7 +12,7 @@ You are a Power Platform functional consultant and have been assigned to the Fab
 
 In this practice lab, you will be creating business rules to show and hide the lookup columns in the model-driven app form for the Resource table and to set the status of Milestone rows to completed when the percentage complete is 100%.
 
-## Exercise 1 – Create Business Rule
+## Exercise 1 – Create business rules
 
 ### Task 1.1 – Create Resource business rules
 
