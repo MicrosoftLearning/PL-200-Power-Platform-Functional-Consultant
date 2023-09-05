@@ -20,15 +20,15 @@ There are three model-driven apps in the solution:
 
 You will be:
 
-- modifying columns on the project form
-- adding the timeline control to the project form
-- replacing the project outcomes sub-grid
-- adding the columns you created in the earlier lab to the forms
-- editing the project quick view form
-- adding a filter to the contact lookup on Program
-- adding a quick create form
-- copying a form
-- adding the table you created in the earlier lab to an app
+- Modifying columns on the project form
+- Adding the timeline control to the project form
+- Replacing the project outcomes sub-grid
+- Adding the columns you created in the earlier lab to the forms
+- Editing the project quick view form
+- Adding a filter to the contact lookup on Program
+- Adding a quick create form
+- Copying a form
+- Adding the table you created in the earlier lab to an app
 
 ## Exercise 1 – Edit Project forms
 
@@ -48,35 +48,36 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
-1. In the **Objects** pane on the left, click and expand **Tables**.
+1. In the **Objects** pane on the left, expand **Tables**.
 
 1. Select the **Project** table.
 
-1. Under **Data experiences**, click **Forms**.
+1. Under **Data experiences**, select **Forms**.
 
-1. Select the **Main** form, click on the ellipses (...), and select **Edit** > **Edit in new tab**.
+1. Select the **Information** form where the **Form type** is **Main**, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
 1. Select the **Project Description** field.
 
-1. In the properties pane on the right-hand side, change **Label** to **Description**.
+1. In the **Properties** pane on the right-hand side, change **Label** to `Description`
 
-1. In the properties pane on the right-hand side, increase **Form field height** to **4 rows**.
+1. In the **Properties** pane on the right-hand side, increase **Form field height** to **4 rows**.
 
 1. Select **Table columns** on the left-hand side of the form designer.
 
-1. Drag the **Project Code** column into the **Header**.
+1. Drag the **Project Code** column into the **Header** area.
 
 1. Drag the **Project Lead** column below **Region**.
 
-1. Drag the **Length of Project** column below **Estimated End**.
+1. Drag the **Length of Project** column below **Estimated End** in the **Dates** section.
 
 1. Select the **Funding** tab.
 
 1. Drag the **Total Project Funding** column above the **Project Funding** sub-grid.
 
-1. Click **Save**. Do not navigate away from this page.
+1. On the **Save and publish** drop-down menu, select **Save only**. Do not navigate away from this page.
+
 
 ### Task 1.2 – Add Timeline control to main form
 
@@ -90,35 +91,36 @@ In this task, you will perform the following changes to the form:
 
 1. Select the **General** tab.
 
-1. In the properties pane on the right-hand side, select **3 columns** in the **Layout** drop down.
+1. In the **Properties** pane on the right-hand side, select **3 columns** in the **Layout** drop-down.
 
-1. Select the **Program** section and drag to the new right-hand column of the General tab.
+1. Select the **Program** section and drag to the new right-hand column of the **General** tab.
 
-1. Select the **New section** in the right-hand pane and click the **Delete** icon.
+1. Select the **New section** in the right column and select **Delete**.
 
-1. Select **Components** on the left-hand side of the form designer.
+1. Select **Components** on the left navigation of the form designer.
 
 1. Expand **Display**.
 
-1. Drag the **Timeline** control to the middle column of the General tab.
+1. Drag the **Timeline** control to the middle column of the **General** tab.
 
-1. Select **Tree view** on the left-hand side of the form designer, expand **General** tab, and select the **New Section**.
+1. Select **Tree view** on the left side of the form designer, expand **General** tab, and select the **New Section**.
 
-1. In the properties pane on the right-hand side, enter **Timeline** for **Label** and **Name**.
+1. In the **Properties** pane on the right side, enter `Timeline` for both **Label** and **Name**.
 
 1. Check the **Hide label** box.
 
-1. In Tree View, select the **Note Text** control for the Timeline.
+1. In the **Tree view**, select the **Note Text** control for the Timeline.
 
-1. In the properties pane on the right-hand side, click on **Fax**, verify the **Enable** box is unchecked, and click **Done**.
+1. In the **Properties** pane on the right side, select **Fax**, verify the **Enable** box is unchecked, and select **Cancel**.
 
-1. In the properties pane on the right-hand side, click on **Letter**, verify the **Enable** box is unchecked, and click **Done**.
+1. In the **Properties** pane on the right side, select **Letter**, verify the **Enable** box is unchecked, and select **Cancel**.
 
-1. In the properties pane on the right-hand side, click on **Social Activity**, verify the **Enable** box is unchecked, and click **Done**.
+1. In the **Properties** pane on the right side, select **Social Activity**, uncheck the **Enable** box, and select **Done**.
 
-1. In the properties pane on the right-hand side, select **Date Created** in **Sort activities by** drop-down.
+1. In the **Properties** pane on the right side, select **Date Created** in **Sort activities by** drop-down.
 
-1. Click **Save**. Do not navigate away from this page.
+1. On the **Save and publish** drop-down menu, select **Save only**. Do not navigate away from this page.
+
 
 ### Task 1.3 – Sub-grids on main form
 
@@ -132,11 +134,12 @@ In this task, you will perform the following changes to the form:
 
 1. In the properties pane on the right-hand side, select **Project Outcomes (Project)** in the **Table** drop-down.
 
-1. Click **Save**.
+1. On the **Save and publish** drop-down menu, select **Save only**. 
 
-1. Close the form designer.
+1. **Close** the form designer.
 
-1. Click **Done**.
+1. Select **Done**. 
+
 
 ### Task 1.4 – Modify the Project quick view form
 
@@ -144,7 +147,7 @@ In this task, you will perform the following changes to the form:
 
 - add a sub-grid of Outcomes to the quick view form
 
-1. Select the **Quick View** form, click on the ellipses (...), and select **Edit in new tab**.
+1. Select the **Information** form where the **Form type** is **Quick View**, select the **Commands** menu  (...), and select **Edit** > **Edit in new tab**.
 
 1. Select **Table columns** on the left-hand side of the form designer.
 
@@ -152,37 +155,38 @@ In this task, you will perform the following changes to the form:
 
 1. Drag the **Project Type** column below **Region**.
 
-1. Click on the **Project Status** column to add to the form below **Project Type**.
+1. Select the **Project Status** column to add it to the form below **Project Type**.
 
 1. Select the **Owner** field.
 
-1. In the properties pane on the right-hand side, check the **Hide** box.
+1. In the **Properties** pane on the right side, check the **Hide** box.
 
-1. Select **Components** on the left-hand side of the form designer.
+1. Select **Components** on the left side of the form designer.
 
-1. Click on the the **1-column section** control to add it to the form.
+1. Select the **1-column section** control to add it to the form.
 
-1. In the properties pane on the right-hand side, enter **Outcomes** for **Label** and **Name**.
+1. In the properties pane on the right-hand side, enter `Outcomes` for **Label** and **Name**.
 
-1. Expand **Grid** in the Components pane.
+1. Expand **Grid** in the **Components** pane.
 
-1. Click **Subgrid** and check **Show related records**.
+1. Select **Subgrid** and check **Show related records**.
 
 1. Select **Outcomes** for **Table**.
 
 1. Select **Outcomes SubGrid** for **Default view**.
 
-1. Click **Done**.
+1. Select **Done**.
 
-1. In the properties pane on the right-hand side, enter **Outcomes** for **Label** and **OutcomesSG** for **Name**.
+1. In the **Properties** pane on the right side, enter `Outcomes` for **Label** and `OutcomesSG` for **Name**.
 
 1. Check **Hide Label**
 
-1. Click **Save**.
+1. On the **Save and publish** drop-down menu, select **Save only**. 
 
-1. Close the form designer.
+1. **Close** the form designer.
 
-1. Click **Done**.
+1. Select **Done**.
+
 
 ## Exercise 2 – Edit Program form
 
@@ -200,7 +204,7 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
 1. In the **Objects** pane on the left, click and expand **Tables**.
 
@@ -208,11 +212,11 @@ In this task, you will perform the following changes to the form:
 
 1. Under **Data experiences**, click on **Forms**.
 
-1. Select the **Main** form, click on the ellipses (...), and select **Edit in new tab**.
+1. Select the **Information** form where the **Form type** is **Main**, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
 1. Select the **Sponsor Main contact** field.
 
-1. In the properties pane on the right-hand side, expand **Filtering**.
+1. In the **Properties** pane on the right-hand side, expand **Filtering**.
 
 1. Check the **Filter by related rows** box.
 
@@ -220,11 +224,12 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Company name (Contacts)** for **Relationship to this lookup's table.**
 
-1. Click **Save**.
+1. On the **Save and publish** drop-down menu, select **Save only**. 
 
-1. Close the form designer.
+1. **Close** the form designer.
 
-1. Click **Done**.
+1. Select **Done**.
+
 
 ## Exercise 3 – Edit Program Funding form
 
@@ -242,27 +247,28 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
-1. In the **Objects** pane on the left, click and expand **Tables**.
+1. In the **Objects** pane on the left, expand **Tables**.
 
 1. Select the **Project Funding** table.
 
-1. Under **Data experiences**, click on **Forms**.
+1. Under **Data experiences**, select **Forms**.
 
-1. Select the **Main** form, click on the ellipses (...), and select **Edit in new tab**.
+1. Select the **Information** form where the **Form type** is **Main**, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
 1. Select **Table columns** on the left-hand side of the form designer.
 
 1. Drag the **Currency** column below **Funding Percentage**.
 
-1. Click on the **Funding amount** column to add to the form below **Currency**.
+1. Select the **Funding amount** column to add to the form below **Currency**.
 
-1. Click **Save**.
+1. On the **Save and publish** drop-down menu, select **Save only**. 
 
-1. Close the form designer.
+1. **Close** the form designer.
 
-1. Click **Done**.
+1. Select **Done**.
+
 
 ## Exercise 4 – Edit Region form
 
