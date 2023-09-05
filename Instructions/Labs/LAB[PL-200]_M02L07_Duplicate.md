@@ -30,34 +30,31 @@ In this exercise, you will create a new duplicate detection rule that will mark 
 
 1. Select **Duplicate detection rules**.
 
-1. Click **New**.
+1. Select **New**.
 
-1. Enter **Duplicate project** for **Name**.
+1. Enter `Duplicate project` for **Name**.
 
 1. Select **Project** for both **Base Record Type** and **Matching Record Type**.
 
 1. Check the **Exclude inactive matching records** box.
 
-1. Under Field, click **Select**.
-
-1. Locate and select the **Project Title** column.
+1. Under **Field**, select **Project Title**.
 
 1. Select **Exact Match** for **Criteria**.
 
 1. Check the **Ignore Blank Values** box.
 
-1. Click **Select** again.
-
-1. Locate and select the **Program** column.
+1. Add another field, select **Program**.
 
 1. Select **Exact Match** for **Criteria**.
 
 1. Check the **Ignore Blank Values** box.
 
-1. Click **Save**.
+1. Select **Save**.
 
-1. Click **Publish**.
+1. Select **Publish**.
 
-1. Click **OK**.
+1. Select **OK**.
 
-1. Click **Close**.
+1. Select **Close**.
+
