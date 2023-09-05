@@ -18,7 +18,7 @@ In this exercise, you will enable auditing for your environment. In earlier labs
 
 ### Task 1.1 – Audit settings
 
-1. Navigate to the Power Platform admin center <https://admin.powerplatform.microsoft.com>.
+1. Navigate to the Power Platform admin center `https://aka.ms/ppac`
 
 1. Select **Environments** from the left navigation pane.
 
@@ -34,10 +34,12 @@ In this exercise, you will enable auditing for your environment. In earlier labs
 
 1. Select **90 days** in the **Retain these logs for** drop-down.
 
-1. Click **Save**.
+1. Select **Save**.
 
-1. Click **Settings** in the breadcrumb at the top of the screeen.
+1. Select **Settings** in the breadcrumb at the top of the screen.
 
 1. Expand **Audit and logs**.
 
 1. Select **Audit summary view** to view the audited operations so far.
+
+
