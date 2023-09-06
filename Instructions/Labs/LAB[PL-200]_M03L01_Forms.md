@@ -719,34 +719,27 @@ In this task, you will perform the following changes to the app:
 - Add Project Outcome table
 - Use the User form
 
-1. Select the **Environmental Project Delivery** app, click on the ellipses (...), and select **Edit in new tab**.
+1. Select the **Environmental Project Delivery** app, select the Commands menu (...), and select **Edit** > **Edit in new tab**.
 
-1. Click **Add page**.
+1. Select **+ Add page**.
 
 1. Select **Dataverse table**.
 
-1. Click **Next**.
+1. Select **Next**.
 
 1. Search for and select **Project Outcome**.
 
 1. Uncheck **Show in navigation**.
 
-1. Click **Add**.
+1. Select **Add**.
 
-1. Expand **Outcome** in the Pages pane on the left-hand side.
+1. Select **Save**.
 
-1. Select **Outcome form**.
+1. Select **Publish**.
 
-1. In the Outcome form pane on the right-hand side, click **+ New form**.
+1. Select **Play**.
 
-1. Select the **User** form.
+1. Navigate around and interact with the **Environmental Project Delivery** app before closing the app and app designer windows.
 
-1. Click **Save**.
+1. Select **Done**.
 
-1. Click **Publish**.
-
-1. Click **Play**.
-
-1. Click around and interact with your Environmental Project Delivery app before closing the app and app designer windows.
-
-1. Click **Done**.
