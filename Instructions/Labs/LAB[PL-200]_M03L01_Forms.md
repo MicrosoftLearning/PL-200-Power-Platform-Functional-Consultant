@@ -281,49 +281,50 @@ In this task, you will perform the following changes to the form:
 - add parent region lookup
 - add a sub-grid for child regions
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **Development** environment.
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
-1. In the **Objects** pane on the left, click and expand **Tables**.
+1. In the **Objects** pane on the left, expand **Tables**.
 
 1. Select the **Region** table.
 
-1. Under **Data experiences**, click on **Forms**.
+1. Under **Data experiences**, select **Forms**.
 
-1. Select the **Main** form, click on the ellipses (...), and select **Edit in new tab**.
+1. Select the **Information** form where the **Form type** is **Main**, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
-1. Select **Table columns** on the left-hand side of the form designer.
+1. Select **Table columns** on the left navigation of the form designer.
 
 1. Drag the **Parent Region** column below **Region Name**.
 
-1. Select **Components** on the left-hand side of the form designer.
+1. Select **Components** on the left navigation of the form designer.
 
-1. Click on the the **1-column section** control to add it to the form.
+1. Select the **1-column section** control to add it to the form.
 
-1. In the properties pane on the right-hand side, enter **Sub Regions** for **Label** and **ChildRegions** for **Name**.
+1. In the **Properties** pane on the right side, enter `Sub Regions` for **Label** and `ChildRegions` for **Name**.
 
-1. Expand **Grid** in the Components pane.
+1. Expand **Grid** in the **Components** pane.
 
-1. Click **Subgrid** and check **Show related records**.
+1. Select **Subgrid** and check **Show related records**.
 
 1. Select **Regions (Parent Region)** for **Table**.
 
-1. Click **Done**.
+1. Select **Done**.
 
-1. In the properties pane on the right-hand side, enter **Sub Regions** for **Label** and **ChildRegionsSG** for **Name**.
+1. In the **Properties** pane on the right side, enter `Sub Regions` for **Label** and `ChildRegionsSG` for **Name**.
 
 1. Check the **Hide label** box.
 
-1. Click **Save**.
+1. On the **Save and publish** drop-down menu, select **Save only**.
 
-1. Close the form designer.
+1. **Close** the form designer.
 
-1. Click **Done**.
+1. Select **Done**. 
+
 
 ## Exercise 5 – Project Resource Quick Create form
 
@@ -333,33 +334,34 @@ In this exercise, you will create a Quick Create form for the Project Resource t
 
 In this task, you will enable the Project Resource table for quick create.
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **Development** environment.
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
-1. In the **Objects** pane on the left, click and expand **Tables**.
+1. In the **Objects** pane on the left, expand **Tables**.
 
 1. Select the **Project Resource** table.
 
-1. Under **Table Properties**, select on **Properties**.
+1. Under **Table Properties**, select **Properties**.
 
-1. In the Edit table pane that appears on the right-hand side of the screen, expand **Advanced options** and scroll down.
+1. In the **Edit table** pane on the right side of the screen, expand **Advanced options** and scroll down.
 
 1. Check the **Leverage quick-create form if available** box.
 
-1. Click **Save**.
+1. Select **Save**.
+
 
 ### Task 5.2 – Create Quick Create form
 
 In this task, you will create a quick create form.
 
-1. Under **Data experiences**, click on **Forms**.
+1. In the **Project Resource** table, under **Data experiences**, select **Forms**.
 
-1. Click **+ New form** and select **+ Quick Create Form**.
+1. Select **+ New form** > **+ Quick Create Form**.
 
 1. Drag the **Project** column to add to the form in the first section.
 
@@ -377,9 +379,10 @@ In this task, you will create a quick create form.
 
 1. Select the third section, and in the properties pane click **Hide label**.
 
-1. Click **Save**.
+1. On the **Save and publish** drop-down menu, select **Save only**.
 
-1. Click **<- Back**.
+1. Select ** Back**.
+
 
 ## Exercise 6 – Edit Milestone form
 
