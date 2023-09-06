@@ -18,7 +18,7 @@ In this exercise, you will create a bulk deletion operation that will delete all
 
 ### Task 1.1 – Create Bulk Delete Operation
 
-1. Navigate to the Power Platform admin center <https://admin.powerplatform.microsoft.com>.
+1. Navigate to the Power Platform admin center `https://aka.ms/ppac`
 
 1. Select **Environments** from the left navigation pane.
 
@@ -30,9 +30,9 @@ In this exercise, you will create a bulk deletion operation that will delete all
 
 1. Select **Bulk deletion**.
 
-1. Click **New**.
+1. Select **New**.
 
-1. Click **Next**.
+1. Select **Next**.
 
 1. Select **Milestones** from the **Look for** drop-down.
 
@@ -46,11 +46,11 @@ In this exercise, you will create a bulk deletion operation that will delete all
 
 1. Select **Equals**.
 
-1. Click on the ellipses (...), select **Completed** and **Cancelled**, and click **OK**.
+1. Select the ellipses (...), select **Completed** and **Cancelled**, and select **OK**.
 
-1. Click **Next**.
+1. Select **Next**.
 
-1. Enter **Delete Old Milestones** for **Name**.
+1. Enter `Delete Old Milestones` for **Name**.
 
 1. Select **At Scheduled Time**.
 
@@ -60,10 +60,11 @@ In this exercise, you will create a bulk deletion operation that will delete all
 
 1. Select **30 days**.
 
-1. Click **Next**.
+1. Select **Next**.
 
-1. Click **Submit**.
+1. Select **Submit**.
 
 1. Change the view to **Recurring Bulk Deletion System Jobs**.
 
-1. Wait for the job to be created. This can take few minutes. Refresh the view as needed.
+1. Wait for the job to be created. This can take few minutes. **Refresh** the view as needed.
+

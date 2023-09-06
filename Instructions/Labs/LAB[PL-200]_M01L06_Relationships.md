@@ -96,7 +96,7 @@ In this exercise, you will create a new relationship between the Resource and Pr
 
 1. Expand **General**.
 
-1. Enter **resource_project_projectlead** for **Relationship name**.
+1. Enter `resource_project_projectlead` for **Relationship name**.
 
 1. Expand **Advanced options**.
 
@@ -188,7 +188,7 @@ In this exercise, you will create two many-to-one relationships for the Project 
 
 1. Expand **General**.
 
-1. Enter **project_projectoutcome** for **Relationship name**.
+1. Enter `project_projectoutcome` for **Relationship name**.
 
 1. Expand **Advanced options**.
 
@@ -209,7 +209,7 @@ In this exercise, you will create two many-to-one relationships for the Project 
 
 1. Expand **General**.
 
-1. Enter **outcome_projectoutcome** for **Relationship name**.
+1. Enter `outcome_projectoutcome` for **Relationship name**.
 
 1. Expand **Advanced options**.
 
@@ -369,7 +369,7 @@ In this exercise, you will use relationships to create calculated and rollup fie
 
 ### Task 6.1 – Calculated column for a many-to-one relationship
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in your **Development** environment.
 
@@ -541,13 +541,13 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Select **Import solution**.
 
-1. Select **Browse**,  change to the **Downloads** folder and select **FabrikamEnvironmental_1_1_11_4_managed.zip** and select **Open**.
+1. Select **Browse**, change to the **Downloads** folder and select **FabrikamEnvironmental_1_1_11_4_managed.zip** and select **Open**.
 
 1. Select **Next**.
 
 1. Select **Next**.
 
-You need to create connections for the solution.
+    You need to create connections for the solution.
 
 1. For the **Approvals** connection, select **Select a connection** > **+ New connection**.
 

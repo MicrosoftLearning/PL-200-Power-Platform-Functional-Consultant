@@ -118,11 +118,11 @@ In this practice lab, you will be creating business rules to show and hide the l
 
 1. Select the **User Required** tile.
 
-1. Enter **User Not Required** for **Display Name**, select **Not Business Required** in the **Business Required** section and select **Apply**.
+1. Enter `User Not Required` for **Display Name**, select **Not Business Required** in the **Business Required** section and select **Apply**.
 
 1. Select the **Contact Not Required** tile.
 
-1. Enter **Contact Required** for **Display Name**, select **Business Required** for **Status** and select **Apply**.
+1. Enter `Contact Required` for **Display Name**, select **Business Required** for **Status** and select **Apply**.
 
 1. The **Business Rule (Text View)** should read as follows:
 
@@ -207,4 +207,4 @@ In this practice lab, you will be creating business rules to show and hide the l
 
 ## Challenge (Optional)
 
-Edit the Set Resource Name business rule on the Resource table to hide both lookup columns if resource type is not selected and set as not business required.
+Edit the **Set Resource Name** business rule on the **Resource** table to hide both lookup columns if resource type is not selected and set as not business required.

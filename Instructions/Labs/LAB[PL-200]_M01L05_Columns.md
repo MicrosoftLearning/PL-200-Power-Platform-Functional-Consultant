@@ -242,11 +242,11 @@ In this exercise, you will be changing properties on a lookup column on the Mile
 
 In this exercise, you will be creating a choice column to replace the use of status reasons on the Milestone and Outcome tables.
 
-> **NOTE:** Status reasons cannot be changed in an editable grid.
+> **Note:** Status reasons cannot be changed in an editable grid.
 
 ### Task 4.1 – Create choice
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in your **Development** environment.
 

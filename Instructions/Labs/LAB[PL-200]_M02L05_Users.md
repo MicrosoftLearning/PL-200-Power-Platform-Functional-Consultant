@@ -22,7 +22,7 @@ You will add the users and team to column security profiles.
 
 ### Task 1.1 – Create Users
 
-1. Navigate to the Power Platform admin center <https://admin.powerplatform.microsoft.com>.
+1. Navigate to the Power Platform admin center `https://aka.ms/ppac`
 
 1. Select **Environments** from the left navigation pane.
 
@@ -34,43 +34,44 @@ You will add the users and team to column security profiles.
 
 1. Select **Users**.
 
-1. Click **+ Add user**.
+1. Select **+ Add user**.
 
-1. Enter **Alex** in **Enter a name or an email address** and select **Alex Wilber**.
+1. Enter `Alex` in **Enter a name or an email address** and select **Alex Wilber**.
 
-1. Click **Add**.
+1. Select **Add**.
 
 1. Select the **Environmental User** role.
 
-1. Click **Save**.
+1. Select **Save**.
 
-1. Click **+ Add user**.
+1. Select **+ Add user**.
 
-1. Enter **Megan** in **Enter a name or an email address** and select **Megan Bowen**.
+1. Enter `Megan` in **Enter a name or an email address** and select **Megan Bowen**.
 
-1. Click **Add**.
+1. Select **Add**.
 
 1. Select the **Environmental User** and **Environmental Manager** roles.
 
-1. Click **Save**.
+1. Select **Save**.
 
-1. Click **+ Add user**.
+1. Select **+ Add user**.
 
-1. Enter **Patti** in **Enter a name or an email address** and select **Patti Fernandez**.
+1. Enter `Patti` in **Enter a name or an email address** and select **Patti Fernandez**.
 
-1. Click **Add**.
+1. Select **Add**.
 
 1. Select the **Environmental User** and **Environmental Administrator** roles.
 
-1. Click **Save**.
+1. Select **Save**.
 
-1. Click **Refresh** to view the updated list of users.
+1. Select **Refresh** to view the updated list of users.
+
 
 ## Exercise 2 – Create a team
 
 ### Task 2.1 – Create Team
 
-1. Navigate to the Power Platform admin center <https://admin.powerplatform.microsoft.com>.
+1. Navigate to the Power Platform admin center `https://aka.ms/ppac`
 
 1. Select **Environments** from the left navigation pane.
 
@@ -82,25 +83,26 @@ You will add the users and team to column security profiles.
 
 1. Select **Teams**.
 
-1. Click **+ Create team**.
+1. Select **+ Create team**.
 
-1. Enter **Fabrikam Managers** for **Team name**.
+1. Enter `Fabrikam Managers` for **Team name**.
 
 1. Select the root business unit.
 
-1. Enter **MOD** in **Administrator** and select **MOD Administrator**.
+1. Enter `MOD` in **Administrator** and select **MOD Administrator**.
 
 1. Select **Owner** in the **Team type** drop-down.
 
-1. Click **Next**.
+1. Select **Next**.
 
-1. Enter **Megan** in **Enter a name or an email address** and select **Megan Bowen**.
+1. Enter `Megan` in **Enter a name or an email address** and select **Megan Bowen**.
 
-1. Click **Next**.
+1. Select **Next**.
 
 1. Select the **Environmental User** and **Environmental Manager** roles.
 
-1. Click **Save**.
+1. Select **Save**.
+
 
 ## Exercise 3 – Column security profile
 
@@ -122,11 +124,12 @@ You will add the users and team to column security profiles.
 
 1. Select the **Users** tab.
 
-1. Click **+ Add Users**.
+1. Select **+ Add Users**.
 
-1. Enter **Alex** in **Enter a name or an email address** and select **Alex Wilber**.
+1. Enter `Alex` in **Enter a name or an email address** and select **Alex Wilber**.
 
-1. Click **Add**.
+1. Select **Add**.
+
 
 ### Task 3.2 – Add team to column security profile
 
@@ -136,16 +139,17 @@ You will add the users and team to column security profiles.
 
 1. Select the **Users** tab.
 
-1. Click **+ Add Users**.
+1. Select **+ Add Users**.
 
-1. Enter **Patti** in **Enter a name or an email address** and select **Patti Fernandez**.
+1. Enter `Patti` in **Enter a name or an email address** and select **Patti Fernandez**.
 
-1. Click **Add**.
+1. Select **Add**.
 
 1. Select the **Teams** tab.
 
-1. Click **+ Add Teams**.
+1. Select **+ Add Teams**.
 
-1. Enter **Fabrikam** in **Search for a team by team name** and select **Fabrikam Managers**.
+1. Enter `Fabrikam` in **Search for a team by team name** and select **Fabrikam Managers**.
 
-1. Click **Add**.
+1. Select **Add**.
+
