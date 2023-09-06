@@ -381,7 +381,7 @@ In this task, you will create a quick create form.
 
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
-1. Select ** Back**.
+1. Select **🡠 Back**.
 
 
 ## Exercise 6 – Edit Milestone form
@@ -395,31 +395,32 @@ In this task, you will perform the following changes to the form:
 - add Milestone status to the form
 - remove Status reason from the form
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **Development** environment.
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
-1. In the **Objects** pane on the left, click and expand **Tables**.
+1. In the **Objects** pane on the left, expand **Tables**.
 
 1. Select the **Milestone** table.
 
-1. Under **Data experiences**, click on **Forms**.
+1. Under **Data experiences**, select **Forms**.
 
-1. Select the **Main** form, click on the ellipses (...), and select **Edit in new tab**.
+1. Select the **Information** form where the **Form type** is **Main**, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
 1. Drag the **Milestone Status** column below the **Status Reason** field.
 
-1. Select the **Status Reason** field and click on **Delete**.
+1. Select the **Status Reason** field and select **Delete**.
 
-1. Click **Save**.
+1. On the **Save and publish** drop-down menu, select **Save only**.
 
-1. Close the form designer.
+1. **Close** the form designer.
 
-1. Click **Done**.
+1. Select **Done**.
+
 
 ## Exercise 7 – Edit Outcome form
 
@@ -433,33 +434,34 @@ In this task, you will perform the following changes to the Outcome form:
 - remove Status reason from the form
 - delete the Project tab
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **Development** environment.
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
-1. In the **Objects** pane on the left, click and expand **Tables**.
+1. In the **Objects** pane on the left, expand **Tables**.
 
 1. Select the **Outcome** table.
 
-1. Under **Data experiences**, click on **Forms**.
+1. Under **Data experiences**, select **Forms**.
 
-1. Select the **Main** form, click on the ellipses (...), and select **Edit in new tab**.
+1. Select the **Information** form where the **Form type** is **Main**, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
-1. Drag the **Outcome status** column below the **Status reason** field.
+1. Drag the **Outcome Status** column below the **Status Reason** field.
 
-1. Select the **Status reason** field and click on **Delete**.
+1. Select the **Status Reason** field and select **Delete**.
 
-1. Select the **Projects** tab and click on the **Delete** icon.
+1. Select the **Projects** tab and select the **Delete** icon.
 
-1. Click **Save**.
+1. On the **Save and publish** drop-down menu, select **Save only**.
 
-1. Close the form designer.
+1. **Close** the form designer.
 
-1. Click **Done**.
+1. Select **Done**.
+
 
 ## Exercise 8 – Edit Project Outcome form
 
@@ -474,45 +476,45 @@ In this task, you will perform the following changes to the Project Outcome form
 - hide the name on the form
 - Add a quick view form
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **Development** environment.
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
-1. In the **Objects** pane on the left, click and expand **Tables**.
+1. In the **Objects** pane on the left, expand **Tables**.
 
 1. Select the **Project Outcome** table.
 
-1. Under **Data experiences**, click on **Forms**.
+1. Under **Data experiences**, select **Forms**.
 
-1. Select the **Main** form, click on the ellipses (...), and select **Edit in new tab**.
+1. Select the **Information** form where the **Form type** is **Main**, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
 1. Drag the **Owner** field from the body into the **Header**.
 
-1. Select **Tree view** on the left-hand side of the form designer.
+1. Select **Tree view** on the left side of the form designer.
 
 1. Select the **General** tab.
 
-1. In the properties pane on the right-hand side, enter **General** for **Name**
+1. In the **Properties** pane on the right side, enter `General` for **Name**
 
-1. Select **2 columns** in the **Layout** drop down.
+1. Under **Formatting**, in the **Layout** drop-down, select **2 columns**.
 
 1. Select the **New Section** section.
 
-1. In the properties pane on the right-hand side, enter **Related** for **Label** and **Name**.
+1. In the properties pane on the right-hand side, enter `Related` for **Label** and **Name**.
 
-1. Click **Hide label**.
+1. Check **Hide label**.
 
 1. Select **Table columns** on the left-hand side of the form designer.
 
 1. Drag the **Project** column below the **Title** field.
 
-1. Click on the **Outcome** column to add to the form below **Project**.
+1. Select the **Outcome** column to add to the form below **Project**.
 
-1. Click on the **Comments** column to add to the form below **Outcome**.
+1. Select the **Comments** column to add to the form below **Outcome**.
 
 1. Click on the **Outcome Completed Date** column to add to the form below **Comments**.
 
@@ -520,23 +522,26 @@ In this task, you will perform the following changes to the Project Outcome form
 
 1. Select the **Title** field.
 
-1. In the properties pane on the right-hand side, check **Hide**.
+1. In the **Properties** pane on the right side, check **Hide**.
 
-1. Select **Components** on the left-hand side of the form designer, and expand **Display**.
+1. Select **Components** on the left side of the form designer, and expand **Display**.
 
-1. Drag the **Quick view** control to the Related section.
+1. Select the **Quick view** control.
 
-1. Select **Project** for **Lookup**.
+1. In the **Select Quick view forms** pop-up, select **Project** for **Lookup**.
 
 1. Select **Information** for **Project**.
 
-1. Click **Done**.
+1. Select **Done**.
 
-1. Click **Save**.
+1. Drag the new **Quick view** control into the **Related** section in the second column.
 
-1. Close the form designer.
+1. On the **Save and publish** drop-down menu, select **Save only**.
 
-1. Click **Done**.
+1. **Close** the form designer.
+
+1. Select **Done**.
+
 
 ## Exercise 9 – Copy Outcome form
 
@@ -551,57 +556,57 @@ In this task, you will perform the following changes to the form:
 - Associate security roles with the forms
 - Set the form order
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **Development** environment.
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
-1. In the **Objects** pane on the left, click and expand **Tables**.
+1. In the **Objects** pane on the left, expand **Tables**.
 
 1. Select the **Outcome** table.
 
-1. Under **Data experiences**, click on **Forms**.
+1. Under **Data experiences**, select **Forms**.
 
-1. Select the **Main** form, click on the ellipses (...), and select **Edit in new tab**.
+1. Select the **Information** form where the **Form type** is **Main**, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
-1. In the properties pane on the right-hand side, enter **User** for **Display Name**
+1. In the **Properties** pane on the right side, enter `User` for **Display Name**.
 
-1. Click **Save**.
+1. On the **Save and publish** drop-down menu, select **Save only**.
 
-1. Click the caret next to the **Save** button and select **Save as**.
+1. Select **Save a copy**.
 
-1. Enter **Manager** for **Display Name** and **Form for managers** for **Description**. Select **Save**.
+1. Enter `Manager` for **Display Name** and `Form for managers` for **Description**. Select **Save**.
 
-1. Select **Tree view** on the left-hand side of the form designer.
+1. Select **Tree view** on the left side of the form designer.
 
 1. Select the **General** tab.
 
 1. In the properties pane on the right-hand side, enter **General** for **Name**
 
-1. Select **2 columns** in the **Layout** drop down.
+1. Under **Formatting**, in the **Layout** drop-down, select **2 columns**.
 
 1. Select the **New Section** section.
 
-1. In the properties pane on the right-hand side, enter **Details** for **Label** and **Name**.
+1. In the **Properties** pane on the right side, enter `Details` for **Label** and **Name**.
 
-1. Click **Hide label**.
+1. Check **Hide label**.
 
-1. Select **Table columns** on the left-hand side of the form designer.
+1. Select **Table columns** on the left navigation of the form designer.
 
-1. Drag the **Goal** column to the Details section.
+1. Drag the **Goal** column to the **Details** section.
 
-1. Click on **Approver** to add to the Details section.
+1. Select **Approver** to add to the **Details** section.
 
-1. Click on **Approver Email** to add to the Details section.
+1. Select **Approver Email** to add to the **Details** section.
 
-1. Click on **Approved** to add to the Details section.
+1. Select **Approved** to add to the Details section.
 
-1. Click on **Target Aim** to add to the Details section.
+1. Select **Target Aim** to add to the Details section.
 
-1. Click on **Stakeholders identified** to add to the Details section.
+1. Select **Stakeholders identified** to add to the Details section.
 
 1. Click on **Tasks created** to add to the Details section.
 
@@ -611,41 +616,43 @@ In this task, you will perform the following changes to the form:
 
 1. Click on **Environmental impact assessment completed** to add to the Details section.
 
-1. Click **Save**.
+1. On the **Save and publish** drop-down menu, select **Save only**.
 
-1. Click **Form Settings**.
+1. Sekect **Form Settings**.
 
 1. Select the **Environmental manager** and **Environmental administrator** roles as the specific security roles that should have access to this form.
 
-1. Select **Form Order**.
+1. Select the **Form order** tab.
 
 1. Drag **Manager** above **User**.
 
-1. Select **Fallback forms**.
+1. Select the **Fallback forms** tab.
 
 1. Uncheck **Enable Manager form as a Fallback form**.
 
-1. Click **Save and publish**.
+1. Select **Save and publish**.
 
-1. Close the form designer.
+1. **Close** the form designer.
 
-1. Click **Done**.
+1. Select **Done**.
 
 1. Select the **User** form.
 
-1. Click **Form Settings**.
+1. Select **Form settings** from the command bar.
 
 1. Select the **Specific security roles** radio button.
 
 1. Select the **Environmental user** role.
 
-1. Click **Save and publish**.
+1. Select **Save and publish**.
+
 
 ### Task 9.2 – Publish changes
 
 1. In the **Objects** pane on the left, select **All**.
 
-1. Click on **Publish all customizations**.
+1. Select **Publish all customizations**.
+
 
 ## Exercise 10 – Modify model-driven apps
 
@@ -658,59 +665,52 @@ In this task, you will perform the following changes to the app:
 - Add Project Outcome table
 - Use the Manager form
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **Development** environment.
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
-1. In the **Objects** pane on the left, click and expand **Apps**.
+1. In the **Objects** pane on the left, expand **Apps**.
 
-1. Select the **Environmental Management** app, click on the ellipses (...), and select **Edit in new tab**.
+1. Select the **Environmental Management** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
-1. Click **Add page**.
+1. Select **+ Add page**.
 
 1. Select **Dataverse table**.
 
-1. Click **Next**.
+1. Select **Next**.
 
 1. Search for and select **Project Outcome**.
 
 1. Uncheck **Show in navigation**.
 
-1. Click **Add**.
+1. Select **Add**.
 
-1. Click **Add page**.
+1. Select **+ Add page**.
 
 1. Select **Dataverse table**.
 
-1. Click **Next**.
+1. Select **Next**.
 
 1. Search for and select **Outcome**.
 
 1. Uncheck **Show in navigation**.
 
-1. Click **Add**.
+1. Select **Add**.
 
-1. Expand **Outcome** in the Pages pane on the left-hand side.
+1. Select **Save**.
 
-1. Select **Outcome form**.
+1. Select **Publish**.
 
-1. In the Outcome form pane on the right-hand side, click **+ New form**.
+1. Select **Play**.
 
-1. Select the **Manager** form.
+1. Navigate around and interact with the **Environmental Management** app before closing the app and app designer windows.
 
-1. Click **Save**.
+1. Select **Done**.
 
-1. Click **Publish**.
-
-1. Click **Play**.
-
-1. Click around and interact with your Environmental Management app before closing the app and app designer windows.
-
-1. Click **Done**.
 
 ### Task 10.2 – Environmental Project Delivery app
 
