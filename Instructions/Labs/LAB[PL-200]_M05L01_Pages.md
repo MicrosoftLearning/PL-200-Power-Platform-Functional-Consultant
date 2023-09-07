@@ -4,7 +4,7 @@ lab:
     module: 'Module 5: Make portals in Power Pages'
 ---
 
-## Practice Lab 5.1 – Build a Power Pages portal
+# Practice Lab 5.1 – Build a Power Pages portal
 
 ## Scenario
 
