@@ -4,7 +4,7 @@ lab:
     module: 'Module 3: Create model-driven apps in Power Apps'
 ---
 
-## Practice Lab 3.1 – Forms
+# Practice Lab 3.1 – Forms
 
 ## Scenario
 
