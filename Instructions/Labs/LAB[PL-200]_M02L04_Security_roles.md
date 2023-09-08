@@ -42,24 +42,24 @@ You need to remove privileges for importing and exporting of data, deleting acco
 
 1. Select the **Core Records** tab.
 
-1. Scroll down and see the privileges the security role has for the **Core Records**.
+1. Scroll down and review the privileges the security role has for the **Core Records**.
 
 1. Select the **Custom Entities** tab.
 
-1. Scroll down and see the privileges the security role has for the tables in the Fabrikam solution. Do not navigate away from this page.
+1. Scroll down and review the privileges the security role has for the tables in the Fabrikam solution. Do not navigate away from this page.
 
 
 ### Task 1.2 – Modify Milestone and Outcome privileges
 
 1. In the **Custom Entities** tab for the **Environmental user** role, locate the **Milestone** table privileges.
 
-1. Select the **Write** privilege (third circle from the left) twice to change the access level circle to **Business Unit**.
+1. Select the **Write** privilege (third circle from the left) three times to change the access level circle to **Business Unit**.
 
     ![Access levels for Milestone table.](../media/milestone-privileges.png)
 
 1. Locate the **Outcome** table privileges.
 
-1. Select the **Write** privilege twice to change the access level circle to **Business Unit**.
+1. Select the **Write** privilege three times to change the access level circle to **Business Unit**.
 
     ![Access levels for Outcome table.](../media/outcome-privileges.png)
 
@@ -72,7 +72,7 @@ You need to remove privileges for importing and exporting of data, deleting acco
 
 1. Select the **Project Outcome** name four times to change all privilege access levels to **Organization**.
 
-1. Select the **Delete** privilege (fourth circle from the left) once to change the access level circle to **None**.
+1. Select the **Delete** privilege (fourth circle from the left) once to change the access level circle to **None Selected**.
 
     ![Access levels for Project Outcome table.](../media/project-outcome-privileges.png)
 
@@ -83,11 +83,11 @@ You need to remove privileges for importing and exporting of data, deleting acco
 
 1. Select the **Core Records** tab.
 
-1. Select the **Data Import** name four times to change all privilege access levels to **None**.
+1. Select the **Data Import** name four times to change all privilege access levels to **None Selected**.
 
-1. Select the **Data Map** name three times to change all privilege access levels to **None**.
+1. Select the **Data Map** name three times to change all privilege access levels to **None Selected**.
 
-1. Select the **Import Source File** name four times to change all privilege access levels to **None**.
+1. Select the **Import Source File** name four times to change all privilege access levels to **None Selected**.
 
 1. Locate the **Connection** table privileges.
 
@@ -97,11 +97,11 @@ You need to remove privileges for importing and exporting of data, deleting acco
 
 1. Locate the **Account** table privileges.
 
-1. Select the **Delete** privilege four times to change the access level circle to **None**.
+1. Select the **Delete** privilege four times to change the access level circle to **None Selected**.
 
 1. Locate the **Contact** table privileges.
 
-1. Select the **Delete** privilege four times to change the access level circle to **None**.
+1. Select the **Delete** privilege four times to change the access level circle to **None Selected**.
 
 1. Scroll down to **Miscellaneous Privileges**.
 
@@ -111,15 +111,15 @@ You need to remove privileges for importing and exporting of data, deleting acco
 
 1. Scroll down to **Privacy Related Privileges**. 
 
-1. Select the **Export to Excel** privilege to change the access level circle to **None**.
+1. Select the **Export to Excel** privilege to change the access level circle to **None Selected**.
 
-1. Select the **Print** privilege to change the access level circle to **None**.
+1. Select the **Print** privilege to change the access level circle to **None Selected**.
 
 1. Scroll down to **Miscellaneous Privileges**.
 
-1. Select the **Bulk Edit** privilege to change the access level circle to **None**.
+1. Select the **Bulk Edit** privilege to change the access level circle to **None Selected**.
 
-1. Select the **Merge** privilege to change the access level circle to **None**.
+1. Select the **Merge** privilege to change the access level circle to **None Selected**.
 
 1. Select **Save and Close**.
 

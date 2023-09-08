@@ -4,7 +4,7 @@ lab:
     module: 'Module 6: Build automation with Power Automate'
 ---
 
-## Practice Lab 6.1 – Cloud flows
+# Practice Lab 6.1 – Cloud flows
 
 ## Scenario
 
