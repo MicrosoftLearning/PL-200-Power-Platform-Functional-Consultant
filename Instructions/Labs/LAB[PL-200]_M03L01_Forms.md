@@ -42,7 +42,7 @@ In this task, you will perform the following changes to the form:
 - increase the size of project description field
 - add columns to the form
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in your **Development** environment.
 
@@ -701,6 +701,12 @@ In this task, you will perform the following changes to the app:
 
 1. Select **Add**.
 
+1. In the **Pages** pane on the left side, select **Outcome forms** under **All other pages**.
+
+1. In the **Outcome forms** pane on the right side, turn off **Include all forms in the app**.
+
+1. Select **Turn off**.
+
 1. Select **Save**.
 
 1. Select **Publish**.
@@ -719,7 +725,7 @@ In this task, you will perform the following changes to the app:
 - Add Project Outcome table
 - Use the User form
 
-1. Select the **Environmental Project Delivery** app, select the Commands menu (...), and select **Edit** > **Edit in new tab**.
+1. Select the **Environmental Project Delivery** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
 1. Select **+ Add page**.
 
@@ -732,6 +738,12 @@ In this task, you will perform the following changes to the app:
 1. Uncheck **Show in navigation**.
 
 1. Select **Add**.
+
+1. In the **Pages** pane on the left side, select **Outcome forms**.
+
+1. In the **Outcome forms** pane on the right side, select the **More options** menu (...) on the **Manager** form and select **Remove**.
+
+1. Remove the **Information** forms of type **Quick view** and **Card Form**.
 
 1. Select **Save**.
 
