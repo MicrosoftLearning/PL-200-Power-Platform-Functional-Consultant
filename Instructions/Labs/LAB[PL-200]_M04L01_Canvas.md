@@ -26,13 +26,13 @@ In this exercise, you will learn about the canvas app.
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
 1. In the **Objects** pane on the left, select **Apps**.
 
-1. Select the **Environmental Work Delivery** app, click on the ellipses (...), and select **Play**.
+1. Select the **Environmental Work Delivery** app, select the **Commands** menu (...), and select **Play**.
 
-1. Sign in with your Microsoft 365 credentials if prompted.
+1. Sign in with your Microsoft 365 credentials, if prompted.
 
 1. The app has 4 screens which are navigated using the left-hand navigation bar:
 
@@ -49,39 +49,40 @@ In this exercise, you will learn about the canvas app.
 
 1. Note that the colors for the drop down controls are blue.
 
-1. Click the **+** icon. A new Project row is added.
+1. Select the **+** icon. A new Project row is added.
 
-1. Enter **Lab Project** for **Project Title**.
+1. Enter `Lab Project` for **Project Title**.
 
 1. Select any **Type**.
 
 1. Select **In Progress** in the **Status** drop-down.
 
-1. Select a date in the next month in the **Estimated date** date picker and click **OK**.
+1. Select a date in the next month in the **Estimated date** date picker and select **OK**.
 
-1. Click the **Back arrow** icon in the bottom-left of the screen to return to the **Home** screen. The number in the first tile will have incremented.
+1. Select the **Back arrow** icon in the bottom-left of the screen to return to the **Home** screen. The number in the first tile will have incremented.
 
 1. Select the **Milestones** screen (third icon).
 
-1. Enter **50** in **Milestone Percentage Complete**
+1. Enter `50` in **Milestone Percentage Complete**
 
 1. Select the **Outcomes** screen (fourth icon).
 
-1. Enter **To create a better planet** in **Goal**.
+1. Enter `To create a better planet` in **Goal**.
 
 1. Select **Completed** in the **Status Reason** drop-down.
 
-1. Click **Save**.
+1. Select **Save**.
 
 1. Select the **Home** screen (first icon).
 
 1. Close the app.
 
+
 ### Task 1.2 - Review the app in Power Apps Studio
 
-1. Select the **Environmental Work Delivery** app, click on the ellipses (...), and select **Edit**.
+1. Select the **Environmental Work Delivery** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
-1. If a Welcome to Power App dialog appears, check the **Don't show me this again**, and click **Skip**
+1. If a Welcome to Power Apps Studio dialog appears, check **Don't show me this again**, and select **Skip**
 
 1. In the **Tree view**, expand **Card1**.
 
@@ -131,7 +132,7 @@ In this exercise, you will learn about the canvas app.
 
 1. Review the formulas.
 
-1. Select the ellipses (...) to the right of App and click **Run OnStart**.
+1. Select the ellipses menu (...) to the right of **App** and select **Run OnStart**.
 
 1. In the ribbon at the top of the app designer, select the **View** tab.
 
