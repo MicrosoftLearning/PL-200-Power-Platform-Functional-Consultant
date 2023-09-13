@@ -134,31 +134,28 @@ In this exercise, you will learn about the canvas app.
 
 1. Select the ellipses menu (...) to the right of **App** and select **Run OnStart**.
 
-1. In the ribbon at the top of the app designer, select the **View** tab.
+1. In the left navigation, select **(𝑥) Variables**.
 
-1. Select **Variables**.
+1. Expand **Global variables** and review the variables for column widths and heights. The controls on screens use these variables for their X, Y, Height, and Width.
 
-1. Review the variables for column widths and heights. The controls on screens use these variables for their X, Y, Height, and Width.
+1. Review the Color variables. The controls on screens use these variables for color properties.
 
-1. Review the variables for column widths and heights. The controls on screens use these variables for color properties.
+1. In the left navigation, select **Tree view**.
 
-1. Click the back arrow to return to the canvas.
-
-1. In the **Tree view**, select **TitleLabel** under **HomeScreen**.
+1. Select **TitleLabel** under **HomeScreen**.
 
 1. Select **X** in the **Property Selector** and note the use of a variable.
 
 1. Select **Y** in the **Property Selector** and note the use of variables in the formula.
 
-1. In the ribbon at the top of the app designer, select the **View** tab.
+1. In the left navigation, select **(𝑥) Variables**.
 
-1. Select **Collections**.
+1. Expand **Collections**.
 
-1. Review the three collections.
+1. Review the data in the collections by selecting the ellipisis menu (...) on each and selecting **View table**. Select **Cancel** to close the pop-up.
 
-1. Click the back arrow to return to the canvas.
+1. **Close** the tab and select **Leave** to discard any changes. Select **Done**.
 
-1. In the menu, select **File** and then **Close**. If there are unsaved changes click **Don't save**.
 
 ## Exercise 2 – Change the visual experience of the canvas app
 
@@ -170,31 +167,34 @@ In this task, you will perform the following changes to the app:
 
 - change the variables used for column and row layout
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **Development** environment.
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
 1. In the **Objects** pane on the left, select **Apps**.
 
-1. Select the **Environmental Work Delivery** app, click on the ellipses (...), and select **Edit**.
+1. Select the **Environmental Work Delivery** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
 1. In the **Tree view**, select **App**.
 
 1. Select **OnStart** in the **Property Selector**.
 
-1. In the OnStart, change **Set(BarrierSize,20)** to **Set(BarrierSize,10)**. Note that you can click the caret to the right of the formula bar to expand it.
+1. In the OnStart, change **Set(BarrierSize,20)** to `Set(BarrierSize,10)`
 
-1. Select the ellipses (...) to the right on App and click **Run OnStart**. Note that the layout adjusts and the tiles become bigger.
+    **Note:** You can select the caret to the right of the formula bar to expand it.
 
-1. In the OnStart, change **Set(LeftHandWidth,App.Width/10)** to **Set(LeftHandWidth,App.Width/12)**.
+1. Select the ellipses (...) to the right of **App** and select **Run OnStart**. Verify that the layout adjusts and the tiles become bigger.
 
-1. Select the ellipses (...) to the right on App and click **Run OnStart**. Note that the layout adjusts.
+1. In the OnStart, change **Set(LeftHandWidth,App.Width/10)** to `Set(LeftHandWidth,App.Width/12)`
 
-1. In the menu, select **File** and then **Close**. If there are unsaved changes click **Don't save**.
+1. Select the ellipses (...) to the right on App and select **Run OnStart**. Note that the layout adjusts.
+
+1. **Close** the tab and select **Leave** to discard any changes. Select **Done**.
+
 
 ### Task 2.2 - Colors
 
@@ -203,21 +203,19 @@ In this task, you will perform the following changes to the app:
 - change the variables used for colors
 - update the colors used for controls in the gallery
 
-1. Select the **Environmental Work Delivery** app, click on the ellipses (...), and select **Edit**.
+1. Select the **Environmental Work Delivery** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
 1. In the **Tree view**, select **App**.
 
 1. Select **OnStart** in the **Property Selector**.
 
-1. In the OnStart, change **Set(FabrikamBackColor,RGBA(0,0,0,1))** to **Set(FabrikamBackColor,Color.Black)**.
+1. In the OnStart, change **Set(FabrikamBackColor,RGBA(0,0,0,1))** to `Set(FabrikamBackColor,Color.Black)`
 
-1. In the OnStart, change **Set(FabrikamFrontColor,RGBA(255,255,255,1))** to **Set(FabrikamFrontColor,Color.Azure)**.
+1. In the OnStart, change **Set(FabrikamFrontColor,RGBA(255,255,255,1))** to `Set(FabrikamFrontColor,Color.Azure)`
 
-1. Select the ellipses (...) to the right on App and click **Run OnStart**. Note that the colors change.
+1. Select the ellipses (...) to the right of App and select **Run OnStart**. Note that the colors change.
 
-1. In the menu, select **File** and then **Save**.
-
-1. Click the back arrow to return to the canvas app editor.
+1. Select **Save**.
 
 1. In the **Tree view**, select and expand **ProjectScreen**.
 
@@ -242,6 +240,7 @@ In this task, you will perform the following changes to the app:
 1. In the menu, select **File** and then **Save**.
 
 1. Click the back arrow to return to the canvas app editor.
+
 
 ### Task 2.3 - Background
 
