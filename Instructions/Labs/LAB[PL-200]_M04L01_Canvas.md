@@ -516,7 +516,7 @@ In this task, you will perform the following changes to the screen:
 
 1. Click **Share**.
 
-1. Enter **Alex** in **Enter a name, email address, or Everyone**and select **Alex Wilber**
+1. Enter **Alex** in **Enter a name, email address, or Everyone** and select **Alex Wilber**
 
 1. Click **Share**.
 
