@@ -262,6 +262,8 @@ In this exercise, you make changes to topics and entities.
 
 1. Click **Settings** in the top-right of Power Virtual Agents.
 
+1. Click **General Settings**.
+
 1. Select **System fallback**.
 
 1. Click **+ Add**.
