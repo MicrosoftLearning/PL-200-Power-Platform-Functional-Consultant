@@ -100,19 +100,19 @@ In the list of topics, click on the **Water** topic to open the authoring canvas
 
 1. Review the trigger phrases for this topic.
 
-1. You should a message node followed by a question node that uses a custom entity called WaterHelp for choices. Note that the response is saved in a variable.
+1. You should see a message node followed by a question node that uses a custom entity called WaterHelp for choices. Note that the response is saved in a variable.
 
 1. Select **Topics** and then click on the **Air** topic to open the authoring canvas.
 
 1. Review the trigger phrases for this topic.
 
-1. You should a message node followed by an action node that calls a Power Automate cloud flow.
+1. You should see a message node followed by an action node that calls a Power Automate cloud flow.
 
 1. The list of project returned by the flow is stored in a variable that is shown in another message node.
 
 1. Click on **View flow details**.
 
-1. Click **Edit** the flow** and review the actions in the flow.
+1. Click **Edit** at the top of the flow and review the actions in the flow.
 
 1. Close the flow editor.
 
