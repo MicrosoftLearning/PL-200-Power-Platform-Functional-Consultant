@@ -26,13 +26,13 @@ In this exercise, you will learn about the canvas app.
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
 1. In the **Objects** pane on the left, select **Apps**.
 
-1. Select the **Environmental Work Delivery** app, click on the ellipses (...), and select **Play**.
+1. Select the **Environmental Work Delivery** app, select the **Commands** menu (...), and select **Play**.
 
-1. Sign in with your Microsoft 365 credentials if prompted.
+1. Sign in with your Microsoft 365 credentials, if prompted.
 
 1. The app has 4 screens which are navigated using the left-hand navigation bar:
 
@@ -49,39 +49,40 @@ In this exercise, you will learn about the canvas app.
 
 1. Note that the colors for the drop down controls are blue.
 
-1. Click the **+** icon. A new Project row is added.
+1. Select the **+** icon. A new Project row is added.
 
-1. Enter **Lab Project** for **Project Title**.
+1. Enter `Lab Project` for **Project Title**.
 
 1. Select any **Type**.
 
 1. Select **In Progress** in the **Status** drop-down.
 
-1. Select a date in the next month in the **Estimated date** date picker and click **OK**.
+1. Select a date in the next month in the **Estimated date** date picker and select **OK**.
 
-1. Click the **Back arrow** icon in the bottom-left of the screen to return to the **Home** screen. The number in the first tile will have incremented.
+1. Select the **Back arrow** icon in the bottom-left of the screen to return to the **Home** screen. The number in the first tile will have incremented.
 
 1. Select the **Milestones** screen (third icon).
 
-1. Enter **50** in **Milestone Percentage Complete**
+1. Enter `50` in **Milestone Percentage Complete**
 
 1. Select the **Outcomes** screen (fourth icon).
 
-1. Enter **To create a better planet** in **Goal**.
+1. Enter `To create a better planet` in **Goal**.
 
 1. Select **Completed** in the **Status Reason** drop-down.
 
-1. Click **Save**.
+1. Select **Save**.
 
 1. Select the **Home** screen (first icon).
 
 1. Close the app.
 
+
 ### Task 1.2 - Review the app in Power Apps Studio
 
-1. Select the **Environmental Work Delivery** app, click on the ellipses (...), and select **Edit**.
+1. Select the **Environmental Work Delivery** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
-1. If a Welcome to Power App dialog appears, check the **Don't show me this again**, and click **Skip**
+1. If a Welcome to Power Apps Studio dialog appears, check **Don't show me this again**, and select **Skip**
 
 1. In the **Tree view**, expand **Card1**.
 
@@ -131,33 +132,30 @@ In this exercise, you will learn about the canvas app.
 
 1. Review the formulas.
 
-1. Select the ellipses (...) to the right of App and click **Run OnStart**.
+1. Select the ellipses menu (...) to the right of **App** and select **Run OnStart**.
 
-1. In the ribbon at the top of the app designer, select the **View** tab.
+1. In the left navigation, select **(𝑥) Variables**.
 
-1. Select **Variables**.
+1. Expand **Global variables** and review the variables for column widths and heights. The controls on screens use these variables for their X, Y, Height, and Width.
 
-1. Review the variables for column widths and heights. The controls on screens use these variables for their X, Y, Height, and Width.
+1. Review the Color variables. The controls on screens use these variables for color properties.
 
-1. Review the variables for column widths and heights. The controls on screens use these variables for color properties.
+1. In the left navigation, select **Tree view**.
 
-1. Click the back arrow to return to the canvas.
-
-1. In the **Tree view**, select **TitleLabel** under **HomeScreen**.
+1. Select **TitleLabel** under **HomeScreen**.
 
 1. Select **X** in the **Property Selector** and note the use of a variable.
 
 1. Select **Y** in the **Property Selector** and note the use of variables in the formula.
 
-1. In the ribbon at the top of the app designer, select the **View** tab.
+1. In the left navigation, select **(𝑥) Variables**.
 
-1. Select **Collections**.
+1. Expand **Collections**.
 
-1. Review the three collections.
+1. Review the data in the collections by selecting the ellipisis menu (...) on each and selecting **View table**. Select **Cancel** to close the pop-up.
 
-1. Click the back arrow to return to the canvas.
+1. **Close** the tab and select **Leave** to discard any changes. Select **Done**.
 
-1. In the menu, select **File** and then **Close**. If there are unsaved changes click **Don't save**.
 
 ## Exercise 2 – Change the visual experience of the canvas app
 
@@ -169,31 +167,34 @@ In this task, you will perform the following changes to the app:
 
 - change the variables used for column and row layout
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **Development** environment.
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
 1. In the **Objects** pane on the left, select **Apps**.
 
-1. Select the **Environmental Work Delivery** app, click on the ellipses (...), and select **Edit**.
+1. Select the **Environmental Work Delivery** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
 1. In the **Tree view**, select **App**.
 
 1. Select **OnStart** in the **Property Selector**.
 
-1. In the OnStart, change **Set(BarrierSize,20)** to **Set(BarrierSize,10)**. Note that you can click the caret to the right of the formula bar to expand it.
+1. In the OnStart, change **Set(BarrierSize,20)** to `Set(BarrierSize,10)`
 
-1. Select the ellipses (...) to the right on App and click **Run OnStart**. Note that the layout adjusts and the tiles become bigger.
+    **Note:** You can select the caret to the right of the formula bar to expand it.
 
-1. In the OnStart, change **Set(LeftHandWidth,App.Width/10)** to **Set(LeftHandWidth,App.Width/12)**.
+1. Select the ellipses (...) to the right of **App** and select **Run OnStart**. Verify that the layout adjusts and the tiles become bigger.
 
-1. Select the ellipses (...) to the right on App and click **Run OnStart**. Note that the layout adjusts.
+1. In the OnStart, change **Set(LeftHandWidth,App.Width/10)** to `Set(LeftHandWidth,App.Width/12)`
 
-1. In the menu, select **File** and then **Close**. If there are unsaved changes click **Don't save**.
+1. Select the ellipses (...) to the right on App and select **Run OnStart**. Note that the layout adjusts.
+
+1. **Close** the tab and select **Leave** to discard any changes. Select **Done**.
+
 
 ### Task 2.2 - Colors
 
@@ -202,21 +203,19 @@ In this task, you will perform the following changes to the app:
 - change the variables used for colors
 - update the colors used for controls in the gallery
 
-1. Select the **Environmental Work Delivery** app, click on the ellipses (...), and select **Edit**.
+1. Select the **Environmental Work Delivery** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
 1. In the **Tree view**, select **App**.
 
 1. Select **OnStart** in the **Property Selector**.
 
-1. In the OnStart, change **Set(FabrikamBackColor,RGBA(0,0,0,1))** to **Set(FabrikamBackColor,Color.Black)**.
+1. In the OnStart, change **Set(FabrikamBackColor,RGBA(0,0,0,1))** to `Set(FabrikamBackColor,Color.Azure)`
 
-1. In the OnStart, change **Set(FabrikamFrontColor,RGBA(255,255,255,1))** to **Set(FabrikamFrontColor,Color.Azure)**.
+1. In the OnStart, change **Set(FabrikamFrontColor,RGBA(255,255,255,1))** to `Set(FabrikamFrontColor,Color.Black)`
 
-1. Select the ellipses (...) to the right on App and click **Run OnStart**. Note that the colors change.
+1. Select the ellipses (...) to the right of App and select **Run OnStart**. Note that the colors change.
 
-1. In the menu, select **File** and then **Save**.
-
-1. Click the back arrow to return to the canvas app editor.
+1. Select **Save**.
 
 1. In the **Tree view**, select and expand **ProjectScreen**.
 
@@ -224,23 +223,22 @@ In this task, you will perform the following changes to the app:
 
 1. Select **ProjectTitleTextInput** and select **BorderColor** in the **Property Selector**.
 
-1. Replace the RGBA value in the formula bar with **FabrikamColor**.
+1. Replace the RGBA value in the formula bar with `FabrikamColor`
 
 1. Select **ProjectTypeComboBox** and select **ChevronBackGround** in the **Property Selector**.
 
-1. Replace the RGBA value in the formula bar with **FabrikamColor**.
+1. Replace the RGBA value in the formula bar with `FabrikamColor`
 
 1. Select **BorderColor** in the **Property Selector** for the **ProjectTypeComboBox**.
 
-1. Replace the RGBA value in the formula bar with **FabrikamColor**.
+1. Replace the RGBA value in the formula bar with `FabrikamColor`
 
-1. Repeat the steps to change the **BorderColor** and **ChevronBackGround** color to FabrikamColor for **ProjectStatusDropDown**.
+1. Repeat the steps to change the **BorderColor** and **ChevronBackground** color to `FabrikamColor` for **ProjectStatusDropDown**.
 
-1. Repeat the steps to change the **BorderColor** and **IconBackground** color to FabrikamColor for **EstimatedCompletionDate**.
+1. Repeat the steps to change the **BorderColor** and **IconBackground** color to `FabrikamColor` for **EstimatedCompletionDate**.
 
-1. In the menu, select **File** and then **Save**.
+1. Select **Save**.
 
-1. Click the back arrow to return to the canvas app editor.
 
 ### Task 2.3 - Background
 
@@ -250,9 +248,9 @@ In this task, you will perform the following changes to a screen:
 
 1. In the **Tree view**, select **ProjectScreen**.
 
-1. In the Properties pane on the right-hand side, select **Background image** > **+ Add an image file**.
+1. In the **Properties** pane on the right side, select **Background image** > **+ Add an image file**.
 
-1. Locate and select the **Texture.jpg** file and click on **Open**.
+1. Locate and select the **Texture.jpg** file and select **Open**.
 
     > This file is located in the Documents\PL-200 folder on your machine.
 
@@ -260,9 +258,8 @@ In this task, you will perform the following changes to a screen:
 
 1. Select **Fit** in the **Image position** drop-down.
 
-1. In the menu, select **File** and then **Save**.
+1. Select **Save**.
 
-1. Click the back arrow to return to the canvas app editor.
 
 ### Task 2.4 - Label
 
@@ -278,11 +275,10 @@ In this task, you will perform the following changes to a label:
 
 1. Select **Card3LabelHeader** and select **Text** in the **Property Selector**.
 
-1. In the formula bar, change **"Active Milestones"** to **"Active Outcomes"**
+1. In the formula bar, change **Active Milestones** to `Active Outcomes`
 
-1. In the menu, select **File** and then **Save**.
+1. Select **Save**.
 
-1. Click the back arrow to return to the canvas app editor.
 
 ### Task 2.5 - Button
 
@@ -295,7 +291,7 @@ In this task, you will perform the following changes to the button:
 
 1. Select the ellipses (...) next to **Button2** and select **Rename**.
 
-1. Enter **SaveBtn**.
+1. Enter `SaveBtn`
 
 1. With the button still selected, select **DisplayMode** in the **Property Selector**.
 
@@ -303,11 +299,12 @@ In this task, you will perform the following changes to the button:
 
     ```If(CountRows(OutcomeGallery.AllItems) > 0, DisplayMode.Edit, DisplayMode.Disabled)```
 
-1. In the menu, select **File** and then **Save**.
+1. Select **Save**.
 
-1. Click **Publish**.
+1. Select **Publish**.
 
-1. Click **Publish this version**.
+1. Select **Publish this version**.
+
 
 ## Exercise 3 – Logic
 
@@ -325,31 +322,34 @@ In this task, you will perform the following changes to the screen:
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
 1. In the **Objects** pane on the left, select **Apps**.
 
-1. Select the **Environmental Work Delivery** app, click on the ellipses (...), and select **Edit**.
+1. Select the **Environmental Work Delivery** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
 1. In the **Tree view**, select and expand **OutcomeScreen**.
 
 1. Select and expand **OutcomeForm**.
 
-1. In the Properties pane, click **Edit fields**.
+1. In the **Properties** pane, select **Edit fields**.
 
-1. Click **+ Add field**.
+1. Select **+ Add field**.
 
-1. Select **Outcome Status**.
+1. Select `Outcome Status`
 
-1. Click **Add**.
+1. Select **Add**.
 
-1. Select the ellipses (...) next to **Status Reason** and select **Remove**.
+1. Select the **More actions** menu (...) next to **Status Reason** and select **Remove**.
 
 1. Select and expand **OutcomeGallery**.
 
 1. Select **Subtitle5_1** and select **Text** in the **Property Selector**.
 
-1. In the formula bar, replace **ThisItem.'Status Reason'** with **ThisItem.'Outcome Status'**
+1. In the formula bar, replace **ThisItem.'Status Reason'** with `ThisItem.'Outcome Status'`
+
+1. Select **Save**.
+
 
 ### Task 3.2 - Outcome form
 
@@ -362,13 +362,16 @@ In this task, you will perform the following changes to the screen:
 
 1. Select **NextArrow5_1** and select **OnSelect** in the **Property Selector**.
 
-1. In the formula bar, replace **NewForm(OutcomeForm)** with **Select(Parent)**.
+1. In the formula bar, replace **NewForm(OutcomeForm)** with `Select(Parent)`
 
 1. Select **OutcomeForm** and select **Item** in the **Property Selector**.
 
 1. Enter the following formula:
 
     ```LookUp(Outcomes, Outcome = OutcomeGallery.Selected.Outcome)```
+
+1. Select **Save**.
+
 
 ### Task 3.3 - Milestone form
 
@@ -382,7 +385,10 @@ In this task, you will perform the following changes to the screen:
 
 1. Select **NextArrow5** and select **OnSelect** in the **Property Selector**.
 
-1. In the formula bar, replace **NewForm(OutcomeForm)** with **Select(Parent)**.
+1. In the formula bar, replace **NewForm(OutcomeForm)** with `Select(Parent)`
+
+1. Select **Save**.
+
 
 ### Task 3.4 - Project type
 
@@ -396,15 +402,18 @@ In this task, you will perform the following changes to the screen:
 
 1. Select **ProjectTypeComboBox** and select **DefaultSelectedItems** in the **Property Selector**.
 
-1. In the formula bar, enter **ThisItem.'Project Type'**.
+1. In the formula bar, enter `ThisItem.'Project Type'`
 
-1. In the menu, select **File** and then **Save**.
+1. Select **Save**.
 
-1. Click **Publish**.
+1. Select **Publish**.
 
-1. Click **Publish this version**.
+1. Select **Publish this version**.
 
-1. In the menu, select **File** and then **Close**.
+1. **Close** the canvas app designer tab.
+
+1. Select **Done**.
+
 
 ## Exercise 4 – Power Automate
 
@@ -417,27 +426,27 @@ In this task, you will perform the following changes to the screen:
 - create an instant flow for use in the canvas app
 - perform a flow action to reset the status of a Milestone
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **Development** environment.
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
 1. In the **Objects** pane on the left, select **Cloud flows**.
 
 1. In the solution, select **+ New** > **Automation** > **Cloud flow** > **Instant**.
 
-    > NOTE: If a Welcome to Power Automate dialog appears, click **Get Started**.
+    > NOTE: If a Welcome to Power Automate dialog appears, select **Get started**.
 
-1. Enter **Reset milestone status** for **Flow name**
+1. Enter `Reset milestone status` for **Flow name**.
 
 1. Select **PowerApps** for **Chose how to trigger this flow**.
 
-1. Click **Create**.
+1. Select **Create**.
 
-1. Click on **+ New step**.
+1. Select **+ New step**.
 
 1. Select the **Microsoft Dataverse** connector.
 
@@ -445,19 +454,20 @@ In this task, you will perform the following changes to the screen:
 
 1. Select **Milestones** for **Table name**.
 
-1. Click in the **Row ID** field.
+1. Select the **Row ID** field.
 
-1. In **Dynamic content**, select **Ask in PowerApps**.
+1. In **Dynamic content**, select **Ask in PowerApps**. 
 
-1. Expand **Show advanced options**.
+1. Expand **Show advanced options**. 
 
-1. Enter **0** for **Milestone Percentage Complete**..
+1. Enter `0` for **Milestone Percentage Complete**.
 
 1. Select **Planned** for **Milestone status**.
 
-1. Click **Save** and wait for the flow to save.
+1. Select **Save** and wait for the flow to save.
 
-1. Click the back arrow icon in the top-left of the flow editor.
+1. Select the **🡠** back arrow in the top left of the flow editor.
+
 
 ### Task 4.2 - Add flow to canvas app
 
@@ -468,21 +478,19 @@ In this task, you will perform the following changes to the screen:
 
 1. In the **Objects** pane on the left, select **Apps**.
 
-1. Select the **Environmental Work Delivery** app, click on the ellipses (...), and select **Edit**.
+1. Select the **Environmental Work Delivery** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
-1. In the left menu, select the **Power Automate** icon.
+1. In the left navigation, select **Power Automate**.
 
-1. Click **+ Add flow**.
+1. Select **+ Add flow**.
 
-1. Select **Reset milestone status**.
-
-1. The flow will be added to the app.
+1. Select **Reset milestone status**. The flow will be added to the app.
 
 1. In the **Tree view**, select and expand **OutcomeScreen**.
 
 1. Select **SaveBtn**.
 
-1. Select the ellipses (...) next to the button in the Tree View and select **Copy**.
+1. Select the ellipses menu (...) next to the button in the **Tree view** and select **Copy**.
 
 1. In the **Tree view**, select and expand **MilestoneScreen**.
 
@@ -490,13 +498,13 @@ In this task, you will perform the following changes to the screen:
 
 1. Select the ellipses (...) next to **SaveBtn_1** and select **Rename**.
 
-1. Enter **ResetBtn**.
+1. Enter `ResetBtn`
 
-1. Select **Text** in the **Property Selector** and enter **"Reset"**.
+1. Select **Text** in the **Property Selector** and replace with `"Reset"`
 
-1. Select **DisplayMode** in the **Property Selector** and change the formula to use the **"MilestoneGallery"**.
+1. Select **DisplayMode** in the **Property Selector** and change the formula to use the `"MilestoneGallery"`
 
-1. Select **OnSelect** in the **Property Selector**.
+1. Select the **OnSelect** property in the **Property Selector**.
 
 1. Enter the following formula:
 
@@ -504,31 +512,29 @@ In this task, you will perform the following changes to the screen:
 
 1. Drag **ResetBtn** under the form.
 
+
 ### Task 4.3 - Publish and share the app
 
-1. In the menu, select **File** and then **Save**.
+1. Select **Save**.
 
-1. Click **Publish**.
+1. Select **Publish**.
 
-1. Click **Publish this version**.
+1. Select **Publish this version**.
 
-1. In the menu, select **File**.
+1. Select **Share**.
 
-1. Click **Share**.
+1. Enter `Alex` in **Enter a name, email address, or Everyone** and select **Alex Wilber**.
 
-1. Enter **Alex** in **Enter a name, email address, or Everyone** and select **Alex Wilber**
+1. Select **Share**.
 
-1. Click **Share**.
-
-1. Enter **Patti** in **Enter a name, email address, or Everyone** and select **Patti Fernandez**.
+1. Enter `Patti` in **Enter a name, email address, or Everyone** and select **Patti Fernandez**.
 
 1. Check the **Co-owner** box.
 
-1. Click **Share**.
-
-1. Click **Cancel** to close the sharing pane.
+1. Select **Share**.
 
 1. **Close** the tab.
+
 
 ## Exercise 5 – Solutions
 
@@ -536,7 +542,7 @@ In this exercise, you will export the solution from the Development environment 
 
 ### Task 5.1 – Export managed solution
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **Development** environment.
 
@@ -546,15 +552,16 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Select **Export solution**.
 
-1. Click **Next**.
+1. Select **Next**.
 
 1. The version number should have been incremented to **1.1.11.10**.
 
 1. Select **Managed** for **Export As**.
 
-1. Click **Export**.
+1. Select **Export**.
 
-1. The export will be prepared in the background. When the solution is ready, click the **Download** button.
+1. The export will be prepared in the background. When the solution is ready, select the **Download** button.
+
 
 ### Task 5.2 – Export unmanaged solution
 
@@ -562,21 +569,20 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Select **Export solution**.
 
-1. Click **Next**.
+1. Select **Next**.
 
 1. The version number should have been incremented to **1.1.11.11**
 
 1. Select **Unmanaged** for **Export As**.
 
-1. Click **Export**.
+1. Select **Export**.
 
-1. The export will be prepared in the background. When the solution is ready, click the **Download** button.
+1. The export will be prepared in the background. When the solution is ready, select the **Download** button.
+
 
 ### Task 5.3 – Import managed solution
 
-1. Switch environments by using the Environment Selector in the upper right corner of the Maker portal.
-
-1. Select the **Live** environment from the list.
+1. Switch to the **Live** environment using the **Environment Selector** in the upper right corner of the Maker portal.
 
 1. Select **Solutions**.
 
@@ -584,6 +590,7 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Select **Browse**, change to the **Downloads** folder and select **FabrikamEnvironmental_1_1_11_10_managed.zip** and select **Open**.
 
-1. Click **Next**.
+1. Select **Next**.
 
-1. Click **Import**. The solution will import in the background.
+1. Select **Import**. The solution will import in the background.
+
