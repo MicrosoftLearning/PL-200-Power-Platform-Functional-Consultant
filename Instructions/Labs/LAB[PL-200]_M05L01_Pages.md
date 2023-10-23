@@ -18,6 +18,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 > IMPORTANT: At the time of writing, Power Pages is in technical preview and the steps may differ. Refer to <https://docs.microsoft.com/power-pages/getting-started/create-manage> for the latest documentation.
 
+
 ### Task 1.1 - Review the Power Pages site
 
 1. Navigate to the Power Pages portal <https://make.powerpages.microsoft.com/>.
@@ -47,6 +48,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 1. In the permissions requested dialog, click **Accept**.
 
 Your user has been added to the portal site.
+
 
 ### Task 1.3 - Review the Portal Management model-driven app
 
@@ -105,6 +107,7 @@ Your user has been added to the portal site.
 
     > NOTE: The footer on the site is not updated immediately.
 
+
 ### Task 1.5 - Review Portal Designer
 
 1. Navigate to the Power Pages portal <https://make.powerpages.microsoft.com/>.
@@ -120,6 +123,7 @@ Your user has been added to the portal site.
 1. In the **Pages** pane on the left-hand side, click to expand **Pages**. You should see **Subpage 2**.
 
 1. Select **Subpage 2**. Do not navigate away from this page.
+
 
 ### Task 1.6 - Update pages in the Portal Designer
 
@@ -163,11 +167,13 @@ Your user has been added to the portal site.
 
 1. Verify your changes have been made.
 
+
 ## Exercise 2 – Expose Dataverse data
 
 In this exercise, you will add a list of Milestone rows to the page, add a form to edit rows, and configure security to allow the data to be changed in the portal site.
 
 > IMPORTANT: At the time of writing, Power Pages is in technical preview and the steps may differ. Refer to <https://docs.microsoft.com/power-pages/getting-started/what-is-dataverse> for the latest documentation.
+
 
 ### Task 2.1 - Display Dataverse records
 
@@ -188,6 +194,7 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 1. Enter **Milestones** for **Name your copy of the select list**.
 
 1. Click **OK**.
+
 
 ### Task 2.2 - Security
 
@@ -231,26 +238,27 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 1. Check the following permissions:
 
     - Read
-    - Append To
+    - Append
 
-1. Click **+ Add Roles**
+1. Select **+ Add Roles**
 
 1. Check the following permissions:
 
     - Administrators
     - Authenticated Users
 
-1. Click **Save**.
+1. Select **Save**.
 
-1. Click **Close** to close the Table permissions pane.
+1. Select **Close** to close the Table permissions pane.
 
-1. In the top-right of the Power Pages designer, click on **Sync**.
+1. In the top-right of the Power Pages designer, select **Sync**.
 
-1. Click on **Preview** and then select **Desktop**.
+1. Select **Preview** and then select **Desktop**.
 
 1. Verify that milestone records are listed in the Power Pages site.
 
 1. Close the Starter Portal tab.
+
 
 ### Task 2.3 - Form
 
@@ -327,3 +335,4 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 1. Click on **Preview** and then select **Desktop**.
 
 1. Test viewing and editing Milestones.
+
