@@ -618,7 +618,7 @@ In this task, you will perform the following changes to the form:
 
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
-1. Sekect **Form Settings**.
+1. Select **Form Settings**.
 
 1. Select the **Environmental manager** and **Environmental administrator** roles as the specific security roles that should have access to this form.
 
