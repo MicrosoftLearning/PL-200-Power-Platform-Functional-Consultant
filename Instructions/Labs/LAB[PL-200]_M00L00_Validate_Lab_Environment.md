@@ -1,92 +1,67 @@
 ---
 lab:
-    title: 'Lab: Validate lab environment'
-    module: 'Module 1: Introduction to Microsoft Power Platform'
+    title: 'Lab 0: Validate lab environment'
+    module: 'Module 0: Course Introduction'
 ---
 
-Module 1: Introduction to Microsoft Power Platform 
-=================================
+# Practice Lab 0 - Validate lab environment
 
-## Practice Lab – Validate lab environment
+> **IMPORTANT:** This lab provides you with a Microsoft 365 tenant and licenses for the Power Platform applications you will be using in this course. You will only be provided with one tenant for the practice labs in this course. The settings and actions you take within this tenant do not roll-back or reset, whereas the virtual machine you are provided with does reset each time you close the lab session. Please be aware that Microsoft 365 and Power Platform are evolving all the time. The instructions in this document may be different from what you experience in your actual tenant. It is also possible to experience a delay of several minutes before the virtual machine has network connectivity to begin the labs.
 
-### Important Notice (Effective November 2020):
-Common Data Service has been renamed to Microsoft Dataverse. Some terminology in Microsoft Dataverse has been updated. For example, entity is now table and field is now column. 
+# WWL Tenants - Terms of Use
+If you are being provided with a tenant as a part of an instructor-led training delivery, please note that the tenant is made available for the purpose of supporting the hands-on labs in the instructor-led training. Tenants should not be shared or used for purposes outside of hands-on labs. The tenant used in this course is a trial tenant and cannot be used or accessed after the class is over and are not eligible for extension. Tenants must not be converted to a paid subscription. Tenants obtained as a part of this course remain the property of Microsoft Corporation and we reserve the right to obtain access and repossess at any time. 
 
-While the application is in the process of updating its user experience, some references to terminology like the Common Data Service (now **Dataverse**), entity (now **table**), field (now **column**), and record (now **row**) may be out of date. Please keep this in mind as you work through the labs. We expect to have our content fully up to date very soon. 
+## Exercise 1 – Acquire a Microsoft Power Platform trial
 
-For more information and for a complete list of affected terms, please visit [What is Microsoft Dataverse?](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)
+In this exercise, you will add a Power Apps trial to the tenant and assign licenses to users.
+
+### Task 1.1 – Acquire your Power Platform trial tenant
+
+1.  Verify that you have your **Microsoft 365 credentials** from the Authorized Lab Host available. 
+
+2.  In a new browser tab, navigate to `https://powerapps.microsoft.com` and select **Start free**. 
+
+3.  Enter the `email address` provided by the Authorized Lab Host. 
+
+4.  Select **Sign in**. 
+
+5.  Enter the `password` provided by the Authorized Lab Host. 
+
+6.  Select **Yes** to stay signed in. 
+
+7.  The Power Apps maker portal will load in a new tab. 
 
 
-## Scenario
+### Task 1.2 – Verify your Power Apps license has been assigned
 
-In this Module 1 lab, you will acquire a Power Platform trial tenant and access
-the Microsoft Power Platform admin center. In the admin center, we will create an
-individual environment for configuration during the course.
+1.  In a new browser tab, navigate to `https://admin.microsoft.com`
 
-## Exercise 1 – Acquire your Microsoft Power Platform trial tenant
+1.  In the left-hand navigation, expand **Users** and select **Active users**.
 
-1.  Copy your **Microsoft 365 credentials** from the Authorized Lab Hoster.
+1.  Select your user **MOD Administrator** to open the user details panel and select the **Licenses and apps** tab. ![Mod Administrator licenses.](../media/mod-administrator.png)
 
-2.  Navigate to <https://powerapps.microsoft.com/>.
+1.  Verify an appropriate **Power Apps** license is selected. If not, retry Task 1.1.
 
-3.  Click **Start free.**
+    > **Note:** Find out more about Power Apps licensing on [Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/admin/signup-for-powerapps-admin).
 
-4.  Under **Let's get you started** page, enter the email address from your Microsoft 365
-    credentials in the text box that says **Enter your work email address.**. Then 
-    click **Next**. 
+1.  Select the **X** in the top right of the pane to close the panel. 
 
-5.  You will see a prompt that you have an existing account with Microsoft.
-    Select **Sign in.**
 
-6.  Enter the password provided by the Authorized Lab Hoster. Click **Sign in.**
+### Task 1.3 – Assign Power Apps licenses to other users
 
-7.  At the **Almost there** prompt, click **Start.**
+1.  In the left-hand navigation, expand **Users** and select **Active users**.
 
-    **Note:** Depending on your internet browser, you may be prompted to sign in
-    again. Select **Sign in**, click the email account you just signed in with,
-    and continue. You may also be prompted to provide more information. Enter
-    1234567890 in the Phone number field, and click **Get started**.
+1.  Check the boxes next to the other users, select the **ellipses (...**) menu in the action bar, and select **Manage product licenses**.
 
-8.  Select **Yes** to stay signed in. On the page that shows **You're all set**,
-    click **Get started**.
-    
-    **Note:** If you get a **Sorry, there's been a disconnect** error message then try to refresh the page. 
+    ![Select other users.](../media/select-users.png)
 
-## Exercise 2 - Create your environment
+1.  Select **Assign more** and select an appropriate **Power Apps** license.
 
-In this exercise, you will create your **Practice** environment that you will
-do the majority of your lab work in.
+    > **Note:** Find out more about Power Apps licensing on [Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/admin/signup-for-powerapps-admin).
 
-### Task 1 – Create environment
+    ![Add more licenses.](../media/add-licenses.png)
 
-1.  Navigate to <https://admin.powerplatform.com> and log in with your Microsoft 365 credentials if prompted again.
+1.  Select **Save changes**.
 
-2.  If you are not automatically directed there, select **Environments** from the left navigation pane and
-    click **+New.**
+1.  Select **Done**.
 
-    -   For **Name**, enter **[my initials] Practice.** (Example: AJ Practice.)
-
-    -   For **Type**, select **Trial.** You may see an option for **Trial
-        (subscription-based)** - select the option that only says **Trial.**
-
-    -   Change the **Create a database for this environment?** toggle to
-        **Yes.**
-
-    -   Leave all other selections as default and click **Next.**
-
-    -   On the next tab, change the toggle for **Deploy sample apps and data?**
-        to **Yes.** Click **Save**.
-
-3.  Your **Practice** environment should now show in the list of Environments.
-
-4.  Your environment may take a few minutes to provision. Refresh the page if
-    needed. When your environment is prepared, select your **Practice**
-    environment by clicking on the ellipses next to its name to expand the drop
-    down menu and select **Settings.**
-
-5.  Explore the different areas in **Settings** that you are interested in but
-    do not make any changes yet.
-
-**NOTE** Depending on the browser that you are using, it is suggested that you
-disable any pop-up blockers that maybe enabled. This will prevent popup screens
-from not appearing as they should.
