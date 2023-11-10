@@ -22,7 +22,7 @@ In this exercise, you will create a *Development* environment that you will do t
 
 1. Select **Get Started** or close the Welcome pop-up.
 
-1. Select **Environments** from the left navigation pane. There should be a single environment, Contoso (default).
+1. Select **Environments** from the left navigation pane. There should be a default environment, Contoso (default), and possibly other environments.
 
 1. Select **+ New**.
 
@@ -50,7 +50,7 @@ In this exercise, you will create a *Development* environment that you will do t
 
 ### Task 1.2 – Create the production environment
 
-1. Navigate to environments in the Power Platform admin center <https://admin.powerplatform.microsoft.com/environments>.
+1. Navigate to environments in the Power Platform admin center `https://admin.powerplatform.microsoft.com/environments`.
 
 1. Select **+ New**.
 
@@ -62,8 +62,8 @@ In this exercise, you will create a *Development* environment that you will do t
 
 1. On the **Add Dataverse** tab, select **Save**.
 
-1. You should now see three environments; Contoso (default), Development, and Production.
+1. You should now see the following environments; Contoso (default), Development, and Production.
 
-   ![Environments.](../media/environments-all.png)
+   ![Environments.](../media/environments-all-dev.png)
 
-   > **Note:** You will use the *Development* environment for all customizations in the labs. The *Production* environment will act as your production environment to import customizations into.
+   > **Note:** You will use the *Development* environment for all customizations in the labs. The *Production* environment will act as your production environment to import solutions into.
