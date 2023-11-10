@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Lab 2.7: Duplicate detection'
-    module: 'Module 2: Manage Microsoft Dataverse'
+    title: 'Duplicate detection (Optional)'
+    module: 'Optional: Manage Microsoft Dataverse'
 ---
 
-# Practice Lab 2.7 - Duplicate detection
+# Practice Lab - Duplicate detection
 
 ## Scenario
 

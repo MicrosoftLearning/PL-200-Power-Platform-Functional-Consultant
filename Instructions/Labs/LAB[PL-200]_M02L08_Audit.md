@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Lab 2.8: Audit'
-    module: 'Module 2: Manage Microsoft Dataverse'
+    title: 'Audit (Optional)'
+    module: 'Optional: Manage Microsoft Dataverse'
 ---
 
-# Practice Lab 2.8 - Audit 
+# Practice Lab - Audit
 
 ## Scenario
 
