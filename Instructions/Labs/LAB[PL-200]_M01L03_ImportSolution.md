@@ -95,26 +95,6 @@ In this exercise, you will import the main solution into the **Development** env
 1.  Select **Publish all customizations**. 
 
 
-### Task 1.2 – Power Virtual Agents solution
-
-1.  Navigate to `https://make.powerapps.com`
-
-1.  Make sure you are in your **Development** environment.
-
-1.  Select **Solutions**.
-
-1.  Select **Import solution**.
-
-1.  Select **Browse**, locate the **FabrikamChatbot_1_1_1_1.zip** file and select **Open**.
-
-    >[!NOTE]
-    > This file is located in the Documents\PL-200 folder on your machine.
-
-1.  Select **Next**.
-
-1.  Select **Import**. The solution will import in the background.
-
-
 ## Exercise 2 - Import data
 
 In this exercise, you will import data the into the **Development** environment using the Configuration Migration Tool.
