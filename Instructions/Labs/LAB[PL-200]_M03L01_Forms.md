@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 3.1: Forms'
-    module: 'Module 3: Create model-driven apps in Power Apps'
+    module: 'Learning Path 3: Create model-driven apps in Power Apps'
 ---
 
 # Practice Lab 3.1 – Forms
@@ -78,7 +78,6 @@ In this task, you will perform the following changes to the form:
 
 1. On the **Save and publish** drop-down menu, select **Save only**. Do not navigate away from this page.
 
-
 ### Task 1.2 – Add Timeline control to main form
 
 In this task, you will perform the following changes to the form:
@@ -121,7 +120,6 @@ In this task, you will perform the following changes to the form:
 
 1. On the **Save and publish** drop-down menu, select **Save only**. Do not navigate away from this page.
 
-
 ### Task 1.3 – Sub-grids on main form
 
 In this task, you will perform the following changes to the form:
@@ -134,12 +132,11 @@ In this task, you will perform the following changes to the form:
 
 1. In the properties pane on the right-hand side, select **Project Outcomes (Project)** in the **Table** drop-down.
 
-1. On the **Save and publish** drop-down menu, select **Save only**. 
+1. On the **Save and publish** drop-down menu, select **Save only**.
 
 1. **Close** the form designer.
 
-1. Select **Done**. 
-
+1. Select **Done**.
 
 ### Task 1.4 – Modify the Project quick view form
 
@@ -181,12 +178,11 @@ In this task, you will perform the following changes to the form:
 
 1. Check **Hide Label**
 
-1. On the **Save and publish** drop-down menu, select **Save only**. 
+1. On the **Save and publish** drop-down menu, select **Save only**.
 
 1. **Close** the form designer.
 
 1. Select **Done**.
-
 
 ## Exercise 2 – Edit Program form
 
@@ -224,12 +220,11 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Company name (Contacts)** for **Relationship to this lookup's table.**
 
-1. On the **Save and publish** drop-down menu, select **Save only**. 
+1. On the **Save and publish** drop-down menu, select **Save only**.
 
 1. **Close** the form designer.
 
 1. Select **Done**.
-
 
 ## Exercise 3 – Edit Program Funding form
 
@@ -263,12 +258,11 @@ In this task, you will perform the following changes to the form:
 
 1. Select the **Funding amount** column to add to the form below **Currency**.
 
-1. On the **Save and publish** drop-down menu, select **Save only**. 
+1. On the **Save and publish** drop-down menu, select **Save only**.
 
 1. **Close** the form designer.
 
 1. Select **Done**.
-
 
 ## Exercise 4 – Edit Region form
 
@@ -323,8 +317,7 @@ In this task, you will perform the following changes to the form:
 
 1. **Close** the form designer.
 
-1. Select **Done**. 
-
+1. Select **Done**.
 
 ## Exercise 5 – Project Resource Quick Create form
 
@@ -354,7 +347,6 @@ In this task, you will enable the Project Resource table for quick create.
 
 1. Select **Save**.
 
-
 ### Task 5.2 – Create Quick Create form
 
 In this task, you will create a quick create form.
@@ -382,7 +374,6 @@ In this task, you will create a quick create form.
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
 1. Select **🡠 Back**.
-
 
 ## Exercise 6 – Edit Milestone form
 
@@ -420,7 +411,6 @@ In this task, you will perform the following changes to the form:
 1. **Close** the form designer.
 
 1. Select **Done**.
-
 
 ## Exercise 7 – Edit Outcome form
 
@@ -461,7 +451,6 @@ In this task, you will perform the following changes to the Outcome form:
 1. **Close** the form designer.
 
 1. Select **Done**.
-
 
 ## Exercise 8 – Edit Project Outcome form
 
@@ -542,7 +531,6 @@ In this task, you will perform the following changes to the Project Outcome form
 
 1. Select **Done**.
 
-
 ## Exercise 9 – Copy Outcome form
 
 In this exercise, you will be copying a form and implementing security on forms.
@@ -618,7 +606,7 @@ In this task, you will perform the following changes to the form:
 
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
-1. Sekect **Form Settings**.
+1. Select **Form Settings**.
 
 1. Select the **Environmental manager** and **Environmental administrator** roles as the specific security roles that should have access to this form.
 
@@ -646,13 +634,11 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Save and publish**.
 
-
 ### Task 9.2 – Publish changes
 
 1. In the **Objects** pane on the left, select **All**.
 
 1. Select **Publish all customizations**.
-
 
 ## Exercise 10 – Modify model-driven apps
 
@@ -717,7 +703,6 @@ In this task, you will perform the following changes to the app:
 
 1. Select **Done**.
 
-
 ### Task 10.2 – Environmental Project Delivery app
 
 In this task, you will perform the following changes to the app:
@@ -754,4 +739,3 @@ In this task, you will perform the following changes to the app:
 1. Navigate around and interact with the **Environmental Project Delivery** app before closing the app and app designer windows.
 
 1. Select **Done**.
-

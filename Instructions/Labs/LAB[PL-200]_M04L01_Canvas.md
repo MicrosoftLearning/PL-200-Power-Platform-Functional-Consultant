@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 4.1: Enhance a canvas app'
-    module: 'Module 4: Create canvas apps in Power Apps'
+    module: 'Learning Path 4: Create canvas apps in Power Apps'
 ---
 
 # Practice Lab 4.1 – Enhance a canvas app
@@ -41,7 +41,7 @@ In this exercise, you will learn about the canvas app.
     - **Milestones**: Set Percentage Complete on Milestones
     - **Outcomes**: Update the details of Outcomes
 
-1. Note that the label for **Outcomes** is incorrect. This is an issue your client, Fabrikam, has raised that needs to be fixed. 
+1. Note that the label for **Outcomes** is incorrect. This is an issue your client, Fabrikam, has raised that needs to be fixed.
 
 1. Select the **Projects** screen (second icon).
 
@@ -76,7 +76,6 @@ In this exercise, you will learn about the canvas app.
 1. Select the **Home** screen (first icon).
 
 1. Close the app.
-
 
 ### Task 1.2 - Review the app in Power Apps Studio
 
@@ -156,7 +155,6 @@ In this exercise, you will learn about the canvas app.
 
 1. **Close** the tab and select **Leave** to discard any changes. Select **Done**.
 
-
 ## Exercise 2 – Change the visual experience of the canvas app
 
 In this exercise, you will change the layout and colors used in the canvas app.
@@ -194,7 +192,6 @@ In this task, you will perform the following changes to the app:
 1. Select the ellipses (...) to the right on App and select **Run OnStart**. Note that the layout adjusts.
 
 1. **Close** the tab and select **Leave** to discard any changes. Select **Done**.
-
 
 ### Task 2.2 - Colors
 
@@ -239,7 +236,6 @@ In this task, you will perform the following changes to the app:
 
 1. Select **Save**.
 
-
 ### Task 2.3 - Background
 
 In this task, you will perform the following changes to a screen:
@@ -260,7 +256,6 @@ In this task, you will perform the following changes to a screen:
 
 1. Select **Save**.
 
-
 ### Task 2.4 - Label
 
 In this task, you will perform the following changes to a label:
@@ -278,7 +273,6 @@ In this task, you will perform the following changes to a label:
 1. In the formula bar, change **Active Milestones** to `Active Outcomes`
 
 1. Select **Save**.
-
 
 ### Task 2.5 - Button
 
@@ -304,7 +298,6 @@ In this task, you will perform the following changes to the button:
 1. Select **Publish**.
 
 1. Select **Publish this version**.
-
 
 ## Exercise 3 – Logic
 
@@ -350,7 +343,6 @@ In this task, you will perform the following changes to the screen:
 
 1. Select **Save**.
 
-
 ### Task 3.2 - Outcome form
 
 In this task, you will perform the following changes to the screen:
@@ -372,7 +364,6 @@ In this task, you will perform the following changes to the screen:
 
 1. Select **Save**.
 
-
 ### Task 3.3 - Milestone form
 
 In this task, you will perform the following changes to the screen:
@@ -388,7 +379,6 @@ In this task, you will perform the following changes to the screen:
 1. In the formula bar, replace **NewForm(OutcomeForm)** with `Select(Parent)`
 
 1. Select **Save**.
-
 
 ### Task 3.4 - Project type
 
@@ -413,7 +403,6 @@ In this task, you will perform the following changes to the screen:
 1. **Close** the canvas app designer tab.
 
 1. Select **Done**.
-
 
 ## Exercise 4 – Power Automate
 
@@ -456,9 +445,9 @@ In this task, you will perform the following changes to the screen:
 
 1. Select the **Row ID** field.
 
-1. In **Dynamic content**, select **Ask in PowerApps**. 
+1. In **Dynamic content**, select **Ask in PowerApps**.
 
-1. Expand **Show advanced options**. 
+1. Expand **Show advanced options**.
 
 1. Enter `0` for **Milestone Percentage Complete**.
 
@@ -467,7 +456,6 @@ In this task, you will perform the following changes to the screen:
 1. Select **Save** and wait for the flow to save.
 
 1. Select the **🡠** back arrow in the top left of the flow editor.
-
 
 ### Task 4.2 - Add flow to canvas app
 
@@ -512,7 +500,6 @@ In this task, you will perform the following changes to the screen:
 
 1. Drag **ResetBtn** under the form.
 
-
 ### Task 4.3 - Publish and share the app
 
 1. Select **Save**.
@@ -535,10 +522,9 @@ In this task, you will perform the following changes to the screen:
 
 1. **Close** the tab.
 
-
 ## Exercise 5 – Solutions
 
-In this exercise, you will export the solution from the Development environment and import it into the Live environment.
+In this exercise, you will export the solution from the Development environment and import it into the Production environment.
 
 ### Task 5.1 – Export managed solution
 
@@ -562,7 +548,6 @@ In this exercise, you will export the solution from the Development environment 
 
 1. The export will be prepared in the background. When the solution is ready, select the **Download** button.
 
-
 ### Task 5.2 – Export unmanaged solution
 
 1. Select the **Fabrikam Environmental** solution.
@@ -579,10 +564,9 @@ In this exercise, you will export the solution from the Development environment 
 
 1. The export will be prepared in the background. When the solution is ready, select the **Download** button.
 
-
 ### Task 5.3 – Import managed solution
 
-1. Switch to the **Live** environment using the **Environment Selector** in the upper right corner of the Maker portal.
+1. Switch to the **Production** environment using the **Environment Selector** in the upper right corner of the Maker portal.
 
 1. Select **Solutions**.
 
@@ -593,4 +577,3 @@ In this exercise, you will export the solution from the Development environment 
 1. Select **Next**.
 
 1. Select **Import**. The solution will import in the background.
-

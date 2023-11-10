@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 3.2: Views'
-    module: 'Module 3: Create model-driven apps in Power Apps'
+    module: 'Learning Path 3: Create model-driven apps in Power Apps'
 ---
 
 # Practice Lab 3.2 – Views
@@ -56,7 +56,6 @@ In this task, you will perform the following changes to the form:
 
 1. On the **Save and publish** drop-down menu, select **Save only**. Do not navigate away from this page.
 
-
 ### Task 1.2 – Create new completed projects view
 
 In this task, you will perform the following changes to the form:
@@ -84,7 +83,6 @@ In this task, you will perform the following changes to the form:
 1. **Close** the view designer.
 
 1. Select **Done**.
-
 
 ## Exercise 2 – Project Funding views
 
@@ -119,7 +117,6 @@ In this task, you will perform the following changes to the form:
 1. **Close** the view designer.
 
 1. Select **Done**.
-
 
 ## Exercise 3 – Outcome views
 
@@ -158,7 +155,6 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Done**.
 
-
 ### Task 3.2 – Modify the Outcome lookup view
 
 In this task, you will perform the following changes to the form:
@@ -178,7 +174,6 @@ In this task, you will perform the following changes to the form:
 1. **Close** the view designer.
 
 1. Select **Done**.
-
 
 ### Task 3.3 – Modify the Outcome Quick Find view
 
@@ -211,7 +206,6 @@ In this task, you will perform the following changes to the form:
 1. **Close** the view designer.
 
 1. Select **Done**.
-
 
 ## Exercise 4 – Milestone views
 
@@ -252,7 +246,6 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Done**.
 
-
 ### Task 4.2 – Modify the My Pending Milestones public view
 
 In this task, you will perform the following changes to the form:
@@ -285,7 +278,6 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Done**.
 
-
 ### Task 4.3 – Modify the Milestones SubGrid view
 
 In this task, you will perform the following changes to the form:
@@ -308,7 +300,6 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Done**.
 
-
 ## Exercise 5 – Project Outcome views
 
 In this exercise, you will make changes to the views for the Project Outcome table.
@@ -320,7 +311,7 @@ In this task, you will perform the following changes to the form:
 - Configure the default views created when the table was created
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
- 
+
 1. Make sure you are in the **Development** environment.
 
 1. Select **Solutions**.
@@ -355,13 +346,11 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Done**.
 
-
 ### Task 5.2 – Publish changes
 
 1. In the  **Objects** pane on the left, select **All**.
 
 1. Select **Publish all customizations**.
-
 
 ## Exercise 6 – Editable grid
 
@@ -410,7 +399,6 @@ In this task, you will perform the following changes to the form:
 1. **Close** the form designer.
 
 1. Select **Done**.
-
 
 ## Exercise 7 – Modify model-driven apps
 
@@ -474,12 +462,11 @@ In this task, you will perform the following changes to the app:
 
 1. Select **Publish**.
 
-1. Select **Play**. Explore the **Environmental Project Delivery** model-driven app. 
+1. Select **Play**. Explore the **Environmental Project Delivery** model-driven app.
 
 1. **Close** the app and the app designer tabs.
 
 1. Select **Done**.
-
 
 ## Exercise 8 – Enable Dataverse Search
 
@@ -504,7 +491,6 @@ The find columns on the quick find views define the searchable fields in the Dat
 1. Toggle **Dataverse search** to **On**.
 
 1. Select **Save** at the bottom.
-
 
 ### Task 8.2 – Search index
 
@@ -537,4 +523,3 @@ The find columns on the quick find views define the searchable fields in the Dat
 ### Task 8.3 – Publish changes
 
 1. Select **Publish all customizations**.
-

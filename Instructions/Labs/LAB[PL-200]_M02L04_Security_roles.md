@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 2.4: Security roles'
-    module: 'Module 2: Manage Microsoft Dataverse'
+    module: 'Learning Path 2: Manage Microsoft Dataverse'
 ---
 
 # Practice Lab 2.4 - Security roles
@@ -48,7 +48,6 @@ You need to remove privileges for importing and exporting of data, deleting acco
 
 1. Scroll down and review the privileges the security role has for the tables in the Fabrikam solution. Do not navigate away from this page.
 
-
 ### Task 1.2 – Modify Milestone and Outcome privileges
 
 1. In the **Custom Entities** tab for the **Environmental user** role, locate the **Milestone** table privileges.
@@ -65,7 +64,6 @@ You need to remove privileges for importing and exporting of data, deleting acco
 
 1. Select **Save**.
 
-
 ### Task 1.3 – Add privileges for Project Outcome
 
 1. In the **Custom Entities** tab for the **Environmental user** role, locate the **Project Outcome** table privileges.
@@ -77,7 +75,6 @@ You need to remove privileges for importing and exporting of data, deleting acco
     ![Access levels for Project Outcome table.](../media/project-outcome-privileges.png)
 
 1. Select **Save**.
-
 
 ### Task 1.4 – Modify miscellaneous privileges
 
@@ -105,11 +102,11 @@ You need to remove privileges for importing and exporting of data, deleting acco
 
 1. Scroll down to **Miscellaneous Privileges**.
 
-1. Select the **View Audit History** privilege to change the access level circle to **Organization**. 
+1. Select the **View Audit History** privilege to change the access level circle to **Organization**.
 
-1. Select the **Business Management** tab. 
+1. Select the **Business Management** tab.
 
-1. Scroll down to **Privacy Related Privileges**. 
+1. Scroll down to **Privacy Related Privileges**.
 
 1. Select the **Export to Excel** privilege to change the access level circle to **None Selected**.
 
@@ -125,10 +122,9 @@ You need to remove privileges for importing and exporting of data, deleting acco
 
 1. Select **Done**.
 
-
 ## Exercise 2 – Solutions
 
-In this exercise, you will export the solution from the Development environment and import it into the Live environment.
+In this exercise, you will export the solution from the Development environment and import it into the Production environment.
 
 ### Task 2.1 – Export managed solution
 
@@ -154,7 +150,6 @@ In this exercise, you will export the solution from the Development environment 
 
 1. The export will be prepared in the background, when the solution is ready select the **Download** button.
 
-
 ### Task 2.2 – Export unmanaged solution
 
 1. Select the **Fabrikam Environmental** solution.
@@ -171,12 +166,11 @@ In this exercise, you will export the solution from the Development environment 
 
 1. The export will be prepared in the background, when the solution is ready select the **Download** button.
 
-
 ### Task 2.3 – Import managed solution
 
 1. Switch environments by using the Environment Selector in the upper right corner of the Maker portal.
 
-1. Select the **Live** environment from the list.
+1. Select the **Production** environment from the list.
 
 1. Select **Solutions**.
 
@@ -193,4 +187,3 @@ In this exercise, you will export the solution from the Development environment 
 1. Select **Upgrade** for **Solution action**.
 
 1. Select **Import**. The solution will import in the background.
-

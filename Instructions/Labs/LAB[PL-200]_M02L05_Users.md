@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 2.5: Users and Teams'
-    module: 'Module 2: Manage Microsoft Dataverse'
+    module: 'Learning Path 2: Manage Microsoft Dataverse'
 ---
 
 # Practice Lab 2.5 – Users and Teams
@@ -66,7 +66,6 @@ You will add the users and team to column security profiles.
 
 1. Select **Refresh** to view the updated list of users.
 
-
 ## Exercise 2 – Create a team
 
 ### Task 2.1 – Create Team
@@ -103,7 +102,6 @@ You will add the users and team to column security profiles.
 
 1. Select **Save**.
 
-
 ## Exercise 3 – Column security profile
 
 ### Task 3.1 – Add user to column security profile
@@ -130,7 +128,6 @@ You will add the users and team to column security profiles.
 
 1. Select **Add**.
 
-
 ### Task 3.2 – Add team to column security profile
 
 1. Select **Column Security Profiles** in the breadcrumb at the top of the screen.
@@ -152,4 +149,3 @@ You will add the users and team to column security profiles.
 1. Enter `Fabrikam` in **Search for a team by team name** and select **Fabrikam Managers**.
 
 1. Select **Add**.
-

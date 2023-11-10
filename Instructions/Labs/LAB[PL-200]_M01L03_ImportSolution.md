@@ -184,7 +184,7 @@ In this exercise, you will import data the into the **Development** environment 
 
 1. Enter `null` for **Value to find**.
 
-1. For **Replace with**, enter a date in three months time. Use date format **MM/DD/YYYY**. 
+1. For **Replace with**, enter a date in three months time. Use date format **MM/DD/YYYY**.
 
 1. Select **OK**. The Estimated Completion Dates should show the date chosen.
 

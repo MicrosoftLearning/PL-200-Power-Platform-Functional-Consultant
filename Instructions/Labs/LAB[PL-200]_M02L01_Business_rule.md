@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 2.1: Business rules'
-    module: 'Module 2: Manage Microsoft Dataverse'
+    module: 'Learning Path 2: Manage Microsoft Dataverse'
 ---
 
 # Practice Lab 2.1 – Business rules
@@ -44,7 +44,7 @@ In this practice lab, you will be creating business rules to show and hide the l
 
 1. In the **Scope** drop-down in the top-right of the Business rules designer, select **All Forms**.
 
-1. Select the **Condition** tile in the canvas and in the **Properties** pane enter `Check Resource Type` for **Display Name**. 
+1. Select the **Condition** tile in the canvas and in the **Properties** pane enter `Check Resource Type` for **Display Name**.
 
 1. In the **Rules** section, select **Resource Type** for **Field**, select **Equals** for **Operator**, select **Value** for **Type**, and select **Internal** for **Value**.
 
@@ -146,7 +146,6 @@ In this practice lab, you will be creating business rules to show and hide the l
 
 1. Select **Done**.
 
-
 ### Task 1.2 – Create Milestone business rules
 
 1. In the **Objects** pane on the left, select the **Milestone** table.
@@ -203,7 +202,6 @@ In this practice lab, you will be creating business rules to show and hide the l
 1. Close the business rule designer tab.
 
 1. Select **Done**.
-
 
 ## Challenge (Optional)
 

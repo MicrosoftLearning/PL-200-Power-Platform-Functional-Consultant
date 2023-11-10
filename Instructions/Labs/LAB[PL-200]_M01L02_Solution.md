@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 1.2: Publisher and Solution'
-    module: 'Module 1: Work with Microsoft Dataverse'
+    module: 'Learning Path 1: Work with Microsoft Dataverse'
 ---
 
 # Practice Lab 1.2 - Publisher and Solution
@@ -30,7 +30,6 @@ In this exercise, you will access the Power Apps maker portal, the Development e
 
 1. Select **Tables** from the left navigation pane. You should see some recommended tables from the Common Data Model.
 
-
 ### Task 1.2 – Create a publisher
 
 1. Select **Solutions** from the left navigation pane. You should see several solutions including the Default Solution and the Common Data Services Default Solution.
@@ -52,7 +51,6 @@ In this exercise, you will access the Power Apps maker portal, the Development e
 1. Select **Save**.
 
     ![New publisher.](../media/new-publisher.png)
-
 
 ### Task 1.3 – Create a solution
 
@@ -92,7 +90,7 @@ In this exercise, you will access the Power Apps maker portal and select the **D
 
     ![Add tables.](../media/add-tables.png)
 
-1. Select **Next**. 
+1. Select **Next**.
 
 1. Under the **Account** table, select the **Select objects** link.
 
@@ -113,4 +111,3 @@ In this exercise, you will access the Power Apps maker portal and select the **D
     ![Add table objects.](../media/add-objects.png)
 
 1. Select **Add**.
-

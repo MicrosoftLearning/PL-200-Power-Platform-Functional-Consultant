@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 1.5: Columns'
-    module: 'Module 1: Work with Microsoft Dataverse'
+    module: 'Learning Path 1: Work with Microsoft Dataverse'
 ---
 
 # Practice Lab 1.5 – Columns
@@ -16,7 +16,6 @@ In this practice lab, you will be modifying the properties of existing table col
 
 In this exercise, you will be changing properties on existing columns on the Project table in the Fabrikam Environmental solution, creating new columns, and adding an alternate key.
 
-
 ### Task 1.1 – Modify properties on existing columns
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
@@ -25,7 +24,7 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
 1. Select **Solutions**.
 
-1. Open the **Fabrikam Environmental** solution. 
+1. Open the **Fabrikam Environmental** solution.
 
 1. In the **Objects** pane on the left, expand **Tables**.
 
@@ -33,7 +32,7 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
 1. Under **Schema**, select **Columns**.
 
-1. Select the **Project Description** column. 
+1. Select the **Project Description** column.
 
 1. In the **Edit column** pane that appears on the right-hand side of the screen, expand **Advanced options** and scroll down.
 
@@ -61,7 +60,7 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
 1. Select the **Estimated End** column.
 
-1. In the **Edit column** pane that appears on the right-hand side of the screen, verify that the **Format** is **Date only**. 
+1. In the **Edit column** pane that appears on the right-hand side of the screen, verify that the **Format** is **Date only**.
 
 1. Expand **Advanced options**.
 
@@ -70,7 +69,6 @@ In this exercise, you will be changing properties on existing columns on the Pro
 1. Under Dashboard, check the **Sortable** box.
 
 1. Select **Save**.
-
 
 ### Task 1.2 – Create an auto number column
 
@@ -86,7 +84,6 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
 1. Select **Save**.
 
-
 ### Task 1.3 – Add an alternate key
 
 1. In the **Objects** pane on the left, expand **Tables**, and select **Project**.
@@ -100,7 +97,6 @@ In this exercise, you will be changing properties on existing columns on the Pro
 1. Check the **Project Code** Column.
 
 1. Select **Save**.
-
 
 ### Task 1.4 – Add a calculated column
 
@@ -156,7 +152,6 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
     ![Calculated column.](../media/calculated-column.png)
 
-
 ## Exercise 2 – Modify and add columns on the Project Funding table
 
 In this exercise, you will be changing properties on existing columns on the Project Funding table in the Fabrikam Environmental solution and adding a new column.
@@ -187,7 +182,6 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
 1. Select **Save**.
 
-
 ### Task 2.2 – Create a currency column
 
 1. Select **+ New column**.
@@ -205,7 +199,6 @@ In this exercise, you will be changing properties on existing columns on the Pro
 1. Change the **Maximum value** to `99999999` (Eight 9s).
 
 1. Select **Save**.
-
 
 ## Exercise 3 – Modify a lookup column on the Milestone table
 
@@ -229,14 +222,13 @@ In this exercise, you will be changing properties on a lookup column on the Mile
 
 1. Select the **Project** column.
 
-1. In the **Edit column** pane that appears on the right-hand side of the screen, change the **Required** drop-down to **Business required**. 
+1. In the **Edit column** pane that appears on the right-hand side of the screen, change the **Required** drop-down to **Business required**.
 
 1. Expand **Advanced options** and scroll down.
 
 1. Check the **Enable auditing** box.
 
 1. Select **Save**.
-
 
 ## Exercise 4 – Add a choice column
 
@@ -282,7 +274,6 @@ In this exercise, you will be creating a choice column to replace the use of sta
 
     ![Choice column.](../media/new-choice.png)
 
-
 ### Task 4.2 – Add choice to Milestone table
 
 1. In the **Objects** pane on the left, expand **Tables**.
@@ -305,7 +296,6 @@ In this exercise, you will be creating a choice column to replace the use of sta
 
     ![Add Choice column.](../media/add-choice.png)
 
-
 ### Task 4.3 – Add choice to Outcome table
 
 1. In the **Objects** pane on the left, expand **Tables**.
@@ -325,7 +315,6 @@ In this exercise, you will be creating a choice column to replace the use of sta
 1. Select **Planned** in the **Default choice** drop-down.
 
 1. Select **Save**.
-
 
 ## Exercise 5 – Create columns on the Project Outcome table
 
@@ -369,7 +358,6 @@ In this exercise, you will be creating columns on the Project Outcome custom tab
 
 1. Select **Save**.
 
-
 ### Task 5.2 – Publish changes
 
 1. In the solution select the **Overview** page.
@@ -377,4 +365,3 @@ In this exercise, you will be creating columns on the Project Outcome custom tab
     ![Overview.](../media/solution-overview.png)
 
 1. Select **Publish all customizations**.
-

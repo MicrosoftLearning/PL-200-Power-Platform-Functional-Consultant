@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 6.1: Cloud flows'
-    module: 'Module 6: Build automation with Power Automate'
+    module: 'Learning Path 6: Build automation with Power Automate'
 ---
 
 # Practice Lab 6.1 – Cloud flows
@@ -124,7 +124,7 @@ In this task, you will perform the following changes to the flow:
 
 1. Enter **APPROVAL_EXPIRED** for **Code**.
 
-1. Enter **Approval timed out for ** and in **Dynamic content**, select **Outcome Title**. 
+1. Enter **Approval timed out for** and in **Dynamic content**, select **Outcome Title**.
 
 1. On the **Terminate 2** step, select the ellipses (...) and select **Configure run after**.
 
@@ -169,7 +169,7 @@ In **Dynamic content**, search for outcome and select **Outcome** under the **Ge
 1. Click **Save**
 
 1. Click the back arrow icon in the top-left of the flow editor.
-**Note:** If you receive an error message stating **This isn't the latest content**, select **Overwrite other people's changes** then click **Apply** to move forward. 
+**Note:** If you receive an error message stating **This isn't the latest content**, select **Overwrite other people's changes** then click **Apply** to move forward.
 
 ## Exercise 2 – Edit environment variable
 
@@ -329,3 +329,61 @@ In this task, you will perform the following:
 1. Click **Save**.
 
 1. Click the back arrow icon in the top-left of the flow editor.
+
+## Exercise 4 – Solutions
+
+In this exercise, you will export the solution from the Development environment and import it into the Production environment.
+
+### Task 4.1 – Export managed solution
+
+1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+
+1. Make sure you are in the **Development** environment.
+
+1. Select **Solutions**.
+
+1. Select the **Fabrikam Environmental** solution but do not open it.
+
+1. Select **Export Solution**.
+
+1. Click **Next**.
+
+1. The version number should have been incremented to **1.1.11.12**.
+
+1. Select **Managed** for **Export As**.
+
+1. Click **Export**.
+
+1. The export will be prepared in the background, when the solution is ready click the **Download** button.
+
+### Task 4.2 – Export unmanaged solution
+
+1. Select the **Fabrikam Environmental** solution.
+
+1. Select **Export Solution**.
+
+1. Click **Next**.
+
+1. The version number should have been incremented to **1.1.11.13**.
+
+1. Select **Unmanaged** for **Export As**.
+
+1. Click **Export**.
+
+1. The export will be prepared in the background, when the solution is ready click the **Download** button.
+
+### Task 4.3 – Import managed solution
+
+1. Switch environments by using the Environment Selector in the upper right corner of the Maker portal.
+
+1. Select the **Production** environment from the list.
+
+1. Select **Solutions**.
+
+1. Select **Import solution**.
+
+1. Select **Browse**, change to the **Downloads** folder and select **FabrikamEnvironmental_1_1_11_12_managed.zip** and select **Open**.
+
+1. Click **Next**.
+
+1. Click **Import**. The solution will import in the background.
