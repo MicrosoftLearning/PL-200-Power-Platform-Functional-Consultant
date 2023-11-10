@@ -57,4 +57,3 @@ In this exercise, you will create a new duplicate detection rule that will mark 
 1. Select **OK**.
 
 1. Select **Close**.
-

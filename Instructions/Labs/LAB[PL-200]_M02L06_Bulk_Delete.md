@@ -67,4 +67,3 @@ In this exercise, you will create a bulk deletion operation that will delete all
 1. Change the view to **Recurring Bulk Deletion System Jobs**.
 
 1. Wait for the job to be created. This can take few minutes. **Refresh** the view as needed.
-

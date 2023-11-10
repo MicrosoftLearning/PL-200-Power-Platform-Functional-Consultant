@@ -41,5 +41,3 @@ In this exercise, you will enable auditing for your environment. In earlier labs
 1. Expand **Audit and logs**.
 
 1. Select **Audit summary view** to view the audited operations so far.
-
-

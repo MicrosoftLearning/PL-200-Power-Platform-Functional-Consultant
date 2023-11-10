@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Lab 3.3: Dashboards'
-    module: 'Module 3: Create model-driven apps in Power Apps'
+    title: 'Dashboards (Optional)'
+    module: 'Optional: Create model-driven apps in Power Apps'
 ---
 
 # Practice Lab 3.3 – Dashboards
@@ -49,7 +49,6 @@ In this exercise, you will assign security roles to the existing dashboard.
 1. Select **OK**.
 
 1. Select **Publish**.
-
 
 ## Exercise 2 – Create an interactive dashboard
 
@@ -105,7 +104,6 @@ In this exercise, you will create an interactive dashboard for Projects.
 
 1. Select **Publish all customizations**.
 
-
 ## Exercise 3 – Enable Power BI quick reports
 
 In this exercise, you will be enabling the feature that uses Power BI to create a report from a model-driven app view.
@@ -134,12 +132,11 @@ In this exercise, you will be enabling the feature that uses Power BI to create 
 
 1. Select **Publish**.
 
-1. Select **Play**. Explore the Environmental Project Delivery app. 
+1. Select **Play**. Explore the Environmental Project Delivery app.
 
 1. **Close** the app and the app designer tabs.
 
 1. Select **Done**.
-
 
 ## Exercise 4 – Solutions
 
@@ -167,7 +164,6 @@ In this exercise, you will export the solution from the Development environment 
 
 1. The export will be prepared in the background. When the solution is ready, select the **Download** button.
 
-
 ### Task 4.2 – Export unmanaged solution
 
 1. Select the **Fabrikam Environmental** solution.
@@ -184,7 +180,6 @@ In this exercise, you will export the solution from the Development environment 
 
 1. The export will be prepared in the background. When the solution is ready, select the **Download** button.
 
-
 ### Task 4.3 – Import managed solution
 
 1. Switch environments by using the **Environment Selector** in the upper right corner of the Maker portal.
@@ -200,4 +195,3 @@ In this exercise, you will export the solution from the Development environment 
 1. Select **Next**.
 
 1. Select **Import**. The solution will import in the background.
-
