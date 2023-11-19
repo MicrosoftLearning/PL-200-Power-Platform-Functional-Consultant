@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab 2.4: Security roles'
+    title: 'Lab 2.3: Security roles'
     module: 'Learning Path 2: Manage Microsoft Dataverse'
 ---
 
@@ -90,7 +90,7 @@ You need to remove privileges for importing and exporting of data, deleting acco
 
 1. Verify that the **Append** privilege access level is set to **Organization**.
 
-1. Verify that the **Append To** privilege taccess level is set to **Organization**.
+1. Verify that the **Append To** privilege access level is set to **Organization**.
 
 1. Locate the **Account** table privileges.
 

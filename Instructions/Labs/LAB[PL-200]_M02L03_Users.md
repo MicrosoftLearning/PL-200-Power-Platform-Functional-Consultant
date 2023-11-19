@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab 2.5: Users and Teams'
+    title: 'Lab 2.3: Users and Teams'
     module: 'Learning Path 2: Manage Microsoft Dataverse'
 ---
 
