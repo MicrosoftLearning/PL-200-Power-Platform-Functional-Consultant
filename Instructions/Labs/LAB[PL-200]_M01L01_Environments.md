@@ -67,3 +67,17 @@ In this exercise, you will create a *Development* environment that you will do t
    ![Environments.](../media/environments-all-dev.png)
 
    > **Note:** You will use the *Development* environment for all customizations in the labs. The *Production* environment will act as your production environment to import solutions into.
+
+### Task 1.3 – Enable classic solution explorer
+
+1. Navigate to environments in the Power Platform admin center `https://admin.powerplatform.microsoft.com/environments`.
+
+1. Select the *Development* environment you created.
+
+1. Select **Settings**.
+
+1. Expand **Product** and select **Behavior**.
+
+1. Toggle *How the Switch to classic button in Power Apps* to **On**.
+
+1. Select **Save**.

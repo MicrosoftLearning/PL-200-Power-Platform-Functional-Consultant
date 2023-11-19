@@ -226,9 +226,9 @@ In this exercise, you will create two many-to-one relationships for the Project 
 
 1. Select the **Project** column.
 
-1. In the **Edit column** pane that appears on the right-hand side of the screen, expand **Advanced options** and scroll down.
+1. In the **Edit column** pane that appears on the right-hand side of the screen, change the **Required** drop-down to **Business required**.
 
-1. Change the **Required** drop-down to **Business required**.
+1. Expand **Advanced options** and scroll down.
 
 1. Check the **Enable auditing** box.
 
@@ -236,13 +236,59 @@ In this exercise, you will create two many-to-one relationships for the Project 
 
 1. Select the **Outcome** column.
 
-1. In the **Edit column** pane that appears on the right-hand side of the screen, expand **Advanced options** and scroll down.
+1. In the **Edit column** pane that appears on the right-hand side of the screen, change the **Required** drop-down to **Business required**.
 
-1. Change the **Required** drop-down to **Business required**.
+1. Expand **Advanced options** and scroll down.
 
 1. Check the **Enable auditing** box.
 
 1. Select **Save**.
+
+### Task 4.4 – Mappings
+
+1. In the **Fabrikam Environmental** solution, select the **Objects** page and select **All**.
+
+1. Select the ellipses **...** and select **Switch to classic**.
+
+1. In Solution Explorer, expand **Entities**.
+
+1. Expand **Project**.
+
+1. Select **1:N Relationships**.
+
+    ![One to many relationships in Solution Explorer.](../media/solution-explorer-relationships.png)
+
+1. Select the relationship between **Project** and **Project Outcome**
+
+    ![One to many relationship in Solution Explorer.](../media/solution-explorer-relationship.png)
+
+1. Select **Mappings**.
+
+    ![Mappings pane.](../media/mappings-default.png)
+
+1. Select **New**.
+
+1. In the left-hand side, select **contoso_projecttitle**.
+
+1. In the right-hand side, select **contoso_title**.
+
+1. Select **OK**.
+
+    ![New mapping pane.](../media/mapping-new.png)
+
+1. Select **New**.
+
+1. In the left-hand side, select **contoso_projectsummary**.
+
+1. In the right-hand side, select **contoso_description**.
+
+1. Select **OK**.
+
+    ![Mappings added.](../media/mappings-added.png)
+
+1. Select **Save and Close**.
+
+1. Close the **Solutions Explorer** tab.
 
 ## Exercise 5 – Connections
 
@@ -316,7 +362,7 @@ In this exercise, you will enable connections for the resource and milestone tab
 
     ![Add connection role.](../media/add-connection-role.png)
 
-1. Under **Matching connection roles**, select **New**.
+1. Under **Matching Connection Roles**, select **New**.
 
     > **Note:** You may need to disable the pop-up blocker in your browser.
 
@@ -342,7 +388,7 @@ In this exercise, you will enable connections for the resource and milestone tab
 
 1. Select the **Save** icon.
 
-1. Under **Matching connection roles**, select **Add Existing**.
+1. Under **Matching Connection Roles**, select **Add Existing**.
 
 1. Add **Contributed to** to the **selected records** by selecting the row using the **Select** button.
 
@@ -394,7 +440,7 @@ In this exercise, you will use relationships to create calculated and rollup fie
 
     > NOTE: You may need to resize the window to see the check marks.
 
-1. Select **+ Add Action**.
+1. Select **+ Add action**.
 
 1. Enter the following formula:
 
