@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab 2.1: Business rules'
+    title: 'Lab 2.1: Implement low-code logic'
     module: 'Learning Path 2: Manage Microsoft Dataverse'
 ---
 
@@ -10,7 +10,7 @@ lab:
 
 You are a Power Platform functional consultant and have been assigned to the Fabrikam project for the next stage of the project.
 
-In this practice lab, you will be creating business rules to show and hide the lookup columns in the model-driven app form for the Resource table and to set the status of Milestone rows to completed when the percentage complete is 100%.
+In this practice lab, you will be creating business rules to show and hide the lookup columns in the model-driven app form for the Resource table and to set the status of Milestone rows to completed when the percentage complete is 100%. You will also create a low-code plug-in to validate dates.
 
 ## Exercise 1 – Create business rules
 
@@ -175,7 +175,7 @@ In this practice lab, you will be creating business rules to show and hide the l
 1. The **Condition Expression (Text View)** should read as follows:
 
     ```
-    (Milestone Percentage Complete Equals [100]) AND (Milestone status Does not equal [Completed,Cancelled])
+    Milestone Percentage Complete equals 100 AND Milestone status does not equal "Completed,Cancelled"
     ```
 
 1. Select **+ Add** and select **Add Set Field Value** and then select the plus icon to the right of the **Condition** tile.
@@ -202,6 +202,47 @@ In this practice lab, you will be creating business rules to show and hide the l
 1. Close the business rule designer tab.
 
 1. Select **Done**.
+
+## Exercise 2 – Low code plug-in
+
+### Task 2.1 – Create a low-code plug-in
+
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
+
+1. Make sure you are in your **Development** environment.
+
+1. Select **Apps**.
+
+1. Select **All**
+
+1. Select the **Dataverse Accelerator App** and select **Play**.
+
+1. Select **+ New plug-in** and select **Automated plug-in**.
+
+1. Enter `Project date validation` for *Display name*.
+
+1. Select **contoso_project** for *Table*.
+
+1. Uncheck **Created** for *Run this plug-in when the row is*.
+
+1. Check **Updated** for *Run this plug-in when the row is*.
+
+1. Expand **Advanced options**.
+
+1. Select **Pre-operation** for *Whenh should this run*.
+
+1. Select **Fabrikam Environmental** for *Soltuion*.
+
+1. Enter the following **Expression**.
+
+    ```
+    If(ThisRecord.'Scheduled Start' > ThisRecord.ScheduledEnd, 
+     Error({Kind: ErrorKind.Validation, Message: "The start sate cannot be after the end date" })
+    );
+    ```
+    ![Low-code plug-in.](../media/lowcode-plugin.png)
+
+1. Select **Save**.
 
 ## Challenge (Optional)
 
