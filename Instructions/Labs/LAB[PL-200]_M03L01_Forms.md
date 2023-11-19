@@ -68,13 +68,19 @@ In this task, you will perform the following changes to the form:
 
 1. Drag the **Project Code** column into the **Header** area.
 
+1. Drag the **Project Summary** column below **Program**.
+
 1. Drag the **Project Lead** column below **Region**.
 
-1. Drag the **Length of Project** column below **Estimated End** in the **Dates** section.
+1. Drag the **Length of Project** column below **Scheduled End** in the **Dates** section.
+
+    ![General tab on project table form.](../media/form-project-general.png)
 
 1. Select the **Funding** tab.
 
 1. Drag the **Total Project Funding** column above the **Project Funding** sub-grid.
+
+    ![Funding tab on project table form.](../media/form-project-funding.png)
 
 1. On the **Save and publish** drop-down menu, select **Save only**. Do not navigate away from this page.
 
@@ -107,6 +113,8 @@ In this task, you will perform the following changes to the form:
 1. In the **Properties** pane on the right side, enter `Timeline` for both **Label** and **Name**.
 
 1. Check the **Hide label** box.
+
+    ![Timeline control on project table form.](../media/form-project-timeline.png)
 
 1. In the **Tree view**, select the **Note Text** control for the Timeline.
 
@@ -178,6 +186,8 @@ In this task, you will perform the following changes to the form:
 
 1. Check **Hide Label**
 
+    ![Project Quick View form.](../media/form-project-quickview.png)
+
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
 1. **Close** the form designer.
@@ -220,15 +230,17 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Company name (Contacts)** for **Relationship to this lookup's table.**
 
+    ![Program main form filtering.](../media/form-program-main.png)
+
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
 1. **Close** the form designer.
 
 1. Select **Done**.
 
-## Exercise 3 – Edit Program Funding form
+## Exercise 3 – Edit Project Funding form
 
-In this exercise, you will add new columns to the Project Funding table form.
+In this exercise, you will add new columns to the Project Funding table main form.
 
 ### Task 3.1 – Add columns to form
 
@@ -257,6 +269,8 @@ In this task, you will perform the following changes to the form:
 1. Drag the **Currency** column below **Funding Percentage**.
 
 1. Select the **Funding amount** column to add to the form below **Currency**.
+
+    ![Project Funding main form.](../media/form-project-funding-main.png)
 
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
@@ -312,6 +326,8 @@ In this task, you will perform the following changes to the form:
 1. In the **Properties** pane on the right side, enter `Sub Regions` for **Label** and `ChildRegionsSG` for **Name**.
 
 1. Check the **Hide label** box.
+
+    ![Region main form.](../media/form-region-main.png)
 
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
@@ -371,6 +387,8 @@ In this task, you will create a quick create form.
 
 1. Select the third section, and in the properties pane click **Hide label**.
 
+    ![Project Resource Quick Create form.](../media/form-project-resource-quick-create.png)
+
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
 1. Select **🡠 Back**.
@@ -405,6 +423,8 @@ In this task, you will perform the following changes to the form:
 1. Drag the **Milestone Status** column below the **Status Reason** field.
 
 1. Select the **Status Reason** field and select **Delete**.
+
+    ![Milestone main form.](../media/form-milestone-main.png)
 
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
@@ -445,6 +465,8 @@ In this task, you will perform the following changes to the Outcome form:
 1. Select the **Status Reason** field and select **Delete**.
 
 1. Select the **Projects** tab and select the **Delete** icon.
+
+    ![Outcome main form.](../media/form-outcome-main.png)
 
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
@@ -525,6 +547,8 @@ In this task, you will perform the following changes to the Project Outcome form
 
 1. Drag the new **Quick view** control into the **Related** section in the second column.
 
+    ![Project Outcome main form.](../media/form-project-outcome-main.png)
+
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
 1. **Close** the form designer.
@@ -572,15 +596,13 @@ In this task, you will perform the following changes to the form:
 
 1. Select the **General** tab.
 
-1. In the properties pane on the right-hand side, enter **General** for **Name**
+1. In the properties pane on the right-hand side, enter `General` for **Name**
 
 1. Under **Formatting**, in the **Layout** drop-down, select **2 columns**.
 
 1. Select the **New Section** section.
 
 1. In the **Properties** pane on the right side, enter `Details` for **Label** and **Name**.
-
-1. Check **Hide label**.
 
 1. Select **Table columns** on the left navigation of the form designer.
 
@@ -604,19 +626,31 @@ In this task, you will perform the following changes to the form:
 
 1. Click on **Environmental impact assessment completed** to add to the Details section.
 
+1. Select the **Details** section.
+
+1. Check **Hide label**.
+
+    ![Manager Outcome main form.](../media/form-manager-outcome-main.png)
+
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
 1. Select **Form Settings**.
 
 1. Select the **Environmental manager** and **Environmental administrator** roles as the specific security roles that should have access to this form.
 
+    ![Form Settings roles.](../media/form-settings-roles.png)
+
 1. Select the **Form order** tab.
 
 1. Drag **Manager** above **User**.
 
+    ![Form Settings form order.](../media/form-settings-order.png)
+
 1. Select the **Fallback forms** tab.
 
 1. Uncheck **Enable Manager form as a Fallback form**.
+
+    ![Form Settings fallback.](../media/form-settings-fallback.png)
 
 1. Select **Save and publish**.
 
@@ -663,7 +697,7 @@ In this task, you will perform the following changes to the app:
 
 1. Select the **Environmental Management** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
-1. Select **+ Add page**.
+1. Select **+ New**.
 
 1. Select **Dataverse table**.
 
@@ -675,7 +709,7 @@ In this task, you will perform the following changes to the app:
 
 1. Select **Add**.
 
-1. Select **+ Add page**.
+1. Select **+ New**.
 
 1. Select **Dataverse table**.
 
@@ -689,9 +723,9 @@ In this task, you will perform the following changes to the app:
 
 1. In the **Pages** pane on the left side, select **Outcome forms** under **All other pages**.
 
-1. In the **Outcome forms** pane on the right side, turn off **Include all forms in the app**.
+1. In the **Outcome forms** pane on the right side, select the ellipses **...** for the **User** form and select **Remove**
 
-1. Select **Turn off**.
+    ![App designer.](../media/app-designer.png)
 
 1. Select **Save**.
 
@@ -700,6 +734,8 @@ In this task, you will perform the following changes to the app:
 1. Select **Play**.
 
 1. Navigate around and interact with the **Environmental Management** app before closing the app and app designer windows.
+
+1. **Close** the app designer window.
 
 1. Select **Done**.
 
@@ -712,7 +748,7 @@ In this task, you will perform the following changes to the app:
 
 1. Select the **Environmental Project Delivery** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
-1. Select **+ Add page**.
+1. Select **+ New**.
 
 1. Select **Dataverse table**.
 
@@ -726,7 +762,7 @@ In this task, you will perform the following changes to the app:
 
 1. In the **Pages** pane on the left side, select **Outcome forms**.
 
-1. In the **Outcome forms** pane on the right side, select the **More options** menu (...) on the **Manager** form and select **Remove**.
+1. In the **Outcome forms** pane on the right side, select the ellipses **...** on the **Manager** form and select **Remove**.
 
 1. Remove the **Information** forms of type **Quick view** and **Card Form**.
 
@@ -736,6 +772,6 @@ In this task, you will perform the following changes to the app:
 
 1. Select **Play**.
 
-1. Navigate around and interact with the **Environmental Project Delivery** app before closing the app and app designer windows.
+1. Navigate around and interact with the **Environmental Project Delivery** app and then  **Close** the app and app designer windows.
 
 1. Select **Done**.
