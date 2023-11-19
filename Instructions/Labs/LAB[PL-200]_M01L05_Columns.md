@@ -36,7 +36,7 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
 1. In the **Edit column** pane that appears on the right-hand side of the screen, expand **Advanced options** and scroll down.
 
-1. Change the **Maximum character count** to **10000**.
+1. Change the **Maximum character count** to `10000`.
 
 1. Select **Save**.
 
@@ -138,7 +138,7 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
 1. Select the green check mark.
 
-1. Select **+ Add Action**.
+1. Select **+ Add action**.
 
 1. Enter the following formula:
 
@@ -151,6 +151,26 @@ In this exercise, you will be changing properties on existing columns on the Pro
 1. Select **SAVE AND CLOSE**.
 
     ![Calculated column.](../media/calculated-column.png)
+
+### Task 1.5 – Add a formula column
+
+1. In the **Objects** pane on the left, expand **Tables**, and select **Project**.
+
+1. Under **Schema**, select **Columns**.
+
+1. Select **+ New column**.
+
+1. Enter `Project Summary` for **Display Name**.
+
+1. Select **Formula** in the **Data type** drop-down.
+
+1. Enter the following formula:
+
+    ```Concatenate('Project Type'.Name,"|",Region.'Region Name')```
+
+    > NOTE: You can use intellisense to type and select the elements in the formula.
+
+1. Select **Save**.
 
 ## Exercise 2 – Modify and add columns on the Project Funding table
 
