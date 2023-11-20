@@ -278,7 +278,7 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Done**.
 
-### Task 3.2 – Add form control 
+### Task 3.2 – Add form control
 
 In this task, you will perform the following changes to the form:
 
@@ -745,7 +745,7 @@ In this task, you will perform the following changes to the app:
 
 1. Open the **Fabrikam Environmental** solution.
 
-1. In the **Objects** pane on the left, expand **Apps**.
+1. In the **Objects** pane on the left, select **Apps**.
 
 1. Select the **Environmental Management** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 

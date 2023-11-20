@@ -118,7 +118,7 @@ In this exercise, you will be enabling the feature that uses Power BI to create 
 
 1. Open the **Fabrikam Environmental** solution.
 
-1. In the **Objects** pane on the left, expand **Apps**.
+1. In the **Objects** pane on the left, select **Apps**.
 
 1. Select the **Environmental Project Delivery** app, click on the ellipses (...), and select **Edit** > **Edit in new tab**.
 

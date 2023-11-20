@@ -448,7 +448,7 @@ In this task, you will perform the following changes to the app:
 
 1. Click to open the **Fabrikam Environmental** solution.
 
-1. In the **Objects** pane on the left, click and expand **Apps**.
+1. In the **Objects** pane on the left, click and select **Apps**.
 
 1. Select the **Environmental Project Delivery** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
