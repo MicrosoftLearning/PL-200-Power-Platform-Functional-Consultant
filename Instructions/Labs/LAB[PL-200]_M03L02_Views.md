@@ -54,6 +54,8 @@ In this task, you will perform the following changes to the form:
 
 1. Drag the **Total Project Funding** column to the left of **Project Status**.
 
+    ![Active Projects view.](../media/view-project-active-projects.png)
+
 1. On the **Save and publish** drop-down menu, select **Save only**. Do not navigate away from this page.
 
 ### Task 1.2 – Create new completed projects view
@@ -77,6 +79,8 @@ In this task, you will perform the following changes to the form:
 1. Select **Apply**.
 
 1. Select the caret next to the **Project Status** column and select **Remove**.
+
+    ![Completed Projects view.](../media/view-project-completed-projects.png)
 
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
@@ -111,6 +115,8 @@ In this task, you will perform the following changes to the form:
 1. Select the **Active Project Funding** view, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
 1. Drag the **Funding Amount** column from **Table columns** to between the **Funder** and **Funding Percentage** columns, adding it to the view.
+
+    ![Project Funding view.](../media/view-project-funding-active-project-funding.png)
 
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
@@ -149,6 +155,8 @@ In this task, you will perform the following changes to the form:
 
 1. Select the caret next to the **Status Reason** column and select **Remove**.
 
+    ![Active Outcomes view.](../media/view-outcome-active-outcomes.png)
+
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
 1. **Close** the view designer.
@@ -168,6 +176,8 @@ In this task, you will perform the following changes to the form:
 1. Select the **Target Aim** column to add to the view.
 
 1. Select the **Outcome status** column to add to the view.
+
+    ![Outcome Lookup view.](../media/view-outcome-lookup.png)
 
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
@@ -191,7 +201,7 @@ In this task, you will perform the following changes to the form:
 
 1. Select the **Estimated Completion Date** column to add to the view.
 
-1. In the **Quick Find Active Outcomes** pane on the right, select **Edit find table columns**.
+1. In the **Quick Find Active Outcomes** pane on the right, select **Edit find table columns** under **Find by**.
 
 1. Choose the following columns and select **Apply**.
 
@@ -200,6 +210,8 @@ In this task, you will perform the following changes to the form:
     - Outcome Description
     - Outcome Title
     - Target Aim
+
+    ![Outcome Quick Find view.](../media/view-outcome-quick-find.png)
 
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
@@ -240,6 +252,8 @@ In this task, you will perform the following changes to the form:
 
 1. Select the caret next to the **Status Reason** column and select **Remove**.
 
+    ![Active Milestones view.](../media/view-milestone-active-milestones.png)
+
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
 1. **Close** the view designer.
@@ -270,7 +284,7 @@ In this task, you will perform the following changes to the form:
 
     ![Edit filters pane.](../media/edit-filters.png)
 
-1. Select **OK**.
+1. Select **Ok**.
 
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
@@ -293,6 +307,8 @@ In this task, you will perform the following changes to the form:
 1. Drag the **Milestone Status** column to the right of the **Status Reason** column in the view.
 
 1. Select the caret next to the **Status Reason** column and select **Remove**.
+
+    ![Milestones SubGrid view.](../media/view-milestone-subgrid.png)
 
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
@@ -340,6 +356,8 @@ In this task, you will perform the following changes to the form:
 
 1. Select the **up** arrow to change the sorting to descending.
 
+    ![Active Project Outcomes view.](../media/view-project-outcomes.png)
+
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
 1. **Close** the view designer.
@@ -378,6 +396,16 @@ In this task, you will perform the following changes to the form:
 
 1. Select the **Information** form of type **Main**, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
+1. Select **Components** on the left navigation of the form designer.
+
+1. Select **Get more components**.
+
+1. Select the **Power Apps grid control**.
+
+    ![Add Power Apps grid control.](../media/add-powerapps-grid-control.png)
+
+1. Select **Add**.
+
 1. Select the **Milestones** tab.
 
 1. Select the **Milestones** sub-grid.
@@ -386,11 +414,11 @@ In this task, you will perform the following changes to the form:
 
 1. Select **+ Component**.
 
-1. Select **Editable Grid**.
+1. Select **Power Apps grid control**.
 
-1. Under **Subgrid**, select **Projects** for **Table**.
+1. Select **Yes** for **Enable editing**.
 
-1. Select **Active Projects** for **View**.
+1. Select **Yes** for **Show data type icons**.
 
 1. Select **Done**.
 
@@ -426,37 +454,27 @@ In this task, you will perform the following changes to the app:
 
 1. Under **Projects** in the **Pages** pane on the left-hand side, select **Projects view**.
 
-1. In the **Projects** pane on the right, select **Include all views in the app**.
+1. In the **Projects** pane on the right side, select the ellipses **...** on the **Active Projects** view and select **Remove**.
 
-1. Select **Turn off**.
+1. In the **Projects** pane on the right side, select the ellipses **...** on the **Inactive Projects** view and select **Remove**.
 
-1. Add the following views by selecting **More options** menu (...) > **Add**.
+1. In the **Projects** pane on the right side, select the ellipses **...** on the **Projects Subgrid** view and select **Remove**.
 
-    - Completed Projects
-    - My Active Projects
+    ![Project views in app.](../media/app-designer-views.png)
 
 1. Select **Milestones view** from the left **Pages** pane.
 
-1. In the **Milestones** pane on the right, select **Include all views in the app**.
+1. In the **Milestones** pane on the right side, select the ellipses **...** on the **Inactive Milestones** view and select **Remove**.
 
-1. Select **Turn off**.
-
-1. Add the following views by selecting **More options** menu (...) > **Add**.
-
-    - Inactive Milestones
-    - My Pending Milestones
+1. In the **Milestones** pane on the right side, select the ellipses **...** on the **Milestones SubGrid** view and select **Remove**.
 
 1. In the **Pages** pane on the left-hand side.
 
-1. Select **Outcome view**.
+1. Select **Outcomes view**.
 
-1. In the pane on the right-hand side, select **Include all views in the app**.
+1. In the **Outcomes** pane on the right side, select the ellipses **...** on the **Inactive Outcomes** view and select **Remove**.
 
-1. Select **Turn off**.
-
-1. Add the following views by selecting **More options** menu (...) > **Add**.
-
-    - Inactive Outcomes
+1. In the **Outcomes** pane on the right side, select the ellipses **...** on the **Outcomes SubGrid** view and select **Remove**.
 
 1. Select **Save**.
 
