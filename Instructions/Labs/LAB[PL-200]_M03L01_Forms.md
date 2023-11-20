@@ -240,7 +240,7 @@ In this task, you will perform the following changes to the form:
 
 ## Exercise 3 – Edit Project Funding form
 
-In this exercise, you will add new columns to the Project Funding table main form.
+In this exercise, you will add new columns to the Project Funding table main form and add the form control to allow editing of the account record.
 
 ### Task 3.1 – Add columns to form
 
@@ -271,6 +271,58 @@ In this task, you will perform the following changes to the form:
 1. Select the **Funding amount** column to add to the form below **Currency**.
 
     ![Project Funding main form.](../media/form-project-funding-main.png)
+
+1. On the **Save and publish** drop-down menu, select **Save only**.
+
+1. **Close** the form designer.
+
+1. Select **Done**.
+
+### Task 3.2 – Add form control 
+
+In this task, you will perform the following changes to the form:
+
+- add form component to embed the account form
+
+1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+
+1. Make sure you are in the **Development** environment.
+
+1. Select **Solutions**.
+
+1. Open the **Fabrikam Environmental** solution.
+
+1. In the **Objects** pane on the left, expand **Tables**.
+
+1. Select the **Project Funding** table.
+
+1. Under **Data experiences**, select **Forms**.
+
+1. Select the **Information** form where the **Form type** is **Main**, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
+
+1. Select **Tree view** on the left-hand side of the form designer.
+
+1. Select the **General** tab.
+
+1. In the **Properties** pane on the right-hand side, select **2 columns** in the **Layout** drop-down.
+
+1. Select **Components** on the left navigation of the form designer.
+
+1. Expand **Display**.
+
+1. Drag the **Form** control to the right-hand column of the **General** tab.
+
+1. Select **Funder** for **Lookup column**.
+
+1. Select **Account main form for Environmental** for **Related Form**.
+
+1. Select **Done**.
+
+1. Select the **New Section**
+
+1. Check the **Hide label** box.
+
+    ![Project Funding main form with form control.](../media/form-project-funding-form-control.png)
 
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
