@@ -446,7 +446,11 @@ In this task, you will perform the following changes to the screen:
 
 1. Select **Create**.
 
-1. Select **+ New step**.
+1. Select **+ Add an input**.
+   
+1. Select **text**.
+   
+1. Enter **Milestone and click + New step**.
 
 1. Select the **Microsoft Dataverse** connector.
 

@@ -181,7 +181,7 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
 1. Make sure you are in the **Development** environment.
 
-1. Edit **Edit**.
+1. Click **Edit**.
 
 1. In the **Pages** pane on the left-hand side, click to expand **Pages**, and select **Milestones**.
 
@@ -191,9 +191,9 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
 1. Select **Milestones SubGrid** for **Select Dataverse views**.
 
-1. Enter **Milestones** for **Name your copy of the select list**.
+1. Enter **Milestones** for **Name your list**.
 
-1. Click **OK**.
+1. Click **Done**.
 
 
 ### Task 2.2 - Security
@@ -300,15 +300,15 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
 1. Click **OK**.
 
-1. In the **Pages** pane on the left-hand side, and select **Milestones**.
+1. In the **Pages** pane on the left-hand side, select **Milestones**.
 
 1. Select the ellipses (...) and select **Promote this subpage**.
 
-1. In the **Pages** pane on the left-hand side, and select **Pages**.
+1. In the **Pages** pane on the left-hand side, select **Pages**.
 
 1. Select the ellipses (...) and select **Delete**.
 
-1. In the **Pages** pane on the left-hand side, and select **Milestones**.
+1. In the **Pages** pane on the left-hand side, select **Milestones**.
 
 1. In the canvas, select the **Milestones list component**.
 
