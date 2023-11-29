@@ -30,7 +30,7 @@ In this exercise, you will import Outcome rows into your Microsoft Dataverse env
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in your **Dev One** environment.
 
 1. Select **Tables** from the left navigation menu.
 
