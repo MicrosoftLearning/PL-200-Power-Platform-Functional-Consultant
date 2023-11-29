@@ -170,7 +170,7 @@ In this exercise, you will import data the into the **Development** environment 
 
 1. Select the **Waffle** button in the upper left corner to change applications and select **OneDrive**. (It may take a moment for your OneDrive to be set up. Select **Your OneDrive is ready** when you see it on the screen.)
 
-1. Select **+ Add New** and select **Files upload**.
+1. Select **+ Add new** and select **Files upload**.
 
 1. Locate and select the **Outcome data.xlsx** file and select **Open**.
 

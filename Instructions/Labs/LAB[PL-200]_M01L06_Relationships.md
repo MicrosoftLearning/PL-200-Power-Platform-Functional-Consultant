@@ -262,6 +262,8 @@ In this exercise, you will create two many-to-one relationships for the Project 
 
     ![One to many relationship in Solution Explorer.](../media/solution-explorer-relationship.png)
 
+1. Select **More Actions** and select **Edit**.
+
 1. Select **Mappings**.
 
     ![Mappings pane.](../media/mappings-default.png)
@@ -280,7 +282,7 @@ In this exercise, you will create two many-to-one relationships for the Project 
 
 1. In the left-hand side, select **contoso_projectsummary**.
 
-1. In the right-hand side, select **contoso_description**.
+1. In the right-hand side, select **contoso_comments**.
 
 1. Select **OK**.
 
