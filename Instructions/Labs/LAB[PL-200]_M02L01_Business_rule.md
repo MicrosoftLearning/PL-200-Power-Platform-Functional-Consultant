@@ -98,7 +98,7 @@ In this practice lab, you will be creating business rules to show and hide the l
 
 1. Select **Save As**.
 
-1. Next to **New business rule** name at the top of the screen, select the drop-down caret.
+1. Next to **Copy of Resource Type Internal** name at the top of the screen, select the drop-down caret.
 
 1. Enter `Resource Type External` for **Business rule name**. Collapse the top section.
 
@@ -166,7 +166,7 @@ In this practice lab, you will be creating business rules to show and hide the l
 
 1. At the top of the **Rules** section, select **+ New** to add **Rule 2**.
 
-1. In the **Rule 2** section, select **Milestone status** for **Field**, select **Does not equal** for **Operator**, select **Value** for **Type**, and check **Completed** and **Cancelled** for **Value**.
+1. In the **Rule 2** section, select **Milestone Status** for **Field**, select **Does not equal** for **Operator**, select **Value** for **Type**, and check **Completed** and **Cancelled** for **Value**.
 
 1. Select **AND** for **Rule Logic**.
 
@@ -175,12 +175,12 @@ In this practice lab, you will be creating business rules to show and hide the l
 1. The **Condition Expression (Text View)** should read as follows:
 
     ```
-    Milestone Percentage Complete equals 100 AND Milestone status does not equal "Completed,Cancelled"
+    Milestone Percentage Complete equals 100 AND Milestone Status does not equal "Completed,Cancelled"
     ```
 
 1. Select **+ Add** and select **Add Set Field Value** and then select the plus icon to the right of the **Condition** tile.
 
-1. Enter `Mark Complete` for **Display Name**. In the **Field Value** section, select **Milestone status** for **Field**, select **Value** for **Type**, and select **Completed** for **Value**.
+1. Enter `Mark Complete` for **Display Name**. In the **Field Value** section, select **Milestone Status** for **Field**, select **Value** for **Type**, and select **Completed** for **Value**.
 
 1. Select **Apply**.
 
@@ -188,9 +188,9 @@ In this practice lab, you will be creating business rules to show and hide the l
 
     ```
     IF
-     Milestone Percentage Complete equals 100 AND Milestone status does not equal "Completed,Cancelled"
+     Milestone Percentage Complete equals 100 AND Milestone Status does not equal "Completed,Cancelled"
     THEN
-     Set Milestone status to "Completed"
+     Set Milestone Status to "Completed"
     ```
 
 1. Select **Save**. You should see the message that Validation was successful.
