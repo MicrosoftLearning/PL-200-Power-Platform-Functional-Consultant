@@ -20,7 +20,7 @@ In this exercise, you will access the Power Apps maker portal, the Development e
 
 1. If you are prompted for a **Phone number** enter `0123456789` and select **Submit**.
 
-1. Switch environments by using the Environment Selector in the upper right corner of the screen. The *Contoso (default)* environment will be selected by default.
+1. Switch environments by using the Environment Selector in the upper right corner of the screen.
 
 1. Select your **Development** environment from the list.
 
