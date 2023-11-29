@@ -22,9 +22,7 @@ In this exercise, you will access the Power Apps maker portal, the Development e
 
 1. Switch environments by using the Environment Selector in the upper right corner of the screen. The *Contoso (default)* environment will be selected by default.
 
-1. Select your **Development** environment from the list.
-
-    ![Select Development environment in the Power Apps maker portal.](../media/select-dev-environment.png)
+1. Select your **Dev One** environment from the list.
 
 1. Select **Apps** from the left navigation pane. You should see some default system apps listed, Solution Health Hub etc. You may also see Fabrikam Milestones and Portal Management apps being provisioned.
 
