@@ -40,7 +40,7 @@ You will add the users and team to column security profiles.
 
 1. Select **Add**.
 
-1. Select the **Environmental User** role.
+1. Select the **Environmental user** role.
 
 1. Select **Save**.
 
@@ -50,7 +50,7 @@ You will add the users and team to column security profiles.
 
 1. Select **Add**.
 
-1. Select the **Environmental User** and **Environmental Manager** roles.
+1. Select the **Environmental User** and **Environmental manager** roles.
 
 1. Select **Save**.
 
@@ -60,7 +60,7 @@ You will add the users and team to column security profiles.
 
 1. Select **Add**.
 
-1. Select the **Environmental User** and **Environmental Administrator** roles.
+1. Select the **Environmental User** and **Environmental administrator** roles.
 
 1. Select **Save**.
 
@@ -98,7 +98,7 @@ You will add the users and team to column security profiles.
 
 1. Select **Next**.
 
-1. Select the **Environmental User** and **Environmental Manager** roles.
+1. Select the **Environmental user** and **Environmental manager** roles.
 
 1. Select **Save**.
 
