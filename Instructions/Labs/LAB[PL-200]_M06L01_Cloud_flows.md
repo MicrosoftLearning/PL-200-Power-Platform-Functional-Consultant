@@ -10,7 +10,7 @@ lab:
 
 You are a Power Platform functional consultant and have been assigned to the Fabrikam project for the next stage of the project.
 
-In this practice lab, you change an existing approvals flow and add error handling. You will also set the value of the environment variable used by the flow. You will also create a new flow to automatically set the actual end date on projects.
+In this practice lab, you change an existing approvals flow and add error handling. You will also set the value of the environment variable used by the flow. You will also create a new flow to automatically set the actual end date on projects. You will call a Power Automate cloud flow from a canvas app.
 
 ## Exercise 1 – Edit approval cloud flow
 
@@ -330,11 +330,129 @@ In this task, you will perform the following:
 
 1. Click the back arrow icon in the top-left of the flow editor.
 
-## Exercise 4 – Solutions
+## Exercise 4 – Call Power Automate from a Canvas app
+
+In this exercise, you will add a Power Automate flow to the canvas app to reset the status of a Milestone.
+
+### Task 4.1 - Create flow
+
+In this task, you will perform the following changes to the screen:
+
+- create an instant flow for use in the canvas app
+- perform a flow action to reset the status of a Milestone
+
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
+
+1. Make sure you are in the **Development** environment.
+
+1. Select **Solutions**.
+
+1. Open the **Fabrikam Environmental** solution.
+
+1. In the **Objects** pane on the left, select **Cloud flows**.
+
+1. In the solution, select **+ New** > **Automation** > **Cloud flow** > **Instant**.
+
+    > NOTE: If a Welcome to Power Automate dialog appears, select **Get started**.
+
+1. Enter `Reset milestone status` for **Flow name**.
+
+1. Select **PowerApps** for **Chose how to trigger this flow**.
+
+1. Select **Create**.
+
+1. Select **+ New step**.
+
+1. Select the **Microsoft Dataverse** connector.
+
+1. Select the **Update a row** action.
+
+1. Select **Milestones** for **Table name**.
+
+1. Select the **Row ID** field.
+
+1. In **Dynamic content**, select **Ask in PowerApps**.
+
+1. Expand **Show advanced options**.
+
+1. Enter `0` for **Milestone Percentage Complete**.
+
+1. Select **Planned** for **Milestone status**.
+
+1. Select **Save** and wait for the flow to save.
+
+1. Select the **🡠** back arrow in the top left of the flow editor.
+
+### Task 4.2 - Add flow to canvas app
+
+In this task, you will perform the following changes to the screen:
+
+- add the flow to the canvas app
+- run the flow from a button
+
+1. In the **Objects** pane on the left, select **Apps**.
+
+1. Select the **Environmental Work Delivery** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
+
+1. In the left navigation, select **Power Automate**.
+
+1. Select **+ Add flow**.
+
+1. Select **Reset milestone status**. The flow will be added to the app.
+
+1. In the **Tree view**, select and expand **OutcomeScreen**.
+
+1. Select **SaveBtn**.
+
+1. Select the ellipses menu (...) next to the button in the **Tree view** and select **Copy**.
+
+1. In the **Tree view**, select and expand **MilestoneScreen**.
+
+1. Right-click in the app area and select **Paste**.
+
+1. Select the ellipses (...) next to **SaveBtn_1** and select **Rename**.
+
+1. Enter `ResetBtn`
+
+1. Select **Text** in the **Property Selector** and replace with `"Reset"`
+
+1. Select **DisplayMode** in the **Property Selector** and change the formula to use the `"MilestoneGallery"`
+
+1. Select the **OnSelect** property in the **Property Selector**.
+
+1. Enter the following formula:
+
+    ```Resetmilestonestatus.Run(MilestoneGallery.Selected.Milestone);Refresh(Milestones);```
+
+1. Drag **ResetBtn** under the form.
+
+### Task 4.3 - Publish and share the app
+
+1. Select **Save**.
+
+1. Select **Publish**.
+
+1. Select **Publish this version**.
+
+1. Select **Share**.
+
+1. Enter `Alex` in **Enter a name, email address, or Everyone** and select **Alex Wilber**.
+
+1. Select **Share**.
+
+1. Enter `Patti` in **Enter a name, email address, or Everyone** and select **Patti Fernandez**.
+
+1. Check the **Co-owner** box.
+
+1. Select **Share**.
+
+1. **Close** the tab.
+
+## Exercise 5 – Solutions
 
 In this exercise, you will export the solution from the Development environment and import it into the Production environment.
 
-### Task 4.1 – Export managed solution
+### Task 5.1 – Export managed solution
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
@@ -356,7 +474,7 @@ In this exercise, you will export the solution from the Development environment 
 
 1. The export will be prepared in the background, when the solution is ready click the **Download** button.
 
-### Task 4.2 – Export unmanaged solution
+### Task 5.2 – Export unmanaged solution
 
 1. Select the **Fabrikam Environmental** solution.
 
@@ -372,7 +490,7 @@ In this exercise, you will export the solution from the Development environment 
 
 1. The export will be prepared in the background, when the solution is ready click the **Download** button.
 
-### Task 4.3 – Import managed solution
+### Task 5.3 – Import managed solution
 
 1. Switch environments by using the Environment Selector in the upper right corner of the Maker portal.
 

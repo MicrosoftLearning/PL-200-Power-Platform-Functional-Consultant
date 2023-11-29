@@ -12,7 +12,9 @@ You are a Power Platform functional consultant and have been assigned to the Fab
 
 You have been assigned to continue work on the Fabrikam Environmental Work Delivery canvas app.
 
-In this practice lab, you will examine the app to see how it works, make some user interface changes, and call a Power Automate cloud flow.
+In this practice lab, you will examine the app to see how it works and make some user interface changes.
+
+If your browser is not set to English, the syntax of Power Fx formulas might change. See Build global support into canvas apps <https://learn.microsoft.com/power-apps/maker/canvas-apps/global-apps> for more information.
 
 ## Exercise 1 – Examine the canvas app
 
@@ -157,7 +159,7 @@ In this exercise, you will learn about the canvas app.
 
 ## Exercise 2 – Change the visual experience of the canvas app
 
-In this exercise, you will change the layout and colors used in the canvas app.
+In this exercise, you will change the layout and colors used in the canvas app so that you can see how the layout of the app has been created.
 
 ### Task 2.1 - Layout
 
@@ -195,7 +197,7 @@ In this task, you will perform the following changes to the app:
 
 ### Task 2.2 - Colors
 
-In this task, you will perform the following changes to the app:
+In this task, you will perform the following changes to standardize colors for the controls in the app:
 
 - change the variables used for colors
 - update the colors used for controls in the gallery
@@ -234,6 +236,8 @@ In this task, you will perform the following changes to the app:
 
 1. Repeat the steps to change the **BorderColor** and **IconBackground** color to `FabrikamColor` for **EstimatedCompletionDate**.
 
+    ![Canvas app colours.](../media/canvas-colors.png)
+
 1. Select **Save**.
 
 ### Task 2.3 - Background
@@ -254,6 +258,8 @@ In this task, you will perform the following changes to a screen:
 
 1. Select **Fit** in the **Image position** drop-down.
 
+    ![Canvas app background.](../media/canvas-background.png)
+
 1. Select **Save**.
 
 ### Task 2.4 - Label
@@ -271,6 +277,8 @@ In this task, you will perform the following changes to a label:
 1. Select **Card3LabelHeader** and select **Text** in the **Property Selector**.
 
 1. In the formula bar, change **Active Milestones** to `Active Outcomes`
+
+    ![Canvas app home.](../media/canvas-home.png)
 
 1. Select **Save**.
 
@@ -301,13 +309,16 @@ In this task, you will perform the following changes to the button:
 
 ## Exercise 3 – Logic
 
-In this exercise, you will update formulas and logic in the canvas app.
+In this exercise, you will update formulas and logic in the canvas app. There are several issues with logic in the app:
+
+- the forms used on Milestone and Outcome screens only update Dataverse for the first row in the gallery.
+- the project types are not displayed for existing projects.
 
 ### Task 3.1 - Outcome Status
 
 In this task, you will perform the following changes to the screen:
 
-- remove Status Reason and replace with new choice column
+- remove the Status Reason column and replace with the new Status choice column
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
@@ -340,6 +351,8 @@ In this task, you will perform the following changes to the screen:
 1. Select **Subtitle5_1** and select **Text** in the **Property Selector**.
 
 1. In the formula bar, replace **ThisItem.'Status Reason'** with `ThisItem.'Outcome Status'`
+
+    ![Canvas app with Outcome Status.](../media/canvas-outcomestatus.png)
 
 1. Select **Save**.
 
@@ -394,6 +407,8 @@ In this task, you will perform the following changes to the screen:
 
 1. In the formula bar, enter `ThisItem.'Project Type'`
 
+    ![Canvas app with Project Types.](../media/canvas-projecttypes.png)
+
 1. Select **Save**.
 
 1. Select **Publish**.
@@ -404,129 +419,11 @@ In this task, you will perform the following changes to the screen:
 
 1. Select **Done**.
 
-## Exercise 4 – Power Automate
-
-In this exercise, you will add a Power Automate flow to the canvas app to reset the status of a Milestone.
-
-### Task 4.1 - Create flow
-
-In this task, you will perform the following changes to the screen:
-
-- create an instant flow for use in the canvas app
-- perform a flow action to reset the status of a Milestone
-
-1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
-
-1. Make sure you are in the **Development** environment.
-
-1. Select **Solutions**.
-
-1. Open the **Fabrikam Environmental** solution.
-
-1. In the **Objects** pane on the left, select **Cloud flows**.
-
-1. In the solution, select **+ New** > **Automation** > **Cloud flow** > **Instant**.
-
-    > NOTE: If a Welcome to Power Automate dialog appears, select **Get started**.
-
-1. Enter `Reset milestone status` for **Flow name**.
-
-1. Select **PowerApps** for **Chose how to trigger this flow**.
-
-1. Select **Create**.
-
-1. Select **+ New step**.
-
-1. Select the **Microsoft Dataverse** connector.
-
-1. Select the **Update a row** action.
-
-1. Select **Milestones** for **Table name**.
-
-1. Select the **Row ID** field.
-
-1. In **Dynamic content**, select **Ask in PowerApps**.
-
-1. Expand **Show advanced options**.
-
-1. Enter `0` for **Milestone Percentage Complete**.
-
-1. Select **Planned** for **Milestone status**.
-
-1. Select **Save** and wait for the flow to save.
-
-1. Select the **🡠** back arrow in the top left of the flow editor.
-
-### Task 4.2 - Add flow to canvas app
-
-In this task, you will perform the following changes to the screen:
-
-- add the flow to the canvas app
-- run the flow from a button
-
-1. In the **Objects** pane on the left, select **Apps**.
-
-1. Select the **Environmental Work Delivery** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
-
-1. In the left navigation, select **Power Automate**.
-
-1. Select **+ Add flow**.
-
-1. Select **Reset milestone status**. The flow will be added to the app.
-
-1. In the **Tree view**, select and expand **OutcomeScreen**.
-
-1. Select **SaveBtn**.
-
-1. Select the ellipses menu (...) next to the button in the **Tree view** and select **Copy**.
-
-1. In the **Tree view**, select and expand **MilestoneScreen**.
-
-1. Right-click in the app area and select **Paste**.
-
-1. Select the ellipses (...) next to **SaveBtn_1** and select **Rename**.
-
-1. Enter `ResetBtn`
-
-1. Select **Text** in the **Property Selector** and replace with `"Reset"`
-
-1. Select **DisplayMode** in the **Property Selector** and change the formula to use the `"MilestoneGallery"`
-
-1. Select the **OnSelect** property in the **Property Selector**.
-
-1. Enter the following formula:
-
-    ```Resetmilestonestatus.Run(MilestoneGallery.Selected.Milestone);Refresh(Milestones);```
-
-1. Drag **ResetBtn** under the form.
-
-### Task 4.3 - Publish and share the app
-
-1. Select **Save**.
-
-1. Select **Publish**.
-
-1. Select **Publish this version**.
-
-1. Select **Share**.
-
-1. Enter `Alex` in **Enter a name, email address, or Everyone** and select **Alex Wilber**.
-
-1. Select **Share**.
-
-1. Enter `Patti` in **Enter a name, email address, or Everyone** and select **Patti Fernandez**.
-
-1. Check the **Co-owner** box.
-
-1. Select **Share**.
-
-1. **Close** the tab.
-
-## Exercise 5 – Solutions
+## Exercise 4 – Solutions
 
 In this exercise, you will export the solution from the Development environment and import it into the Production environment.
 
-### Task 5.1 – Export managed solution
+### Task 4.1 – Export managed solution
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -540,7 +437,7 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Select **Next**.
 
-1. The version number should have been incremented to **1.1.11.10**.
+1. Change the version number to `1.1.11.13`.
 
 1. Select **Managed** for **Export As**.
 
@@ -548,7 +445,7 @@ In this exercise, you will export the solution from the Development environment 
 
 1. The export will be prepared in the background. When the solution is ready, select the **Download** button.
 
-### Task 5.2 – Export unmanaged solution
+### Task 4.2 – Export unmanaged solution
 
 1. Select the **Fabrikam Environmental** solution.
 
@@ -556,7 +453,7 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Select **Next**.
 
-1. The version number should have been incremented to **1.1.11.11**
+1. Change the version number to `1.1.11.13`.
 
 1. Select **Unmanaged** for **Export As**.
 
@@ -564,7 +461,7 @@ In this exercise, you will export the solution from the Development environment 
 
 1. The export will be prepared in the background. When the solution is ready, select the **Download** button.
 
-### Task 5.3 – Import managed solution
+### Task 4.3 – Import managed solution
 
 1. Switch to the **Production** environment using the **Environment Selector** in the upper right corner of the Maker portal.
 
