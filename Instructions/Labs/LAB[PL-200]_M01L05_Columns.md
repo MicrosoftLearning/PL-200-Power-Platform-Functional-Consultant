@@ -21,7 +21,7 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in your **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -165,7 +165,7 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -215,7 +215,7 @@ In this exercise, you will be changing properties on a lookup column on the Mile
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in your **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -248,7 +248,7 @@ In this exercise, you will be creating a choice column to replace the use of sta
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in your **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -335,7 +335,7 @@ In this exercise, you will be creating columns on the Project Outcome custom tab
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in your **Dev One** environment.
 
 1. Select **Solutions**.
 
