@@ -36,7 +36,7 @@ In this task, you will perform the following changes to the Project Outcome form
 
 1. Select the **Environmental Project Delivery** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
-1. Select the **Pages** tab, Hover over **PerProject Outcomes view** and select the ellipses **...** button.
+1. Select the **Pages** tab, Hover over **Project Outcomes views** and select the ellipses **...** button.
 
 1. Select **Edit command bar** and select **Edit in new tab**.
 
@@ -72,6 +72,6 @@ In this task, you will perform the following changes to the Project Outcome form
 
    - Enter `Set Outcome completed date` for Tooltip description.
 
-1. Select **Save and Publsh**.
+1. Select **Save and Publish**.
 
 1. **Close** the Command bar editor and the app designer.
