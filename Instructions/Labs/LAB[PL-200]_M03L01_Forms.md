@@ -102,13 +102,15 @@ In this task, you will perform the following changes to the form:
 
 1. Select the **New section** in the right column and select **Delete**.
 
+1. Select the **New section** in the middle column.
+
 1. Select **Components** on the left navigation of the form designer.
 
 1. Expand **Display**.
 
 1. Drag the **Timeline** control to the middle column of the **General** tab.
 
-1. Select **Tree view** on the left side of the form designer, expand **General** tab, and select the **New Section**.
+1. Select **Tree view** on the left side of the form designer, expand **General** tab, and select the **New Section** section.
 
 1. In the **Properties** pane on the right side, enter `Timeline` for both **Label** and **Name**.
 
@@ -120,15 +122,13 @@ In this task, you will perform the following changes to the form:
 
 1. In the **Properties** pane on the right side, select **Fax**, verify the **Enable** box is unchecked, and select **Cancel**.
 
-1. In the **Properties** pane on the right side, select **Letter**, verify the **Enable** box is unchecked, and select **Cancel**.
-
 1. In the **Properties** pane on the right side, select **Social Activity**, uncheck the **Enable** box, and select **Done**.
 
 1. In the **Properties** pane on the right side, select **Date Created** in **Sort activities by** drop-down.
 
 1. On the **Save and publish** drop-down menu, select **Save only**. Do not navigate away from this page.
 
-### Task 1.3 – Sub-grids on main form
+### Task 1.3 – Outcome sub-grid on main form
 
 In this task, you will perform the following changes to the form:
 
@@ -220,7 +220,7 @@ In this task, you will perform the following changes to the form:
 
 1. Select the **Information** form where the **Form type** is **Main**, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
-1. Select the **Sponsor Main contact** field.
+1. Select the **Sponsor Main Contact** field.
 
 1. In the **Properties** pane on the right-hand side, expand **Filtering**.
 
@@ -228,7 +228,7 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Sponsor (Programs)** for **Relationship to current table**.
 
-1. Select **Company name (Contacts)** for **Relationship to this lookup's table.**
+1. Select **Company Name (Contacts)** for **Relationship to this lookup's table.**
 
     ![Program main form filtering.](../media/form-program-main.png)
 
@@ -534,7 +534,7 @@ In this exercise, you will configure the default form for the Project Outcome ta
 
 In this task, you will perform the following changes to the Project Outcome form:
 
-- change for layout
+- change form layout
 - add columns to the form
 - hide the name on the form
 - Add a quick view form
@@ -569,8 +569,6 @@ In this task, you will perform the following changes to the Project Outcome form
 
 1. In the properties pane on the right-hand side, enter `Related` for **Label** and **Name**.
 
-1. Check **Hide label**.
-
 1. Select **Table columns** on the left-hand side of the form designer.
 
 1. Drag the **Project** column below the **Title** field.
@@ -579,13 +577,15 @@ In this task, you will perform the following changes to the Project Outcome form
 
 1. Select the **Comments** column to add to the form below **Outcome**.
 
-1. Click on the **Outcome Completed Date** column to add to the form below **Comments**.
+1. Select the **Outcome Completed Date** column to add to the form below **Comments**.
 
-1. Click on the **Stakeholders Notified** column to add to the form below **Outcome completed date**.
+1. Select the **Stakeholders Notified** column to add to the form below **Outcome completed date**.
 
 1. Select the **Title** field.
 
 1. In the **Properties** pane on the right side, check **Hide**.
+
+1. Select the **Related** section.
 
 1. Select **Components** on the left side of the form designer, and expand **Display**.
 
@@ -597,9 +597,12 @@ In this task, you will perform the following changes to the Project Outcome form
 
 1. Select **Done**.
 
-1. Drag the new **Quick view** control into the **Related** section in the second column.
-
     ![Project Outcome main form.](../media/form-project-outcome-main.png)
+
+1. Select the **Related** section.
+
+1. Check **Hide label**.
+
 
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
@@ -642,7 +645,7 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Save a copy**.
 
-1. Enter `Manager` for **Display Name** and `Form for managers` for **Description**. Select **Save**.
+1. Enter `Manager` for **Display Name** and `Form for managers` for **Description** and select **Save**.
 
 1. Select **Tree view** on the left side of the form designer.
 
@@ -686,7 +689,7 @@ In this task, you will perform the following changes to the form:
 
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
-1. Select **Form Settings**.
+1. Select **Form settings**.
 
 1. Select the **Environmental manager** and **Environmental administrator** roles as the specific security roles that should have access to this form.
 
@@ -812,9 +815,9 @@ In this task, you will perform the following changes to the app:
 
 1. Select **Add**.
 
-1. In the **Pages** pane on the left side, select **Outcome forms**.
+1. In the **Pages** pane on the left side, select **Outcomes form**.
 
-1. In the **Outcome forms** pane on the right side, select the ellipses **...** on the **Manager** form and select **Remove**.
+1. In the **Outcomes forms** pane on the right side, select the ellipses **...** on the **Manager** form and select **Remove**.
 
 1. Remove the **Information** forms of type **Quick view** and **Card Form**.
 
