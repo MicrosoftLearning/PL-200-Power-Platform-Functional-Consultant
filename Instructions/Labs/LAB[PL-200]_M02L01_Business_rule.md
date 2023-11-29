@@ -229,15 +229,15 @@ In this practice lab, you will be creating business rules to show and hide the l
 
 1. Expand **Advanced options**.
 
-1. Select **Pre-operation** for *Whenh should this run*.
+1. Select **Pre-operation** for *When should this run*.
 
-1. Select **Fabrikam Environmental** for *Soltuion*.
+1. Select **Fabrikam Environmental** for *Solution*.
 
 1. Enter the following **Expression**.
 
     ```
     If(ThisRecord.'Scheduled Start' > ThisRecord.ScheduledEnd, 
-     Error({Kind: ErrorKind.Validation, Message: "The start sate cannot be after the end date" })
+     Error({Kind: ErrorKind.Validation, Message: "The start date cannot be after the end date" })
     );
     ```
     ![Low-code plug-in.](../media/lowcode-plugin.png)
