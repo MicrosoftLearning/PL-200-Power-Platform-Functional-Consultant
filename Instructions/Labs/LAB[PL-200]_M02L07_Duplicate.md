@@ -18,7 +18,7 @@ In this exercise, you will create a new duplicate detection rule that will mark 
 
 ### Task 1.1 – Create duplicate detection rule
 
-1. Navigate to the Power Platform admin center <https://admin.powerplatform.microsoft.com>.
+1. Navigate to the Power Platform admin center `https://aka.ms/ppac`
 
 1. Select **Environments** from the left navigation pane.
 

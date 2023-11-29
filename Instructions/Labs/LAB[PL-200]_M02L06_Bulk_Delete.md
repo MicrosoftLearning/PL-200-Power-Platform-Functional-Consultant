@@ -42,7 +42,7 @@ In this exercise, you will create a bulk deletion operation that will delete all
 
 1. Enter **12**.
 
-1. Click **Select** and choose the **Milestone status** column.
+1. Click **Select** and choose the **Milestone Status** column.
 
 1. Select **Equals**.
 

@@ -32,8 +32,6 @@ In this exercise, you will enable auditing for your environment. In earlier labs
 
 1. Check the **Start Auditing** box.
 
-1. Select **90 days** in the **Retain these logs for** drop-down.
-
 1. Select **Save**.
 
 1. Select **Settings** in the breadcrumb at the top of the screen.
