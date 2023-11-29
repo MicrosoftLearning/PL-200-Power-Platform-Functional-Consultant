@@ -26,7 +26,7 @@ In this exercise, you will be examining the tables in the Fabrikam Environmental
 
 1.  Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1.  Make sure you are in your **Development** environment.
+1.  Make sure you are in your **Dev One** environment.
 
 1.  Select **Solutions**.
 
@@ -62,7 +62,7 @@ In this exercise, you will be updating the properties on the Project table to al
 
 1.  Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1.  Make sure you are in the **Development** environment.
+1.  Make sure you are in the **Dev One** environment.
 
 1.  Select **Solutions**.
 
