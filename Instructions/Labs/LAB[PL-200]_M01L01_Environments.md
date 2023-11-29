@@ -12,7 +12,7 @@ In this lab, you create environments for use during the remainder of the labs.
 
 ## Exercise 1 - Create environments
 
-In this exercise, you will create a *Development* environment that you will do the majority of your lab work in and a *Live* environment to deploy solutions into.
+In this exercise, you will create a *Live* environment to deploy solutions into.
 
 **Note:** Depending on the browser that you are using, it is suggested that you disable any pop-up blockers that maybe enabled. This will allow pop-up windows to appear as they should.
 
@@ -22,36 +22,7 @@ In this exercise, you will create a *Development* environment that you will do t
 
 1.  Select **Get Started** or close the Welcome pop-up.
 
-1.  Select **Environments** from the left navigation pane. There should be a single environment, Contoso (default).
-
-1.  Select **+ New**.
-
-    ![Environment in the Power Platform admin center.](../media/ppac-environments.png)
-
-1.  In the **Name** text box, enter **[my initials] Development**. (Example: PL Development).
-
-1.  In the **Type** drop down, select **Developer**.
-
-1.  Leave all other selections as default and select **Next**.
-
-    ![New environment.](../media/new-environment.png)
-
-1.  On the **Add Dataverse** tab, select **Save**. 
-
-1.  Your **Development** environment should now show in the list of environments.
-
-    ![Environment in the Power Platform admin center.](../media/ppac-environments-dev.png)
-
-1.  Your Development environment may take a few minutes to provision. Select **Refresh** if needed. When your environment **State** shows as **Ready**, select your **Development** environment by clicking on the ellipses (...) next to its name to expand the drop down menu and select **Settings**.
-
-    ![Environment in the Power Platform admin center.](../media/ellipses-settings-dev.png)
-
-1.  Explore the different areas in **Settings** that you may be interested in but do not make any changes yet. 
-
-
-### Task 1.2 – Create live environment
-
-1.  Navigate to environments in the Power Platform admin center <https://admin.powerplatform.microsoft.com/environments>.
+1.  Select **Environments** from the left navigation pane. There should be two environments, Contoso (default) and Dev One.
 
 1.  Select **+ New**. 
 
@@ -63,8 +34,8 @@ In this exercise, you will create a *Development* environment that you will do t
 
 1.  On the **Add Dataverse** tab, select **Save**.
 
-1.  You should now see three environments; Contoso (default), Development, and Live.
+1.  You should now see three environments; Contoso (default), Dev One, and Live.
 
     ![Environments.](../media/environments-all.png)
 
-    > **Note:** You will use the *Development* environment for all customizations in the labs. The *Live* environment will act as your test/production environment.
+    > **Note:** You will use the *Dev One* environment for all customizations in the labs. The *Live* environment will act as your test/production environment.
