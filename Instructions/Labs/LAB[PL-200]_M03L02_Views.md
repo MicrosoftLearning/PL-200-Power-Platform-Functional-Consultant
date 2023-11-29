@@ -132,7 +132,7 @@ In this exercise, you will make changes to the views for the Outcome table.
 
 In this task, you will perform the following changes to the form:
 
-- add the Milestone status to public view
+- add the Milestone Status to public view
 - remove the status reason column
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
@@ -151,7 +151,7 @@ In this task, you will perform the following changes to the form:
 
 1. Select the **Active Outcomes** view, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
-1. Drag the **Outcome status** column to the left of the **Owner** column in the view.
+1. Drag the **Outcome Status** column to the left of the **Owner** column in the view.
 
 1. Select the caret next to the **Status Reason** column and select **Remove**.
 
@@ -175,7 +175,7 @@ In this task, you will perform the following changes to the form:
 
 1. Select the **Target Aim** column to add to the view.
 
-1. Select the **Outcome status** column to add to the view.
+1. Select the **Outcome Status** column to add to the view.
 
     ![Outcome Lookup view.](../media/view-outcome-lookup.png)
 
@@ -248,7 +248,7 @@ In this task, you will perform the following changes to the form:
 
 1. Drag the **Number of Open Tasks** column to the right of the **Milestone Title** column in the view.
 
-1. Drag the **Milestone status** column to the left of the **Owner** column in the view.
+1. Drag the **Milestone Status** column to the left of the **Owner** column in the view.
 
 1. Select the caret next to the **Status Reason** column and select **Remove**.
 
@@ -276,7 +276,7 @@ In this task, you will perform the following changes to the form:
 
 1. In the **My Pending Milestones** pane on the right side, select **Edit filters**.
 
-1. In the **Edit filters** pane, change **Status Reason** to **Milestone status**.
+1. In the **Edit filters** pane, change **Status Reason** to **Milestone Status**.
 
 1. Change the **Operator** to **Does not equal**.
 
@@ -448,7 +448,7 @@ In this task, you will perform the following changes to the app:
 
 1. Click to open the **Fabrikam Environmental** solution.
 
-1. In the **Objects** pane on the left, click and select **Apps**.
+1. In the **Objects** pane on the left, select **Apps**.
 
 1. Select the **Environmental Project Delivery** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
