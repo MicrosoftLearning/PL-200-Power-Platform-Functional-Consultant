@@ -24,7 +24,7 @@ In this exercise, you will add a Power Apps for Developer license to the tenant 
 
 1. Verify that you have your **Microsoft 365 credentials** from the Authorized Lab Host available.
 
-1. In a new browser tab, navigate to `https://powerapps.microsoft.com` and select **Start free**.
+1. In a new browser tab, navigate to `https://powerapps.microsoft.com` and select **Try free**.
 
 1. Select **Start building apps**.
 
