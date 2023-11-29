@@ -78,6 +78,6 @@ In this exercise, you will create a *Development* environment that you will do t
 
 1. Expand **Product** and select **Behavior**.
 
-1. Toggle *How the Switch to classic button in Power Apps* to **On**.
+1. Toggle *Show the Switch to classic buttons in Power Apps* to **On**.
 
 1. Select **Save**.
