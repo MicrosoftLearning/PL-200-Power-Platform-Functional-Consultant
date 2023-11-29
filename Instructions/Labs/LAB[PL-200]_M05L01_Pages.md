@@ -175,7 +175,7 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
 1. Make sure you are in the **Development** environment.
 
-1. Select **Edit**.
+1. Click **Edit**.
 
 1. In the **Pages** pane on the left-hand side, click to expand **Pages**, and select **Milestones**.
 
@@ -188,6 +188,7 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 1. Enter **Milestones** for **Name your list**.
 
 1. Click **Done**.
+
 
 ### Task 2.2 - Security
 
