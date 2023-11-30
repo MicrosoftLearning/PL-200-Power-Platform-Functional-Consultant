@@ -26,7 +26,7 @@ In this task, you will perform the following changes to the Project Outcome form
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 

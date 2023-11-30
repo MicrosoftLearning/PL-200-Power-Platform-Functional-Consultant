@@ -20,7 +20,7 @@ In this exercise, you will be adding an image column to the Resource table.
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -48,7 +48,7 @@ In this exercise, you will be adding an image column to the Resource table.
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -72,7 +72,7 @@ In this exercise, you will build a custom page to manage project resources.
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -166,7 +166,7 @@ In this task, you will add the custom page to a model-driven app.
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 

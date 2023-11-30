@@ -30,7 +30,7 @@ You need to remove privileges for importing and exporting of data, deleting acco
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -130,7 +130,7 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 

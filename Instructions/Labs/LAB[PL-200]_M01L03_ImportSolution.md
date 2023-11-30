@@ -32,13 +32,13 @@ In this lab, you will import the developed solutions and data.
 
 ## Exercise 1 - Import Fabrikam solutions
 
-In this exercise, you will import the main solution into the **Development** environment.
+In this exercise, you will import the main solution into the **Dev One** environment.
 
 ### Task 1.1 – Main solution
 
 1. Navigate to `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -96,7 +96,7 @@ In this exercise, you will import the main solution into the **Development** env
 
 ## Exercise 2 - Import data
 
-In this exercise, you will import data the into the **Development** environment using the Configuration Migration Tool and import Outcome rows into your Microsoft Dataverse environment using a dataflow.
+In this exercise, you will import data the into the **Dev One** environment using the Configuration Migration Tool and import Outcome rows into your Microsoft Dataverse environment using a dataflow.
 
 ### Task 2.1: Download and install Power Platform CLI
 
@@ -146,7 +146,7 @@ In this exercise, you will import data the into the **Development** environment 
 
    ![Configuration Migration Tool select environment.](../media/configuration-migration-step3a.png)
 
-1. Choose your **Development** environment.
+1. Choose the **Dev One** environment.
 
 1. Select **Login**.
 
@@ -180,7 +180,7 @@ In this exercise, you will import data the into the **Development** environment 
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Tables** from the left navigation menu.
 

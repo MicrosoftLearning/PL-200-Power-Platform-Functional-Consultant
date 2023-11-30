@@ -36,7 +36,7 @@ In this task, you will perform the following changes to the form:
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -100,7 +100,7 @@ In this task, you will perform the following changes to the form:
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -137,7 +137,7 @@ In this task, you will perform the following changes to the form:
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -232,7 +232,7 @@ In this task, you will perform the following changes to the form:
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -328,7 +328,7 @@ In this task, you will perform the following changes to the form:
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -382,7 +382,7 @@ In this task, you will perform the following changes to the form:
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -442,7 +442,7 @@ In this task, you will perform the following changes to the app:
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -498,7 +498,7 @@ The find columns on the quick find views define the searchable fields in the Dat
 
 1. Select **Environments** from the left navigation pane.
 
-1. Select your **Development** environment.
+1. Select the **Dev One** environment.
 
 1. Select **Settings**.
 
@@ -514,7 +514,7 @@ The find columns on the quick find views define the searchable fields in the Dat
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 

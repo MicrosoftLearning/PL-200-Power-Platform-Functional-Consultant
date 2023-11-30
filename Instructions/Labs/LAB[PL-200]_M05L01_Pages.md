@@ -20,7 +20,7 @@ In this exercise, you will provision a Power Pages site using a starter template
 
 1. Navigate to the Power Pages portal `https://make.powerpages.microsoft.com/` and sign in with your Microsoft 365 credentials if prompted.
 
-1. Use the Environment selector to switch to your **Development** environment.
+1. Use the Environment selector to switch to the **Dev One** environment.
 
 1. Select **Get started**.
 
@@ -50,7 +50,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. Navigate to the Power Pages portal `https://make.powerpages.microsoft.com/`.
 
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Preview** and then select **Desktop**.
 
@@ -82,7 +82,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Apps** and select **All**.
 
@@ -137,7 +137,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. Navigate to the Power Pages portal `https://make.powerpages.microsoft.com/`
 
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
     ![Power Pages sites.](../media/power-pages-sites.png)
 
@@ -201,7 +201,7 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
 1. Navigate to the Power Pages portal <https://make.powerpages.microsoft.com/>.
 
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Edit** to open the site designer.
 

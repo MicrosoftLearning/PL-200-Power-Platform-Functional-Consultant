@@ -12,7 +12,7 @@ In this lab, you will create a publisher and a solution.
 
 ## Exercise 1 - Create publisher and solution
 
-In this exercise, you will access the Power Apps maker portal, the Development environment and create a new solution.
+In this exercise, you will access the Power Apps maker portal, the Developer environment and create a new solution.
 
 ### Task 1.1 – Maker portal
 
@@ -22,7 +22,7 @@ In this exercise, you will access the Power Apps maker portal, the Development e
 
 1. Switch environments by using the Environment Selector in the upper right corner of the screen.
 
-1. Select your **Development** environment from the list.
+1. Select the **Dev One** environment from the list.
 
     ![Select Development environment in the Power Apps maker portal.](../media/select-dev-environment.png)
 
@@ -66,7 +66,7 @@ In this exercise, you will add an existing table to the solution.
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`.
 
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 
