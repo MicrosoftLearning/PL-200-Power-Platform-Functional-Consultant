@@ -26,7 +26,7 @@ You will add the users and team to column security profiles.
 
 1. Select **Environments** from the left navigation pane.
 
-1. Select the **Development** environment.
+1. Select the **Dev One** environment.
 
 1. Select **Settings**.
 
@@ -75,7 +75,7 @@ You will add the users and team to column security profiles.
 
 1. Select **Environments** from the left navigation pane.
 
-1. Select the **Development** environment.
+1. Select the **Dev One** environment.
 
 1. Select **Settings**.
 
@@ -112,7 +112,7 @@ You will add the users and team to column security profiles.
 
 1. Select **Environments** from the left navigation pane.
 
-1. Select the **Development** environment.
+1. Select the **Dev One** environment.
 
 1. Select **Settings**.
 

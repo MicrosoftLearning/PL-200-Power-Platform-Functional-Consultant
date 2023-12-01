@@ -22,7 +22,7 @@ In this exercise, you will be modifying the cascade relationships for the projec
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in your **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -74,7 +74,7 @@ In this exercise, you will create a new relationship between the Resource and Pr
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in your **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -125,7 +125,7 @@ In this exercise, you will create a new hierarchical relationship on the region 
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in your **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -166,7 +166,7 @@ In this exercise, you will create two many-to-one relationships for the Project 
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in your **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -259,7 +259,7 @@ In this exercise, you will enable connections for the resource and milestone tab
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in your **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -282,7 +282,7 @@ In this exercise, you will enable connections for the resource and milestone tab
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in your **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -371,7 +371,7 @@ In this exercise, you will use relationships to create calculated and rollup fie
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in your **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -474,13 +474,13 @@ In this exercise, you will use relationships to create calculated and rollup fie
 
 ## Exercise 7 – Solutions
 
-In this exercise, you will export the solution from the Development environment and import it into the Live environment.
+In this exercise, you will export the solution from the Dev One environment and import it into the Live environment.
 
 ### Task 7.1 – Solution checker
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 

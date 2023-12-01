@@ -22,7 +22,7 @@ In this exercise, you will create a bulk deletion operation that will delete all
 
 1. Select **Environments** from the left navigation pane.
 
-1. Select the **Development** environment.
+1. Select the **Dev One** environment.
 
 1. Select **Settings**.
 

@@ -33,14 +33,14 @@ In this lab, you will import the developed solutions and data.
 
 ## Exercise 1 - Import Fabrikam solutions
 
-In this exercise, you will import the main solution into the **Development** environment.
+In this exercise, you will import the main solution into the **Dev One** environment.
 
 
 ### Task 1.1 – Main solution
 
 1.  Navigate to `https://make.powerapps.com`
 
-1.  Make sure you are in your **Development** environment.
+1.  Make sure you are in your **Dev One** environment.
 
 1.  Select **Solutions**.
 
@@ -99,7 +99,7 @@ In this exercise, you will import the main solution into the **Development** env
 
 1.  Navigate to `https://make.powerapps.com`
 
-1.  Make sure you are in your **Development** environment.
+1.  Make sure you are in your **Dev One** environment.
 
 1.  Select **Solutions**.
 
@@ -117,7 +117,7 @@ In this exercise, you will import the main solution into the **Development** env
 
 ## Exercise 2 - Import data
 
-In this exercise, you will import data the into the **Development** environment using the Configuration Migration Tool.
+In this exercise, you will import data the into the **Dev One** environment using the Configuration Migration Tool.
 
 
 ### Task 2.1 - Import data
@@ -146,7 +146,7 @@ In this exercise, you will import data the into the **Development** environment 
 
     ![Configuration Migration Tool select environment.](../media/configuration-migration-step3a.png)
 
-1.  Choose your **Development** environment.
+1.  Choose your **Dev One** environment.
 
 1.  Select **Login**.
 
@@ -173,7 +173,7 @@ In this exercise, you will provision a Power Pages site. This can take a while, 
 
 1.  Navigate to the Power Pages portal `https://make.powerpages.microsoft.com/` and sign in with your Microsoft 365 credentials if prompted.
 
-1.  Use the Environment selector to switch to your **Development** environment.
+1.  Use the Environment selector to switch to your **Dev One** environment.
 
 1.  Select **Get started**.
 

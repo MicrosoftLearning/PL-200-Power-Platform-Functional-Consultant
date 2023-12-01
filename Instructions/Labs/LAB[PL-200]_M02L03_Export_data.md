@@ -18,7 +18,7 @@ In this exercise, you will export data using the maker portal.
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in your **Dev One** environment.
 
 1. Select **Tables** from the left navigation.
 
@@ -53,7 +53,7 @@ In this exercise, you will export data from a model-drivel app using the maker p
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Apps**.
 
