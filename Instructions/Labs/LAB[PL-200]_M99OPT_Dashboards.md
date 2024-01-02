@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Dashboards (Optional)'
-    module: 'Optional: Create model-driven apps in Power Apps'
+    module: 'Optional: Create model-driven apps'
 ---
 
 # Practice Lab 3.3 – Dashboards

@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 4.1: Enhance a canvas app'
-    module: 'Learning Path 4: Create canvas apps in Power Apps'
+    module: 'Learning Path 4: Create canvas apps'
 ---
 
 # Practice Lab 4.1 – Enhance a canvas app

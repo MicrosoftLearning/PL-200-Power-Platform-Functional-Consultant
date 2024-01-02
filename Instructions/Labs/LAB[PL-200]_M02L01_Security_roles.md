@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Lab 2.2: Security roles'
+    title: 'Lab 2.1: Security roles'
     module: 'Learning Path 2: Manage Microsoft Dataverse'
 ---
 
-# Practice Lab 2.2 - Security roles
+# Practice Lab 2.1 - Security roles
 
 ## Scenario
 

@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 3.3: Command bar'
-    module: 'Learning Path 3: Create model-driven apps in Power Apps'
+    module: 'Learning Path 3: Create model-driven apps'
 ---
 
 # Practice Lab 3.3 – Command bar

@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 3.1: Forms'
-    module: 'Learning Path 3: Create model-driven apps in Power Apps'
+    module: 'Learning Path 3: Create model-driven apps'
 ---
 
 # Practice Lab 3.1 – Forms

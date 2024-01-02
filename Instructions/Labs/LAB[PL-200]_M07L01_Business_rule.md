@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Lab 2.1: Implement low-code logic'
-    module: 'Learning Path 2: Manage Microsoft Dataverse'
+    title: 'Lab 7.1: Implement low-code logic'
+    module: 'Learning Path 7: Logic and process automation'
 ---
 
-# Practice Lab 2.1 – Business rules
+# Practice Lab 7.1 – Business rules
 
 ## Scenario
 
