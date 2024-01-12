@@ -40,7 +40,7 @@ In this exercise, you will import the main solution into the **Dev One** environ
 
 1.  Navigate to `https://make.powerapps.com`
 
-1.  Make sure you are in your **Dev One** environment.
+1.  Make sure you are in your **[my intials] Development** environment.
 
 1.  Select **Solutions**.
 
@@ -99,7 +99,7 @@ In this exercise, you will import the main solution into the **Dev One** environ
 
 1.  Navigate to `https://make.powerapps.com`
 
-1.  Make sure you are in your **Dev One** environment.
+1.  Make sure you are in your **[my intials] Development** environment.
 
 1.  Select **Solutions**.
 
@@ -146,7 +146,7 @@ In this exercise, you will import data the into the **Dev One** environment usin
 
     ![Configuration Migration Tool select environment.](../media/configuration-migration-step3a.png)
 
-1.  Choose your **Dev One** environment.
+1.  Choose your **[my intials] Development** environment.
 
 1.  Select **Login**.
 
