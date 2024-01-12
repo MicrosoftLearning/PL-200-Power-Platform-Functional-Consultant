@@ -30,9 +30,11 @@ In this exercise, you will create a *Live* environment to deploy solutions into.
 
 1.  In the **Type** drop-down, select **Developer**.
 
+2.  Toggle the **Add a Daverse data store** to **Yes**.
+
 1.  Leave all other selections as default and select **Next**.
 
-1.  On the **Add Dataverse** tab, select **Save**.
+1.  On the **Add Dataverse** tab, toggle **Deploy sample apps and data?** to **Yes**, Then select **Save**.
 
 1.  You should now see three environments; Contoso (default), Dev One, and Live.
 
