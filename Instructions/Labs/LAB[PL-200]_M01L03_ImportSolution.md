@@ -117,7 +117,7 @@ In this exercise, you will import the main solution into the **[my intials] Deve
 
 ## Exercise 2 - Import data
 
-In this exercise, you will import data the into the **Dev One** environment using the Configuration Migration Tool.
+In this exercise, you will import data the into the **[my intials] Development** environment using the Configuration Migration Tool.
 
 
 ### Task 2.1 - Import data
