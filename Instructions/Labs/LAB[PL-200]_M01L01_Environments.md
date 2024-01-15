@@ -16,6 +16,7 @@ In this exercise, you will create a *Live* environment to deploy solutions into.
 
 **Note:** Depending on the browser that you are using, it is suggested that you disable any pop-up blockers that maybe enabled. This will allow pop-up windows to appear as they should.
 
+
 ### Task 1.1 – Create development environment
 
 1.  Navigate to the Power Platform admin center `https://aka.ms/ppac` and sign in with your Microsoft 365 credentials if prompted again.
@@ -29,8 +30,6 @@ In this exercise, you will create a *Live* environment to deploy solutions into.
 1.  In the **Name** text box, enter **[my initials] Live**. (Example: PL Live).
 
 1.  In the **Type** drop-down, select **Developer**.
-
-2.  Toggle the **Add a Daverse data store** to **Yes**.
 
 1.  Leave all other selections as default and select **Next**.
 
