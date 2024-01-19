@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 1.6: Relationships'
-    module: 'Module 1: Work with Microsoft Dataverse'
+    module: 'Learning Path 1: Work with Microsoft Dataverse'
 ---
 
 # Practice Lab 1.6 – Relationships
@@ -22,7 +22,7 @@ In this exercise, you will be modifying the cascade relationships for the projec
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Dev One** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -44,10 +44,9 @@ In this exercise, you will be modifying the cascade relationships for the projec
 
     ![Referential Restrict relationship.](../media/referential-restrict-relationship.png)
 
-
 ### Task 1.2 – Project-Milestone relationship
 
-1. In the **Project** table **Relationships**, select **Project** from the table. Note that this relationship uses **Project** as the Display name and **contoso_project_milestone** as the Name. 
+1. In the **Project** table **Relationships**, select **Project** from the table. Note that this relationship uses **Project** as the Display name and **contoso_project_milestone** as the Name.
 
 1. In the **One-to-many** pane that appears on the right-hand side of the screen, expand **Advanced options**.
 
@@ -65,7 +64,6 @@ In this exercise, you will be modifying the cascade relationships for the projec
 
     ![Cascade relationship.](../media/custom-cascade-relationship.png)
 
-
 ## Exercise 2 – Add new relationship
 
 In this exercise, you will create a new relationship between the Resource and Project tables to create a lookup for the Lead Resource on the Project.
@@ -74,7 +72,7 @@ In this exercise, you will create a new relationship between the Resource and Pr
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Dev One** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -82,7 +80,7 @@ In this exercise, you will create a new relationship between the Resource and Pr
 
 1. In the **Objects** pane on the left, expand **Tables**.
 
-1. Select the **Project** table. 
+1. Select the **Project** table.
 
 1. Under **Schema**, select **Relationships**.
 
@@ -116,7 +114,6 @@ In this exercise, you will create a new relationship between the Resource and Pr
 
 1. Select **Save**.
 
-
 ## Exercise 3 – Hierarchical relationship
 
 In this exercise, you will create a new hierarchical relationship on the region table.
@@ -125,7 +122,7 @@ In this exercise, you will create a new hierarchical relationship on the region 
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in your **Dev One** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -157,7 +154,6 @@ In this exercise, you will create a new hierarchical relationship on the region 
 
     ![Hierarchical relationship.](../media/add-hierarchical-relationship.png)
 
-
 ## Exercise 4 – Project Outcome relationships
 
 In this exercise, you will create two many-to-one relationships for the Project Outcome table to the Project and Outcome tables. These relationships will be used to replace the many-to-many relationship between the Project and Outcome tables.
@@ -166,7 +162,7 @@ In this exercise, you will create two many-to-one relationships for the Project 
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Dev One** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -196,7 +192,6 @@ In this exercise, you will create two many-to-one relationships for the Project 
 
 1. Select **Done**.
 
-
 ### Task 4.2 – Create new relationship to Outcome
 
 1. Select **+ New relationship** and then select **Many-to-one**.
@@ -225,16 +220,15 @@ In this exercise, you will create two many-to-one relationships for the Project 
 
 1. Select **Done**.
 
-
 ### Task 4.3 – Set required and enable auditing on new lookup columns
 
 1. In the **Objects** pane on the left, select **Columns** for the **Project Outcome** table.
 
 1. Select the **Project** column.
 
-1. In the **Edit column** pane that appears on the right-hand side of the screen, expand **Advanced options** and scroll down.
+1. In the **Edit column** pane that appears on the right-hand side of the screen, change the **Required** drop-down to **Business required**.
 
-1. Change the **Required** drop-down to **Business required**.
+1. Expand **Advanced options** and scroll down.
 
 1. Check the **Enable auditing** box.
 
@@ -242,14 +236,61 @@ In this exercise, you will create two many-to-one relationships for the Project 
 
 1. Select the **Outcome** column.
 
-1. In the **Edit column** pane that appears on the right-hand side of the screen, expand **Advanced options** and scroll down.
+1. In the **Edit column** pane that appears on the right-hand side of the screen, change the **Required** drop-down to **Business required**.
 
-1. Change the **Required** drop-down to **Business required**.
+1. Expand **Advanced options** and scroll down.
 
 1. Check the **Enable auditing** box.
 
 1. Select **Save**.
 
+### Task 4.4 – Mappings
+
+1. In the **Fabrikam Environmental** solution, select the **Objects** page and select **All**.
+
+1. Select the ellipses **...** and select **Switch to classic**.
+
+1. In Solution Explorer, expand **Entities**.
+
+1. Expand **Project**.
+
+1. Select **1:N Relationships**.
+
+    ![One to many relationships in Solution Explorer.](../media/solution-explorer-relationships.png)
+
+1. Select the relationship between **Project** and **Project Outcome**
+
+    ![One to many relationship in Solution Explorer.](../media/solution-explorer-relationship.png)
+
+1. Select **More Actions** and select **Edit**.
+
+1. Select **Mappings**.
+
+    ![Mappings pane.](../media/mappings-default.png)
+
+1. Select **New**.
+
+1. In the left-hand side, select **contoso_projecttitle**.
+
+1. In the right-hand side, select **contoso_title**.
+
+1. Select **OK**.
+
+    ![New mapping pane.](../media/mapping-new.png)
+
+1. Select **New**.
+
+1. In the left-hand side, select **contoso_projectsummary**.
+
+1. In the right-hand side, select **contoso_comments**.
+
+1. Select **OK**.
+
+    ![Mappings added.](../media/mappings-added.png)
+
+1. Select **Save and Close**.
+
+1. Close the **Solutions Explorer** tab.
 
 ## Exercise 5 – Connections
 
@@ -259,7 +300,7 @@ In this exercise, you will enable connections for the resource and milestone tab
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Dev One** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -277,12 +318,11 @@ In this exercise, you will enable connections for the resource and milestone tab
 
 1. Select **Save**.
 
-
 ### Task 5.2 – Enable connections on Milestone
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Dev One** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -300,7 +340,6 @@ In this exercise, you will enable connections for the resource and milestone tab
 
 1. Select **Save**.
 
-
 ### Task 5.3 – Publish changes
 
 1. In the solution, select the **Overview** page.
@@ -308,7 +347,6 @@ In this exercise, you will enable connections for the resource and milestone tab
     ![Overview.](../media/solution-overview.png)
 
 1. Select **Publish all customizations**.
-
 
 ### Task 5.4 – Add connection roles
 
@@ -326,7 +364,7 @@ In this exercise, you will enable connections for the resource and milestone tab
 
     ![Add connection role.](../media/add-connection-role.png)
 
-1. Under **Matching connection roles**, select **New**.
+1. Under **Matching Connection Roles**, select **New**.
 
     > **Note:** You may need to disable the pop-up blocker in your browser.
 
@@ -352,7 +390,7 @@ In this exercise, you will enable connections for the resource and milestone tab
 
 1. Select the **Save** icon.
 
-1. Under **Matching connection roles**, select **Add Existing**.
+1. Under **Matching Connection Roles**, select **Add Existing**.
 
 1. Add **Contributed to** to the **selected records** by selecting the row using the **Select** button.
 
@@ -362,7 +400,6 @@ In this exercise, you will enable connections for the resource and milestone tab
 
 1. Select **Done**.
 
-
 ## Exercise 6 – Calculated and rollup columns
 
 In this exercise, you will use relationships to create calculated and rollup fields. The calculated column will add the email address for the approver to the outcome table. The rollup column will sum the funding values of projects.
@@ -371,7 +408,7 @@ In this exercise, you will use relationships to create calculated and rollup fie
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Dev One** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -405,7 +442,7 @@ In this exercise, you will use relationships to create calculated and rollup fie
 
     > NOTE: You may need to resize the window to see the check marks.
 
-1. Select **+ Add Action**.
+1. Select **+ Add action**.
 
 1. Enter the following formula:
 
@@ -418,7 +455,6 @@ In this exercise, you will use relationships to create calculated and rollup fie
     ![Add calculated column using a relationship.](../media/calculated-column-using-relationship.png)
 
 1. Select **SAVE AND CLOSE**.
-
 
 ### Task 6.2 – Rollup column for the project one-to-many relationship
 
@@ -464,17 +500,15 @@ In this exercise, you will use relationships to create calculated and rollup fie
 
     ![Add rollup column.](../media/add-rollup-column.png)
 
-
 ### Task 6.3 – Publish changes
 
 1. In the solution, select the **Overview** page.
 
 1. Select **Publish all customizations**.
 
-
 ## Exercise 7 – Solutions
 
-In this exercise, you will export the solution from the Dev One environment and import it into the Live environment.
+In this exercise, you will export the solution from the Development environment and import it into the Production environment.
 
 ### Task 7.1 – Solution checker
 
@@ -496,7 +530,6 @@ In this exercise, you will export the solution from the Dev One environment and 
 
 1. Select the **back arrow** to return to solutions.
 
-
 ### Task 7.2 – Export managed solution
 
 1. Select the **Fabrikam Environmental** solution row but do not open it.
@@ -506,13 +539,14 @@ In this exercise, you will export the solution from the Dev One environment and 
 1. Select **Next**.
 
 1. The version number should have been incremented to **1.1.11.4**.
+ 
+1. Change the version number to `1.1.11.6`.
 
 1. Select **Managed** for **Export As**.
 
 1. Select **Export**.
 
 1. The export will be prepared in the background. When the solution is ready, select the **Download** button.
-
 
 ### Task 7.3 – Export unmanaged solution
 
@@ -522,7 +556,9 @@ In this exercise, you will export the solution from the Dev One environment and 
 
 1. Select **Next**.
 
-1. The version number should have been incremented to **1.1.11.5**.
+1. The version number should have been incremented to **1.1.11.7**.
+
+1. Change the version number to `1.1.11.6`.
 
 1. Select **Unmanaged** for **Export As**.
 
@@ -530,18 +566,17 @@ In this exercise, you will export the solution from the Dev One environment and 
 
 1. The export will be prepared in the background, when the solution is ready click the **Download** button.
 
-
 ### Task 7.4 – Import managed solution
 
 1. Switch environments by using the Environment Selector in the upper right corner of the Maker portal.
 
-1. Select the **Live** environment from the list.
+1. Select the **Production** environment from the list.
 
 1. Select **Solutions**.
 
 1. Select **Import solution**.
 
-1. Select **Browse**, change to the **Downloads** folder and select **FabrikamEnvironmental_1_1_11_4_managed.zip** and select **Open**.
+1. Select **Browse**, change to the **Downloads** folder and select **FabrikamEnvironmental_1_1_11_6_managed.zip** and select **Open**.
 
 1. Select **Next**.
 
@@ -564,7 +599,6 @@ In this exercise, you will export the solution from the Dev One environment and 
 1. Both connections should be selected.
 
 1. Select **Import**. The solution will import in the background.
-
 
 ## Challenge (Optional)
 

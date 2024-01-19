@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 6.1: Cloud flows'
-    module: 'Module 6: Build automation with Power Automate'
+    module: 'Learning Path 6: Build automation with Power Automate'
 ---
 
 # Practice Lab 6.1 – Cloud flows
@@ -10,7 +10,7 @@ lab:
 
 You are a Power Platform functional consultant and have been assigned to the Fabrikam project for the next stage of the project.
 
-In this practice lab, you change an existing approvals flow and add error handling. You will also set the value of the environment variable used by the flow. You will also create a new flow to automatically set the actual end date on projects.
+In this practice lab, you change an existing approvals flow and add error handling. You will also set the value of the environment variable used by the flow. You will also create a new flow to automatically set the actual end date on projects. You will call a Power Automate cloud flow from a canvas app.
 
 ## Exercise 1 – Edit approval cloud flow
 
@@ -22,17 +22,19 @@ In this task, you will perform the following changes to the flow:
 
 - Replace the Get Approver row with the calculated column for Approver Email Address
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`.
 
 1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
 1. In the **Objects** pane on the left, select **Cloud flows**.
 
-1. Select the **Request Approval** flow, click on the ellipses (...), and select **Edit**.
+1. Select the **Request Approval** flow, select the ellipses **...**, and select **Edit** > **Edit in new tab**.
+
+1. If a Welcome to Power Automate dialog appears, select **Get started**.
 
 1. Select the **Start and wait for an approval** step.
 
@@ -43,6 +45,10 @@ In this task, you will perform the following changes to the flow:
 1. In **Dynamic content**, search for **email** and select **Approver Email**. You may need to scroll down in the Dynamic Content window to see this.
 
 1. On the **Get Approver** step, select the ellipses (...) and select **Delete**.
+
+    ![Approval step.](../media/flow-approval.png)
+
+1. Select **Save**.
 
 ### Task 1.2– Check if an approver is assigned to the outcome
 
@@ -72,7 +78,7 @@ In this task, you will perform the following changes to the flow:
 
 1. In **Dynamic content**, select the **Expression** tab.
 
-1. Enter **length()** and position the cursor between the brackets.
+1. Enter `length()` and position the cursor between the brackets.
 
 1. Select the **Dynamic content** tab, select **See more** for **Get Outcome**, and select the **Approver Email** and click **OK**.
 
@@ -82,7 +88,7 @@ In this task, you will perform the following changes to the flow:
 
 1. Change the **Operator** to **is greater than**.
 
-1. Click in the right-hand **Choose a value** field and enter **0**
+1. Click in the right-hand **Choose a value** field and enter `0`.
 
 1. In the condition step, note the **And** drop-down is set to **And**.
 
@@ -98,13 +104,13 @@ In this task, you will perform the following changes to the flow:
 
 1. Select **Failed** for the **Status** drop down.
 
-1. Enter **NO_APPROVER** for **Code**.
+1. Enter `NO_APPROVER` for **Code**.
 
-1. Enter **No approver for outcome** and in **Dynamic content** select **Outcome Title**.
-
-1. Click **Save**.
+1. Enter `No approver for outcome` and in **Dynamic content** select **Outcome Title**.
 
     ![Flow after changes in this task.](../media/flow-check-approver.png)
+
+1. Select **Save**.
 
 ### Task 1.3 – Error handling
 
@@ -122,9 +128,9 @@ In this task, you will perform the following changes to the flow:
 
 1. Select **Failed** for the **Status** drop down.
 
-1. Enter **APPROVAL_EXPIRED** for **Code**.
+1. Enter `APPROVAL_EXPIRED` for **Code**.
 
-1. Enter **Approval timed out for ** and in **Dynamic content**, select **Outcome Title**. 
+1. Enter `Approval timed out for` and in **Dynamic content**, select **Outcome Title**.
 
 1. On the **Terminate 2** step, select the ellipses (...) and select **Configure run after**.
 
@@ -134,9 +140,9 @@ In this task, you will perform the following changes to the flow:
 
 1. Click **Done**.
 
-1. Click **Save**
-
     ![Error handing and parallel branch.](../media/flow-error-handling.png)
+
+1. Click **Save**
 
 ### Task 1.4 – Set status to rejected
 
@@ -152,13 +158,13 @@ In this task, you will perform the following changes to the flow:
 
 1. On the **Update a row** step, select the ellipses (...) and select **Rename**.
 
-1. Enter **Set Outcome to rejected**.
+1. Enter `Set Outcome to rejected`.
 
 1. Select **Outcomes** for **Table name**.
 
 1. Click in the **Row ID** field.
 
-In **Dynamic content**, search for outcome and select **Outcome** under the **Get Outcome** section.
+1. In **Dynamic content**, search for outcome and select **Outcome** under the **Get Outcome** section.
 
 1. Expand **Show advanced options**.
 
@@ -169,7 +175,8 @@ In **Dynamic content**, search for outcome and select **Outcome** under the **Ge
 1. Click **Save**
 
 1. Click the back arrow icon in the top-left of the flow editor.
-**Note:** If you receive an error message stating **This isn't the latest content**, select **Overwrite other people's changes** then click **Apply** to move forward. 
+
+   **Note:** If you receive an error message stating **This isn't the latest content**, select **Overwrite other people's changes** then click **Apply** to move forward.
 
 ## Exercise 2 – Edit environment variable
 
@@ -181,7 +188,7 @@ In this task, you will:
 
 - Discover the URL for the outcome form in the model-driven app
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`.
 
 1. Make sure you are in the **Dev One** environment.
 
@@ -215,7 +222,7 @@ In this task, you will:
 
 - Update the environment variable
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`.
 
 1. Make sure you are in the **Dev One** environment.
 
@@ -256,7 +263,7 @@ In this task, you will perform the following:
 - create a new flow that is triggered by project status change
 - add an action to set the actual end date
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`.
 
 1. Make sure you are in the **Dev One** environment.
 
@@ -268,7 +275,7 @@ In this task, you will perform the following:
 
 1. Click **+ New** > **Automation** > **Cloud flow** > **Automated**.
 
-1. Enter **Set Project End Date** for **Flow name**
+1. Enter `Set Project End Date` for **Flow name**
 
 1. Search for Dataverse in **Chose how to trigger this flow** and select the **When a row is added, modified, or deleted** action.
 
@@ -282,11 +289,11 @@ In this task, you will perform the following:
 
 1. Select the ellipses (...) and select **Rename**.
 
-1. Enter **Project Status changed**.
+1. Enter `Project Status changed`.
 
 1. Expand **Show advanced options**.
 
-1. Click into **Select columns** and enter **contoso_projectstatus**. The flow will only trigger when the project status value is changed.
+1. Click into **Select columns** and enter `contoso_projectstatus`. The flow will only trigger when the project status value is changed.
 
 1. Click on **+ New step**.
 
@@ -294,7 +301,7 @@ In this task, you will perform the following:
 
 1. On the **Update a row** step, select the ellipses (...) and select **Rename**.
 
-1. Enter **Set Actual End Date**.
+1. Enter `Set Actual End Date`.
 
 1. Select **Projects** for **Table name**.
 
@@ -308,7 +315,7 @@ In this task, you will perform the following:
 
 1. In **Dynamic content**, select the **Expression** tab.
 
-1. Enter **utcNow()** and click **OK**.
+1. Enter `utcNow()` and click **OK**.
 
 1. Click **Save**.
 
@@ -329,3 +336,189 @@ In this task, you will perform the following:
 1. Click **Save**.
 
 1. Click the back arrow icon in the top-left of the flow editor.
+
+## Exercise 4 – Call Power Automate from a Canvas app
+
+In this exercise, you will add a Power Automate flow to the canvas app to reset the status of a Milestone.
+
+### Task 4.1 - Create flow
+
+In this task, you will perform the following changes to the screen:
+
+- create an instant flow for use in the canvas app
+- perform a flow action to reset the status of a Milestone
+
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
+
+1. Make sure you are in the **Dev One** environment.
+
+1. Select **Solutions**.
+
+1. Open the **Fabrikam Environmental** solution.
+
+1. In the **Objects** pane on the left, select **Cloud flows**.
+
+1. In the solution, select **+ New** > **Automation** > **Cloud flow** > **Instant**.
+
+    > NOTE: If a Welcome to Power Automate dialog appears, select **Get started**.
+
+1. Enter `Reset milestone status` for **Flow name**.
+
+1. Select **PowerApps (V2)** for **Chose how to trigger this flow**.
+
+1. Select **Create**.
+
+1. Select the Power Apps (V2) trigger step.
+
+1. Select **+ Add an input**.
+
+1. Select **Text**.
+
+1. Enter `ID` for *Input*.
+
+1. Enter `Milestone` for *Please enter your input*.
+
+1. Select **+ New step**.
+
+1. Select the **Microsoft Dataverse** connector.
+
+1. Select the **Update a row** action.
+
+1. Select **Milestones** for **Table name**.
+
+1. Select the **Row ID** field.
+
+1. In **Dynamic content**, select **ID**.
+
+1. Expand **Show advanced options**.
+
+1. Enter `0` for **Milestone Percentage Complete**.
+
+1. Select **Planned** for **Milestone status**.
+
+1. Select **Save** and wait for the flow to save.
+
+1. Select the **🡠** back arrow in the top left of the flow editor.
+
+### Task 4.2 - Add flow to canvas app
+
+In this task, you will perform the following changes to the screen:
+
+- add the flow to the canvas app
+- run the flow from a button
+
+1. In the **Objects** pane on the left, select **Apps**.
+
+1. Select the **Environmental Work Delivery** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
+
+1. In the left navigation, select **Power Automate**.
+
+1. Select **+ Add flow**.
+
+1. Select **Reset milestone status**. The flow will be added to the app.
+
+1. In the **Tree view**, select and expand **OutcomeScreen**.
+
+1. Select **SaveBtn**.
+
+1. Select the ellipses menu (...) next to the button in the **Tree view** and select **Copy**.
+
+1. In the **Tree view**, select and expand **MilestoneScreen**.
+
+1. Right-click in the app area and select **Paste**.
+
+1. Select the ellipses (...) next to **SaveBtn_1** and select **Rename**.
+
+1. Enter `ResetBtn`
+
+1. Select **Text** in the **Property Selector** and replace with `"Reset"`
+
+1. Select **DisplayMode** in the **Property Selector** and change the formula to use the `MilestoneGallery`
+
+1. Select the **OnSelect** property in the **Property Selector**.
+
+1. Enter the following formula:
+
+    ```Resetmilestonestatus.Run(MilestoneGallery.Selected.Milestone);Refresh(Milestones);```
+
+1. Drag **ResetBtn** under the form.
+
+### Task 4.3 - Publish and share the app
+
+1. Select **Save**.
+
+1. Select **Publish**.
+
+1. Select **Publish this version**.
+
+1. Select **Share**.
+
+1. Enter `Alex` in **Enter a name, email address, or Everyone** and select **Alex Wilber**.
+
+1. Select **Share**.
+
+1. Enter `Patti` in **Enter a name, email address, or Everyone** and select **Patti Fernandez**.
+
+1. Check the **Co-owner** box.
+
+1. Select **Share**.
+
+1. **Close** the tab.
+
+## Exercise 5 – Solutions
+
+In this exercise, you will export the solution from the Development environment and import it into the Production environment.
+
+### Task 5.1 – Export managed solution
+
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`.
+
+1. Make sure you are in the **Dev One** environment.
+
+1. Select **Solutions**.
+
+1. Select the **Fabrikam Environmental** solution but do not open it.
+
+1. Select **Export Solution**.
+
+1. Click **Next**.
+
+1. Change the version number to `1.1.11.15`.
+
+1. Select **Managed** for **Export As**.
+
+1. Click **Export**.
+
+1. The export will be prepared in the background, when the solution is ready click the **Download** button.
+
+### Task 5.2 – Export unmanaged solution
+
+1. Select the **Fabrikam Environmental** solution.
+
+1. Select **Export Solution**.
+
+1. Click **Next**.
+
+1. Change the version number to `1.1.11.15`.
+
+1. Select **Unmanaged** for **Export As**.
+
+1. Click **Export**.
+
+1. The export will be prepared in the background, when the solution is ready click the **Download** button.
+
+### Task 5.3 – Import managed solution
+
+1. Switch environments by using the Environment Selector in the upper right corner of the Maker portal.
+
+1. Select the **Production** environment from the list.
+
+1. Select **Solutions**.
+
+1. Select **Import solution**.
+
+1. Select **Browse**, change to the **Downloads** folder and select **FabrikamEnvironmental_1_1_11_15_managed.zip** and select **Open**.
+
+1. Click **Next**.
+
+1. Click **Import**. The solution will import in the background.
