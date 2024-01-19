@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Lab 3.3: Dashboards'
-    module: 'Module 3: Create model-driven apps in Power Apps'
+    title: 'Dashboards (Optional)'
+    module: 'Optional: Create model-driven apps'
 ---
 
 # Practice Lab 3.3 – Dashboards
@@ -49,7 +49,6 @@ In this exercise, you will assign security roles to the existing dashboard.
 1. Select **OK**.
 
 1. Select **Publish**.
-
 
 ## Exercise 2 – Create an interactive dashboard
 
@@ -105,7 +104,6 @@ In this exercise, you will create an interactive dashboard for Projects.
 
 1. Select **Publish all customizations**.
 
-
 ## Exercise 3 – Enable Power BI quick reports
 
 In this exercise, you will be enabling the feature that uses Power BI to create a report from a model-driven app view.
@@ -120,7 +118,7 @@ In this exercise, you will be enabling the feature that uses Power BI to create 
 
 1. Open the **Fabrikam Environmental** solution.
 
-1. In the **Objects** pane on the left, expand **Apps**.
+1. In the **Objects** pane on the left, select **Apps**.
 
 1. Select the **Environmental Project Delivery** app, click on the ellipses (...), and select **Edit** > **Edit in new tab**.
 
@@ -134,70 +132,8 @@ In this exercise, you will be enabling the feature that uses Power BI to create 
 
 1. Select **Publish**.
 
-1. Select **Play**. Explore the Environmental Project Delivery app. 
+1. Select **Play**. Explore the Environmental Project Delivery app.
 
 1. **Close** the app and the app designer tabs.
 
 1. Select **Done**.
-
-
-## Exercise 4 – Solutions
-
-In this exercise, you will export the solution from the Dev One environment and import it into the Live environment.
-
-### Task 4.1 – Export managed solution
-
-1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
-
-1. Make sure you are in the **Dev One** environment.
-
-1. Select **Solutions**.
-
-1. Select the **Fabrikam Environmental** solution row but do not open it.
-
-1. Select **Export solution**.
-
-1. Select **Next**.
-
-1. The version number should have been incremented to **1.1.11.8**.
-
-1. Select **Managed** for **Export As**.
-
-1. Select **Export**.
-
-1. The export will be prepared in the background. When the solution is ready, select the **Download** button.
-
-
-### Task 4.2 – Export unmanaged solution
-
-1. Select the **Fabrikam Environmental** solution.
-
-1. Select **Export solution**.
-
-1. Select **Next**.
-
-1. The version number should have been incremented to **1.1.11.9**.
-
-1. Select **Unmanaged** for **Export As**.
-
-1. Select **Export**.
-
-1. The export will be prepared in the background. When the solution is ready, select the **Download** button.
-
-
-### Task 4.3 – Import managed solution
-
-1. Switch environments by using the **Environment Selector** in the upper right corner of the Maker portal.
-
-1. Select the **Live** environment from the list.
-
-1. Select **Solutions**.
-
-1. Select **Import solution**.
-
-1. Select **Browse**,  change to the **Downloads** folder and select **FabrikamEnvironmental_1_1_11_8_managed.zip** and select **Open**.
-
-1. Select **Next**.
-
-1. Select **Import**. The solution will import in the background.
-

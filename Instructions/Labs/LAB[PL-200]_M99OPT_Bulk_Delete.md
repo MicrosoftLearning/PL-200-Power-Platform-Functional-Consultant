@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Lab 2.6: Bulk delete data'
-    module: 'Module 2: Manage Microsoft Dataverse'
+    title: 'Bulk delete data (Optional)'
+    module: 'Optional: Manage Microsoft Dataverse'
 ---
 
-# Practice Lab 2.6 - Bulk delete data
+# Practice Lab - Bulk delete data
 
 ## Scenario
 
@@ -42,7 +42,7 @@ In this exercise, you will create a bulk deletion operation that will delete all
 
 1. Enter **12**.
 
-1. Click **Select** and choose the **Milestone status** column.
+1. Click **Select** and choose the **Milestone Status** column.
 
 1. Select **Equals**.
 
@@ -67,4 +67,3 @@ In this exercise, you will create a bulk deletion operation that will delete all
 1. Change the view to **Recurring Bulk Deletion System Jobs**.
 
 1. Wait for the job to be created. This can take few minutes. **Refresh** the view as needed.
-

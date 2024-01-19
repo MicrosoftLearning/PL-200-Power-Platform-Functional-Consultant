@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Lab 2.7: Duplicate detection'
-    module: 'Module 2: Manage Microsoft Dataverse'
+    title: 'Duplicate detection (Optional)'
+    module: 'Optional: Manage Microsoft Dataverse'
 ---
 
-# Practice Lab 2.7 - Duplicate detection
+# Practice Lab - Duplicate detection
 
 ## Scenario
 
@@ -18,7 +18,7 @@ In this exercise, you will create a new duplicate detection rule that will mark 
 
 ### Task 1.1 – Create duplicate detection rule
 
-1. Navigate to the Power Platform admin center <https://admin.powerplatform.microsoft.com>.
+1. Navigate to the Power Platform admin center `https://aka.ms/ppac`
 
 1. Select **Environments** from the left navigation pane.
 
@@ -57,4 +57,3 @@ In this exercise, you will create a new duplicate detection rule that will mark 
 1. Select **OK**.
 
 1. Select **Close**.
-
