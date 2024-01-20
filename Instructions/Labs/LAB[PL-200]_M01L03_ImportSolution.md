@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 1.3: Import solution'
-    module: 'Module 1: Work with Microsoft Dataverse'
+    module: 'Learning Path 1: Work with Microsoft Dataverse'
 ---
 
 # Practice Lab 1.3 - Import solution
@@ -21,175 +21,231 @@ The solutions contain:
 - Microsoft Dataverse data model
 - Security roles
 - Business rules
-- Classic workflows
+- Dataverse classic workflows
 - Model-driven apps
 - Charts and dashboards
 - Canvas app
-- Cloud flows
+- Power Automate cloud flows
 - Business process flows
-- Power Virtual Agents chatbot
 
 In this lab, you will import the developed solutions and data.
 
 ## Exercise 1 - Import Fabrikam solutions
 
-In this exercise, you will import the main solution into the **[my intials] Development** environment.
-
+In this exercise, you will import the main solution into the **Dev One** environment.
 
 ### Task 1.1 – Main solution
 
-1.  Navigate to `https://make.powerapps.com`
+1. Navigate to `https://make.powerapps.com`
 
-1.  Make sure you are in your **[my intials] Development** environment.
+1. Make sure you are in the **Dev One** environment.
 
-1.  Select **Solutions**.
+1. Select **Solutions**.
 
-1.  Select **Import solution**.
+1. Select **Import solution**.
 
-1.  Select **Browse** and locate the **FabrikamEnvironmental_1_1_11_3.zip** file and select **Open**.
+1. Select **Browse** and locate the **FabrikamEnvironmental_1_1_11_3.zip** file and select **Open**.
 
-    > **Note:** This file is located in the Documents\PL-200 folder on your machine.
+   > **Note:** This file is located in the Documents\PL-200 folder on your machine.
 
-    ![Solution to import.](../media/solution-to-import.png)
+   ![Solution to import.](../media/solution-to-import.png)
 
-1.  Select **Next**.
+1. Select **Next**.
 
-1.  Select **Next** again.
+1. Select **Next** again.
 
-1.  You need to create connections for the solution.
+1. You need to create connections for the solution.
 
-    ![Connections for import of solution.](../media/connections-for-solution.png)
+   ![Connections for import of solution.](../media/connections-for-solution.png)
 
-1.  For the Approvals connection, in the **Select a connection** drop-down, choose **+ New connection**.
+1. For the Approvals connection, in the **Select a connection** drop-down, choose **+ New connection**.
 
-1.  A new tab will open in the browser. Select **Create**.
+1. A new tab will open in the browser. Select **Create**.
 
-    ![Create connection for approvals.](../media/create-approvals-connection.png)
+   ![Create connection for approvals.](../media/create-approvals-connection.png)
 
-1.  Switch back to the tab where you are importing the solution and select **Refresh**.
+1. Switch back to the tab where you are importing the solution and select **Refresh**.
 
-1.  For the Microsoft Dataverse connection, in the **Select a connection** drop-down, choose **+ New connection**.
+1. For the Microsoft Dataverse connection, in the **Select a connection** drop-down, choose **+ New connection**.
 
-1.  A new tab will open in the browser. Select **Create**. If prompted, sign in with your Microsoft 365 credentials.
+1. A new tab will open in the browser. Select **Create**. If prompted, sign in with your Microsoft 365 credentials.
 
-1.  Switch back to the tab where you are importing the solution and select **Refresh**.
+1. Switch back to the tab where you are importing the solution and select **Refresh**.
 
-1.  Both connections should now be configured.
+1. Both connections should now be configured.
 
-    ![Connections for import of solution.](../media/connections-for-solution-added.png)
+   ![Connections for import of solution.](../media/connections-for-solution-added.png)
 
-1.  Select **Import**.
+1. Select **Next**.
 
-    The solution will import in the background. This may take a few minutes.
+1. Select **Import**.
 
-    ![Solution imported.](../media/solution-imported.png)
+   The solution will import in the background. This may take a few minutes.
 
-    > **Alert:** Wait until the solution has finished importing before continuing to the next step.
+   ![Solution imported.](../media/solution-imported.png)
 
-1.  When the solution has imported successfully, open the **Fabrikam Environmental** solution.
+   > **Alert:** Wait until the solution has finished importing before continuing to the next step.
 
-1.  In the solution, select the **Overview** page.
+1. When the solution has imported successfully, open the **Fabrikam Environmental** solution.
 
-    ![Overview.](../media/solution-overview.png)
+1. In the solution, select the **Overview** page.
 
-1.  Select **Publish all customizations**. 
+   ![Overview.](../media/solution-overview.png)
 
-
-### Task 1.2 – Power Virtual Agents solution
-
-1.  Navigate to `https://make.powerapps.com`
-
-1.  Make sure you are in your **[my intials] Development** environment.
-
-1.  Select **Solutions**.
-
-1.  Select **Import solution**.
-
-1.  Select **Browse**, locate the **FabrikamChatbot_1_1_1_1.zip** file and select **Open**.
-
-    >[!NOTE]
-    > This file is located in the Documents\PL-200 folder on your machine.
-
-1.  Select **Next**.
-
-1.  Select **Import**. The solution will import in the background.
-
+1. Select **Publish all customizations**.
 
 ## Exercise 2 - Import data
 
-In this exercise, you will import data the into the **[my intials] Development** environment using the Configuration Migration Tool.
+In this exercise, you will import data the into the **Dev One** environment using the Configuration Migration Tool and import Outcome rows into your Microsoft Dataverse environment using a dataflow.
 
+### Task 2.1: Download and install Power Platform CLI
 
-### Task 2.1 - Import data
+1. Download the Power Platform CLI `https://aka.ms/PowerAppsCLI`.
 
-1.  In your lab virtual machine, open **File Explorer**.
+1. Open the **powerapps-cli-1.0.msi** to install the CLI tools.
 
-1.  Navigate to **Documents\PL-200\ConfigurationMigration**.
+1. Use the setup wizard to complete the setup and select **Finish**.
 
-1.  Double-click on **DataMigrationUtility.exe**
+1. Open a Command Prompt.
 
-    ![Configuration Migration Tool.](../media/configuration-migration-step1.png)
+1. Verify Power Apps CLI is installed.
 
-1.  Choose **Import data**.
+   ```dos
+   pac install latest
+   ```
 
-1.  Select **Continue**.
+### Task 2.2 - Import data with the Configuration Migration Tool
 
-1.  Select **Office 365** for **Deployment Type**.
+1. Open a Command Prompt.
 
-1.  Check the **Display list of available organizations** box.
+1. Launch the Configuration Migration Tool with the following command.
 
-1.  Enter your Microsoft 365 tenant credentials.
+   ```dos
+   pac tool cmt
+   ```
 
-    ![Configuration Migration Tool Login page.](../media/configuration-migration-step2.png)
+   ![Configuration Migration Tool.](../media/configuration-migration-step1.png)
 
-1.  Select **Login**.
+1. Select **Import data**.
 
-    ![Configuration Migration Tool select environment.](../media/configuration-migration-step3a.png)
+1. Select **Continue**.
 
-1.  Choose your **[my intials] Development** environment.
+1. Select **Office 365** for *Deployment Type*.
 
-1.  Select **Login**.
+1. Check **Display list of available organizations**.
 
-    ![Configuration Migration Tool select data file.](../media/configuration-migration-step4.png)
+1. Check **Show Advanced**.
 
-1.  Select the ellipses (...) and locate and select **Fabrikam Environment data.zip** file.
+1. Select **Don't know** for *Online Region*.
 
-    > **Note:** This file is located in the Documents\PL-200 folder on your machine.
+1. Enter your Microsoft 365 tenant credentials.
 
-1.  Select **Open**. The data file will be validated.
+   ![Configuration Migration Tool Login page.](../media/configuration-migration-step2.png)
 
-1.  Select **Import Data**. The import process will take approximately a minute.
+1. Select **Login**.
 
-1.  Select **Exit**.
+   ![Configuration Migration Tool select environment.](../media/configuration-migration-step3a.png)
 
-1.  Select the **X** to close the Configuration Migration Tool.
+1. Choose the **Dev One** environment.
 
+1. Select **Login**.
 
-## Exercise 3 - Sign up for Power Pages
+   ![Configuration Migration Tool select data file.](../media/configuration-migration-step4.png)
 
-In this exercise, you will provision a Power Pages site. This can take a while, so you will follow these steps to start the provisioning process in the background while you progress through your labs. You will configure the site in a future lab.
+1. Select the ellipses (...) and locate and select **Fabrikam Environment data.zip** file.
 
-### Task 3.1 - Create a Power Pages site
+   > **Note:** This file is located in the Documents\PL-200 folder on your machine.
 
-1.  Navigate to the Power Pages portal `https://make.powerpages.microsoft.com/` and sign in with your Microsoft 365 credentials if prompted.
+1. Select **Open**. The data file will be validated.
 
-1.  Use the Environment selector to switch to your **Dev One** environment.
+1. Select **Import Data**. The import process will take approximately a minute.
 
-1.  Select **Get started**.
+1. Select **Exit**.
 
-1.  If you are asked about your experience creating websites, select **Skip**.
+1. Select the **X** to close the Configuration Migration Tool.
 
-1.  Choose the default design template, **Starter layout 1**, and select **Choose this template**.
+### Task 2.3 – Load Outcome Excel file to OneDrive
 
-    ![Select Starter layout template..](../media/power-pages-starter.png)
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1.  Enter `Fabrikam Milestones` for **Give your site a name**.
+1. Select the **Waffle** button in the upper left corner to change applications and select **OneDrive**. (It may take a moment for your OneDrive to be set up. Select **Your OneDrive is ready** when you see it on the screen.)
 
-1.  Use the autogenerated web address.
+1. Select **+ Add new** and select **Files upload**.
 
-1.  Select **Done**.
+1. Locate and select the **Outcome data.xlsx** file and select **Open**.
 
-    > The portal site will deploy. It can take around an hour for your site to fully deploy.
+    > This file should be located in the Documents\PL-200 folder on your machine.
 
-    ![Power Pages portal deployed.](../media/portal-deployed.png)
+### Task 2.4 – Create a dataflow to import Outcomes
 
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
+
+1. Make sure you are in the **Dev One** environment.
+
+1. Select **Tables** from the left navigation menu.
+
+1. Select **Import** from the action menu, then select **Import data**.
+
+1. In the **Choose data source** dialog, select **Excel workbook**.
+
+1. Select **Browse OneDrive**. If prompted, sign in with your Microsoft 365 credentials.
+
+1. Select the **Outcome data.xlsx** file you uploaded to OneDrive and select **Select**.
+
+1. Select **Next**.
+
+1. Check the box next to **Table1**.
+
+1. Select **Next**. Do not navigate away from this page.
+
+1. Select the first three **Do Not Modify** columns. Tip: You can hold **Ctrl** on the keyboard and click with the mouse to select multiple columns.
+
+1. On the **Home** tab of the ribbon, select **Remove columns** to remove these three columns.
+
+1. Select the **Estimated Completion Date** column.
+
+1. Right-click on the **Estimated Completion Date** column and select **Replace values**.
+
+1. Enter `null` for *Value to find*.
+
+1. For **Replace with**, enter a date in three months time. Use date format **MM/DD/YYYY**.
+
+1. Select **OK**. The Estimated Completion Dates should show the date chosen.
+
+1. Select **Next**.
+
+1. Select **Load to existing table**.
+
+1. Select **contoso_outcome** from the *Destination table* drop-down.
+
+1. Under **Column mapping**, map **Estimated Completion Date**, **Goal**, **Outcome Description**, **Outcome Title**, and **Target Aim** to their corresponding destination columns.
+
+1. Select **Next**.
+
+1. Select **Refresh manually**.
+
+1. Select **Publish**.
+
+### Task 2.5 – Test Your work
+
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
+
+1. Select **Tables**.
+
+1. Locate and open the **Outcome** table.
+
+1. You should see all the imported **Outcome** rows.
+
+1. In the Maker portal, select **Apps**.
+
+1. For the **Environmental Project Delivery** model-driven app, select the ellipses **...** and select **Play**, signing in with your Microsoft 365 credentials if prompted.
+
+1. In the left-hand navigation of the app, select **Outcomes**.
+
+1. The imported **Outcome** records should be in the view.
+
+1. Select the title to open one of the imported **Outcome** records.
+
+1. Verify the **Estimated Completion Date** column is set to the future date.
+
+1. Verify the **Outcome Lifecycle** business process flow is visible at the top of the form.

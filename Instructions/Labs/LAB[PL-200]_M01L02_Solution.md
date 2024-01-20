@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 1.2: Publisher and Solution'
-    module: 'Module 1: Work with Microsoft Dataverse'
+    module: 'Learning Path 1: Work with Microsoft Dataverse'
 ---
 
 # Practice Lab 1.2 - Publisher and Solution
@@ -16,30 +16,31 @@ In this exercise, you will access the Power Apps maker portal, the Developer env
 
 ### Task 1.1 – Maker portal
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com> and sign in with your Microsoft 365 credentials if prompted again.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com` and sign in with your Microsoft 365 credentials if prompted again.
 
 1. If you are prompted for a **Phone number** enter `0123456789` and select **Submit**.
 
-1. Switch environments by using the Environment Selector in the upper right corner of the screen. The *Contoso (default)* environment will be selected by default.
+1. Switch environments by using the Environment Selector in the upper right corner of the screen.
 
-1. Select your **Dev One** environment from the list.
+1. Select the **Dev One** environment from the list.
 
-1. Select **Apps** from the left navigation pane. You should see some default system apps listed, Solution Health Hub etc. You may also see Fabrikam Milestones and Portal Management apps being provisioned.
+    ![Select Development environment in the Power Apps maker portal.](../media/select-dev-environment.png)
 
-1. Select **Tables** from the left navigation pane. You should see some recommended tables from the Common Data Model.
+1. Select **Apps** from the left navigation pane and then select **All**. You should see several apps including, Dataverse Accelerator App, Solution Health Hub, Power Pages Management, and Package Management View, listed.
 
+1. Select **Tables** from the left navigation pane. You should see the standard tables from the *Common Data Model* including Account and Contact.
 
-### Task 1.2 – Create a publisher
+### Task 1.2 – Create solution and publisher
 
-1. Select **Solutions** from the left navigation pane. You should see several solutions including the Default Solution and the Common Data Services Default Solution.
+1. Select **Solutions** from the left navigation pane. You should see several solutions including the *Default Solution* and the *Common Data Services Default Solution*.
 
     ![List of solutions in Maker portal.](../media/solutions-list.png)
 
-1. Select the **Publishers** tab.
+1. Select **+ New solution**.
 
-    ![List of publishers in Maker portal.](../media/publishers-list.png)
+1. In the **Display name** text box, enter **`[my initials] Practice solution`**. The Name text box should be automatically populated.
 
-1. Select **+ New publisher**.
+1. Select **+ New publisher** below the **Publisher** dropdown.
 
 1. In the **Display name** text box, enter `Fabrikam`
 
@@ -47,20 +48,11 @@ In this exercise, you will access the Power Apps maker portal, the Developer env
 
 1. In the **Prefix** text box, enter `fab`
 
-1. Select **Save**.
-
     ![New publisher.](../media/new-publisher.png)
 
+1. Select **Save**.
 
-### Task 1.3 – Create a solution
-
-1. Select the **Solutions** tab.
-
-1. Select **+ New solution**.
-
-1. In the **Display name** text box, enter **[my initials] Practice solution**. The Name text box should be automatically populated.
-
-1. In the **Publisher** drop-down, select **Fabrikam**.
+1. In the **Publisher** drop-down, select **Fabrikam (fabrikam)**.
 
 1. Select **Create**.
 
@@ -68,11 +60,11 @@ In this exercise, you will access the Power Apps maker portal, the Developer env
 
 ## Exercise 2 - Add components to the solution
 
-In this exercise, you will access the Power Apps maker portal and select the **Dev One** environment.
+In this exercise, you will add an existing table to the solution.
 
 ### Task 2.1 – Add table
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`.
 
 1. Make sure you are in the **Dev One** environment.
 
@@ -90,7 +82,7 @@ In this exercise, you will access the Power Apps maker portal and select the **D
 
     ![Add tables.](../media/add-tables.png)
 
-1. Select **Next**. 
+1. Select **Next**.
 
 1. Under the **Account** table, select the **Select objects** link.
 
@@ -111,4 +103,3 @@ In this exercise, you will access the Power Apps maker portal and select the **D
     ![Add table objects.](../media/add-objects.png)
 
 1. Select **Add**.
-

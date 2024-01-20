@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 3.1: Forms'
-    module: 'Module 3: Create model-driven apps in Power Apps'
+    module: 'Learning Path 3: Create model-driven apps'
 ---
 
 # Practice Lab 3.1 – Forms
@@ -44,7 +44,7 @@ In this task, you will perform the following changes to the form:
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Dev One** environment.
+1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 
@@ -68,16 +68,21 @@ In this task, you will perform the following changes to the form:
 
 1. Drag the **Project Code** column into the **Header** area.
 
+1. Drag the **Project Summary** column below **Program**.
+
 1. Drag the **Project Lead** column below **Region**.
 
-1. Drag the **Length of Project** column below **Estimated End** in the **Dates** section.
+1. Drag the **Length of Project** column below **Scheduled End** in the **Dates** section.
+
+    ![General tab on project table form.](../media/form-project-general.png)
 
 1. Select the **Funding** tab.
 
 1. Drag the **Total Project Funding** column above the **Project Funding** sub-grid.
 
-1. On the **Save and publish** drop-down menu, select **Save only**. Do not navigate away from this page.
+    ![Funding tab on project table form.](../media/form-project-funding.png)
 
+1. On the **Save and publish** drop-down menu, select **Save only**. Do not navigate away from this page.
 
 ### Task 1.2 – Add Timeline control to main form
 
@@ -97,23 +102,25 @@ In this task, you will perform the following changes to the form:
 
 1. Select the **New section** in the right column and select **Delete**.
 
+1. Select the **New section** in the middle column.
+
 1. Select **Components** on the left navigation of the form designer.
 
 1. Expand **Display**.
 
 1. Drag the **Timeline** control to the middle column of the **General** tab.
 
-1. Select **Tree view** on the left side of the form designer, expand **General** tab, and select the **New Section**.
+1. Select **Tree view** on the left side of the form designer, expand **General** tab, and select the **New Section** section.
 
 1. In the **Properties** pane on the right side, enter `Timeline` for both **Label** and **Name**.
 
 1. Check the **Hide label** box.
 
+    ![Timeline control on project table form.](../media/form-project-timeline.png)
+
 1. In the **Tree view**, select the **Note Text** control for the Timeline.
 
 1. In the **Properties** pane on the right side, select **Fax**, verify the **Enable** box is unchecked, and select **Cancel**.
-
-1. In the **Properties** pane on the right side, select **Letter**, verify the **Enable** box is unchecked, and select **Cancel**.
 
 1. In the **Properties** pane on the right side, select **Social Activity**, uncheck the **Enable** box, and select **Done**.
 
@@ -121,8 +128,7 @@ In this task, you will perform the following changes to the form:
 
 1. On the **Save and publish** drop-down menu, select **Save only**. Do not navigate away from this page.
 
-
-### Task 1.3 – Sub-grids on main form
+### Task 1.3 – Outcome sub-grid on main form
 
 In this task, you will perform the following changes to the form:
 
@@ -134,12 +140,11 @@ In this task, you will perform the following changes to the form:
 
 1. In the properties pane on the right-hand side, select **Project Outcomes (Project)** in the **Table** drop-down.
 
-1. On the **Save and publish** drop-down menu, select **Save only**. 
+1. On the **Save and publish** drop-down menu, select **Save only**.
 
 1. **Close** the form designer.
 
-1. Select **Done**. 
-
+1. Select **Done**.
 
 ### Task 1.4 – Modify the Project quick view form
 
@@ -181,12 +186,13 @@ In this task, you will perform the following changes to the form:
 
 1. Check **Hide Label**
 
-1. On the **Save and publish** drop-down menu, select **Save only**. 
+    ![Project Quick View form.](../media/form-project-quickview.png)
+
+1. On the **Save and publish** drop-down menu, select **Save only**.
 
 1. **Close** the form designer.
 
 1. Select **Done**.
-
 
 ## Exercise 2 – Edit Program form
 
@@ -214,7 +220,7 @@ In this task, you will perform the following changes to the form:
 
 1. Select the **Information** form where the **Form type** is **Main**, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
-1. Select the **Sponsor Main contact** field.
+1. Select the **Sponsor Main Contact** field.
 
 1. In the **Properties** pane on the right-hand side, expand **Filtering**.
 
@@ -222,18 +228,19 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Sponsor (Programs)** for **Relationship to current table**.
 
-1. Select **Company name (Contacts)** for **Relationship to this lookup's table.**
+1. Select **Company Name (Contacts)** for **Relationship to this lookup's table.**
 
-1. On the **Save and publish** drop-down menu, select **Save only**. 
+    ![Program main form filtering.](../media/form-program-main.png)
+
+1. On the **Save and publish** drop-down menu, select **Save only**.
 
 1. **Close** the form designer.
 
 1. Select **Done**.
 
+## Exercise 3 – Edit Project Funding form
 
-## Exercise 3 – Edit Program Funding form
-
-In this exercise, you will add new columns to the Project Funding table form.
+In this exercise, you will add new columns to the Project Funding table main form and add the form control to allow editing of the account record.
 
 ### Task 3.1 – Add columns to form
 
@@ -263,12 +270,65 @@ In this task, you will perform the following changes to the form:
 
 1. Select the **Funding amount** column to add to the form below **Currency**.
 
-1. On the **Save and publish** drop-down menu, select **Save only**. 
+    ![Project Funding main form.](../media/form-project-funding-main.png)
+
+1. On the **Save and publish** drop-down menu, select **Save only**.
 
 1. **Close** the form designer.
 
 1. Select **Done**.
 
+### Task 3.2 – Add form control
+
+In this task, you will perform the following changes to the form:
+
+- add form component to embed the account form
+
+1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+
+1. Make sure you are in the **Dev One** environment.
+
+1. Select **Solutions**.
+
+1. Open the **Fabrikam Environmental** solution.
+
+1. In the **Objects** pane on the left, expand **Tables**.
+
+1. Select the **Project Funding** table.
+
+1. Under **Data experiences**, select **Forms**.
+
+1. Select the **Information** form where the **Form type** is **Main**, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
+
+1. Select **Tree view** on the left-hand side of the form designer.
+
+1. Select the **General** tab.
+
+1. In the **Properties** pane on the right-hand side, select **2 columns** in the **Layout** drop-down.
+
+1. Select **Components** on the left navigation of the form designer.
+
+1. Expand **Display**.
+
+1. Drag the **Form** control to the right-hand column of the **General** tab.
+
+1. Select **Funder** for **Lookup column**.
+
+1. Select **Account main form for Environmental** for **Related Form**.
+
+1. Select **Done**.
+
+1. Select the **New Section**
+
+1. Check the **Hide label** box.
+
+    ![Project Funding main form with form control.](../media/form-project-funding-form-control.png)
+
+1. On the **Save and publish** drop-down menu, select **Save only**.
+
+1. **Close** the form designer.
+
+1. Select **Done**.
 
 ## Exercise 4 – Edit Region form
 
@@ -319,12 +379,13 @@ In this task, you will perform the following changes to the form:
 
 1. Check the **Hide label** box.
 
+    ![Region main form.](../media/form-region-main.png)
+
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
 1. **Close** the form designer.
 
-1. Select **Done**. 
-
+1. Select **Done**.
 
 ## Exercise 5 – Project Resource Quick Create form
 
@@ -354,7 +415,6 @@ In this task, you will enable the Project Resource table for quick create.
 
 1. Select **Save**.
 
-
 ### Task 5.2 – Create Quick Create form
 
 In this task, you will create a quick create form.
@@ -379,10 +439,11 @@ In this task, you will create a quick create form.
 
 1. Select the third section, and in the properties pane click **Hide label**.
 
+    ![Project Resource Quick Create form.](../media/form-project-resource-quick-create.png)
+
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
 1. Select **🡠 Back**.
-
 
 ## Exercise 6 – Edit Milestone form
 
@@ -415,12 +476,13 @@ In this task, you will perform the following changes to the form:
 
 1. Select the **Status Reason** field and select **Delete**.
 
+    ![Milestone main form.](../media/form-milestone-main.png)
+
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
 1. **Close** the form designer.
 
 1. Select **Done**.
-
 
 ## Exercise 7 – Edit Outcome form
 
@@ -456,12 +518,13 @@ In this task, you will perform the following changes to the Outcome form:
 
 1. Select the **Projects** tab and select the **Delete** icon.
 
+    ![Outcome main form.](../media/form-outcome-main.png)
+
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
 1. **Close** the form designer.
 
 1. Select **Done**.
-
 
 ## Exercise 8 – Edit Project Outcome form
 
@@ -471,7 +534,7 @@ In this exercise, you will configure the default form for the Project Outcome ta
 
 In this task, you will perform the following changes to the Project Outcome form:
 
-- change for layout
+- change form layout
 - add columns to the form
 - hide the name on the form
 - Add a quick view form
@@ -506,8 +569,6 @@ In this task, you will perform the following changes to the Project Outcome form
 
 1. In the properties pane on the right-hand side, enter `Related` for **Label** and **Name**.
 
-1. Check **Hide label**.
-
 1. Select **Table columns** on the left-hand side of the form designer.
 
 1. Drag the **Project** column below the **Title** field.
@@ -516,13 +577,15 @@ In this task, you will perform the following changes to the Project Outcome form
 
 1. Select the **Comments** column to add to the form below **Outcome**.
 
-1. Click on the **Outcome Completed Date** column to add to the form below **Comments**.
+1. Select the **Outcome Completed Date** column to add to the form below **Comments**.
 
-1. Click on the **Stakeholders Notified** column to add to the form below **Outcome completed date**.
+1. Select the **Stakeholders Notified** column to add to the form below **Outcome completed date**.
 
 1. Select the **Title** field.
 
 1. In the **Properties** pane on the right side, check **Hide**.
+
+1. Select the **Related** section.
 
 1. Select **Components** on the left side of the form designer, and expand **Display**.
 
@@ -534,14 +597,18 @@ In this task, you will perform the following changes to the Project Outcome form
 
 1. Select **Done**.
 
-1. Drag the new **Quick view** control into the **Related** section in the second column.
+    ![Project Outcome main form.](../media/form-project-outcome-main.png)
+
+1. Select the **Related** section.
+
+1. Check **Hide label**.
+
 
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
 1. **Close** the form designer.
 
 1. Select **Done**.
-
 
 ## Exercise 9 – Copy Outcome form
 
@@ -578,21 +645,19 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Save a copy**.
 
-1. Enter `Manager` for **Display Name** and `Form for managers` for **Description**. Select **Save**.
+1. Enter `Manager` for **Display Name** and `Form for managers` for **Description** and select **Save**.
 
 1. Select **Tree view** on the left side of the form designer.
 
 1. Select the **General** tab.
 
-1. In the properties pane on the right-hand side, enter **General** for **Name**
+1. In the properties pane on the right-hand side, enter `General` for **Name**
 
 1. Under **Formatting**, in the **Layout** drop-down, select **2 columns**.
 
 1. Select the **New Section** section.
 
 1. In the **Properties** pane on the right side, enter `Details` for **Label** and **Name**.
-
-1. Check **Hide label**.
 
 1. Select **Table columns** on the left navigation of the form designer.
 
@@ -616,19 +681,31 @@ In this task, you will perform the following changes to the form:
 
 1. Click on **Environmental impact assessment completed** to add to the Details section.
 
+1. Select the **Details** section.
+
+1. Check **Hide label**.
+
+    ![Manager Outcome main form.](../media/form-manager-outcome-main.png)
+
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
 1. Select **Form Settings**.
 
 1. Select the **Environmental manager** and **Environmental administrator** roles as the specific security roles that should have access to this form.
 
+    ![Form Settings roles.](../media/form-settings-roles.png)
+
 1. Select the **Form order** tab.
 
 1. Drag **Manager** above **User**.
 
+    ![Form Settings form order.](../media/form-settings-order.png)
+
 1. Select the **Fallback forms** tab.
 
 1. Uncheck **Enable Manager form as a Fallback form**.
+
+    ![Form Settings fallback.](../media/form-settings-fallback.png)
 
 1. Select **Save and publish**.
 
@@ -646,13 +723,11 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Save and publish**.
 
-
 ### Task 9.2 – Publish changes
 
 1. In the **Objects** pane on the left, select **All**.
 
 1. Select **Publish all customizations**.
-
 
 ## Exercise 10 – Modify model-driven apps
 
@@ -673,11 +748,11 @@ In this task, you will perform the following changes to the app:
 
 1. Open the **Fabrikam Environmental** solution.
 
-1. In the **Objects** pane on the left, expand **Apps**.
+1. In the **Objects** pane on the left, select **Apps**.
 
 1. Select the **Environmental Management** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
-1. Select **+ Add page**.
+1. Select **+ New**.
 
 1. Select **Dataverse table**.
 
@@ -689,7 +764,7 @@ In this task, you will perform the following changes to the app:
 
 1. Select **Add**.
 
-1. Select **+ Add page**.
+1. Select **+ New**.
 
 1. Select **Dataverse table**.
 
@@ -703,9 +778,9 @@ In this task, you will perform the following changes to the app:
 
 1. In the **Pages** pane on the left side, select **Outcome forms** under **All other pages**.
 
-1. In the **Outcome forms** pane on the right side, turn off **Include all forms in the app**.
+1. In the **Outcome forms** pane on the right side, select the ellipses **...** for the **User** form and select **Remove**
 
-1. Select **Turn off**.
+    ![App designer.](../media/app-designer.png)
 
 1. Select **Save**.
 
@@ -715,8 +790,9 @@ In this task, you will perform the following changes to the app:
 
 1. Navigate around and interact with the **Environmental Management** app before closing the app and app designer windows.
 
-1. Select **Done**.
+1. **Close** the app designer window.
 
+1. Select **Done**.
 
 ### Task 10.2 – Environmental Project Delivery app
 
@@ -727,7 +803,7 @@ In this task, you will perform the following changes to the app:
 
 1. Select the **Environmental Project Delivery** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
-1. Select **+ Add page**.
+1. Select **+ New**.
 
 1. Select **Dataverse table**.
 
@@ -739,9 +815,9 @@ In this task, you will perform the following changes to the app:
 
 1. Select **Add**.
 
-1. In the **Pages** pane on the left side, select **Outcome forms**.
+1. In the **Pages** pane on the left side, select **Outcomes form**.
 
-1. In the **Outcome forms** pane on the right side, select the **More options** menu (...) on the **Manager** form and select **Remove**.
+1. In the **Outcomes forms** pane on the right side, select the ellipses **...** on the **Manager** form and select **Remove**.
 
 1. Remove the **Information** forms of type **Quick view** and **Card Form**.
 
@@ -751,7 +827,6 @@ In this task, you will perform the following changes to the app:
 
 1. Select **Play**.
 
-1. Navigate around and interact with the **Environmental Project Delivery** app before closing the app and app designer windows.
+1. Navigate around and interact with the **Environmental Project Delivery** app and then  **Close** the app and app designer windows.
 
 1. Select **Done**.
-
