@@ -22,22 +22,27 @@ In this exercise, you will verify that you can access Power Apps.
 
 ### Task 1.1 – Sign in to Power Apps
 
-1. Verify that you have your **Microsoft 365 credentials** from the Authorized Lab Host available. The credentials will be in the resources tab.
+1.  Verify that you have your **Microsoft 365 credentials** from the Authorized Lab Host available. The credentials will be in the **Resources** tab.
 
-1. In a new browser tab, navigate to `https://powerapps.microsoft.com`.
+1.  In a new browser tab, navigate to `https://powerapps.microsoft.com`
 
-1. Enter the `email address` provided by the Authorized Lab Host.
+1.  Select **Sign in**.
 
-1. Select **Next**.
+1.  Enter the `email address` provided by the Authorized Lab Host.
 
-1. Enter the `password` provided by the Authorized Lab Host.
+1.  Select **Next**.
 
-1. Select **Sign in**.
+1.  Enter the `password` provided by the Authorized Lab Host.
 
-1. Select **Yes** to stay signed in.
+1.  Select **Sign in**.
 
-1. If prompted for contact information, leave the Country/region as the default value and enter `0123456789` for Phone number and select **Submit**.
+1.  Optionally, select **Yes** to stay signed in.
 
-1. At the top right of your screen, verify that the Environment is set to Dev One. This is where you will be working for the entirety of this lab. If it is not, select the **Dev One** environment.
+1.  If prompted for contact information, leave the Country/region as the default value and enter `0123456789` for Phone number and select **Submit**.
 
-   ![Environment selector.](../media/select-dev-one-environment.png)
+1.  **Refresh** the page.
+
+1.  At the top right of the screen, verify that the **Environment** is set to **Dev One**. This is where you will be working for the entirety of this lab. If it is not, select the **Dev One** environment.
+
+    ![Environment selector.](../media/select-dev-one-environment.png)
+
