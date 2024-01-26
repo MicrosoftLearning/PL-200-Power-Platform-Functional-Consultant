@@ -89,7 +89,7 @@ In this task, you will perform the following changes to the flow:
 
 1. Change the **Operator** to **is greater than**.
 
-1. Select the right-hand **Choose a value** field and enter `0`.
+1. Select the right-hand **Choose a value** field and enter `0`
 
 1. In the condition step, note the **And** drop-down is set to **And**.
 
@@ -161,7 +161,7 @@ In this task, you will perform the following changes to the flow:
 
 1. On the **Update a row** step, select the ellipsis (...) and select **Rename**.
 
-1. Enter `Set Outcome to rejected`.
+1. Enter `Set Outcome to rejected`
 
 1. Select **Outcomes** for **Table name**.
 
@@ -192,7 +192,7 @@ In this task, you will:
 
 - Discover the URL for the outcome form in the model-driven app
 
-1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **Dev One** environment.
 
@@ -227,7 +227,7 @@ In this task, you will:
 
 - Update the environment variable
 
-1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **Dev One** environment.
 
@@ -484,7 +484,7 @@ In this exercise, you will export the solution from the Development environment 
 
 ### Task 5.1 – Export managed solution
 
-1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **Dev One** environment.
 
@@ -496,7 +496,7 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Select **Next**.
 
-1. Change the version number to `1.1.11.15`.
+1. Change the version number to `1.1.11.15`
 
 1. Select **Managed** for **Export As**.
 
@@ -513,7 +513,7 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Select **Next**.
 
-1. Change the version number to `1.1.11.15`.
+1. Change the version number to `1.1.11.15`
 
 1. Select **Unmanaged** for **Export As**.
 
