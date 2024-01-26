@@ -22,7 +22,7 @@ In this task, you will perform the following changes to the flow:
 
 - Replace the Get Approver row with the calculated column for Approver Email Address
 
-1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **Dev One** environment.
 
@@ -32,23 +32,24 @@ In this task, you will perform the following changes to the flow:
 
 1. In the **Objects** pane on the left, select **Cloud flows**.
 
-1. Select the **Request Approval** flow, select the ellipses **...**, and select **Edit** > **Edit in new tab**.
+1. Select the **Request Approval** flow, select the ellipsis **...**, and select **Edit** > **Edit in new tab**.
 
 1. If a Welcome to Power Automate dialog appears, select **Get started**.
 
 1. Select the **Start and wait for an approval** step.
 
-    > NOTE: The Item link field use an environment variable, **Outcome form link**.
+    > **Note**: The Item link field use an environment variable, **Outcome form link**.
 
-1. Click in the **Assigned To** field and clear the current contents.
+1. Clear the current contents of the **Assigned To** field.
 
-1. In **Dynamic content**, search for **email** and select **Approver Email**. You may need to scroll down in the Dynamic Content window to see this.
+1. In **Dynamic content**, search for `email` and select **Approver Email**. You may need to scroll down in the Dynamic Content window to see this.
 
-1. On the **Get Approver** step, select the ellipses (...) and select **Delete**.
+1. On the **Get Approver** step, select the ellipsis (...) and select **Delete**.
 
     ![Approval step.](../media/flow-approval.png)
 
 1. Select **Save**.
+
 
 ### Task 1.2– Check if an approver is assigned to the outcome
 
@@ -56,31 +57,31 @@ In this task, you will perform the following changes to the flow:
 
 - Add check for missing approver
 
-1. Hover the mouse between the **Get Outcome** and **Start and wait for an approval** steps and click on **+** (Insert new step) > **Add an action**.
+1. Hover the mouse between the **Get Outcome** and **Start and wait for an approval** steps and select the **+** (Insert new step) > **Add an action**.
 
 1. Select the **Control** connector and then select **Condition**.
 
-1. Click in the first **Choose a value** field.
+1. Select the first **Choose a value** field.
 
 1. In **Dynamic content**, search for **approver** and select **Approver Email**.
 
 1. Change the **Operator** to **is not equal to**.
 
-1. Click in the right-hand **Choose a value** field.
+1. Select the right-hand **Choose a value** field.
 
 1. In **Dynamic content**, select the **Expression** tab.
 
-1. Enter **null** and click **OK**.
+1. Enter `null` and select **OK**.
 
-1. In the condition step, click **+ Add** and then select **Add row**.
+1. In the **condition** step, select **+ Add** and then select **Add row**.
 
-1. Click in the **Choose a value** field.
+1. Select the **Choose a value** field.
 
 1. In **Dynamic content**, select the **Expression** tab.
 
 1. Enter `length()` and position the cursor between the brackets.
 
-1. Select the **Dynamic content** tab, select **See more** for **Get Outcome**, and select the **Approver Email** and click **OK**.
+1. Select the **Dynamic content** tab, select **See more** for **Get Outcome**, and choose **Approver Email** and select **OK**.
 
 1. The expression should be as follows:
 
@@ -88,7 +89,7 @@ In this task, you will perform the following changes to the flow:
 
 1. Change the **Operator** to **is greater than**.
 
-1. Click in the right-hand **Choose a value** field and enter `0`.
+1. Select the right-hand **Choose a value** field and enter `0`.
 
 1. In the condition step, note the **And** drop-down is set to **And**.
 
@@ -98,7 +99,7 @@ In this task, you will perform the following changes to the flow:
 
 1. Drag the **Check Approval response** step into the **If yes** branch of the condition.
 
-1. In the **If no** branch of the condition, click **Add an action**.
+1. In the **If no** branch of the condition, select **Add an action**.
 
 1. Select the **Control** connector and then select **Terminate**.
 
@@ -112,17 +113,18 @@ In this task, you will perform the following changes to the flow:
 
 1. Select **Save**.
 
+
 ### Task 1.3 – Error handling
 
 In this task, you will perform the following changes to the flow:
 
 - Add error handing to the approval step
 
-1. On the **Check Approval Response** step, select the ellipses (...) and select **Configure run after**. Only **is successful** is selected.
+1. On the **Check Approval Response** step, select the ellipsis (...) and select **Configure run after**. Only **is successful** is selected.
 
-1. Click **Cancel**.
+1. Select **Cancel**.
 
-1. Hover the mouse between the **Start and wait for an approval** and **Check Approval Response** steps and click on **+** (Insert new step) and then select **Add a parallel branch**.
+1. Hover the mouse between the **Start and wait for an approval** and **Check Approval Response** steps and select the **+** (Insert new step) and then select **Add a parallel branch**.
 
 1. Select the **Control** connector and then select **Terminate**.
 
@@ -132,17 +134,18 @@ In this task, you will perform the following changes to the flow:
 
 1. Enter `Approval timed out for` and in **Dynamic content**, select **Outcome Title**.
 
-1. On the **Terminate 2** step, select the ellipses (...) and select **Configure run after**.
+1. On the **Terminate 2** step, select the ellipsis (...) and select **Configure run after**.
 
 1. Uncheck **is successful**.
 
 1. Check the other three boxes.
 
-1. Click **Done**.
+1. Select **Done**.
 
     ![Error handing and parallel branch.](../media/flow-error-handling.png)
 
-1. Click **Save**
+1. Select **Save**
+
 
 ### Task 1.4 – Set status to rejected
 
@@ -152,19 +155,19 @@ In this task, you will perform the following changes to the flow:
 
 1. Select and expand the **Check Approval Response** step.
 
-1. In the **If no** branch of the condition, click **Add an action**.
+1. In the **If no** branch of the condition, select **Add an action**.
 
 1. Select the **Microsoft Dataverse** connector and then select **Update a row**.
 
-1. On the **Update a row** step, select the ellipses (...) and select **Rename**.
+1. On the **Update a row** step, select the ellipsis (...) and select **Rename**.
 
 1. Enter `Set Outcome to rejected`.
 
 1. Select **Outcomes** for **Table name**.
 
-1. Click in the **Row ID** field.
+1. Select the **Row ID** field.
 
-1. In **Dynamic content**, search for outcome and select **Outcome** under the **Get Outcome** section.
+1. In **Dynamic content**, search for `outcome` and select **Outcome** under the **Get Outcome** section.
 
 1. Expand **Show advanced options**.
 
@@ -172,11 +175,12 @@ In this task, you will perform the following changes to the flow:
 
 1. Select **Rejected** for **Status Reason**.
 
-1. Click **Save**
+1. Select **Save**
 
-1. Click the back arrow icon in the top-left of the flow editor.
+1. Select the back arrow icon in the top-left of the flow editor.
 
-   **Note:** If you receive an error message stating **This isn't the latest content**, select **Overwrite other people's changes** then click **Apply** to move forward.
+   **Note:** If you receive an error message stating **This isn't the latest content**, select **Overwrite other people's changes** then select **Apply** to move forward.
+
 
 ## Exercise 2 – Edit environment variable
 
@@ -194,11 +198,11 @@ In this task, you will:
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
 1. In the **Objects** pane on the left, select **Apps**.
 
-1. Select the **Environmental Project Delivery** app, click on the ellipses (...), and select **Play**.
+1. Select the **Environmental Project Delivery** app, select the ellipsis (...), and select **Play**.
 
 1. In the left-hand navigation, select **Outcomes**.
 
@@ -216,6 +220,7 @@ In this task, you will:
 
     ```https://practice.crm.dynamics.com/main.aspx?appid=de79a38a-138b-4a89-91fb-b12ca31d227b&pagetype=entityrecord&etn=contoso_outcome&id=```
 
+
 ### Task 2.2 – Update environment variable
 
 In this task, you will:
@@ -228,17 +233,18 @@ In this task, you will:
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
 1. In the **Objects** pane on the left, select **Environment variables**.
 
-1. Select the **Outcome form link** variable, click on the ellipses (...), and select **Edit**.
+1. Select the **Outcome form link** variable, select the ellipsis (...), and select **Edit**.
 
-1. Click **+ New value**.
+1. Select **+ New value**.
 
 1. Paste the URL from the previous task.
 
-1. Click **Save**.
+1. Select **Save**.
+
 
 ### Task 2.3 – Restart flow
 
@@ -248,9 +254,10 @@ In this task, you will:
 
 1. In the **Objects** pane on the left, select **Cloud flows**.
 
-1. Select the **Request Approval** flow, click on the ellipses (...), and select **Turn off**.
+1. Select the **Request Approval** flow, select the ellipsis (...), and select **Turn off**.
 
-1. Select the **Request Approval** flow, click on the ellipses (...), and select **Turn on**.
+1. Select the **Request Approval** flow, select the ellipsis (...), and select **Turn on**.
+
 
 ## Exercise 3 - Create automatic cloud flow for project status
 
@@ -263,23 +270,23 @@ In this task, you will perform the following:
 - create a new flow that is triggered by project status change
 - add an action to set the actual end date
 
-1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **Dev One** environment.
 
 1. Select **Solutions**.
 
-1. Click to open the **Fabrikam Environmental** solution.
+1. Open the **Fabrikam Environmental** solution.
 
 1. In the **Objects** pane on the left, select **Cloud flows**.
 
-1. Click **+ New** > **Automation** > **Cloud flow** > **Automated**.
+1. Select **+ New** > **Automation** > **Cloud flow** > **Automated**.
 
-1. Enter `Set Project End Date` for **Flow name**
+1. Enter `Set Project End Date` for **Flow name**.
 
-1. Search for Dataverse in **Chose how to trigger this flow** and select the **When a row is added, modified, or deleted** action.
+1. Search for `Dataverse` in **Chose how to trigger this flow** and select the **When a row is added, modified, or deleted** action.
 
-1. Click **Create**.
+1. Select **Create**.
 
 1. Select **Modified** for **Change type**.
 
@@ -287,39 +294,42 @@ In this task, you will perform the following:
 
 1. Select **Organization** for **Scope**.
 
-1. Select the ellipses (...) and select **Rename**.
+1. Select the ellipsis (...) and select **Rename**.
 
-1. Enter `Project Status changed`.
+1. Enter `Project Status changed`
 
 1. Expand **Show advanced options**.
 
-1. Click into **Select columns** and enter `contoso_projectstatus`. The flow will only trigger when the project status value is changed.
+1. For the **Select columns** field, enter `contoso_projectstatus` 
 
-1. Click on **+ New step**.
+    The flow will only trigger when the project status value is changed.
+
+1. Select **+ New step**.
 
 1. Select the **Microsoft Dataverse** connector and then select **Update a row**.
 
-1. On the **Update a row** step, select the ellipses (...) and select **Rename**.
+1. On the **Update a row** step, select the ellipsis (...) and select **Rename**.
 
-1. Enter `Set Actual End Date`.
+1. Enter `Set Actual End Date`
 
 1. Select **Projects** for **Table name**.
 
-1. Click in the **Row ID** field.
+1. Select the **Row ID** field.
 
-1. In **Dynamic content**, search for project and select **Project**.
+1. In **Dynamic content**, search for `project` and select **Project**.
 
 1. Expand **Show advanced options**.
 
-1. Click in the **Actual End** field.
+1. Select the **Actual End** field.
 
 1. In **Dynamic content**, select the **Expression** tab.
 
-1. Enter `utcNow()` and click **OK**.
+1. Enter `utcNow()` and select **OK**.
 
-1. Click **Save**.
+1. Select **Save**.
 
-### Task 3.2 - Configure  trigger
+
+### Task 3.2 - Configure trigger
 
 In this task, you will perform the following:
 
@@ -329,13 +339,14 @@ In this task, you will perform the following:
 
 1. Expand **Show advanced options** if not already expanded.
 
-1. Click into **Filter rows** and enter the following OData filter expression:
+1. Select **Filter rows** and enter the following OData filter expression:
 
     ```(contoso_projectstatus eq 330650003 and contoso_actualenddate eq null)```
 
-1. Click **Save**.
+1. Select **Save**.
 
-1. Click the back arrow icon in the top-left of the flow editor.
+1. Select the back arrow icon in the top-left of the flow editor.
+
 
 ## Exercise 4 – Call Power Automate from a Canvas app
 
@@ -421,13 +432,13 @@ In this task, you will perform the following changes to the screen:
 
 1. Select **SaveBtn**.
 
-1. Select the ellipses menu (...) next to the button in the **Tree view** and select **Copy**.
+1. Select the ellipsis menu (...) next to the button in the **Tree view** and select **Copy**.
 
 1. In the **Tree view**, select and expand **MilestoneScreen**.
 
 1. Right-click in the app area and select **Paste**.
 
-1. Select the ellipses (...) next to **SaveBtn_1** and select **Rename**.
+1. Select the ellipsis (...) next to **SaveBtn_1** and select **Rename**.
 
 1. Enter `ResetBtn`
 
@@ -442,6 +453,7 @@ In this task, you will perform the following changes to the screen:
     ```Resetmilestonestatus.Run(MilestoneGallery.Selected.Milestone);Refresh(Milestones);```
 
 1. Drag **ResetBtn** under the form.
+
 
 ### Task 4.3 - Publish and share the app
 
@@ -465,6 +477,7 @@ In this task, you will perform the following changes to the screen:
 
 1. **Close** the tab.
 
+
 ## Exercise 5 – Solutions
 
 In this exercise, you will export the solution from the Development environment and import it into the Production environment.
@@ -481,15 +494,16 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Select **Export Solution**.
 
-1. Click **Next**.
+1. Select **Next**.
 
 1. Change the version number to `1.1.11.15`.
 
 1. Select **Managed** for **Export As**.
 
-1. Click **Export**.
+1. Select **Export**.
 
-1. The export will be prepared in the background, when the solution is ready click the **Download** button.
+1. The export will be prepared in the background. When the solution is ready, select the **Download** button.
+
 
 ### Task 5.2 – Export unmanaged solution
 
@@ -497,15 +511,16 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Select **Export Solution**.
 
-1. Click **Next**.
+1. Select **Next**.
 
 1. Change the version number to `1.1.11.15`.
 
 1. Select **Unmanaged** for **Export As**.
 
-1. Click **Export**.
+1. Select **Export**.
 
 1. The export will be prepared in the background, when the solution is ready click the **Download** button.
+
 
 ### Task 5.3 – Import managed solution
 
@@ -519,6 +534,7 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Select **Browse**, change to the **Downloads** folder and select **FabrikamEnvironmental_1_1_11_15_managed.zip** and select **Open**.
 
-1. Click **Next**.
+1. Select **Next**.
 
-1. Click **Import**. The solution will import in the background.
+1. Select **Import**. The solution will import in the background.
+
