@@ -454,27 +454,27 @@ In this task, you will perform the following changes to the app:
 
 1. Under **Projects** in the **Pages** pane on the left-hand side, select **Projects view**.
 
-1. In the **Projects** pane on the right side, select the ellipses **...** on the **Active Projects** view and select **Remove**.
+1. In the **Projects** pane on the right side, select the ellipsis **...** on the **Active Projects** view and select **Remove**.
 
-1. In the **Projects** pane on the right side, select the ellipses **...** on the **Inactive Projects** view and select **Remove**.
+1. In the **Projects** pane on the right side, select the ellipsis **...** on the **Inactive Projects** view and select **Remove**.
 
-1. In the **Projects** pane on the right side, select the ellipses **...** on the **Projects Subgrid** view and select **Remove**.
+1. In the **Projects** pane on the right side, select the ellipsis **...** on the **Projects Subgrid** view and select **Remove**.
 
     ![Project views in app.](../media/app-designer-views.png)
 
 1. Select **Milestones view** from the left **Pages** pane.
 
-1. In the **Milestones** pane on the right side, select the ellipses **...** on the **Inactive Milestones** view and select **Remove**.
+1. In the **Milestones** pane on the right side, select the ellipsis **...** on the **Inactive Milestones** view and select **Remove**.
 
-1. In the **Milestones** pane on the right side, select the ellipses **...** on the **Milestones SubGrid** view and select **Remove**.
+1. In the **Milestones** pane on the right side, select the ellipsis **...** on the **Milestones SubGrid** view and select **Remove**.
 
 1. In the **Pages** pane on the left-hand side.
 
 1. Select **Outcomes view**.
 
-1. In the **Outcomes** pane on the right side, select the ellipses **...** on the **Inactive Outcomes** view and select **Remove**.
+1. In the **Outcomes** pane on the right side, select the ellipsis **...** on the **Inactive Outcomes** view and select **Remove**.
 
-1. In the **Outcomes** pane on the right side, select the ellipses **...** on the **Outcomes SubGrid** view and select **Remove**.
+1. In the **Outcomes** pane on the right side, select the ellipsis **...** on the **Outcomes SubGrid** view and select **Remove**.
 
 1. Select **Save**.
 
