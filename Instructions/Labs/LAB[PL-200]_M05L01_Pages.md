@@ -159,7 +159,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 ### Task 2.6 - Update pages in the Portal Designer
 
-1. Select the ellipses (...) and select **Page settings**.
+1. Select the ellipsis (...) and select **Page settings**.
 
 1. Enter `Milestones` for **Name**.
 
@@ -179,7 +179,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. In the **Pages** pane on the left side, select **Subpage 1**.
 
-1. Select the ellipses (...) and select **Delete**.
+1. Select the ellipsis (...) and select **Delete**.
 
 1. Select **Delete**.
 
@@ -292,7 +292,7 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
 1. In the **Pages** pane on the left side, and select **Pages**.
 
-1. Select the ellipses (...) and select **Add a new subpage**.
+1. Select the ellipsis (...) and select **Add a new subpage**.
 
 1. Enter `Milestone Details`.
 
@@ -330,11 +330,11 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
 1. In the **Pages** pane on the left side, select **Milestones**.
 
-1. Select the ellipses (...) and select **Promote this subpage**.
+1. Select the ellipsis (...) and select **Promote this subpage**.
 
 1. In the **Pages** pane on the left side, select **Pages**.
 
-1. Select the ellipses (...) and select **Delete**.
+1. Select the ellipsis (...) and select **Delete**.
 
 1. In the **Pages** pane on the left side, select **Milestones**.
 
