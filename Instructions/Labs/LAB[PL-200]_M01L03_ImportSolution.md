@@ -132,7 +132,7 @@ In this exercise, you will import data the into the **Dev One** environment usin
 
     ![Configuration Migration Tool select data file.](../media/configuration-migration-step4.png)
 
-1.  Select the ellipses (...) and locate and select **Fabrikam Environment data.zip** file.
+1.  Select the ellipsis (...) menu and locate and select **Fabrikam Environment data.zip** file.
 
     > **Note:** This file is located in the Documents\PL-200 folder on your machine.
 
@@ -221,7 +221,7 @@ In this exercise, you will import data the into the **Dev One** environment usin
 
 1.  In the Maker portal, select **Apps** from the left navigation.
 
-1.  For the **Environmental Project Delivery** model-driven app, select the ellipses **...** and select **Play**, signing in with your Microsoft 365 credentials if prompted.
+1.  For the **Environmental Project Delivery** model-driven app, select the ellipsis **...** and select **Play**, signing in with your Microsoft 365 credentials if prompted.
 
 1.  In the left navigation of the app, select **Outcomes**.
 
