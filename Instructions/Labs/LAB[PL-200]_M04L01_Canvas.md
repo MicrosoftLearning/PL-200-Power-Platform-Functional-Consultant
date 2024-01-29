@@ -133,7 +133,7 @@ In this exercise, you will learn about the canvas app.
 
 1. Review the formulas.
 
-1. Select the ellipses menu (...) to the right of **App** and select **Run OnStart**.
+1. Select the ellipsis menu (...) to the right of **App** and select **Run OnStart**.
 
 1. In the left navigation, select **(𝑥) Variables**.
 
@@ -187,11 +187,11 @@ In this task, you will perform the following changes to the app:
 
     **Note:** You can select the caret to the right of the formula bar to expand it.
 
-1. Select the ellipses (...) to the right of **App** and select **Run OnStart**. Verify that the layout adjusts and the tiles become bigger.
+1. Select the ellipsis (...) to the right of **App** and select **Run OnStart**. Verify that the layout adjusts and the tiles become bigger.
 
 1. In the OnStart, change **Set(LeftHandWidth,App.Width/10)** to `Set(LeftHandWidth,App.Width/12)`
 
-1. Select the ellipses (...) to the right on App and select **Run OnStart**. Note that the layout adjusts.
+1. Select the ellipsis (...) to the right on App and select **Run OnStart**. Note that the layout adjusts.
 
 1. **Close** the tab and select **Leave** to discard any changes. Select **Done**.
 
@@ -212,7 +212,7 @@ In this task, you will perform the following changes to standardize colors for t
 
 1. In the OnStart, change **Set(FabrikamFrontColor,RGBA(255,255,255,1))** to `Set(FabrikamFrontColor,Color.Black)`
 
-1. Select the ellipses (...) to the right of App and select **Run OnStart**. Note that the colors change.
+1. Select the ellipsis (...) to the right of App and select **Run OnStart**. Note that the colors change.
 
 1. Select **Save**.
 
@@ -291,7 +291,7 @@ In this task, you will perform the following changes to the button:
 
 1. In the **Tree view**, select and expand **OutcomeScreen**.
 
-1. Select the ellipses (...) next to **Button2** and select **Rename**.
+1. Select the ellipsis (...) next to **Button2** and select **Rename**.
 
 1. Enter `SaveBtn`
 
