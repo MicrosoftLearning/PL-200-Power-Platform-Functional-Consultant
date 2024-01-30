@@ -815,6 +815,18 @@ In this task, you will perform the following changes to the app:
 
 1. Select **Add**.
 
+1. Select **+ New**.
+
+1. Select **Dataverse table**.
+
+1. Select **Next**.
+
+1. Search for and select **Outcome**.
+
+1. Uncheck **Show in navigation**.
+
+1. Select **Add**.
+
 1. In the **Pages** pane on the left side, select **Outcomes form**.
 
 1. In the **Outcomes forms** pane on the right side, select the ellipses **...** on the **Manager** form and select **Remove**.
