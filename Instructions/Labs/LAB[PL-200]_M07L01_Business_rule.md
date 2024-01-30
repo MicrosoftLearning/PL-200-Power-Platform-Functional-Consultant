@@ -236,7 +236,7 @@ In this practice lab, you will be creating business rules to show and hide the l
 1. Enter the following **Expression**.
 
     ```
-    If(ThisRecord.'Scheduled Start' > ThisRecord.ScheduledEnd, 
+    If(ThisRecord.'Scheduled Start' > ThisRecord.'Scheduled End', 
      Error({Kind: ErrorKind.Validation, Message: "The start date cannot be after the end date" })
     );
     ```
