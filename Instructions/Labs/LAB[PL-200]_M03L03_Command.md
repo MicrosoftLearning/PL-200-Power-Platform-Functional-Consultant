@@ -40,8 +40,6 @@ In this task, you will perform the following changes to the Project Outcome form
 
 1. Select **Edit command bar** and select **Edit in new tab**.
 
-    ![Edit Command bar.](../media/app-designer-command-bar.png)
-
 1. Select **Main form** and then select **Edit**.
 
     ![Edit Command bar.](../media/app-designer-command-bar-main-form.png)
