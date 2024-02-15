@@ -28,7 +28,7 @@ In this exercise, you will provision a Power Pages site using a starter template
 
 1. Choose the default design template, **Starter layout 1**, and select **Choose this template**.
 
-   ![Select Starter layout template..](../media/power-pages-starter.png)
+    ![Select Starter layout template..](../media/power-pages-starter.png)
 
 1. Enter `Fabrikam Milestones` for **Give your site a name**.
 
@@ -36,11 +36,12 @@ In this exercise, you will provision a Power Pages site using a starter template
 
 1. Select **Done**.
 
-   > The portal site will deploy. It can take a while for your site to fully deploy.
+    > The portal site will deploy. It can take a while for your site to fully deploy.
 
-   ![Power Pages portal deployed.](../media/portal-deployed.png)
+    ![Power Pages portal deployed.](../media/portal-deployed.png)
 
 1. Wait for the site to be deployed.
+
 
 ## Exercise 2 - Explore and configure a Power Pages site
 
@@ -56,7 +57,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. If permissions are requested, check the **Consent on behalf of your organization** and select **Accept**.
 
-   ![Power Pages consent.](../media/portal-consent.png)
+    ![Power Pages consent.](../media/portal-consent.png)
 
 1. Scroll down to the bottom of the page and note the page footer.
 
@@ -65,6 +66,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 1. In the menu, select **Contact us**. You should see a form.
 
 1. Complete the **Fill in your details** form with dummy data and select **Submit**.
+
 
 ### Task 2.2 - Sign in to the Power Pages site
 
@@ -78,6 +80,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. Enter `MOD` and `Administrator` for name and select **Update**.
 
+
 ### Task 2.3 - Review the Power Pages Management model-driven app
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
@@ -86,9 +89,9 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. Select **Apps** and select **All**.
 
-1. Select the **Power Pages Management** app, select the ellipses (...), and select **Play**.
+1. Select the **Power Pages Management** app, select the ellipsis menu (...), and select **Play**.
 
-1. In the left-hand navigation, select **Web Pages**. You should see 10 pages including **Subpage 2**.
+1. In the left navigation, select **Web Pages**. You should see 10 pages including **Subpage 2**.
 
 1. Select and edit **Subpage 2**. You should see that this page uses the **Default studio template** page template.
 
@@ -96,9 +99,9 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. Select **Default studio template**. You should see the source for the web template.
 
-1. In the left-hand navigation, select **Web Templates**. You should see many web templates.
+1. In the left navigation, select **Web Templates**. You should see many web templates.
 
-1. In the left-hand navigation, select **Contacts**.
+1. In the left navigation, select **Contacts**.
 
 1. A contact has been created for your user, **MOD Administrator**.
 
@@ -110,15 +113,16 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. Select the **General** tab and view the **Web Roles** subgrid. Note that you have the **Administrators** web role.
 
-1. In the left-hand navigation, select **Web Roles**. You will see three web roles:
+1. In the left navigation, select **Web Roles**. You will see three web roles:
 
     - Administrators
     - Anonymous Users
     - Authenticated Users
 
+
 ### Task 2.4 - Edit the site footer in Portal Management
 
-1. In the left-hand navigation, select **Content Snippets**.
+1. In the left navigation, select **Content Snippets**.
 
 1. Select and edit **Footer**. Do not navigate away from this page.
 
@@ -131,7 +135,8 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. Select **Save & Close**.
 
-    > NOTE: The footer on the site is not updated immediately.
+    > **Note**: The footer on the site is not updated immediately.
+
 
 ### Task 2.5 - Review Portal Designer
 
@@ -147,13 +152,14 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. Scroll to the bottom of the page. You should see the footer that you changed in the earlier task.
 
-1. In the **Pages** pane on the left-hand side, select to expand **Pages**. You should see **Subpage 2**.
+1. In the **Pages** pane on the left side, select to expand **Pages**. You should see **Subpage 2**.
 
 1. Select **Subpage 2**. Do not navigate away from this page.
 
+
 ### Task 2.6 - Update pages in the Portal Designer
 
-1. Select the ellipses (...) and select **Page settings**.
+1. Select the ellipsis (...) and select **Page settings**.
 
 1. Enter `Milestones` for **Name**.
 
@@ -171,9 +177,9 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. Pick the **Yellow** color under Brand colors.
 
-1. In the **Pages** pane on the left-hand side, select **Subpage 1**.
+1. In the **Pages** pane on the left side, select **Subpage 1**.
 
-1. Select the ellipses (...) and select **Delete**.
+1. Select the ellipsis (...) and select **Delete**.
 
 1. Select **Delete**.
 
@@ -182,6 +188,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 1. Enter **Fabrikam Environmental**.
 
     ![Power Pages portal edits.](../media/designer-edit.png)
+
 
 ### Task 2.7 - View the changes to the site
 
@@ -197,6 +204,7 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
 > IMPORTANT: At the time of writing, Power Pages is in technical preview and the steps may differ. Refer to <https://docs.microsoft.com/power-pages/getting-started/what-is-dataverse> for the latest documentation.
 
+
 ### Task 3.1 - Display Dataverse records
 
 1. Navigate to the Power Pages portal <https://make.powerpages.microsoft.com/>.
@@ -205,7 +213,7 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
 1. Select **Edit** to open the site designer.
 
-1. In the **Pages** pane on the left-hand side, select and expand **Pages**, and select **Milestones**.
+1. In the **Pages** pane on the left side, select and expand **Pages**, and select **Milestones**.
 
 1. In the canvas under **Choose a component to add to this section**, select the **List** icon.
 
@@ -216,6 +224,7 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 1. Enter **Milestones** for **Name your list**.
 
 1. Select **Done**.
+
 
 ### Task 3.2 - Security
 
@@ -278,11 +287,12 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
 1. Verify that milestone records are listed in the Power Pages site.
 
+
 ### Task 3.3 - Form
 
-1. In the **Pages** pane on the left-hand side, and select **Pages**.
+1. In the **Pages** pane on the left side, and select **Pages**.
 
-1. Select the ellipses (...) and select **Add a new subpage**.
+1. Select the ellipsis (...) and select **Add a new subpage**.
 
 1. Enter `Milestone Details`.
 
@@ -318,15 +328,15 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
 1. Select **OK**.
 
-1. In the **Pages** pane on the left-hand side, select **Milestones**.
+1. In the **Pages** pane on the left side, select **Milestones**.
 
-1. Select the ellipses (...) and select **Promote this subpage**.
+1. Select the ellipsis (...) and select **Promote this subpage**.
 
-1. In the **Pages** pane on the left-hand side, select **Pages**.
+1. In the **Pages** pane on the left side, select **Pages**.
 
-1. Select the ellipses (...) and select **Delete**.
+1. Select the ellipsis (...) and select **Delete**.
 
-1. In the **Pages** pane on the left-hand side, select **Milestones**.
+1. In the **Pages** pane on the left side, select **Milestones**.
 
 1. In the canvas, select the **Milestones list component**.
 

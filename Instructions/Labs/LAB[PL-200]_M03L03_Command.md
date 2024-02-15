@@ -36,11 +36,9 @@ In this task, you will perform the following changes to the Project Outcome form
 
 1. Select the **Environmental Project Delivery** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
-1. Select the **Pages** tab, Hover over **Project Outcomes views** and select the ellipses **...** button.
+1. Select the **Pages** tab, Hover over **Project Outcomes views** and select the ellipsis **...** button.
 
 1. Select **Edit command bar** and select **Edit in new tab**.
-
-    ![Edit Command bar.](../media/app-designer-command-bar.png)
 
 1. Select **Main form** and then select **Edit**.
 

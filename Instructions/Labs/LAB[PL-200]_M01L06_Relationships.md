@@ -256,9 +256,9 @@ In this exercise, you will create two many-to-one relationships for the Project 
 
 1.  In the **Fabrikam Environmental** solution, select the **Objects** page and select **All**.
 
-1.  Select the ellipses **...** and select **Switch to classic**.
+1.  Select the ellipsis menu **...** and select **Switch to classic**.
 
-1.  In Solution Explorer, expand **Entities**.
+1.  In the legacy **Solution Explorer**, expand **Entities**.
 
 1.  Expand **Project**.
 
@@ -266,7 +266,7 @@ In this exercise, you will create two many-to-one relationships for the Project 
 
     ![One to many relationships in Solution Explorer.](../media/solution-explorer-relationships.png)
 
-1.  Select the relationship between **Project** and **Project Outcome**
+1.  Select the relationship between **Project** and **Project Outcome**.
 
     ![One to many relationship in Solution Explorer.](../media/solution-explorer-relationship.png)
 
@@ -296,7 +296,7 @@ In this exercise, you will create two many-to-one relationships for the Project 
 
     ![Mappings added.](../media/mappings-added.png)
 
-1.  Select **Save and Close**.
+1.  Select **Save and Close**. Select **Publish All Customizations**.
 
 1.  Close the **Solutions Explorer** tab.
 
@@ -557,7 +557,7 @@ In this exercise, you will export the solution from the Development environment 
 
 1.  The version number should have been incremented to **1.1.11.4**.
  
-1.  Change the version number to `1.1.11.6`.
+1.  Change the version number to `1.1.11.6`
 
 1.  Select **Managed** for **Export As**.
 
@@ -576,13 +576,13 @@ In this exercise, you will export the solution from the Development environment 
 
 1.  The version number should have been incremented to **1.1.11.7**.
 
-1.  Change the version number to `1.1.11.6`.
+1.  Change the version number to `1.1.11.6`
 
 1.  Select **Unmanaged** for **Export As**.
 
 1.  Select **Export**.
 
-1.  The export will be prepared in the background, when the solution is ready click the **Download** button.
+1.  The export will be prepared in the background. When the solution is ready, select the **Download** button.
 
 
 ### Task 7.4 – Import managed solution

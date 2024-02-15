@@ -27,7 +27,7 @@ In this exercise, you will review the **Dev One** environment and create a *Prod
 
     ![Environment in the Power Platform admin center.](../media/ellipses-settings-dev.png)
 
-1.  Select the **Dev One** environment by selecting the ellipses **...** drop-down menu, and select **Settings**.
+1.  Select the **Dev One** environment by selecting the ellipsis **...** drop-down menu, and select **Settings**.
 
 1.  Explore the different areas in **Settings** that you may be interested in but do not make any changes yet.
 

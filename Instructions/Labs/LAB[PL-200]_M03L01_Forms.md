@@ -778,7 +778,7 @@ In this task, you will perform the following changes to the app:
 
 1. In the **Pages** pane on the left side, select **Outcome forms** under **All other pages**.
 
-1. In the **Outcome forms** pane on the right side, select the ellipses **...** for the **User** form and select **Remove**
+1. In the **Outcome forms** pane on the right side, select the ellipsis **...** for the **User** form and select **Remove**
 
     ![App designer.](../media/app-designer.png)
 
@@ -817,7 +817,7 @@ In this task, you will perform the following changes to the app:
 
 1. In the **Pages** pane on the left side, select **Outcomes form**.
 
-1. In the **Outcomes forms** pane on the right side, select the ellipses **...** on the **Manager** form and select **Remove**.
+1. In the **Outcomes forms** pane on the right side, select the ellipsis **...** menu on the **Manager** form and select **Remove**.
 
 1. Remove the **Information** forms of type **Quick view** and **Card Form**.
 
