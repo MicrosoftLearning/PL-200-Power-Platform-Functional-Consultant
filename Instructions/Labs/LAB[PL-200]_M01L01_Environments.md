@@ -69,7 +69,7 @@ In this exercise, you will review the **Dev One** environment and create a *Prod
 
 1.  Expand **Product** and select **Behavior**. 
 
-1.  Verify that **Show the Switch to classic buttons in Power Apps** is set to **On**.
+1.  Under **Display behavior**, verify that **Show the Switch to classic buttons in Power Apps** is set to **On**.
 
-1.  If necessary, select **Save**.
+1.  If necessary, select **Save**. Otherwise, **close** the tab. 
 
