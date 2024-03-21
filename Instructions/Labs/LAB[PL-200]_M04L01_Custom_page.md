@@ -18,7 +18,7 @@ In this exercise, you will be adding an image column to the Resource table.
 
 ### Task 1.1 – Create an image column
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **Dev One** environment.
 
@@ -28,13 +28,13 @@ In this exercise, you will be adding an image column to the Resource table.
 
 1. In the **Objects** pane on the left, expand **Tables**.
 
-1. Select the **Resources** table.
+1. Select the **Resource** table.
 
 1. Under **Schema**, select **Columns**.
 
 1. Select **+ New column**.
 
-1. Enter `Picture` for **Display Name**.
+1. Enter `Picture` for **Display name**.
 
 1. Select **File** and then **Image** in the **Data type** drop-down.
 
@@ -46,7 +46,7 @@ In this exercise, you will be adding an image column to the Resource table.
 
 ### Task 1.2 – Add images to resources
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **Dev One** environment.
 
@@ -70,7 +70,7 @@ In this exercise, you will build a custom page to manage project resources.
 
 ### Task 2.1 - Create a custom page
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **Dev One** environment.
 
@@ -84,13 +84,14 @@ In this exercise, you will build a custom page to manage project resources.
 
 1. Select **With layout** and select **Split Screen**.
 
-1. Select **Settings** .
+1. Select **Settings** which may be behind the ellipsis (...) menu in the command bar.
 
-1. Enter `Project Resources page` for *Name*.
+1. Enter `Project Resources page` for **Name**.
 
-1. Close Settings.
+1. **Close** Settings.
 
 1. Rename *Screen1* to `Project Resources`.
+
 
 ### Task 2.2 - Add gallery for resources
 
@@ -98,21 +99,22 @@ In this exercise, you will build a custom page to manage project resources.
 
 1. Select **LeftContainer1**.
 
-1. In **LeftContainer1**, select the **+** icon and select **Vertical Gallery**.
+1. In **LeftContainer1**, select the **+** icon and select **Vertical gallery**.
 
 1. Search for `Resources` and select the **Resources** table.
 
-1. In the Properties pane for the gallery, select **Active Resources** for *Views*.
+1. On the **Properties** tab for the gallery, select **Active Resources** for **Views**.
 
-1. In the Properties pane for the gallery, select **Image, title and subtitle** for *Layout*.
+1. On the **Properties** tab for the gallery, under **Fields** select **5 selected**.
 
-1. In the Properties pane for the gallery, **Edit fields**.
-
-1. Select **Resource Type** for *Subtitle*.
+1. Select **Resource Type** for *Subtitle1*.
 
 1. Rename the gallery to `ResourceList`
 
     ![Gallery for resources.](../media/custom-page-resources.png)
+
+1. Close the **Data** panel.
+
 
 ### Task 2.3 - Add gallery for project resources
 
@@ -120,21 +122,21 @@ In this exercise, you will build a custom page to manage project resources.
 
 1. Select **RightContainer1**.
 
-1. In **RightContainer1**, select the **+** icon and select **Vertical Gallery**.
+1. In **RightContainer1**, select the **+** icon and select **Vertical gallery**.
 
 1. Search for `Resources` and select the **Project Resources** table.
 
-1. In the Properties pane for the gallery, select **Project Resources SubGrid** for *Views*.
+1. On the **Properties** tab for the gallery, select **Project Resources SubGrid** for **Views**.
 
-1. In the Properties pane for the gallery, select **Title, subtitle ans body** for *Layout*.
+1. On the **Properties** tab for the gallery, select **Title, subtitle, and body** for **Layout**.
 
-1. In the Properties pane for the gallery, **Edit fields**.
+1. On the **Properties** tab for the gallery, under **Fields** select **5 selected**.
 
-1. Select **ThisItem.Name** for *Name*.
+1. Enter `ThisItem.'Status Reason'` for **Body**.
 
-1. Select **ThisItem.'Project Role'** for *Subtitle*.
+1. Enter `ThisItem.'Project Role'` for **Subtitle**.
 
-1. Select **ThisItem.'Status Reason'** for *Subtitle*.
+1. Enter `ThisItem.Name` for **Title**.
 
     ![Fields for project resources.](../media/custom-page-projectresouce-fields.png)
 
@@ -178,7 +180,7 @@ In this task, you will add the custom page to a model-driven app.
 
 1. In the **Pages** pane on the left side, select **projects**.
 
-1. Select the ellipses **..** for **Projects** and select **New page**
+1. Select the ellipsis (**...**) for **Projects** and select **New page**.
 
 1. Select **Custom page**.
 
@@ -198,6 +200,7 @@ In this task, you will add the custom page to a model-driven app.
 
     ![Custom page in model-driven app.](../media/custom-page-play.png)
 
-1. Select the Project Resources page and verify that resources are displayed and then  **Close** the app and app designer windows.
+1. Select **Project Resources page** under **Projects** and verify that resources are displayed and then **close** the app and app designer browser tabs.
 
 1. Select **Done**.
+

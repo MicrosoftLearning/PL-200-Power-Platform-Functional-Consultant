@@ -54,6 +54,8 @@ In this exercise, you will import the main solution into the **Dev One** environ
 
 1.  Select **Next** again.
 
+1.  Select **Continue**.
+
 1.  **Wait** while connections are created.
 
     ![Connections for import of solution.](../media/connections-for-solution.png)
