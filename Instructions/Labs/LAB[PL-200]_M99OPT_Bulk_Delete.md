@@ -46,7 +46,7 @@ In this exercise, you will create a bulk deletion operation that will delete all
 
 1. Select **Equals**.
 
-1. Select the ellipses (...), select **Completed** and **Cancelled**, and select **OK**.
+1. Select the ellipsis (...), select **Completed** and **Cancelled**, and select **OK**.
 
 1. Select **Next**.
 
