@@ -143,7 +143,7 @@ In later labs you will be adding columns and relationships to this custom table.
 
 1.  Select the **+ New** drop-down and select **Table** then **Table**.
 
-1.  Enter `Project Outcome` for **Display Name**. The plural name will be automatically populated.
+1.  Enter `Project Outcome` for **Display name**. The plural name will be automatically populated.
 
 1.  Enter `Environmental outcomes for a project` for **Description**.
 
