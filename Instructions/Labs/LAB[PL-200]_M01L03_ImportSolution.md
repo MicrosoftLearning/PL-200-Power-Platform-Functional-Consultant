@@ -126,7 +126,7 @@ In this exercise, you will import data the into the **Dev One** environment usin
 
 1.  Select **Login**.
 
-    ![Configuration Migration Tool select environment.](../media/configuration-migration-step3a.png)
+    ![Configuration Migration Tool select environment.](../media/configuration-migration-step3n.png)
 
 1.  Choose the **Dev One** environment.
 

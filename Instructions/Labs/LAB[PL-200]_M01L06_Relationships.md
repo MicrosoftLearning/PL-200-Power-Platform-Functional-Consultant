@@ -433,7 +433,7 @@ In this exercise, you will use relationships to create calculated and rollup fie
 
 1.  Select **+ New** > **Column**.
 
-1.  Enter `Approver Email` for **Display Name**.
+1.  Enter `Approver Email` for **Display name**.
 
 1.  Enter `Email address for approver` for **Description**.
 
@@ -478,7 +478,7 @@ In this exercise, you will use relationships to create calculated and rollup fie
 
 1.  Select **+ New** > **Column**.
 
-1.  Enter `Total Project Funding` for **Display Name**.
+1.  Enter `Total Project Funding` for **Display name**.
 
 1.  Select **Currency** in the **Data type** drop-down.
 
@@ -506,7 +506,7 @@ In this exercise, you will use relationships to create calculated and rollup fie
 
 1.  Select **SUM** for **Aggregate Function**.
 
-1.  Select **(Project Funding) Funding amount** for **Aggregate Related Entity Field**.
+1.  Select **(Project Funding) Funding Amount** for **Aggregate Related Entity Field**.
 
 1.  Select the green check mark.
 
@@ -559,7 +559,7 @@ In this exercise, you will export the solution from the Development environment 
  
 1.  Change the version number to `1.1.11.6`
 
-1.  Select **Managed** for **Export As**.
+1.  Select **Managed** for **Export as**.
 
 1.  Select **Export**.
 
@@ -578,7 +578,7 @@ In this exercise, you will export the solution from the Development environment 
 
 1.  Change the version number to `1.1.11.6`
 
-1.  Select **Unmanaged** for **Export As**.
+1.  Select **Unmanaged** for **Export as**.
 
 1.  Select **Export**.
 
@@ -601,21 +601,11 @@ In this exercise, you will export the solution from the Development environment 
 
 1.  Select **Next**.
 
-    You need to create connections for the solution.
-
-1.  For the **Approvals** connection, select **Select a connection** > **+ New connection**.
-
-1.  A new tab will open in the browser. Select **Create**.
-
-1.  Switch back to the tab where you are importing the solution and select **Refresh**.
-
-1.  For the **Microsoft Dataverse** connection, select **Select a connection** > **+ New connection**.
-
-1.  A new tab will open in the browser. Select **Create**. If prompted, sign in with your Microsoft 365 credentials.
-
-1.  Switch back to the tab where you are importing the solution and select **Refresh**.
+    Wait for connections to be created for the solution.
 
 1.  Both connections should be selected.
+
+1.  Select **Next**.
 
 1.  Select **Import**. The solution will import in the background.
 

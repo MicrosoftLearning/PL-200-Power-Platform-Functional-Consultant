@@ -75,7 +75,7 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
 1.  Select **+ New column**.
 
-1.  Enter `Project Code` for **Display Name**.
+1.  Enter `Project Code` for **Display name**.
 
 1.  Enter `Unique project reference` for **Description**.
 
@@ -109,7 +109,7 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
 1.  Select **+ New column**.
 
-1.  Enter `Length of Project` for **Display Name**.
+1.  Enter `Length of Project` for **Display name**.
 
 1.  Enter `Number of days` for **Description**.
 
@@ -164,7 +164,7 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
 1.  Select **+ New column**.
 
-1.  Enter `Project Summary` for **Display Name**.
+1.  Enter `Project Summary` for **Display name**.
 
 1.  Select **Formula** in the **Data type** drop-down.
 
@@ -212,7 +212,7 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
 1.  Select **+ New column**.
 
-1.  Enter `Funding Amount` for **Display Name**.
+1.  Enter `Funding Amount` for **Display name**.
 
 1.  Enter `Value of funding from the funder on the project` for **Description**.
 
@@ -383,7 +383,7 @@ In this exercise, you will be creating columns on the Project Outcome custom tab
 
 1.  Select **+ New**, and then select **Column**.
 
-1.  Enter `Comments` for **Display Name**.
+1.  Enter `Comments` for **Display name**.
 
 1.  Select **Text** in the **Data type** drop-down and then under **Multiple lines of text**, select **Plain text**.
 
