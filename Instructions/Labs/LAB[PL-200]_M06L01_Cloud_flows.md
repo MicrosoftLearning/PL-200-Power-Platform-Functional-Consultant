@@ -284,7 +284,7 @@ In this task, you will perform the following:
 
 1. Enter `Set Project End Date` for **Flow name**.
 
-1. Search for `Dataverse` in **Chose how to trigger this flow** and select the **When a row is added, modified, or deleted** action.
+1. Search for `Dataverse` in **Choose your flow's trigger** and select the **When a row is added, modified, or deleted** action.
 
 1. Select **Create**.
 
@@ -375,7 +375,7 @@ In this task, you will perform the following changes to the screen:
 
 1. Enter `Reset milestone status` for **Flow name**.
 
-1. Select **PowerApps (V2)** for **Chose how to trigger this flow**.
+1. Select **When Power Apps calls a flow (V2)** for **Choose how to trigger this flow**.
 
 1. Select **Create**.
 
@@ -498,7 +498,7 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Change the version number to `1.1.11.15`
 
-1. Select **Managed** for **Export As**.
+1. Select **Managed** for **Export as**.
 
 1. Select **Export**.
 
@@ -515,7 +515,7 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Change the version number to `1.1.11.15`
 
-1. Select **Unmanaged** for **Export As**.
+1. Select **Unmanaged** for **Export as**.
 
 1. Select **Export**.
 
@@ -534,7 +534,7 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Select **Browse**, change to the **Downloads** folder and select **FabrikamEnvironmental_1_1_11_15_managed.zip** and select **Open**.
 
-1. Select **Next**.
+1. Select **Next** until Import
 
 1. Select **Import**. The solution will import in the background.
 

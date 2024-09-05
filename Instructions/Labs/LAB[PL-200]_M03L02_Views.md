@@ -394,7 +394,7 @@ In this task, you will perform the following changes to the form:
 
 1. Under **Data experiences**, select **Forms**.
 
-1. Select the **Information** form of type **Main**, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
+1. Select the **Information** where **Form type** is **Main**, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
 1. Select **Components** on the left navigation of the form designer.
 

@@ -50,7 +50,7 @@ You will add the users and team to column security profiles.
 
 1. Select **Add**.
 
-1. Select the **Environmental User** and **Environmental manager** roles.
+1. Select the **Environmental user** and **Environmental manager** roles.
 
 1. Select **Save**.
 
@@ -60,7 +60,7 @@ You will add the users and team to column security profiles.
 
 1. Select **Add**.
 
-1. Select the **Environmental User** and **Environmental administrator** roles.
+1. Select the **Environmental user** and **Environmental administrator** roles.
 
 1. Select **Save**.
 
@@ -124,7 +124,7 @@ You will add the users and team to column security profiles.
 
 1. Select **+ Add Users**.
 
-1. Enter `Alex` in **Enter a name or an email address** and select **Alex Wilber**.
+1. Enter `Alex` in **Search for user by user name or an email address** and select **Alex Wilber**.
 
 1. Select **Add**.
 
@@ -138,7 +138,7 @@ You will add the users and team to column security profiles.
 
 1. Select **+ Add Users**.
 
-1. Enter `Patti` in **Enter a name or an email address** and select **Patti Fernandez**.
+1. Enter `Patti` in **Search for user by user name or an email address** and select **Patti Fernandez**.
 
 1. Select **Add**.
 
