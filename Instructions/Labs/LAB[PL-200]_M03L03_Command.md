@@ -52,11 +52,11 @@ In this task, you will perform the following changes to the Project Outcome form
 
 1. Configure command bar button
 
-   - Enter `Complete` for Label.
+   - Enter `Complete` for **Label**.
 
-   - Select **Use Icon** for Icon and then select the **Accept** icon.
+   - Select **Use Icon** for **Icon** and then select the **Accept** icon.
 
-   - Select **Run formula** for Action.
+   - Select **Run formula** for **Action**.
 
    - Select **Open formula bar**.
 
@@ -66,9 +66,9 @@ In this task, you will perform the following changes to the Project Outcome form
     Patch('Project Outcomes', Self.Selected.Item, {'Outcome Completed Date': Now()})
     ```
 
-   - Enter `Project Outcome complete` for Tooltip title.
+   - Enter `Project Outcome complete` for **Tooltip title**.
 
-   - Enter `Set Outcome completed date` for Tooltip description.
+   - Enter `Set Outcome completed date` for **Tooltip description**.
 
 1. Select **Save and Publish**.
 

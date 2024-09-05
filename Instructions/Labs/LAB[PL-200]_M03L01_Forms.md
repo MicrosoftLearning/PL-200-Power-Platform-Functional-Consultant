@@ -447,7 +447,7 @@ In this task, you will create a quick create form.
 
 ## Exercise 6 – Edit Milestone form
 
-In this exercise, you will add the status choice column to to the Milestone table form.
+In this exercise, you will add the status choice column to the Milestone table form.
 
 ### Task 6.1 – Add columns to the form
 
@@ -486,7 +486,7 @@ In this task, you will perform the following changes to the form:
 
 ## Exercise 7 – Edit Outcome form
 
-In this exercise, you will add the status choice column to to the Outcome table form.
+In this exercise, you will add the status choice column to the Outcome table form.
 
 ### Task 7.1 – Add columns to the form
 
@@ -667,17 +667,17 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Approver Email** to add to the **Details** section.
 
-1. Select **Approved** to add to the Details section.
+1. Select **Approved** to add to the **Details** section.
 
-1. Select **Target Aim** to add to the Details section.
+1. Select **Target Aim** to add to the **Details** section.
 
-1. Select **Stakeholders identified** to add to the Details section.
+1. Select **Stakeholders identified** to add to the **Details** section.
 
-1. Click on **Tasks created** to add to the Details section.
+1. Click on **Tasks created** to add to the **Details** section.
 
-1. Click on **Tasks assigned** to add to the Details section.
+1. Click on **Tasks assigned** to add to the **Details** section.
 
-1. Click on **Tasks completed** to add to the Details section.
+1. Click on **Tasks completed** to add to the **Details** section.
 
 1. Click on **Environmental impact assessment completed** to add to the Details section.
 
@@ -689,7 +689,7 @@ In this task, you will perform the following changes to the form:
 
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
-1. Select **Form Settings**.
+1. Select **Form settings**.
 
 1. Select the **Environmental manager** and **Environmental administrator** roles as the specific security roles that should have access to this form.
 
@@ -756,8 +756,6 @@ In this task, you will perform the following changes to the app:
 
 1. Select **Dataverse table**.
 
-1. Select **Next**.
-
 1. Search for and select **Project Outcome**.
 
 1. Uncheck **Show in navigation**.
@@ -767,8 +765,6 @@ In this task, you will perform the following changes to the app:
 1. Select **+ New**.
 
 1. Select **Dataverse table**.
-
-1. Select **Next**.
 
 1. Search for and select **Outcome**.
 
@@ -806,8 +802,6 @@ In this task, you will perform the following changes to the app:
 1. Select **+ New**.
 
 1. Select **Dataverse table**.
-
-1. Select **Next**.
 
 1. Search for and select **Project Outcome**.
 
