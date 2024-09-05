@@ -78,7 +78,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
     ![Power Pages permissions requested.](../media/portal-permissions-requested.png)
 
-1. Enter `MOD` and `Administrator` for name and select **Update**.
+1. Enter `MOD` and `Administrator` for **First Name** and **Last Name** respectively and select **Update**.
 
 
 ### Task 2.3 - Review the Power Pages Management model-driven app
@@ -91,7 +91,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. Select the **Power Pages Management** app, select the ellipsis menu (...), and select **Play**.
 
-1. In the left navigation, select **Web Pages**. You should see 10 pages including **Subpage 2**.
+1. In the left navigation, select **Web Pages**. You should see 10 rows including **Subpage 2**.
 
 1. Select and edit **Subpage 2**. You should see that this page uses the **Default studio template** page template.
 
@@ -219,7 +219,7 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
 1. Select **Milestone** for **Choose a table**.
 
-1. Select **Milestones SubGrid** for **Select Dataverse views**.
+1. Select **Milestones SubGrid** for **Select the data views**.
 
 1. Enter **Milestones** for **Name your list**.
 
@@ -246,7 +246,7 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
     - Append
     - Append To
 
-1. Select **+ Add Roles**
+1. Select **+ Add roles**
 
 1. Check the following permissions:
 
@@ -270,7 +270,7 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
     - Read
     - Append
 
-1. Select **+ Add Roles**
+1. Select **+ Add roles**
 
 1. Check the following permissions:
 
@@ -312,7 +312,7 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
 1. Select **Information** for **Select a form**.
 
-1. Enter `Milestone` for **Name your copy of the select form**.
+1. Enter `Milestone` for **Name your copy of the selected form**.
 
 1. Select the **Data** tab.
 
@@ -320,7 +320,7 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
 1. Select the **On submit** tab.
 
-1. Select **Redirect to a page** for **When this form is submitted** and then select the **Milestones** page.
+1. Select **Redirect to a page** for **When the form is submitted** and then select the **Milestones** page.
 
 1. Select the **CAPTCHA** tab.
 
