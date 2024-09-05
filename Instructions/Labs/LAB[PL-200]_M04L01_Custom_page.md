@@ -82,7 +82,7 @@ In this exercise, you will build a custom page to manage project resources.
 
 1. Select the **+ New** drop-down and select **App** then **Page**.
 
-1. Select **With layout** and select **Split Screen**.
+1. Select **With layout** and select **Split screen**.
 
 1. Select **Settings** which may be behind the ellipsis (...) menu in the command bar.
 
@@ -183,10 +183,6 @@ In this task, you will add the custom page to a model-driven app.
 1. Select the ellipsis (**...**) for **Projects** and select **New page**.
 
 1. Select **Custom page**.
-
-1. Select **Next**.
-
-1. Select **Use an existing custom page**.
 
 1. Select **Project Resources page**.
 

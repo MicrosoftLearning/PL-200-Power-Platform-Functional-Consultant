@@ -51,7 +51,7 @@ In this exercise, you will learn about the canvas app.
 
 1. Note that the colors for the drop down controls are blue.
 
-1. Select the **+** icon. A new Project row is added.
+1. Select the **+** icon. A New Project row is added.
 
 1. Enter `Lab Project` for **Project Title**.
 
@@ -248,7 +248,7 @@ In this task, you will perform the following changes to a screen:
 
 1. In the **Tree view**, select **ProjectScreen**.
 
-1. In the **Properties** pane on the right side, select **Background image** > **+ Add an image file**.
+1. In the **Properties** pane on the right side, select **Background image** > **+ Upload**.
 
 1. Locate and select the **Texture.jpg** file and select **Open**.
 
@@ -276,7 +276,7 @@ In this task, you will perform the following changes to a label:
 
 1. Select **Card3LabelHeader** and select **Text** in the **Property Selector**.
 
-1. In the formula bar, change **Active Milestones** to `Active Outcomes`
+1. In the formula bar, change **Active Milestones** to `"Active Outcomes"`
 
     ![Canvas app home.](../media/canvas-home.png)
 
@@ -295,7 +295,7 @@ In this task, you will perform the following changes to the button:
 
 1. Enter `SaveBtn`
 
-1. With the button still selected, select **DisplayMode** in the **Property Selector**.
+1. With the button still selected, select **Display mode** in the **Property Selector**.
 
 1. Enter the following formula:
 
@@ -389,7 +389,7 @@ In this task, you will perform the following changes to the screen:
 
 1. Select **NextArrow5** and select **OnSelect** in the **Property Selector**.
 
-1. In the formula bar, replace **NewForm(OutcomeForm)** with `Select(Parent)`
+1. In the formula bar, replace **NewForm(MilestoneForm)** with `Select(Parent)`
 
 1. Select **Save**.
 
@@ -439,7 +439,7 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Change the version number to `1.1.11.13`.
 
-1. Select **Managed** for **Export As**.
+1. Select **Managed** for **Export as**.
 
 1. Select **Export**.
 
@@ -455,7 +455,7 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Change the version number to `1.1.11.13`.
 
-1. Select **Unmanaged** for **Export As**.
+1. Select **Unmanaged** for **Export as**.
 
 1. Select **Export**.
 
@@ -471,6 +471,6 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Select **Browse**, change to the **Downloads** folder and select **FabrikamEnvironmental_1_1_11_13_managed.zip** and select **Open**.
 
-1. Select **Next**.
+1. Select **Next** until Import
 
 1. Select **Import**. The solution will import in the background.
