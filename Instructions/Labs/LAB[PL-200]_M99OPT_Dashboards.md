@@ -70,7 +70,7 @@ In this exercise, you will create an interactive dashboard for Projects.
 
 1. Under **Data experiences**, select **Dashboards**.
 
-1. Select **+ New Dashboard** > **2-Column overview**
+1. Select **+ New dashboard** > **2-Column overview**
 
 1. Enter `Project Tracking` for **Name**.
 
