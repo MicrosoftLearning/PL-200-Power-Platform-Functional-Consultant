@@ -107,7 +107,7 @@ In this exercise, you will build a custom page to manage project resources.
 
 1. On the **Properties** tab for the gallery, under **Fields** select **5 selected**.
 
-1. Select **Resource Type** for *Subtitle1*.
+1. Select **contoso_resourcetype** for *Subtitle1*.
 
 1. Rename the gallery to `ResourceList`
 
