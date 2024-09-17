@@ -60,7 +60,7 @@ In this task, you will perform the following changes to the Project Outcome form
 
    - Select **Open formula bar**.
 
-   - Enter the formula
+   - Replace the existing formula with following:
 
     ```powerappsfl
     Patch('Project Outcomes', Self.Selected.Item, {'Outcome Completed Date': Now()})
