@@ -504,7 +504,7 @@ The find columns on the quick find views define the searchable fields in the Dat
 
 1. Select **Features**.
 
-1. Toggle **Dataverse search** to **On**.
+1. Verify that **Dataverse search** is **On**.
 
 1. Select **Save** at the bottom.
 
