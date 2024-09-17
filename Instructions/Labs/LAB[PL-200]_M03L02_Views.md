@@ -468,9 +468,7 @@ In this task, you will perform the following changes to the app:
 
 1. In the **Milestones** pane on the right side, select the ellipsis **...** on the **Milestones SubGrid** view and select **Remove**.
 
-1. In the **Pages** pane on the left-hand side.
-
-1. Select **Outcomes view**.
+1. In the **Pages** pane on the left-hand side, select **Outcomes view**.
 
 1. In the **Outcomes** pane on the right side, select the ellipsis **...** on the **Inactive Outcomes** view and select **Remove**.
 
