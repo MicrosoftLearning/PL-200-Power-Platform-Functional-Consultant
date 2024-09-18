@@ -26,6 +26,8 @@ In this exercise, you will provision a Power Pages site using a starter template
 
 1. If you are asked about your experience creating websites, select **Skip**.
 
+1. Scroll down and select **Start with a template**.
+
 1. Choose the default design template, **Starter layout 1**, and select **Choose this template**.
 
     ![Select Starter layout template..](../media/power-pages-starter.png)
@@ -107,7 +109,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. Select and edit **MOD Administrator**.
 
-1. Select the caret at the top-left of the form and select the **Portal Contact** form.
+1. Select the caret at the top-left of the form and select the **Portal Contact (enhanced)** form.
 
 1. Select the **Web Authentication** tab. You are authenticating using **https://sts.windows.net** which is Microsoft Entra Id (Azure Active Directory).
 
