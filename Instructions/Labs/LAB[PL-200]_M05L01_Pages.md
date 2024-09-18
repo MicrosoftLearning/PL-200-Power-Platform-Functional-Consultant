@@ -204,9 +204,6 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 In this exercise, you will add a list of Milestone rows to the page, add a form to edit rows, and configure security to allow the data to be changed in the portal site.
 
-> IMPORTANT: At the time of writing, Power Pages is in technical preview and the steps may differ. Refer to <https://docs.microsoft.com/power-pages/getting-started/what-is-dataverse> for the latest documentation.
-
-
 ### Task 3.1 - Display Dataverse records
 
 1. Navigate to the Power Pages portal <https://make.powerpages.microsoft.com/>.
