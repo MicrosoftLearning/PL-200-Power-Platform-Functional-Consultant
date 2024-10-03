@@ -38,57 +38,93 @@ You need to remove privileges for importing and exporting of data, deleting acco
 
 1. In the **Objects** pane on the left, select **Security Roles**.
 
-1. In action pane, select the ellipsis ... (More Commands) and  select **Switch to classic**.
-
-1. In Classic View, select the **Security Roles**.
-
 1. Select the **Environmental user** role and click **Edit**.
 
-1. Select the **Core Records** tab.
+    ![Edit security role.](../media/security-role-edit.png)
+
+1. Scroll down to the **Core Records** section.
+
+    ![Security role core records.](../media/security-role-core-records.png)
 
 1. Scroll down and review the privileges the security role has for the **Core Records**.
 
-1. Select the **Custom Entities** tab.
+1. Scroll down to the **Custom Tables** section.
 
-1. Scroll down and review the privileges the security role has for the tables in the Fabrikam solution. Do not navigate away from this page.
+1. Select **Show all tables**.
+
+1. Enter `contoso` in the **Search by table name or table privilege** field.
+
+    ![Security role custom tables.](../media/security-role-custom-tables.png)
+
+1. Review the privileges the security role has for the tables in the Fabrikam solution. Do not navigate away from this page.
 
 ### Task 1.2 – Modify Milestone and Outcome privileges
 
-1. In the **Custom Entities** tab for the **Environmental user** role, locate the **Milestone** table privileges.
+1. In the **Custom Tables** section for the **Environmental user** role, locate the **Milestone** table privileges.
 
-1. Select the **Write** privilege (third circle from the left) three times to change the access level circle to **Business Unit**.
+1. Select the drop-down for the **Write** privilege and select **Business Unit**.
 
     ![Access levels for Milestone table.](../media/milestone-privileges.png)
 
 1. Locate the **Outcome** table privileges.
 
-1. Select the **Write** privilege three times to change the access level circle to **Business Unit**.
+1. Select the drop-down for the **Write** privilege and select **Business Unit**.
 
     ![Access levels for Outcome table.](../media/outcome-privileges.png)
 
-1. Select **Save**.
+1. Select **Save**. Do not navigate away from this page.
 
 ### Task 1.3 – Add privileges for Project Outcome
 
-1. In the **Custom Entities** tab for the **Environmental user** role, locate the **Project Outcome** table privileges.
+1. In the **Custom Tables** section for the **Environmental user** role, locate the **Project Outcome** table privileges.
 
-1. Select the **Project Outcome** name four times to change all privilege access levels to **Organization**.
+1. Select the ellipses and select **Permission Settings**.
 
-1. Select the **Delete** privilege (fourth circle from the left) once to change the access level circle to **None Selected**.
+    ![Permission Settings.](../media/select-permission-settings.png)
 
-    ![Access levels for Project Outcome table.](../media/project-outcome-privileges.png)
+1. Select **Full Access**.
+
+    ![Full Access permission settings.](../media/full-access-permission-settings.png)
 
 1. Select **Save**.
 
-### Task 1.4 – Modify miscellaneous privileges
+1. Select the drop-down for the **Delete** privilege and select **None**.
 
-1. Select the **Core Records** tab.
+    ![Access levels for Project Outcome table.](../media/project-outcome-privileges.png)
 
-1. Select the **Data Import** name four times to change all privilege access levels to **None Selected**.
+1. Select **Save**. Do not navigate away from this page.
 
-1. Select the **Data Map** name three times to change all privilege access levels to **None Selected**.
+### Task 1.4 – Modify standard table privileges
 
-1. Select the **Import Source File** name four times to change all privilege access levels to **None Selected**.
+1. Enter `data` in the **Search by table name or table privilege** field.
+
+1. Locate the **Data Import** table privileges.
+
+1. Select the ellipses and select **Permission Settings**.
+
+1. Select **No Access**.
+
+1. Select **Save**.
+
+1. Locate the **Data Map** table privileges.
+
+1. Select the ellipses and select **Permission Settings**.
+
+1. Select **No Access**.
+
+1. Select **Save**.
+
+1. Enter `import` in the **Search by table name or table privilege** field .
+
+1. Locate the **Import Source File** table privileges.
+
+1. Select the ellipses and select **Permission Settings**.
+
+1. Select **No Access**.
+
+1. Select **Save**.
+
+1. Enter `connection` in the **Search by table name or table privilege** field.
 
 1. Locate the **Connection** table privileges.
 
@@ -96,33 +132,57 @@ You need to remove privileges for importing and exporting of data, deleting acco
 
 1. Verify that the **Append To** privilege access level is set to **Organization**.
 
+1. Enter `account` in the **Search by table name or table privilege** field.
+
 1. Locate the **Account** table privileges.
 
-1. Select the **Delete** privilege four times to change the access level circle to **None Selected**.
+1. Select the drop-down for the **Delete** privilege and select **None**.
+
+1. Enter `contact` in the **Search by table name or table privilege** field .
 
 1. Locate the **Contact** table privileges.
 
-1. Select the **Delete** privilege four times to change the access level circle to **None Selected**.
+1. Select the drop-down for the **Delete** privilege and select **None**.
 
-1. Scroll down to **Miscellaneous Privileges**.
+1. Select **Save**. Do not navigate away from this page.
 
-1. Select the **View Audit History** privilege to change the access level circle to **Organization**.
+### Task 1.5 – Modify miscellaneous privileges
 
-1. Select the **Business Management** tab.
+1. Select the **Miscellaneous privileges** tab.
 
-1. Scroll down to **Privacy Related Privileges**.
+1. Select **Show all privileges**.
 
-1. Select the **Export to Excel** privilege to change the access level circle to **None Selected**.
+1. Enter `audit` in the **Search miscellaneous privileges** field.
 
-1. Select the **Print** privilege to change the access level circle to **None Selected**.
+1. Select the drop-down for the **View Audit History** privilege and select **Organization**.
 
-1. Scroll down to **Miscellaneous Privileges**.
+1. Enter `bulk` in the **Search miscellaneous privileges** field.
 
-1. Select the **Bulk Edit** privilege to change the access level circle to **None Selected**.
+1. Select the drop-down for the **Bulk Edit** privilege and select **None**.
 
-1. Select the **Merge** privilege to change the access level circle to **None Selected**.
+1. Enter `merge` in the **Search miscellaneous privileges** field.
 
-1. Select **Save and Close**.
+1. Select the drop-down for the **Merge** privilege and select **None**.
+
+1. Select **Save**. Do not navigate away from this page.
+
+### Task 1.6 – Modify privacy privileges
+
+1. Select the **Privacy-related privileges** tab.
+
+1. Select **Show all privileges**.
+
+1. Enter `export` in the **Search privacy-related privileges** field.
+
+1. Select the drop-down for the **Export to Excel** privilege and select **None**.
+
+1. Enter `print` in the **Search privacy-related privileges** field.
+
+1. Select the drop-down for the **Print** privilege and select **None**.
+
+1. Select **Save**.
+
+1. Select **<- Back**.
 
 ## Exercise 2 – Solutions
 
