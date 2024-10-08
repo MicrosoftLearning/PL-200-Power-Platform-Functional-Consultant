@@ -115,7 +115,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. Select the **General** tab and view the **Web Roles** subgrid. Note that you have the **Administrators** web role.
 
-1. In the left navigation, select **Web Roles**. You will see three web roles:
+1. In the left navigation, select **Web Roles**. You will see active Web Roles listed
 
     - Administrators
     - Anonymous Users
