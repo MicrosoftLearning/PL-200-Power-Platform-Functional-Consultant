@@ -468,9 +468,7 @@ In this task, you will perform the following changes to the app:
 
 1. In the **Milestones** pane on the right side, select the ellipsis **...** on the **Milestones SubGrid** view and select **Remove**.
 
-1. In the **Pages** pane on the left-hand side.
-
-1. Select **Outcomes view**.
+1. In the **Pages** pane on the left-hand side, select **Outcomes view**.
 
 1. In the **Outcomes** pane on the right side, select the ellipsis **...** on the **Inactive Outcomes** view and select **Remove**.
 
@@ -506,9 +504,9 @@ The find columns on the quick find views define the searchable fields in the Dat
 
 1. Select **Features**.
 
-1. Toggle **Dataverse search** to **On**.
+1. Verify that **Dataverse search** is **On**.
 
-1. Select **Save** at the bottom.
+1. If you made changes, select **Save** at the bottom.
 
 ### Task 8.2 – Search index
 

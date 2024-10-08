@@ -224,7 +224,7 @@ In this task, you will perform the following changes to standardize colors for t
 
 1. Replace the RGBA value in the formula bar with `FabrikamColor`
 
-1. Select **ProjectTypeComboBox** and select **ChevronBackGround** in the **Property Selector**.
+1. Select **ProjectTypeComboBox** and select **ChevronBackground** in the **Property Selector**.
 
 1. Replace the RGBA value in the formula bar with `FabrikamColor`
 

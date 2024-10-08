@@ -38,7 +38,7 @@ In this task, you will perform the following changes to the flow:
 
 1. Select the **Start and wait for an approval** step.
 
-    > **Note**: The Item link field use an environment variable, **Outcome form link**.
+    > **Note**: The Item link field uses an environment variable, **Outcome form link**.
 
 1. Clear the current contents of the **Assigned To** field.
 
@@ -57,7 +57,7 @@ In this task, you will perform the following changes to the flow:
 
 - Add check for missing approver
 
-1. Hover the mouse between the **Get Outcome** and **Start and wait for an approval** steps and select the **+** (Insert new step) > **Add an action**.
+1. Hover the mouse between the **Get Outcome** and **Start and wait for an approval** steps and select the **+** (Insert a new step) > **Add an action**.
 
 1. Select the **Control** connector and then select **Condition**.
 

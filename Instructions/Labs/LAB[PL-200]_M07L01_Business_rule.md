@@ -223,9 +223,7 @@ In this practice lab, you will be creating business rules to show and hide the l
 
 1. Select **contoso_project** for *Table*.
 
-1. Uncheck **Created** for *Run this plug-in when the row is*.
-
-1. Check **Updated** for *Run this plug-in when the row is*.
+1. Select **Updated** for *Run this plug-in when the row is*.
 
 1. Expand **Advanced options**.
 
