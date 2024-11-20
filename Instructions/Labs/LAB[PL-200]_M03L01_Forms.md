@@ -100,6 +100,9 @@ In this task, you will perform the following changes to the form:
 
 1. Select the **Program** section and drag to the new right-hand column of the **General** tab.
 
+    > **Note:** If you don't see a three column layout, change the forms view size to **Desktop**.
+    > ![Desktop view.](../media/form-view-change.png)
+
 1. Select the **New section** in the right column and select **Delete**.
 
 1. Select the **New section** in the middle column.
@@ -421,7 +424,13 @@ In this task, you will create a quick create form.
 
 1. In the **Project Resource** table, under **Data experiences**, select **Forms**.
 
-1. Select **+ New form** > **+ Quick Create Form**.
+1. Select **+ New form**.
+
+2. Select **Quick create form**.
+
+1. Enter  `Project Resource Quick Create` for **Form name**.
+
+1. Uncheck **Get AI-generated column suggestions** and select **Create**.
 
 1. Drag the **Project** column to add to the form in the first section.
 
