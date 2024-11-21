@@ -44,7 +44,7 @@ In this task, you will perform the following changes to the flow:
 
 1. In **Dynamic content**, search for `email` and select **Approver Email**. You may need to scroll down in the Dynamic Content window to see this.
 
-1. On the **Get Approver** step, select the ellipsis (...) and select **Delete**.
+1. On the **Get Approver** step, select the ellipsis (...) and select **Delete** and then **OK**.
 
     ![Approval step.](../media/flow-approval.png)
 
