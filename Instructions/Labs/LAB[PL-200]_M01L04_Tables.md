@@ -141,7 +141,7 @@ In later labs you will be adding columns and relationships to this custom table.
 
 1.  In the **Objects** pane on the left, select **Tables**.
 
-1.  Select the **+ New** drop-down and select **Table** then **Set advanced properties**.
+1.  Select the **+ New** drop-down and select **Table** then **Table (advanced properties)**.
 
 1.  Enter `Project Outcome` for **Display name**. The plural name will be automatically populated.
 

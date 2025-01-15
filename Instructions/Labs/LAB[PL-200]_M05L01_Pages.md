@@ -293,6 +293,8 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
 1. Select the ellipsis (...) and select **Add a new subpage**.
 
+1. Select **Other ways to add a page**.
+
 1. Enter `Milestone Details`.
 
 1. Uncheck **Add page to main navigation**
