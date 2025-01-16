@@ -8,3 +8,4 @@ slnx.sqlite
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+/Allfiles/Labs/Archive
