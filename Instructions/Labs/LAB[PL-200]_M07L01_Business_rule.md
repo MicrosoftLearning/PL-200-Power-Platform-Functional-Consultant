@@ -207,6 +207,20 @@ In this practice lab, you will be creating business rules to show and hide the l
 
 ### Task 2.1 – Create a low-code plug-in
 
+1. Navigate to the Power Platform Admin Center `https://admin.powerplatform.microsoft.com`.
+
+1. Select **Resources** (left pane).
+
+1. Select **Dynamics 365 apps**.
+
+1. Search for **Dataverse Accelerator**.
+
+1. Click on the eliphis **'...'** then select **Install**.
+
+1. At **Select an environment** select **Dev One** environment.
+
+1. Click the **Install** button and wait for it to be instaled.
+
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **Dev One** environment.
