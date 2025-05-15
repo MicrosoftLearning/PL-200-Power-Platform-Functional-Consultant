@@ -202,7 +202,7 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Select **Publish** to publish all of your recent changes.
 
-1. Select **Next**.
+1. Select **Next**, and then select **Next** again.
 
 1. Change the version number to `1.1.11.8`.
 
@@ -218,7 +218,7 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Select **Export solution**.
 
-1. Select **Next**.
+1. Select **Next**, and then select **Next** again.
 
 1. Change the version number to `1.1.11.8`.
 
@@ -247,5 +247,7 @@ In this exercise, you will export the solution from the Development environment 
 1. Expand **Advanced settings**.
 
 1. Select **Upgrade** for **Solution action**.
+
+1. Select **Next**, and then select **Next** again.
 
 1. Select **Import**. The solution will import in the background.

@@ -63,7 +63,7 @@ In this exercise, you will be adding an image column to the Resource table.
 1. Edit each of the resources and upload an image by clicking the circle in the top-left of the form.
 
     ![Add image to resource.](../media/add-image.png)
-
+> You will find images in *Labs/images* folder
 ## Exercise 2 – Build custom page
 
 In this exercise, you will build a custom page to manage project resources.

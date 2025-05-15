@@ -44,6 +44,8 @@ You will add the users and team to column security profiles.
 
 1. Select **Save**.
 
+1. Select **Save** on Role assignement confirmation popup.
+
 1. Select **+ Add user**.
 
 1. Enter `Megan` in **Enter a name or an email address** and select **Megan Bowen**.
@@ -54,6 +56,8 @@ You will add the users and team to column security profiles.
 
 1. Select **Save**.
 
+1. Select **Save** on Role assignement confirmation popup.
+
 1. Select **+ Add user**.
 
 1. Enter `Patti` in **Enter a name or an email address** and select **Patti Fernandez**.
@@ -63,6 +67,8 @@ You will add the users and team to column security profiles.
 1. Select the **Environmental user** and **Environmental administrator** roles.
 
 1. Select **Save**.
+
+1. Select **Save** on Role assignement confirmation popup.
 
 1. Select **Refresh** to view the updated list of users.
 
@@ -101,6 +107,8 @@ You will add the users and team to column security profiles.
 1. Select the **Environmental user** and **Environmental manager** roles.
 
 1. Select **Save**.
+
+1. Select **Save** on Role assignement confirmation popup.
 
 ## Exercise 3 – Column security profile
 

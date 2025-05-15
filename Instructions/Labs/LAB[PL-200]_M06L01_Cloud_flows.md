@@ -132,7 +132,7 @@ In this task, you will perform the following changes to the flow:
 
 1. Enter `APPROVAL_EXPIRED` for **Code**.
 
-1. Enter `Approval timed out for` and in **Dynamic content**, select **Outcome Title**.
+1. Enter `Approval timed out for` and in **Dynamic content**, select **Outcome Title** for **Message**.
 
 1. On the **Terminate 2** step, select the ellipsis (...) and select **Configure run after**.
 
