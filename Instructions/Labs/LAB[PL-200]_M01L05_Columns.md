@@ -379,6 +379,8 @@ In this exercise, you will be creating columns on the Project Outcome custom tab
 
 1.  Select **Date and time** in the **Data type** drop-down and then select **Date only**.
 
+1. Expand **Advanced options** and verify **Time zone adjustment** is set to **User local**.
+
 1.  Select **Save**.
 
 1.  Select **+ New**, and then select **Column**.

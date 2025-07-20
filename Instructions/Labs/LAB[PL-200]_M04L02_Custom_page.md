@@ -64,6 +64,7 @@ In this exercise, you will be adding an image column to the Resource table.
 
     ![Add image to resource.](../media/add-image.png)
 > You will find images in *Labs/images* folder
+
 ## Exercise 2 – Build custom page
 
 In this exercise, you will build a custom page to manage project resources.
@@ -132,18 +133,18 @@ In this exercise, you will build a custom page to manage project resources.
 
 1. On the **Properties** tab for the gallery, under **Fields** select **5 selected**.
 
-1. Enter `ThisItem.'Status Reason'` for **Body**.
+1. Select **statuscode** for **Body**.
 
-1. Enter `ThisItem.'Project Role'` for **Subtitle**.
+1. Select **contoso_projectrole** for **Subtitle**.
 
-1. Enter `ThisItem.Name` for **Title**.
+1. Select or enter `ThisItem.Name` for **Title**.
 
     ![Fields for project resources.](../media/custom-page-projectresouce-fields.png)
 
 1. Select the gallery and select **Items** in the property selector.
 
    ```powerappsfl  
-   Filter('Project Resources', Resource.Resource = ResourceList.Selected.Resource)
+   Filter('Project Resources_1', Resource.Resource = ResourceList.Selected.Resource)
    ```
 
 1. Rename the gallery to `ProjectResourceList`

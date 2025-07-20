@@ -24,7 +24,7 @@ You will add the users and team to column security profiles.
 
 1. Navigate to the Power Platform admin center `https://aka.ms/ppac`
 
-1. Select **Environments** from the left navigation pane.
+1. Select **Manage** and then **Environments** from the left navigation pane.
 
 1. Select the **Dev One** environment.
 
@@ -78,7 +78,7 @@ You will add the users and team to column security profiles.
 
 1. Navigate to the Power Platform admin center `https://aka.ms/ppac`
 
-1. Select **Environments** from the left navigation pane.
+1. Select **Manage** and then **Environments** from the left navigation pane.
 
 1. Select the **Dev One** environment.
 
@@ -92,7 +92,7 @@ You will add the users and team to column security profiles.
 
 1. Enter `Fabrikam Managers` for **Team name**.
 
-1. Select the root business unit.
+1. Enter `org` and select the root business unit.
 
 1. Enter `MOD` in **Administrator** and select **MOD Administrator**.
 
@@ -116,7 +116,7 @@ You will add the users and team to column security profiles.
 
 1. Navigate to the Power Platform admin center <https://admin.powerplatform.microsoft.com>.
 
-1. Select **Environments** from the left navigation pane.
+1. Select **Manage** and then **Environments** from the left navigation pane.
 
 1. Select the **Dev One** environment.
 
