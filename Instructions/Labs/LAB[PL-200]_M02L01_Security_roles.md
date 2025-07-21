@@ -36,7 +36,7 @@ You need to remove privileges for importing and exporting of data, deleting acco
 
 1. Open the **Fabrikam Environmental** solution.
 
-1. In the **Objects** pane on the left, select **Security Roles**.
+1. In the **Objects** pane on the left, select **Security roles**.
 
 1. Select the **Environmental user** role and click **Edit**.
 
@@ -242,7 +242,7 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Select **Next**.
 
-    > **Note:** You should see a notification that the solution package contains an update for a solution that is already installed.
+    > **Note:** You should see details about Current version installed and Version contained in the update .
 
 1. Expand **Advanced settings**.
 

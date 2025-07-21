@@ -23,7 +23,7 @@ In this exercise, you will review the **Dev One** environment and create a *Prod
 
 1.  Select **Get Started** or close the Welcome pop-up.
 
-1.  Select **Environments** from the left navigation pane. There should be two environments, Contoso (default) and Dev One..
+1.  Select **Manage** and then select **Environments** from the left navigation pane. There should be two environments, Contoso (default) and Dev One..
 
     ![Environment in the Power Platform admin center.](../media/ellipses-settings-dev.png)
 
@@ -34,7 +34,7 @@ In this exercise, you will review the **Dev One** environment and create a *Prod
 
 ### Task 1.2 – Create the production environment
 
-1.  Navigate to **Environments** in the Power Platform admin center `https://admin.powerplatform.microsoft.com/environments`
+1.  Navigate to **Environments** in the Power Platform admin center `https://admin.powerplatform.microsoft.com/manage/environments`
 
 1.  Select **+ New**.
 
@@ -61,7 +61,7 @@ In this exercise, you will review the **Dev One** environment and create a *Prod
 
 ### Task 1.3 – Verify Classic solution explorer is enabled
 
-1.  Navigate to environments in the Power Platform admin center `https://admin.powerplatform.microsoft.com/environments`
+1.  Navigate to environments in the Power Platform admin center `https://admin.powerplatform.microsoft.com/manage/environments`
 
 1.  Select the **Dev One** environment. 
 

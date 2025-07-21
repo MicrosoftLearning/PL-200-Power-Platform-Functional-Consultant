@@ -209,17 +209,17 @@ In this practice lab, you will be creating business rules to show and hide the l
 
 1. Navigate to the Power Platform Admin Center `https://admin.powerplatform.microsoft.com`.
 
-1. Select **Resources** (left pane).
+1. Select **Manage** (left pane).
 
 1. Select **Dynamics 365 apps**.
 
 1. Search for **Dataverse Accelerator**.
 
-1. Click on the eliphis **'...'** then select **Install**.
+1. Click on the ellipsis **'...'** then select **Install**.
 
 1. At **Select an environment** select **Dev One** environment.
 
-1. Click the **Install** button and wait for it to be instaled.
+1. Click the **Install** button and wait for it to be installed.
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -231,7 +231,7 @@ In this practice lab, you will be creating business rules to show and hide the l
 
 1. Select the **Dataverse Accelerator App** and select **Play**.
 
-1. Select **+ New plug-in** and select **Automated plug-in**.
+1. Select **Create automated plug-in**.
 
 1. Enter `Project date validation` for *Display name*.
 

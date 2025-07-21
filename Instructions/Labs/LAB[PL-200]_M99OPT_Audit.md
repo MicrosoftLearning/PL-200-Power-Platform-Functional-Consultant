@@ -20,7 +20,7 @@ In this exercise, you will enable auditing for your environment. In earlier labs
 
 1. Navigate to the Power Platform admin center `https://aka.ms/ppac`
 
-1. Select **Environments** from the left navigation pane.
+1. Select **Manage** and then **Environments** from the left navigation pane.
 
 1. Select the **Dev One** environment.
 

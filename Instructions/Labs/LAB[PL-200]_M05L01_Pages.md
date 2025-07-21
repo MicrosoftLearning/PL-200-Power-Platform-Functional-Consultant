@@ -216,6 +216,8 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
 1. In the canvas under **Choose a component to add to this section**, select the **List** icon.
 
+1. Enable **Try the new and improved version of this component**.
+
 1. Select **Milestone** for **Choose a table**.
 
 1. Select **Milestones SubGrid** for **Select the data views**.

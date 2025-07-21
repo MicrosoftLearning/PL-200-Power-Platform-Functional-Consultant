@@ -494,7 +494,7 @@ The find columns on the quick find views define the searchable fields in the Dat
 
 1. Navigate to the Power Platform admin center `https://aka.ms/ppac`
 
-1. Select **Environments** from the left navigation pane.
+1. Select **Manage** and then select **Environments** from the left navigation pane.
 
 1. Select the **Dev One** environment.
 

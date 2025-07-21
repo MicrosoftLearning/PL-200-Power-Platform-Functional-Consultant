@@ -555,6 +555,8 @@ In this exercise, you will export the solution from the Development environment 
 
 1.  Select **Next**.
 
+1.  Select **Next** again.
+
 1.  The version number should have been incremented to **1.1.11.4**.
  
 1.  Change the version number to `1.1.11.6`
@@ -573,6 +575,8 @@ In this exercise, you will export the solution from the Development environment 
 1.  Select **Export Solution**.
 
 1.  Select **Next**.
+
+1.  Select **Next** again.
 
 1.  The version number should have been incremented to **1.1.11.7**.
 

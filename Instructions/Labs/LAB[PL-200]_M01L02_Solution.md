@@ -26,7 +26,7 @@ In this exercise, you will access the Power Apps maker portal, the Developer env
 
     ![Select Development environment in the Power Apps maker portal.](../media/select-dev-environment.png)
 
-1.  Select **Apps** from the left navigation pane and then select **All**. You should see several apps including, Dataverse Accelerator App, Solution Health Hub, and Power Pages Management listed.
+1.  Select **Apps** from the left navigation pane and then select **All**. You should see several apps including, Power Platform Environment Settings, Solution Health Hub, and Power Pages Management listed.
 
 1.  Select **Tables** from the left navigation pane. You should see the standard tables from the *Common Data Model* including Account and Contact.
 
@@ -88,7 +88,7 @@ In this exercise, you will add an existing table to the solution.
 
 1.  Select **Next**.
 
-1.  Under the **Account** table, select the **Select objects** link.
+1.  Under the **Account** table, select the **Edit objects** link.
 
 1.  In the **Columns** tab, select the **Account Number** column.
 

@@ -496,6 +496,8 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Select **Next**.
 
+1. Select **Next** again.
+
 1. Change the version number to `1.1.11.15`
 
 1. Select **Managed** for **Export as**.
@@ -512,6 +514,8 @@ In this exercise, you will export the solution from the Development environment 
 1. Select **Export Solution**.
 
 1. Select **Next**.
+
+1. Select **Next** again.
 
 1. Change the version number to `1.1.11.15`
 

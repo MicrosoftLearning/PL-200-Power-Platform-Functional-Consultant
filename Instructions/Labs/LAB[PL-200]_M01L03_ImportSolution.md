@@ -54,8 +54,6 @@ In this exercise, you will import the main solution into the **Dev One** environ
 
 1.  Select **Next** again.
 
-1.  Select **Continue**.
-
 1.  **Wait** while connections are created.
 
     ![Connections for import of solution.](../media/connections-for-solution.png)
@@ -153,7 +151,7 @@ In this exercise, you will import data the into the **Dev One** environment usin
 
 1.  Select the **Waffle** button in the upper left corner to change applications and select **OneDrive**. (It may take a moment for your OneDrive to be set up. Select **Your OneDrive is ready** when you see it on the screen.)
 
-1.  Select **+ Add new** and select **Files upload**.
+1.  Select **+ Create or upload** and select **Files upload**.
 
 1.  Locate and select the **Outcome data.xlsx** file and select **Open**.
 
@@ -174,7 +172,7 @@ In this exercise, you will import data the into the **Dev One** environment usin
 
 1.  Select **Browse OneDrive**. If prompted, sign in with your Microsoft 365 credentials.
 
-1.  Select the **Outcome data.xlsx** file.
+1.  Select the **Outcome data.xlsx** file and then select **Select**.
 
 1.  Select **Next**.
 
@@ -202,7 +200,7 @@ In this exercise, you will import data the into the **Dev One** environment usin
 
 1.  Select **contoso_outcome** from the **Destination table** drop-down.
 
-1.  Under **Column mapping**, map **Estimated Completion Date**, **Goal**, **Outcome Description**, **Outcome Title**, and **Target Aim** to their corresponding destination columns.
+1.  Expand **Column mapping** and check if **Estimated Completion Date**, **Goal**, **Outcome Description**, **Outcome Title**, and **Target Aim** are mapped to their corresponding destination columns.
 
 1.  Select **Next**.
 
