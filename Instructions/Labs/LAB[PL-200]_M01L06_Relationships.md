@@ -478,9 +478,9 @@ Next, we will create columns based on the relationships between the Project tabl
 
 ### Task 6.2 – Add a formula column
 
-1.  In the **Objects** pane on the left, expand **Tables**, and select **Project**.
+1.  In the **Objects** pane on the left, expand **Tables**, and expand **Project**.
 
-1.  Under **Schema**, select **Columns**.
+1.  Select **Columns** under **Project.**
 
 1.  Select **+ New column**.
 
