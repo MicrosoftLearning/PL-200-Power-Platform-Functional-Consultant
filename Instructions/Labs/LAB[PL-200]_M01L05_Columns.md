@@ -85,23 +85,7 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
 1.  Select **Save**.
 
-
-### Task 1.3 – Add an alternate key
-
-1.  In the **Objects** pane on the left, expand **Tables**, and select **Project**.
-
-1.  Under **Schema**, select **Keys**.
-
-1.  Select **+ New key**.
-
-1.  Enter `Project Reference` for **Display name**.
-
-1.  Check the **Project Code** Column.
-
-1.  Select **Save**.
-
-
-### Task 1.4 – Add a calculated column
+### Task 1.3 – Add a calculated column
 
 1.  In the **Objects** pane on the left, expand **Tables**, and select **Project**.
 
@@ -156,7 +140,7 @@ In this exercise, you will be changing properties on existing columns on the Pro
     ![Calculated column.](../media/calculated-column.png)
 
 
-### Task 1.5 – Add a formula column
+### Task 1.4 – Add a formula column
 
 1.  In the **Objects** pane on the left, expand **Tables**, and select **Project**.
 
