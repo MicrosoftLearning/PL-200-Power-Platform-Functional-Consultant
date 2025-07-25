@@ -413,11 +413,90 @@ In this exercise, you will enable connections for the resource and milestone tab
 1.  Select **Done**.
 
 
-## Exercise 6 – Calculated and rollup columns
+## Exercise 6 – Calculated, formula and rollup columns
 
-In this exercise, you will use relationships to create calculated and rollup fields. The calculated column will add the email address for the approver to the outcome table. The rollup column will sum the funding values of projects.
+In this exercise, you will create calculated, formula and rollup fields. 
 
-### Task 6.1 – Calculated column for a many-to-one relationship
+First, we will create columns based on a single table to calculate and show the estimated number of days in a project. We will make these configurations on the Project table.
+
+Next, we will create columns based on the relationships between the Project table and other tables. The calculated column will add the email address for the approver to the outcome table. The rollup column will sum the funding values of projects.
+
+### Task 6.1 – Add a calculated column
+
+1.  In the **Objects** pane on the left, expand **Tables**, and select **Project**.
+
+1.  Under **Schema**, select **Columns**.
+
+1.  Select **+ New column**.
+
+1.  Enter `Length of Project` for **Display name**.
+
+1.  Enter `Number of days` for **Description**.
+
+1.  Select **Number** in the **Data type** drop-down. The Data type will be set to **Whole Number** and the Format will be set to **None**.
+
+1.  Change the **Behavior** drop-down to **Calculated**.
+
+1.  Select **Save and edit**.
+
+    ![Add calculated column.](../media/add-calculated-column.png)
+
+    > **Note:** You may need to disable the pop-up blocker in your browser first, then open the **Length of Project** column and select **Edit**.
+
+1.  When a new browser window opens, select **+ Add condition**.
+
+1.  Select **Scheduled Start** for **Field**.
+
+1.  Select **Contains data** for **Operator**.
+
+1.  Select the green check mark to save changes.
+
+    > **Note:** You may need to resize the window to see the check mark.
+
+1.  Select **+ Add condition**.
+
+1.  Select **Estimated End** for **Field**.
+
+1.  Select **Contains data** for **Operator**.
+
+1.  Select the green check mark.
+
+1.  Select **+ Add action**.
+
+1.  Enter the following formula:
+
+    ```DIFFINDAYS(contoso_scheduledstartdate,contoso_estimatedenddate)```
+
+    > NOTE: You can use intellisense to type and select the elements in the formula.
+
+1.  Select the blue check mark to save changes.
+
+1.  Select **SAVE AND CLOSE**.
+
+    ![Calculated column.](../media/calculated-column.png)
+
+
+### Task 6.2 – Add a formula column
+
+1.  In the **Objects** pane on the left, expand **Tables**, and select **Project**.
+
+1.  Under **Schema**, select **Columns**.
+
+1.  Select **+ New column**.
+
+1.  Enter `Project Summary` for **Display name**.
+
+1.  Select **Formula** in the **Data type** drop-down.
+
+1.  Enter the following formula:
+
+    ```Concatenate('Project Type'.Name,"|",Region.'Region Name')```
+
+    > NOTE: You can use intellisense to type and select the elements in the formula.
+
+1.  Select **Save**.
+   
+### Task 6.3 – Calculated column for a many-to-one relationship
 
 1.  Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -470,7 +549,7 @@ In this exercise, you will use relationships to create calculated and rollup fie
 1.  Select **SAVE AND CLOSE**.
 
 
-### Task 6.2 – Rollup column for the project one-to-many relationship
+### Task 6.4 – Rollup column for the project one-to-many relationship
 
 1.  In the **Objects** pane on the left, expand **Tables**.
 
@@ -515,7 +594,7 @@ In this exercise, you will use relationships to create calculated and rollup fie
     ![Add rollup column.](../media/add-rollup-column.png)
 
 
-### Task 6.3 – Publish changes
+### Task 6.5 – Publish changes
 
 1.  In the solution, select the **Overview** page.
 
