@@ -446,11 +446,11 @@ In this task, you will perform the following changes to the screen:
 
 1. Select **DisplayMode** in the Property window to enter a formula. In the formula box above the canvas app interface, enter the following formula:
 
-```If(MilestoneGallery.Selected.'Milestone Percentage Complete' > 0, DisplayMode.Edit, DisplayMode.Disabled)```
+    ```If(MilestoneGallery.Selected.'Milestone Percentage Complete' > 0, DisplayMode.Edit, DisplayMode.Disabled)```
 
 1. Select **Advanced** in the Properties window to open the advanced properties. In the he **OnSelect** property, enter the following formula:
 
-```Resetmilestonestatus.Run(MilestoneGallery.Selected.Milestone);Refresh(Milestones);```
+    ```Resetmilestonestatus.Run(MilestoneGallery.Selected.Milestone);Refresh(Milestones);```
 
 ### Task 4.3 - Publish and share the app
 
