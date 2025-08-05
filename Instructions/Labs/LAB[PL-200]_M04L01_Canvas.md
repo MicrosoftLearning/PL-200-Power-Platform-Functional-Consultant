@@ -10,12 +10,6 @@ lab:
 
 You are a Power Platform functional consultant and have been assigned to the Fabrikam project for the next stage of the project.
 
-You have been assigned to create a simple canvas app so that users can access important details about project milestones. 
-
-In this practice lab, you will create a canvas app from the existing Milestones table. You will make small interface changes and then add the app into the solution.
-
-If your browser is not set to English, the syntax of Power Fx formulas might change. See Build global support into canvas apps <https://learn.microsoft.com/power-apps/maker/canvas-apps/global-apps> for more information.
-
 ## Exercise 1 – Examine the canvas app
 
 In this exercise, you will learn about the canvas app.
