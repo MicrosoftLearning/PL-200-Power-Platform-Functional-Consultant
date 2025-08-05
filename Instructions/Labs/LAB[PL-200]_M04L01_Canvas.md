@@ -72,5 +72,8 @@ You are a Power Platform functional consultant working with the Contoso team. Yo
 
 ### Task 4: Add App to Solution
 1. In the left navigation pane, go to **Solutions**.
-2. Open or create a solution (e.g., **Contoso Milestone Solution**).
-3. Add the newly created **Environmental Milestones App** to the solution.
+2. Open the **Fabrikam Environmental** solution.
+3. Select **Add existing > App > Canvas app.**
+4. Select the **Environmental Milestones App.**
+5. Select **Add.**
+6. Select **Publish all customizations.**
