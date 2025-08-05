@@ -420,40 +420,37 @@ In this task, you will perform the following changes to the screen:
 
 1. In the **Objects** pane on the left, select **Apps**.
 
-1. Select the **Environmental Work Delivery** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
+1. Select the **Environmental Milestones** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
-1. In the left navigation, select **Power Automate**.
+1. In the left navigation, select the ellipses and select **Power Automate**.
 
 1. Select **+ Add flow**.
 
 1. Select **Reset milestone status**. The flow will be added to the app.
 
-1. In the **Tree view**, select and expand **OutcomeScreen**.
+1. In the **Tree view**, select and expand **MilestonesScreen**.
 
-1. Select **SaveBtn**.
+1. Select and expand **ScreenContainer1.**
 
-1. Select the ellipsis menu (...) next to the button in the **Tree view** and select **Copy**.
+1. Select and expand **BodyContainer1.**
 
-1. In the **Tree view**, select and expand **MilestoneScreen**.
+1. Select and expand **RightContainer1.**
 
-1. Right-click in the app area and select **Paste**.
+1. Select **SelectedRecordHeaderContainer1.**
 
-1. Select the ellipsis (...) next to **SaveBtn_1** and select **Rename**.
+1. In the header, select **+Insert**. Expand **Icons** and select **Reset icon.** A reset icon will be added to the Selected Record Header in the app.
 
-1. Enter `ResetBtn`
+1. Select the new icon in the Tree view. Rename it to **ResetIconButton.**
 
-1. Select **Text** in the **Property Selector** and replace with `"Reset"`
+1. In the Properties tab, change the icon's height to **26** and the width to **26.**
 
-1. Select **DisplayMode** in the **Property Selector** and change the formula to use the `MilestoneGallery`
+1. Select **DisplayMode** in the Property window to enter a formula. In the formula box above the canvas app interface, enter the following formula:
 
-1. Select the **OnSelect** property in the **Property Selector**.
+```If(MilestoneGallery.Selected.'Milestone Percentage Complete' > 0, DisplayMode.Edit, DisplayMode.Disabled)```
 
-1. Enter the following formula:
+1. Select **Advanced** in the Properties window to open the advanced properties. In the he **OnSelect** property, enter the following formula:
 
-    ```Resetmilestonestatus.Run(MilestoneGallery.Selected.Milestone);Refresh(Milestones);```
-
-1. Drag **ResetBtn** under the form.
-
+```Resetmilestonestatus.Run(MilestoneGallery.Selected.Milestone);Refresh(Milestones);```
 
 ### Task 4.3 - Publish and share the app
 
