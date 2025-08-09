@@ -182,7 +182,7 @@ In this exercise, you will import data the into the **Dev One** environment usin
 
 1.  Select the first three **Do Not Modify** columns. Tip: You can hold **Ctrl** on the keyboard and click with the mouse to select multiple columns.
 
-1.  On the **Home** tab of the ribbon, select **Remove columns** to remove these three columns.
+1.  On the **Home** tab of the ribbon, use the carrot at the far right side of the ribbon to expand the Home tab buttons. Select **Remove columns** to remove these three columns.
 
 1.  Select the **Estimated Completion Date** column.
 
