@@ -700,4 +700,8 @@ In this exercise, you will export the solution from the Development environment 
 
 ## Challenge (Optional)
 
-Under Processes, examine the classic workflow, Project Funding Name, and create a new workflow to set the Title column on the Project Outcome table, when a new record is created or when a project or an outcome lookup column is changed.
+Under **Processes**, examine the classic workflow **Project Funding Name.**
+
+Create a new workflow that meets the following requirements: 
+- Sets the **Title** column on the Project Outcome table when a new record is created or when a project or an outcome lookup column is changed.
+- Sets the column to a concatenation based on the relationships you configured in this lab (see examples in the Project Funding Name and Project Resource Name workflows). 
