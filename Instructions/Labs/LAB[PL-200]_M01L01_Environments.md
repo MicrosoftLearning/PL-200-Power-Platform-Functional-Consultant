@@ -36,9 +36,9 @@ In this exercise, you will review the **Dev One** environment and create a *Prod
 
 1.  Navigate to **Environments** in the Power Platform admin center `https://admin.powerplatform.microsoft.com/manage/environments`
 
+1. Select **Manage** and select **Environments.**
+  
 1.  Select **+ New**.
-
-    ![Environment in the Power Platform admin center.](../media/ppac-environments.png)
 
 1.  In the **Name** text box, enter **[my initials] Production**. (Example: PL Production).
 

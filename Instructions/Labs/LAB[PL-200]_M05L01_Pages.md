@@ -341,9 +341,9 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
 1. In the **Pages** pane on the left side, select **Milestones**.
 
-1. In the canvas, select the **Milestones list component**.
+1. In the canvas, select the **Milestones list component** and select **Edit list.**
 
-1. Select **Actions**.
+1. Select the **Actions** tab.
 
 1. Toggle **View details** to **On**.
 
@@ -351,13 +351,7 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
 1. Select **Milestone** for **Forms**.
 
-1. Toggle **Create a new record** to **On**.
-
-1. Select **Form** for **Target type**.
-
-1. Select **Milestone** for **Form**.
-
-1. Select **OK**.
+1. Select **Done.**
 
 1. In the top-right of the Power Pages designer, select **Sync**.
 
