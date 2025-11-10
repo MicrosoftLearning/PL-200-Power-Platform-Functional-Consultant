@@ -54,3 +54,6 @@ You are a Power Platform functional consultant working with the Contoso team. Yo
 9. Return to the tree view. Expand **RightContainer1** (if it is not already expanded).
 10. Expand **SelectedRecordHeaderContainer1.**
 12. Rename the submit button from **SubmitFormButton1** to **SaveBtn**.
+13. Select **Save.**
+14. Select **Publish.**
+15. Select **Publish this version.**
