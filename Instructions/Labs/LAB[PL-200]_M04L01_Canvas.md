@@ -54,11 +54,3 @@ You are a Power Platform functional consultant working with the Contoso team. Yo
 9. Return to the tree view. Expand **RightContainer1** (if it is not already expanded).
 10. Expand **SelectedRecordHeaderContainer1.**
 12. Rename the submit button from **SubmitFormButton1** to **SaveBtn**.
-
-### Task 4: Add App to Solution
-1. In the left navigation pane, go to **Solutions**.
-2. Open the **Fabrikam Environmental** solution.
-3. Select **Add existing > App > Canvas app.**
-4. Select the **Environmental Milestones App.**
-5. Select **Add.**
-6. Select **Publish all customizations.**
