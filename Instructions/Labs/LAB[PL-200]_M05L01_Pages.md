@@ -74,7 +74,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. In the menu, select  **Sign in**.
 
-1. Select **Azure AD**. This will sign you in with your Microsoft 365 credentials.
+1. Select **Microsoft Entra ID**. This will sign you in with your Microsoft 365 credentials.
 
 1. If permissions are requested, select **Accept**.
 
