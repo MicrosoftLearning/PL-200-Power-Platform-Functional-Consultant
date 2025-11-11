@@ -438,17 +438,17 @@ In this task, you will perform the following changes to the screen:
 
 1. Select **SelectedRecordHeaderContainer1.**
 
-1. In the header, select **+Insert**. Expand **Icons** and select **Reset icon.** A reset icon will be added to the Selected Record Header in the app.
+1. In the header, select **+Insert**. Expand **Icons** and select the **Reset** icon. A reset icon will be added to the Selected Record Header in the app.
 
 1. Select the new icon in the Tree view. Rename it to **ResetIconButton.**
 
 1. In the Properties tab, change the icon's height to **26** and the width to **26.**
 
-1. Select **DisplayMode** in the Property window to enter a formula. In the formula box above the canvas app interface, enter the following formula:
+1. In the property selector underneath the header, select the dropdown. Find and select **DisplayMode**. In the formula box next to the property selector, enter the following formula:
 
     ```If(MilestoneGallery.Selected.'Milestone Percentage Complete' > 0, DisplayMode.Edit, DisplayMode.Disabled)```
 
-1. Select **Advanced** in the Properties window to open the advanced properties. In the he **OnSelect** property, enter the following formula:
+1. Find and select the **OnSelect** property from the property selector. Enter the following formula:
 
     ```Resetmilestonestatus.Run(MilestoneGallery.Selected.Milestone);Refresh(Milestones);```
 
@@ -466,14 +466,13 @@ In this task, you will perform the following changes to the screen:
 
 1. Select **Share**.
 
-1. Enter `Patti` in **Enter a name, email address, or Everyone** and select **Patti Fernandez**.
+1. Enter `Alex` in **Enter a name, group, or email** and select **Alex Wilber**.
 
-1. Check the **Co-owner** box.
+1. Expand the security role dropdown, which looks like an eye icon next to Alex's name. Select **Co-owner.**
 
 1. Select **Share**.
 
 1. **Close** the tab.
-
 
 ## Exercise 5 – Solutions
 
