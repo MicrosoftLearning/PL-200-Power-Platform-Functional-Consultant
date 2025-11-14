@@ -76,6 +76,18 @@ In this exercise, you will import the main solution into the **Dev One** environ
 
 1.  Select **Publish all customizations**.
 
+### Task 1.2 - Set preferred solution
+1.  Navigate to `https://make.powerapps.com`
+
+1. Make sure you are in the **Dev One** environment.
+
+1. Select **Solutions.**
+
+1. Select **Manage** in the Current preferred solution tile.
+
+1. Select **Fabrikam Environmental (contoso)**.
+
+1. Select **Apply.**
 
 ## Exercise 2 - Import data
 

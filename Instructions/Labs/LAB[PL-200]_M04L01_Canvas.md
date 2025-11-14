@@ -14,12 +14,12 @@ You are a Power Platform functional consultant working with the Contoso team. Yo
 ### Task 1: Create Canvas App
 1. Navigate to [Power Apps Maker Portal](https://make.powerapps.com).
 2. Ensure you are in the **Dev One** environment.
-3. In the **Objects** pane on the left, select **Apps**.
+3. In the Maker Studio, select **Apps.**
 4. Select **Start with data**.
-5. Choose **Existing tables**.
+5. Choose **Select existing tables.**
 6. Search for and select the **Milestone** table.
 7. Click **Create app** to generate the app.
-8. Select **File > Save as**.
+8. Select **Save.**
 9. Enter the name **Environmental Milestones App**.
 10. Click **Save** again.
 
@@ -54,11 +54,6 @@ You are a Power Platform functional consultant working with the Contoso team. Yo
 9. Return to the tree view. Expand **RightContainer1** (if it is not already expanded).
 10. Expand **SelectedRecordHeaderContainer1.**
 12. Rename the submit button from **SubmitFormButton1** to **SaveBtn**.
-
-### Task 4: Add App to Solution
-1. In the left navigation pane, go to **Solutions**.
-2. Open the **Fabrikam Environmental** solution.
-3. Select **Add existing > App > Canvas app.**
-4. Select the **Environmental Milestones App.**
-5. Select **Add.**
-6. Select **Publish all customizations.**
+13. Select **Save.**
+14. Select **Publish.**
+15. Select **Publish this version.**
