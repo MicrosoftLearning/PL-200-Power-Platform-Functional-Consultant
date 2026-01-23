@@ -18,6 +18,8 @@ You will be:
 - creating an interactive dashboard
 - enabling Power BI quick reports in the app
 
+This lab will take approximately **15** minutes to complete. 
+
 ## Exercise 1 – Dashboard security
 
 In this exercise, you will assign security roles to the existing dashboard.
