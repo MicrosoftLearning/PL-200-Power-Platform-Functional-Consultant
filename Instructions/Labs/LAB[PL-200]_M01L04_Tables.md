@@ -17,6 +17,7 @@ You need to familiarize yourself with the data model and then make changes to ta
 
 In this practice lab, you will be modifying table properties and creating a new custom table.
 
+This lab will take approximately **25** minutes to complete. 
 
 ## Exercise 1 – Explore the data model
 
