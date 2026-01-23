@@ -16,6 +16,8 @@ Tenants should not be shared or used for purposes outside of hands-on labs. The 
 
 Tenants must not be converted to a paid subscription. Tenants obtained as a part of this course remain the property of Microsoft Corporation and we reserve the right to obtain access and repossess at any time.
 
+This lab will take approximately **10** minutes to complete. 
+
 ## Exercise 1 – Access Microsoft Power Platform
 
 In this exercise, you will verify that you can access Power Apps.
