@@ -30,7 +30,7 @@ The solutions contain:
 
 In this lab, you will import the developed solutions and data.
 
-This lab will take approximately **60** minutes to complete. 
+This lab will take approximately **20** minutes to complete. 
 
 ## Exercise 1 - Import Fabrikam solutions
 
