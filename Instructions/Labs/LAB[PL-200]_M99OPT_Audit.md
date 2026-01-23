@@ -12,6 +12,8 @@ You are a Power Platform functional consultant and have been assigned to the Fab
 
 In this practice lab, you will enabling auditing to track data changes in Microsoft Dataverse.
 
+This lab will take approximately **10** minutes to complete. 
+
 ## Exercise 1 – Enable auditing
 
 In this exercise, you will enable auditing for your environment. In earlier labs you have enabled auditing for tables and columns.
