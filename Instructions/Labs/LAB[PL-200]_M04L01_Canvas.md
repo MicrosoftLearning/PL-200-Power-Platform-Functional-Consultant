@@ -9,7 +9,7 @@ lab:
 ## Scenario  
 You are a Power Platform functional consultant working with the Contoso team. You’ve been asked to create a simple Canvas app that allows users to view and update milestone records stored in Microsoft Dataverse.
 
-This lab will take approximately **30** minutes to complete. 
+This lab will take approximately **15** minutes to complete. 
 
 ## Exercise 1: Create Canvas App from Milestones Table
 
