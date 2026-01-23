@@ -16,7 +16,10 @@ You will create a Team and adding users to the Team.
 
 You will add the users and team to column security profiles.
 
+This lab will take approximately **10** minutes to complete. 
+
 > IMPORTANT: These labs are designed for use with a Microsoft 365 tenant provisioned with Microsoft 365 licenses and users. If you are not using an Authorized Lab Hoster (ALH) lab environment, you will need to create the users in Microsoft 365.
+
 
 ## Exercise 1 – Add users to your environment
 
