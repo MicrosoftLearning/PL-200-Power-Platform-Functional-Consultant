@@ -10,7 +10,7 @@ lab:
 
 In this lab, you will create a publisher and a solution.
 
-This lab will take approximately **60** minutes to complete. 
+This lab will take approximately **10** minutes to complete. 
 
 ## Exercise 1 - Create publisher and solution
 
