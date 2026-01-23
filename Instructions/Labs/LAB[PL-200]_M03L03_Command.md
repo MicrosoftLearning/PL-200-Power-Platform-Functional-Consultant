@@ -14,6 +14,8 @@ In this practice lab, you will be modifying the forms for the Fabrikam Environme
 
 You will be adding a command button to the project outcome form in the Environental Project Delivery app.
 
+This lab will take approximately **45** minutes to complete. 
+
 ## Exercise 1 – Add command button
 
 In this exercise, you will configure the default form for the Project Outcome table.
