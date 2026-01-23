@@ -30,6 +30,8 @@ You will be:
 - Copying a form
 - Adding the table you created in the earlier lab to an app
 
+This lab will take approximately **60** minutes to complete. 
+
 ## Exercise 1 – Edit Project forms
 
 In this exercise, you will make changes to the forms for the Project table.
