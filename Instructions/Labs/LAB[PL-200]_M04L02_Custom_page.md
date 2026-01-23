@@ -12,6 +12,8 @@ You are a Power Platform functional consultant and have been assigned to the Fab
 
 You have been assigned to add a custom page to a model-driven app.
 
+This lab will take approximately **60** minutes to complete. 
+
 ## Exercise 1 – Add an image to the Resource table
 
 In this exercise, you will be adding an image column to the Resource table.
