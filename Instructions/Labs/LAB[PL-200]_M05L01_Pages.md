@@ -12,6 +12,8 @@ You are a Power Platform functional consultant and have been assigned to the Fab
 
 In this practice lab, you will deploy a Power Pages portal and expose Milestone data to customers.
 
+This lab will take approximately **30** minutes to complete. 
+
 ## Exercise 1 - Sign up for Power Pages
 
 In this exercise, you will provision a Power Pages site using a starter template.
