@@ -14,6 +14,8 @@ In this practice lab, you will be modifying the properties of existing relations
 
 You will then export your customizations from the solution and import them into another environment.
 
+This lab will take approximately **60** minutes to complete. 
+
 ## Exercise 1 – Calculated and formula columns
 
 In this exercise, you will create calculated and formula columns.
