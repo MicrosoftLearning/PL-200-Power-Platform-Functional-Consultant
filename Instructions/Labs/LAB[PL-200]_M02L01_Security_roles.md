@@ -24,6 +24,8 @@ You need to adjust the Write privileges for the Milestone and Outcome tables on 
 
 You need to remove privileges for importing and exporting of data, deleting account and contacts, and add privileges for connection roles and audit history.
 
+This lab will take approximately **40** minutes to complete. 
+
 ## Exercise 1 – Modify the Environmental user security role
 
 ### Task 1.1 – Evaluate security role
