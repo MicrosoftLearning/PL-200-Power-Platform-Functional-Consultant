@@ -24,6 +24,8 @@ You will be:
 - restricting views in the app
 - Enabling Dataverse search
 
+This lab will take approximately **30** minutes to complete. 
+
 ## Exercise 1 – Project views
 
 In this exercise, you will make changes to the views for the Project table.
