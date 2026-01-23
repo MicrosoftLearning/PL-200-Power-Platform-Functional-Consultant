@@ -12,6 +12,7 @@ You are a Power Platform functional consultant and have been assigned to the Fab
 
 In this practice lab, you will be modifying the properties of existing table columns and creating a new custom columns.
 
+This lab will take approximately **25** minutes to complete. 
 
 ## Exercise 1 – Modify and add columns on the Project table
 
