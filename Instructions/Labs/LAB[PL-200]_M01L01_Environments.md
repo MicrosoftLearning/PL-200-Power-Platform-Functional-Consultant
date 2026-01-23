@@ -10,7 +10,7 @@ lab:
 
 The tenant includes an environment named **Dev One** that you will do the majority of your lab work in. In this lab, you create another environment for use during the remainder of the labs. You will use the *Developer* environment type for both environments.
 
-This lab will take approximately **40** minutes to complete. 
+This lab will take approximately **10** minutes to complete. 
 
 **Note:** Depending on the browser that you are using, it is suggested that you disable any pop-up blockers that maybe enabled. This will allow pop-up windows to appear as they should.
 
