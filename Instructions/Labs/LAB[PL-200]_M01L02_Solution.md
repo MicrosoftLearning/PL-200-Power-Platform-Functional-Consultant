@@ -10,6 +10,8 @@ lab:
 
 In this lab, you will create a publisher and a solution.
 
+This lab will take approximately **40** minutes to complete. 
+
 ## Exercise 1 - Create publisher and solution
 
 In this exercise, you will access the Power Apps maker portal, the Developer environment and create a new solution.
