@@ -40,7 +40,7 @@ In this exercise, you will verify that you can access Power Apps.
 
 1.  Optionally, select **Yes** to stay signed in.
 
-1.  If prompted for contact information, leave the Country/region as the default value and enter `0123456789` for Phone number and select **Submit**.
+1.  If prompted for contact information, leave the Country/region as the default value and  select **Get started**.
 
 1.  **Refresh** the page.
 
