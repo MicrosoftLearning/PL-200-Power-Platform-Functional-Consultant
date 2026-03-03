@@ -20,8 +20,6 @@ In this exercise, you will access the Power Apps maker portal, the Developer env
 
 1.  In a new tab, navigate to the Power Apps Maker portal `https://make.powerapps.com` and sign in with your Microsoft 365 credentials if prompted again.
 
-1.  If you are prompted for a **Phone number** enter `0123456789` and select **Submit**.
-
 1.  Switch environments by using the Environment Selector in the upper right corner of the screen.
 
 1.  Select the **Dev One** environment from the list.
