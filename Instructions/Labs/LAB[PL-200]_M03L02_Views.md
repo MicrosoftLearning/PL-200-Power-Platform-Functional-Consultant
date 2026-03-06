@@ -476,9 +476,7 @@ In this task, you will perform the following changes to the app:
 
 1. In the **Outcomes** pane on the right side, select the ellipsis **...** on the **Outcomes SubGrid** view and select **Remove**.
 
-1. Select **Save**.
-
-1. Select **Publish**.
+1. Select **Save** and **Publish**.
 
 1. Select **Play**. Explore the **Environmental Project Delivery** model-driven app.
 
