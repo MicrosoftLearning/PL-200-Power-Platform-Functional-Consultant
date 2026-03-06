@@ -789,9 +789,7 @@ In this task, you will perform the following changes to the app:
 
     ![App designer.](../media/app-designer.png)
 
-1. Select **Save**.
-
-1. Select **Publish**.
+1. Select **Save and publish**.
 
 1. Select **Play**.
 
@@ -824,9 +822,7 @@ In this task, you will perform the following changes to the app:
 
 1. In the **Outcomes forms** pane on the right side, select the ellipsis **...** menu on the **Manager** form and select **Remove**.
 
-1. Select **Save**.
-
-1. Select **Publish**.
+1. Select **Save and publish**.
 
 1. Select **Play**.
 
