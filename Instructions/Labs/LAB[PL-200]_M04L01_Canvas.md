@@ -14,9 +14,9 @@ This lab will take approximately **30** minutes to complete.
 ## Exercise 1: Create Canvas App from Milestones Table
 
 ### Task 1: Create Canvas App
-1. Navigate to [Power Apps Maker Portal](https://make.powerapps.com).
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 2. Ensure you are in the **Dev One** environment.
-3. In the Maker Studio, select **Apps.**
+3. Select **Apps.**.
 4. Select **Start with data**.
 5. Choose **Select existing tables.**
 6. Search for and select the **Milestone** table.
