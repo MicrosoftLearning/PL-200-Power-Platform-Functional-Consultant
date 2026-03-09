@@ -193,9 +193,7 @@ In this task, you will add the custom page to a model-driven app.
 
 1. Select **Add**.
 
-1. Select **Save**.
-
-1. Select **Publish**.
+1. Select **Save** and **Publish**.
 
 1. Select **Play**.
 
