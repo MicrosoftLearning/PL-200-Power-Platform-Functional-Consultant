@@ -102,7 +102,7 @@ In this exercise, you will build a custom page to manage project resources.
 
 1. Select **LeftContainer1**.
 
-1. In **LeftContainer1**, select the **+** icon and select **Vertical gallery**.
+1. In **LeftContainer1**, select the **Insert (+)** icon and select **Vertical gallery**.
 
 1. Search for `Resources` and select the **Resources** table.
 
