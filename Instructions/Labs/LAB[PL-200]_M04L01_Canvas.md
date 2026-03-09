@@ -21,9 +21,10 @@ This lab will take approximately **30** minutes to complete.
 5. Choose **Select existing tables.**
 6. Search for and select the **Milestone** table.
 7. Click **Create app** to generate the app.
-8. Select **Save.**
-9. Enter the name **Environmental Milestones App**.
-10. Click **Save** again.
+8. If the **Welcome to Power Apps Studio** dialog appears, select **Skip**.
+9. Select **Save.**
+10. Enter the name **Environmental Milestones App**.
+11. Click **Save** again.
 
 ### Task 2: Configure Gallery
 1. Expand **ScreenContainer1**.
