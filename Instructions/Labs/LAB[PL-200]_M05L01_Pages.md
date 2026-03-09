@@ -293,7 +293,7 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
 ### Task 3.3 - Form
 
-1. In the **Pages** pane on the left side, and select **Pages**.
+1. In the **Pages** pane on the left side, select **Pages**.
 
 1. Select the ellipsis (...) and select **Add a new subpage**.
 
