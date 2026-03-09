@@ -165,6 +165,8 @@ In this exercise, you will build a custom page to manage project resources.
 
 1. Select **🡠 Back**.
 
+1. Select **Leave**.
+
 ### Task 2.4 – Add custom page
 
 In this task, you will add the custom page to a model-driven app.
