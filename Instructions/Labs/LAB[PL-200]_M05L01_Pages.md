@@ -189,7 +189,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. Select **Company name** at the top of the page and select **Edit site header**.
 
-1. Enter **Fabrikam Environmental**.
+1. Enter **Fabrikam Environmental** for **Site title**.
 
     ![Power Pages portal edits.](../media/designer-edit.png)
 
