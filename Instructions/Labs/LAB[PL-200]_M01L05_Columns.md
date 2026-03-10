@@ -1,7 +1,12 @@
 ---
 lab:
-    title: 'Lab 1.5: Columns'
-    module: 'Learning Path 1: Work with Microsoft Dataverse'
+  title: 'Lab 1.5: Columns'
+  module: 'Learning Path 1: Work with Microsoft Dataverse'
+  description: You are a Power Platform functional consultant and have been assigned
+    to the Fabrikam project for the next stage of the project.
+  duration: 162 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 1.5 – Columns
