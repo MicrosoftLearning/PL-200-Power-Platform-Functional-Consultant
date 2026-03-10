@@ -424,7 +424,7 @@ In this task, you will perform the following changes to the screen:
 
 1. Select the **Environmental Milestones** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
 
-1. In the left navigation, select the ellipses and select **Power Automate**.
+1. In the left navigation, select the ellipses(...) and select **Power Automate**.
 
 1. Select **+ Add flow**.
 
