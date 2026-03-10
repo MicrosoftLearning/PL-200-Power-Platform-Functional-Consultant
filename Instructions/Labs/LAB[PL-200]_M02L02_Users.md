@@ -1,7 +1,12 @@
 ---
 lab:
-    title: 'Lab 2.2: Users and Teams'
-    module: 'Learning Path 2: Manage Microsoft Dataverse'
+  title: 'Lab 2.2: Users and Teams'
+  module: 'Learning Path 2: Manage Microsoft Dataverse'
+  description: You are a Power Platform functional consultant and have been assigned
+    to the Fabrikam project for the next stage of the project.
+  duration: 146 minutes
+  level: 200
+  islab: true
 ---
 
 # Practice Lab 2.2 – Users and Teams
