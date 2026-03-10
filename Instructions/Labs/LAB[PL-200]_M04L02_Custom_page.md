@@ -1,7 +1,12 @@
 ---
 lab:
-    title: 'Lab 4.2: Create a custom page'
-    module: 'Learning Path 4: Create canvas apps'
+  title: 'Lab 4.2: Create a custom page'
+  module: 'Learning Path 4: Create canvas apps'
+  description: You are a Power Platform functional consultant and have been assigned
+    to the Fabrikam project for the next stage of the project.
+  duration: 148 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 4.2 – Create a custom page
