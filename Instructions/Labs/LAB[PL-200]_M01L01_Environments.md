@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Lab 1.1: Environments'
-    module: 'Learning Path 1: Work with Microsoft Dataverse'
+  title: 'Lab 1.1: Environments'
+  module: 'Learning Path 1: Work with Microsoft Dataverse'
+  description: The tenant includes an environment named **Dev One** that you will
+    do the majority of your lab work in. In this lab, you create another environment
+    for use during the remainder of the labs. You will use the *Developer* environment
+    type for both environments.
+  duration: 60 minutes
+  level: 200
+  islab: true
 ---
 
 # Practice Lab 1.1 - Environments
