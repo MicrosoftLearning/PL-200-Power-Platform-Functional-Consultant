@@ -1,7 +1,12 @@
 ---
 lab:
-    title: 'Lab 5.1: Build a Power Pages portal'
-    module: 'Learning Path 5: Make portals in Power Pages'
+  title: 'Lab 5.1: Build a Power Pages portal'
+  module: 'Learning Path 5: Make portals in Power Pages'
+  description: You are a Power Platform functional consultant and have been assigned
+    to the Fabrikam project for the next stage of the project.
+  duration: 160 minutes
+  level: 300
+  islab: true
 ---
 
 # Practice Lab 5.1 – Build a Power Pages portal
