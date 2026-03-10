@@ -1,7 +1,12 @@
 ---
 lab:
-    title: 'Duplicate detection (Optional)'
-    module: 'Optional: Manage Microsoft Dataverse'
+  title: Duplicate detection (Optional)
+  module: 'Optional: Manage Microsoft Dataverse'
+  description: You are a Power Platform functional consultant and have been assigned
+    to the Fabrikam project for the next stage of the project.
+  duration: 56 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab - Duplicate detection
