@@ -1,7 +1,12 @@
 ---
 lab:
-    title: 'Lab 3.1: Forms'
-    module: 'Learning Path 3: Create model-driven apps'
+  title: 'Lab 3.1: Forms'
+  module: 'Learning Path 3: Create model-driven apps'
+  description: You are a Power Platform functional consultant and have been assigned
+    to the Fabrikam project for the next stage of the project.
+  duration: 186 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 3.1 – Forms
