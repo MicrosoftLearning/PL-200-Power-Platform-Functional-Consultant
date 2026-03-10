@@ -109,7 +109,7 @@ In this task, you will perform the following changes to the flow:
 
 1. Enter `NO_APPROVER` for **Code**.
 
-1. Enter `No approver for outcome` and in **Dynamic content** select **Outcome Title**.
+1. In the **Message** field, enter `No approver for outcome`, then from **Dynamic content**, select **Outcome Title**.
 
     ![Flow after changes in this task.](../media/flow-check-approver.png)
 
@@ -134,7 +134,7 @@ In this task, you will perform the following changes to the flow:
 
 1. Enter `APPROVAL_EXPIRED` for **Code**.
 
-1. Enter `Approval timed out for` and in **Dynamic content**, select **Outcome Title** for **Message**.
+1. In the **Message** field, enter `Approval timed out for`, then from **Dynamic content**, select **Outcome Title**.
 
 1. On the **Terminate 2** step, select the ellipsis (...) and select **Configure run after**.
 
