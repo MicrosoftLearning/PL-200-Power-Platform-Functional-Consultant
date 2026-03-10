@@ -1,7 +1,12 @@
 ---
 lab:
-    title: 'Lab 7.1: Implement low-code logic'
-    module: 'Learning Path 7: Logic and process automation'
+  title: 'Lab 7.1: Implement low-code logic'
+  module: 'Learning Path 7: Logic and process automation'
+  description: You are a Power Platform functional consultant and have been assigned
+    to the Fabrikam project for the next stage of the project.
+  duration: 138 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 7.1 – Business rules
