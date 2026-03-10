@@ -1,7 +1,12 @@
 ---
 lab:
-    title: 'Dashboards (Optional)'
-    module: 'Optional: Create model-driven apps'
+  title: Dashboards (Optional)
+  module: 'Optional: Create model-driven apps'
+  description: You are a Power Platform functional consultant and have been assigned
+    to the Fabrikam project for the next stage of the project.
+  duration: 122 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 3.3 – Dashboards
