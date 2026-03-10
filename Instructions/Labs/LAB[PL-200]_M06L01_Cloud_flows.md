@@ -462,17 +462,19 @@ In this task, you will perform the following changes to the screen:
 
 1. Select **Publish this version**.
 
-1. Select **Share**.
+1. Select the **Share** icon.
 
-1. Enter `Alex` in **Enter a name, email address, or Everyone** and select **Alex Wilber**.
+1. Enter `Everyone` in **Add a name, group, or email** field and select **Everyone in Contoso**.
 
-1. Select **Share**.
+1. Select the **Share** button.
 
-1. Enter `Alex` in **Enter a name, group, or email** and select **Alex Wilber**.
+1. Select the **Share** icon again.
 
-1. Expand the security role dropdown, which looks like an eye icon next to Alex's name. Select **Co-owner.**
+1. Enter `Alex` in **Add a name, group, or email** field and select **Alex Wilber**.
 
-1. Select **Share**.
+1. Next to Alex Wilber’s name, expand the security role dropdown (eye icon), and select **Co-owner**.
+
+1. Select the **Share** button.
 
 1. **Close** the tab.
 
@@ -501,6 +503,7 @@ In this exercise, you will export the solution from the Development environment 
 1. Select **Managed** for **Export as**.
 
 1. Select **Export**.
+> NOTE: If the export process remains stuck on **Currently exporting solution** and does not complete, select Switch to classic from the command bar and export the solution using the classic experience instead.
 
 1. The export will be prepared in the background. When the solution is ready, select the **Download** button.
 
