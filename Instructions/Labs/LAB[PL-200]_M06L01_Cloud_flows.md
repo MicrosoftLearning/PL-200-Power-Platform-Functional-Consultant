@@ -1,7 +1,12 @@
 ---
 lab:
-    title: 'Lab 6.1: Cloud flows'
-    module: 'Learning Path 6: Build automation with Power Automate'
+  title: 'Lab 6.1: Cloud flows'
+  module: 'Learning Path 6: Build automation with Power Automate'
+  description: You are a Power Platform functional consultant and have been assigned
+    to the Fabrikam project for the next stage of the project.
+  duration: 172 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 6.1 – Cloud flows
