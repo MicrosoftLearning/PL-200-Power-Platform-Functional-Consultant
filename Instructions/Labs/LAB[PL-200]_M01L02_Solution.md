@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 1.2: Publisher and Solution'
-    module: 'Learning Path 1: Work with Microsoft Dataverse'
+  title: 'Lab 1.2: Publisher and Solution'
+  module: 'Learning Path 1: Work with Microsoft Dataverse'
+  description: In this lab, you will create a publisher and a solution.
+  duration: 86 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 1.2 - Publisher and Solution
