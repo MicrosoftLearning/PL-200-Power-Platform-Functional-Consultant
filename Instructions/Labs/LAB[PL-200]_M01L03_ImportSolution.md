@@ -1,7 +1,12 @@
 ---
 lab:
-    title: 'Lab 1.3: Import solution'
-    module: 'Learning Path 1: Work with Microsoft Dataverse'
+  title: 'Lab 1.3: Import solution'
+  module: 'Learning Path 1: Work with Microsoft Dataverse'
+  description: Fabrikam is an environmental consultancy that advises customers on
+    programs and related projects covering water, air, and soil.
+  duration: 150 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 1.3 - Import solution
