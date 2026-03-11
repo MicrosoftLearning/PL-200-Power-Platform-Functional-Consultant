@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 5.1: Build a Power Pages portal'
-    module: 'Learning Path 5: Make portals in Power Pages'
+  title: 'Lab 5.1: Build a Power Pages portal'
+  module: 'Learning Path 5: Make portals in Power Pages'
+  description: In this practice lab, you will deploy a Power Pages portal and expose Milestone data to customers.
+  duration: 160 minutes
+  level: 300
+  islab: true
 ---
 
 # Practice Lab 5.1 – Build a Power Pages portal
