@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Duplicate detection (Optional)'
-    module: 'Optional: Manage Microsoft Dataverse'
+  title: Duplicate detection (Optional)
+  module: 'Optional: Manage Microsoft Dataverse'
+  description: In this practice lab, you will implement duplicate detection rules so that duplicate projects cannot be created for the same program.
+  duration: 56 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab - Duplicate detection
