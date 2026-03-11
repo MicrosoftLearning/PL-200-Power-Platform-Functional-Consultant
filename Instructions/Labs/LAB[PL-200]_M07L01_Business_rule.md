@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 7.1: Implement low-code logic'
-    module: 'Learning Path 7: Logic and process automation'
+  title: 'Lab 7.1: Implement low-code logic'
+  module: 'Learning Path 7: Logic and process automation'
+  description: In this practice lab, you will be creating business rules to show and hide the lookup columns in the model-driven app form for the Resource table and to set the status of Milestone rows to completed when the percentage complete is 100%. You will also create a low-code plug-in to validate dates.
+  duration: 138 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 7.1 – Business rules
