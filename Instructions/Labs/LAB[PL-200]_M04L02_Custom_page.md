@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 4.2: Create a custom page'
-    module: 'Learning Path 4: Create canvas apps'
+  title: 'Lab 4.2: Create a custom page'
+  module: 'Learning Path 4: Create canvas apps'
+  description: In this task, you will add the custom page to a model-driven app.
+  duration: 148 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 4.2 – Create a custom page
