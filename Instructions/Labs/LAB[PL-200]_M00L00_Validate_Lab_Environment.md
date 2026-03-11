@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Lab 0: Validate lab environment'
-    module: 'Learning Path 0: Course Introduction'
+  title: 'Lab 0: Validate lab environment'
+  module: 'Learning Path 0: Course Introduction'
+  description: In this exercise, you will verify that you can access Power Apps.
+  duration: 38 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Power Apps
 ---
 
 # Practice Lab 0 - Validate lab environment
