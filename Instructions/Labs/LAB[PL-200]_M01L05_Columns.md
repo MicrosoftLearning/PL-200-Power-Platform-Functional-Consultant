@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 1.5: Columns'
-    module: 'Learning Path 1: Work with Microsoft Dataverse'
+  title: 'Lab 1.5: Columns'
+  module: 'Learning Path 1: Work with Microsoft Dataverse'
+  description: In this exercise, you will be creating columns on the Project Outcome custom table that you created in an earlier lab.
+  duration: 162 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 1.5 – Columns
