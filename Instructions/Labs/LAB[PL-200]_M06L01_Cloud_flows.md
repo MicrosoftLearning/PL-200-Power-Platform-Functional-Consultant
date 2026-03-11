@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Lab 6.1: Cloud flows'
-    module: 'Learning Path 6: Build automation with Power Automate'
+  title: 'Lab 6.1: Cloud flows'
+  module: 'Learning Path 6: Build automation with Power Automate'
+  description: In this practice lab, you change an existing approvals flow and add error handling. You will also set the value of the environment variable used by the flow. You will also create a new flow to automatically set the actual end date on projects. You will call a Power Automate cloud flow from a canvas app.
+  duration: 172 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Power Automate
 ---
 
 # Practice Lab 6.1 – Cloud flows
