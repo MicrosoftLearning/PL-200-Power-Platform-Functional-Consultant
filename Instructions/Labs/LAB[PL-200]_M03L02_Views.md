@@ -3,7 +3,7 @@ lab:
   title: 'Lab 3.2: Views'
   module: 'Learning Path 3: Create model-driven apps'
   description: In this practice lab, you will be modifying the views for the Fabrikam Environment model-driven apps.
-  duration: 180 minutes
+  duration: 30 minutes
   level: 100
   islab: true
 ---
