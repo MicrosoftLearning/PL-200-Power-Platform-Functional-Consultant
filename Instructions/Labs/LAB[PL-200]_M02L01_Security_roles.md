@@ -3,7 +3,7 @@ lab:
   title: 'Lab 2.1: Security roles'
   module: 'Learning Path 2: Manage Microsoft Dataverse'
   description: In this practice lab, you will be modifying security roles.
-  duration: 154 minutes
+  duration: 20 minutes
   level: 100
   islab: true
 ---
