@@ -3,7 +3,7 @@ lab:
   title: 'Lab 2.2: Users and Teams'
   module: 'Learning Path 2: Manage Microsoft Dataverse'
   description: You will create a Team and adding users to the Team.
-  duration: 146 minutes
+  duration: 10 minutes
   level: 200
   islab: true
 ---
