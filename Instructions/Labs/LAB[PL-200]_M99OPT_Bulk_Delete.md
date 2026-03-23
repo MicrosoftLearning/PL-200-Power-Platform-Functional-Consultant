@@ -3,7 +3,7 @@ lab:
   title: Bulk delete data (Optional)
   module: 'Optional: Manage Microsoft Dataverse'
   description: In this exercise, you will create a bulk deletion operation that will delete all milestone rows with a completion date older than 12 months. You want this operation to run every month.
-  duration: 66 minutes
+  duration: 10 minutes
   level: 100
   islab: true
 ---
