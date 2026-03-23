@@ -3,7 +3,7 @@ lab:
   title: 'Lab 3.3: Command bar'
   module: 'Learning Path 3: Create model-driven apps'
   description: In this exercise, you will configure the default form for the Project Outcome table.
-  duration: 48 minutes
+  duration: 45 minutes
   level: 100
   islab: true
 ---
