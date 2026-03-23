@@ -3,7 +3,7 @@ lab:
   title: 'Lab 1.3: Import solution'
   module: 'Learning Path 1: Work with Microsoft Dataverse'
   description: In this lab, you will import the developed solutions and data.
-  duration: 150 minutes
+  duration: 20 minutes
   level: 100
   islab: true
 ---
