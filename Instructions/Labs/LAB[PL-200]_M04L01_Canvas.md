@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Lab 4.1: Enhance a canvas app'
-    module: 'Learning Path 4: Create canvas apps'
+  title: 'Lab 4.1: Enhance a canvas app'
+  module: 'Learning Path 4: Create canvas apps'
+  description: You are a Power Platform functional consultant working with the Contoso team. You’ve been asked to create a simple Canvas app that allows users to view and update milestone records stored in Microsoft Dataverse.
+  duration: 30 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Microsoft Dataverse
 ---
 
 # Practice Lab 4.1 – Enhance a canvas app

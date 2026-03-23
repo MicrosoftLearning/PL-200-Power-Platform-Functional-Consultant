@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 3.1: Forms'
-    module: 'Learning Path 3: Create model-driven apps'
+  title: 'Lab 3.1: Forms'
+  module: 'Learning Path 3: Create model-driven apps'
+  description: In this exercise, you will be copying a form and implementing security on forms.
+  duration: 45 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 3.1 – Forms

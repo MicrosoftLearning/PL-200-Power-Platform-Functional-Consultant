@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 1.4: Tables'
-    module: 'Learning Path 1: Work with Microsoft Dataverse'
+  title: 'Lab 1.4: Tables'
+  module: 'Learning Path 1: Work with Microsoft Dataverse'
+  description: In later labs you will be adding columns and relationships to this custom table.
+  duration: 25 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 1.4 – Tables
