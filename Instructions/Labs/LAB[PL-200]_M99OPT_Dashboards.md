@@ -3,7 +3,7 @@ lab:
   title: Dashboards (Optional)
   module: 'Optional: Create model-driven apps'
   description: In this exercise, you will create an interactive dashboard for Projects.
-  duration: 122 minutes
+  duration: 15 minutes
   level: 100
   islab: true
 ---
