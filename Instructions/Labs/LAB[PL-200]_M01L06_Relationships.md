@@ -3,7 +3,7 @@ lab:
   title: 'Lab 1.6: Relationships'
   module: 'Learning Path 1: Work with Microsoft Dataverse'
   description: In this exercise, you will create two many-to-one relationships for the Project Outcome table to the Project and Outcome tables. These relationships will be used to replace the many-to-many relationship between the Project and Outcome tables.
-  duration: 190 minutes
+  duration: 60 minutes
   level: 100
   islab: true
 ---
