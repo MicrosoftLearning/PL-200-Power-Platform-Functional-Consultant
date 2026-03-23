@@ -3,7 +3,7 @@ lab:
   title: Audit (Optional)
   module: 'Optional: Manage Microsoft Dataverse'
   description: In this practice lab, you will enabling auditing to track data changes in Microsoft Dataverse.
-  duration: 38 minutes
+  duration: 10 minutes
   level: 100
   islab: true
   primarytopics:
