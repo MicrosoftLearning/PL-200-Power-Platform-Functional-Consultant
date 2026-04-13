@@ -215,6 +215,7 @@ In this exercise, you will export the solution from the Development environment 
 1. Select **Managed** for **Export as**.
 
 1. Select **Export**.
+> NOTE: If the export process remains stuck on **Currently exporting solution** and does not complete, select Switch to classic from the command bar and export the solution using the classic experience instead
 
 1. The export will be prepared in the background, when the solution is ready select the **Download** button.
 
