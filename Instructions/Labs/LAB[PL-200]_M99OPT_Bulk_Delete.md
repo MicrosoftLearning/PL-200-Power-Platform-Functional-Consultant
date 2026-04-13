@@ -36,39 +36,35 @@ In this exercise, you will create a bulk deletion operation that will delete all
 
 1. Select **Bulk deletion**.
 
-1. Select **New**.
+1. Select **+ New Job**.
 
-1. Select **Next**.
+1. Select **Milestones** from the **Look for entity** drop-down.
 
-1. Select **Milestones** from the **Look for** drop-down.
+1. Select **Estimated Completion Date** for **Field**.
 
-1. Click **Select** and choose the **Estimated Completion Date** column.
+1. Select **Older than X Months** for **Operator**.
 
-1. Select **Older than X Months**.
+1. Enter **12** for **Value**.
 
-1. Enter **12**.
+1. Select **+ Add** drop-down.
 
-1. Click **Select** and choose the **Milestone Status** column.
+1. Select **Add row**.
 
-1. Select **Equals**.
+1. Select **Milestone Status** column for **Field**.
 
-1. Select the ellipsis (...), select **Completed** and **Cancelled**, and select **OK**.
+1. Select **Equals** for **Operator**.
 
-1. Select **Next**.
+1. Select the **Value** drop-down, and then select **Completed** and **Cancelled**.
 
-1. Enter `Delete Old Milestones` for **Name**.
+1. Enter `Delete Old Milestones` for **Job name**.
 
-1. Select **At Scheduled Time**.
+1. Select today’s date and select **9:00 PM** for **Select time**.
 
-1. Select today’s date for **Date** and select **9:00 PM** for **Time**.
-
-1. Check the **Run this job after every** box.
+1. Check the **Run job after every** checkbox.
 
 1. Select **30 days**.
 
-1. Select **Next**.
-
-1. Select **Submit**.
+1. Select **Save and close**.
 
 1. Change the view to **Recurring Bulk Deletion System Jobs**.
 
