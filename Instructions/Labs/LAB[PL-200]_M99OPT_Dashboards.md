@@ -40,7 +40,7 @@ In this exercise, you will assign security roles to the existing dashboard.
 
 1. In the **Objects** pane on the left, select **Dashboards**. You should see a single dashboard.
 
-1. Select the **Environmental Results** dashboard (do not open it) and select **Enable security roles**.
+1. Select the **Environmental Results** dashboard (do not open it), select the ellipsis (...), and then select **Enable security roles**.
 
 1. Select the **Display only to these security roles** radio button.
 
@@ -134,9 +134,7 @@ In this exercise, you will be enabling the feature that uses Power BI to create 
 
 1. Toggle **Enable Power BI quick report visualization on a table** to **Yes**.
 
-1. Select **Save**.
-
-1. Select **Publish**.
+1. Select **Save** and **Publish**.
 
 1. Select **Play**. Explore the Environmental Project Delivery app.
 
