@@ -42,19 +42,21 @@ In this exercise, you will create a new duplicate detection rule that will mark 
 
 1. Select **Project** for both **Base Record Type** and **Matching Record Type**.
 
-1. Check the **Exclude inactive matching records** box.
+1. Check the **Exclude inactive matching records** checkbox.
 
-1. Under **Field**, select **Project Title**.
+1. Select **+ Add**.
 
-1. Select **Exact Match** for **Criteria**.
-
-1. Check the **Ignore Blank Values** box.
-
-1. Add another field, select **Program**.
+1. Select **Project Title** for Base Entity.
 
 1. Select **Exact Match** for **Criteria**.
 
-1. Check the **Ignore Blank Values** box.
+1. Check the **Ignore Blank Values** checkbox.
+
+1. Add another field, select **Program** for Base Entity.
+
+1. Select **Exact Match** for **Criteria**.
+
+1. Check the **Ignore Blank Values** checkbox.
 
 1. Select **Save**.
 
