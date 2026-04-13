@@ -106,7 +106,7 @@ In this exercise, you will build a custom page to manage project resources.
 
 1. Select **LeftContainer1**.
 
-1. In **LeftContainer1**, select the **+** icon and select **Vertical gallery**.
+1. In **LeftContainer1**, select the **Insert (+)** icon and select **Vertical gallery**.
 
 1. Search for `Resources` and select the **Resources** table.
 
@@ -129,7 +129,7 @@ In this exercise, you will build a custom page to manage project resources.
 
 1. Select **RightContainer1**.
 
-1. In **RightContainer1**, select the **+** icon and select **Vertical gallery**.
+1. In **RightContainer1**, select the **Insert (+)** and select **Vertical gallery**.
 
 1. Search for `Resources` and select the **Project Resources** table.
 
@@ -169,6 +169,8 @@ In this exercise, you will build a custom page to manage project resources.
 
 1. Select **🡠 Back**.
 
+1. Select **Leave**.
+
 ### Task 2.4 – Add custom page
 
 In this task, you will add the custom page to a model-driven app.
@@ -195,9 +197,7 @@ In this task, you will add the custom page to a model-driven app.
 
 1. Select **Add**.
 
-1. Select **Save**.
-
-1. Select **Publish**.
+1. Select **Save** and **Publish**.
 
 1. Select **Play**.
 
