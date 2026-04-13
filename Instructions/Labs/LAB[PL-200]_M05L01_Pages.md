@@ -193,7 +193,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. Select **Company name** at the top of the page and select **Edit site header**.
 
-1. Enter **Fabrikam Environmental**.
+1. Enter **Fabrikam Environmental** for **Site title**.
 
     ![Power Pages portal edits.](../media/designer-edit.png)
 
@@ -297,7 +297,7 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
 ### Task 3.3 - Form
 
-1. In the **Pages** pane on the left side, and select **Pages**.
+1. In the **Pages** pane on the left side, select **Pages**.
 
 1. Select the ellipsis (...) and select **Add a new subpage**.
 
