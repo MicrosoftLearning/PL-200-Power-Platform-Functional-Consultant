@@ -116,19 +116,27 @@ This lab will take approximately **45** minutes to complete.
 
 1. Select the **Show User** tile.
 
-1. Enter `Hide User` for **Display Name**. Select **User**, **No** in the **Visibility** section and select **Apply**.
+1. Enter `Hide User` for **Display Name**. Select **User**, **No** in the **Visibility** section.
+
+1. Select **Apply**.
 
 1. Select the **Hide Contact** tile.
 
-1. Enter `Show Contact` for **Display Name**. Select **Contact**, **Yes** in the **Visibility** section and select **Apply**.
+1. Enter `Show Contact` for **Display Name**. Select **Contact**, **Yes** in the **Visibility** section.
+
+1. Select **Apply**.
 
 1. Select the **User Required** tile.
 
-1. Enter `User Not Required` for **Display Name**, select **Not Business Required** in the **Business Required** section and select **Apply**.
+1. Enter `User Not Required` for **Display Name**, select **Not Business Required** in the **Business Required** section.
+
+1. Select **Apply**.
 
 1. Select the **Contact Not Required** tile.
 
-1. Enter `Contact Required` for **Display Name**, select **Business Required** for **Status** and select **Apply**.
+1. Enter `Contact Required` for **Display Name**, select **Contact**, **Business Required** in the **Business Required** section.
+
+1. Select **Apply**.
 
 1. The **Business Rule (Text View)** should read as follows:
 
