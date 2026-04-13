@@ -83,3 +83,5 @@ In this task, you will perform the following changes to the Project Outcome form
 1.  In the **Environmental Project Delivery** app, select **Save and publish.**
 
 1. **Close** the app designer.
+
+1. Select **Done**.
